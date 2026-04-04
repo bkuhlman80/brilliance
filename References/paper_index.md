@@ -422,7 +422,7 @@
 - **Quality:** Prestige: M | *Journal of Psychotherapy Integration*. Psychotherapy process-outcome applied to personality change.
 - **Notes:** Connects psychotherapy process-outcome research to intentional personality change interventions.
 ### 50. napolitano_etal_nd_bessi_age.pdf
-- **Citation:** Napolitano, C. M., Soto, C. J., Sewell, M. N., Yoon, H. J., & Roberts, B. W. (n.d.). Better with age: How social, emotional, and behavioral skills change across the life span. [Preprint]
+- **Citation:** Napolitano, C. M., Soto, C. J., Sewell, M. N., Yoon, H. J., & Roberts, B. W. (2025). Better with age: How social, emotional, and behavioral skills change across the life span. [Preprint]
 - **Purpose:** Original Research
 - **Methodology:** Cross-Sectional
 - **Instruments:** BESSI
@@ -3251,6 +3251,248 @@
 - **Topic:** Personality
 - **Quality:** N = 60 + 108 | Structural: L | Two independent samples, 7 LLMs, convergent r = .42–.48 (comparable to self-other agreement). Nomological network validation (profile r = .62–.96). Small Ns; novel method.
 - **Notes:** Commercially available LLMs score Big Five from brief open-ended text (streams of thought, video diaries) without task-specific training. Average across 7 LLMs gives strongest convergence. Outperforms LIWC and bespoke ML models.
+---
+
+### 372. ashton_lee_devries_2014.pdf
+- **Citation:** Ashton, M. C., Lee, K., & de Vries, R. E. (2014). The HEXACO Honesty-Humility, Agreeableness, and Emotionality factors: A review of research and theory. *Personality and Social Psychology Review, 18*(2), 139–152. https://doi.org/10.1177/1088868314523838
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** HEXACO-PI-R
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality
+- **Quality:** Prestige: XL | *Personality and Social Psychology Review*; authoritative review of the three HEXACO factors most distinct from Big Five.
+- **Notes:** Reviews H, A, E factors showing HEXACO H is the strongest personality predictor of unethical behavior and dark personality. Big Five A and N are 45-degree rotations of HEXACO H, A, and E.
+---
+
+### 373. seifert_etal_2023.pdf
+- **Citation:** Seifert, I. S., Rohrer, J. M., Ehlert, A., & Wagner, J. (2023). Within-person personality trajectories across the adult lifespan. *Journal of Personality and Social Psychology, 126*(3), 583–604.
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal, Fixed Effects Modeling, Measurement Invariance
+- **Instruments:** Big Five adjective markers (HILDA), BFI-S (SOEP), IPIP-50 (LISS)
+- **Level of Detail:** Personality Domain, Item Level
+- **Topic:** Personality
+- **Quality:** N = 48,000+ (3 panels) | Developmental: XL | Gold-standard within-person design across three independent panels. Domain- and item-level only — no facets. Item-level trajectories diverge within domains.
+- **Notes:** Fixed effects across HILDA, SOEP, LISS panels. N consistently declined, C increased until ~30. Individual items within the same domain showed divergent age trajectories.
+---
+
+### 374. Almagor_1995.pdf
+- **Citation:** Almagor, M., Tellegen, A., & Waller, N. G. (1995). The Big Seven Model: A cross-cultural replication and further exploration of the basic dimensions of natural language trait descriptors. *Journal of Personality and Social Psychology, 69*(2), 300–307. https://doi.org/10.1037/0022-3514.69.2.300
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis, Cross-Cultural
+- **Instruments:** 252 Hebrew trait descriptors
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 637 | Structural: M | Single sample, Hebrew language. Seven-factor structure replicated from English Big Seven. Moderate N for lexical study.
+- **Notes:** Hebrew lexical study replicates Big Seven (Tellegen & Waller, 1987). Two evaluative factors (Positive Valence, Negative Valence) emerge beyond Big Five. Factor VII split into agentic vs. communal Positive Emotionality.
+---
+
+### 375. Ashton_2004.pdf
+- **Citation:** Ashton, M. C., Lee, K., & Goldberg, L. R. (2004). A hierarchical analysis of 1,710 English personality-descriptive adjectives. *Journal of Personality and Social Psychology, 87*(5), 707–721. https://doi.org/10.1037/0022-3514.87.5.707
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis (hierarchical 1–7 factors)
+- **Instruments:** 1,710 English personality-descriptive adjectives (Goldberg, 1982)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 310 | Structural: M | Seminal study recovering Honesty-Humility in English. Small N for 1,710 variables, but historically important. Single self-report sample.
+- **Notes:** Six-factor solution reveals Honesty-Humility (unpretentious vs. sly) in English for the first time. Hierarchical emergence explored from 1 to 7 factors; 7th = Religiosity. Key evidence for HEXACO model.
+---
+
+### 376. Benet_Waller_1995.pdf
+- **Citation:** Benet, V., & Waller, N. G. (1995). The Big Seven factor model of personality description: Evidence for its cross-cultural generality in a Spanish sample. *Journal of Personality and Social Psychology, 69*(4), 701–718. https://doi.org/10.1037/0022-3514.69.4.701
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis, Cross-Cultural
+- **Instruments:** Big Seven questionnaire (Tellegen, Grove & Waller, 1991), BFI
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 569 (US) + 435 (Spain) | Structural: L | Two independent samples, cross-cultural, self- and peer-ratings in Spanish sample. Evaluative dimensions replicated.
+- **Notes:** Big Seven replicates in Spanish. Positive and Negative Valence factors emerge cross-culturally. Item-level differences suggest Spaniards evaluate introversion and unconventionality differently.
+---
+
+### 377. Costa_McCrae_1995.pdf
+- **Citation:** Costa, P. T., Jr., & McCrae, R. R. (1995). Domains and facets: Hierarchical personality assessment using the Revised NEO Personality Inventory. *Journal of Personality Assessment, 64*(1), 21–50. https://doi.org/10.1207/s15327752jpa6401_2
+- **Purpose:** Review / Instrument Validation
+- **Methodology:** Factor Analysis, Facet Analysis
+- **Instruments:** NEO-PI-R
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Structure
+- **Quality:** Prestige: L | *Journal of Personality Assessment*; foundational description of NEO-PI-R facet logic and validity evidence.
+- **Notes:** Describes the logic of domains and facets, evidence for discriminant validity of 30 NEO-PI-R facet scales, and the technique of "facet analysis" for interpreting external scales. Key reference for hierarchical personality assessment.
+---
+
+### 378. DE RAAD_etal_2014.pdf
+- **Citation:** De Raad, B., Barelds, D. P. H., Timmerman, M. E., De Roover, K., Mlačić, B., & Church, A. T. (2014). Towards a pan-cultural personality structure: Input from 11 psycholexical studies. *European Journal of Personality, 28*(5), 497–510. https://doi.org/10.1002/per.1953
+- **Purpose:** Original Research
+- **Methodology:** Simultaneous Component Analysis, Cross-Cultural
+- **Instruments:** Trait terms from 11 psycholexical taxonomies (translated to English)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 7,104 (11 samples) | Structural: L | Multi-language joint analysis. Three-factor kernel (Dynamism, Affiliation, Order) most robust; six-factor also examined.
+- **Notes:** Joint matrix of 11 lexical studies (1,993 trait terms). Three dimensions replicate best cross-culturally: Dynamism (≈ Extraversion), Affiliation (≈ Agreeableness), Order (≈ Conscientiousness). Six-factor solution aligns with HEXACO.
+---
+
+### 379. Encyclopedia_Pers_Indiv_Diff_2020.pdf
+- **Citation:** Zeigler-Hill, V., & Shackelford, T. K. (Eds.). (2020). *Encyclopedia of Personality and Individual Differences*. Springer. https://doi.org/10.1007/978-3-319-24612-3
+- **Purpose:** Reference Work
+- **Methodology:** Encyclopedia (multi-author)
+- **Instruments:** N/A
+- **Level of Detail:** Varies (comprehensive coverage)
+- **Topic:** Personality, Individual Differences
+- **Quality:** Prestige: XL | Major Springer reference work; ~3,600 entries covering the full landscape of personality and individual differences research.
+- **Notes:** 5,925-page encyclopedia. Comprehensive reference for definitions, constructs, measures, and biographical entries across personality psychology.
+---
+
+### 380. Fedvadjiev_2015.pdf
+- **Citation:** Fetvadjiev, V. H., & van de Vijver, F. J. R. (2015). Universality of the five-factor model of personality. In J. D. Wright (Ed.), *International Encyclopedia of the Social & Behavioral Sciences* (2nd ed., Vol. 9, pp. 249–253). Elsevier. https://doi.org/10.1016/B978-0-08-097086-8.25067-8
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** Prestige: L | Encyclopedia chapter reviewing FFM universality evidence across questionnaire, lexical, and emic–etic approaches.
+- **Notes:** Reviews three lines of evidence for FFM universality. Four factors replicate well (N, E, A, C); Openness is weakest. Lexical studies support only 3 dimensions cross-culturally. Emic–etic studies find social-relational dimensions beyond FFM.
+---
+
+### 381. Mai_church_2023.pdf
+- **Citation:** Mai, N. T. Q., & Church, A. T. (2023). Exploring the indigenous structure of Vietnamese personality traits: A psycho-lexical approach. *International Journal of Personality Psychology, 9*, 1–26. https://doi.org/10.21827/ijpp.9.41003
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis (PCA), Cross-Cultural
+- **Instruments:** 668 Vietnamese trait terms (from 2,129 culled)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 710 | Structural: M | First Vietnamese lexical study. Single sample, self-report only. Eight-factor solution most interpretable; Big Five/Six not well replicated.
+- **Notes:** Vietnamese lexical study: Big One, Big Two, Big Three replicate moderately. Big Five/Six/ML7 do not replicate well. Eight-factor solution has five factors aligning with Big Six plus three indigenous factors. Supports three-factor cross-cultural kernel.
+---
+
+### 382. Peabody_De Raad_2002.pdf
+- **Citation:** Peabody, D., & De Raad, B. (2002). The substantive nature of psycholexical personality factors: A comparison across languages. *Journal of Personality and Social Psychology, 83*(4), 983–997. https://doi.org/10.1037/0022-3514.83.4.983
+- **Purpose:** Original Research
+- **Methodology:** Content Analysis, Cross-Cultural
+- **Instruments:** Trait terms from 6 European lexical studies (Triestean, Hungarian, Roman, Dutch, Polish, Czech)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** Structural: L | Substantive content comparison across 6 languages with complete data. Taxonomy of content categories developed and applied systematically.
+- **Notes:** Conscientiousness (Factor III) generalizes best. Emotional Stability (IV) and Intellect (V) do not cohere. Extraversion (I) and Agreeableness (II) tend to split. Key challenge to simple Big Five universality claims.
+---
+
+### 383. Tellegen_2018.pdf
+- **Citation:** Tellegen, A. (2018). *The Lexical Big Seven: An Inclusive Psycholexical Investigation*. Unpublished manuscript.
+- **Purpose:** Original Research / Monograph
+- **Methodology:** Factor Analysis (multiple studies)
+- **Instruments:** S400 (400-item self-report), S60 (60-item replication)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = varies across 5 studies | Structural: L | Comprehensive investigation by the originator of the Big Seven. Not peer-reviewed but foundational. Multiple studies with replication.
+- **Notes:** Definitive statement of Big Seven by Tellegen: Negative Valence, Positive Emotionality, Positive Valence, Negative Emotionality, Disagreement Proneness, Unconventionality, Dependability. Five studies examining robustness, familiarity effects, and evaluative descriptors.
+---
+
+### 384. church_2015.pdf
+- **Citation:** Church, A. T. (2016). Personality traits across cultures. *Current Opinion in Psychology, 8*, 22–30. https://doi.org/10.1016/j.copsyc.2015.09.014
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** Prestige: L | *Current Opinion in Psychology*; concise review of trait universality, cultural differences, and ecological contexts.
+- **Notes:** Reviews FFM universality, lexical replicability (2–3 dimensions replicate best), trait-level comparisons, response style issues, and evolutionary/cultural contexts of personality.
+---
+
+### 385. costa_mccrae_1992.pdf
+- **Citation:** McCrae, R. R., & John, O. P. (1992). An introduction to the five-factor model and its applications. *Journal of Personality, 60*(2), 175–215. https://doi.org/10.1111/j.1467-6494.1992.tb00970.x
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** NEO-PI-R, adjective factors
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Structure
+- **Quality:** Prestige: XL | *Journal of Personality*; foundational FFM review article (one of the most cited in personality psychology).
+- **Notes:** Comprehensive introduction to FFM: history, naming conventions, evidence from natural language and questionnaires, convergent/discriminant validity, cross-cultural and longitudinal evidence. Outlines agenda for theorizing about factor origins and operation.
+---
+
+### 386. de Raad_Barelds_2020.pdf
+- **Citation:** De Raad, B., & Barelds, D. P. H. (2020). Models of personality structure. In P. J. Corr & G. Matthews (Eds.), *The Cambridge Handbook of Personality Psychology* (2nd ed., pp. 115–128). Cambridge University Press. https://doi.org/10.1017/9781108264822.012
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** Prestige: L | Cambridge Handbook chapter reviewing structural models from Cattell through Big Five and beyond.
+- **Notes:** Traces history from Cattell's 16PF through Big Five to alternative models. Discusses lexical approach, Cattellian model, circumplex models, and cross-cultural structural replication.
+---
+
+### 387. furnham_1997.pdf
+- **Citation:** Furnham, A., Crump, J., & Whelan, J. (1997). Validating the NEO Personality Inventory using assessor's ratings. *Personality and Individual Differences, 22*(5), 669–675. https://doi.org/10.1016/S0191-8869(96)00261-9
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Correlation
+- **Instruments:** NEO-PI, 10 management capability dimensions
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Structure
+- **Quality:** N = 160 | Structural: S | Small sample of managers. Partial criterion contamination (raters saw some NEO scores). Concurrent validity design.
+- **Notes:** NEO-PI facets correlated with consultant ratings of management capability (N=160 managers). Conscientiousness and Extraversion had strongest/most frequent correlations; Agreeableness had least. Partial predictor-criterion overlap due to rating algorithm.
+---
+
+### 388. mccrae_costa_1987.PDF
+- **Citation:** McCrae, R. R., & Costa, P. T., Jr. (1987). Validation of the five-factor model of personality across instruments and observers. *Journal of Personality and Social Psychology, 52*(1), 81–90. https://doi.org/10.1037/0022-3514.52.1.81
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis, Multi-Method
+- **Instruments:** Adjective factors, NEO Personality Inventory
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 275 (738 peer ratings) | Structural: L | Multi-method (self-report + peer ratings), two instruments. Landmark validation study.
+- **Notes:** Five-factor model recovered from both self-reports and peer ratings across adjective and questionnaire formats. Intraclass correlations (.30–.65) and cross-observer correlations (.25–.62) demonstrate substantial agreement. Key evidence for FFM adoption.
+---
+
+### 389. mccrae_costa_1997.pdf
+- **Citation:** McCrae, R. R., & Costa, P. T., Jr. (1997). Personality trait structure as a human universal. *American Psychologist, 52*(5), 509–516. https://doi.org/10.1037/0003-066X.52.5.509
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis, Cross-Cultural
+- **Instruments:** NEO-PI-R (6 translations)
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Structure
+- **Quality:** N = 7,134 (6 cultures) | Structural: L | Six translations across five language families. Targeted rotation closely reproduces American structure at facet level including secondary loadings.
+- **Notes:** German, Portuguese, Hebrew, Chinese, Korean, Japanese NEO-PI-R data replicate American five-factor structure. Languages span five distinct language families, providing strong evidence for universality of trait structure.
+---
+
+### 390. mccrae_costa_1999.pdf
+- **Citation:** McCrae, R. R., & Costa, P. T., Jr. (1999). A five-factor theory of personality. In L. A. Pervin & O. P. John (Eds.), *Handbook of Personality: Theory and Research* (2nd ed., pp. 139–153). Guilford Press.
+- **Purpose:** Theory
+- **Methodology:** Theoretical Framework
+- **Instruments:** N/A
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** Prestige: XL | *Handbook of Personality* chapter; foundational statement of Five-Factor Theory (FFT) distinguishing basic tendencies from characteristic adaptations.
+- **Notes:** Distinguishes basic tendencies (biologically based traits) from characteristic adaptations (culturally conditioned). Presents FFT postulates: origin, development, structure. Highly influential theoretical framework.
+---
+
+### 391. mccrae_etal_2004.pdf
+- **Citation:** McCrae, R. R., Costa, P. T., Jr., Martin, T. A., Oryol, V. E., Rukavishnikov, A. A., Senin, I. G., Hřebíčková, M., & Urbánek, T. (2004). Consensual validation of personality traits across cultures. *Journal of Research in Personality, 38*(2), 179–201. https://doi.org/10.1016/S0092-6566(03)00056-4
+- **Purpose:** Original Research
+- **Methodology:** Cross-Cultural, Multi-Method (self/other agreement)
+- **Instruments:** NEO-PI-R (Russian and Czech translations)
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Structure
+- **Quality:** Structural: L | Cross-observer agreement in two Slavic cultures (less individualistic than US). Replicates American factor structure and gender differences.
+- **Notes:** Russian and Czech NEO-PI-R show adequate internal consistency, replicated American factor structure, and moderate-to-high cross-observer agreement. Traits exist and function similarly even in collectivist cultures.
+---
+
+### 392. simms_2007.pdf
+- **Citation:** Simms, L. J. (2007). The Big Seven model of personality and its relevance to personality pathology. *Journal of Personality, 75*(1), 65–94. https://doi.org/10.1111/j.1467-6494.2006.00433.x
+- **Purpose:** Original Research
+- **Methodology:** Factor Analysis, Correlation
+- **Instruments:** Big Seven measure, Big Five markers, personality pathology scales
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 403 | Structural: M | Single undergraduate sample. Tests incremental validity of PV/NV beyond Big Five for personality pathology.
+- **Notes:** Positive Valence and Negative Valence incrementally predict personality pathology beyond Big Five. However, factor analyses suggest PV and NV may be maladaptive aspects of Positive Emotionality and low Agreeableness rather than independent factors.
+---
+
+### 393. simms_2010.pdf
+- **Citation:** Simms, L. J., Yufik, T., & Gros, D. F. (2010). Incremental validity of Positive and Negative Valence in predicting personality disorder. *Personality Disorders: Theory, Research, and Treatment, 1*(2), 77–86. https://doi.org/10.1037/a0019752
+- **Purpose:** Original Research
+- **Methodology:** Hierarchical Multiple Regression
+- **Instruments:** Three markers each of PV, NV, and Big Five; personality disorder scales
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure
+- **Quality:** N = 338 | Structural: M | Replication with multiple markers per construct (stronger than Simms 2007). Undergraduate sample.
+- **Notes:** PV incrementally predicts Narcissistic and Histrionic PDs above Big Five. NV non-specifically increments prediction of most PDs. Multiple markers per construct strengthen conclusions about evaluative personality dimensions.
 ---
 
 ## Summary Statistics

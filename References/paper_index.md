@@ -1,6 +1,6 @@
 # Paper Index
 
-> Updated 2026-04-01. Covers 371 entries (all PDFs in `processed/`).
+> Updated 2026-04-06. Covers 494 entries (all PDFs in `processed/`).
 
 ## Taxonomy Key
 
@@ -3495,37 +3495,1011 @@
 - **Notes:** PV incrementally predicts Narcissistic and Histrionic PDs above Big Five. NV non-specifically increments prediction of most PDs. Multiple markers per construct strengthen conclusions about evaluative personality dimensions.
 ---
 
+### 394. maclean_2019.pdf
+- **Citation:** MacLean, E. L., Snyder-Mackler, N., vonHoldt, B. M., & Serpell, J. A. (2019). Highly heritable and functionally relevant breed differences in dog behaviour. *Proceedings of the Royal Society B*, *286*, 20190716. https://doi.org/10.1098/rspb.2019.0716
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; genome-wide association study (GWAS); mixed-model heritability estimation (EMMA); behavioral survey (C-BARQ); gene ontology and tissue-specific expression enrichment analyses
+- **Instruments:** C-BARQ (Canine Behavioral Assessment and Research Questionnaire, 14 behavioral factors); Illumina Canine HD SNP chip (>100,000 loci); two independent genetic datasets (Hayward et al. N = 4,342 dogs; Parker et al. N = 1,355 dogs)
+- **Level of Detail:** Other (canine behavioral genetics / animal personality / comparative)
+- **Topic:** Animal Personality / Behavioral Genetics / Domestication / Heritability / Dog Breeds / Comparative Cognition
+- **Quality:** N = 14,020 dogs from 101 breeds (behavioral); 5,697 dogs (genotypic) | Heritability: XL | Very large multi-breed sample; two independent genetic datasets; robust resampling procedures. Heritability estimates apply across-breed populations; C-BARQ is owner-reported.
+- **Notes:** Found high among-breed heritability for 14 behavioral traits (mean h² = 0.51, range 0.27–0.77), approximately 5× higher than within-breed estimates. GWAS identified 131 SNPs associated with behavioral traits in genes highly expressed in brain and enriched for neurobiological functions. Q-F analysis confirmed all 14 traits are under positive selection. Results support polygenic architecture for dog behavioral traits with candidate domestication genes showing parallels to human behavioral genetics.
+---
+
+### 395. peignier_etal_2022.pdf
+- **Citation:** Peignier, M., Araya-Ajoy, Y. G., Bégué, L., Chaloupka, S., Dellefont, K., Leeb, C., Walsh, P., Ringler, M., & Ringler, E. (2022). Exploring links between personality traits and their social and non-social environments in wild poison frogs. *Behavioral Ecology and Sociobiology*, *76*, 93. https://doi.org/10.1007/s00265-022-03202-9
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; repeated behavioral assays (playback territorial defense tests, Novel Environment Test); multilevel mixed models; repeatability estimation; Dirichlet tessellation for territory mapping; spatial analysis (ArcGIS)
+- **Instruments:** Acoustic playback assay (aggression: latency, speed, jumps); Novel Environment Test (exploration: distance, area; boldness: latency to emerge); BORIS event-logging; TOXTRAC automated tracking
+- **Level of Detail:** Other (animal personality / behavioral ecology / amphibian)
+- **Topic:** Animal Personality / Behavioral Syndromes / Phenotype-Environment Correlation / Amphibian Behavior / Spatial Ecology
+- **Quality:** N = 51 males (aggression), 52 males + 35 females (exploration/boldness); entire free-ranging island population (~150 individuals) | Structural: L | Whole-population wild study; repeated measures; rigorous spatial analysis. Single-population; no fitness consequences measured; limited female sample.
+- **Notes:** Documented consistent among-individual differences in aggression, exploration, and boldness in wild *Allobates femoralis* poison frogs. Contrary to expectations, behavioral traits were not related to habitat complexity; however, males showed plastic aggression responses to female density, indicating social rather than physical environment is the primary driver of behavioral distributions. Behavioral traits were non-randomly distributed across the population, supporting phenotype-environment correlation hypotheses.
+---
+
+### 396. ratz_etal_2026.pdf
+- **Citation:** Ratz, T., Maliqi, M. B., de Groot, C., Herter, E., Wijnhorst, R., & Dingemanse, N. J. (2026). Body size shapes average behaviour, social impact, and social responsiveness in agonistic interactions. *Preprint*. https://doi.org/10.32942/X2F65M
+- **Purpose:** Original Research
+- **Methodology:** Experimental; repeated staged agonistic interactions in male field crickets (*Gryllus bimaculatus*); round-robin design; Bayesian multilevel models decomposing interacting phenotypes into average behavior, social impact, and social responsiveness
+- **Instruments:** Agonistic interaction assays (aggression counts per bout); pronotum width (body size proxy); Bayesian Stan/RStan models
+- **Level of Detail:** Other (animal personality / behavioral ecology / quantitative genetics)
+- **Topic:** Animal Personality / Social Plasticity / Indirect Genetic Effects / Social Evolution / Aggression / Behavioral Syndromes
+- **Quality:** Experimental lab study with round-robin design | Structural: M | Novel decomposition approach; rigorous Bayesian modeling; first simultaneous empirical estimate of all three social trait components. Lab setting; single sex; preprint not yet peer-reviewed. Downgrade: preprint.
+- **Notes:** Decomposed agonistic interactions in field crickets into average aggression, social impact (effect on partner), and social responsiveness (reaction norm slope to partner size). Smaller males were less aggressive on average, elicited more aggression from opponents, and reduced their aggression more strongly against larger opponents. All three components were body-size-dependent, revealing multivariate architecture in social traits with implications for evolutionary dynamics through correlated direct and indirect genetic effects.
+---
+
+### 397. reader-laland-2002.pdf
+- **Citation:** Reader, S. M., & Laland, K. N. (2002). Social intelligence, innovation, and enhanced brain size in primates. *Proceedings of the National Academy of Sciences*, *99*(7), 4436–4441. https://doi.org/10.1073/pnas.062041299
+- **Purpose:** Original Research
+- **Methodology:** Comparative analysis; cross-species correlational analysis; phylogenetic independent contrasts; multiple regression controlling for research effort and body size; database coding of published observations (innovation N = 533; social learning N = 445; tool use N = 607)
+- **Instruments:** Executive brain ratio (neocortex + striatum + septum / brainstem volume); literature-coded behavioral frequencies across primate species
+- **Level of Detail:** Other (comparative cognition / primate brain evolution)
+- **Topic:** Comparative Cognition / Brain Evolution / Social Intelligence / Innovation / Cultural Learning / Primate Cognition
+- **Quality:** N = 116 primate species | Structural: L | First systematic cross-species test linking brain size to ecologically relevant cognitive measures; phylogenetically controlled; broad taxonomic coverage. Frequency proxies for cognition are indirect; observational data subject to reporting bias.
+- **Notes:** Showed that larger relative executive brain volume predicts higher frequencies of behavioral innovation, social learning, and tool use across primates, even after controlling for phylogeny and research effort. Innovation and social learning frequencies strongly covary even after controlling for brain size, suggesting a general behavioral flexibility capacity. Results challenge the Machiavellian intelligence hypothesis (social group size was uncorrelated with social learning frequency) and are consistent with both ecological and social explanations for primate brain evolution.
+---
+
+### 398. reddon_2021.pdf
+- **Citation:** Reddon, A. R., Ruberto, T., & Reader, S. M. (2022). Submission signals in animal groups. *Behaviour*, *159*, 1–20. https://doi.org/10.1163/1568539X-bja10125
+- **Purpose:** Review
+- **Methodology:** Narrative Review; synthesis of empirical and theoretical literature on agonistic behavior and submission signaling across non-primate social vertebrates
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (behavioral ecology / social behavior / animal communication)
+- **Topic:** Animal Behavior / Social Behavior / Agonism / Submission Signals / Signal Evolution / Group Living
+- **Quality:** Prestige: M | *Behaviour* — established ethology journal; solid peer-reviewed review with emphasis on non-primate vertebrates; empirically grounded but no formal meta-analysis.
+- **Notes:** Reviews the nature, design, and function of submission signals in animals, highlighting them as underappreciated relative to aggression in the agonism literature. Argues submission signals are especially elaborated in group-living species where fleeing is limited; they reduce costs for both signaler and receiver. Reviews signal modalities (color change, posture, vocalizations, electric chirps) across taxa and proposes that mutual interest between competing group members selects for efficient conflict resolution mechanisms. Advocates for experimental approaches using tractable non-primate systems.
+---
+
+### 399. santana_2022.pdf
+- **Citation:** Santana, R. P., Kerr-Gaffney, J., Ancane, A., & Young, A. H. (2022). Impulsivity in bipolar disorder: State or trait? *Brain Sciences*, *12*, 1351. https://doi.org/10.3390/brainsci12101351
+- **Purpose:** Meta-Analysis
+- **Methodology:** Systematic review and meta-analysis (PRISMA); random-effects models; standardized mean differences (Cohen's d); separate meta-analyses for self-report (BIS), response inhibition, inattention, and delay-of-gratification; pre-registered (PROSPERO CRD42022311314)
+- **Instruments:** Barratt Impulsiveness Scale-11 (BIS-11); stop-signal task; continuous performance task (CPT); delay discounting tasks; Cambridge Gambling Task; go/no-go task
+- **Level of Detail:** Other (clinical psychopathology / cognitive neuroscience)
+- **Topic:** Bipolar Disorder / Impulsivity / Trait vs. State / Euthymia / Cognitive Functioning / Psychopathology
+- **Quality:** k = 46 studies | Meta-Analysis: L | Well-conducted PRISMA meta-analysis, pre-registered, separate domain analyses, random-effects models. Limited by cross-sectional designs in included studies; heterogeneity varies across domains; only 2 delay-of-gratification studies.
+- **Notes:** Euthymic bipolar disorder patients show significantly elevated self-reported impulsivity (large effect), response inhibition deficits (moderate effect), and inattention (large effect) compared to healthy controls. Delay-of-gratification tasks showed no significant group differences (k = 2). Results suggest impulsivity is a trait feature of BD persisting beyond acute mood episodes, though prospective pre-illness-onset studies are needed for confirmation. Cognitive interventions targeting impulsivity may benefit suicidality and risky behavior outcomes in BD.
+---
+
+### 400. sih_delgiudice_2012.pdf
+- **Citation:** Sih, A., & Del Giudice, M. (2012). Linking behavioural syndromes and cognition: a behavioural ecology perspective. *Philosophical Transactions of the Royal Society B*, *367*, 2762–2772. https://doi.org/10.1098/rstb.2012.0216
+- **Purpose:** Review
+- **Methodology:** Narrative Review; theoretical synthesis; review of empirical literature on animal personality, behavioral syndromes, and cognition
+- **Instruments:** N/A (theoretical review)
+- **Level of Detail:** Other (behavioral ecology / comparative cognition / animal personality)
+- **Topic:** Animal Personality / Behavioral Syndromes / Cognition / Speed-Accuracy Trade-Off / Behavioral Ecology / Fast-Slow Life History
+- **Quality:** Prestige: L | *Philosophical Transactions of the Royal Society B* — high-prestige themed issue on animal minds; invited theoretical review.
+- **Notes:** Proposes that fast behavioral types (bold, aggressive, exploratory) are functionally linked to fast-speed/low-accuracy cognitive styles via a shared risk-reward trade-off. Reviews predictions for learning (faster reversal in reactive types), sampling (less sampling in fast types), impulsivity (greater in fast types), risk sensitivity, and mate choosiness. Introduces the concept of "cognition syndromes" — correlated suites of cognitive tendencies analogous to behavioral syndromes — and argues adaptive dynamic models integrating fast-slow BT axes with cognitive speed-accuracy trade-offs can generate novel testable predictions for both behavioral and cognitive variation.
+---
+
+### 401. sih_etal_2015.pdf
+- **Citation:** Sih, A., Mathot, K. J., Moirón, M., Montiglio, P.-O., Wolf, M., & Dingemanse, N. J. (2015). Animal personality and state–behaviour feedbacks: a review and guide for empiricists. *Trends in Ecology & Evolution*, *30*(1), 50–60. https://doi.org/10.1016/j.tree.2014.11.004
+- **Purpose:** Review
+- **Methodology:** Narrative Review; theoretical synthesis; framework development for empirical testing of state-behaviour feedback loops
+- **Instruments:** N/A (theoretical review)
+- **Level of Detail:** Other (behavioral ecology / animal personality theory)
+- **Topic:** Animal Personality / State-Dependent Behaviour / Adaptive Theory / Feedback Loops / Behavioral Syndromes / Life History
+- **Quality:** Prestige: XL | *Trends in Ecology & Evolution* — top-tier review journal; highly cited theoretical framework paper on adaptive personality models.
+- **Notes:** Reviews and unifies adaptive state-dependent models of animal personality by identifying positive feedback loops between state variables and behavior as the parsimonious explanation for consistent individual differences. Catalogues mechanisms including asset protection, starvation avoidance, skill/experience feedbacks, winner/loser effects, parasite-mediated feedbacks, and social niche specialization. Provides empirical guidelines including the use of temporal reaction norms to detect within-individual feedbacks and among-individual correlations as their long-term outcome. Integrates proximate and ultimate explanations by framing developmental sensitive windows as adaptive outcomes of positive feedback dynamics rather than invariant system properties.
+---
+
+### 402. Sánchez-Villagra_2017.pdf
+- **Citation:** Sánchez-Villagra, M. R., Segura, V., Geiger, M., Heck, L., Veitschegger, K., & Flores, D. (2017). On the lack of a universal pattern associated with mammalian domestication: differences in skull growth trajectories across phylogeny. *Royal Society Open Science*, *4*, 170876. https://doi.org/10.1098/rsos.170876
+- **Purpose:** Original Research
+- **Methodology:** Multivariate (PCA + jackknife resampling), Bivariate (SMA regression), Cross-Species Comparative
+- **Instruments:** 14 linear skull measurements; N = 1,128 specimens; 13 wild–domesticated mammal pairs
+- **Level of Detail:** Other (morphology/development)
+- **Topic:** Development / Evolution of Domestication
+- **Quality:** N = 1,128 specimens (13 species pairs) | Structural/Developmental (morphological): L | Large, taxonomically broad comparative sample; peer-reviewed in Royal Society Open Science. Uses museum specimens; no prenatal data; limited to postnatal allometry.
+- **Notes:** Compares skull growth trajectories in 13 wild vs. domesticated mammal pairs spanning all major domesticated clades. No universal heterochronic pattern (e.g., paedomorphosis) underlies domestication; dogs/llamas diverge most from wild forms, pigs/camels least. Wild forms show more isometric growth; domesticates show more allometry.
+---
+### 403. Sih_2004.pdf
+- **Citation:** Sih, A., Bell, A., & Johnson, J. C. (2004). Behavioral syndromes: an ecological and evolutionary overview. *Trends in Ecology and Evolution*, *19*(7), 372–378. https://doi.org/10.1016/j.tree.2004.04.009
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavioral ecology)
+- **Topic:** Animal Personality / Behavioral Syndromes
+- **Quality:** Prestige: L | *Trends in Ecology and Evolution* — strong specialty journal. Foundational review introducing behavioral syndromes to mainstream behavioral ecology.
+- **Notes:** Introduces and synthesizes the concept of behavioral syndromes (suites of correlated behaviors across contexts) as an animal analog of human personality; covers aggression, bold/shy, and proactive/reactive axes. Argues limited behavioral plasticity and behavioral correlations across situations explain non-optimal behavior, species distributions, and invasion success. Companion to the longer Sih et al. (2004) Quarterly Review piece.
+---
+### 404. Sih_Ziemba_2004.pdf
+- **Citation:** Sih, A., Bell, A. M., Johnson, J. C., & Ziemba, R. E. (2004). Behavioral syndromes: an integrative overview. *Quarterly Review of Biology*, *79*(3), 241–277. https://doi.org/10.1086/422893
+- **Purpose:** Review
+- **Methodology:** Narrative Review, Theoretical
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavioral ecology)
+- **Topic:** Animal Personality / Behavioral Syndromes
+- **Quality:** Prestige: L | *Quarterly Review of Biology* — strong review journal. Comprehensive treatment covering mechanisms, methods, human personality parallels, and ecological implications.
+- **Notes:** Comprehensive companion to the TREE paper; covers terminology, measurement methods (repeatability, reaction norms), proximate mechanisms (genetics, neuroendocrine, experience), parallels to Big Five personality, and ecological/evolutionary implications including invasive species. Explicitly connects animal behavioral syndromes to human personality research. Substantially longer and more mechanistically detailed than the TREE overview.
+---
+### 405. Sih_2011.pdf
+- **Citation:** Sih, A., Ferrari, M. C. O., & Harris, D. J. (2011). Evolution and behavioural responses to human-induced rapid environmental change. *Evolutionary Applications*, *4*(2), 367–387. https://doi.org/10.1111/j.1752-4571.2010.00166.x
+- **Purpose:** Review
+- **Methodology:** Narrative Review, Theoretical
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavioral ecology / evolutionary biology)
+- **Topic:** Behavioral Responses to Environmental Change / HIREC
+- **Quality:** Prestige: L | *Evolutionary Applications* — strong specialty journal. Proposes novel detection-theory framework for predicting behavioral responses to anthropogenic change.
+- **Notes:** Proposes a sensory ecology / detection-theory framework (discriminability and response bias) for predicting when animals will respond appropriately or maladaptively to HIREC (Human-Induced Rapid Environmental Change). Distinguishes behavioral plasticity and evolutionary change as response routes; identifies constraints (cue similarity, learning, cue reliability). Develops specific predictions about when evolutionary mismatch will occur and persist.
+---
+### 406. Sih_etal_2012.pdf
+- **Citation:** Sih, A., Cote, J., Evans, M., Fogarty, S., & Pruitt, J. (2012). Ecological implications of behavioural syndromes. *Ecology Letters*, *15*(3), 278–289. https://doi.org/10.1111/j.1461-0248.2011.01731.x
+- **Purpose:** Review
+- **Methodology:** Narrative Review, Theoretical
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavioral ecology)
+- **Topic:** Animal Personality / Behavioral Syndromes / Ecological Implications
+- **Quality:** Prestige: L | *Ecology Letters* — high-impact ecology journal. Systematic three-part framework synthesizing ecological consequences of behavioral syndromes.
+- **Notes:** Organizes ecological implications of behavioral syndromes into three tiers: (1) average species behavioral type affecting species distributions/interactions, (2) within-species variation affecting population dynamics, and (3) among-individual behavioral correlations (syndromes per se) affecting community processes. Introduces and develops the connection to pace-of-life syndromes. Addresses HIREC, species invasions, and trophic cascades as key applied domains.
+---
+### 407. Singh_etal_2025.pdf
+- **Citation:** Singh, A., et al. (2025). *State or personality trait: Determinants of boldness and shoal size preference in adult zebrafish*. bioRxiv. https://doi.org/10.1101/2025.02.12.637681
+- **Purpose:** Original Research
+- **Methodology:** Repeated-measures behavioral experiment; Open Field Test, Emergence Test, Social Preference Test; 3 hunger states × 2 testing cycles × 2 trials
+- **Instruments:** Open Field Test (OFT), Emergence Test (ET), Social Preference Test (binary and ternary shoal choice)
+- **Level of Detail:** Other (behavioral ecology; individual variation)
+- **Topic:** Animal Personality / Behavioral Syndromes / Zebrafish
+- **Quality:** N = 24 adult male zebrafish | Structural (repeatability): S | Tiny N (24 individuals); preprint, not peer-reviewed; single-lab study; species and sex restricted. Downgrade: preprint; N < 50; single context.
+- **Notes:** Tests whether boldness (OFT exploration, emergence latency) and shoal size preference function as stable personality traits vs. hunger-dependent states in adult male zebrafish. Only OFT shows significant repeatability (R ≈ 0.36); hunger reduces emergence latency but does not affect OFT exploration; shoal size discrimination is not a reliable personality trait. Results suggest behavioral state and trait components are dissociable.
+---
+### 408. Sol_2008.pdf
+- **Citation:** Sol, D., Bacher, S., Reader, S. M., & Lefebvre, L. (2008). Brain size predicts the success of mammal species introduced into novel environments. *American Naturalist*, *172*(S1), S63–S71. https://doi.org/10.1086/588304
+- **Purpose:** Original Research
+- **Methodology:** Generalized Linear Mixed Models (GLIMMIX); Comparative; Phylogenetically Controlled; Cross-Species
+- **Instruments:** Brain mass residuals (taxonomically-adjusted and independent contrasts); global mammalian introduction database (>400 events, 100 species)
+- **Level of Detail:** Other (comparative neuroscience / ecology)
+- **Topic:** Brain Evolution / Behavioral Flexibility / Invasion Biology
+- **Quality:** N = 443 introduction events, 66 species with brain data | Structural/Ecological: L | Controls for phylogeny, region, introduction effort, habitat generalism. First mammalian test of brain size–environmental change hypothesis. Limited to whole-brain residuals; sample constrained by available brain mass data.
+- **Notes:** First study linking relative brain size to establishment success in introduced mammals; extends prior bird findings. Residual brain size (allometrically corrected) significantly predicts establishment probability after controlling for introduction effort and habitat generalism. Results support the brain size–environmental change (cognitive buffer) hypothesis across vertebrates.
+---
+### 409. Sol_et_al_2022.pdf
+- **Citation:** Sol, D., Olkowicz, S., Sayol, F., Swanson, E. M., Bertolino, S., Teeling, E. C., Mazzoldi, C., Łukasik, P., Jiang, Z., Sheratt, T. N., Morand-Ferron, J., & Lefebvre, L. (2022). Neuron numbers link innovativeness with both absolute and relative brain size in birds. *Nature Ecology & Evolution*, *6*, 1381–1389. https://doi.org/10.1038/s41559-022-01815-x
+- **Purpose:** Original Research
+- **Methodology:** Cross-species comparative; isotropic fractionator (neuron counting); Bayesian phylogenetic mixed models; random forests; innovation frequency coding from published records
+- **Instruments:** Isotropic fractionator; innovation frequency database (>4,400 published reports); Bayesian phylogenetic models
+- **Level of Detail:** Other (comparative neuroscience)
+- **Topic:** Brain Evolution / Innovation / Neuroscience
+- **Quality:** N = 111 bird species | Structural/Ecological: L | Multi-species, phylogenetically controlled, objective neuron counts via validated technique. Strong design; innovation data from heterogeneous sources (published records). High-prestige outlet (*Nature Ecology & Evolution*).
+- **Notes:** Pallial neuron numbers (not total brain volume) predict innovation propensity in birds after phylogenetic control; pallial neurons mediate the effect of both absolute and relative brain size. Altricial species accumulate more pallial neurons via longer post-hatching development. Links cell-level brain composition to ecological behavioral flexibility, resolving the absolute vs. relative brain size debate at the mechanistic level.
+---
+### 410. Taborsky_2021.pdf
+- **Citation:** Taborsky, B. (2021). A positive feedback loop between sociality and social competence. *Ethology*, *127*(9), 774–789. https://doi.org/10.1111/eth.13201
+- **Purpose:** Review
+- **Methodology:** Narrative Review, Theoretical
+- **Instruments:** N/A; key case study: *Neolamprologus pulcher* cichlid
+- **Level of Detail:** Other (behavioral ecology / social evolution)
+- **Topic:** Social Competence / Social Evolution
+- **Quality:** Prestige: M | *Ethology* — solid specialty journal. Proposes novel positive feedback mechanism linking sociality and social competence.
+- **Notes:** Reviews evidence that social competence (ability to optimize social behavior using available social information) is heritable, varies among individuals, and has fitness consequences. Proposes that philopatry creates conditions for a positive feedback loop: individuals in stable social groups benefit more from social competence, driving selection for greater competence, which in turn facilitates more complex sociality. Uses *N. pulcher* as primary empirical case.
+---
+### 411. Taborsky_etal_2021.pdf
+- **Citation:** Taborsky, B., English, S., Fawcett, T. W., Kuijper, B., Leimar, O., McNamara, J. M., Ruuskanen, S., & Sandi, C. (2021). Towards an evolutionary theory of stress responses. *Trends in Ecology & Evolution*, *36*(1), 39–48. https://doi.org/10.1016/j.tree.2020.09.003
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Theoretical (mathematical modeling + optimality theory); "evo-mecho" approach combining optimality models with mechanistic evolutionary simulations
+- **Instruments:** Mathematical models (Box 3); no empirical instruments
+- **Level of Detail:** Other (evolutionary biology / stress physiology)
+- **Topic:** Stress Response Evolution / Life History Theory
+- **Quality:** Prestige: L | *Trends in Ecology & Evolution* — top ecology/evolution journal. Introduces formal theoretical framework for evolution of stress response shape.
+- **Notes:** Introduces the "evo-mecho" approach: combining optimality modeling with mechanistic evolutionary simulations to predict evolved stress response shapes. Shows that temporal autocorrelation of stressors (not stressor magnitude alone) drives the classic triphasic stress response (baseline → peak → decay). Integrates HPA axis physiology with life history theory and evolutionary game theory; Box 3 provides worked mathematical models.
+---
+### 412. Taborskye_Oliveira_2012.pdf
+- **Citation:** Taborsky, B., & Oliveira, R. F. (2012). Social competence: an evolutionary approach. *Trends in Ecology and Evolution*, *27*(12), 679–688. https://doi.org/10.1016/j.tree.2012.09.003
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Theoretical; Narrative Review
+- **Instruments:** N/A; case study: *Neolamprologus pulcher* (Box 1)
+- **Level of Detail:** Other (behavioral ecology / social neuroscience)
+- **Topic:** Social Competence / Social Evolution / Phenotypic Plasticity
+- **Quality:** Prestige: L | *Trends in Ecology and Evolution* — top ecology/evolution journal. Foundational theoretical paper defining the social competence framework.
+- **Notes:** Defines social competence as the ability to optimize social behavior using available social information; places it within a phenotypic plasticity framework (behavioral reaction norms). Proposes costs/benefits/trade-offs framework and identifies proximate mechanisms via the Brain-Social Behaviour Network (BSBN) and immediate early genes. Distinguished from simple "social skills" by its grounding in plasticity theory and evolutionary cost-benefit analysis.
+---
+### 413. Thompson_2022.pdf
+- **Citation:** Thompson, M. J., Capilla-Lasheras, P., Dominoni, D. M., Réale, D., & Charmantier, A. (2022). Phenotypic variation in urban environments: mechanisms and implications. *Trends in Ecology & Evolution*, *37*(2), 171–182. https://doi.org/10.1016/j.tree.2021.09.009
+- **Purpose:** Review
+- **Methodology:** Narrative Review; illustrative analysis using lnRR and lnCVR effect sizes (13 European city/forest tit pairs)
+- **Instruments:** Tit morphology data (illustrative); lnRR and lnCVR effect size measures
+- **Level of Detail:** Other (urban ecology / evolutionary biology)
+- **Topic:** Urban Ecology / Phenotypic Variation / Evolution
+- **Quality:** Prestige: L | *Trends in Ecology & Evolution* — top ecology/evolution journal. Systematic framework covering mechanisms and implications of urban phenotypic variation.
+- **Notes:** Reviews how urbanization affects both the mean (lnRR) and variance (lnCVR) of phenotypic traits in wild animal populations. Identifies four classes of mechanisms: dispersal-mediated gene flow, natural/sexual selection, phenotypic plasticity, and mutation/epigenetics. Illustrative analysis with great and blue tit morphology shows inconsistent directional change but some evidence of increased urban variance. Covers conservation, evolutionary, and management implications.
+---
+### 414. Thompson_etal-2025.pdf
+- **Citation:** Thompson, M. J., Charmantier, A., Réale, D., Visser, M. E., Verhagen, I., van Oers, K., Senar, J. C., Rowe, L., Postma, E., Garant, D., Teplitsky, C., Adamkiewicz, E., Brommer, J. E., Cichoń, M., Cīrule, D., Csata, E., Culina, A., Doligez, B., Dominoni, D. M., … Capilla-Lasheras, P. (2025). Continental patterns of phenotypic variation along replicated urban gradients: a mega-analysis. *Ecology Letters*, *28*, e70180. https://doi.org/10.1111/ele.70180
+- **Purpose:** Original Research (Mega-Analysis)
+- **Methodology:** Mega-Analysis; DHGLMs (Double Hierarchical Generalized Linear Models) in brms/Stan; Bayesian multilevel modeling; raw data pooled across 14 study systems
+- **Instruments:** Tarsus length (adult and nestling), lay date; 21,968 individuals; 157 subpopulations; 21 populations; 14 study systems (great tits and blue tits); 13 European countries
+- **Level of Detail:** Other (urban ecology / quantitative genetics)
+- **Topic:** Urban Ecology / Phenotypic Variation / Evolution
+- **Quality:** N = 21,968 individuals, 14 study systems | Ecological/Evolutionary: XL | Largest urban phenotypic variation study to date; mega-analysis (raw data pooled); Bayesian DHGLMs partitioning mean and variance components; geographically replicated across Europe. Gold-standard design for its question.
+- **Notes:** Tests three hypotheses about urban phenotypic variation using DHGLMs across 14 European great/blue tit study systems: H1 (among-subpopulation heterogeneity), H2 (within-subpopulation heterogeneity — confirmed: ~11% average increase in urban phenotypic variance), H3 (heterogeneity in heterogeneity — not supported). Urban environments consistently increase within-subpopulation phenotypic variation, suggesting more heterogeneous selection or reduced canalization in cities. The mega-analysis design specifically tests for continental generality vs. local idiosyncrasy.
+---
+### 415. McNamara_Wolf_2022.pdf
+- **Citation:** McNamara, J. M., & Wolf, M. (2022). The coevolution of choosiness and cooperation. *Proceedings of the Royal Society B: Biological Sciences, 289*(1985), 20221788. https://doi.org/10.1098/rspb.2022.1788
+- **Purpose:** Theory
+- **Methodology:** Mathematical/computational modeling, evolutionary game theory
+- **Instruments:** N/A
+- **Level of Detail:** Population/trait level
+- **Topic:** Evolutionary Biology / Personality Theory
+- **Quality:** Prestige: L | Strong specialty journal (Proc. R. Soc. B); formal theoretical contribution to the evolution of individual differences.
+- **Notes:** Uses evolutionary game theory to model the coevolution of partner choosiness and cooperative behavior. Shows how individual differences in personality traits (choosiness) can be maintained at the population level through frequency-dependent selection. Provides theoretical grounding for why consistent individual differences exist at all.
+---
+### 416. Muhtadie_2013.pdf
+- **Citation:** Muhtadie, L., Johnson, S. L., Carver, C. S., Gotlib, I. H., & Ketter, T. A. (2014). A profile approach to impulsivity in bipolar disorder: The key role of strong emotions. *Acta Psychiatrica Scandinavica, 129*(2), 100–108. https://doi.org/10.1111/acps.12136
+- **Purpose:** Original Research
+- **Methodology:** Cluster analysis, ANOVA, survey
+- **Instruments:** UPPS-P Impulsive Behavior Scale (Positive/Negative Urgency, Lack of Premeditation, Lack of Perseveration, Sensation Seeking), BIS-11, BAS Fun-seeking
+- **Level of Detail:** Personality Facet
+- **Topic:** Emotion Regulation / Impulsivity / Clinical
+- **Quality:** N = 91 bipolar disorder + 80 controls | Structural: M | Single-site clinical sample; cross-sectional; useful facet-level differentiation but limited generalizability.
+- **Notes:** Profile analysis identifies three impulsivity subtypes in bipolar disorder, distinguished primarily by emotion-driven (urgency) facets rather than reward sensitivity. Urgency (both positive and negative) emerges as clinically distinctive; purely reward-based impulsivity facets are less differentiating. Supports facet-level measurement over global impulsivity scores.
+---
+### 417. Mutzel_2013.pdf
+- **Citation:** Mutzel, A., Dingemanse, N. J., Hervé, S., & Kempenaers, B. (2013). Personality links with fitness: the role of prior information and behavioral plasticity. *Proceedings of the Royal Society B: Biological Sciences, 280*(1764), 20131019. https://doi.org/10.1098/rspb.2013.1019
+- **Purpose:** Original Research
+- **Methodology:** Field study, linear mixed models, path analysis
+- **Instruments:** Exploration score (novel environment test), aggression score (mirror test); reproductive success from nest monitoring
+- **Level of Detail:** Behavioral trait level
+- **Topic:** Animal Personality / Behavioral Ecology
+- **Quality:** N ≤ 89 breeding males (blue tits), multi-year | Structural: L | Longitudinal field data; behavioral phenotyping linked to fitness via provisioning; path-analytic mediation.
+- **Notes:** In blue tits, male exploration personality and aggression jointly predict nestling provisioning rates, which in turn predict reproductive success. Fitness effects of personality operate primarily through behavioral mediation (provisioning rate). Supports the idea that personality-fitness links depend on behavioral context and prior information about the environment.
+---
+### 418. Newediuk_2026.pdf
+- **Citation:** Newediuk, L., Klaczek, M., Bhatt, D., Boyce, M. S., Semeniuk, C. A. D., & Vander Wal, E. (2026). Hormone-behavior correlations in a wild ungulate suggest limited support for the pace-of-life syndrome hypothesis. *Behavioral Ecology, 37*, arag004. https://doi.org/10.1093/beheco/arag004
+- **Purpose:** Original Research
+- **Methodology:** Bayesian linear mixed models, GPS telemetry, fecal hormone assays
+- **Instruments:** Fecal glucocorticoid metabolites (GCM), triiodothyronine (T3), GPS-derived space-use metrics (step length, turning angle)
+- **Level of Detail:** Behavioral/physiological trait level
+- **Topic:** Behavioral Ecology / Pace-of-Life Syndrome
+- **Quality:** N = 13 elk, 75 fecal samples | Structural: M | Very small sample for individual-level correlations; Bayesian approach handles uncertainty appropriately; real-world field constraints noted.
+- **Notes:** Tests the pace-of-life syndrome (POLS) hypothesis in free-ranging elk by correlating fecal hormone levels with GPS-derived risk-perception behaviors. Finds limited support: hormonal and behavioral axes do not align as POLS predicts. Cautions against assuming POLS structure without validation in each population.
+---
+### 419. O'Dea_2021.pdf
+- **Citation:** O'Dea, R. E., Noble, D. W. A., & Nakagawa, S. (2022). Unifying individual differences in personality, predictability and plasticity: A practical guide. *Methods in Ecology and Evolution, 13*(2), 278–293. https://doi.org/10.1111/2041-210X.13731
+- **Purpose:** Methods / Review
+- **Methodology:** Tutorial, double hierarchical generalized linear models (DHGLM), Bayesian mixed models
+- **Instruments:** Example code using brms/RStan; barramundi metabolic rate dataset
+- **Level of Detail:** Methodological
+- **Topic:** Statistical Methods / Animal Personality
+- **Quality:** Prestige: L | *Methods in Ecology and Evolution*; practical tutorial making cutting-edge methods accessible to empirical researchers.
+- **Notes:** Provides a unified framework for simultaneously estimating personality (mean), plasticity (slope), and predictability (residual variance) as individual-level random effects using DHGLMs. Includes annotated R/Stan code. Bridges the conceptual framework of behavioral reaction norms with practical implementation.
+---
+### 420. Peignier_2023.pdf
+- **Citation:** Peignier, M., Montiglio, P.-O., & Cote, J. (2023). Personality drives reproductive success in a poison frog (*Allobates femoralis*). *Proceedings of the Royal Society B: Biological Sciences, 290*(2010), 20231551. https://doi.org/10.1098/rspb.2023.1551
+- **Purpose:** Original Research
+- **Methodology:** Field study, behavioral assays, genetic parentage analysis, linear mixed models
+- **Instruments:** Open-field activity test, approach-avoidance test; genetic parentage via microsatellites
+- **Level of Detail:** Behavioral trait level
+- **Topic:** Animal Personality / Selection / Fitness
+- **Quality:** N = 64 males, 57 females over full breeding season; genetic parentage | Structural: L | Prospective fitness measurement with molecular parentage; naturalistic setting; multi-trait behavioral phenotyping.
+- **Notes:** More active and bold male poison frogs sire more offspring in nature, while female behavioral traits have weaker fitness links. Demonstrates that personality traits are under positive directional selection via reproductive success. One of the stronger field-based tests of personality-fitness covariation in a non-avian vertebrate.
+---
+### 421. Peignier_etal_2019.pdf
+- **Citation:** Peignier, M., Webber, Q. M. R., Koen, E. L., Laforge, M. P., Robitaille, A. L., & Vander Wal, E. (2019). Space use and social association in a gregarious ungulate: Testing the conspecific attraction and resource dispersion hypotheses. *Ecology and Evolution, 9*(9), 5133–5145. https://doi.org/10.1002/ece3.5071
+- **Purpose:** Original Research
+- **Methodology:** GPS telemetry, social network analysis, kernel density estimation, linear mixed models
+- **Instruments:** GPS collars, 95% KDE home range, social association index (SAI)
+- **Level of Detail:** Population/behavioral trait level
+- **Topic:** Spatial Ecology / Social Behavior
+- **Quality:** N = 87 caribou across 3 herds | Structural: L | Multi-herd GPS telemetry; tests competing spatial hypotheses; adequate sample for landscape-level inference.
+- **Notes:** Tests conspecific attraction hypothesis (CAH) and resource dispersion hypothesis (RDH) for gregarious caribou. Finds support for CAH: individuals with more social associations use space more similarly and overlap more. Social behavior, not just resource distribution, drives spatial clustering in herding ungulates.
+---
+### 422. Pezzoli_2025.pdf
+- **Citation:** Pezzoli, P., Docherty, A. R., Witt, S. H., & Viding, E. (2025). Genetically informed approaches to understanding antisocial behavior. *Annual Review of Psychology, 76*, 797–819. https://doi.org/10.1146/annurev-psych-021523-103940
+- **Purpose:** Review
+- **Methodology:** Narrative review of genetically informed research designs
+- **Instruments:** N/A (review across multiple studies)
+- **Level of Detail:** Behavioral / developmental
+- **Topic:** Behavioral Genetics / Antisocial Behavior / Development
+- **Quality:** Prestige: XL | *Annual Review of Psychology*; authoritative review covering molecular genetics, twin studies, and gene-environment interplay for antisocial behavior.
+- **Notes:** Synthesizes genetically informed research on antisocial behavior, covering heritability, molecular genetics, gene-environment interaction, and developmental trajectories. Distinguishes reactive/proactive aggression and early-onset vs. adolescence-limited pathways. Argues for genetically sensitive approaches in developmental psychopathology.
+---
+### 423. Polderman_etal_2015.pdf
+- **Citation:** Polderman, T. J. C., Benyamin, B., de Leeuw, C. A., Sullivan, P. F., van Bochoven, A., Visscher, P. M., & Posthuma, D. (2015). Meta-analysis of the heritability of human traits based on fifty years of twin studies. *Nature Genetics, 47*(7), 702–709. https://doi.org/10.1038/ng.3285
+- **Purpose:** Meta-Analysis
+- **Methodology:** Meta-analysis of twin studies; biometric model fitting (ACE)
+- **Instruments:** N/A (meta-analysis across 2,748 publications, 17,804 traits, 14.5M+ twin pairs)
+- **Level of Detail:** All human traits
+- **Topic:** Heritability / Behavioral Genetics / Psychometrics
+- **Quality:** Heritability: XL | Largest heritability meta-analysis ever conducted; 50 years of twin data; *Nature Genetics*.
+- **Notes:** Estimates heritability across virtually all human traits using 50 years of twin data. Overall heritability averages ~49%. Additive genetic effects dominate; shared environment is generally small. Provides the definitive baseline for heritability claims across all phenotypic domains including personality, cognition, and behavior.
+---
+### 424. RH49eale_etal_2007.pdf
+- **Citation:** Réale, D., Reader, S. M., Sol, D., McDougall, P. T., & Dingemanse, N. J. (2007). Integrating animal temperament within ecology and evolution. *Biological Reviews, 82*(2), 291–318. https://doi.org/10.1111/j.1469-185X.2007.00010.x
+- **Purpose:** Review
+- **Methodology:** Narrative review; terminology synthesis
+- **Instruments:** N/A (review of field methods across studies)
+- **Level of Detail:** Conceptual / framework
+- **Topic:** Animal Personality / Behavioral Ecology
+- **Quality:** Prestige: XL | *Biological Reviews* — top-tier review journal; foundational framework paper for animal temperament/personality research.
+- **Notes:** Proposes a standardized 5-category temperament terminology for ecology and evolution: shyness-boldness, exploration-avoidance, activity, sociability, aggressiveness. Reviews heritability evidence, fitness consequences, and measurement best practices. Highly cited; defines the conceptual vocabulary for the animal personality field.
+---
+### 425. Reader_2011.pdf
+- **Citation:** Reader, S. M., Hager, Y., & Laland, K. N. (2011). The evolution of primate general and cultural intelligence. *Philosophical Transactions of the Royal Society B: Biological Sciences, 366*(1567), 1017–1027. https://doi.org/10.1098/rstb.2010.0342
+- **Purpose:** Original Research
+- **Methodology:** Comparative analysis across species, PCA, phylogenetic independent contrasts
+- **Instruments:** Innovation frequency, social learning frequency, tool use, extractive foraging, tactical deception (compiled from 4,000+ articles over 75 years)
+- **Level of Detail:** Species-level (comparative)
+- **Topic:** Comparative Cognition / Cognitive Evolution / Primate Intelligence
+- **Quality:** N = 62 primate species | Structural: L | Large comparative sample; research-effort correction; multiple brain volume measures; phylogenetic controls; strong specialty journal.
+- **Notes:** PCA of five cognitive flexibility measures across 62 primate species yields a single dominant component (gS1) explaining 65% of variance — a species-level general intelligence factor. gS covaried with relative brain volume and lab learning performance. High gS evolved convergently in four lineages. Provides the comparative foundation for a "g" analog at the species level.
+---
+### 426. Reale_etal_2010.pdf
+- **Citation:** Réale, D., Garant, D., Humphries, M. M., Bergeron, P., Careau, V., & Montiglio, P.-O. (2010). Personality and the emergence of the pace-of-life syndrome concept at the population level. *Philosophical Transactions of the Royal Society B: Biological Sciences, 365*(1560), 4051–4063. https://doi.org/10.1098/rstb.2010.0208
+- **Purpose:** Review / Theory
+- **Methodology:** Narrative review; conceptual synthesis
+- **Instruments:** N/A (review)
+- **Level of Detail:** Conceptual / framework
+- **Topic:** Animal Personality / Behavioral Ecology / Life-History Theory
+- **Quality:** Prestige: L | *Philosophical Transactions of the Royal Society B* — strong specialty journal; key conceptual synthesis paper.
+- **Notes:** Proposes integrating personality (consistent individual behavioral differences) into the pace-of-life syndrome (POLS) framework. Argues that behavioral traits covary with hormonal, metabolic, and life-history traits along a fast-slow continuum within and among populations. Lays theoretical groundwork for POLS as a unifying framework in behavioral ecology.
+---
+### 427. Roche_2016.pdf
+- **Citation:** Roche, D. G., Careau, V., & Binning, S. A. (2016). Demystifying animal 'personality' (or not): Why individual variation matters to experimental biologists. *Journal of Experimental Biology, 219*(24), 3832–3843. https://doi.org/10.1242/jeb.146712
+- **Purpose:** Commentary / Methods
+- **Methodology:** Methods review; worked example using LMMs (barramundi metabolic data)
+- **Instruments:** R code for repeatability estimation via lme4/rptR; barramundi SMR data (Norin et al. 2016)
+- **Level of Detail:** Methodological
+- **Topic:** Statistical Methods / Animal Personality / Behavioral Ecology
+- **Quality:** Prestige: M | Standard journal commentary; useful practical guide but not primary empirical contribution.
+- **Notes:** Clarifies animal personality terminology for experimental biologists and argues that ignoring individual variation inflates measurement error and biases results. Covers repeatability estimation using linear mixed models, variance partitioning, and interpretation pitfalls. Includes annotated R code. Accessible entry point for researchers new to individual-variation methods.
+- **Notes:** Clarifies animal personality terminology for experimental biologists and argues that ignoring individual variation inflates measurement error and biases results. Covers repeatability estimation using linear mixed models, variance partitioning, and interpretation pitfalls. Includes annotated R code. Accessible entry point for researchers new to individual-variation methods.
+
+---
+
+## inbox/ (batch processed 2026-04-06)
+### 428. Albery_etal_2024.pdf
+- **Citation:** Albery, G. F., Becker, D. J., Firth, J. A., De Moor, D., Ravindran, S., Silk, M., … Bansal, S. (2025). Density-dependent network structuring within and across wild animal systems. *bioRxiv* preprint. https://doi.org/10.1101/2024.06.28.601262
+- **Purpose:** Original Research
+- **Methodology:** Meta-analysis of observational datasets; kernel density estimation for individual-level density; spatial networks (home range overlap, MCP) and social networks (gambit-of-group, co-trapping, proximity sensors); linear models, GAMs, saturation models per system; hierarchical meta-analysis (metafor) with phylogenetic correction
+- **Instruments:** Social network analysis (strength centrality); spatial network metrics (home range overlap, MCP); gambit-of-group; proximity collars; co-trapping
+- **Level of Detail:** Other (behavioral / disease ecology)
+- **Topic:** Social Network Ecology / Behavioral Ecology / Disease Ecology / Population Dynamics
+- **Quality:** N = >58,000 individuals, 30 species, 36 systems | Structural: L | Large-scale multi-species meta-analysis, strong controls; downgrade flag: preprint (not yet peer-reviewed).
+- **Notes:** First general evidence that local population density drives greater individual network connectedness across diverse wild animal systems (80% of systems show positive density-connectedness relationships). Spatial networks show stronger and less saturating density-dependence than social networks. Most relationships (81%) are nonlinear and saturating, suggesting behavioral compensation at high densities.
+### 429. Altschul_2016.pdf
+- **Citation:** Altschul, D. M., Terrace, H. S., & Weiss, A. (2016). Serial cognition and personality in macaques. *Animal Behavior and Cognition*, *3*(1), 46–64.
+- **Purpose:** Original Research
+- **Methodology:** N=9 captive rhesus macaques; simultaneous chaining (SimChain) computerized task (20 sessions × 40 trials/day of 4-item novel lists); personality ratings from 10 volunteers using Hominoid Personality Questionnaire; mixed-model regressions with forward/backward selection; nonlinear logistic regression; regularized exploratory factor analysis (REFA)
+- **Instruments:** Hominoid Personality Questionnaire (HPQ); SimChain cognitive task; six-factor personality structure (Anxiety, Activity, Openness, Friendliness, Confidence, Dominance)
+- **Level of Detail:** Other (comparative cognition / animal personality)
+- **Topic:** Comparative Cognition / Animal Personality / Primate Behavior
+- **Quality:** N = 9 | Structural: S | Single small sample, captive males only, exploratory; associations are pattern-matching rather than confirmatory. Downgrade: N=9.
+- **Notes:** Friendliness and Openness positively associated with serial cognitive task performance across multiple modeling approaches; effects survived factor structure sensitivity analyses (2–6 factors). Confidence predicted faster reaction times, suggesting personality-mediated speed-accuracy tradeoffs. Among the first studies linking animal personality to complex abstract cognitive task performance.
+### 430. Andrade_etal_2024.pdf
+- **Citation:** Andrade, P., Alves, J. M., Pereira, P., Rubin, C.-J., Silva, E., Sprehn, C. G., … Carneiro, M. (2024). Selection against domestication alleles in introduced rabbit populations. *Nature Ecology & Evolution*, *8*(8), 1543–1555. https://doi.org/10.1038/s41559-024-02443-3
+- **Purpose:** Original Research
+- **Methodology:** Low-pass whole-genome sequencing (avg 1.5× coverage) of N=297 rabbits across 3 continents; 6 introduced populations, 7 domestic breeds, 49 wild range rabbits; ANGSD genotype likelihoods; PCA (PCAngsd), admixture (NGSadmix); 1,995 diagnostic SNP ancestry index; outgroup f3 statistics; ΔAF sliding window + di statistic selection scans; Tajima's D; multi-set intersection testing for parallelism
+- **Instruments:** None (genomic study); no personality/cognitive measures
+- **Level of Detail:** Other (population genomics / behavioral genetics)
+- **Topic:** Feralization / Domestication Genomics / Behavioral Genetics / Evolutionary Biology
+- **Quality:** N = 297 | Genetic/Structural: L | Multiple independent introduced populations, whole-genome sequencing, well-powered for ΔAF analysis; published in *Nature Ecology & Evolution*.
+- **Notes:** Introduced rabbit populations have mixed wild-domestic ancestry (47.5–80.8% domestic); domestication alleles are >5× more likely to be selected against in natural settings than non-domestication alleles. Strongest cross-population parallelism overlaps YAP1 (neural progenitor differentiation). Known domestication mutations (dwarf, angora, rex) absent; mild coat-color variants persist.
+### 431. Araya-Ajoy_2015.pdf
+- **Citation:** Araya-Ajoy, Y. G., Mathot, K. J., & Dingemanse, N. J. (2015). An approach to estimate short-term, long-term and reaction norm repeatability. *Methods in Ecology and Evolution*, *6*, 1462–1473. https://doi.org/10.1111/2041-210X.12430
+- **Purpose:** Original Research (methodological)
+- **Methodology:** Multilevel extension of random regression mixed-effect models; simulation study varying N individuals (2–60) and N series/individual (2–60); worked example with simulated "squid" data (120 individuals × 4 breeding events × 2 contexts × 2 replicates); R package MultiRR (CRAN)
+- **Instruments:** MultiRR R package; reaction norm repeatability framework
+- **Level of Detail:** Other (statistical methods / quantitative genetics)
+- **Topic:** Statistical Methods / Animal Personality / Reaction Norms / Repeatability / Quantitative Genetics
+- **Quality:** Prestige: L | *Methods in Ecology and Evolution* — strong specialty journal; methodologically rigorous with simulation validation, R package, and worked example.
+- **Notes:** Introduces multilevel random regression framework partitioning reaction norm variation at among-individual and within-individual levels; enables scale-free repeatability indices (R_intercept, R_slope). Short-term repeatability (0.68) substantially higher than long-term repeatability (0.36) in worked example. ~1,000 observations with >20 individuals needed for reliable estimates.
+### 432. Bell-Sih-2007.pdf
+- **Citation:** Bell, A. M., & Sih, A. (2007). Exposure to predation generates personality in threespined sticklebacks (*Gasterosteus aculeatus*). *Ecology Letters*, *10*, 828–834. https://doi.org/10.1111/j.1461-0248.2007.01081.x
+- **Purpose:** Original Research (experimental)
+- **Methodology:** N=122 subadult sticklebacks; pre-exposure boldness and aggressiveness assays; experimental predation by live rainbow trout (~50% mortality); post-exposure re-assessment of survivors (N=57); phenotypic selection gradient analysis (Lande & Arnold 1983); Spearman rank correlations
+- **Instruments:** Boldness assay (foraging under simulated egret predation); aggressiveness assay (orients to conspecific intruder); elastomer tags
+- **Level of Detail:** Other (behavioral ecology / animal personality)
+- **Topic:** Behavioral Syndromes / Animal Personality / Predation / Developmental Origins of Personality
+- **Quality:** N = 122 pre / 57 post | Structural: M | Moderate N, single-population experimental design; adequate for behavioral correlations; limited generalizability.
+- **Notes:** First experimental demonstration that predation can induce a behavioral syndrome (boldness-aggressiveness correlation) de novo in a population lacking prior predation history. Both selection (differential mortality) and plasticity (behavioral change in survivors) contributed to syndrome formation. Supports adaptive origins of behavioral syndromes.
+### 433. Bégué_2023.pdf
+- **Citation:** Bégué, L., Peignier, M., & Ringler, E. (2023). The link between animal personality and habitat selection in males of the Neotropical poison frog *Allobates femoralis*. *Behaviour*, *160*, 257–274. https://doi.org/10.1163/1568539X-bja10202
+- **Purpose:** Original Research
+- **Methodology:** N=36 adult male captive *Allobates femoralis*; 3× repeated assays for activity (home terrarium) and boldness/exploration (Novel Environment Test); habitat choice test in 8000L ring tank (complex vs. non-complex); repeatability via rptR; linear and GLM models with BLUPs
+- **Instruments:** Novel Environment Test (NET); home terrarium activity; BORIS video coding software; rptR R package
+- **Level of Detail:** Other (amphibian behavior / animal personality)
+- **Topic:** Animal Personality / Habitat Selection / Amphibian Behavior / Boldness / Exploration
+- **Quality:** N = 36 | Structural: S | Small N, single captive population; repeatability (R=0.23–0.44); limited power and generalizability.
+- **Notes:** Activity (R=0.44) and boldness/exploration (R=0.23–0.34) are repeatable in captive male poison frogs. All individuals universally preferred complex habitat regardless of personality. Bolder/more explorative individuals showed more between-habitat crossings, suggesting personality shapes habitat assessment process rather than ultimate habitat choice.
+### 434. Blumberg_2025.pdf
+- **Citation:** Blumberg, W., Fiedler, A., & Careau, V. (2025). Personality and metabolic scope in wild mice. *Journal of Experimental Biology*, *228*, jeb250374. https://doi.org/10.1242/jeb.250374
+- **Purpose:** Original Research
+- **Methodology:** N=153 wild-caught *Peromyscus leucopus*; docility (bag test), exploration (open-field test, EthovisionXT); RMR (open-flow respirometry at 28°C) and VO2max (treadmill forced exercise); multivariate mixed models (ASReml-R v4) partitioning among-individual and within-individual correlations
+- **Instruments:** Bag test (docility); open-field test (exploration/activity); respirometry (RMR, VO2max); willingness-to-run scale (1–4)
+- **Level of Detail:** Other (animal personality / energetics)
+- **Topic:** Animal Personality / Energetics / Pace-of-Life / Metabolic Rate / Wild Rodents
+- **Quality:** N = 153 | Structural: M | Adequate N, wild-caught, multivariate mixed models; single year/site; metabolic repeatability low (R=0.12–0.31).
+- **Notes:** No among-individual correlation between personality and metabolic scope in wild mice, contrary to POLS predictions. Within-individual: more docile mice were more willing to run on a given day (stress-induced analgesia hypothesis). Among-individual RMR-grooming correlation (r_ind=0.83) suggests shared stress-physiology basis.
+### 435. Briganti_2021.pdf
+- **Citation:** Briganti, G., Kornreich, C., & Linkowski, P. (2021). A network structure of manic symptoms. *Brain and Behavior*, *11*, e02010. https://doi.org/10.1002/brb3.2010
+- **Purpose:** Original Research
+- **Methodology:** N=100 involuntarily committed bipolar I patients; YMRS at admission (t0), mid-stay (~day 20, t1), discharge (~day 40, t2); cross-sectional Gaussian Graphical Models (unregularized, Spearman input) at each time point; node predictability as centrality; Network Comparison Test for global strength; panel GVAR for temporal effects
+- **Instruments:** Young Mania Rating Scale (YMRS); bootnet, qgraph, psychonetrics, NetworkComparisonTest R packages
+- **Level of Detail:** Other (clinical psychiatry / network analysis)
+- **Topic:** Clinical Psychiatry / Bipolar Disorder / Network Analysis / Symptom Structure / Psychometrics
+- **Quality:** N = 100 | Structural: M | Adequate N for exploratory network analysis; three time points; single ward/clinician; stationarity assumption likely violated for GVAR.
+- **Notes:** Elevated mood is the most interconnected YMRS symptom at admission; network global strength significantly decreases from admission to discharge (p=0.0014), indicating treatment disrupts symptom coherence. Language-thought disorder becomes most central at discharge. Temporal network implicates mood, sleep, and motor activity as targets of Granger-causal influence.
+### 436. Careau_2008.pdf
+- **Citation:** Careau, V., Thomas, D., Humphries, M. M., & Réale, D. (2008). Energy metabolism and animal personality. *Oikos*, *117*, 641–653. https://doi.org/10.1111/j.0030-1299.2008.16513.x
+- **Purpose:** Review
+- **Methodology:** Theoretical framework; narrative review of intra-specific RMR variation and personality links; introduces Performance Model and Allocation Model as competing frameworks; no new empirical data
+- **Instruments:** Conceptual discussion of respirometry, doubly-labeled water, coping style measures, novel object/open-field tests
+- **Level of Detail:** Other (behavioral ecology / energetics theory)
+- **Topic:** Animal Personality / Energetics / Metabolism / Pace-of-Life / Coping Styles
+- **Quality:** Prestige: M | *Oikos* — good specialty journal. Foundational theoretical paper for personality-metabolism links in behavioral ecology.
+- **Notes:** Argues personality introduces systematic variation into RMR measurements (proactive individuals respond behaviorally to chambers; reactive individuals freeze). Performance Model predicts positive personality-RMR correlation; Allocation Model predicts negative. Foundational theoretical framework linking personality to the slow-fast metabolic continuum.
+### 437. Careau_etal_2021.pdf
+- **Citation:** Careau, V., Halsey, L. G., Pontzer, H., Ainslie, P. N., Andersen, L. F., … Speakman, J. R. (2021). Energy compensation and adiposity in humans. *Current Biology*, *31*, 4659–4666. https://doi.org/10.1016/j.cub.2021.08.016
+- **Purpose:** Original Research
+- **Methodology:** Secondary analysis of N=1,754 adults from IAEA DLW database v3.1.2; TEE by doubly-labeled water; BEE by indirect calorimetry; multiple linear regression; bivariate mixed model (ASReml-R) on N=68 elderly adults (Health ABC study, 2 waves ~7 years apart) for within- vs. between-individual compensation
+- **Instruments:** Doubly-labeled water (TEE); indirect calorimetry (BEE); isotope dilution (body composition); IAEA DLW database
+- **Level of Detail:** Other (human energetics / metabolism)
+- **Topic:** Human Energetics / Metabolism / Energy Balance / Obesity / Exercise Physiology
+- **Quality:** N = 1,754 | Structural: XL | Very large international multi-site dataset; appropriate design; strong controls for body composition; replicated across subgroups.
+- **Notes:** Energy compensation averages 28% (only 72% of extra activity calories translates to higher TEE); compensation stronger with higher fat mass (~50% at 90th BMI percentile). Compensation occurs primarily within individuals over time, not as a stable between-individual trait, suggesting it is a dynamic regulation mechanism rather than a fixed metabolic trait.
+### 438. Carroll_etal_2022.pdf
+- **Citation:** Carroll, A. L., Damme, K. S. F., Alloy, L. B., Bart, C. P., Ng, T. H., Titone, M. K., Chein, J., Cichocki, A. C., Armstrong, C. C., & Nusslock, R. (2022). Risk for bipolar spectrum disorders associated with positive urgency and orbitofrontal cortical grey matter volume. *NeuroImage: Clinical*, *36*, 103225. https://doi.org/10.1016/j.nicl.2022.103225
+- **Purpose:** Original Research
+- **Methodology:** N=122 young adults from Project TEAM (MReward n=42, HReward n=48, HReward+BSD n=32); BSD diagnoses via exp-SADS-L/SADS-C; structural MRI (Siemens 3T, FreeSurfer 6.0); ROIs: bilateral lateral OFC, medial OFC, NAcc; ANCOVA and Group × Positive Urgency ANCOVAs; Fisher's protected t-tests
+- **Instruments:** UPPS-P (positive urgency subscale, 14 items); BIS/BAS scales; SPSRQ; exp-SADS-L/SADS-C; FreeSurfer structural MRI
+- **Level of Detail:** Other (clinical neuroscience / personality)
+- **Topic:** Clinical Neuroscience / Bipolar Spectrum Disorders / Impulsivity / Brain Structure / Reward Sensitivity
+- **Quality:** N = 122 | Structural: M | Adequate N, behavioral high-risk design, prospective BSD conversion; cross-sectional MRI limits causal inference; small BSD subgroup (N=32) of mixed diagnoses.
+- **Notes:** Positive urgency increases stepwise with BSD risk, suggesting pre-existing vulnerability that worsens with illness onset. In low-risk individuals, higher positive urgency is associated with smaller lateral OFC volume; this association absent in high-risk groups (possibly OFC volume inflation from reward-sensitivity-based recruitment). No medial OFC or NAcc associations.
+### 439. Dingemanse_2009.pdf
+- **Citation:** Dingemanse, N. J., Kazem, A. J. N., Réale, D., & Wright, J. (2010). Behavioural reaction norms: animal personality meets individual plasticity. *Trends in Ecology & Evolution*, *25*(2), 81–89. https://doi.org/10.1016/j.tree.2009.07.013
+- **Purpose:** Review
+- **Methodology:** Conceptual/theoretical; narrative review with statistical guidance for random regression and multivariate mixed models; 15 empirical examples (Table 1); no new empirical data
+- **Instruments:** Conceptual; random regression models; reaction norm elevation and slope as constructs
+- **Level of Detail:** Other (behavioral ecology / quantitative genetics / theory)
+- **Topic:** Animal Personality / Behavioral Plasticity / Reaction Norms / Evolutionary Ecology / Quantitative Genetics
+- **Quality:** Prestige: XL | *Trends in Ecology & Evolution* — top-tier review journal. Widely cited opinion piece introducing the behavioral reaction norm framework.
+- **Notes:** Argues that animal personality (BRN intercept) and individual plasticity (BRN slope) are complementary aspects of phenotype best analyzed together using behavioral reaction norms. Enables bias-free personality estimation by controlling for individual-specific environmental sampling. Calls for study of whether selection acts on the elevation-slope correlation.
+### 440. Dingemanse_2019.pdf
+- **Citation:** Dingemanse, N. J., Moiron, M., Araya-Ajoy, Y. G., Mouchet, A., & Abbey-Lee, R. N. (2020). Individual variation in age-dependent reproduction: Fast explorers live fast but senesce young? *Journal of Animal Ecology*, *89*, 601–613. https://doi.org/10.1111/1365-2656.13122
+- **Purpose:** Original Research
+- **Methodology:** 7-year longitudinal study (2010–2016) of great tits in 12 nest box plots near Munich; N=813 female breeders, 1,209 breeding records; annual cage assay (hops/2 min as exploration proxy); mixed-effects models with linear + quadratic age; van de Pol & Verhulst (2006) selective (dis)appearance correction; individual BLUPs for exploration; simulation to validate BLUP approach
+- **Instruments:** Cage activity assay (hops/2 min); clutch size and fledgling monitoring; color ring banding
+- **Level of Detail:** Other (pace-of-life / life history / behavioral ecology)
+- **Topic:** Pace-of-Life Syndrome / Animal Personality / Reproductive Senescence / Life History / Great Tit
+- **Quality:** N = 813 females, 7-year longitudinal | Developmental: L | Multi-wave longitudinal (7 years), N>500, appropriate design for within-individual age trajectories; controls for selective (dis)appearance; limited power at late ages (6–7).
+- **Notes:** Faster explorers show nonlinear age-dependent clutch size increases peaking at ~age 3.4, with moderate evidence for subsequent reproductive senescence; slower explorers show no age effects. Exploratory behavior declines linearly with age within individuals — failing to control for this biases personality estimates. Reproductive senescence identified as a key life-history cost of fast personality, potentially explaining inconsistent POLS findings using longevity.
+### 441. Tsuboi _etal_2018.pdf
+- **Citation:** Tsuboi, M., van der Bijl, W., Kopperud, B. T., Erritzøe, J., Voje, K. L., Kotrschal, A., Yopak, K. E., Collin, S. P., Iwaniuk, A. N., & Kolm, N. (2018). Breakdown of brain–body allometry and the encephalization of birds and mammals. *Nature Ecology & Evolution*, *2*(9), 1492–1500. https://doi.org/10.1038/s41559-018-0632-1
+- **Purpose:** Original Research
+- **Methodology:** Comparative Analysis; phylogenetically informed models; intraspecific brain–body allometry slopes across vertebrates; large literature-derived dataset
+- **Instruments:** N/A (morphometric data from literature)
+- **Level of Detail:** Other (comparative neuroanatomy / evolutionary biology)
+- **Topic:** Brain Evolution / Encephalization / Comparative Neuroanatomy
+- **Quality:** N = >700 species across major vertebrate classes | Structural/Evolutionary: L | Large comparative dataset with phylogenetic controls; novel allometric framework. Cross-species inference; developmental mechanisms inferred, not directly measured.
+- **Notes:** Demonstrates that ectothermic vertebrates have steep intraspecific brain–body allometric slopes (~0.50) while endothermic birds and mammals have shallow slopes (~0.15–0.20). The "breakdown" of allometry in endotherms enabled decoupling of brain and body size, facilitating encephalization. Argues this allometric shift is the key evolutionary step toward large-brained endotherms, not simply scaling up.
+### 442. WEBBER_MCGUIRE_2021.pdf
+- **Citation:** Webber, Q. M. R., & McGuire, L. P. (2022). Heterothermy, body size, and locomotion as ecological predictors of migration in mammals. *Mammal Review*, *52*(1), 82–95. https://doi.org/10.1111/mam.12263
+- **Purpose:** Original Research
+- **Methodology:** Comparative Analysis; phylogenetically informed logistic regression; dataset of 722 mammal species from 27 orders
+- **Instruments:** N/A (species-level trait database)
+- **Level of Detail:** Other (movement ecology / comparative mammalogy)
+- **Topic:** Animal Migration / Life History / Locomotion / Heterothermy
+- **Quality:** N = 722 mammalian species | Evolutionary/Ecological: L | Large comparative dataset with phylogenetic controls. Cross-species inference; causal mechanisms inferred, not experimentally tested.
+- **Notes:** Tests evolutionary precursor hypothesis for migration in mammals. Swimming and flying species are more likely to migrate than runners; larger species more likely to migrate. Heterothermic capacity (torpor/hibernation) is a common alternative strategy to migration in small running mammals, especially at high latitudes. Identifies a body-size–mediated trade-off between migration and hibernation.
+### 443. Webber_etal_2023.pdf
+- **Citation:** Webber, Q. M. R., Albery, G. F., Farine, D. R., Pinter-Wollman, N., Sharma, N., Spiegel, O., Vander Wal, E., & Manlove, K. (2023). Behavioural ecology at the spatial–social interface. *Biological Reviews*, *98*(3), 868–886. https://doi.org/10.1111/brv.12934
+- **Purpose:** Review
+- **Methodology:** Narrative Review; synthetic conceptual framework integrating spatial and social behaviour research
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavioural ecology / movement ecology)
+- **Topic:** Animal Personality / Spatial Behaviour / Social Behaviour / Behavioural Ecology
+- **Quality:** Prestige: L | *Biological Reviews* — top-tier review journal. Integrative framework paper; animal personality/behavioural type is a central connecting concept.
+- **Notes:** Proposes a unifying framework for mutual influences of spatial and social behaviour, organized around four pairwise interactions (social/spatial environment × social/spatial phenotype). Animal personality is central to integrating the two domains. Provides shared terminology, testable hypotheses, and future directions across spatial ecology and social behaviour research.
+### 444. Wheat_2020.pdf
+- **Citation:** Hansen Wheat, C., van der Bijl, W., & Wheat, C. W. (2020). Morphology does not covary with predicted behavioral correlations of the domestication syndrome in dogs. *Evolution Letters*, *4*(3), 189–199. https://doi.org/10.1002/evl3.168
+- **Purpose:** Original Research
+- **Methodology:** Comparative Analysis; phylogenetically informed correlations; breed-level C-BARQ behavioral data; morphological domestication syndrome trait coding; 78 dog breeds
+- **Instruments:** C-BARQ (Canine Behavioral Assessment and Research Questionnaire); morphological DS trait coding (white pigmentation, floppy ears, curly tail)
+- **Level of Detail:** Other (comparative animal behaviour / domestication)
+- **Topic:** Domestication Syndrome / Behavioural Syndromes / Animal Personality
+- **Quality:** N = 78 dog breeds | Structural: M | Breed-level comparative analysis with phylogenetic controls. Breed means conflate individual variation; modern breeds may not reflect original domestication pressures.
+- **Notes:** Tests whether morphological domestication syndrome (DS) traits predict behavioral correlations in 78 dog breeds. Morphological traits did not covary among themselves, nor did they predict behavioral correlations. Challenges assumption of a single shared developmental mechanism (e.g., neural crest deficit) underlying DS traits; many "DS" morphological traits in modern breeds may be post-domestication improvement traits rather than original domestication by-products.
+### 445. Wilson_2021.pdf
+- **Citation:** Wilson, L. A. B., Balcarcel, A., Geiger, M., Heck, L., & Sánchez-Villagra, M. R. (2021). Modularity patterns in mammalian domestication: Assessing developmental hypotheses for diversification. *Evolution Letters*, *5*(4), 385–396. https://doi.org/10.1002/evl3.231
+- **Purpose:** Original Research
+- **Methodology:** Geometric morphometrics; 3D cranial landmark digitization; modularity (RV coefficient) and integration (eigenvalue dispersion) analyses; six domestic/wild mammal pairs
+- **Instruments:** Microscribe 3D digitizer; 62 cranial landmarks; geomorph R package
+- **Level of Detail:** Other (evolutionary morphology / domestication)
+- **Topic:** Domestication Syndrome / Neural Crest Hypothesis / Developmental Biology / Morphological Integration
+- **Quality:** N = 35–104 specimens per species pair (total >400) | Structural/Evolutionary: L | Multi-species comparative geometric morphometric design; rigorous permutation testing. Developmental mechanism inferences are indirect.
+- **Notes:** Tests the neural crest hypothesis for domestication: NC-derived cranial bones should show lower integration in domesticates. Finds support for NC/mesoderm modular cranial structure and greater morphological disparity in domesticates. Contra hypothesis, NC integration magnitude does not consistently decrease. Suggests diversification under domestication co-opts existing developmental trait relationships rather than fundamentally altering integration architecture.
+### 446. Wilson_etal_2010.pdf
+- **Citation:** Wilson, A. J., Réale, D., Clements, M. N., Morrissey, M. M., Postma, E., Walling, C. A., Kruuk, L. E. B., & Nussey, D. H. (2010). An ecologist's guide to the animal model. *Journal of Animal Ecology*, *79*(1), 13–26. https://doi.org/10.1111/j.1365-2656.2009.01639.x
+- **Purpose:** Review
+- **Methodology:** Tutorial/Methods paper; three worked software tutorials (ASReml, MCMCglmm, WOMBAT, DMU); covers heritability and bivariate genetic correlations
+- **Instruments:** Animal model (quantitative genetic mixed-effects model); simulated "gryphon" tutorial dataset
+- **Level of Detail:** Other (quantitative genetics methods)
+- **Topic:** Quantitative Genetics / Animal Model / Heritability / Evolutionary Ecology
+- **Quality:** Prestige: XL | *Journal of Animal Ecology* — leading ecology journal; standard methods reference with thousands of citations. Not an empirical study per se.
+- **Notes:** Practical introduction to the "animal model" — a mixed-effects model partitioning phenotypic variance into additive genetic (V_A), permanent environment (V_PE), maternal (V_M), common environment (V_CE), and residual components using pedigree data. Three fully worked tutorials covering heritability estimation and bivariate genetic correlations. Standard reference for any ecological study estimating heritability from wild pedigrees.
+### 447. Wolf_2008.pdf
+- **Citation:** Wolf, M., van Doorn, G. S., & Weissing, F. J. (2008). Evolutionary emergence of responsive and unresponsive personalities. *Proceedings of the National Academy of Sciences*, *105*(41), 15825–15830. https://doi.org/10.1073/pnas.0805473105
+- **Purpose:** Original Research
+- **Methodology:** Evolutionary game theory; individual-based simulation; analytical evolutionary models; frequency-dependent selection
+- **Instruments:** N/A (theoretical/computational)
+- **Level of Detail:** Other (evolutionary theory / animal personality)
+- **Topic:** Animal Personality / Evolution of Behavioural Types / Frequency-Dependent Selection
+- **Quality:** Prestige: XL | *PNAS* — top-tier journal. Rigorous analytical results confirmed by individual-based simulations. Predictions are general but require empirical testing.
+- **Notes:** Provides an evolutionary explanation for the stable coexistence of "responsive" (flexible) and "unresponsive" (routine-based) personalities via negative frequency-dependent selection: benefits of responsiveness decrease as responsive individuals become common. A two-stage model shows that behavioral syndromes (cross-context correlations) arise as byproducts of consistent responsiveness differences, not from intrinsic trait linkages.
+### 448. Wolf_2013.pdf
+- **Citation:** Wolf, M., van Doorn, G. S., Leimar, O., & Weissing, F. J. (2013). The evolution of animal personalities. In C. Carere & D. Maestripieri (Eds.), *Animal Personalities: Behavior, Physiology, and Evolution* (pp. 252–276). University of Chicago Press.
+- **Purpose:** Book Chapter
+- **Methodology:** Theoretical Review; integrates state-dependent life-history theory with frequency-dependent selection accounts
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary theory / animal personality)
+- **Topic:** Animal Personality / Evolution of Behavioural Types / Life History / Syndromes
+- **Quality:** Prestige: XL | Chapter in *Animal Personalities* (Carere & Maestripieri, 2013, University of Chicago Press) — the definitive handbook of animal personality research.
+- **Notes:** Comprehensive theoretical treatment of why animal personalities evolve. Covers: (1) state-dependent life-history models (morphological/physiological state differences shape optimal behaviour); (2) frequency-dependent selection models (responsive vs. unresponsive coexist at stable equilibrium). Explains the structure of behavioral syndromes and developmental stability of personalities across ontogeny.
+### 449. Wolf_2014.pdf
+- **Citation:** Wolf, M., & Krause, J. (2014). Why personality differences matter for social functioning and social structure. *Trends in Ecology & Evolution*, *29*(6), 306–308. https://doi.org/10.1016/j.tree.2014.03.008
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Conceptual/theoretical framework; selective literature review
+- **Instruments:** N/A
+- **Level of Detail:** Other (animal behaviour / social ecology)
+- **Topic:** Animal Personality / Social Behaviour / Group Dynamics
+- **Quality:** Prestige: XL | *Trends in Ecology & Evolution* — top-tier review journal. Short opinion/perspective piece.
+- **Notes:** Outlines three ways personality differences affect social functioning: (1) social responsiveness promotes behavioral coordination and cooperation; (2) personality diversity enhances group problem-solving ability and swarm intelligence (pool of competence hypothesis); (3) personality-assortative partner preferences generate non-random social networks. Positions personality differences as a driver, not just outcome, of social processes.
+### 450. Wolf_Weissing_2012.pdf
+- **Citation:** Wolf, M., & Weissing, F. J. (2012). Animal personalities: Consequences for ecology and evolution. *Trends in Ecology & Evolution*, *27*(8), 452–461. https://doi.org/10.1016/j.tree.2012.05.001
+- **Purpose:** Review
+- **Methodology:** Narrative Review; conceptual synthesis of 14 ecological and evolutionary implications of personality variation
+- **Instruments:** N/A
+- **Level of Detail:** Other (animal behaviour / ecological theory)
+- **Topic:** Animal Personality / Behavioural Ecology / Evolutionary Consequences / Eco-evolutionary Dynamics
+- **Quality:** Prestige: XL | *Trends in Ecology & Evolution* — top ecology/evolution journal; widely cited comprehensive review.
+- **Notes:** Provides an inventory of 14 ecological and evolutionary consequences of animal personality differences: life history and demography, population density/productivity, stability and persistence, dispersal and invasion, host–parasite interactions, species interactions, social evolution, speed of evolution and evolvability, speciation, and eco-evolutionary dynamics. Argues personality differences are a key third dimension of intraspecific variation alongside genetic and resource-use differences.
+### 451. Zavlis_2023.pdf
+- **Citation:** Zavlis, O., Matheou, A., & Bentall, R. (2023). Identifying the bridge between depression and mania: A machine learning and network approach to bipolar disorder. *Bipolar Disorders*, *25*(7), 571–582. https://doi.org/10.1111/bdi.13316
+- **Purpose:** Original Research
+- **Methodology:** Network psychometrics (Ising model); random forest machine learning; cross-validation (100 iterations); bootstrapped stability; observational cross-sectional; Canadian Community Health Survey 2002
+- **Instruments:** WHO Composite International Diagnostic Interview (CIDI 2000); 24 binary symptom items (12 depression, 12 mania)
+- **Level of Detail:** Other (clinical psychopathology / network analysis)
+- **Topic:** Psychopathology / Network Analysis / Bipolar Disorder / Machine Learning
+- **Quality:** N = 36,557 (representative Canadian population sample) | Structural: L | Large, representative, population-level sample; rigorous cross-validation and bootstrapping. Binary symptom items limit granularity; cross-sectional; lifetime recall bias possible.
+- **Notes:** Ising network models and random forest algorithms identify the statistical structure and bridge symptoms of bipolar disorder. Central symptoms: sadness and anhedonia (depression); racing thoughts and restlessness (mania). Bridge symptoms: sleep disturbances (insomnia/hypersomnia), anhedonia, suicidal ideation, and impulsivity. First study to map the bipolar depressive–manic bridge at population scale using network and ML methods.
+### 452. careau_2010.pdf
+- **Citation:** Careau, V., Réale, D., Humphries, M. M., & Thomas, D. W. (2010). The pace of life under artificial selection: Personality, energy expenditure, and longevity are correlated in domestic dogs. *The American Naturalist*, *175*(6), 753–758. https://doi.org/10.1086/652435
+- **Purpose:** Original Research
+- **Methodology:** Comparative analysis; Spearman bivariate correlations; breed-level literature data; phylogenetic analysis (polytomy structure); N = 19 breeds for longevity, N = 9 for MEI
+- **Instruments:** Draper (1995) dog personality scales (activity, boldness, aggression; trainability proxy); Bonnett et al. (1997) breed longevity; metabolizable energy intake (MEI)
+- **Level of Detail:** Other (comparative animal behaviour / life history)
+- **Topic:** Pace-of-Life Syndrome / Animal Personality / Life History / Energetics
+- **Quality:** N = 19–78 breeds depending on measure | Structural/Evolutionary: S | Breed-level comparative study; small effective N for most analyses; limited phylogenetic structure among modern breeds; preliminary evidence only.
+- **Notes:** Uses dog breed diversity to test the pace-of-life syndrome (POLS): proactive (bold, aggressive) breeds should live fast and die young. Obedient/docile breeds live longer than disobedient/bold breeds; aggressive breeds have higher energy needs. Provides early comparative evidence linking personality type, metabolism, and longevity within a single species under artificial selection.
+### 453. careau_2012.pdf
+- **Citation:** Careau, V., & Garland, T., Jr. (2012). Performance, personality, and energetics: Correlation, causation, and mechanism. *Physiological and Biochemical Zoology*, *85*(6), 543–571. https://doi.org/10.1086/666970
+- **Purpose:** Review
+- **Methodology:** Narrative Review (invited perspective); proposes physiology–performance–behaviour–fitness paradigm; reviews empirical literature across taxa
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (comparative physiology / animal behaviour)
+- **Topic:** Pace-of-Life Syndrome / Animal Personality / Energetics / Performance / Physiology
+- **Quality:** Prestige: L | *Physiological and Biochemical Zoology* — respected specialist journal; invited perspective piece. Comprehensive conceptual synthesis.
+- **Notes:** Proposes a physiology–performance–behaviour–fitness paradigm integrating the pace-of-life syndrome with energetics and locomotor performance. Argues metabolic rate mediates the personality–performance relationship (bold individuals rely on sprint speed; shy individuals on fasting endurance). Reviews cross-taxa evidence for basal metabolic rate–personality–performance links. Calls for studies measuring all three levels simultaneously within the same population.
+### 454. Latzman_etal_2016.pdf
+- **Citation:** Latzman, R. D., Hecht, L. K., Freeman, H. D., Schapiro, S. J., & Hopkins, W. D. (2015). Neuroanatomical correlates of personality in chimpanzees (*Pan troglodytes*): Associations between personality and frontal cortex. *NeuroImage*, *123*, 63–71. https://doi.org/10.1016/j.neuroimage.2015.08.041
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; voxel-based morphometry (VBM) MRI; multiple regression with FDR correction
+- **Instruments:** Chimpanzee Personality Questionnaire (CPQ; Freeman et al., 2013); observer-rated personality dimensions
+- **Level of Detail:** Other (comparative neuroanatomy / animal personality)
+- **Topic:** Comparative Personality / Personality Neuroscience / Primate Behavior
+- **Quality:** N = 107 captive chimpanzees | Structural/Evolutionary: M | Modest N for VBM; FDR correction applied; observer-rated personality; single-species cross-sectional design. Translational limitations from captive sample.
+- **Notes:** First study to examine neuroanatomical correlates of personality in nonhuman primates. Higher Openness and Extraversion associated with greater bilateral grey matter volume in anterior cingulate cortex (ACC); higher Dominance linked to larger ACC and right PFC volume; higher Reactivity/Unpredictability associated with greater right mesial PFC volume. Results parallel human personality neuroscience findings, suggesting evolutionarily conserved neural substrates for broad dispositional traits.
+---
+### 455. Leclerc_2016.pdf
+- **Citation:** Leclerc, M., Vander Wal, E., Zedrosser, A., Swenson, J. E., Kindberg, J., & Pelletier, F. (2016). Quantifying consistent individual differences in habitat selection. *Oecologia*, *180*(3), 697–705. https://doi.org/10.1007/s00442-015-3500-6
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal; resource selection functions (RSFs) with random coefficients; repeatability estimation (ICC); GPS telemetry
+- **Instruments:** GPS collar relocation data; RSF logistic regression; lme4 R package
+- **Level of Detail:** Other (animal ecology / individual differences in behaviour)
+- **Topic:** Animal Personality / Individual Differences / Behavioral Ecology / Life History
+- **Quality:** N = 31 GPS-collared brown bears (87 bear-years, 2007–2012) | Structural/Evolutionary: M | 6-year longitudinal GPS dataset; rigorous repeatability framework; small N of individuals but dense repeated measures. Single population, single species, single season.
+- **Notes:** Applied random-coefficient RSFs and repeatability estimates to brown bear GPS data to quantify consistent individual differences in habitat selection for bogs (r = 0.304) and cut blocks (r = 0.420). Demonstrates that 30–42% of population-level habitat selection variability is attributable to stable among-individual differences. Proposes this framework connects animal personality research to habitat ecology and evolutionary potential of habitat selection.
+---
+### 456. Lefebvre_2004.pdf
+- **Citation:** Lefebvre, L., Reader, S. M., & Sol, D. (2004). Brains, innovations and evolution in birds and primates. *Brain, Behavior and Evolution*, *63*(4), 233–246. https://doi.org/10.1159/000076784
+- **Purpose:** Review
+- **Methodology:** Narrative Review; comparative analysis of innovation rate databases (2,213 birds; 533 primates); multivariate statistical controls for publication biases
+- **Instruments:** Innovation rate index (published behavioral reports); relative brain size measures (neocortex + hyperstriatum ventrale)
+- **Level of Detail:** Other (comparative cognition / evolutionary neuroscience)
+- **Topic:** Cognitive Evolution / Brain Size / Comparative Cognition / Innovation
+- **Quality:** Prestige: L | *Brain, Behavior and Evolution* — respected specialist journal. Comprehensive comparative synthesis with large observational databases.
+- **Notes:** Reviews the innovation-rate research program linking behavioral flexibility to relative brain size across birds and primates. In both taxa, innovation rate correlates positively with relative size of association areas (neocortex + striatum in primates; hyperstriatum ventrale + neostriatum in birds), with tool use frequency, and with individual learning performance. Ecological correlates include successful invasion of novel environments and response to seasonal resource change. Discusses mosaic versus whole-brain evolution and the challenge of bias controls in comparative databases.
+---
+### 457. Leimar_McNamara_2022.pdf
+- **Citation:** Leimar, O., & McNamara, J. M. (2023). Game theory in biology: 50 years and onwards. *Philosophical Transactions of the Royal Society B*, *378*(1876), 20210509. https://doi.org/10.1098/rstb.2021.0509
+- **Purpose:** Review
+- **Methodology:** Narrative Review; historical and conceptual analysis of evolutionary game theory; covers ESS, animal contests, signaling, cooperation
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary theory / behavioral ecology)
+- **Topic:** Evolutionary Game Theory / Animal Behavior / Cooperation / Evolution
+- **Quality:** Prestige: XL | *Philosophical Transactions of the Royal Society B* — top-tier biology review journal; invited theme-issue contribution. Authoritative review by leading figures in the field.
+- **Notes:** Reviews 50 years of evolutionary game theory in biology since Maynard Smith & Price (1973). Covers the ESS concept, contest behavior (sequential assessment, mutual assessment, dangerous contests), signaling games, cooperation (reciprocity vs. pseudo-reciprocity), and biological markets. Argues for the importance of incorporating realistic behavioral mechanisms into game-theory models as a promising future direction. Emphasizes distinguishing biological market dynamics from strict reciprocity in explaining cooperation in non-human animals.
+---
+### 458. Linder_etal_2020.pdf
+- **Citation:** Linder, A. C., Gottschalk, A., Lyhne, H., Langbak, M. G., Jensen, T. H., & Pertoldi, C. (2020). Using behavioral instability to investigate behavioral reaction norms in captive animals: Theoretical implications and future perspectives. *Symmetry*, *12*(4), 603. https://doi.org/10.3390/sym12040603
+- **Purpose:** Original Research
+- **Methodology:** Observational case study; continuous focal sampling; behavioral ethogram; behavioral instability (BSYM, BVAR) metrics; chi-squared tests; IQR and MAD outlier methods
+- **Instruments:** Behavioral ethogram (7 categories); behavioral instability indices (BSYM, BVAR); olfactory enrichment stimuli (dog-scented objects)
+- **Level of Detail:** Other (applied animal behaviour / zoo biology)
+- **Topic:** Animal Personality / Behavioral Ecology / Animal Welfare / Reaction Norms
+- **Quality:** N = 2 captive polar bears | Structural: S | Extreme small N (n=2 siblings); descriptive case study; primarily a methodological proof-of-concept. No inferential statistics on individual differences.
+- **Notes:** Introduces behavioral instability (BSYM = asymmetry of behavioral distribution; BVAR = residual variance) as a quantitative method for assessing behavioral reaction norms in captive animals. Case study with two female polar bears exposed to dog-scented vs. control conditions across nine 9-hour observation sessions. The two bears differed in behavioral responses to olfactory stimuli, illustrating individual differences in reaction norms. Argues behavioral instability complements traditional ethogram methods and that outliers should not be removed without careful consideration.
+---
+### 459. MacLean_etal_2012.pdf
+- **Citation:** MacLean, E. L., Matthews, L. J., Hare, B. A., Nunn, C. L., Anderson, R. C., Aureli, F., … Wobber, V. (2012). How does cognition evolve? Phylogenetic comparative psychology. *Animal Cognition*, *15*(2), 223–238. https://doi.org/10.1007/s10071-011-0448-8
+- **Purpose:** Review
+- **Methodology:** Narrative Review; phylogenetic comparative methods tutorial; illustrative dataset analyses (PGLS, ancestral state reconstruction, phylogenetic signal)
+- **Instruments:** N/A (methodological review with illustrative data)
+- **Level of Detail:** Other (comparative cognition / evolutionary biology)
+- **Topic:** Cognitive Evolution / Comparative Psychology / Phylogenetic Methods
+- **Quality:** Prestige: L | *Animal Cognition* — leading comparative cognition journal; large multi-author team from multiple institutions. Influential methodological synthesis.
+- **Notes:** Argues for integration of comparative psychology and evolutionary biology via phylogenetic comparative methods (PCMs). Explains how PCMs can (1) test correlations between cognition and life history/ecological variables, (2) measure phylogenetic signal in cognitive traits, and (3) reconstruct ancestral cognitive states. Demonstrates methods with example data on self-control across primate species. Advocates for large-scale cross-institutional collaborations ("ManyPrimates"-style) and phylogenetic targeting to select informative species comparisons.
+---
+### 460. Maher_2008.pdf
+- **Citation:** Maher, B. (2008). The case of the missing heritability. *Nature*, *456*(7218), 18–21. https://doi.org/10.1038/456018a
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Science journalism; narrative synthesis of GWAS and heritability findings across traits
+- **Instruments:** N/A
+- **Level of Detail:** Other (behavior genetics / genomics)
+- **Topic:** Behavior Genetics / Missing Heritability / GWAS / Genomics
+- **Quality:** Prestige: XL | *Nature* news feature. Not a primary empirical study; journalistic synthesis of a major unresolved problem in genomics circa 2008.
+- **Notes:** Accessible synthesis of the "missing heritability" problem: GWAS variants identified for height and common diseases explain only a small fraction of the heritability estimated from twin studies. Outlines six candidate explanations: many common variants of small effect, rare variants of moderate effect, copy number variants, gene–gene interactions (epistasis), gene–environment interactions, and epigenetic effects. Contextualizes the problem across traits including height, autism, schizophrenia, obesity, and diabetes.
+---
+### 461. Martin_2025.pdf
+- **Citation:** Martin, J. S., Westneat, D. F., Wilson, A. J., Dingemanse, N. J., & Araya-Ajoy, Y. G. (2025). Frequency dependence favours social plasticity and facilitates socio-eco-evolutionary feedback in fluctuating environments. *Functional Ecology*, *39*(12), 3061–3077. https://doi.org/10.1111/1365-2435.70132
+- **Purpose:** Original Research
+- **Methodology:** Theoretical/Mathematical; quantitative genetic modeling; social reaction norm (SRN) framework; evolutionary quantitative genetics
+- **Instruments:** N/A (theoretical model)
+- **Level of Detail:** Other (evolutionary quantitative genetics / theoretical biology)
+- **Topic:** Social Plasticity / Indirect Genetic Effects / Quantitative Genetics / Eco-Evolutionary Dynamics
+- **Quality:** Prestige: L | *Functional Ecology* — leading ecology journal. Formal theoretical contribution with broad applicability.
+- **Notes:** Develops quantitative genetic theory for social reaction norms (SRNs) in fluctuating environments. Shows that frequency-dependent selection within microhabitats generates selection for reversible social plasticity (quantified by the ψ interaction coefficient) and promotes adaptive evolution of indirect genetic effects (IGEs). Ecological factors (density dependence) shape frequency-dependent costs/benefits and select for multidimensional social plasticity. Demonstrates pathways for socio-eco-evolutionary feedback at microevolutionary timescales, bridging the study of phenotypic plasticity, IGEs, and eco-evolutionary dynamics.
+---
+### 462. Dingemanse_Reale_2005.pdf
+- **Citation:** Dingemanse, N. J., & Réale, D. (2005). Natural selection and animal personality. *Behaviour*, *142*(9–10), 1165–1190. https://doi.org/10.1163/156853905774539445
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (animal behaviour)
+- **Topic:** Animal Personality / Behavioural Ecology / Natural Selection / Evolutionary Consequences
+- **Quality:** Prestige: L | *Behaviour* — respected specialist journal; foundational review widely cited in animal personality field
+- **Notes:** Reviews fitness consequences of personality traits in natural populations, with case studies from great tits (*Parus major*) and bighorn sheep (*Ovis canadensis*). Demonstrates that natural selection acts on exploratory behaviour, boldness, and docility, with direction fluctuating by year, sex, and ecological conditions. Advocates use of Lande & Arnold (1983) phenotypic selection approach and discusses both direct (correlational selection) and indirect (population comparison) methods for studying adaptive personality.
+### 463. Dingemanse_Wolf_2010.pdf
+- **Citation:** Dingemanse, N. J., & Wolf, M. (2010). Recent models for adaptive personality differences: a review. *Philosophical Transactions of the Royal Society B*, *365*(1560), 3947–3958. https://doi.org/10.1098/rstb.2010.0221
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (theoretical models)
+- **Topic:** Animal Personality / Evolutionary Theory / Mathematical Modeling
+- **Quality:** Prestige: XL | *Phil Trans R Soc B* — top-tier review outlet in evolutionary biology; theme issue on animal personality
+- **Notes:** Reviews three classes of formal models for adaptive personality differences: (i) state-dependent models (energy reserves, body size, residual reproductive value, productivity, metabolic rate, fighting ability); (ii) feedback models between labile state and behaviour (energy reserves, experience, RRV, state-dependent safety); and (iii) non-state-based models (frequency-dependent selection on responsiveness, variation and responsiveness co-evolution, signalling). Concludes empiricists should test model predictions more explicitly; calls for models addressing plasticity variation, ecology-personality links, and heritable vs. environmental determination.
+### 464. Dingemanse_wolf_2013.pdf
+- **Citation:** Dingemanse, N. J., & Wolf, M. (2013). Between-individual differences in behavioural plasticity within populations: causes and consequences. *Animal Behaviour*, *85*(5), 1031–1039. https://doi.org/10.1016/j.anbehav.2012.12.032
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (behavioural reaction norms)
+- **Topic:** Animal Personality / Behavioural Plasticity / Evolutionary Ecology
+- **Quality:** Prestige: L | *Animal Behaviour* — leading specialist journal; special issue on behavioural plasticity and evolution; comprehensive theoretical synthesis
+- **Notes:** Uses a behavioural reaction norm framework to analyse between-individual differences in plasticity (reaction norm slopes) within populations, distinguishing causes (genetic make-up G×CE, past experience PE×CE, and their interactions) from consequences. Outlines three adaptive mechanisms generating plasticity variation: state differences, spatial/temporal environmental variation with competition (frequency-dependent selection), and direct social interactions (Hawk-Dove dynamics). Discusses evolutionary consequences including environment-specific heritability, population stability, and evolutionary constraints from personality-plasticity correlations.
+### 465. Dingemanse_Wright_2020.pdf
+- **Citation:** Dingemanse, N. J., & Wright, J. (2020). Criteria for acceptable studies of animal personality and behavioural syndromes. *Ethology*, *126*(9), 865–869. https://doi.org/10.1111/eth.13082
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (methodology)
+- **Topic:** Animal Personality / Methodology / Psychometrics
+- **Quality:** Prestige: M | *Ethology* — standard specialist journal; editorial commentary providing methodological guidelines
+- **Notes:** Defines animal personality as the repeatable part of individual behaviour, requiring repeated-measures designs; single-measure studies are not formally personality studies (average repeatability ~0.4 means single measures are dominated 60% by within-individual variation). Warns against pseudo-repeatability from spatiotemporal environmental autocorrelations. Recommends univariate mixed-effects models reporting all variance components and adjusted repeatability; multivariate GLMMs for behavioural syndromes; advocates SEM over PCA for testing specific covariance structures.
+### 466. FREEMAN_etal_2013.pdf
+- **Citation:** Freeman, H. D., Brosnan, S. F., Hopper, L. M., Lambeth, S. P., Schapiro, S. J., & Gosling, S. D. (2013). Developing a comprehensive and comparative questionnaire for measuring personality in chimpanzees using a simultaneous top-down/bottom-up design. *American Journal of Primatology*, *75*(10), 1042–1054. https://doi.org/10.1002/ajp.22168
+- **Purpose:** Instrument Validation
+- **Methodology:** Cross-Sectional, Factor Analysis, Instrument Validation
+- **Instruments:** New 41-item chimpanzee personality questionnaire (combined Hominoid Personality Questionnaire + Madingley Questionnaire items + expert-nominated items)
+- **Level of Detail:** Other (chimpanzee personality)
+- **Topic:** Animal Personality / Instrument Validation / Comparative Psychology / Primate Behaviour
+- **Quality:** N = 99 chimpanzees, 17 raters | Structural: M | Moderate N for PCA; adequate ICC reliabilities for 5 of 6 factors; cross-validated against 6 prior scales and independent behavioral observations. Single facility (KCCMR); captive-only; predominantly care staff raters.
+- **Notes:** N = 99 chimpanzees (ages 8–48) rated by 17 staff at UT MD Anderson Cancer Center. PCA with varimax rotation yielded 6 factors: Reactivity/Undependability, Dominance, Extraversion, Openness, Agreeableness (strong support), and Methodical (provisional). Convergent validity confirmed against 6 prior chimpanzee personality studies; predictive validity demonstrated against independently collected behavioral observations 2 years prior.
+### 467. Gering_etal_2019.pdf
+- **Citation:** Gering, E., Incorvaia, D., Henriksen, R., Conner, J., Getty, T., & Wright, D. (2019). Getting back to nature: Feralization in animals and plants. *Trends in Ecology & Evolution*, *34*(12), 1137–1151. https://doi.org/10.1016/j.tree.2019.07.018
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (comparative evolutionary biology)
+- **Topic:** Feralization / Domestication / Evolutionary Ecology / Animal Behavior / Behavioral Genetics
+- **Quality:** Prestige: XL | *Trends in Ecology & Evolution* — top ecology/evolution review journal; open access; comprehensive synthesis with tables of domesticated taxa, feral sources, and domestication loci
+- **Notes:** Reviews feralization (formerly domesticated organisms establishing in absence of human propagation) through an evolutionary lens. Distinguishes endoferal (single domesticated lineage) from exoferal (admixture) origins. Key sections cover fitness consequences of admixture (often outbreeding depression in wild fish; hybrid vigor in plants), effects of domestication/improvement alleles in feral settings, feral brains and behaviors, and reconsidering reversions — genomic data show phenotypic reversions often involve novel genetic mechanisms rather than re-expression of ancestral alleles.
+### 468. Gleeson_Wilson_2023.pdf
+- **Citation:** Gleeson, B. T., & Wilson, L. A. B. (2023). Shared reproductive disruption, not neural crest or tameness, explains the domestication syndrome. *Proceedings of the Royal Society B*, *290*, 20222464. https://doi.org/10.1098/rspb.2022.2464
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (evolutionary biology / domestication)
+- **Topic:** Domestication / Domestication Syndrome / Neural Crest Hypothesis / Evolutionary Theory / Self-Domestication
+- **Quality:** Prestige: XL | *Proceedings of the Royal Society B* — top-tier general biology journal; open access; synthesizes and critiques the major theoretical frameworks in the field
+- **Notes:** Proposes a novel "reproductive disruption" hypothesis for the domestication syndrome, arguing shared trait changes across domesticates result from four shared selective pathways: (1) disrupted male intrasexual selection (tameness/docility); (2) disrupted male intersexual selection (limited mate pool); (3) changed resource availability and predation pressure affecting female reproduction; and (4) intensified maternal stress in captivity. Argues NCC-derived features change coincidentally because NCCs contribute ubiquitously to reproductively relevant vertebrate traits (Table 1), not due to pleiotropic NCC regulatory disruption as posited by Wilkins et al. (2014). Extends the framework to self-domestication (island effect, commensal populations, hominin evolution).
+### 469. Halsey_etal_2022.pdf
+- **Citation:** Halsey, L. G., Careau, V., Pontzer, H., Ainslie, P. N., Andersen, L. F., Anderson, L. J., Arab, L., Baddou, I., Bedu-Addo, K., Blaak, E. E., [et al.], & Speakman, J. R. (2022). Variability in energy expenditure is much greater in males than females. *Journal of Human Evolution*, *171*, 103229. https://doi.org/10.1016/j.jhevol.2022.103229
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Mega-Analysis
+- **Instruments:** IAEA Doubly Labelled Water (DLW) database v. 3.1.2; doubly-labelled water for TEE; indirect calorimetry for BEE
+- **Level of Detail:** Other (human energetics / sex differences)
+- **Topic:** Energy Expenditure / Sexual Selection / Greater Male Variability / Human Evolution / Sex Differences
+- **Quality:** N = 4,602 adults (1,494 males, 3,108 females) | Structural: L | Large N; Bayesian MCMC analysis with multiple covariate sets; IAEA global database across 30 countries; 65% US participants, predominantly Western; N for BEE/AEE analyses smaller (n = 1,756).
+- **Notes:** N = 4,602 adults from IAEA DLW database. Even after statistically controlling for age, height, fat-free mass, and fat mass, total, basal, and activity energy expenditure are 2.4×, 1.5×, and 2.1× more variable in males than females respectively. Greater male variability (GMV) in AEE likely driven by greater male variation in physical activity levels. GMV in BEE (which eliminates behavioral contribution) is unexplained by morphometrics, implicating greater male variation in organ sizes (heart, brain, kidneys). Two mechanisms proposed: sexual selection on male energy expenditure-related traits; stabilizing selection on female BEE to optimize energy available for reproduction under limited food supply. GMV in TEE reduced in non-Western countries.
+### 470. Hare_2012.pdf
+- **Citation:** Hare, B., Wobber, V., & Wrangham, R. (2012). The self-domestication hypothesis: Evolution of bonobo psychology is due to selection against aggression. *Animal Behaviour*, *83*(3), 573–585. https://doi.org/10.1016/j.anbehav.2011.12.007
+- **Purpose:** Review
+- **Methodology:** Narrative Review; comparative synthesis of experimental and observational evidence contrasting bonobos and chimpanzees; a priori hypothesis testing framework
+- **Instruments:** N/A (review/comparative synthesis)
+- **Level of Detail:** Other (comparative primatology / evolutionary psychology / domestication)
+- **Topic:** Self-Domestication / Bonobo / Domestication Syndrome / Comparative Cognition / Aggression / Evolution
+- **Quality:** Prestige: XL | *Animal Behaviour* — leading specialist journal; highly cited review advancing a major theoretical framework with a priori experimental tests.
+- **Notes:** Proposes that bonobos (*Pan paniscus*) have undergone self-domestication — selection against aggression due to relaxed feeding competition — producing a domestication syndrome parallel to that seen in domesticated mammals (juvenilized morphology, reduced HPA reactivity, altered pigmentation). Reviews first a priori experimental tests showing bonobo psychology echoes that of domesticated species: greater tolerance, cooperative communication, and juvenilized development relative to chimpanzees. Raises the possibility that self-domestication is a widespread mammalian evolutionary process mediated by regulatory gene changes.
+---
+### 471. Hare_2017.pdf
+- **Citation:** Hare, B. (2017). Survival of the friendliest: *Homo sapiens* evolved via selection for prosociality. *Annual Review of Psychology*, *68*, 155–186. https://doi.org/10.1146/annurev-psych-010416-044201
+- **Purpose:** Review
+- **Methodology:** Narrative Review; comparative developmental, neurobiological, and paleoanthropological synthesis; review of a priori tests
+- **Instruments:** N/A (review)
+- **Level of Detail:** Other (comparative cognition / human evolution / self-domestication)
+- **Topic:** Self-Domestication / Human Cognitive Evolution / Prosociality / Domestication Syndrome / Social Cognition
+- **Quality:** Prestige: XL | *Annual Review of Psychology* — top-tier annual review journal. Comprehensive synthetic review by the field's leading proponent.
+- **Notes:** Argues that early-emerging cooperative-communicative skills underlie all distinctively human cultural cognition, including language, and that these evolved via self-domestication — natural selection for in-group prosociality over aggression in late Homo evolution. Reviews evidence from comparisons of apes, dogs, foxes, and bonobos, as well as developmental and neurobiological data in humans. Synthesizes evidence for the domestication syndrome in humans (whites of eyes, scleral morphology, reduced reactive aggression) and proposes self-control as a uniquely human feature of self-domestication.
+---
+### 472. Herrmann_2007.pdf
+- **Citation:** Herrmann, E., Call, J., Hernández-Lloreda, M. V., Hare, B., & Tomasello, M. (2007). Humans have evolved specialized skills of social cognition: The cultural intelligence hypothesis. *Science*, *317*(5843), 1360–1366. https://doi.org/10.1126/science.1146282
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; Primate Cognition Test Battery (PCTB); comparative cognitive testing across three groups (chimpanzees, orangutans, 2.5-year-old human children)
+- **Instruments:** Primate Cognition Test Battery (PCTB) — physical cognition (space, quantities, causality) and social cognition (social learning, communication, theory of mind) scales
+- **Level of Detail:** Other (comparative cognition / evolutionary psychology)
+- **Topic:** Cultural Intelligence / Comparative Cognition / Social Cognition / Human Cognitive Evolution / Theory of Mind
+- **Quality:** N = 106 chimpanzees, 32 orangutans, 105 human children (2.5 years) | Structural: L | Landmark comparative study; large sample for comparative primatology; comprehensive battery; but cross-sectional and cross-species comparison has inherent interpretive limits.
+- **Notes:** First systematic comparison of physical and social cognitive skills across humans and two non-human ape species using a single comprehensive battery. Children and chimpanzees perform equally well on physical cognition tasks; children dramatically outperform both ape species on social-cultural cognition (communication, social learning, theory of mind). Results support the cultural intelligence hypothesis over general intelligence: humans evolved specialized social-cognitive skills for cultural participation, not uniformly superior general intelligence.
+---
+### 473. Johnsson_2021.pdf
+- **Citation:** Johnsson, M., Henriksen, R., & Wright, D. (2021). The neural crest cell hypothesis: No unified explanation for domestication. *Genetics*, *219*(1), iyab097. https://doi.org/10.1093/genetics/iyab097
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Critical theoretical review; evaluation of empirical genetic evidence from selective sweep scans and candidate gene studies
+- **Instruments:** N/A (theoretical/review)
+- **Level of Detail:** Other (genetics / domestication / evolutionary biology)
+- **Topic:** Domestication / Neural Crest Cell Hypothesis / Domestication Syndrome / Evolutionary Genetics / Pleiotropy
+- **Quality:** Prestige: L | *Genetics* — highly respected genetics journal; peer-reviewed critical letter/commentary with substantive empirical content.
+- **Notes:** Presents three arguments against the Wilkins et al. (2014) neural crest cell (NCC) hypothesis as a unified explanation for the domestication syndrome: (1) several putative NCC-derived traits (floppy ears, facial shape) are not universal across domesticates; (2) even if a domestication syndrome exists, it need not imply a single genetic mechanism; (3) direct evidence that the mechanism is specifically NCC proliferation/migration is indirect and weak. Reviews selective sweep data from domestic animals and concludes that while NCC-related genes appear enriched, this may reflect the ubiquity of neural crest contributions to vertebrate development rather than specific selection on NCC pathways.
+---
+### 474. Kaufman_2018.pdf
+- **Citation:** Kaufman, S. B., Weiss, B., Miller, J. D., & Campbell, W. K. (2018). Clinical correlates of vulnerable and grandiose narcissism: A personality perspective. *Journal of Personality Disorders*, *34*(1), 107–130. https://doi.org/10.1521/pedi_2018_32_384
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; online survey (MTurk); correlational and multiple regression analyses
+- **Instruments:** Five-Factor Narcissism Inventory–Short Form (FFNI-SF); Interpersonal Guilt Questionnaire (IGQ); Experiences in Close Relationships Scale; Beck Cognitive Insight Scale; Defense Style Questionnaire; Acceptance and Action Questionnaire (AAQ-II); Clance Impostor Phenomenon Scale; BFI-2 Agreeableness, Extraversion, Openness, Conscientiousness subscales; BFAS Extraversion; Rosenberg Self-Esteem Scale; Authenticity Scale; Ryff Psychological Well-Being scales
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Narcissism / Personality Disorders / Psychopathology / Trifurcated Model / Well-Being
+- **Quality:** N = 273 (MTurk) | Structural: M | Adequate N for detecting moderate correlations; self-report only; MTurk convenience sample (88.6% White, 57.5% female, mean age 36); cross-sectional. Demonstrates trifurcated model utility but limited generalizability.
+- **Notes:** Tests a trifurcated three-factor model of narcissism (Antagonism, Agentic Extraversion, Neuroticism) against clinical criteria. Antagonism and Neuroticism are the clinically most consequential dimensions — associated with guilt, insecure attachment, cognitive distortions, maladaptive defenses, experiential avoidance, impostor syndrome, inauthenticity, and low well-being. Grandiose narcissism (high Agentic Extraversion + Antagonism, low Neuroticism) was largely uncorrelated with psychopathology and positively associated with life satisfaction, but surprisingly linked to inauthenticity indicators.
+---
+### 475. Kermany_2023.pdf
+- **Citation:** Kermany, N., Martin, J. G. A., & Careau, V. (2023). Individual (co)variation in locomotor activity, temporal plasticity, and predictability within a novel environment. *Behavioral Ecology and Sociobiology*, *77*, 93. https://doi.org/10.1007/s00265-023-03365-z
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; live-trapping wild *Peromyscus leucopus*; novel environment open-field test (10 min); multilevel reaction norm models; double hierarchical generalized linear mixed models (DHGLM); repeatability estimation across temporal scales
+- **Instruments:** Open-field locomotor activity test (distance moved); multiple temporal bin sizes (15 s to 200 s); individual ID from ear tags
+- **Level of Detail:** Other (animal personality / behavioral ecology)
+- **Topic:** Animal Personality / Behavioral Predictability / Phenotypic Plasticity / Reaction Norms / Behavioral Ecology
+- **Quality:** N = 572 individual wild mice | Structural: L | Large wild-caught sample for behavioral ecology; rigorous statistical partitioning of personality, plasticity, and predictability; novel DHGLM approach; but single-population cross-sectional design and no fitness consequences measured.
+- **Notes:** Quantifies individual variation in three components of behavior simultaneously — personality (intercept), short-term temporal plasticity (slope), and predictability (within-individual residual variance) — in wild white-footed mice. Repeatability of predictability was significant but varied with temporal scale (R = 0.11–0.36). Unpredictable individuals showed less plasticity (lower slope). The sign of the personality–predictability correlation reversed across temporal scales. Results highlight that temporal scale is a critical and often neglected parameter in behavioral consistency research.
+---
+### 476. King_1997.pdf
+- **Citation:** King, J. E., & Figueredo, A. J. (1997). The five-factor model plus dominance in chimpanzee personality. *Journal of Research in Personality*, *31*(2), 257–271. https://doi.org/10.1006/jrpe.1997.2179
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; observer ratings; exploratory factor analysis (EFA); multi-rater reliability analysis (intraclass correlation); ANOVA for zoo-site effects
+- **Instruments:** 43 trait-descriptive adjectives derived from Goldberg (1990) Big Five taxonomy; 7-point rating scale with behavioral definitions adapted for chimpanzees
+- **Level of Detail:** Other (comparative personality / animal personality)
+- **Topic:** Animal Personality / Chimpanzee / Big Five / Comparative Psychology / Personality Structure
+- **Quality:** N = 100 chimpanzees across 12 zoos; 53 raters (mean 4.05/chimpanzee) | Structural: M | Pioneer study; reasonable N for comparative work; multi-rater design; single-species EFA. No standard instrument; zoo-housed convenience sample; no cross-validation or independent replication sample.
+- **Notes:** First quantitative evidence for Big Five-analogous personality structure in chimpanzees using observer ratings on adjective descriptors drawn from the human lexical taxonomy. EFA recovered six factors: five closely resembling human Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism, plus a sixth Dominance factor consistent with the centrality of social rank in chimpanzee society. Interrater reliability was acceptable (overall η = .75). Results imply that the human personality structure substantially predates the emergence of *Homo sapiens*.
+---
+### 477. Laland_etal_2015.pdf
+- **Citation:** Laland, K. N., Uller, T., Feldman, M. W., Sterelny, K., Müller, G. B., Moczek, A., Jablonka, E., & Odling-Smee, J. (2015). The extended evolutionary synthesis: Its structure, assumptions and predictions. *Proceedings of the Royal Society B*, *282*, 20151019. https://doi.org/10.1098/rspb.2015.1019
+- **Purpose:** Review
+- **Methodology:** Narrative Review; theoretical synthesis; comparative framework (MS vs. EES assumptions)
+- **Instruments:** N/A (theoretical review)
+- **Level of Detail:** Other (evolutionary theory / philosophy of biology)
+- **Topic:** Extended Evolutionary Synthesis / Evo-Devo / Developmental Plasticity / Niche Construction / Inclusive Inheritance / Evolutionary Theory
+- **Quality:** Prestige: XL | *Proceedings of the Royal Society B* — top-tier general biology journal; Darwin Review article; widely cited foundational theoretical paper.
+- **Notes:** Lays out the structure, core assumptions, and novel predictions of the Extended Evolutionary Synthesis (EES) as a conceptual framework distinct from — but not a rejection of — the Modern Synthesis. Focuses on four literatures: evo-devo, developmental plasticity, inclusive inheritance (epigenetic, behavioral, cultural, ecological), and niche construction. Argues the EES repositions developmental processes as co-directional causes of evolution alongside natural selection, emphasizes reciprocal causation, non-random phenotypic variation via developmental bias, and organism-environment complementarity. Provides side-by-side comparison of MS vs. EES core assumptions and derives testable predictions.
+---
+### 478. Martin_etal_2025.pdf
+- **Citation:** Martin, J. S., Araya-Ajoy, Y. G., Dingemanse, N. J., Wilson, A. J., & Westneat, D. F. (2025). Estimating (non)linear selection on reaction norms: A general framework for labile traits. *Ecology and Evolution*, *15*, e72298. https://doi.org/10.1002/ece3.72298
+- **Purpose:** Original Research
+- **Methodology:** Experimental/Intervention (simulation validation); Bayesian multilevel modeling; quantitative genetics; reaction norm modeling
+- **Instruments:** N/A (statistical/methodological framework paper; simulated data)
+- **Level of Detail:** Other (quantitative methods / phenotypic evolution / behavioral ecology)
+- **Topic:** Reaction Norms / Phenotypic Plasticity / Natural Selection / Animal Personality / Quantitative Methods / Evolutionary Ecology
+- **Quality:** Prestige: L | *Ecology and Evolution* — well-regarded open-access BES/Wiley journal. Methods paper validated by simulation rather than empirical N; generalizable framework with demonstrated statistical performance.
+- **Notes:** Proposes generalized multilevel Bayesian models to estimate stabilizing, disruptive, and correlational selection on individual reaction norm parameters (intercepts, slopes, residuals) for any repeatedly measured labile trait. Simulation validation shows unbiased estimates across a broad range of effect sizes with adequate power at large N. Provides coding tutorials and formal justification for why ignoring parameter uncertainty inflates false positives in selection analyses.
+---
+### 479. McCune_etal_2023.pdf
+- **Citation:** McCune, K., Blaisdell, A., Johnson-Ulrich, Z., Sevchik, A., Lukas, D., MacPherson, M., Seitz, B., & Logan, C. J. (2023). Using repeatability of performance within and across contexts to validate measures of behavioral flexibility. *PeerJ*, *11*, e15773. https://doi.org/10.7717/peerj.15773
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal (repeated testing); serial reversal learning; multi-access box task; repeatability analysis (ICC)
+- **Instruments:** Serial color reversal learning task; two multi-access box puzzle tasks; intraclass correlation coefficients for repeatability
+- **Level of Detail:** Other (comparative cognition / animal personality / construct validity)
+- **Topic:** Behavioral Flexibility / Animal Cognition / Construct Validity / Repeatability / Comparative Psychology
+- **Quality:** N = small (wild-caught great-tailed grackles, exact N not extracted from first 3 pages) | Structural: M | Rigorous longitudinal design within individuals; multiple task contexts; but small N inherent to comparative field cognition; single species, single population.
+- **Notes:** Tests temporal and contextual repeatability of behavioral flexibility in great-tailed grackles using serial reversal learning and two multi-access boxes. Performance was repeatable both across serial reversals (temporal) and across the reversal task and solution-switching on the multi-access boxes (contextual), supporting construct validity of the reversal learning paradigm as a measure of an inherent cognitive trait. Findings provide strong psychometric grounding for using reversal learning as a proxy for behavioral flexibility.
+---
+### 480. castro_2015.pdf
+- **Citation:** Castro-Meneses, L. J., Johnson, B. W., & Sowman, P. F. (2015). The effects of impulsivity and proactive inhibition on reactive inhibition and the go process: Insights from vocal and manual stop signal tasks. *Frontiers in Human Neuroscience*, *9*, 529. https://doi.org/10.3389/fnhum.2015.00529
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; experimental stop signal task (SST); two response modalities (vocal and manual); two stop probability conditions
+- **Instruments:** Stop Signal Task (SST); Barratt Impulsiveness Scale or similar self-report impulsivity measure; stop signal reaction time (SSRT)
+- **Level of Detail:** Other (cognitive neuroscience / response inhibition / impulsivity)
+- **Topic:** Response Inhibition / Impulsivity / Proactive Inhibition / Reactive Inhibition / Stop Signal Task / Cognitive Neuroscience
+- **Quality:** N = 44 | Structural: S | Very small N; single-site convenience sample; but novel dual-modality design with two stop probability conditions; adequate for within-subject comparisons though underpowered for individual differences.
+- **Notes:** Examines the relationship between proactive inhibition (anticipatory slowing in high stop-probability condition) and reactive inhibition (SSRT) across vocal and manual response modalities in 44 healthy participants. High stop probability induced greater proactive inhibition and shorter SSRTs, consistent with the hypothesis that proactive inhibition pre-activates the reactive inhibition network. Dysfunctional (but not functional) impulsivity was positively associated with SSRT in both modalities.
+---
+### 481. dammhahn_2018.pdf
+- **Citation:** Dammhahn, M., Dingemanse, N. J., Niemelä, P. T., & Réale, D. (2018). Pace-of-life syndromes: A framework for the adaptive integration of behaviour, physiology and life history. *Behavioral Ecology and Sociobiology*, *72*, 62. https://doi.org/10.1007/s00265-018-2473-y
+- **Purpose:** Commentary/Editorial
+- **Methodology:** Narrative Review; theoretical synthesis; editorial introduction to topical collection
+- **Instruments:** N/A (review/editorial)
+- **Level of Detail:** Other (behavioral ecology / life history / animal personality)
+- **Topic:** Pace-of-Life Syndromes / Life History / Animal Personality / Behavioral Ecology / Phenotypic Integration
+- **Quality:** Prestige: L | *Behavioral Ecology and Sociobiology* — leading specialist journal; editorial introduction to a major topical collection synthesizing a decade of POLS research.
+- **Notes:** Introduces and refines the pace-of-life syndrome (POLS) hypothesis, which posits that consistent behavioral differences (personality), physiological traits, and life-history strategies co-vary adaptively across the slow–fast life-history continuum. Provides a working definition of POLS applicable at genetic, individual, population, and species levels. Identifies mixed empirical support at within-species levels and calls for more explicit theoretical models and improved statistical approaches.
+---
+### 482. danchin_etal_2011.pdf
+- **Citation:** Danchin, É., Charmantier, A., Champagne, F. A., Mesoudi, A., Pujol, B., & Blanchet, S. (2011). Beyond DNA: Integrating inclusive inheritance into an extended theory of evolution. *Nature Reviews Genetics*, *12*, 475–486. https://doi.org/10.1038/nrg3028
+- **Purpose:** Review
+- **Methodology:** Narrative Review; synthesis of epigenetics, behavioral ecology, and cultural evolution literatures
+- **Instruments:** N/A (theoretical review)
+- **Level of Detail:** Other (evolutionary theory / inheritance / epigenetics)
+- **Topic:** Inclusive Inheritance / Epigenetic Inheritance / Cultural Inheritance / Extended Evolutionary Synthesis / Non-genetic Inheritance / Parental Effects
+- **Quality:** Prestige: XL | *Nature Reviews Genetics* — flagship review journal; highly cited foundational paper for the extended evolutionary synthesis and inclusive heritability.
+- **Notes:** Reviews evidence for epigenetic, parental-effect, ecological, and cultural inheritance as components of "inclusive heritability" beyond DNA-sequence transmission. Argues that non-genetic inheritance can be subject to natural selection and can affect evolutionary dynamics. Addresses the "missing heritability" problem and proposes methods to quantify relative contributions of genetic versus non-genetic components of phenotypic resemblance across generations.
+---
+### 483. geiger_etal_2017.pdf
+- **Citation:** Geiger, M., Evin, A., Sánchez-Villagra, M. R., Gascho, D., Mainini, C., & Zollikofer, C. P. E. (2017). Neomorphosis and heterochrony of skull shape in dog domestication. *Scientific Reports*, *7*, 13443. https://doi.org/10.1038/s41598-017-12582-2
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; geometric morphometrics; phenotypic trajectory analysis; cross-sectional ontogenetic series; MANOVA; Mahalanobis distances
+- **Instruments:** 3D landmark-based geometric morphometrics; cranial measurements across ontogenetic series of wolves, archaeological dogs, premodern breeds, and modern breeds
+- **Level of Detail:** Other (evolutionary biology / morphology / domestication)
+- **Topic:** Dog Domestication / Skull Morphology / Heterochrony / Paedomorphosis / Neomorphosis / Geometric Morphometrics
+- **Quality:** N = ~76 adults + 34 juveniles across 8 groups | Structural: M | Rigorous morphometric methods; ontogenetic series design; but small per-group Ns limit statistical power; cross-sectional rather than true longitudinal.
+- **Notes:** First geometric morphometric study comparing ontogenetic cranial trajectories in wolves versus multiple dog groups spanning archaeological to modern breeds. Finds that dog skull differences from wolves are partly neomorphic (novel shape present from birth) and partly heterochronic (juvenilized position along the shared wolf trajectory), rejecting a purely paedomorphic or purely neomorphic account. Cranial diversity among dog breeds primarily reflects heterochronic variation along the ancestral wolf trajectory.
+---
+### 484. lala_2025.pdf
+- **Citation:** Laland, K. N. (2025). A developmentalist's view of inheritance. *Acta Ethologica*, *28*, 51–59. https://doi.org/10.1007/s10211-025-00464-0
+- **Purpose:** Review
+- **Methodology:** Narrative Review; plenary review (based on invited talk)
+- **Instruments:** N/A (theoretical review)
+- **Level of Detail:** Other (evolutionary theory / inheritance / developmental biology)
+- **Topic:** Extra-Genetic Inheritance / Developmental Systems / Extended Evolutionary Synthesis / Epigenetic Inheritance / Cultural Inheritance / Niche Construction
+- **Quality:** Prestige: M | *Acta Ethologica* — solid specialty journal in ethology/behavioral ecology; invited plenary review; authoritative synthesis by a leading figure in EES.
+- **Notes:** Argues that inheritance is not a discrete genetic handover at conception but a time-distributed developmental process in which diverse resources (genes, epigenetic marks, microbiome, cultural knowledge, ecological resources) are made available across generations. Frames extra-genetic inheritance as primarily a tool for short-term, rapid-response adaptation — its function being accurate prediction of future environments, not mere stable transmission. Provides accessible overview of epigenetic, microbiome, cultural, and ecological inheritance with behavioral examples.
+---
+### 485. liu_2024.pdf
+- **Citation:** Liu, C., & Gershon, E. S. (2024). Endophenotype 2.0: Updated definitions and criteria for endophenotypes of psychiatric disorders, incorporating new technologies and findings. *Translational Psychiatry*, *14*, 502. https://doi.org/10.1038/s41398-024-03195-1
+- **Purpose:** Review
+- **Methodology:** Narrative Review; theoretical framework update; expert review
+- **Instruments:** N/A (theoretical review); surveys existing endophenotype literature including EEG, MRI, cognitive batteries, personality measures
+- **Level of Detail:** Other (psychiatric genetics / endophenotypes / psychometrics)
+- **Topic:** Endophenotypes / Psychiatric Genetics / Psychometrics / Genotype–Phenotype Mapping / Translational Psychiatry
+- **Quality:** Prestige: L | *Translational Psychiatry* (Nature Publishing Group) — high-impact specialist journal; expert review proposing an updated framework with broad implications for psychiatric genetics.
+- **Notes:** Updates the classical Gottesman-Gould endophenotype framework to "Endophenotype 2.0," redefining endophenotypes as genetically influenced phenotypes linked to disease or treatment characteristics, removing state-independence requirements, and replacing simple heritability with "genetic mediation" to allow non-linear relationships. Expands the scope to include molecular, cellular, treatment-response, and risk-environment endophenotypes. Highlights the scale of data now available (UK Biobank, ENIGMA) and the gap between current biobanks and the new framework's data requirements.
+---
+### 486. maclean-et-al-2014.pdf
+- **Citation:** MacLean, E. L., Hare, B., Nunn, C. L., Addessi, E., Amici, F., Anderson, R. C., Aureli, F., Baker, J. M., Bania, A. E., Barnard, A. M., [et al.]. (2014). The evolution of self-control. *Proceedings of the National Academy of Sciences*, *111*(20), E2140–E2148. https://doi.org/10.1073/pnas.1323533111
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; comparative cognitive testing across 36 species; phylogenetic generalized least squares (PGLS); cylinder task; A-not-B task
+- **Instruments:** Cylinder task (inhibitory control / self-control); A-not-B task (working memory / self-control); composite self-control score
+- **Level of Detail:** Other (comparative cognition / evolutionary neuroscience)
+- **Topic:** Self-Control / Inhibitory Control / Comparative Cognition / Brain Evolution / Social Brain Hypothesis / Foraging Hypothesis
+- **Quality:** N = 567 individuals across 36 species | Structural: XL | Landmark multi-site collaborative dataset; standardized procedures; largest comparative cognitive dataset of its kind; phylogenetic controls; but cross-sectional species comparison with inherent interpretive limits on causality.
+- **Notes:** First large-scale, standardized comparative test of self-control in 36 mammal and bird species using two parallel tasks. Absolute brain volume (endocranial volume, ECV) was the strongest predictor of performance, outperforming encephalization quotient and relative brain volume. Neither social group size nor dietary complexity (frugivory) predicted self-control independently after controlling for brain size among primates. Results challenge both the social brain and foraging hypotheses as primary drivers of cognitive evolution in favor of absolute brain-size expansion.
+---
+### 487. sol_2024
+- **Citation:** Sol, D., Bateman-Neubert, A., Noguer, L., & Taylor, A. H. (2025). The evolutionary puzzle of cognition: challenges and insights from individual-based studies. *Philosophical Transactions of the Royal Society B*, *380*, 20240123. https://doi.org/10.1098/rstb.2024.0123
+- **Purpose:** Review
+- **Methodology:** Narrative Review; synthesis of empirical individual-based studies of cognition in wild animals; framework paper; part of a Theo Murphy meeting issue
+- **Instruments:** N/A (theoretical/review); surveys cognition studies using spatial memory tests, problem-solving tasks, psychometric batteries across wild populations
+- **Level of Detail:** Other (comparative cognition / evolutionary biology / behavioral ecology)
+- **Topic:** Cognitive Evolution / Adaptive Cognition / Individual-Based Studies / Fitness Consequences / Heritability / Cognitive Buffer Hypothesis / Comparative Cognition
+- **Quality:** Prestige: XL | *Philosophical Transactions of the Royal Society B* — top-tier general biology review journal; invited contribution to themed Theo Murphy meeting issue; authoritative synthesis by leading researchers in cognitive ecology.
+- **Notes:** Reviews methodological challenges and insights from individual-based (within-population) studies aiming to demonstrate that cognitive traits are adaptations. Argues that detecting the adaptive significance of cognition requires: (1) functionally precise cognitive trait characterization; (2) documentation of heritable variation; (3) robust fitness measurement across large cohorts and extended timescales; (4) identification of selective pressures. Distinguishes absolute from relative fitness and highlights conditions under which each provides evidence of adaptation. Reviews cognitive buffer hypothesis, Bogert effect, and conflicts between absolute and relative fitness at different population densities. Calls for integration of individual-based with phylogenetic comparative approaches and large-scale coordinated programs.
+---
+### 488. sol_etal_2025.pdf
+- **Citation:** Sol, D., Prego, A., Olivé, L., Genovart, M., Oro, D., & Hernández-Matías, A. (2025). Adaptations to marine environments and the evolution of slow-paced life histories in endotherms. *Nature Communications*, *16*, 4265. https://doi.org/10.1038/s41467-025-59273-5
+- **Purpose:** Original Research
+- **Methodology:** Comparative (phylogenetic); phylogenetic principal component analysis (pPCA); Ornstein-Uhlenbeck (OU) evolutionary models; phylogenetic path analysis; N = 9,991 birds + 4,408 mammals
+- **Instruments:** Life history traits: generation time, lifespan, age at first reproduction, clutch/litter size, offspring mass, interbirth interval, annual reproductive rate; morphological predictors: body size, encephalization (brain-to-body ratio), locomotor morphology
+- **Level of Detail:** Other (evolutionary biology / life history / comparative ecology)
+- **Topic:** Life History Evolution / Pace-of-Life / Marine Endotherms / Encephalization / Cognitive Buffer Hypothesis / Locomotor Morphology / Phylogenetic Comparative Methods
+- **Quality:** N = 9,991 birds + 4,408 mammals | Structural: XL | Exceptional sample size; rigorous phylogenetic comparative methods with multiple model comparisons; multi-trait path analysis; broad taxonomic coverage; but observational/comparative and causal inference is indirect.
+- **Notes:** Demonstrates that invasion of marine environments by endotherms selects for slow-paced life histories, particularly in pelagic lineages. Phylogenetic path analysis reveals that body size enlargement, encephalization, and locomotor specialization mediate the marine–life history association, with encephalization playing a key buffering role. Supports the cognitive buffer hypothesis at a macroevolutionary scale: larger relative brains extend lifespan by enabling behavioral flexibility and reducing extrinsic mortality. Results are consistent across birds and mammals despite independent marine invasions, suggesting convergent evolution of slow life history via similar phenotypic pathways.
+---
+### 489. street_2017.pdf
+- **Citation:** Street, S. E., Navarrete, A. F., Reader, S. M., & Laland, K. N. (2017). Coevolution of cultural intelligence, extended life history, sociality, and brain size in primates. *Proceedings of the National Academy of Sciences*, *114*(30), 7908–7914. https://doi.org/10.1073/pnas.1620734114
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional; phylogenetic comparative; Bayesian phylogenetic generalized linear mixed models (MCMCglmm); N = up to 167 primate species
+- **Instruments:** Endocranial volume (ECV); social learning frequency (Reader et al. 2011 database); PanTheria life history variables (reproductive lifespan, juvenile period, adult lifespan); group size; maternal investment proxy
+- **Level of Detail:** Other (comparative cognition / primate evolution / cultural intelligence)
+- **Topic:** Cultural Intelligence / Social Learning / Primate Brain Evolution / Life History / Social Brain Hypothesis / Cognitive Buffer Hypothesis
+- **Quality:** N = up to 167 primate species | Structural: L | Broad comparative sample with phylogenetic controls; Bayesian modeling; but species-level analysis with inherent measurement error in behavioral data.
+- **Notes:** Tests competing hypotheses (social brain, cognitive buffer, cultural intelligence) for correlated evolution of brain size, social learning, sociality, and life history in primates. Social learning predicts reproductive lifespan (not juvenile period), supporting the cognitive buffer mechanism — larger-brained species live longer because cognition reduces mortality, not because they extend pre-reproductive learning. The brain-longevity link persists after controlling for maternal investment. Group size and social learning co-evolve independently. Supports Cultural Intelligence Hypothesis over strict Social Brain Hypothesis.
+---
+### 490. stuber_2022.pdf
+- **Citation:** Stuber, E. F., Carlson, B. S., & Jesmer, B. R. (2022). Spatial personalities: a meta-analysis of consistent individual differences in spatial behavior. *Behavioral Ecology*, *33*(3), 477–486. https://doi.org/10.1093/beheco/arab147
+- **Purpose:** Meta-Analysis
+- **Methodology:** Multi-level random-effects meta-analysis; intraclass correlation coefficients (ICC); meta-regression; funnel plots; Egger's test for publication bias; k = 41 studies, 200 repeatability estimates
+- **Instruments:** Spatial behavior metrics: home range size, movement rate/distance, habitat use; repeatability (ICC) as the standardized effect size
+- **Level of Detail:** Other (animal personality / behavioral ecology / spatial ecology)
+- **Topic:** Animal Personality / Spatial Behavior / Repeatability / Individual Consistency / Behavioral Ecology / Movement Ecology
+- **Quality:** k = 41 studies, 200 estimates | Structural: XL | Rigorous meta-analysis with multi-level modeling; publication bias assessed; heterogeneity quantified (I² = 93%); covers multiple behavior types and taxa.
+- **Notes:** First meta-analysis synthesizing evidence for consistent individual differences in spatial behavior (spatial personalities) across wild vertebrates. Mean repeatability: home range r̄ = 0.82, movement r̄ = 0.71, habitat use r̄ = 0.72; overall ICC = 0.67. High heterogeneity (I² = 93%) indicates substantial variation across taxa and contexts. No consistent moderating effects of sex, age, or study methodology. Spatial personality appears as ubiquitous as other personality dimensions and is likely functionally integrated with exploration, boldness, and pace-of-life.
+---
+### 491. taborsky_oliveira_2012.pdf
+- **Citation:** Taborsky, B., & Oliveira, R. F. (2012). Social competence: an evolutionary approach. *Trends in Ecology and Evolution*, *27*(12), 679–688. https://doi.org/10.1016/j.tree.2012.09.003
+- **Purpose:** Review
+- **Methodology:** Opinion/Commentary; conceptual framework paper; uses *Neolamprologus pulcher* cichlid as primary empirical example; reviews BRN framework and neural/epigenetic mechanisms
+- **Instruments:** N/A (theoretical review); references IEG studies (c-fos, egr-1) and epigenetic assays as empirical anchors
+- **Level of Detail:** Other (behavioral ecology / social neuroscience / evolutionary theory)
+- **Topic:** Social Competence / Behavioral Reaction Norms / Social Brain / Immediate Early Genes / Epigenetics / Phenotypic Plasticity / Animal Social Behavior
+- **Quality:** Prestige: XL | *Trends in Ecology and Evolution* — premier review outlet in ecology and evolution; highly cited Opinion piece with substantial conceptual development.
+- **Notes:** Proposes the concept of "social competence" — the ability to optimize social behavior based on available social information — as an evolutionary framework integrating individual variation, plasticity, and neural mechanisms. Defines social competence through the BRN framework: personality (intercept), plasticity (slope), and predictability (residuals). Reviews the brain social behaviour network (BSBN) and links social experience to epigenetic modification via IEGs. Uses cichlid helpers-at-the-nest system to illustrate how developmental social experience shapes adult social competence. Argues social competence is a key fitness-relevant trait subject to natural selection.
+---
+### 492. weber_2024.pdf
+- **Citation:** Webber, Q. M. R., Laforge, M. P., Bonar, M., & Vander Wal, E. (2024). The adaptive value of density-dependent habitat specialization and social network centrality. *Nature Communications*, *15*, 4423. https://doi.org/10.1038/s41467-024-48657-8
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal field study (7 years, 2007–2013); GPS collar tracking; proximity-based social network analysis; Bayesian multivariate mixed models (MCMCglmm); behavioral reaction norm framework; proportional similarity index (PSi) for habitat specialization
+- **Instruments:** GPS collars (movement/location data); PSi (habitat specialization); proximity-based social networks; reproductive success via GPS-detected calving events
+- **Level of Detail:** Other (animal personality / behavioral ecology / movement ecology)
+- **Topic:** Habitat Specialization / Niche Variation Hypothesis / Ideal Free Distribution / Social Network Centrality / Animal Personality / Fitness Consequences / Behavioral Consistency
+- **Quality:** N = 127 adult female caribou, 6 herds, 7 years | Structural: L | Longitudinal GPS-tracked data; Bayesian multivariate modeling; real fitness data; but single species, single region, females only.
+- **Notes:** Tests Niche Variation Hypothesis (NVH) vs. Ideal Free Distribution (IFD) for habitat specialization in caribou. Habitat specialists had HIGHER reproductive fitness at HIGH population density, contradicting IFD predictions but consistent with NVH. Social network centrality was positively associated with fitness independently of specialization. Behavioral reaction norms showed stable individual differences in specialization across years, supporting the personality interpretation. Demonstrates adaptive fitness consequences of both spatial and social personality dimensions in a wild mammal.
+---
+### 493. wolf_2007.pdf
+- **Citation:** Wolf, M. (2009). *Adaptive Individual Differences: The Evolution of Animal Personalities* [Doctoral dissertation, Rijksuniversiteit Groningen]. ISBN: 978-90-367-4102-6.
+- **Purpose:** Book Chapter or Review (PhD Thesis)
+- **Methodology:** Theoretical modeling (evolutionary game theory, individual-based simulations); incorporates published articles: Wolf et al. (2007, *Nature* 447:581–584) and Wolf et al. (2008, *PNAS* 105:15825–15830) plus two unpublished theoretical chapters
+- **Instruments:** N/A (theoretical); evolutionary simulation models; mathematical analysis of state-dependent life-history models
+- **Level of Detail:** Other (evolutionary theory / animal personality)
+- **Topic:** Animal Personality / Life History Trade-offs / State-Dependent Behavior / Behavioral Syndromes / Evolutionary Theory / Individual Differences
+- **Quality:** Prestige: L | PhD thesis (Rijksuniversiteit Groningen; supervisor: Prof. F. J. Weissing); incorporates papers published in *Nature* and *PNAS*; comprehensive theoretical synthesis by a leading figure in animal personality theory.
+- **Notes:** Doctoral thesis synthesizing a theoretical program on the evolutionary origins of animal personality. Core argument: consistent individual differences in behavior and their correlations can evolve as adaptive outcomes of life-history trade-offs and state dependence. Chapter 2 (*Nature* 2007): personalities arise when behavior is linked to life history via a pace-of-life state variable. Chapter 3 (*PNAS* 2008): feedback between behavioral tendencies and physiological state generates stable responsive vs. unresponsive personality types. Later chapters extend to syndromes, frequency-dependent contexts, and multi-trait architectures. Provides the foundational theoretical synthesis for the animal personality research program.
+---
+### 494. wolf_mcnamara_2012.pdf
+- **Citation:** Wolf, M., & McNamara, J. M. (2012). On the evolution of personalities via frequency-dependent selection. *The American Naturalist*, *179*(6), 679–692. https://doi.org/10.1086/665656
+- **Purpose:** Original Research
+- **Methodology:** Theoretical modeling; individual-based computer simulations; analytical game-theoretic models; hawk-dove game + frequency-dependent foraging game; comparison of models with vs. without physiological architecture
+- **Instruments:** N/A (theoretical); individual-based simulation; standard hawk-dove payoff matrices; physiological state variable (metabolic state)
+- **Level of Detail:** Other (evolutionary theory / animal personality)
+- **Topic:** Animal Personality / Behavioral Syndromes / Frequency-Dependent Selection / Physiological Architecture / Evolutionary Theory / Game Theory / Behavioral Consistency
+- **Quality:** Prestige: L | *The American Naturalist* — premier theoretical ecology and evolution journal; rigorous paper with simulation and analytical components; peer-reviewed.
+- **Notes:** Shows that frequency-dependent selection alone is insufficient to explain the joint evolution of behavioral consistency and behavioral correlations (syndromes). When behavior is linked to a physiological state variable, frequency-dependent selection produces stable personality types with correlated behaviors. Without this physiological architecture, the same selection regime produces inconsistent behavior and stochastically fluctuating correlations. Key insight: phenotypic architecture underlying behavior — not selection pressure alone — determines whether personalities and syndromes evolve. Extends the state-dependent framework from Wolf (2007/2009 thesis) to syndrome structure under game-theoretic conditions.
+---
+
 ## Summary Statistics
 
 | Category | Count |
 |----------|-------|
-| **Total papers** | 269 (267 unique; 2 duplicates) |
-| **Broken/invalid file** | 1 (`main_7_broken.pdf`) |
+| **Total papers** | 495 |
 
 ### By Purpose
 | Purpose | Count |
 |---------|-------|
-| Original Research | 140 |
-| Review | 81 |
-| Meta-Analysis | 22 |
-| Instrument Validation | 21 |
-| Commentary/Editorial | 8 |
-| Book Chapter | 3 |
-
-### By Topic (new entries 276–310)
-| Topic | Count |
-|-------|-------|
-| Cognitive Epidemiology / Health-Mortality | 6 |
-| Behavioral Genetics / Non-Cognitive Skills | 5 |
-| Personality-Cognition / Executive Function | 4 |
-| Personality and Mortality | 3 |
-| Personality Assessment / Facet Taxonomy | 3 |
-| Non-Cognitive Skills / Youth-Education Outcomes | 3 |
-| Dark Triad / Antagonistic Traits | 2 |
-| Biological Aging / Brain Structure | 2 |
-| Cognitive Aging / Reserve / Dementia | 2 |
-| Education and Intelligence | 1 |
-| Personality Structure / Sex Differences | 1 |
-| Personality Dynamics / Adaptive Regulation | 1 |
-| Cognitive Effort / Reward Motivation | 1 |
-| Life Skills / Aging | 1 |
+| Original Research | 266 |
+| Review | 132 |
+| Meta-Analysis | 31 |
+| Instrument Validation | 29 |
+| Commentary/Editorial | 22 |
+| Book Chapter | 8 |
+| Unknown | 2 |
+| — | 2 |
+| Theory | 2 |
+| Reference Work | 1 |

@@ -4562,13 +4562,244 @@
 - **Topic:** Energy Expenditure / Obesity / Physical Activity / Doubly Labeled Water / Economic Development / Diet / Ultraprocessed Food / Body Composition / Human Variation
 - **Quality:** N = 4,213 adults from 34 populations | Structural: XL | Published in *PNAS*. Massive globally diverse sample spanning hunter-gatherer to industrialized populations, using gold-standard DLW methodology. Challenges longstanding assumptions about reduced energy expenditure driving obesity.
 - **Notes:** Examines energy expenditure and obesity across 34 populations spanning the full economic spectrum (hunter-gatherers, pastoralists, farmers, industrialized populations). Shows that daily energy expenditures are actually greater in more developed populations (driven by larger body size), and that activity energy expenditure is not reduced in industrialized populations. Body size-adjusted TEE was only weakly and negatively associated with body fat, accounting for roughly one-tenth of the elevated adiposity associated with economic development. Ultraprocessed food percentage in the diet was positively correlated with body fat. Concludes that dietary intake plays a far greater role than reduced energy expenditure in the global obesity crisis.
+
+### 503. bennett_2023_ch1.pdf
+- **Citation:** Bennett, M. S. (2023). The world before brains. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 1). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Broad-audience synthesis of the origins of nervous systems.
+- **Notes:** Covers the origins of life, multicellularity, the first neurons, and nerve nets. Explains why animals evolved neurons but fungi and plants did not.
+
+### 504. bennett_2023_ch2.pdf
+- **Citation:** Bennett, M. S. (2023). The birth of good and bad. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 2). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #1 (Steering) and the evolutionary logic of valence.
+- **Notes:** Presents Breakthrough #1: Steering. Discusses bilateral symmetry, valence (good/bad categorization), and the emergence of the first brain in bilaterians (~550 MYA).
+
+### 505. bennett_2023_ch3.pdf
+- **Citation:** Bennett, M. S. (2023). The origin of emotion. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 3). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Traces the evolutionary origins of affect and neuromodulatory systems.
+- **Notes:** Frames affect as persistent steering states defined by valence and arousal dimensions. Discusses dopamine as wanting, serotonin as satiation, and the stress response.
+
+### 506. bennett_2023_ch4.pdf
+- **Citation:** Bennett, M. S. (2023). Associating, predicting, and the dawn of learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 4). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Covers the evolutionary emergence of associative learning mechanisms.
+- **Notes:** Discusses Pavlovian conditioning, associative learning, the credit assignment problem, and Hebbian learning as foundational mechanisms for adaptive behavior.
+
+### 507. bennett_2023_ch5.pdf
+- **Citation:** Bennett, M. S. (2023). The Cambrian explosion. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 5). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #2 (Reinforcing) and the vertebrate brain template.
+- **Notes:** Presents Breakthrough #2: Reinforcing. Describes the vertebrate brain template (cortex, basal ganglia, thalamus, hypothalamus) and the emergence of trial-and-error learning.
+
+### 508. bennett_2023_ch6.pdf
+- **Citation:** Bennett, M. S. (2023). The evolution of temporal difference learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 6). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Bridges computational reinforcement learning theory with neuroscience of dopamine.
+- **Notes:** Presents TD learning as the solution to temporal credit assignment. Discusses dopamine neurons as TD error signals and the basal ganglia as an actor-critic architecture.
+
+### 509. bennett_2023_ch7.pdf
+- **Citation:** Bennett, M. S. (2023). The problems of pattern recognition. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 7). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Covers cortical pattern recognition and its parallels to convolutional neural networks.
+- **Notes:** Discusses cortical pattern recognition, three-layered cortex, pyramidal neurons, expansion and sparsity principles, and the parallel to convolutional neural networks.
+
+### 510. bennett_2023_ch8.pdf
+- **Citation:** Bennett, M. S. (2023). Why life got curious. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 8). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Examines curiosity as an evolved solution to the exploration-exploitation tradeoff.
+- **Notes:** Covers the exploration-exploitation dilemma, curiosity as making surprise reinforcing, and the role of variable-ratio reinforcement schedules.
+
+### 511. bennett_2023_ch9.pdf
+- **Citation:** Bennett, M. S. (2023). The first model of the world. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 9). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Traces the evolution of spatial representation and content-addressable memory.
+- **Notes:** Discusses spatial maps in vertebrate brains, the hippocampus/medial cortex, place cells, and content-addressable memory as the first model of the world.
+
+### 512. bennett_2023_ch10.pdf
+- **Citation:** Bennett, M. S. (2023). The neural dark ages. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 10). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Covers the evolutionary transition from fish to mammals and preconditions for simulation.
+- **Notes:** Traces the fish-to-mammals transition through tetrapods, therapsids, and the evolution of warm-bloodedness. Discusses the Permian-Triassic extinction and preconditions for simulation.
+
+### 513. bennett_2023_ch11.pdf
+- **Citation:** Bennett, M. S. (2023). Generative models and the neocortical mystery. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 11). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #3 (Simulating) and the neocortex as a generative model.
+- **Notes:** Presents Breakthrough #3: Simulating. Discusses the neocortex as a generative model, Mountcastle's column hypothesis, the Helmholtz machine, and the six-layered neocortex.
+
+### 514. bennett_2023_ch12.pdf
+- **Citation:** Bennett, M. S. (2023). Mice in the imaginarium. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 12). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Covers counterfactual learning and episodic memory in the context of simulation.
+- **Notes:** Discusses vicarious trial and error, counterfactual learning, and episodic memory. Draws on Tolman's rats, patient H.M., and the model-based vs. model-free reinforcement learning distinction.
+
+### 515. bennett_2023_ch13.pdf
+- **Citation:** Bennett, M. S. (2023). Model-based reinforcement learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 13). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Links prefrontal cortex function to model-based planning and the System 1/System 2 distinction.
+- **Notes:** Covers agranular prefrontal cortex and simulation control, including planning, attention, and working memory. Draws an AlphaZero parallel and connects to the System 1/System 2 framework.
+
+### 516. bennett_2023_ch14.pdf
+- **Citation:** Bennett, M. S. (2023). The secret to dishwashing robots. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 14). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Reframes motor cortex as a motor prediction system with hierarchical frontal organization.
+- **Notes:** Discusses motor cortex as a motor prediction system, hierarchical frontal organization, and the evolution of motor planning in placental mammals.
+
+### 517. bennett_2023_ch15.pdf
+- **Citation:** Bennett, M. S. (2023). The arms race for political savvy. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 15). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #4 (Mentalizing) and the social-brain hypothesis.
+- **Notes:** Presents Breakthrough #4: Mentalizing. Covers the social-brain hypothesis, primate political complexity, coalitions, and Dunbar's neocortex ratio.
+
+### 518. bennett_2023_ch16.pdf
+- **Citation:** Bennett, M. S. (2023). How to model other minds. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 16). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Proposes granular prefrontal cortex as the substrate for theory of mind and metacognition.
+- **Notes:** Discusses granular prefrontal cortex as a second-order generative model supporting theory of mind, metacognition, and the Sally-Ann test.
+
+### 519. bennett_2023_ch17.pdf
+- **Citation:** Bennett, M. S. (2023). Monkey hammers and self-driving cars. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 17). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Connects imitation learning and tool use to theory of mind and inverse reinforcement learning.
+- **Notes:** Covers imitation learning, tool use, and mirror neurons. Argues theory of mind is a prerequisite for true imitation and draws a parallel to inverse reinforcement learning.
+
+### 520. bennett_2023_ch18.pdf
+- **Citation:** Bennett, M. S. (2023). Why rats can't go grocery shopping. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 18). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Examines future-need anticipation and the Bischof-Kohler hypothesis.
+- **Notes:** Discusses future-need anticipation, the Bischof-Kohler hypothesis, and the ecological-brain hypothesis (DeCasien 2017) as accounts of primate cognitive evolution.
+
+### 521. bennett_2023_ch19.pdf
+- **Citation:** Bennett, M. S. (2023). The search for human uniqueness. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 19). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #5 (Speaking) and argues language is the singular unique human trait.
+- **Notes:** Presents Breakthrough #5: Speaking. Argues that language (declarative labels plus grammar) is the singular unique human trait and the engine of cumulative cultural evolution.
+
+### 522. bennett_2023_ch20.pdf
+- **Citation:** Bennett, M. S. (2023). Language in the brain. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 20). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Argues no new brain structure was required for language.
+- **Notes:** Shows that Broca's and Wernicke's areas exist in all primates and that no new brain structure evolved for language. Proposes language is learned via a hardwired developmental curriculum.
+
+### 523. bennett_2023_ch21.pdf
+- **Citation:** Bennett, M. S. (2023). The perfect storm. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 21). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Synthesizes the timeline of human brain expansion and its enabling factors.
+- **Notes:** Covers the timeline of human brain expansion, including bipedalism, Homo erectus, stone tools, and cooking. Discusses Wallace's problem and the evolution of language.
+
+### 524. bennett_2023_ch22.pdf
+- **Citation:** Bennett, M. S. (2023). ChatGPT and the window into the mind. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 22). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Compares LLM next-word prediction with the human simulation engine.
+- **Notes:** Discusses LLMs as next-word prediction systems, the missing world model in current AI, and simulation as the mechanism underlying human commonsense reasoning. Draws parallels to GPT architecture.
+
+### 525. bennett_2023_conclusion.pdf
+- **Citation:** Bennett, M. S. (2023). The sixth breakthrough. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Conclusion). Mariner Books.
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (evolutionary neuroscience)
+- **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Recapitulates the five breakthroughs and speculates on a sixth.
+- **Notes:** Recapitulates the five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Speaking) and their bootstrapping logic. Speculates on artificial superintelligence as a potential sixth breakthrough.
+
 ---
 
 ## Summary Statistics
 
 | Category | Count |
 |----------|-------|
-| **Total papers** | 502 |
+| **Total papers** | 525 |
 
 ### By Purpose
 | Purpose | Count |
@@ -4578,7 +4809,7 @@
 | Meta-Analysis | 31 |
 | Instrument Validation | 29 |
 | Commentary/Editorial | 22 |
-| Book Chapter | 8 |
+| Book Chapter | 31 |
 | Unknown | 2 |
 | — | 2 |
 | Theory | 2 |

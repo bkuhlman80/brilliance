@@ -13522,3 +13522,578 @@ Provides a theoretical framework integrating personality science with social evo
 Provides the most comprehensive cross-population dataset to date on energy expenditure and obesity across the full economic spectrum, using gold-standard methodology. Directly relevant to the book's themes by demonstrating that the human body's energy expenditure system is not dramatically altered by industrialization — instead, the obesity crisis is primarily driven by changes in dietary intake, particularly the modern food environment. Illustrates how evolved metabolic and behavioral phenotypes interact with novel ecological conditions.
 
 ---
+
+### 499. Bennett (2023), Ch. 1
+
+**Citation:** Bennett, M. S. (2023). The world before brains. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 1). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* origin of life, neurons, multicellularity, Great Oxygenation Event, nerve nets
+- *Additional terms:* self-replicating DNA, photosynthesis, respiration, Edgar Adrian, all-or-nothing spikes, rate coding, neural adaptation, coral polyps, bilateral symmetry precursors
+
+#### Core Themes
+- The chapter traces life's earliest stages from self-replicating molecules through photosynthesis vs. respiration metabolic strategies to the Great Oxygenation Event, establishing the chemical and energetic preconditions for complex animal life
+- Multicellularity evolved independently many times, but only animals evolved neurons — the key selection pressure was the need for rapid catch-and-swallow reflexes in predation, which plants and fungi never faced
+- Edgar Adrian's foundational electrophysiology discoveries — all-or-nothing action potentials, rate coding of stimulus intensity, and sensory adaptation — established the basic computational vocabulary of all nervous systems
+- Nerve nets in organisms like coral polyps represent the simplest nervous system architecture: distributed, non-centralized networks capable of coordinated contraction without a brain
+- Sets the stage for the book's five-breakthrough framework by establishing what biological machinery existed before any of the breakthroughs occurred
+
+**Relevance to Book Project:** HIGH
+Provides the deep evolutionary context for understanding why nervous systems and brains exist at all — directly relevant to the project's interest in how brain architecture constrains and enables cognition, personality, and individual differences.
+
+---
+
+### 500. Bennett (2023), Ch. 2
+
+**Citation:** Bennett, M. S. (2023). The birth of good and bad. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 2). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* bilateral symmetry, valence, steering, bilaterian brain, C. elegans
+- *Additional terms:* Breakthrough #1, navigation, good/bad categorization, stimulus integration, internal state modulation, hunger, approach-avoidance, Roomba, Urbilateria
+
+#### Core Themes
+- Breakthrough #1 (Steering) is identified as the evolution of bilateral symmetry approximately 550 million years ago, which created a body plan optimized for directional movement and necessitated a centralized decision-making system
+- Valence — the categorization of stimuli as good (approach) or bad (avoid) — is presented as the most primitive form of evaluation, requiring integration of multiple competing sensory inputs into a single motor decision
+- Internal states such as hunger modulate the valence assigned to stimuli, making the steering system context-sensitive rather than reflexive — a precursor to motivation and emotion
+- C. elegans with its 302 neurons serves as the primary model organism for understanding minimal steering circuits, demonstrating that even the simplest brains must solve the integration problem
+- The Roomba is used as an AI parallel to illustrate the difference between reactive steering (no learning, no valence) and biologically motivated navigation
+
+**Relevance to Book Project:** HIGH
+Introduces the foundational approach-avoidance valence system that underlies all subsequent affective and motivational processing — directly relevant to understanding the evolutionary roots of personality dimensions like extraversion (approach) and neuroticism (avoidance).
+
+---
+
+### 501. Bennett (2023), Ch. 3
+
+**Citation:** Bennett, M. S. (2023). The origin of emotion. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 3). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* affect, valence, arousal, dopamine, serotonin, norepinephrine, behavioral states
+- *Additional terms:* persistent steering states, wanting vs. liking, satiation, chronic stress, depression, Kent Berridge, incentive salience, adrenaline, escaping, exploiting
+
+#### Core Themes
+- Emotions are reconceptualized as persistent steering states — temporally extended configurations of the valence system that bias an organism toward sustained behavioral modes (escaping, exploiting, resting) rather than moment-to-moment reactions
+- Valence and arousal are presented as universal affective dimensions that emerge from the basic requirements of any steering system, grounding dimensional models of affect in evolutionary necessity
+- Dopamine is characterized as the neurochemical of wanting (incentive salience) rather than pleasure, drawing on Kent Berridge's influential rat experiments that dissociated wanting from liking — a distinction with major implications for understanding motivation and addiction
+- Serotonin is linked to satiation and behavioral inhibition, while norepinephrine/adrenaline mediates the acute stress response, establishing the neuromodulatory architecture that underlies temperamental variation
+- Chronic activation of stress systems is connected to depression, illustrating how adaptive emotional machinery can become pathological when environmental demands are sustained beyond evolutionary design parameters
+
+**Relevance to Book Project:** HIGH
+Directly relevant to the project's personality and affect themes — the evolutionary account of valence, arousal, and neuromodulatory systems (dopamine, serotonin, norepinephrine) maps onto the biological substrates of traits like neuroticism, extraversion, and their facets.
+
+---
+
+### 502. Bennett (2023), Ch. 4
+
+**Citation:** Bennett, M. S. (2023). Associating, predicting, and the dawn of learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 4). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* Pavlovian conditioning, associative learning, credit assignment, Hebbian learning, extinction
+- *Additional terms:* continual learning, spontaneous recovery, reacquisition, eligibility traces, overshadowing, latent inhibition, blocking, prediction error, classical conditioning
+
+#### Core Themes
+- Pavlovian (classical) conditioning is presented as the earliest form of predictive learning, enabling organisms to anticipate outcomes by associating cues with biologically significant events — a capacity that predates and is distinct from reinforcement learning
+- The credit assignment problem — determining which of many concurrent stimuli actually predicts an outcome — is identified as the central computational challenge of associative learning, with four primitive solutions (eligibility traces, overshadowing, latent inhibition, blocking) evolving to address it
+- Continual learning phenomena (acquisition, extinction, spontaneous recovery, reacquisition) demonstrate that learning is not simple strengthening and weakening but involves layered, context-sensitive memory traces
+- Hebbian learning ("neurons that fire together wire together") is presented as the synaptic mechanism underlying association, but Bennett emphasizes that raw Hebbian learning requires additional constraints to be computationally useful
+- A key argument is that learning was a feature of the first bilaterian brain but was not its core function — steering and valence came first, with learning layered on top as an enhancement
+
+**Relevance to Book Project:** HIGH
+Provides the evolutionary foundation for understanding how organisms learn predictive associations — directly relevant to the project's interest in cognitive mechanisms underlying heuristics, biases, and the automatic pattern-detection systems that shape judgment and decision-making.
+
+---
+
+### 503. Bennett (2023), Ch. 5
+
+**Citation:** Bennett, M. S. (2023). The Cambrian explosion. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 5). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* Cambrian explosion, vertebrate brain, reinforcement learning, trial-and-error, basal ganglia
+- *Additional terms:* Breakthrough #2, Thorndike, puzzle box, cortex, thalamus, hypothalamus, midbrain, hindbrain, lamprey, fish intelligence, nematode limitations
+
+#### Core Themes
+- Breakthrough #2 (Reinforcing) is identified with the Cambrian explosion (~540 MYA), when the vertebrate brain template emerged with six conserved structures: cortex, basal ganglia, thalamus, hypothalamus, midbrain, and hindbrain
+- Thorndike's puzzle-box experiments illustrate trial-and-error learning — the ability to discover and repeat rewarded behaviors — as a qualitative leap beyond Pavlovian association, enabling organisms to actively shape their environment
+- The vertebrate brain template is presented as remarkably conserved from fish to humans; the lamprey brain already contains recognizable versions of all six core structures, demonstrating deep evolutionary continuity
+- Fish intelligence is highlighted as substantially underestimated — fish demonstrate social learning, tool use, and flexible problem-solving, establishing that the vertebrate brain was cognitively powerful from its inception
+- The cognitive limitations of nematodes (302 neurons, no reinforcement learning) illustrate by contrast why the vertebrate brain template represented such a dramatic advance in behavioral flexibility
+
+**Relevance to Book Project:** HIGH
+Establishes the vertebrate brain template that all subsequent cognitive evolution elaborated upon — essential context for understanding how the conserved architecture of basal ganglia, cortex, and subcortical structures constrains the design space for personality and cognitive individual differences.
+
+---
+
+### 504. Bennett (2023), Ch. 6
+
+**Citation:** Bennett, M. S. (2023). The evolution of temporal difference learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 6). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* temporal difference learning, dopamine, prediction error, actor-critic architecture, basal ganglia
+- *Additional terms:* Marvin Minsky, SNARC, Richard Sutton, TD-Gammon, Wolfram Schultz, reward prediction error, disappointment, relief, Gerald Tesauro, temporal credit assignment
+
+#### Core Themes
+- The temporal credit assignment problem — how to assign credit to actions whose consequences unfold over time — is presented as one of the deepest problems in learning, solved by the temporal difference (TD) algorithm that updates predictions based on the difference between consecutive estimates
+- The convergence of AI research (Minsky's SNARC, Sutton's actor-critic model, Tesauro's TD-Gammon) and neuroscience (Schultz's recordings of dopamine neurons) revealed that biological brains and artificial systems independently discovered the same solution
+- Dopamine neurons are characterized as encoding reward prediction error — the discrepancy between expected and actual outcomes — rather than pleasure or reward per se, fundamentally reframing our understanding of the dopamine system
+- The basal ganglia implement an actor-critic architecture: the "critic" (ventral striatum) learns to predict value, while the "actor" (dorsal striatum) learns to select actions that maximize predicted value, guided by dopamine error signals
+- Disappointment and relief are reinterpreted as emergent psychological properties of the TD learning system — disappointment as negative prediction error (outcome worse than expected), relief as positive prediction error following an expected negative outcome
+
+**Relevance to Book Project:** HIGH
+The TD learning / dopamine prediction-error framework is central to understanding individual differences in reward sensitivity, risk-taking, and approach motivation — core substrates of extraversion and its facets, as well as the computational basis of many cognitive biases.
+
+---
+
+### 505. Bennett (2023), Ch. 7
+
+**Citation:** Bennett, M. S. (2023). The problems of pattern recognition. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 7). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* pattern recognition, cortex, generalization, discrimination, convolutional neural networks
+- *Additional terms:* supervised learning, unsupervised learning, pyramidal neurons, sparse coding, auto-association, catastrophic forgetting, invariance problem, Hubel and Wiesel, Fukushima, three-layered cortex, pattern separation
+
+#### Core Themes
+- Two fundamental problems of perception — discrimination (telling similar things apart) and generalization (recognizing the same thing across different presentations) — create opposing computational demands that the cortex must balance
+- The three-layered cortex of vertebrates is presented as a pattern-recognition engine using expansion coding (many neurons responding to few inputs) for discrimination and auto-association for generalization, with sparse representations preventing catastrophic interference
+- Hubel and Wiesel's Nobel Prize-winning discovery of hierarchical feature detectors in visual cortex (simple cells, complex cells, hypercomplex cells) revealed how the brain builds invariant representations from raw sensory input
+- Fukushima's neocognitron and subsequent convolutional neural networks (CNNs) directly translated the biological cortical hierarchy into artificial systems, representing one of the most successful brain-to-AI transfers in history
+- Catastrophic forgetting — the tendency of neural networks to overwrite old memories when learning new patterns — is identified as a core engineering problem that biological cortex solves through sparse distributed representations
+
+**Relevance to Book Project:** HIGH
+Pattern recognition is the computational foundation of perception, categorization, and stereotyping — directly relevant to understanding how cognitive biases emerge from the brain's optimization for fast generalization, and how individual differences in perceptual processing may relate to cognitive style and openness.
+
+---
+
+### 506. Bennett (2023), Ch. 8
+
+**Citation:** Bennett, M. S. (2023). Why life got curious. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 8). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* curiosity, exploration-exploitation tradeoff, reinforcement learning, intrinsic motivation, variable-ratio reinforcement
+- *Additional terms:* Montezuma's Revenge, novelty-seeking, Skinner, gambling, social media, surprise as reward, information-seeking, dopaminergic system
+
+#### Core Themes
+- The exploration-exploitation dilemma — whether to exploit known rewards or explore for potentially better ones — is presented as a fundamental problem for any reinforcement learning system, biological or artificial
+- Curiosity evolved as an elegant solution: by making surprise itself intrinsically reinforcing, organisms are motivated to explore novel stimuli and environments without needing external reward, effectively converting the exploration problem into an exploitation problem
+- The AI challenge of Montezuma's Revenge (an Atari game requiring extensive exploration before any reward) illustrates how artificial RL systems fail without curiosity-like mechanisms, underscoring the evolutionary importance of intrinsic motivation
+- Variable-ratio reinforcement schedules (Skinner) explain why gambling and social media are so compulsive — these systems exploit the curiosity mechanism by providing unpredictable rewards that sustain dopaminergic exploration signals
+- Curiosity is argued to have co-evolved with reinforcement learning as a necessary complement: without curiosity, RL systems get trapped in local optima; without RL, curiosity has no mechanism for retaining what is discovered
+
+**Relevance to Book Project:** HIGH
+Curiosity and exploration are central to the personality dimension of openness/intellect and its facets — this evolutionary account of curiosity as intrinsic reward provides a mechanistic bridge between dopaminergic neuroscience and individual differences in novelty-seeking and intellectual engagement.
+
+---
+
+### 507. Bennett (2023), Ch. 9
+
+**Citation:** Bennett, M. S. (2023). The first model of the world. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 9). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* spatial cognition, hippocampus, place cells, head-direction cells, cognitive maps
+- *Additional terms:* vestibular system, semicircular canals, medial cortex, content-addressable memory, allocentric representation, navigation, dead reckoning, ant navigation, fish spatial learning
+
+#### Core Themes
+- Vertebrate brains evolved the first internal model of the external world in the form of spatial maps, with the vestibular system (semicircular canals) providing the inertial reference frame and head-direction neurons providing compass-like orientation signals
+- The medial cortex (homologous to the mammalian hippocampus) serves as the locus of spatial representation, using place cells to create allocentric (world-centered) maps that support flexible navigation beyond simple route-following
+- Content-addressable memory — the ability to retrieve a complete spatial representation from partial cues — is presented as a key computational property of hippocampal circuits, enabling recognition of familiar locations from incomplete sensory input
+- The contrast between ant navigation (path integration without a map) and fish spatial learning (true allocentric maps) illustrates the qualitative cognitive advance that internal world models represent
+- This chapter establishes the foundation for Breakthrough #3 (Simulating) by showing that spatial maps were the evolutionary precursor to the more general simulation capabilities that emerged in mammals
+
+**Relevance to Book Project:** HIGH
+The hippocampal spatial mapping system is the evolutionary precursor to episodic memory, mental simulation, and imagination — cognitive capacities central to the project's interests in memory, planning, and the neural substrates of individual differences in cognitive style.
+
+---
+
+### 508. Bennett (2023), Ch. 10
+
+**Citation:** Bennett, M. S. (2023). The neural dark ages. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 10). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* fish-to-mammal transition, therapsids, warm-bloodedness, neocortex, Permian-Triassic extinction
+- *Additional terms:* tetrapods, amniotes, cynodonts, endothermy, terrestrial vision, neural dark ages, reptilian brain, cortical evolution, metabolic rate, first mammals
+
+#### Core Themes
+- The roughly 200-million-year evolutionary journey from fish to early mammals is characterized as a "neural dark age" — brains changed remarkably little in basic architecture from fish to reptiles, despite dramatic changes in body plan
+- The colonization of land by fish (leading to tetrapods and eventually amniotes) provided a key precondition for advanced cognition: far-ranging terrestrial vision, which created both the opportunity and the selective pressure for predictive world models
+- Warm-bloodedness (endothermy), evolving in therapsids and refined in cynodonts, provided the second precondition for simulation: a metabolically expensive brain that could operate continuously and at high speed regardless of ambient temperature
+- The Permian-Triassic extinction (~252 MYA) devastated therapsid diversity but paradoxically set the stage for mammalian brain evolution by selecting for small, nocturnal, metabolically efficient survivors — the cynodonts that became the first mammals
+- The neocortex first appeared in these early mammals as an expansion of the existing three-layered cortex into a six-layered structure, but its full cognitive potential would not be realized for tens of millions of years
+
+**Relevance to Book Project:** HIGH
+Explains why the mammalian neocortex — the structure most associated with higher cognition, personality, and individual differences — emerged when and how it did, linking metabolic evolution to cognitive capacity in a way that illuminates constraints on brain size and complexity.
+
+---
+
+### 509. Bennett (2023), Ch. 11
+
+**Citation:** Bennett, M. S. (2023). Generative models and the neocortical mystery. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 11). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* neocortex, generative models, Helmholtz machine, cortical columns, simulation
+- *Additional terms:* Breakthrough #3, Vernon Mountcastle, neocortical column hypothesis, filling-in, bistable perception, Helmholtz inference, recognition mode, generative mode, six-layered cortex, hallucinations, dreams, top-down processing, Geoffrey Hinton
+
+#### Core Themes
+- Breakthrough #3 (Simulating) is grounded in the neocortex's unique architecture: Mountcastle's hypothesis that the entire neocortex consists of a single microcircuit (the cortical column) repeated across all sensory and cognitive domains, enabling a universal simulation engine
+- Three properties of perception — filling-in (completing missing information), one-at-a-time processing (bistable perception), and can't-unsee effects (hysteresis) — are presented as signatures of a generative model that actively constructs experience rather than passively receiving it
+- Helmholtz's 19th-century insight that perception is unconscious inference is formalized through Hinton's Helmholtz machine, which operates in two modes: recognition (bottom-up sensory processing) and generative (top-down simulation/prediction)
+- The six-layered neocortex is contrasted with the three-layered cortex of fish and reptiles — the additional layers provide the top-down generative pathway that enables the brain to run internal simulations of the world
+- Hallucinations and dreams are reinterpreted as natural emergent properties of a generative model running in the absence of constraining sensory input, rather than pathological or mysterious phenomena
+
+**Relevance to Book Project:** HIGH
+The neocortical generative model is the computational foundation for imagination, counterfactual reasoning, and the simulation-based cognition that distinguishes mammals — directly relevant to understanding the neural basis of individual differences in cognitive style, creativity, and openness to experience.
+
+---
+
+### 510. Bennett (2023), Ch. 12
+
+**Citation:** Bennett, M. S. (2023). Mice in the imaginarium. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 12). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* vicarious trial and error, counterfactual learning, episodic memory, hippocampus, model-based reinforcement learning
+- *Additional terms:* Tolman, choice-point deliberation, Redish hippocampal recordings, salt-deprivation experiment, regret, restaurant row paradigm, Henry Molaison (H.M.), hippocampus-neocortex consolidation, model-free RL
+
+#### Core Themes
+- Three new cognitive abilities emerged from the neocortical simulation engine: vicarious trial and error (mentally simulating outcomes before acting), counterfactual learning (learning from imagined alternatives to actual experience), and episodic memory (re-experiencing specific past events)
+- Tolman's observations of rats pausing at choice points, confirmed by Redish's hippocampal recordings showing sequential activation of place cells for alternative routes, provide direct neural evidence for mental simulation during deliberation
+- The salt-deprivation experiment demonstrates that simulation enables inference without direct experience — rats that had never been salt-deprived could immediately seek out a previously encountered salt source once depleted, implying they had stored and could reactivate a model of the environment
+- Counterfactual learning and regret, demonstrated in the "restaurant row" paradigm, show that mammals can evaluate what would have happened if they had chosen differently — a capacity that dramatically accelerates learning beyond trial-and-error
+- Henry Molaison's (H.M.) case revealed the hippocampus-neocortex partnership: the hippocampus rapidly encodes episodic memories that are gradually consolidated into neocortical representations, bridging model-based and model-free learning systems
+
+**Relevance to Book Project:** HIGH
+Directly relevant to the project's cognitive themes — vicarious trial and error maps onto deliberative reasoning, counterfactual learning relates to regret and judgment under uncertainty, and the model-based/model-free distinction parallels dual-process theories (System 1/System 2).
+
+---
+
+### 511. Bennett (2023), Ch. 13
+
+**Citation:** Bennett, M. S. (2023). Model-based reinforcement learning. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 13). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* prefrontal cortex, model-based reinforcement learning, active inference, goals vs. habits, System 1/System 2
+- *Additional terms:* agranular prefrontal cortex (aPFC), AlphaZero, Damasio, patient L, akinetic mutism, self-model, intent, uncertainty, Karl Friston, Kahneman, Dickinson devaluation experiments
+
+#### Core Themes
+- The agranular prefrontal cortex (aPFC) is identified as the brain region that controls when and what to simulate, functioning as a self-model that constructs "intent" — the organism's representation of its own goals and planned actions
+- AlphaZero's game-playing architecture serves as an AI parallel: like aPFC, it uses a learned world model to simulate future states and evaluate potential action sequences before committing to a choice
+- Damasio's patient L, who exhibited akinetic mutism (conscious but completely without motivation to act), illustrates what happens when the aPFC self-model is destroyed — demonstrating that goal-directed behavior requires an intact model of one's own intentions
+- Friston's active inference framework is presented as a unifying theory: the brain minimizes prediction error by either updating its model (perception) or acting on the world to make predictions come true (action), with uncertainty triggering simulation
+- The goals-vs.-habits distinction (Dickinson's devaluation experiments) and Kahneman's System 1/System 2 framework are both grounded in the model-based (deliberative, flexible, slow) vs. model-free (habitual, rigid, fast) RL distinction
+
+**Relevance to Book Project:** HIGH
+Directly connects to the project's dual-process and rationality themes — the aPFC as the seat of goal-directed simulation maps onto System 2 deliberation, while the model-free/model-based distinction provides the neural implementation of fast-and-frugal vs. deliberative reasoning.
+
+---
+
+### 512. Bennett (2023), Ch. 14
+
+**Citation:** Bennett, M. S. (2023). The secret to dishwashing robots. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 14). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* motor cortex, motor planning, predictive processing, placental mammals, hierarchical goals
+- *Additional terms:* Karl Friston, motor predictions, motor execution, agranular prefrontal cortex, alien limb syndrome, cats, squirrels, lizards, hierarchical organization, dexterous manipulation
+
+#### Core Themes
+- Motor cortex is reinterpreted through Friston's framework as generating motor predictions (expected sensory consequences of movement) rather than motor commands — the spinal cord executes movements by minimizing the discrepancy between predicted and actual proprioceptive feedback
+- Motor cortex evolved in placental mammals and its original function was motor planning (simulating action sequences) rather than direct motor execution, which was already handled by subcortical circuits inherited from fish and reptiles
+- Hierarchical goal organization is identified as the key innovation: aPFC generates high-level goals, motor cortex translates them into intermediate motor plans, and lower circuits handle execution — enabling the flexible, multi-step action sequences that characterize mammalian behavior
+- Alien limb syndrome (where a limb acts autonomously against the patient's intentions) is used to illustrate the distinction between the aPFC goal system and motor cortex execution system — when they become disconnected, motor plans proceed without intentional oversight
+- The contrast between cats/squirrels (precise, planned motor sequences for arboreal navigation) and lizards (reactive, ballistic movements) demonstrates the behavioral consequences of having vs. lacking cortical motor planning
+
+**Relevance to Book Project:** HIGH
+The hierarchical goal-planning architecture of prefrontal-to-motor cortex provides the neural implementation of executive function and self-regulation — capacities central to conscientiousness and its facets, as well as to understanding individual differences in planning and impulse control.
+
+---
+
+### 513. Bennett (2023), Ch. 15
+
+**Citation:** Bennett, M. S. (2023). The arms race for political savvy. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 15). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* social intelligence, mentalizing, theory of mind, primate hierarchy, Dunbar's social brain hypothesis
+- *Additional terms:* Breakthrough #4, neocortex ratio, group size, political alliances, grooming, coalitions, family dynasties, Menzel's Belle/Rock experiments, deception, mammalian social structures, post-asteroid diversification
+
+#### Core Themes
+- Breakthrough #4 (Mentalizing) is situated in the context of primate social evolution following the post-asteroid mammalian diversification, when increasing group size created intense selection pressure for tracking and predicting the behavior of conspecifics
+- Dunbar's social brain hypothesis — the correlation between neocortex ratio and social group size across primate species — is presented as evidence that the expansion of neocortex was driven primarily by the computational demands of social complexity
+- Four distinct mammalian social structures are contrasted (solitary, pair-bonded, herd, hierarchical), with primate hierarchies distinguished by their reliance on political power based on alliances, coalitions, and family dynasties rather than simple dominance
+- Menzel's experiments with chimpanzees Belle and Rock demonstrate strategic deception — Belle learned to suppress signals about hidden food when Rock was present and exploiting her knowledge, providing evidence for sophisticated social cognition in apes
+- Grooming and coalition formation are identified as the primary currencies of primate politics, enabling individuals to build and maintain alliances that determine rank and access to resources — a system requiring continuous mental modeling of social relationships
+
+**Relevance to Book Project:** HIGH
+The social brain hypothesis and primate social cognition are foundational for understanding the evolutionary origins of agreeableness, social intelligence, and the interpersonal facets of personality — as well as the cognitive demands that drove the expansion of prefrontal cortex.
+
+---
+
+### 514. Bennett (2023), Ch. 16
+
+**Citation:** Bennett, M. S. (2023). How to model other minds. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 16). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* granular prefrontal cortex, theory of mind, metacognition, false-belief task, self-recognition
+- *Additional terms:* gPFC, second-order generative model, simulation theory of mind, Sally-Ann test, mirror self-recognition, brain scaling, developmental timeline, age 2 self-recognition, age 4-5 false belief
+
+#### Core Themes
+- The granular prefrontal cortex (gPFC), unique to primates, is identified as a second-order generative model — a simulation engine that models not just the external world but the internal mental states of other agents, enabling true theory of mind
+- The simulation theory of mind-reading is endorsed: primates model other minds by running their own cognitive machinery "as if" they were the other individual, using their self-model as a template — implying that self-awareness is a prerequisite for understanding others
+- The Sally-Ann false-belief test and its developmental trajectory (children pass around age 4-5) provides the benchmark for when second-order modeling comes online, while mirror self-recognition (around age 2) marks the earlier emergence of first-person self-modeling
+- Metacognition — thinking about one's own thinking — is presented as an emergent property of the same second-order modeling capacity that enables theory of mind, unifying self-reflection and social cognition under a single computational mechanism
+- Brain scaling in primates is distinguished from genuinely new structures: most brain regions simply grow proportionally, but gPFC represents a qualitatively new computational layer added on top of the existing mammalian simulation architecture
+
+**Relevance to Book Project:** HIGH
+Theory of mind and metacognition are central to social cognition, self-regulation, and personality assessment — the simulation-theory account provides a mechanistic explanation for why self-report measures work (they depend on metacognitive access) and why social intelligence correlates with prefrontal development.
+
+---
+
+### 515. Bennett (2023), Ch. 17
+
+**Citation:** Bennett, M. S. (2023). Monkey hammers and self-driving cars. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 17). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* tool use, imitation learning, mirror neurons, inverse reinforcement learning, theory of mind
+- *Additional terms:* Jane Goodall, Rizzolatti, behavior selection vs. skill acquisition, primates, ALVINN self-driving car, Pieter Abbeel, Andrew Ng, helicopter control, observational learning
+
+#### Core Themes
+- Goodall's discovery of chimpanzee tool use shattered the "man the toolmaker" definition of human uniqueness and established that flexible tool use is a primate-wide (not uniquely human) cognitive capacity
+- Mirror neurons, discovered by Rizzolatti, fire both when performing and observing an action, providing a neural mechanism for action understanding — though Bennett emphasizes their role in action recognition rather than imitation per se
+- A critical distinction is drawn between selecting known behaviors in new contexts (which many mammals can do) and acquiring genuinely novel motor skills through observation (which requires the primate-specific combination of theory of mind, motor simulation, and goal inference)
+- Three reasons are given for why theory of mind is necessary for true imitation learning: (1) inferring the demonstrator's goal (not just copying movements), (2) understanding which aspects of the demonstration are relevant, and (3) translating observed actions into one's own motor repertoire
+- Inverse reinforcement learning in AI (Abbeel and Ng's helicopter, the ALVINN self-driving car) parallels biological imitation by inferring the reward function that explains observed expert behavior, rather than directly copying action sequences
+
+**Relevance to Book Project:** HIGH
+Imitation learning and observational skill acquisition are key mechanisms for cultural transmission and individual differences in learning style — relevant to understanding openness, cognitive flexibility, and how social-cognitive capacities enable cumulative cultural evolution.
+
+---
+
+### 516. Bennett (2023), Ch. 18
+
+**Citation:** Bennett, M. S. (2023). Why rats can't go grocery shopping. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 18). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* ecological brain hypothesis, future planning, Bischof-Kohler hypothesis, frugivore diet, primate brain size
+- *Additional terms:* DeCasien 2017, Naqshbandi and Roberts, squirrel monkeys vs. rats, theory of mind and future-need anticipation, Dunbar reconciliation, social vs. ecological intelligence
+
+#### Core Themes
+- The ecological-brain hypothesis (DeCasien et al., 2017) challenges Dunbar's social brain hypothesis by demonstrating that frugivore diet (rather than social group size) may better predict primate brain size — fruit-eating requires tracking spatiotemporally distributed resources across large territories
+- The Bischof-Kohler hypothesis proposes that only some animals can plan for future needs they are not currently experiencing — a capacity that requires simulating a future self in a different motivational state, which in turn requires theory of mind
+- Naqshbandi and Roberts's experiment comparing squirrel monkeys and rats on future thirst anticipation provides behavioral evidence for the Bischof-Kohler hypothesis: primates (but not rats) adjusted current behavior based on anticipated future needs
+- Theory of mind and future-need anticipation are argued to be the same underlying mechanism — modeling one's future self is computationally equivalent to modeling another mind, both requiring second-order simulation
+- Dunbar's social and DeCasien's ecological hypotheses are reconciled: both social complexity and ecological demands (foraging, planning) drove primate brain expansion, with theory of mind serving both social and non-social planning functions
+
+**Relevance to Book Project:** HIGH
+The connection between future planning, self-simulation, and theory of mind is directly relevant to understanding conscientiousness (planning, delay of gratification) and the cognitive architecture that enables humans to pursue long-term goals despite competing immediate desires.
+
+---
+
+### 517. Bennett (2023), Ch. 19
+
+**Citation:** Bennett, M. S. (2023). The search for human uniqueness. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 19). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* language evolution, human uniqueness, declarative labels, grammar, cultural transmission
+- *Additional terms:* Breakthrough #5, Dawkins memes, cumulative culture, over-imitation, thought transfer, Washoe, Kanzi, ape language studies, idea accumulation across generations
+
+#### Core Themes
+- Breakthrough #5 (Speaking) is introduced by systematically dismantling prior claims of human uniqueness — tool use, theory of mind, culture, self-awareness, and planning are all present in other primates to varying degrees, leaving language as the primary distinguishing feature
+- Two specific features of human language set it apart from all animal communication systems: declarative labels (arbitrary symbols that refer to concepts and can be combined freely) and grammar (recursive combinatorial rules that generate infinite meanings from finite elements)
+- Language is characterized as a "thought transfer" technology — its primary evolutionary function was enabling one mind to install its mental models into another mind, dramatically reducing the cost of learning by bypassing individual trial-and-error
+- Dawkins's concept of memes is applied to explain how language enables cumulative cultural evolution: ideas can accumulate and improve across generations because they are transmitted with sufficient fidelity to build upon, unlike the limited cultural traditions observed in other primates
+- Over-imitation in human children (copying even clearly unnecessary steps of demonstrated procedures) is interpreted as an adaptation for high-fidelity cultural transmission — children are biased to copy everything because they cannot yet distinguish relevant from irrelevant aspects of complex cultural knowledge
+
+**Relevance to Book Project:** HIGH
+Language and cumulative culture are the mechanisms through which personality, social norms, and cognitive styles are transmitted and shaped across generations — essential context for understanding how biological predispositions interact with cultural environments to produce individual differences.
+
+---
+
+### 518. Bennett (2023), Ch. 20
+
+**Citation:** Bennett, M. S. (2023). Language in the brain. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 20). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* Broca's area, Wernicke's area, aphasia, language acquisition, primate homologs
+- *Additional terms:* Broca's aphasia, Wernicke's aphasia, emotional expressions, laughs, cries, ape communication homologs, proto-conversations, joint attention, question-asking instinct, no language organ, learned language, hardwired curriculum
+
+#### Core Themes
+- Broca's area (speech production) and Wernicke's area (language comprehension) are shown to have clear homologs in all primate brains, not just humans — indicating that language was built on pre-existing neural infrastructure rather than evolving de novo
+- Human emotional expressions (laughs, cries, screams) are identified as the true homologs of ape vocalizations — both are involuntary, subcortically controlled, and emotionally driven, while language is a fundamentally different, cortically controlled system
+- Language is argued to be learned rather than hardwired, contra Chomsky's nativist position — but it is learned through an evolutionarily hardwired developmental curriculum: proto-conversations (turn-taking with caregivers), joint attention (shared reference), and an instinct to ask questions
+- The "no language organ" argument is central: there is no dedicated neural module for language; instead, language is a learned skill that recruits domain-general cortical learning machinery, explaining why language areas overlap with other cognitive functions
+- The developmental sequence of language acquisition (proto-conversations from birth, joint attention around 9-12 months, vocabulary explosion around 18 months, grammar emergence around 2-3 years) reflects the unfolding of the hardwired curriculum rather than maturation of a language module
+
+**Relevance to Book Project:** HIGH
+The view of language as a learned skill supported by domain-general cortical machinery (rather than a modular organ) has implications for understanding how verbal ability relates to general intelligence and how individual differences in language development connect to broader cognitive and personality variation.
+
+---
+
+### 519. Bennett (2023), Ch. 21
+
+**Citation:** Bennett, M. S. (2023). The perfect storm. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 21). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* Homo erectus, bipedalism, Great Rift Valley, protolanguage, cooperative breeding
+- *Additional terms:* stone tools, throwing, endurance running, cooking, premature birthing, pair-bonding, grandmothering, Wallace's problem, altruism problem, gossip, punishment, apex predator
+
+#### Core Themes
+- The "perfect storm" of human cognitive evolution is traced to the Great Rift Valley's environmental transformation, which pushed hominins from forest to savanna and selected for bipedalism, freeing the hands for tool use and enabling endurance running
+- Homo erectus is characterized as Earth's first apex predator among primates — combining stone tools, precision throwing, endurance pursuit hunting, and cooking to dominate the food chain, with these innovations creating positive feedback loops driving further brain expansion
+- Two reproductive innovations — premature birthing (allowing larger brains to pass through the birth canal) and cooperative breeding (pair-bonding, grandmothering, alloparenting) — solved the metabolic and developmental constraints on brain size
+- Wallace's problem (why humans have cognitive capacities far exceeding survival needs) and the altruism problem with language evolution (why share valuable information?) are identified as the two key puzzles of human uniqueness
+- Gossip and social punishment are proposed as solutions to the altruism problem: language enables reputation tracking and norm enforcement, making cooperation stable by allowing groups to collectively punish free-riders and reward cooperators
+
+**Relevance to Book Project:** HIGH
+The co-evolution of social cognition, cooperative breeding, and language provides the ecological context for understanding why humans developed the complex social-cognitive capacities — including personality assessment, reputation management, and norm internalization — that define human social life.
+
+---
+
+### 520. Bennett (2023), Ch. 22
+
+**Citation:** Bennett, M. S. (2023). ChatGPT and the window into the mind. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 22). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* large language models, GPT-3, ChatGPT, commonsense reasoning, world models
+- *Additional terms:* next-word prediction, Blake Lemoine, sentience claims, spatial reasoning, physics intuition, algebra failures, simulation-based reasoning, representativeness heuristic, cognitive biases, reasoning by simulation
+
+#### Core Themes
+- GPT-3 and ChatGPT are characterized as next-word prediction engines that achieve remarkable linguistic fluency without possessing the internal world models that underpin human commonsense reasoning — a dissociation that reveals what language alone can and cannot accomplish
+- Blake Lemoine's sentience claims about LaMDA are used to illustrate the human tendency to attribute mental states to systems that produce language-like output, highlighting the gap between linguistic competence and genuine understanding
+- Systematic LLM failures at commonsense reasoning tasks (basic algebra, spatial reasoning, intuitive physics) are presented as diagnostic evidence that these systems lack the simulation-based world models that humans use for everyday inference
+- The absence of a "world model" in LLMs is contrasted with the mammalian simulation engine (Breakthrough #3): humans reason about the physical and social world by running mental simulations, while LLMs pattern-match over statistical regularities in text
+- Cognitive biases such as the representativeness heuristic are reinterpreted as the costs of reasoning by simulation — when humans use their generative models to assess probability by simulating representative examples, they systematically neglect base rates and statistical structure
+
+**Relevance to Book Project:** HIGH
+Directly relevant to the project's heuristics-and-biases and rationality themes — the argument that human cognitive biases emerge from simulation-based reasoning provides a unified evolutionary-computational account of why systematic reasoning errors persist despite their costs.
+
+---
+
+### 521. Bennett (2023), Conclusion
+
+**Citation:** Bennett, M. S. (2023). The sixth breakthrough. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Conclusion). Mariner Books.
+
+**Purpose:** Book Chapter
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (evolutionary neuroscience)
+
+**Key Terms:**
+- *Paper keywords:* five breakthroughs, cumulative evolution, artificial superintelligence, sixth breakthrough
+- *Additional terms:* steering, reinforcing, simulating, mentalizing, speaking, bootstrapping, biological-to-digital intelligence transfer, evolutionary trajectory, cognitive architecture recapitulation
+
+#### Core Themes
+- The five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Speaking) are recapitulated as a cumulative sequence in which each breakthrough required and built upon all prior ones — no breakthrough could have evolved in isolation or in a different order
+- The bootstrapping principle is emphasized: each breakthrough expanded the design space for subsequent innovations (e.g., simulation required reinforcement learning, mentalizing required simulation, language required mentalizing), creating an accelerating trajectory of cognitive complexity
+- Evolution is characterized as still young — the five breakthroughs span only ~600 million years of a universe that may persist for trillions, suggesting that intelligence is in its early stages rather than a mature or final product
+- Artificial superintelligence is proposed as the likely sixth breakthrough — a transfer of intelligence from biological to digital substrates that would transcend the metabolic, developmental, and lifespan constraints that limit biological brains
+- The conclusion frames the entire book's narrative as an argument that understanding the evolutionary sequence of biological intelligence is essential for building and evaluating artificial intelligence, since each AI advance has recapitulated a biological breakthrough
+
+**Relevance to Book Project:** HIGH
+Provides the integrative framework connecting all five breakthroughs into a unified theory of cognitive evolution — essential for the project's goal of understanding how the layered architecture of the human mind (from basic affect through language-mediated reasoning) produces the individual differences in personality, cognition, and judgment that are the focus of analysis.
+
+---

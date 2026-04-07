@@ -1,6 +1,6 @@
 # Paper Index
 
-> Updated 2026-04-06. Covers 502 entries (all PDFs in `processed/`).
+> Updated 2026-04-07. Covers 556 entries (all PDFs in `processed/`).
 
 ## Taxonomy Key
 
@@ -4793,23 +4793,333 @@
 - **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Recapitulates the five breakthroughs and speculates on a sixth.
 - **Notes:** Recapitulates the five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Speaking) and their bootstrapping logic. Speculates on artificial superintelligence as a potential sixth breakthrough.
 
+### 526. Adams_etal_2015.pdf
+- **Citation:** Adams, M. J., Majolo, B., Ostner, J., Schülke, O., De Marco, A., Thierry, B., Engelhardt, A., Widdig, A., Gerald, M. S., & Weiss, A. (2015). Personality structure and social style in macaques. *Journal of Personality and Social Psychology*, *109*(2), 338–353. https://doi.org/10.1037/pspp0000041
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Primate Personality, Social Style Evolution
+- **Quality:** N = 432 macaques (6 species, 7 sites) | Structural: L | Multi-species, multi-site; HPQ standard instrument; domain-level PCA + fuzzy set facets. Social style mapping (despotic vs. egalitarian) novel. JPSP publication.
+- **Notes:** Friendliness and Openness dimensions consistent across 6 macaque species; dimensions related to aggression/social competence mapped onto social style (despotic vs. egalitarian), not pure phylogeny. Grade 1 despotic species clustered together. Sex × social style interaction for Friendliness significant.
+
+### 527. DeYoung_2015.pdf
+- **Citation:** DeYoung, C. G. (2015). Cybernetic Big Five Theory. *Journal of Research in Personality*, *56*, 33–58. https://doi.org/10.1016/j.jrp.2014.07.004
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; references NEO-PI-R, BFAS, IPIP)
+- **Level of Detail:** Personality Domain, Personality Aspect, Personality Facet
+- **Topic:** Personality Theory, Big Five, Cybernetics, Personality Neuroscience
+- **Quality:** Prestige: XL | *Journal of Research in Personality*. Foundational mechanistic theory mapping Big Five to cybernetic goal-pursuit parameters. Highly cited.
+- **Notes:** Proposes Cybernetic Big Five Theory (CB5T): each Big Five domain reflects variation in parameters of evolved cybernetic mechanisms. E = reward sensitivity, N = defensive responses, O/I = cognitive exploration, C = protection of non-immediate goals, A = goal coordination with others. Two metatraits (Stability/Plasticity) above domains; 10 aspects (2 per domain) as empirically derived intermediate level.
+
+### 528. Delval_etal_2023.pdf
+- **Citation:** Delval, I., Fernandez-Bolaños, M., & Izar, P. (2023). Towards an integrated concept of personality in human and nonhuman animals. *Integrative Psychological and Behavioral Science*. https://doi.org/10.1007/s12124-023-09759-y
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (reviews HPQ, NEO-PI-R, HEXACO, ANPS, CBQ, Réale et al. framework)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Integrative Personality Theory, Terminology
+- **Quality:** Prestige: M | *Integrative Psychological and Behavioral Science*. Clarifies terminological distinctions (personality vs. temperament vs. coping styles vs. behavioral syndromes). Cross-species synthesis.
+- **Notes:** Reviews etymological origins and definitional distinctions between personality, temperament, coping styles, and behavioral syndromes. Argues for unified science of personality applicable across species. Primate studies (HPQ) show broad cross-species similarities. Affective Neuroscience approach links Big Five to primary emotional systems (SEEKING, PLAY, CARE, FEAR, SADNESS, ANGER).
+
+### 529. Dickman_1990.pdf
+- **Citation:** Dickman, S. J. (1990). Functional and dysfunctional impulsivity: Personality and cognitive correlates. *Journal of Personality and Social Psychology*, *58*(1), 95–102.
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis, Experimental/Intervention
+- **Instruments:** Custom Functional/Dysfunctional Impulsivity scales, EPI Impulsivity, Barratt Impulsivity Scale v5, Guilford-Zimmerman Temperament Survey, PRF
+- **Level of Detail:** Personality Facet
+- **Topic:** Impulsivity, Personality and Cognition, Extraversion, Conscientiousness
+- **Quality:** N = 477 (Study 1), 188 (Study 2), 217 (Study 3) | Structural: M | Three-study design with factor analysis + behavioral validation. Custom instrument but well-validated against established scales. Single student samples.
+- **Notes:** Two distinct impulsivity factors: Functional (speed-accuracy trade-off, r = .07 with Dysfunctional) and Dysfunctional. Functional impulsivity associated with Extraversion traits (Venturesomeness r = .44); Dysfunctional with low Conscientiousness traits (Order r = -.46). High functional impulsives faster on cognitive tasks (omega-sq = .05) with higher net performance.
+
+### 530. Fernández-Bolaños_2020.pdf
+- **Citation:** Fernandez-Bolaños, M., Delval, I., de Oliveira, R. S., & Izar, P. (2020). Assessing the personality of wild capuchin monkeys (*Sapajus xanthosternos*) using trait rating and behavioral coding. *Journal of Comparative Psychology*, *134*(3), 349–360. https://doi.org/10.1037/com0000219
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ), standardized behavioral ethogram
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Primate Personality, Wild vs. Captive
+- **Quality:** N = 26 wild capuchins | Structural: S | First HPQ study of wild *S. xanthosternos*. Multi-method (trait rating + behavioral coding). Very small N; single group.
+- **Notes:** HPQ yielded 3 components (63% variance): Openness-Neuroticism (merged), Assertiveness, Attentiveness-Sociability. Behavioral coding yielded 3 different components. Openness and Neuroticism merged in wild sample (unlike captive). Vigilance correlated with Assertiveness (r = .62) in wild context (anti-predator), opposite of captive studies.
+
+### 531. Forkosh_etal_2019.pdf
+- **Citation:** Forkosh, O., Karamihalev, S., Grevain, S., Auer, M., Kristen-Burmann, C., Stasi, A., ... Chen, A. (2019). Identity domains capture individual differences from across the behavioral repertoire. *Nature Neuroscience*, *22*, 2023–2028. https://doi.org/10.1038/s41593-019-0516-y
+- **Purpose:** Original Research
+- **Methodology:** Experimental/Intervention, Factor Analysis
+- **Instruments:** Custom automated video tracking system, computational behavioral feature extraction, RNA-seq
+- **Level of Detail:** Other (computational behavioral dimensions)
+- **Topic:** Comparative Animal Personality, Computational Ethology, Personality Neuroscience
+- **Quality:** Published in *Nature Neuroscience* | Structural: L | Novel computational approach to mouse personality. Automated extraction of ~60 behavioral features; identity domains stable across group composition changes. Brain gene expression (RNA-seq) linked to personality profiles.
+- **Notes:** Identified stable "identity domains" in group-housed mice via unsupervised machine learning on automated behavioral tracking (~60 features). Domains stable even when group composition changed. Brain RNA-seq showed differential gene expression across personality profiles. Demonstrates objective, rater-free personality measurement.
+
+### 532. Litchfield_etal_2017.pdf
+- **Citation:** Litchfield, C. A., Quinton, G., Tindle, H., Chiera, B., Kikillus, K. H., & Roetman, P. (2017). The 'Feline Five': An exploration of personality in pet cats (*Felis catus*). *PLoS ONE*, *12*(8), e0183455. https://doi.org/10.1371/journal.pone.0183455
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** 52-item cat personality survey (adapted from felid/chimpanzee assessments)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Domestic Cat Personality
+- **Quality:** N = 2,802 pet cats (2 samples: SA + NZ) | Structural: L | Very large N with cross-validation across two independent samples. Owner-report only; custom instrument.
+- **Notes:** Five factors (the "Feline Five"): Neuroticism (α = .90), Extraversion (α = .80), Dominance (α = .80), Impulsiveness (α = .72), Agreeableness (α = .78). Cross-validated between South Australia and New Zealand samples. Practical welfare implications discussed.
+
+### 533. Masilkova_2020.pdf
+- **Citation:** Masilkova, M., Weiss, A., Slipogor, V., & Konečná, M. (2020). Comparative assessment of behaviorally derived personality structures in golden-handed tamarins, cotton-top tamarins, and common marmosets. *Journal of Comparative Psychology*, *134*(4), 453–466. https://doi.org/10.1037/com0000226
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Species-specific behavioral ethograms (22 standardized behavioral indices)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Callitrichid Primate Personality, Phylogeny vs. Ecology
+- **Quality:** N = 65 callitrichids (3 species, multi-site) | Structural: M | Behaviorally derived (not questionnaire), three-species comparison. Small N per species; zoo samples only.
+- **Notes:** Golden-handed tamarins and common marmosets (phylogenetically more distant) had more similar personality structures than either had with cotton-top tamarins — contrary to phylogenetic prediction. Suggests socioecological factors (social organization, habitat) shape personality structure alongside phylogeny. Five cross-species facets identified: activity/exploration, aggression, signals, grooming, sociability.
+
+### 534. Morton_2014.pdf
+- **Citation:** Morton, F. B. (2014). *Individual differences in learning, personality, and social success in brown capuchin monkeys (Sapajus sp.)*. Doctoral thesis, University of Stirling.
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis, Experimental/Intervention
+- **Instruments:** Hominoid Personality Questionnaire (HPQ), focal behavioral sampling, operant discrimination tasks, social network analysis
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Primate Cognition, Personality and Social Success
+- **Quality:** N = 127 capuchins (7 sites) for personality; N = 18 for behavioral/social/learning | Structural: M | Multi-site HPQ with behavioral + social network + learning validation. PhD thesis (not peer-reviewed journal article). Behavioral subsample very small.
+- **Notes:** Five personality dimensions: Assertiveness, Openness, Neuroticism, Sociability, Attentiveness. Personality predicted behavior up to 1 year later (Assertiveness–aggression r = .72). Better learners were less socially successful (learning–centrality r = -.64); effect driven by Assertiveness. Personality homophily predicted relationship quality.
+
+### 535. Morton_2021.pdf
+- **Citation:** Morton, F. B., Robinson, L. M., Brando, S., & Weiss, A. (2021). Personality structure in bottlenose dolphins (*Tursiops truncatus*). *Journal of Comparative Psychology*, *135*(2), 219–231. https://doi.org/10.1037/com0000259
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Dolphin Personality Questionnaire (49 items)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Cetacean Personality, Convergent Evolution
+- **Quality:** N = 134 dolphins (15 facilities, 8 countries) | Structural: L | Multi-site, multi-country; preregistered analyses. Custom instrument but adapted from established HPQ tradition. ICC(3,k) .86-.89.
+- **Notes:** Four personality domains: Openness, Directedness (blend of high C / low N — unique to dolphins), Sociability (blend of E + A), Disagreeableness. No distinct Dominance, Neuroticism, or Conscientiousness factors. Directedness convergent with primate Conscientiousness but structurally distinct.
+
+### 536. morton_etal-2023.pdf
+- **Citation:** Morton, F. B., Lee, P. C., Buchanan-Smith, H. M., Brosnan, S. F., Thierry, B., Paukner, A., de Waal, F. B. M., Widness, J., Essler, J. L., & Weiss, A. (2013). Personality structure in brown capuchin monkeys (*Sapajus apella*): Comparisons with chimpanzees, orangutans, and rhesus macaques. *Journal of Comparative Psychology*, *127*(3), 282–298. https://doi.org/10.1037/a0031723
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Primate Personality Evolution, Cross-Species Comparison
+- **Quality:** N = 127 capuchins (7 sites) + cross-species comparisons | Structural: L | Multi-site HPQ; formal cross-species structure comparisons (Williams's t-tests) with chimpanzees, orangutans, rhesus macaques. Behavioral validation on N = 18.
+- **Notes:** Five components: Assertiveness, Openness, Neuroticism, Sociability, Attentiveness. Capuchin personality more similar to great apes (chimpanzees, orangutans) than to rhesus macaques for Assertiveness (t = 4.27) and Neuroticism (t = 3.37). Attentiveness most similar to chimpanzee Conscientiousness. Supports convergent evolution with great apes (large brains, tool use).
+
+### 537. Nettle_2006.pdf
+- **Citation:** Nettle, D. (2006). The evolution of personality variation in humans and other animals. *American Psychologist*, *61*(6), 622–631. https://doi.org/10.1037/0003-066X.61.6.622
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (references Big Five / FFM framework)
+- **Level of Detail:** Personality Domain
+- **Topic:** Evolutionary Psychology of Personality, Fitness Trade-offs, Maintenance of Variation
+- **Quality:** Prestige: XL | *American Psychologist*. Highly cited evolutionary framework mapping fitness costs and benefits to each Big Five domain.
+- **Notes:** Each Big Five dimension framed as fitness trade-off: E (mating success vs. physical risk), N (vigilance vs. stress), O (creativity vs. psychosis risk), C (longevity vs. rigidity), A (relationships vs. exploitation vulnerability). Trade-off framework predicts no unconditionally optimal personality, maintaining genetic diversity through fluctuating selection. Great tit exploration–survival reversals across years as animal evidence.
+
+### 538. Peabody_1984.pdf
+- **Citation:** Peabody, D. (1984). Personality dimensions through trait inferences. *Journal of Personality and Social Psychology*, *46*(2), 384–403.
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Custom trait inference questionnaire (120 trait adjectives × 55 bipolar scales)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure, Trait Semantics, Lexical Approach, Big Five Critique
+- **Quality:** Structural: M | Innovative method (trait inference task separating evaluative from descriptive content). Student sample; single methodology. No counterparts found for Emotional Stability or Culture/Openness.
+- **Notes:** Three descriptive dimensions: Tight vs. Loose impulse control (40.3% variance), Self-assertiveness (21.5%), Commitment vs. Lability (8.5%). Confounded varimax factors corresponded to 3 of Big Five (A, C, Surgency) but no counterparts for Emotional Stability or Culture. Argued discrepancies reflect differences between internal (trait inference) vs. external (person rating) personality structure.
+
+### 539. Penke_etal_2007.pdf
+- **Citation:** Penke, L., Denissen, J. J. A., & Miller, G. F. (2007). The evolutionary genetics of personality. *European Journal of Personality*, *21*, 549–587. https://doi.org/10.1002/per.629
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; references FFM, twin designs, molecular genetics)
+- **Level of Detail:** Personality Domain, Cognitive Ability, g
+- **Topic:** Evolutionary Genetics, Mutation-Selection Balance, Balancing Selection, Personality Structure
+- **Quality:** Prestige: L | *European Journal of Personality*. Comprehensive theoretical framework with testable predictions. Integrates evolutionary genetics, behavior genetics, and personality theory.
+- **Notes:** Mutation-selection balance best explains genetic variance in intelligence (large mutational target, many rare alleles, condition-dependent). Balancing selection best explains personality (fewer QTLs at intermediate frequency, high non-additive genetic variance, environment-contingent fitness). Predicts gene-hunting more successful for personality than intelligence. DRD4 7R distribution supports environmental heterogeneity model.
+
+### 540. quirin-etal-2020.pdf
+- **Citation:** Quirin, M., Robinson, M. D., Rauthmann, J. F., Kuhl, J., Read, S. J., Tops, M., & DeYoung, C. G. (2020). The dynamics of personality approach (DPA): 20 tenets for uncovering the causal mechanisms of personality. *European Journal of Personality*, *34*, 947–968. https://doi.org/10.1002/per.2295
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; references Big Five, RST measures, ESM, implicit measures, neuroimaging)
+- **Level of Detail:** Personality Domain, Personality Aspect
+- **Topic:** Personality Theory, Personality Processes, Self-Regulation, Personality Neuroscience
+- **Quality:** Prestige: L | *European Journal of Personality*. Multi-author consensus framework integrating CB5T, PSI theory, Virtual Personalities Model, and PARCS theory.
+- **Notes:** 20 tenets for Dynamics of Personality Approach (DPA). Personality parsed into cognitive, emotional-motivational, and volitional functions. Self-regulation in four phases: goal selection (openness), planning (industriousness), action (extraversion), evaluation (neuroticism/orderliness). Two N components: negative emotion sensitivity + emotion regulation ability — high sensitivity + high regulation → high well-being.
+
+### 541. rebout_2025.pdf
+- **Citation:** Rebout, N., Baxter, A., Bales, K. L., & Zablocki-Thomas, P. (2025). Exploring personality structure and similarity in coppery titi monkeys (*Plecturocebus cupreus*). *Journal of Comparative Psychology*, *139*(4), 301–314. https://doi.org/10.1037/com0000407
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Primate Personality, Pair Bonding
+- **Quality:** N = 54 titi monkeys (27 pairs) | Structural: M | First HPQ study of titi monkeys. Moderate N for species; single facility. Novel pair-similarity analyses.
+- **Notes:** Five components (68.2% variance): Aggressive, Cautious, Cool, Innovative, Helpful. Mates significantly similar on Aggressive (r = .45) and Helpful (r = .45). Speed-dating pairs higher in Helpful than randomly assigned pairs. Males more Helpful; males become less Aggressive/Innovative with age (no female age effects).
+
+### 542. Smaldino_etal-2019.pdf
+- **Citation:** Smaldino, P. E., Lukaszewski, A., von Rueden, C., & Gurven, M. (2019). Niche diversity can explain cross-cultural differences in personality structure. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-019-0730-3
+- **Purpose:** Original Research
+- **Methodology:** Computational Modeling, Cross-Sectional, Factor Analysis
+- **Instruments:** Big Five Inventory (BFI; 44 items) — cross-national dataset (55 nations)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Structure, Cross-Cultural Psychology, Evolutionary Psychology, Computational Modeling
+- **Quality:** Published in *Nature Human Behaviour*. Computational: 1,000 simulated agents. Empirical: 55 nations, >19,000 participants | Structural: L | Elegant model linking socioecological complexity to personality factor number. Challenges Big Five universality.
+- **Notes:** Niche diversity hypothesis: greater social/ecological niche diversity → lower trait covariance → more extracted factors. Simulations confirmed; nations higher in socioecological complexity show higher trait variance (β = .431, R² = .42). Less complex societies show only 2 personality factors vs. 5 in industrialized nations. Challenges universality of Big Five as species-typical latent structure.
+
+### 543. Tops_2010.pdf
+- **Citation:** Tops, M., Boksem, M. A. S., Luu, P., & Tucker, D. M. (2010). Brain substrates of behavioral programs associated with self-regulation. *Frontiers in Psychology*, *1*, Article 152. https://doi.org/10.3389/fpsyg.2010.00152
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; discusses temperament questionnaires, NEO, BIS/BAS, EEG, fMRI)
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality Neuroscience, Self-Regulation, Neuromodulation, Temperament
+- **Quality:** Prestige: M | *Frontiers in Psychology*. Proposes four-neuromodulator model mapping onto ventrolateral (reactive) vs. mediodorsal (proactive) cortical systems.
+- **Notes:** Four neuromodulator systems: dopamine (reactive approach), acetylcholine (reactive avoidance), noradrenaline (proactive approach/avoidance), serotonin (withdrawal). Two cortical control paths: ventrolateral (feedback/reactive) vs. mediodorsal (feedforward/proactive). Extraversion conflates reactive approach (dopaminergic) and proactive approach (noradrenergic). Two types of positive affect distinguished: reactive "wanting" vs. proactive "broaden-and-build."
+
+### 544. Tops_etal_2014.pdf
+- **Citation:** Tops, M., Boksem, M. A. S., Quirin, M., IJzerman, H., & Koole, S. L. (2014). Internally directed cognition and mindfulness: An integrative perspective derived from predictive and reactive control systems theory. *Frontiers in Psychology*, *5*, Article 429. https://doi.org/10.3389/fpsyg.2014.00429
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; discusses DMN studies, anterior insula research, mindfulness questionnaires)
+- **Level of Detail:** Other (brain networks, self-regulation)
+- **Topic:** Cognitive Neuroscience, Self-Regulation, Mindfulness, Default Mode Network, PARCS Theory
+- **Quality:** Prestige: M | *Frontiers in Psychology*. Applies PARCS theory to explain DMN, mind wandering, rumination, mindfulness. Comprehensive Table 1 comparing reactive vs. predictive systems.
+- **Notes:** PARCS theory: reactive system (ventrolateral: IFG, anterior insula, amygdala) vs. predictive system (dorsomedial: PCC, mPFC, DLPFC). DMN functions as predictive control. Two types of mind wandering: prospective/reflective (DMN, positive affect) vs. ruminative (left IFG/AI co-activation, negative affect). Two types of self-awareness: experiential "I" (reactive) vs. conceptual "me" (predictive).
+
+### 545. Tops_etal_2017.pdf
+- **Citation:** Tops, M., Quirin, M., Boksem, M. A. S., & Koole, S. L. (2017). Large-scale neural networks and the lateralization of motivation and emotion. *International Journal of Psychophysiology*, *119*, 41–49. https://doi.org/10.1016/j.ijpsycho.2017.02.004
+- **Purpose:** Review
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (theoretical; discusses BIS/BAS, frontal EEG alpha asymmetry, fMRI)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Neuroscience, Hemispheric Lateralization, Motivation, Emotion, Coping Styles
+- **Quality:** Prestige: L | *International Journal of Psychophysiology*. Extends PARCS to hemispheric lateralization with cross-species coping style evidence.
+- **Notes:** Left hemisphere → predictive (proactive) control; right hemisphere → reactive control. Four coping styles mapped to brain quadrants. Anger/happiness associated with left hemisphere (predictive); sadness/fear with right (reactive). Proactive vs. reactive coping as fundamental biological dimension across vertebrates. Depression linked to decreased left frontal activity.
+
+### 546. uher-2008.pdf
+- **Citation:** Uher, J., & Asendorpf, J. B. (2008). Personality assessment in the Great Apes: Comparing ecologically valid behavior measures, behavior ratings, and adjective ratings. *Journal of Research in Personality*, *42*, 821–838. https://doi.org/10.1016/j.jrp.2007.10.004
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Experimental/Intervention
+- **Instruments:** Great Ape Personality Inventory-Behaviors (GAPI-B, 34 items), Great Ape Personality Inventory-Adjectives (GAPI-A, 17 items), 76 behavior-situation variables from 14 lab tests
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, Assessment Methodology, Primate Personality
+- **Quality:** N = 20 Great Apes (4 species) | Structural: S | Exemplary multimethod design (3 assessment methods × 2 time points), but very small N. Bottom-up trait generation beyond FFM.
+- **Notes:** Three assessment methods compared: behavior measures (α = .96), behavior ratings (α = .81), adjective ratings (α = .83). High temporal stability (mean r = .78-.88). Behavior ratings fully mediated behavior–adjective relationships in 6/7 traits. Bottom-up approach identified traits beyond FFM (food orientation, sexual activity).
+
+### 547. vonk_2017.pdf
+- **Citation:** Vonk, J., Weiss, A., & Kuczaj, S. A. (Eds.). (2017). *Personality in nonhuman animals*. Springer. https://doi.org/10.1007/978-3-319-59300-5
+- **Purpose:** Book Chapter
+- **Methodology:** Narrative Review
+- **Instruments:** N/A (edited volume; discusses HPQ, Madingley Questionnaire, behavioral coding, etc.)
+- **Level of Detail:** Personality Domain
+- **Topic:** Comparative Animal Personality, History and Methodology, Cross-Species Personality Structure
+- **Quality:** Prestige: XL | *Personality in Nonhuman Animals* (Springer). 16-chapter edited volume. Comprehensive reference work covering history, methods, species-specific findings, and applications.
+- **Notes:** Traces animal personality from Pavlov (1927) through King & Figueredo (1997) FFM+D. Covers HPQ tradition, behavioral coding methods, species from zebrafish to great apes. Publications surged post-1997. Chapter 2 describes HPQ origin from Goldberg's Big Five taxonomy adapted for chimpanzees.
+
+### 548. Weiss_2000.pdf
+- **Citation:** Weiss, A., King, J. E., & Figueredo, A. J. (2000). The heritability of personality factors in chimpanzees (*Pan troglodytes*). *Behavior Genetics*, *30*, 213–221. https://doi.org/10.1023/A:1001966224914
+- **Purpose:** Original Research
+- **Methodology:** Twin/Genetic
+- **Instruments:** Chimpanzee Personality Questionnaire (CPQ, 43 items)
+- **Level of Detail:** Personality Domain
+- **Topic:** Chimpanzee Personality Heritability, Behavior Genetics, Primate Personality
+- **Quality:** N = 145 chimpanzees (12 US zoos + 1 Australian) | Heritability: M | SDS technique for zoo pedigrees; not classical twin design. Moderate N. Only Dominance significantly heritable.
+- **Notes:** Dominance h² = .63 (p < .001); other five factors near zero or nonsignificant. Shared zoo environment negligible for all six factors — parallels negligible shared family environment in human personality. Inter-rater reliabilities .71-.88.
+
+### 549. Weiss_2006.pdf
+- **Citation:** Weiss, A., King, J. E., & Perkins, L. (2006). Personality and subjective well-being in orangutans (*Pongo pygmaeus* and *Pongo abelii*). *Journal of Personality and Social Psychology*, *90*, 501–511. https://doi.org/10.1037/0022-3514.90.3.501
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Orangutan Personality Questionnaire (OPQ, 48 items), 4-item subjective well-being questionnaire
+- **Level of Detail:** Personality Domain
+- **Topic:** Orangutan Personality, Personality–SWB, Primate Personality Evolution
+- **Quality:** N = 152 orangutans (41 zoos) | Structural: L | Large N for nonhuman primates; multi-site. Published in JPSP.
+- **Notes:** Five factors (64.1% variance): Extraversion, Dominance, Neuroticism, Agreeableness, Intellect. NO distinct Conscientiousness factor — Intellect blended C + O markers. SWB correlated with E (r = .47), A (r = .50), N (r = -.41). Absence of C factor suggests it evolved after orangutan-African ape split (~14 MYA).
+
+### 550. Weiss_2008.pdf
+- **Citation:** Weiss, A., Bates, T. C., & Luciano, M. (2008). Happiness is a personal(ity) thing: The genetics of personality and well-being in a representative sample. *Psychological Science*, *19*, 205–210. https://doi.org/10.1111/j.1467-9280.2008.02068.x
+- **Purpose:** Original Research
+- **Methodology:** Twin/Genetic, Factor Analysis
+- **Instruments:** Midlife Development Inventory (MIDI, 25 items), 3-item SWB measure
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality-SWB Genetics, Behavior Genetics, Shared Genetic Architecture
+- **Quality:** N = 973 twin pairs (365 MZ, 608 DZ; MIDUS) | Heritability: L · Genetic correlations: L | Representative US sample; adequate twin N. Multivariate Cholesky decomposition. Short personality measure (MIDI, not NEO-PI-R).
+- **Notes:** All heritable variance in SWB entirely accounted for by genetic architecture of FFM personality domains — no genetic influences specific to SWB. Genetic correlations: SWB with N (rg = -.58), E (rg = .66). Evidence for general genetic factor underlying all five personality domains and SWB.
+
+### 551. Weiss_2025.pdf
+- **Citation:** Weiss, A. (2025). Personality structure in wild Eastern chimpanzees (*Pan troglodytes schweinfurthii*). *Journal of Comparative Psychology*, *139*(4), 325–330. https://doi.org/10.1037/com0000414
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ, 54 items)
+- **Level of Detail:** Personality Domain
+- **Topic:** Wild Chimpanzee Personality, Ecological Validity, Primate Personality Structure
+- **Quality:** N = 40 wild chimpanzees (Budongo Forest, Uganda) | Structural: M | First full HPQ study of wild chimpanzees. Small N but critical ecological validity test.
+- **Notes:** Four factors (86.8% variance): Dominance, Disagreeableness, Openness, Extraversion. Conscientiousness and Neuroticism factors ABSENT in wild sample (C items loaded on Dominance/Disagreeableness). Extraversion narrow (activity + gregariousness only). Supports universal core structure with habitat-dependent variation.
+
+### 552. Weiss_etal_2015.pdf
+- **Citation:** Weiss, A., Staes, N., Pereboom, J. J. M., Inoue-Murayama, M., Stevens, J. M. G., & Eens, M. (2015). Personality in bonobos. *Psychological Science*, *26*, 1430–1439. https://doi.org/10.1177/0956797615589933
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ, 54 items)
+- **Level of Detail:** Personality Domain
+- **Topic:** Bonobo Personality, Primate Personality Evolution, Pan Comparative
+- **Quality:** N = 154 bonobos (~80% of captive population; 16 facilities) | Structural: L | Exceptional coverage of captive population. Multi-language (English, German, Dutch). Test-retest over ~5.6 years.
+- **Notes:** Six factors (56% variance): Assertiveness, Conscientiousness, Openness, Attentiveness, Agreeableness, Extraversion. Procrustes congruence with chimpanzees good for 4 factors (Assertiveness, C, A, O); poor for Attentiveness and Extraversion — likely derived traits (evolved after bonobo-chimpanzee split). Repeatability .17-.62 over 5.6 years.
+
+### 553. weiss_etal_2023.pdf
+- **Citation:** Weiss, A., Feldblum, J. T., Altschul, D. M., Collins, D. A., Kamenya, S., Mjungu, D., Foerster, S., Gilby, I. C., Wilson, M. L., & Pusey, A. E. (2023). Personality traits, rank attainment, and siring success throughout the lives of male chimpanzees of Gombe National Park. *PeerJ*, *11*, e15083. https://doi.org/10.7717/peerj.15083
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal
+- **Instruments:** 24-item Swahili-language HPQ (19 reliable items), Elo rating dominance rank, microsatellite paternity
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality and Fitness, Wild Chimpanzee, Life-History Trade-offs, Reproductive Success
+- **Quality:** N = 34 male chimpanzees, 37 years behavioral data | Life-event: M | Extraordinary longitudinal depth (37 years, 91% rank variance explained). Small N. Single personality assessment. No pre-event baseline for personality.
+- **Notes:** Higher Dominance (trait) → higher rank at all ages (p < .001); higher Conscientiousness → lower rank. Dominance predicted siring success (OR = 2.59) beyond rank effects. Nonlinear: above-average but not highest Dominance most successful. No age-varying personality–fitness associations — does NOT support life-history trade-off model for personality maintenance.
+
+### 554. Weiss_etal_2024.pdf
+- **Citation:** Weiss, A., Costa, P. T., Jr., Collins, K. A., Ross, L. M., Huffman, K. M., Wolever, R. Q., Smith, P. J., Hauser, E. R., Jiang, R., Jakicic, J. M., Kraus, W. E., & Siegler, I. C. (2024). Predicting physical activity by the personality styles of the Five-Factor Model. *Health Psychology*. https://doi.org/10.1037/hea0001388
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal, Cross-Sectional
+- **Instruments:** NEO-PI-R
+- **Level of Detail:** Personality Domain, Personality Facet
+- **Topic:** Personality and Physical Activity, Health Psychology, Personality Styles
+- **Quality:** N = 2,907 (Study 1), 3,291 (Study 2), 2,726 (Study 3) | Structural: L | Large N across 3 studies; prospective design (Study 1). Nearly all White, well-educated. Non-standard PA measure.
+- **Notes:** Personality traits operate nonadditively on physical activity. E+O+ (open extraverts) associated with more PA (RR = 1.68); E−A+ and E−C− with less PA. E4 (Activity facet) largely drove E–PA associations (E4+O+ RR = 2.06). Removing E4 variance reduced but did not eliminate interaction effects.
+
+### 555. Weiss-etal_2009.pdf
+- **Citation:** Weiss, A., Inoue-Murayama, M., Hong, K.-W., Inoue, E., Udono, T., Ochiai, T., Matsuzawa, T., Hirata, S., & King, J. E. (2009). Assessing chimpanzee personality and subjective well-being in Japan. *American Journal of Primatology*, *71*, 283–292. https://doi.org/10.1002/ajp.20649
+- **Purpose:** Original Research
+- **Methodology:** Cross-Sectional, Factor Analysis
+- **Instruments:** Hominoid Personality Questionnaire (HPQ, Japanese translation), 4-item SWB questionnaire
+- **Level of Detail:** Personality Domain
+- **Topic:** Chimpanzee Personality, Cross-Cultural Validation, Personality–SWB
+- **Quality:** N = 146 chimpanzees (10 Japanese facilities) | Structural: L | Cross-cultural replication of US structure. Adequate N. Procrustes congruence fair (.85 overall).
+- **Notes:** Six-factor structure replicated from US sample (overall congruence .85). E (.91) and D (.89) best replicated; N (.69) and O (.71) weakest. SWB correlated with D (r = .50), E (r = .49), N (r = -.36). Cross-cultural rater effects minimal — ratings reflect animal characteristics, not rater culture.
+
+### 556. Williams_etal_2022.pdf
+- **Citation:** Williams, H., Scharf, A., Ryba, A. R., Norris, D. R., Mennill, D. J., Newman, A. E. M., Doucet, S. M., & Blackwood, J. C. (2022). Cumulative cultural evolution and mechanisms for cultural selection in wild bird songs. *Nature Communications*, *13*, 4001. https://doi.org/10.1038/s41467-022-31621-9
+- **Purpose:** Original Research
+- **Methodology:** Longitudinal, Experimental/Intervention
+- **Instruments:** Sound recordings (spectrograms), discrete time population model, playback stimuli
+- **Level of Detail:** Other (song cultural evolution)
+- **Topic:** Cumulative Cultural Evolution, Birdsong, Cultural Selection, Vocal Learning
+- **Quality:** 35-year longitudinal field study + playback experiment (N = 25) | Published in *Nature Communications* | Gold-standard longitudinal design for cultural evolution. Single population.
+- **Notes:** Click trains replaced high note clusters in Savannah sparrow songs (1983-2010). Mathematical modeling: cultural SELECTION (σ = 1.70) best fit; drift and frequency-dependent bias did not. Longer click trains elicited stronger male aggression (F = 10.97) and female approach preference (χ² = 11.69). Satisfies all four criteria for cumulative cultural evolution in a wild, unmanipulated population.
+
 ---
 
 ## Summary Statistics
 
 | Category | Count |
 |----------|-------|
-| **Total papers** | 525 |
+| **Total papers** | 556 |
 
 ### By Purpose
 | Purpose | Count |
 |---------|-------|
-| Original Research | 266 |
-| Review | 132 |
+| Original Research | 288 |
+| Review | 140 |
 | Meta-Analysis | 31 |
 | Instrument Validation | 29 |
 | Commentary/Editorial | 22 |
-| Book Chapter | 31 |
+| Book Chapter | 32 |
 | Unknown | 2 |
 | — | 2 |
 | Theory | 2 |

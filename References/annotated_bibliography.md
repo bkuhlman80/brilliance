@@ -14864,3 +14864,106 @@ Cross-cultural validation demonstrating chimpanzee personality structure transce
 Demonstrates cumulative cultural evolution outside humans/great apes; relevant to understanding how behavioral traditions emerge and are selected.
 
 ---
+
+### 553. Briley & Tucker-Drob (2014)
+
+**Citation:** Briley, D. A., & Tucker-Drob, E. M. (2014). Genetic and environmental continuity in personality development: A meta-analysis. *Psychological Bulletin*, *140*(5), 1303–1331. https://doi.org/10.1037/a0037091
+
+**Purpose:** Meta-Analysis
+**Methodology:** Meta-Analysis, Twin/Genetic, Longitudinal
+**Instruments:** Multiple (aggregated across 24 longitudinal twin studies comprising 21,057 sibling pairs)
+**Level of Detail:** Personality Domain
+
+**Key Terms:**
+- *Paper keywords:* behavioral genetics, personality, rank-order stability, cumulative continuity, meta-analysis
+- *Additional terms:* differential stability, heritability, environmentality, genetic stability, environmental stability, Cholesky decomposition, Five-Factor Theory, social personality models, gene-environment interaction, gene-environment correlation, nonshared environment
+
+#### Core Themes
+- Both genetic and environmental influences on personality increase in stability with age; genetic stability approaches unity near age 30, environmental stability continues rising into old age
+- The contribution of genetic effects to phenotypic stability is moderate and relatively constant across the life span (~.36), because small-to-moderate decreases in heritability offset increases in genetic stability
+- Environmental contributions to phenotypic stability increase from near zero in early childhood to moderate in adulthood, accounting for the majority of the life-span trend of increasing phenotypic stability
+- Heritability of personality is highest in infancy (~70%) and declines through childhood to stabilize around 40% in adulthood; environmentality shows the complementary pattern
+- Effect sizes were remarkably similar across Big Five traits, self- vs. informant report, and broad vs. narrow measurement — suggesting universal developmental mechanisms
+- Findings support social personality models (SPMs) over Five-Factor Theory (FFT) for explaining increasing phenotypic stability, though genetic effects are more consistent with FFT predictions for stability peaking at age 30
+
+**Relevance to Book Project:** HIGH
+First comprehensive meta-analysis of genetic and environmental mechanisms underlying personality stability across the entire life span. Provides canonical benchmarks for how genetic and environmental contributions to personality stability change from infancy to old age, directly relevant to understanding how personality phenotypes are constructed through development.
+
+---
+
+### 554. Mitrović et al. (2024)
+
+**Citation:** Mitrović, D., Smederevac, S., Delgado-Cruzata, L., Sadiković, S., Pajić, D., Prinz, M., Budimlija, Z., Oljača, M., Kušić-Tišma, J., Vučinić, N., & Milutinović, A. (2024). Personality and *COMT* gene: Molecular-genetic and epigenetic associations with NEO-PI-R personality domains and facets in monozygotic twins. *Frontiers in Genetics*, *15*, 1455872. https://doi.org/10.3389/fgene.2024.1455872
+
+**Purpose:** Original Research
+**Methodology:** Twin/Genetic, Cross-Sectional
+**Instruments:** NEO-PI-R, COMT V158M genotyping (TaqMan assay), MB-COMT promoter DNA methylation (pyrosequencing)
+**Level of Detail:** Personality Domain, Personality Facet
+
+**Key Terms:**
+- *Paper keywords:* COMT, DNA methylation, NEO-PI-R, monozygotic twins, epigenetic modifications
+- *Additional terms:* COMT V158M (rs4680), Val/Met polymorphism, dopaminergic system, MB-COMT promoter, CpG sites, Serbian Twin Registry, Barnard's unconditional exact test, catecholamines, prefrontal cortex
+
+#### Core Themes
+- COMT V158M (rs4680) genotype associated with personality at domain and facet levels: Met+ carriers showed higher Self-Consciousness (N); Val+ carriers showed higher Extraversion (d = −0.187), Warmth (d = −0.208), Gregariousness (d = −0.198), Positive Emotions (d = −0.162), Competence (d = −0.177), and Achievement Striving (d = −0.145)
+- In MZ twin discordance analysis (N = 35 pairs), higher MB-COMT promoter DNA methylation at specific CpG sites associated with higher Warmth, Gregariousness, Trust, and Modesty — traits facilitating affiliative social behavior
+- Lower DNA methylation (implying higher COMT expression and lower dopamine) associated with higher Hostility, Depression, Impulsiveness, Excitement Seeking — traits implying reward-seeking or behavioral dyscontrol
+- Different CpG sites showed distinct patterns of association with personality facets, suggesting non-uniform epigenetic regulation across the COMT promoter
+- Epigenetic sample very small (35 MZ pairs); NEO-PI-R Openness α = .30 in this sample; hypothesis-generating only
+
+**Relevance to Book Project:** MODERATE
+Demonstrates facet-level personality associations with both genetic (COMT V158M) and epigenetic (DNA methylation) variation in a dopaminergic gene, using MZ twin discordance design. Illustrates how molecular and epigenetic approaches can complement quantitative behavioral genetics for understanding personality at the facet level.
+
+---
+
+### 555. Nikolašević et al. (2021)
+
+**Citation:** Nikolašević, Ž., Dinić, B. M., Smederevac, S., Sadiković, S., Milovanović, I., Bugarski Ignjatović, V., Prinz, M., Budimlija, Z., & Zgonjanin Bosić, D. (2021). Common genetic basis of the five factor model facets and intelligence: A twin study. *Personality and Individual Differences*, *175*, 110682. https://doi.org/10.1016/j.paid.2021.110682
+
+**Purpose:** Original Research
+**Methodology:** Twin/Genetic, Cross-Sectional
+**Instruments:** NEO-PI-R, Raven's Advanced Progressive Matrices (APM Set II)
+**Level of Detail:** Personality Domain, Personality Facet, g
+
+**Key Terms:**
+- *Paper keywords:* Five Factor Model, facets, intelligence, twin study
+- *Additional terms:* Cholesky decomposition, genetic correlation, environmental correlation, General Factor of Personality (GFP), Big Two, Brunswik symmetry principle, Serbian Twin Registry, fluid intelligence, Ideas facet, pleiotropy
+
+#### Core Themes
+- GFP and Big Two models showed poor CFA fit; only FFM domain and facet levels justified for personality-intelligence analyses
+- At domain level, only Openness (rG = .19) and Neuroticism (rG = -.14) had significant genetic correlations with g; at facet level, associations emerged across all five domains
+- Ideas facet showed the strongest genetic correlation with intelligence (rG = .38, p < .01); Order (rG = -.28) and Modesty (rG = -.26) showed strongest negative genetic correlations
+- Seven facets significantly predicted g (R² = .35): Ideas and Positive Emotions positively; Order, Tender Mindedness, Actions, Hostility, and Modesty negatively
+- Aggregate of predictive facets showed higher genetic (rG = .52) than environmental (rE = .13) correlation with intelligence, demonstrating shared genetic architecture
+- Facets from same domain had opposite correlations with intelligence (e.g., Competence positive, Order negative within C), highlighting the importance of facet-level analysis
+
+**Relevance to Book Project:** HIGH
+Demonstrates common genetic basis of personality facets and general intelligence using twin methodology. Supports facet-level analysis as essential for detecting personality-intelligence links that are masked at the domain level. Provides genetic correlation estimates useful for understanding how cognitive and personality phenotypes share developmental origins.
+
+---
+
+### 556. Røysamb et al. (2018)
+
+**Citation:** Røysamb, E., Nes, R. B., Czajkowski, N. O., & Vassend, O. (2018). Genetics, personality and wellbeing: A twin study of traits, facets and life satisfaction. *Scientific Reports*, *8*, 12298. https://doi.org/10.1038/s41598-018-29881-x
+
+**Purpose:** Original Research
+**Methodology:** Twin/Genetic, Cross-Sectional
+**Instruments:** NEO-PI-R, Satisfaction With Life Scale (SWLS)
+**Level of Detail:** Personality Domain, Personality Facet
+
+**Key Terms:**
+- *Paper keywords:* life satisfaction, personality, twin study, heritability, facets, genetics
+- *Additional terms:* Norwegian Twin Registry, Cholesky decomposition, neuroticism, extraversion, anxiety, depression, positive emotions, activity, subjective well-being, sex-limitation models
+
+#### Core Themes
+- N and E explained 24% of life satisfaction variance; 30 personality facets explained 32% (adjusted R² = .32)
+- Four facets uniquely and substantially predicted life satisfaction: Depression (β = -.35), Anxiety (β = -.15), Positive Emotions (β = .16), Activity (β = .12) — all predominantly emotional facets
+- Heritability of life satisfaction estimated at .31 (.22-.40); of this, 65% was explained by personality-related genetic influences and 35% was unique genetic variance in life satisfaction independent of personality
+- Genetic correlations between personality and life satisfaction were substantial: N rG = -.70, E rG = .53; Anxiety facet rG = -.74, Depression facet rG = -.71
+- Within-domain genetic factors (shared by anxiety and depression within N; shared by activity and positive emotions within E) drove the personality-life satisfaction genetic overlap; facet-specific influences on life satisfaction were primarily environmental
+- No sex differences in standardized heritability estimates; no common (shared) environmental effects needed
+
+**Relevance to Book Project:** HIGH
+Identifies the specific personality facets (predominantly emotional) that drive the personality-wellbeing link, and decomposes the association into genetic and environmental sources. Demonstrates that roughly two-thirds of the genetic influence on life satisfaction operates through personality, while one-third is independent — providing a nuanced picture of how personality and wellbeing are genetically and environmentally intertwined.
+
+---

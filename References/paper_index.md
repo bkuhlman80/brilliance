@@ -73,12 +73,14 @@
 - **Quality:** N = 807 twin pairs | Structural: M · Heritability: M · Genetic correlations: S | Non-standard instrument (CPI-Big Five, 16 facets), adolescent sample (~17), high-achieving (NMSQT takers). Adventurousness loaded on A not O — sample-specific phenotypic anomaly.
 - **Notes:** 490 MZ and 317 DZ twins from the National Merit Twin Study. Both domain-general and facet-specific genetic/environmental influences found.
 
-### 7b. (no PDF — referenced in study_quality)
+### 7b. Briley_Tucker-Drob_2014.pdf
 - **Citation:** Briley, D. A., & Tucker-Drob, E. M. (2014). Genetic and environmental continuity in personality development: A meta-analysis. *Psychological Bulletin*, *140*(5), 1303–1331. https://doi.org/10.1037/a0037091
 - **Purpose:** Meta-Analysis
 - **Methodology:** Meta-Analysis, Twin/Genetic, Longitudinal
 - **Instruments:** Multiple (aggregated across 24 longitudinal twin studies)
 - **Level of Detail:** Personality Domain
+- **Quality:** N = 21,057 sibling pairs (24 longitudinal studies) | Heritability: XL · Developmental: XL | Published in *Psychological Bulletin*. First comprehensive meta-analysis of genetic and environmental stability of personality across the life span. Infancy to old age coverage.
+- **Topic:** Personality Development, Behavior Genetics, Rank-Order Stability, Cumulative Continuity
 - **Notes:** Meta-analysis of 21,057 sibling pairs. Genetic contributions to personality stability increase with age; environmental contributions also grow but more slowly. Domain-level only — no facet data.
 ### 8. cemalcilar_2021.pdf
 - **Citation:** Cemalcilar, Z., Baruh, L., Kezer, M., Soto, C. J., Sumer, N., & John, O. P. (2021). Testing the BFI-2 in a non-WEIRD community sample. *Personality and Individual Differences*, *182*, 111087. https://doi.org/10.1016/j.paid.2021.111087

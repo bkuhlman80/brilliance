@@ -1,6 +1,6 @@
 # Annotated Bibliography
 
-> Updated 2026-04-06. Covers 490 papers in `processed/`.
+> Updated 2026-04-06. Covers 498 papers in `processed/`.
 > Prepared for book project: how mental phenotypes are made via evolution, development, and the tools of psychological science.
 
 ## Conventions
@@ -13311,5 +13311,214 @@ Provides the foundational theoretical framework for understanding how behavioral
 
 **Relevance to Book Project:** HIGH
 Provides the theoretical proof that the phenotypic architecture underlying behavior — not selection alone — determines whether personalities and syndromes evolve. This is directly relevant to the book's core argument that mental phenotypes are "made" by developmental and physiological architecture, not simply selected for directly. The paper exemplifies how evolutionary theory increasingly emphasizes the role of developmental and physiological constraints/enablers in shaping what evolution can produce.
+
+---
+
+### 491. Blomberg, Garland, & Ives (2003)
+
+**Citation:** Blomberg, S. P., Garland, T., Jr., & Ives, A. R. (2003). Testing for phylogenetic signal in comparative data: Behavioral traits are more labile. *Evolution*, *57*(4), 717–745. https://doi.org/10.1111/j.0014-3820.2003.tb00285.x
+
+**Purpose:** Original Research
+**Methodology:** Phylogenetic comparative methods; randomization tests; maximum likelihood branch-length transformations (OU, ACDC); simulation studies; ANOVA of K-statistic
+**Instruments:** N/A (comparative phylogenetic dataset of 121 traits from 35 phylogenies across plants, vertebrates, invertebrates)
+**Level of Detail:** Other (cross-species comparative / phylogenetic signal)
+
+**Key Terms:**
+- *Paper keywords:* adaptation, behavior, body size, branch lengths, comparative method, constraint, physiology
+- *Additional terms:* phylogenetic signal, K-statistic, Ornstein-Uhlenbeck process, ACDC model, Brownian motion, randomization test, evolutionary lability, phylogenetically independent contrasts, generalized least squares, branch-length transformation, measurement error
+
+#### Core Themes
+- Introduces the K-statistic for quantifying phylogenetic signal relative to Brownian motion expectation, enabling valid comparisons across traits and trees
+- Develops a randomization test for phylogenetic signal with correct Type I error rate and good power for N >= 20 species; 92% of traits with sufficient sample size showed significant signal
+- Behavioral traits exhibited significantly lower phylogenetic signal (lower K) than body size, morphological, life-history, or physiological traits, providing empirical evidence for the long-standing hypothesis that behavior is evolutionarily labile
+- Introduces the ACDC (accelerating-decelerating) model of character evolution as a complement to the OU model for branch-length transformation
+- Demonstrates that no traits showed phylogenetic "antisignal" (relatives being less similar than random), suggesting pervasive tendency for related species to resemble each other
+- Body size showed K values near 1.0 (consistent with Brownian motion), while most other traits showed K < 1, indicating less signal than expected
+
+**Relevance to Book Project:** HIGH
+Foundational methods paper for understanding how different classes of phenotypes (behavioral, physiological, morphological) vary in their evolutionary lability across phylogenies. The demonstration that behavioral traits show the least phylogenetic signal directly informs the book's argument about how mental phenotypes are made — behavior evolves faster and is more responsive to selection and environmental change than other trait categories.
+
+---
+
+### 492. Cote et al. (2010)
+
+**Citation:** Cote, J., Clobert, J., Brodin, T., Fogarty, S., & Sih, A. (2010). Personality-dependent dispersal: Characterization, ontogeny and consequences for spatially structured populations. *Philosophical Transactions of the Royal Society B*, *365*(1560), 4065–4076. https://doi.org/10.1098/rstb.2010.0176
+
+**Purpose:** Review
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (animal personality / dispersal behavior)
+
+**Key Terms:**
+- *Paper keywords:* dispersal, behavioural syndrome, colonization, invasion, metapopulation dynamics, G × E interactions
+- *Additional terms:* personality-dependent dispersal, boldness, sociability, aggressiveness, activity, exploration, corticosterone, testosterone, serotonin, maternal effects, dopamine, dispersal syndrome, range expansion, settlement
+
+#### Core Themes
+- Dispersers are not a random subset of the population — they systematically differ from residents in boldness, sociability, and aggressiveness, and these differences can be stable personality traits maintained over organisms' lifetimes
+- Personality-dependent dispersal varies with ecological context: the direction and strength of the personality-dispersal link depends on population density, predation risk, and social conditions
+- Two ontogenetic pathways are proposed: (1) shared G × E interactions coordinate both dispersal inclination and personality, or (2) personality determines how individuals respond to environments, with dispersal emerging as a consequence
+- Neurochemical systems (corticosterone, testosterone, serotonin, dopamine) provide proximate links between personality and dispersal behavior
+- Personality-dependent dispersal has consequences for metapopulation dynamics, biological invasions, and range expansion — different personality types may serve as colonizers vs. joiners
+- The review bridges animal personality research with spatial ecology, highlighting previously unrecognized "dispersal behavioral syndromes"
+
+**Relevance to Book Project:** MODERATE
+Demonstrates how stable individual behavioral differences (personalities) interact with ecological context to shape dispersal decisions, with consequences for population dynamics and species distributions. Relevant to the book's themes of how behavioral phenotypes are constructed through the interplay of evolved mechanisms and environmental conditions.
+
+---
+
+### 493. Dall et al. (2012)
+
+**Citation:** Dall, S. R. X., Bell, A. M., Bolnick, D. I., & Ratnieks, F. L. W. (2012). An evolutionary ecology of individual differences. *Ecology Letters*, *15*(10), 1189–1198. https://doi.org/10.1111/j.1461-0248.2012.01846.x
+
+**Purpose:** Review
+**Methodology:** Narrative Review / Conceptual Synthesis
+**Instruments:** N/A
+**Level of Detail:** Other (individual differences / behavioral specialization)
+
+**Key Terms:**
+- *Paper keywords:* animal personality, behavioural syndrome, division of labour, individuality, niche variation, niche specialisation, reproductive specialisation
+- *Additional terms:* behavioral specialization, intraspecific variation, resource polymorphism, ecological niche, social insects, correlated traits, phenotypic integration, developmental plasticity, G-matrix, cultural transmission
+
+#### Core Themes
+- First synthesis comparing three largely independent research traditions on individual behavioral differences: ecological niche specialization, animal personality variation, and division of labour in social insect societies
+- All three fields converge on "behavioral specialization" — individual variation in behavior that exceeds day-to-day variation — as the key phenomenon requiring evolutionary and ecological explanation
+- Niche specialization literature emphasizes feedback between ecological interactions and individual variation, particularly through competition; personality research highlights that individual differences are correlated across functional contexts (behavioral syndromes); social insect research provides detailed proximate mechanisms for how non-genetic, stable individual differences develop
+- Cross-fertilization opportunities include: considering competition as a driver of personality variation, examining foraging as a personality axis, and understanding how social environments regulate individual specialization
+- Technical advances (stable isotope analysis, molecular techniques, quantitative genetic methods) are driving renewed interest across all three fields
+- A complete understanding requires specifying how ecological interactions impact basic biological processes (selection, development, information processing) that underpin behavioral specialization
+
+**Relevance to Book Project:** HIGH
+Directly relevant to the book's core theme of how mental phenotypes are made. The synthesis across niche specialization, personality, and division of labour provides a framework for understanding how individual behavioral differences emerge from the interaction of evolutionary pressures, developmental processes, and ecological contexts — a perspective that bridges comparative psychology, behavioral ecology, and evolutionary biology.
+
+---
+
+### 494. Garland et al. (2011)
+
+**Citation:** Garland, T., Jr., Schutz, H., Chappell, M. A., Keeney, B. K., Meek, T. H., Copes, L. E., Acosta, W., Drenowatz, C., Maciel, R. C., van Dijk, G., Kotz, C. M., & Eisenmann, J. C. (2011). The biological control of voluntary exercise, spontaneous physical activity and daily energy expenditure in relation to obesity: Human and rodent perspectives. *Journal of Experimental Biology*, *214*(2), 206–229. https://doi.org/10.1242/jeb.048397
+
+**Purpose:** Review
+**Methodology:** Narrative Review
+**Instruments:** N/A
+**Level of Detail:** Other (energy expenditure / exercise physiology / neurobiology / personality)
+
+**Key Terms:**
+- *Paper keywords:* dopamine, endocannabinoid system, energy budget, leptin, non-exercise activity thermogenesis, orexin, personality, wheel running
+- *Additional terms:* voluntary exercise, spontaneous physical activity, NEAT, daily energy expenditure, obesity, High Runner mice, selective breeding, dopamine reward, exercise addiction, coping style, proactive-reactive personality, activity stat, sedentary behavior, food intake, genotype-environment interaction
+
+#### Core Themes
+- Voluntary exercise and spontaneous physical activity (SPA) are under substantial biological control in both humans and rodents, with significant genetic influences on both the propensity and ability to exercise
+- Dopamine signaling plays a central role in the motivation and reward of voluntary exercise; the endocannabinoid system is also implicated, with sex-specific effects observed in mice selectively bred for high wheel running
+- A largely separate neurobiological literature implicates orexin in SPA and NEAT regulation, with obesity-resistant rats showing greater sensitivity to orexin-induced SPA
+- Brain reward centers are involved in both physical activity and eating behaviors, creating complex interactions; both exercise and eating can be addictive
+- Personality traits (extraversion, conscientiousness, proactive/reactive coping styles) are correlated with physical activity levels in both humans and non-human animals
+- The effects of voluntary exercise on SPA are highly variable and depend on duration, intensity, species, sex, and age; complete energy compensation rarely occurs
+- Western diet can stimulate voluntary wheel running in High Runner mice but not control mice, demonstrating genotype-by-diet interactions
+
+**Relevance to Book Project:** MODERATE
+Provides a comprehensive overview of the biological control of physical activity behavior, integrating neurobiology, genetics, personality, and energy balance. Relevant to the book's themes through its demonstration that complex behavioral phenotypes like exercise motivation are shaped by the interplay of evolved neural reward systems, individual genetic variation, and environmental conditions including diet.
+
+---
+
+### 495. Smith & Blumstein (2008)
+
+**Citation:** Smith, B. R., & Blumstein, D. T. (2008). Fitness consequences of personality: A meta-analysis. *Behavioral Ecology*, *19*(2), 448–455. https://doi.org/10.1093/beheco/arm144
+
+**Purpose:** Meta-Analysis
+**Methodology:** Meta-Analysis (Schmidt-Hunter method; Pearson r effect sizes)
+**Instruments:** Various behavioral coding, rating, and naturalistic observation methods across 31 publications
+**Level of Detail:** Other (animal personality / fitness consequences)
+
+**Key Terms:**
+- *Paper keywords:* behavioral syndrome, fitness, personality, reproductive success, survival
+- *Additional terms:* boldness, exploration, aggression, natural selection, trade-off hypothesis, frequency-dependent selection, captive breeding, conservation, effect size, meta-analysis
+
+#### Core Themes
+- First formal meta-analysis of fitness consequences of single personality dimensions (boldness, exploration, aggression) across species
+- Bolder individuals had greater reproductive success (particularly males) but reduced survival, supporting the trade-off hypothesis that variation in boldness is maintained by context-dependent fitness effects
+- Exploration had a positive effect only on survival, with no detected effect on reproductive success
+- Aggression had a small positive effect on both reproductive success and survival, with the relationship more prominent in females; the lack of significant aggression-fitness association in males may reflect stabilizing selection
+- Effect sizes were generally small (r ~ 0.10), consistent with the expectation that personality traits have modest but evolutionarily significant fitness consequences
+- Results have implications for captive breeding and recovery programs: bold individuals breed better in captivity but may have reduced survival upon release
+
+**Relevance to Book Project:** HIGH
+Provides the first quantitative synthesis showing that animal personality traits have fitness consequences — bolder individuals reproduce more but die sooner, supporting the adaptive maintenance of personality variation through trade-offs. Directly relevant to how natural selection shapes behavioral phenotypes and why individual differences in mental traits persist in populations.
+
+---
+
+### 496. Speakman (2005)
+
+**Citation:** Speakman, J. R. (2005). Body size, energy metabolism and lifespan. *Journal of Experimental Biology*, *208*(9), 1717–1730. https://doi.org/10.1242/jeb.01556
+
+**Purpose:** Review
+**Methodology:** Narrative Review; novel comparative analyses using DLW data; residual regression analyses
+**Instruments:** N/A (comparative dataset: 73 small mammal species and 90 bird species with DLW-measured DEE; lifespan data)
+**Level of Detail:** Other (body size / energy metabolism / ageing / lifespan)
+
+**Key Terms:**
+- *Paper keywords:* ageing, rate of living theory, free radical, oxidative stress
+- *Additional terms:* body size, energy metabolism, lifespan, basal metabolic rate, daily energy expenditure, doubly labeled water, Rubner, Pearl, Brownian motion, mitochondrial uncoupling, UCP, reactive oxygen species, allometry, birds vs. mammals, caloric restriction
+
+#### Core Themes
+- Re-evaluates the rate of living theory using daily energy expenditure (DEE) measured by DLW rather than resting metabolic rate (RMR), revealing that lifetime energy expenditure per gram is NOT independent of body mass — smaller mammals expend more energy per gram over their lifespans
+- Finds a significant negative relationship between residual lifespan and residual DEE in mammals (supporting the rate of living idea) but not in birds
+- Demonstrates that RMR is a poor proxy for total energy metabolism because it accounts for only ~40% of total expenditure in small mammals
+- Challenges the standard refutation of the rate of living theory based on bird-mammal comparisons, arguing that cross-class comparisons confound differences in oxidative defense and free-radical stoichiometry
+- Proposes the "uncoupling to survive" hypothesis: mitochondrial uncoupling reduces free-radical production even as metabolism increases, potentially explaining why smaller, higher-metabolism individuals can live longer than larger conspecifics
+- Reviews intraspecific evidence showing that individual mice with higher metabolic rates and more uncoupled mitochondria lived 36% longer
+
+**Relevance to Book Project:** MODERATE
+Provides an integrative treatment of how body size, energy metabolism, and lifespan are interrelated across species, with implications for understanding the physiological architecture underlying life-history variation. The "uncoupling to survive" hypothesis illustrates how phenotypic architecture at the mitochondrial level can reverse expected relationships between metabolism and mortality.
+
+---
+
+### 497. Martin, Jaeggi, & Koski (2023)
+
+**Citation:** Martin, J. S., Jaeggi, A. V., & Koski, S. E. (2023). The social evolution of individual differences: Future directions for a comparative science of personality in social behavior. *Neuroscience and Biobehavioral Reviews*, *144*, 104980. https://doi.org/10.1016/j.neubiorev.2022.104980
+
+**Purpose:** Review
+**Methodology:** Narrative Review / Theoretical Synthesis; introduces social reaction norm models
+**Instruments:** N/A
+**Level of Detail:** Other (personality / social evolution / quantitative genetics)
+
+**Key Terms:**
+- *Paper keywords:* individuality, sociability, Big Five, IGE, social ecology, eco-evo, evolvability
+- *Additional terms:* behavioral reaction norms, social reaction norms, indirect genetic effects, social selection, social plasticity, assortment, frequency-dependent selection, density-dependent selection, social niche specialization, cooperation, conflict, personality structure, human personality, animal personality, comparative psychology, quantitative genetics, Price equation
+
+#### Core Themes
+- Develops a social evolutionary approach to personality science, arguing that personality research remains disconnected from the field of social evolution and vice versa
+- Critically evaluates current measurement practices: retrospective rating methods are poorly suited for capturing plasticity in social behavior; standardized sociability assays miss much ecologically relevant behavioral variation; Big Five structure may not be universal across human societies
+- Introduces social reaction norm models showing how social plasticity (responsiveness to social partners) generates indirect genetic effects that modify heritable variance in personality and the rate of adaptive social evolution
+- Demonstrates that personality in social plasticity (individual differences in responsiveness) further enhances evolvability, potentiating rapid eco-evolutionary feedback
+- Integrates evolutionary game theory with quantitative genetic models of personality using a worked example of cooperative hunting behavior under positive frequency-dependent selection
+- Calls for greater empirical attention to frequency- and density-dependent social selection on personality to test adaptive theory of social niche specialization
+
+**Relevance to Book Project:** HIGH
+Provides a theoretical framework integrating personality science with social evolution theory — directly relevant to understanding how mental phenotypes are made and maintained through the interplay of heritable individual differences, social plasticity, and selection in social environments. The social reaction norm models formalize how social environments shape the expression and inheritance of personality, and the emphasis on measuring cooperation and conflict connects personality research to core questions about the evolution of human sociality.
+
+---
+
+### 498. McGrosky et al. (2025)
+
+**Citation:** McGrosky, A., Luke, A., Arab, L., Bedu-Addo, K., Bonomi, A. G., Bovet, P., ... Pontzer, H. (2025). Energy expenditure and obesity across the economic spectrum. *Proceedings of the National Academy of Sciences*, *122*(29), e2420902122. https://doi.org/10.1073/pnas.2420902122
+
+**Purpose:** Original Research
+**Methodology:** Cross-sectional comparative; DLW method for TEE; isotope dilution for body composition; indirect calorimetry for BEE; multiple regression
+**Instruments:** Doubly labeled water (DLW), indirect calorimetry, isotope dilution body composition, UN Human Development Index
+**Level of Detail:** Other (energy expenditure / obesity / economic development)
+
+**Key Terms:**
+- *Paper keywords:* energy expenditure, obesity, physical activity, doubly labeled water
+- *Additional terms:* economic development, Human Development Index, body fat percentage, BMI, fat-free mass, basal energy expenditure, activity energy expenditure, physical activity level, ultraprocessed food, hunter-gatherer, pastoralist, horticulturalist, industrialized populations, dietary intake, cross-population comparison
+
+#### Core Themes
+- Daily energy expenditures are greater in more economically developed populations, driven by larger body size (greater fat-free mass), challenging the hypothesis that reduced physical activity contributes to obesity with economic development
+- Body size-adjusted TEE decreased only ~6-11% with increasing economic development, and this was attributable to reduced basal rather than activity energy expenditure
+- Activity energy expenditure (AEE) and physical activity level (PAL) showed no significant decrease with economic development after adjusting for body size
+- Body size-adjusted TEE was only weakly and negatively associated with body fat, accounting for roughly one-tenth of the elevated adiposity associated with economic development
+- Estimated energy intake was greater in developed populations; ultraprocessed food percentage in the diet was positively correlated with body fat percentage across 25 populations
+- BMI increase with development was largely driven by greater fat-free mass rather than fat mass, suggesting body fat percentage is a more reliable obesity indicator than BMI
+
+**Relevance to Book Project:** HIGH
+Provides the most comprehensive cross-population dataset to date on energy expenditure and obesity across the full economic spectrum, using gold-standard methodology. Directly relevant to the book's themes by demonstrating that the human body's energy expenditure system is not dramatically altered by industrialization — instead, the obesity crisis is primarily driven by changes in dietary intake, particularly the modern food environment. Illustrates how evolved metabolic and behavioral phenotypes interact with novel ecological conditions.
 
 ---

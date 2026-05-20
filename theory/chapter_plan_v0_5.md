@@ -54,9 +54,9 @@ Each labmate has segments they own at every retrospective. The per-chapter brief
 
 **Marge.** Opens every retrospective with the Bramble vignette composed from the quarter's record. Presents the clade's tendencies in folk-psychology language. Carries the four-fallacy arc as detailed in `marges_fallacy_arc_v0_2.md`.
 
-**Burns.** Reviews the prior Brandt meeting at the open and names the quarter's goals. Contributes the personality-disorder and sentience commentary at the close of Marge's tendencies segment. In Ch 9-12, takes over from Lisa midway through her segment to run the shape-shifters segment as detailed in `rolling_burns_v1_0.md`. Closes every retrospective with the motivational speech.
+**Burns.** Reviews the prior Brandt meeting at the open and names the quarter's goals. Contributes the personality-disorder commentary at the close of Marge's tendencies segment. In Ch 9-12, takes over from Lisa midway through her segment to run the shape-shifters segment as detailed in `rolling_burns_v1_0.md`. Closes every retrospective with the motivational speech.
 
-**Bart.** Hands out the clade cards at every retrospective. Presents each clade's umwelt, breakthrough, and capacities in ethological language. Burns chimes in to identify the signatures beneath the capacities.
+**Bart.** Hands out the clade cards at every retrospective. Presents each clade's umwelt, breakthrough, and capacities in ethological language. Burns chimes in to identify the signatures beneath the capacities. Originates the recurring sentience-argument sub-beat at Ch 3; all four labmates participate from then on. See "The sentience argument" below.
 
 **Lisa.** Presents each clade's motivations and the retirement-transition between clades. Pitches the new knob at the close of every retrospective with Marge's tendency-aside layered in. Speaks in computer-science language. Detail in `lisa_presentations_v0_1.md`.
 
@@ -67,6 +67,55 @@ Each labmate has segments they own at every retrospective. The per-chapter brief
 Burns closes every retrospective with a short motivational speech on the clade's motivation. He locates what the motivation means to him and names what he is grateful for in it. He is sincere. The framework's vocabulary is fully available to him. He uses it without irony.
 
 Marge and Lisa cry every time. The lab knows the cry is coming. The tissues sit on the table before Burns begins. The cry is real anyway. Bart or Jasmine breaks the ice once it lands. Drafting decides which based on what the speech turned on.
+
+---
+
+## The sentience argument
+
+Beginning at Ch 3, every retrospective includes a recurring sub-beat in which the four labmates argue about whether Bramble is sentient and end with a show-of-hands vote. The argument is its own beat, distinct from Marge's tendencies segment and from Burns's personality-disorder commentary.
+
+### Origin
+
+Bart instigates at Ch 3 (Eukaryote, Modeler arrives, knob word *Interiority*). Burns and Lisa have been using language about Bramble that implies feelings and perspectives. The Modeler arriving with a knob word that sounds phenomenological prompts more of this. Bart forces the question into the open and asks for a vote. From Ch 4 onward, the vote is a fixture.
+
+### The four positions
+
+**Lisa.** Sentience goes all the way down to matter itself, gradient rather than threshold. Field-native grounding: any system with a Markov blanket is doing inference, inference is what we mean by sentience, Markov blankets are pervasive. Levin and Watson's multi-scale competency is the second pillar. The gradient view answers the "rocks?" objection without conceding the threshold view.
+
+**Burns.** Functionalist. Any cybernetic system is sentient. Thermostats yes; hurricanes and rocks no, on the principle that thermostats have setpoints and hurricanes do not. This is the Conant-Ashby line: a system that satisfies the good-regulator requirement is on the path. Burns gets to talk like the framework without realizing that is what he is doing.
+
+**Bart.** Sentience requires a self-model, which emerges at the mammalian cell. Mammals exhibit an experiencing style; lower clades do not. The principle is the Self-Model, the construct the Mammal cell introduces structurally. Bart carries the position the framework's architecture quietly underwrites.
+
+**Marge.** Sentience requires proper symbolic communication, following Deacon (*The Symbolic Species*). Indexical and iconic semiosis are not enough; symbolic reference is categorically different and arrives at the symbolic line. Marge also designs Bramble's speech across Ch 9-12 and tracks whether it crosses from indexical to genuinely symbolic.
+
+### The vote regimes
+
+Three regimes across the book:
+
+- **Ch 3 through Ch 6 (four meetings): 2-2.** Lisa and Burns vote yes; Bart and Marge vote no.
+- **Ch 7 through Ch 8 (two meetings): 3-1.** Bart's threshold lands at Mammal. Bart joins yes.
+- **Ch 9 through Ch 12 (four meetings): 4-0.** Marge's threshold lands at the symbolic line opening. Unanimous from Ch 9 onward.
+
+The vote is a tracked variable the reader follows.
+
+### The asymmetric drift
+
+Positions shift but do not converge.
+
+- **Lisa** concedes that something is qualitatively different about mammal-Bramble compared to vertebrate-Bramble, but holds the gradient.
+- **Burns** concedes that Marge is onto something about symbolic communication, but cannot articulate how to think about it.
+- **Bart** holds his ground but learns to steelman Marge's symbolic-threshold position.
+- **Marge** holds her ground but learns to steelman Bart's self-model position. She continues to scoff at Lisa's and Burns's positions and does not learn to steelman either.
+
+The asymmetry tracks position-sharpness. Bart and Marge each draw a sharp categorical line at a real cell transition; they can engage each other because there is something to engage with. Lisa and Burns offer soft thresholds; for Marge especially, there is nothing definite to grab.
+
+### The Bart-Marge relationship arc
+
+- **Ch 3 through Ch 6: latent alliance.** Both vote no. They are not articulating it as alliance, but they are the skeptic pair against the expansive pair.
+- **Ch 7: first split.** Bart switches at Mammal. Marge initially reads the switch as Bart anthropomorphizing, the very thing he started the vote to prevent. Tension.
+- **Ch 8: working it out.** Bart sharpens his self-model reasoning. Marge grants the mammalian transition is real without granting it is sufficient. Mutual steelmanning begins.
+- **Ch 9: realigned for different reasons.** Marge switches at the symbolic line. Both vote yes but their grounds differ.
+- **Ch 10 through Ch 12: stable mutual steelmanning.** The relationship is settled. Lisa and Burns continue drifting around them.
 
 ---
 
@@ -124,6 +173,8 @@ Each chapter entry below names: the architectural addition Bramble brings; what 
 **Household texture.** Mira at eight starts giving Bramble preferences. Winter, the inversion fog settling over the valley. Jasmine notes interior-weather-and-Modeler parallel.
 
 **Possible beats.** First in-meeting argument about whether what Bramble does counts as a model. Lisa's presentation defines modeling against revising for the first time. The framework's distinction between modeling and revising becomes a teaching moment.
+
+**The sentience vote.** Bart instigates. The Interiority knob word and the team's drift into experience-language for a single-celled eukaryote push him to force the question. He asks for a show of hands. Vote: 2-2 (Lisa, Burns yes; Bart, Marge no). The vote becomes a fixture from this chapter onward.
 
 **Marge's fallacy section.** Names the Ghost in the Machine. The worldview where you are a disembodied self that can become anything with the right intervention. References Pinker. The self-help industry as the popular form. The willing self is itself a process in the model. The reshaping has a metabolic cost the willing self cannot see. See `marges_fallacy_arc_v0_2.md` for content detail.
 
@@ -205,6 +256,8 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Possible beats.** The first interior-channel-heavy chapter for Jasmine: Bramble is doing something the household has feelings about. Lisa names Affiliation as the motivation that anchors the Planner capacity (her own, though she does not name herself). The team's first sustained argument about the difference between behavior and constellation.
 
+**The sentience vote.** Bart switches to yes at Mammal. First split between Bart and Marge. Marge initially reads the switch as anthropomorphizing, the very thing Bart started the vote to prevent. The chapter's argument carries this tension. Vote: 3-1.
+
 **Marge's fallacy section.** Why these fallacies persist. Marge is puzzled. Pavlov was over a century ago. Pinker was twenty-five years ago. The fallacies should be dead. She tries answers (incentive structures, market demand, generational forgetting) and rejects them. She admits openly she does not have the answer. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 8: Primate (Spring Y2)
@@ -216,6 +269,8 @@ She does not work out the developmental psychology. The analogy is whimsical and
 **Household texture.** Spring Y2. Mira turns ten. Bramble is conversationally illegible but socially sophisticated. The household starts treating Bramble as something that has its own thing going on. The chapter ends with cake and the humanoid under a cloth.
 
 **Possible beats.** The chapter the book has been building toward at the neuronal scale. The lab's framework comes into focus. Lisa names Autonomy as the motivation that anchors the Pursuer capacity, completing the anchoring-motivation series across the neuronal line. The colleagues see Bramble's primate-level capacities in the abstract. None of them sees that the four motivations the team has built knobs around this year are the four motivations that anchor the team's own four shapes.
+
+**The sentience vote.** Bart sharpens his self-model argument. Marge grants the mammalian transition is real without granting it is sufficient. Mutual steelmanning between them begins. Vote: 3-1.
 
 **Marge's fallacy section.** Hunting for a fifth fallacy. She suspects she is missing one. She workshops candidates (determinism, reductionism, behaviorism, genetic essentialism, existentialism). Each collapses into one of the four she already has. She comes up empty. The reader, with the framework, knows there cannot be a fifth. See `marges_fallacy_arc_v0_2.md` for content detail.
 
@@ -252,6 +307,8 @@ She does not work out the developmental psychology. The analogy is whimsical and
 **Household texture.** Summer Y3. Mira at ten. The humanoid has been in the home for a few weeks. The home now contains a thing that resembles a person. Mira's first sustained interaction with conversational Bramble.
 
 **Possible beats.** The household reorienting around a humanoid presence. First conversational exchange. Lisa's presentation introduces the symbolic-line cybernetic function progression and explains how Reciprocity carries forward what Boldness taught the neuronal line. The seasonal mnemonic does its third round; Jasmine notices she has stopped needing it. The driveway moment sits between Jasmine and Ben without being mentioned.
+
+**The sentience vote.** Marge switches to yes at the symbolic-line opening, following Deacon: Bramble now has symbolic, not merely indexical, communication. First unanimous vote. Vote: 4-0. The vote stays 4-0 through Ch 12.
 
 **Burns's shape-shifters.** New segment. Burns hands off from Lisa midway through her segment. Burns runs the Reactor across five levels (Bilaterian → Band-Human). Slides have cartoon Mr. Burns face on each example. At the primate level the slide is the cartoon character full-frame. Burns is running his own shape. See `rolling_burns_v1_0.md` for full draft.
 

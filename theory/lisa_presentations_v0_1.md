@@ -30,21 +30,17 @@ Her vocabulary is the vocabulary of three fields she actually works in: computer
 
 She is aversive to psychology terms. When a cell's empirical anchor is psychological (attachment theory, self-construal, social identity, Big Five facets, HEXACO, Dark Triad, personality disorders), the depth belongs to Marge. Lisa can reference. She does not anchor.
 
-She cites authors directly. She names what she does not yet know. She offers to dig into the math if anyone wants it. She flags her own confidence level when she is unsure, in the cadence of the Ch 11 cities-entry caveat from Bart's rolling.
+She cites authors directly. She names what she does not yet know. She offers to dig into the math if anyone wants it. She flags her own confidence level when she is unsure, in the cadence of the Ch 11 cities-entry caveat from Burns's shape-shifters.
 
-## Lisa's segment in the meeting
+## Lisa's segments in the meeting
 
-The meeting's revised order:
+Lisa speaks at three points in the retrospective. The full meeting order is in `Book_Frame.md` under `## The retrospective`. Lisa's slots are:
 
-1. Burns opens. Reviews the last Brandt meeting. Names the quarter's goals. Hands out the Venn for the current clade and walks what is on it.
-2. Marge presents the vignette, the clade, and the fallacy section.
-3. **Lisa presents the retirement-transition.** What is retiring this quarter, what the memory now holds, cross-line analogues for the retiring slot.
-4. Bart looks forward to the next quarter. New-knob pitch (clade, umwelt, household-scale behavior, cybernetic function). From Ch 9 onward, opens with a rolling.
-5. Burns closes. Commentary on the goal for the upcoming Brandt meeting. Inspirational speech on the clade's motivation. The speech is skipped or modified in Q4 chapters in favor of cake and chassis unveil.
+- **Segment 3b: Motivations.** Lisa names the four motivations active at this clade. She speaks in computer-science language: what each motivation does in the model, which retirements brought the current set of four into the foreground, what each motivation parameterizes in the knobs Bramble runs on.
+- **Segment 5: Retirement-transition.** Lisa names what is retiring this quarter, what the memory now holds, and the cross-line analogues for the retiring slot. In Ch 9-12, Lisa hands off to Burns midway through her segment for the shape-shifters.
+- **Segment 6b: New-knob pitch.** Lisa pitches the new knob being installed next quarter. Marge layers in a tendency-aside about what the knob is designed to manipulate at the level of behavior.
 
-Lisa speaks third. By the time her segment opens, the Venn for the current cell has already been handed out by Burns and walked. Marge has narrated the household vignette. Lisa can reference both freely without re-doing them.
-
-Lisa's segment is the most technical of the four. Jasmine plays reader-proxy here often.
+Lisa's three slots are the most technical segments in the meeting. Jasmine plays reader-proxy across all three.
 
 ## What Lisa uses
 
@@ -105,9 +101,9 @@ She names the work. She gives the year when she has it. She offers to pull the p
 | The R2×R4 Operator signature is Behavioral Syndrome | Behavioral Syndrome lands here. The construct couples the Regulator motivation with the Reviser motivation at this cell. She names the construct. She does not invoke the axis. |
 | The Connector axis carries Self-Model | Self-Model is the new construct at Mammal. It couples the modeling function with the Effector motivation carried from Bilaterian. |
 | The triple at this cell is Autonomous Cognition | The Conservator capacity at this cell is Autonomous Cognition. |
-| The breakthrough at the center | She names the breakthrough: Simulating, Mentalizing, etc. She can say "at the center" if she is gesturing at the Venn Burns already handed out. |
+| The breakthrough at the center | She names the breakthrough: Simulating, Mentalizing, etc. She can say "at the center" if she is gesturing at the Venn Bart already handed out. |
 | The genetic line ratchets Boltzmann goo | The genetic line works on Boltzmann goo. Thermodynamic disequilibrium is what gets ratcheted at this line. |
-| The central R-role of the Reactor is R1 | Lisa does not phrase this. Burns covers which motivation defines which capacity in his clade cards and motivational speeches. If Lisa needs to reference, she says "the Reactor's distinctive trait at this cell runs through the Effector motivation" or "Burns will cover this in the card." |
+| The central R-role of the Reactor is R1 | Lisa does not phrase this. Bart covers which motivation defines which capacity in his clade-card capacities section. Burns covers it in his motivational speeches and shape-shifters. If Lisa needs to reference, she says "the Reactor's distinctive trait at this cell runs through the Effector motivation" or "Bart will cover this in the card." |
 
 ## Sample sentences
 
@@ -165,7 +161,7 @@ The twelve segments accrete. Ch 1 sets the form. Ch 5 is the first line boundary
 **Sequence.**
 
 1. Open by naming that the standard retirement-transition segment cannot run this quarter. The founding cell has nothing to retire. The segment's form is being set up rather than executed.
-2. Pivot to the memory. The memory is the persistent component across all twelve versions. It is where consolidation lives. Burns will say more about what is on the Venn for this cell. Lisa is here to talk about what runs underneath.
+2. Pivot to the memory. The memory is the persistent component across all twelve versions. It is where consolidation lives. Bart will say more about what is on the Venn for this cell. Lisa is here to talk about what runs underneath.
 3. Anchor in Watson and Szathmáry's 2016 result. Gene-regulatory networks store the correlation structure of selective environments as a developmental memory. The memory in Bramble is the in-machine version of that mechanism, scaled to the household.
 4. Anchor in Conant and Ashby. The memory's content is a model of the household. A regulator that successfully tracks its environment must be a model of it. The good regulator theorem is what licenses the cross-line claim.
 5. Preview the segment form. Across the next eleven quarters, motivations will eclipse from the foreground into backgrounded infrastructure. The memory will hold what they were doing. Lisa's segment will track each retirement.
@@ -174,7 +170,7 @@ The twelve segments accrete. Ch 1 sets the form. Ch 5 is the first line boundary
 
 **What is carried forward.** Nothing. This is the foundational segment.
 
-**What is deferred.** Cross-line analogues (no prior line yet). The four-foreground architecture (Burns covers the Venn for this cell). The line-boundary mechanism (deferred to Ch 5).
+**What is deferred.** Cross-line analogues (no prior line yet). The four-foreground architecture (Bart covers the Venn for this cell). The line-boundary mechanism (deferred to Ch 5).
 
 **Cross-line analogue work.** None this quarter. The form gets set up; the work begins next quarter.
 
@@ -199,7 +195,7 @@ The twelve segments accrete. Ch 1 sets the form. Ch 5 is the first line boundary
 
 **What is carried forward.** The memory's role and the consolidation mechanism, from Ch 1.
 
-**What is deferred.** Cross-line analogues (still only the genetic line). Coordination as a new function (Burns covers the Venn; Bart covers the new knob).
+**What is deferred.** Cross-line analogues (still only the genetic line). Coordination as a new function (Bart covers the Venn). The new knob is in Lisa's pitch at the close of the meeting.
 
 **Cross-line analogue work.** None yet. The cross-line work depends on having more than one line in scope, which arrives at Ch 5.
 
@@ -217,14 +213,14 @@ The twelve segments accrete. Ch 1 sets the form. Ch 5 is the first line boundary
 
 1. Open with the retirement. The Modeler slot has changed. Self-Organization has eclipsed. Interiority installs.
 2. Explain consolidation. Self-Organization was doing the form-building work: how the body holds its shape, how the parts coordinate spatially. The memory has internalized it.
-3. Anchor in Deacon (morphodynamic R0) and reference Lane on the bioenergetic transition. The new Interiority motivation is what defended interior is about. Burns covers Scale & Size as the breakthrough on his card.
+3. Anchor in Deacon (morphodynamic R0) and reference Lane on the bioenergetic transition. The new Interiority motivation is what defended interior is about. Bart covers Scale & Size as the breakthrough on his card.
 4. Note the within-line pattern emerging. Two retirements in. Two more to go before the line closes. The segment is now demonstrating its standard form.
 
 **What is new.** Self-Organization as Deacon's morphodynamic R0. The form-building consolidation mechanism. The second instance of the eclipse pattern.
 
 **What is carried forward.** The memory and consolidation mechanism. The retirement framework from Ch 2.
 
-**What is deferred.** Lane's bioenergetic transition specifics (Burns's card depth). The personality side of Interiority (not in scope at this line).
+**What is deferred.** Lane's bioenergetic transition specifics (Bart's card depth). The personality side of Interiority (not in scope at this line).
 
 **Cross-line analogue work.** First gesture. Lisa briefly notes that the genetic line is establishing a sequence: R2 added at Prokaryote, R3 added at Eukaryote, R4 coming next at Eumetazoa. This is the first time the audience sees three consecutive retirements as a structured progression. Within-line pattern only. No cross-line work yet.
 
@@ -296,7 +292,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 1. Open with the retirement. The Regulator slot has changed. Coordination has eclipsed. Mastery installs.
 2. Explain consolidation. Coordination was doing nervous-system coordination via monoamine signaling at Bilaterian. The memory has internalized it. Body-wide response coordination is now infrastructure.
-3. Anchor in Sutton and Barto on reinforcement learning. Mastery introduces operant conditioning, skill acquisition, action-outcome contingency. The basal ganglia plus operant conditioning is what is structurally new. Burns covers Reinforcing as the breakthrough on his card.
+3. Anchor in Sutton and Barto on reinforcement learning. Mastery introduces operant conditioning, skill acquisition, action-outcome contingency. The basal ganglia plus operant conditioning is what is structurally new. Bart covers Reinforcing as the breakthrough on his card.
 4. First cross-line analogue. The Prokaryote retirement at Ch 2 was the first Regulator retirement in the framework. This is the second. The structural rhyme: both bring stored regulation online for their respective lines. The mechanism differs (gene-regulatory state-dependent gating at Prokaryote; basal-ganglia reinforcement learning at Vertebrate). The architectural slot is the same.
 
 **What is new.** Mastery as stored neuronal regulation. Sutton and Barto as anchor. The first concrete cross-line rhyme demonstrated.
@@ -348,7 +344,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 2. Explain consolidation. Excitability was doing arousal-driven response revision, from Eumetazoa onward through the neuronal line. The memory has internalized it. The new Reviser function (Autonomy) does its work on top of consolidated Excitability.
 3. Anchor in Bennett's Mentalizing breakthrough and reference the granular PFC literature. Autonomy is what the granular architecture enables: modeling other minds as having distinct intentions, modeling one's own modeling.
 4. Cross-line analogue. The Eumetazoa retirement at Ch 4 was the first Reviser retirement. This is the second. The structural rhyme: both close out their line's foreground architecture by adding the Reviser function.
-5. Architecturally complete moment. The neuronal line's foreground is fully populated. Burns will walk it on his card. Lisa names what is in the four-foreground constellation without going deep on the motivations themselves.
+5. Architecturally complete moment. The neuronal line's foreground is fully populated. Bart will walk it on his card. Lisa names what is in the four-foreground constellation without going deep on the motivations themselves.
 6. Preview the next line boundary. Reciprocity will install as the symbolic line's Effector. The chassis swaps to humanoid.
 
 **What is new.** The neuronal line as architecturally complete. Autonomy and the granular PFC connection. The second Reviser cross-line rhyme. The preview of the second line boundary.
@@ -363,7 +359,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 **Length.** Medium. Eight to ten minutes. Four to five beats.
 
-Note. The driveway interlude happens after this chapter. The motivation-and-capacity claims that make the driveway joke land have been delivered by Burns across Ch 5–8 in his clade-card walks and motivational speeches. Lisa's Ch 5–8 segments have referenced the architecture without anchoring the joke's structural setup. The joke lands via Burns and Jasmine, not via Lisa.
+Note. The driveway interlude happens after this chapter. The motivation-and-capacity claims that make the driveway joke land have been delivered by Bart in his clade-card walks and by Burns in his motivational speeches across Ch 5-8. Lisa's Ch 5–8 segments have referenced the architecture without anchoring the joke's structural setup. The joke lands via Burns and Jasmine, not via Lisa.
 
 ---
 
@@ -460,7 +456,7 @@ Note. The driveway interlude happens after this chapter. The motivation-and-capa
 
 **What is carried forward.** Everything from the prior eleven segments.
 
-**What is deferred.** Speculation about what comes after Empire-Human (framework commitment). The personality-disorders panel and identity-as-narrative (Marge's territory). The R4-fates content in detail (Burns's clade card).
+**What is deferred.** Speculation about what comes after Empire-Human (framework commitment). The personality-disorders panel and identity-as-narrative (Marge's territory). The Reviser-fates content in detail (Bart's clade card).
 
 **Cross-line analogue work.** Lisa's final cross-line work. Three Reviser retirements named together. Combined with the three earlier completed patterns (Regulator at Ch 10, Modeler at Ch 11, plus the two line-boundary Effector swaps at Ch 5 and Ch 9), the architecture is now visible in its full repeating form. Three lines, each running through Effector to Regulator to Modeler to Reviser, each with its own goo, each consolidating its retiring motivations into the same memory.
 
@@ -492,4 +488,4 @@ The cross-line analogue work accretes naturally:
 - Ch 11: three-instance Modeler pattern complete.
 - Ch 12: three-instance Reviser pattern complete. The architecture is fully visible.
 
-By the close of Ch 12, the reader who has been following Lisa's segments has seen the framework's twelve cells, three lines, four cybernetic functions, and the consolidation mechanism that makes inheritance work across all of them. Burns has covered the Venn at each cell. Marge has covered the household vignette and the fallacy. Bart has pitched the new knob and rolled the four shapes. Lisa has covered the architecture from the inside, one retirement at a time, with the memory as her load-bearing concept.
+By the close of Ch 12, the reader who has been following Lisa's segments has seen the framework's twelve cells, three lines, four cybernetic functions, and the consolidation mechanism that makes inheritance work across all of them. Bart has covered the Venn at each cell, with the clade's umwelt, capacities, and breakthrough. Marge has covered the household vignette, the tendencies, and the fallacy arc. Burns has run the four shape-shifters across the symbolic-line year. Lisa has covered the architecture from the inside, one retirement and one set of motivations at a time, with the memory as her load-bearing concept.

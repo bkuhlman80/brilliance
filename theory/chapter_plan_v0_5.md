@@ -255,7 +255,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Burns's shape-shifters.** New segment. Burns hands off from Lisa midway through her segment. Burns runs the Reactor across five levels (Bilaterian → Band-Human). Slides have cartoon Mr. Burns face on each example. At the primate level the slide is the cartoon character full-frame. Burns is running his own shape. See `rolling_burns_v1_0.md` for full draft.
 
-**Marge's fallacy section.** First gesture at the type hypothesis. After Bart's rolling, Marge wonders aloud whether each fallacy is held by people of its own shape. The Pragmatist worldview held by Pragmatist-shaped people. The Fatalist worldview held by Fatalist-shaped people. Tentative. She does not make the claim about anyone in the room. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** First gesture at the type hypothesis. After Burns's shape-shifters, Marge wonders aloud whether each fallacy is held by people of its own shape. The Pragmatist worldview held by Pragmatist-shaped people. The Fatalist worldview held by Fatalist-shaped people. Tentative. She does not make the claim about anyone in the room. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 10: Settlement-Human (Fall Y3)
 

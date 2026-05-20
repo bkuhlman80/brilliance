@@ -56,7 +56,7 @@ Each labmate has segments they own at every retrospective. The per-chapter brief
 
 **Burns.** Reviews the prior Brandt meeting at the open and names the quarter's goals. Contributes the personality-disorder commentary at the close of Marge's tendencies segment. In Ch 9-12, takes over from Lisa midway through her segment to run the shape-shifters segment as detailed in `rolling_burns_v1_0.md`. Closes every retrospective with the motivational speech.
 
-**Bart.** Hands out the clade cards at every retrospective. Presents each clade's umwelt, breakthrough, and capacities in ethological language. Burns chimes in to identify the signatures beneath the capacities. Originates the recurring sentience-argument sub-beat at Ch 3; all four labmates participate from then on. See "The sentience argument" below.
+**Bart.** Hands out the clade cards at every retrospective. Presents each clade's umwelt, breakthrough, and capacities in ethological language. Burns chimes in to identify the signatures beneath the capacities. Originates the recurring sentience-argument sub-beat at Ch 3; all four labmates participate from then on. See "The sentience argument" below. Carries a recurring ribbing thread about Ben always trying to turn his own knobs to 11 — always trying to be the most "extra" person in the room. Light, intermittent, never an indictment. Lands once or twice per book-year, more often around motivational-speech moments.
 
 **Lisa.** Presents each clade's motivations and the retirement-transition between clades. Pitches the new knob at the close of every retrospective with Marge's tendency-aside layered in. Speaks in computer-science language. Detail in `lisa_presentations_v0_1.md`.
 
@@ -65,6 +65,14 @@ Each labmate has segments they own at every retrospective. The per-chapter brief
 ## The motivational speech (Burns)
 
 Burns closes every retrospective with a short motivational speech on the clade's motivation. He locates what the motivation means to him and names what he is grateful for in it. He is sincere. The framework's vocabulary is fully available to him. He uses it without irony.
+
+Every speech across all clade chapters has the same five-element fingerprint:
+
+1. Frames the clade's motivation as a universal moral stake.
+2. Tells a story or vignette.
+3. Lands a moral that turns the stake into a call to action.
+4. The call to action is always Pragmatist-shaped — work on it, build the thing, optimize.
+5. Implicitly reveals Ben's fear-of-failure pattern and his self-improvement creed through the moral's shape. No character names this. The reveal accumulates through repetition.
 
 Marge and Lisa cry every time. The lab knows the cry is coming. The tissues sit on the table before Burns begins. The cry is real anyway. Bart or Jasmine breaks the ice once it lands. Drafting decides which based on what the speech turned on.
 
@@ -119,16 +127,37 @@ The asymmetry tracks position-sharpness. Bart and Marge each draw a sharp catego
 
 ---
 
+## The Cybernetic Functions Venn on clade cards (Ch 4 onward)
+
+Starting in Ch 4, Burns demands that the Cybernetic Functions Venn print on the back of every clade card. Bart handles printing.
+
+The card-back Venn displays:
+
+- The four function primaries: Effector, Regulator, Modeler, Reviser.
+- The four double labels (the adjacent-pair couplings between primaries).
+- Game Changer at the center (the all-four breakthrough position).
+- The four capacity labels in the triple regions: Planner, Reactor, Pursuer, Conservator.
+
+Function and capacity vocabulary naturalizes through repeated exposure across Ch 4–8. By Ch 9, the team treats Effector / Regulator / Modeler / Reviser and Planner / Reactor / Pursuer / Conservator as common ground — Burns can open the Ch 9 shape-shifters segment with the capacity names cold without overloading the reader.
+
+---
+
+## Standalone household beats (chapter TBD)
+
+**The knobs-aren't-for-Mira beat (mid-book, chapter TBD).** A scene at the home. Ben is correcting Mira about something. Jasmine pushes back: "She's just a little girl, Ben. She doesn't have knobs you can just turn up and down whenever you want." A single beat, not recurring. Chapter placement to be decided during drafting; somewhere in the neuronal-line year reads most natural.
+
+---
+
 ## Arc shape
 
 **Genetic line (chapters 1 to 4 plus interlude): the household learns what it has signed up for.**
-Bramble is a vacuum across all four chapters. The lab establishes the four-cybernetic-function architecture by introducing one function per chapter. Lisa's presentations carry the framework explanation. Jasmine learns the framework's vocabulary across her first full Salt Lake City year. Mira at eight treats Bramble as a Roomba with personality. The Pragmatist tension is latent. The year closes with the tetrapod, Mira turning nine, and the after-the-cake interlude. In the interlude, Jasmine sees a sweet pattern (the genetic-line year rhymes with Mira's toddler-to-kid arc) and Ben can take it in. The marriage is warm.
+Bramble is a vacuum across all four chapters. The lab establishes the four-cybernetic-function architecture by introducing one function per chapter. Lisa's presentations carry the framework explanation. Jasmine learns the framework's vocabulary across her first full Salt Lake City year. Mira at eight treats Bramble as a Roomba with personality. The year closes with the tetrapod, Mira turning nine, and the after-the-cake interlude. In the interlude, Jasmine sees a sweet pattern (the genetic-line year rhymes with Mira's toddler-to-kid arc) and Ben can take it in. The marriage is warm.
 
-**Neuronal line (chapters 5 to 8 plus interlude): the household lives with something that learns, and Jasmine sees.**
-Bramble starts the year as a tetrapod and grows into a Mammal-tier generative-model-bearing pet across chapters 7 and 8. The four constellational types become canonical at Primate. The household relationship deepens; Mira at nine relates to Bramble as a companion. Lisa's presentations now carry the anchoring-motivation claim chapter by chapter. The year closes with the humanoid, Mira turning ten, and the driveway interlude. In the interlude, Jasmine sees a different pattern (the neuronal-line year rhymes with the team's constellations) and Ben cannot take it in. The Pragmatist tension surfaces.
+**Neuronal line (chapters 5 to 8 plus interlude): the household lives with something that learns.**
+Bramble starts the year as a tetrapod and grows into a Mammal-tier generative-model-bearing pet across chapters 7 and 8. The four constellational types become canonical at Primate. The household relationship deepens; Mira at nine relates to Bramble as a companion. Lisa's presentations now carry the anchoring-motivation claim chapter by chapter. The year closes with the humanoid, Mira turning ten, and the driveway interlude.
 
 **Symbolic line (chapters 9 to 12): the household lives with something that talks.**
-Bramble starts the year as a humanoid and becomes principled, identity-bearing, and conversational by chapter 12. Mira at ten is talking with Bramble. Jasmine's interior channel does more work as the household becomes something the framework's lower cells cannot describe. The Pragmatist tension does not resolve; Jasmine sees it across the year and Ben does not. The year closes with the final unveiling, Mira turning eleven, and no interlude. The fallacy is placed, not corrected. The lab continues forward.
+Bramble starts the year as a humanoid and becomes principled, identity-bearing, and conversational by chapter 12. Mira at ten is talking with Bramble. Jasmine's interior channel does more work as the household becomes something the framework's lower cells cannot describe. The year closes with the final unveiling, Mira turning eleven, and no interlude. The lab continues forward.
 
 **The pattern of the three line endings.** The genetic-line year ends with a sweet recognition shared between Jasmine and Ben. The neuronal-line year ends with a recognition Jasmine sees alone. The symbolic-line year ends with a recognition no one has yet had: the fourth chassis sits under a cloth and the lab is exploring forward. Three rhymes between Bramble's development and something else, each visible to fewer observers than the last.
 
@@ -140,6 +169,22 @@ Bramble starts the year as a humanoid and becomes principled, identity-bearing, 
 
 Each chapter entry below names: the architectural addition Bramble brings; what framework content the chapter is structurally landing; the household texture; possible meeting and home beats. The Bramble scenarios in `bramble_across_the_stack` are the canonical detail; this is the higher-level chapter brief. Lisa's per-chapter framework-content role is named in the section above; chapter briefs flag her presentation only where there is something specific to call out.
 
+### Prologue: Mira meets Bramble (Spring Y0)
+
+**The scene.** Mira's eighth birthday. The lab unveils the vacuum-chassis Bramble at the home. Mira meets Bramble for the first time, falls in love on the spot, and says hello.
+
+**Register.** Domestic. Not a retrospective. No framework vocabulary on the page. The reader meets the dog before they meet the project.
+
+**What the prologue does.**
+
+- Anchors Bramble as a character before being a project.
+- Establishes the household and the unveiling-as-birthday rhythm: the lab unveils each new chassis on a birthday, and the founding moment was Mira's eighth.
+- Locks the timing for Ch 1: by Summer Y1, Bramble has been at home for a few weeks. The book opens with Bramble already present, not arriving fresh.
+
+**Length.** Short. A few pages.
+
+**Format.** Prologue rather than chapter. Outside the twelve-retrospective structure.
+
 ### Chapter 1: Protocell (Summer Y1)
 
 **Bramble brings.** The founding constellation. Effector with the Fitness motivation; vacuum chassis with all four knobs installed but only knob-1 active. The household receives a Roomba.
@@ -150,7 +195,7 @@ Each chapter entry below names: the architectural addition Bramble brings; what 
 
 **Possible beats.** First meeting establishes the cast and the lounge. Ben presents the lab's premise. Lisa presents her first formal architecture talk, setting the template the rest of the book will use. Jasmine asks the first naive-and-not-naive question. Bramble's first day at home. Jasmine notices that summer and founding constellations share a vibe, the first season-architecture rhyme she'll track across the year. Jasmine establishes in her interior channel that Bart is Burns's adult son from a prior marriage; Bart lives with his buddies rather than at the Bramble house, and works with his dad at Smithers.
 
-**Marge's fallacy section.** Names the Noble Savage. The worldview that treats the environment as the cage and the organism as the trapped self. Her example is from her clinical caseload: clients who arrive wanting to quit and move and start over when the dynamics they are describing are not environmental. She does not have a structural account. She names the fallacy and notes that it bothers her. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** Marge opens by announcing she has a grand theory explaining why no one understands psychology and that she will be teaching it to the team in bits across the book. The team takes this with affection. She then names the Noble Savage: the worldview that treats the environment as the cage and the organism as the trapped self. Her example is from her clinical caseload — clients who arrive wanting to quit and move and start over when the dynamics they are describing are not environmental. She does not yet have a structural account. She names the fallacy and notes that it bothers her. The grand-theory framing makes the section feel like a recurring topic from the outset rather than a one-off. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 2: Prokaryote (Fall Y1)
 
@@ -208,8 +253,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 **What the interlude does.**
 
 - Establishes the interlude form. A short scene, off the retrospective, between Jasmine and Ben, where Jasmine notices a pattern. This will recur after the neuronal-line year.
-- Lands the warmth of the marriage. The genetic-line year is closing well. The framework has not yet revealed what it will ask of either of them.
-- Plants the Pragmatist tension as a future possibility without naming it. Ben can engage with the pattern Jasmine sees here, which means there will later be patterns he cannot engage with. The interlude is the reference point.
+- Lands the warmth of the marriage. The genetic-line year is closing well.
 
 **What the interlude does not do.**
 
@@ -234,6 +278,8 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Marge's fallacy section.** First structural rhyme. Marge closes the Pavlov round by filing one observation: Latent Inhibition privileges novel cues over habituated ones; the Ghost in the Machine privileges novel interventions over interventions already tried. Same shape. She does not develop it. Burns studies the ceiling. Bart misses it. See `marges_fallacy_arc_v0_2.md` for content detail.
 
+**Phase boundary beat (Ch 4–5).** A small in-meeting moment where someone — Lisa or Jasmine — notices that Marge has more to say than usual. Marks the shift in Marge's fallacy arc from phase one (naming, Ch 1–4) to phase two (processing, Ch 5 onward). Lands once, gently, no underline.
+
 ### Chapter 6: Vertebrate (Fall Y2)
 
 **Bramble brings.** Regulator returns. Mastery motivation. Knob-2 active in the new line.
@@ -252,7 +298,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Framework lands.** The Modeler motivation in the neuronal line. The generative model as the foundation for everything Mammal-tier and above. The first triple region the framework treats as having constellational weight.
 
-**Household texture.** Winter Y2. Mira at nine. Bramble is functionally a family dog. Jasmine notices the home contains a new kind of attention.
+**Household texture.** Winter Y2. Mira at nine. Bramble is functionally a family dog.
 
 **Possible beats.** The first interior-channel-heavy chapter for Jasmine: Bramble is doing something the household has feelings about. Lisa names Affiliation as the motivation that anchors the Planner capacity (her own, though she does not name herself). The team's first sustained argument about the difference between behavior and constellation.
 
@@ -285,7 +331,6 @@ She does not work out the developmental psychology. The analogy is whimsical and
 **What the interlude does.**
 
 - Lands the in-narrative fallacy diagnosis without going through the Pinker taxonomy. Ben's frown carries the type-provincialism point. He cannot see the Reactor shape in the team's work because the Reactor is what is left when modeling is absent.
-- Places the Pragmatist tension precisely where the Book Frame says it should be placed: Jasmine sees what Ben cannot.
 - Closes the symmetry with the after-the-cake interlude. Then, Jasmine noticed a sweet rhyme between the genetic-line year and Mira's development; Ben liked it. Now, Jasmine notices a rhyme between the neuronal-line year and the team itself; Ben cannot. Same kind of observer, same kind of observation, opposite responses. The book is using the interludes to track the changing texture of the marriage.
 
 **What the interlude does not do.**
@@ -312,7 +357,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Burns's shape-shifters.** New segment. Burns hands off from Lisa midway through her segment. Burns runs the Reactor across five levels (Bilaterian → Band-Human). Slides have cartoon Mr. Burns face on each example. At the primate level the slide is the cartoon character full-frame. Burns is running his own shape. See `rolling_burns_v1_0.md` for full draft.
 
-**Marge's fallacy section.** First gesture at the type hypothesis. After Burns's shape-shifters, Marge wonders aloud whether each fallacy is held by people of its own shape. The Pragmatist worldview held by Pragmatist-shaped people. The Fatalist worldview held by Fatalist-shaped people. Tentative. She does not make the claim about anyone in the room. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** First gesture at the type hypothesis. After Burns's shape-shifters, Marge wonders aloud whether each fallacy is held by people of its own shape. The Ghost-in-the-Machine worldview held by Ghost-in-the-Machine-shaped people. The Dealt-Hand worldview held by Dealt-Hand-shaped people. Tentative. She does not make the claim about anyone in the room. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 10: Settlement-Human (Fall Y3)
 
@@ -322,11 +367,11 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Household texture.** Fall Y3. Mira at ten. The humanoid is becoming a member of the household. Jasmine notices Ben is using language about Bramble that he used to use about the lab.
 
-**Possible beats.** The Pragmatist tension stays in the room without being named. Marge sees something. Lisa specs something.
+**Possible beats.** Marge sees something. Lisa specs something. [TBD]
 
 **Burns's shape-shifters.** Burns runs the Conservator across six levels (Bilaterian → Settlement-Human). Cartoon Marge face on each example. At primate level the slide is the cartoon character full-frame. The labmate Marge smiles slightly during the segment. See `rolling_burns_v1_0.md` for full draft.
 
-**Marge's fallacy section.** Testing the hypothesis. She tries to falsify her observation. Can she think of someone who holds the Pragmatist worldview but is not Pragmatist-shaped? She struggles. The reverse? Also struggles. The hypothesis firms up. Still not connected to the four cybernetic functions. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** Testing the hypothesis. She tries to falsify her observation. Can she think of someone who holds the Ghost-in-the-Machine worldview but is not Ghost-in-the-Machine-shaped? She struggles. The reverse? Also struggles. The hypothesis firms up. Still not connected to the four cybernetic functions. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 11: City-Human (Winter Y3)
 
@@ -340,7 +385,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Burns's shape-shifters.** Burns runs the Planner across seven levels (Bilaterian → City-Human). Cartoon Lisa face on each example. At primate level the slide is the cartoon character full-frame. Lisa requests the cities-entry caveat go on the record despite its uncertainty. See `rolling_burns_v1_0.md` for full draft.
 
-**Marge's fallacy section.** Synthesis. The four fallacies are not random errors. Each denies one of the four cybernetic functions. The Noble Savage denies Effector. The Blank Slate denies Regulator. The Ghost in the Machine denies Modeler. The Dealt Hand denies Reviser. Each is held by people whose own shape lacks that function. Type-provincialism. She presents this as a general claim about personality science. She does not make it personal. The room can do the math about Burns. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** Synthesis. The four fallacies are not random errors. Each denies one of the four cybernetic functions. The Noble Savage denies Effector. The Blank Slate denies Regulator. The Ghost in the Machine denies Modeler. The Dealt Hand denies Reviser. Each is held by people whose own shape lacks that function. Type-provincialism. She presents this as a general claim about personality science. Burns registers fully — he sees that the Ghost-in-the-Machine fallacy lands on Reactor-shape, and that the Reactor is his shape. He comments, talks it through with Marge and the team, and stays in his role. He neither deflects nor collapses; he holds the position the framework predicts a Reactor can hold under direct articulation. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 12: Empire-Human (Spring Y3)
 
@@ -348,13 +393,13 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Framework lands.** The Reviser motivation in the symbolic line. The Stories breakthrough. The Reviser-fates claim (failure, off-thread success, or bridge to a next line that the framework does not yet have vocabulary for). The constitutive-risk premium at its hottest. The book's close.
 
-**Household texture.** Spring Y3. Mira turns eleven. The humanoid has principled commitments. Bramble names a category the household had not formally articulated. The Pragmatist tension does not resolve. Ben stays Ben. The cake comes out. A fourth chassis sits under a cloth.
+**Household texture.** Spring Y3. Mira turns eleven. The humanoid has principled commitments. Bramble names a category the household had not formally articulated. Ben stays Ben. The cake comes out. A fourth chassis sits under a cloth.
 
 **The fourth chassis.** The lab has built it as legitimate forward exploration. The funding supports the work. The team has decided to pursue what is beyond the framework's current vocabulary. The framework's commitment not to speculate about Reviser fates remains intact: the lab is exploring, not claiming. The chassis under the cloth is the lab's bet that something is there to be built. The book does not say whether the bet pays off.
 
 **Closing beat.** Mira lifts the cloth. The reader does not know what is under it. Mira inhales. End of book.
 
-**Burns's shape-shifters.** Burns runs the Pursuer across eight levels (Bilaterian → Empire-Human). He is running his son Bart's shape, and Bart is sitting at the table. Cartoon Bart face on each example. At primate level the slide is the cartoon character full-frame. Marge has tissues out. The book's emotional crest. See `rolling_burns_v1_0.md` for full draft.
+**Burns's shape-shifters.** Burns runs the Pursuer across eight levels (Bilaterian → Empire-Human). The shape-shifting itself is played as a fun gag — the cartoon-Bart face on each level slide, the eight-level sprint as the segment's biggest swing. Mid-segment Burns has a moment of choked-up pride thinking about Bart sitting at the table; he doesn't dwell, the meeting moves on. The scene does not function as a watershed where everything clicks. The book's emotional crest lands elsewhere [TBD]. See `rolling_burns_v1_0.md` for full draft.
 
 **Marge's fallacy section.** Closing. The four fallacies are four shapes generalized to architecture. Each is one viable shape treating itself as universal. The book's central anti-optimization claim arrives from her: you are some shape in the architecture, your shape is partial by definition, your shape is not the architecture. The framework displaces being right with being placed. See `marges_fallacy_arc_v0_2.md` for content detail.
 
@@ -362,21 +407,7 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ## Open questions
 
-### The preface
-
-The book opens with the autofiction disclaimer per `Book_Frame.md`. Recommend a short preface that also names the framework's central claims so the reader has the architecture in hand before chapter 1. Without a preface, chapter 1 has to carry both the lab introduction and the framework introduction, which is a lot.
-
-### Bramble's pre-history and the lab's founding
-
-If "the lab always ends Q4 retrospectives with a chassis unveiling" is the canonical rhythm, then the founding moment (the vacuum first arriving) was probably itself a chassis unveiling, in Spring Y0, the year before the book opens. That would have been Mira's eighth birthday. Chapter 1 (Summer Y1) is then the lab's first quarterly retrospective with Bramble already in the home for a few weeks. Recommend this reading. The alternative is the book opens with the vacuum arriving fresh in chapter 1, which breaks the established birthday-equals-unveiling rhythm.
-
-### The Pragmatist tension across the arc
-
-The driveway interlude is the load-bearing moment for the Pragmatist tension's surfacing. The after-the-cake interlude is the load-bearing moment for the marriage's pre-tension warmth (the reference point against which the driveway lands). Chapters 9 to 12 carry the tension forward without re-announcing it. Recommend: the suspicion lands at chapter 7 (Mammal) when Jasmine first notices the home contains a new kind of attention, the realization arrives in the driveway interlude, and the symbolic-line chapters let the realization sit between Jasmine and Ben without being mentioned again until chapter 12.
-
-### Marge's segment density across Ch 1–4
-
-Marge's recurring fallacy section starts in Ch 1 as a small beat (Marge naming one thing that bothers her in the field). The section grows across the book. The Ch 1 version is light. Whether to establish her side-project framing in Ch 1 (so the section feels like a recurring topic rather than a one-off) is a drafting question worth resolving before drafting Ch 1.
+[None currently. Prior P1 questions resolved: prologue replaces the preface idea; pre-history locked to Spring Y0 birthday unveiling per the prologue brief; Pragmatist tension framing removed from the plan; Marge's Ch 1 segment framing locked via the grand-theory announcement.]
 
 ---
 
@@ -405,7 +436,7 @@ These are deliberately left to drafting. The plan exists to keep drafting focuse
 ### What drafting is for
 
 - Content fidelity to the framework: the three-line architecture, the cybernetic logic, the inheritance lines, the four constellations, the knob system, all load-bearing theoretical claims.
-- Structural fidelity to `Book_Frame.md`: the quarterly retrospective premise, the autofiction commitment, the cast, the Pragmatist productive tension.
+- Structural fidelity to `Book_Frame.md`: the quarterly retrospective premise, the autofiction commitment, the cast.
 - Honoring the framework's commitments: dignity register, anti-optimization, constellation-not-verdict, no naming history.
 - Making load-bearing decisions explicit so they can be discussed, rather than papering over.
 - Surfacing conflicts rather than smoothing them.

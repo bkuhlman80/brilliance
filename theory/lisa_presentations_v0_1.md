@@ -129,9 +129,9 @@ She names the work. She gives the year when she has it. She offers to pull the p
 
 Lisa's segment is the most technical. Jasmine plays reader-proxy often. Each per-chapter argument structure below identifies at least one moment where Jasmine's interior comment or out-loud question naturally fits. Natural moments: a field-native term that warrants translation, a tradeoff that warrants spelling out, a construct whose name has done the lifting without explaining itself.
 
-When Lisa drifts into an abstraction that genuinely benefits from being made explicit, Marge translates. Used sparingly. Two or three times across the twelve chapters, not as a recurring tic. The translation should reveal something, not just rescue a sentence.
+When Lisa drifts into an abstraction that genuinely benefits from being made explicit, Marge translates. Used sparingly: two or three instances across the twelve chapters, not a recurring tic. The translation should reveal something, not just rescue a sentence.
 
-Candidates for placement: a moment in the genetic-line year where the shared framework vocabulary is not yet built up; a moment around Mammal or Primate where the four capacities are becoming canonical and Lisa drifts into them prematurely; a moment late in the symbolic line where the abstraction is real enough to warrant explicit naming.
+**Placement.** The momsplain lands during shared-floor moments between Marge and Lisa — moments when they are jointly discussing something, most naturally when working through how Bramble's speech algorithm works (Marge owns the linguistic algorithms; Lisa owns the model machinery underneath). The shared-floor framing keeps the translation a collaboration rather than a rescue, and gives Marge a natural opening to translate without breaking Lisa's segment.
 
 Marge is the right vehicle. Burns checks out rather than asking. Bart asks but does not sit still for explanation. Jasmine interior-narrating the translation is a quieter version of the same move and works in interior-channel moments.
 

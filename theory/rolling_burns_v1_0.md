@@ -29,6 +29,19 @@ The shape-shifters live at segment 5 of the meeting. Lisa presents the retiremen
 
 The shape-shifters do not need a framing line to open. Burns is the team's senior member and the meeting's spine; he transitions from Lisa's retirement-transition to his shape-shifter the way any presenter takes over a slot. The driveway interlude sits between Jasmine and Burns without being mentioned aloud.
 
+## Card-back Venn (Ch 4 onward)
+
+Starting in Ch 4, Burns demands that the Cybernetic Functions Venn print on the back of every clade card. Bart handles printing.
+
+The card-back Venn displays:
+
+- The four function primaries: Effector, Regulator, Modeler, Reviser.
+- The four double labels (adjacent-pair couplings between primaries).
+- Game Changer at center (the all-four breakthrough position).
+- The four capacity labels in the triple regions: Planner, Reactor, Pursuer, Conservator.
+
+The card-back is the reason Burns can open the Ch 9 shape-shifter with capacity names cold. Function and capacity vocabulary naturalize through repeated exposure across Ch 4-8. By Ch 9 the team treats Effector / Regulator / Modeler / Reviser and Planner / Reactor / Pursuer / Conservator as common ground. See `chapter_plan_v0_5.md` for the cross-chapter framing.
+
 ## Naming convention in the room
 
 Burns uses "the Reactor," "the Conservator," "the Planner," "the Pursuer" most of the time. He uses the cartoon character names when describing the slides. He does not use the labmate names when running their shapes. The room is doing the math without anyone making it personal.
@@ -117,7 +130,7 @@ The exception is Ch 12 where Burns runs his son Bart's shape. He does not say "m
 
 ## Ch 12: The Pursuer (Bart)
 
-**Setup.** Burns's closing shape-shifter. He's running his son Bart's shape, on the chapter where the final chassis sits under the cloth and Mira turns eleven. The personal voice is earned here. He uses "the Pursuer" and, at the close, names Bart directly.
+**Setup.** Burns's closing shape-shifter, played as a fun gag. The cartoon-Bart face on every level slide; the eight-level sprint as the segment's biggest swing. Burns runs his son Bart's shape with light personal voice, not heavy. He uses "the Pursuer" throughout the level walks and only names Bart directly at the close.
 
 "Last one. The Pursuer. Bart's shape. Goal-pursuit, sharp social reads, revision drive, no stored regulators. Same slide convention. Eight levels for once. Bilaterian to Empire."
 
@@ -131,6 +144,8 @@ The exception is Ch 12 where Burns runs his son Bart's shape. He does not say "m
 
 **Primate (low Mastery).** *Slide: Bart Simpson the cartoon character, full frame.* "Bart. The cartoon. Underachiever and proud of it. The Mastery slot isn't filled and the Pursuer isn't pretending it is. Compare Homer, whose absent regulator is a humiliation the show plays for pathos. Bart owns the absence."
 
+**Pride beat (mid-segment).** Around the primate slide, Burns has a moment of choked-up pride thinking about Bart sitting at the table. He doesn't dwell. He clears his throat and continues with the band-human slide. The room sees it; nobody underlines it.
+
 **Band-Human (low Mastery).** *Slide: cartoon breakaway band with Bart face on a youth.* "A young breakaway band that fissions readily, raids improvisationally, hasn't consolidated craft. The hippie-commune archetype. A scene rather than a tradition. The Pursuer at band scale: the band that does it for the doing, not for the legacy."
 
 **Settlement-Human (low Stability).** *Slide: cartoon boomtown with Bart face.* "Boomtown. Festival village. Burning Man before the institutionalization. People exchange, bond, innovate. The place doesn't last. The Pursuer at settlement scale: the place that's bright and short and remembered for being bright and short."
@@ -143,13 +158,15 @@ The exception is Ch 12 where Burns runs his son Bart's shape. He does not say "m
 
 "Eight levels. Same shape every time. Now is everything, mastery isn't where the shape is organized, the action is the point, and the rules will work themselves out or they won't. That's the worm and the raven and the puppy and the cartoon character and the breakaway band and the boomtown and the revolution and the dot-com bubble. And that's my son sitting right here."
 
-He doesn't elaborate. The room is quiet.
+He doesn't elaborate. The meeting moves on after a beat.
 
 Marge has tissues out. Lisa is looking at her hands. Bart is looking at his dad. Burns is looking at the screen.
 
-*Jasmine interior: he just ran his son's shape in front of everyone and named him at the end. The Reactor is the shape that does not model others as having inner lives. Burns just modeled his son's inner life across eight levels. Either the framework's claim about shape rigidity gets a friendly amendment for love, or the framework is showing through in a way the framework did not predict: the Reactor reaching into modeling for one specific person.*
+*Jasmine interior: he just ran his son's shape in front of everyone and named him at the end. The shape-shifting played as a good gag and the pride moment was real. Reactor-shape doesn't have to bend; a father naming his son is not a structural exception.*
 
-**Length.** Roughly 900 words. Eight levels plus the personal close.
+The segment is the chapter's biggest swing but not the book's emotional crest. The crest lands elsewhere [TBD].
+
+**Length.** Roughly 900 words. Eight levels plus the brief pride beat and the personal close.
 
 ---
 
@@ -165,9 +182,9 @@ Marge has tissues out. Lisa is looking at her hands. Bart is looking at his dad.
 
 **The Bart slide at the primate level of Ch 12.** "Bart. The cartoon." Burns is running his son's shape. The labmate Burns is the narrator; his son Bart is at the table. The slide is the cartoon Bart on screen; the actual Bart sits in the room. Burns the Reactor naming his Pursuer son in front of everyone, including his son, with the cartoon as the framework's apparatus.
 
-**The labmates' reactions across the four shape-shifters.** Ch 9 (Burns runs the Reactor, his own shape): Lisa takes notes, Marge puts her pen down, Bart watches his dad describe the Burns cartoon face on screen. Ch 10 (Burns runs the Conservator): Marge smiles slightly; the segment is comfortable for her. Ch 11 (Burns runs the Planner): Lisa offers the cities-entry caveat partway through; the Planner playing the model honestly. Ch 12 (Burns runs the Pursuer, Bart's shape): the room is at the emotional crest. Marge has tissues out. Lisa is looking at her hands. Bart is looking at his dad. Burns is looking at the screen.
+**The labmates' reactions across the four shape-shifters.** Ch 9 (Burns runs the Reactor, his own shape): Lisa takes notes, Marge puts her pen down, Bart watches his dad describe the Burns cartoon face on screen. Ch 10 (Burns runs the Conservator): Marge smiles slightly; the segment is comfortable for her. Ch 11 (Burns runs the Planner): Lisa offers the cities-entry caveat partway through; the Planner playing the model honestly. Ch 12 (Burns runs the Pursuer, Bart's shape): the pride beat lands and the room registers it without making a meal of it. Marge has tissues out. Lisa is looking at her hands. Bart is looking at his dad. Burns is looking at the screen.
 
-**Marge's tissues.** Ch 9 she puts her pen down (a reaction; she sees what's happening). Ch 10 she smiles (she's the subject and she's fine). Ch 11 she watches Lisa offer the caveat (the Conservator approving the Planner being honest about uncertainty). Ch 12 she has tissues out (the Pursuer just named himself and Marge is moved). The tissues land here at the book's emotional crest.
+**Marge's tissues.** Ch 9 she puts her pen down (a reaction; she sees what's happening). Ch 10 she smiles (she's the subject and she's fine). Ch 11 she watches Lisa offer the caveat (the Conservator approving the Planner being honest about uncertainty). Ch 12 she has tissues out (Burns's pride beat about Bart, plus the closing line). Real tears, no orchestrated swell.
 
 **Lisa's notes.** Ch 9 she takes notes. Ch 10 she takes notes. Ch 11 she contributes (cities caveat). Ch 12 she is looking at her hands. The Planner participating-participating-participating-and-then-being-still at the moment the shape she had been modeling actually shows up in the room as a person doing the modeling.
 
@@ -179,23 +196,21 @@ Across the four shape-shifters, the framework's claim is demonstrated rather tha
 
 Burns running his son Bart's shape in Ch 12 and Marge's Ch 12 closing synthesis are the book's two closing structural moves. Burns gives the positive case (one shape across the levels, four times). Marge gives the negative case (what happens when one shape denies the others). Both arrive in the same meeting. The framework's central claim is complete.
 
-The driveway interlude in Ch 8 planted the labmates-as-shapes observation through Jasmine. Burns half-accepted it. He worked it out by running each shape publicly across four chapters. Marge developed her fallacy theory in parallel. At Ch 11 the two halves meet. At Ch 12 the lab's oldest delivers the portrait of the lab's youngest, and the Reactor reaches into modeling for his son.
+The driveway interlude in Ch 8 planted the labmates-as-shapes observation through Jasmine. Burns half-accepted it. He worked it out by running each shape publicly across four chapters. Marge developed her fallacy theory in parallel. At Ch 11 the two halves meet. At Ch 12 the lab's oldest delivers the portrait of the lab's youngest as a fun gag with a small pride beat — the shape-shifters arc closes here without claiming to be the book's emotional crest.
 
 ---
 
+## Resolved decisions
+
+**The Lisa cities-entry caveat is kept** as a Planner-honesty teaching moment. Lisa requests the cities entry go on the record despite its uncertainty. The beat shows the Planner being honest about model weak points and gives Burns's shape-shifters room for confidence-level marking.
+
+**Capacity-name vocabulary is established earlier** via the Cybernetic Functions Venn on the back of every clade card from Ch 4 onward (see "Card-back Venn" above and `chapter_plan_v0_5.md`). Burns can open the Ch 9 shape-shifter with the four capacity names cold without overloading the reader.
+
+**Ch 12 framing is the fun-gag-with-pride-beat reading**, not crest. The book's emotional crest lands elsewhere [TBD].
+
 ## Open questions
 
-**The lab's own framework vocabulary.** Burns in the shape-shifters uses "the Reactor," "the Conservator," "the Planner," "the Pursuer" as the four triple names. The vocabulary should be established earlier in the book (probably during Ch 8 Primate when the four primate triples become canonical). If it hasn't been established, Burns introducing four names cold in Ch 9 will overload the reader.
-
-**The Lisa cities-entry caveat as a teaching moment.** I leaned into this. Lisa requests the cities entry go on the record despite its uncertainty. This shows the Planner being honest about model weak points and gives Burns's shape-shifters room for confidence-level marking. Drop it if it slows the chapter.
-
-**Mira at the shape-shifters.** I haven't drafted any Mira pipe-ins in the shape-shifters. The natural slot is during one of the primate-level slides where the cartoon character is on screen. Mira at ten knows the Simpsons characters and could comment. Worth thinking about whether one of Mira's rare pipe-ins lands here.
-
-**The cartoon-character handling at the primate level.** Each shape-shifter has the cartoon character full-frame at the primate slot. The book is doing something specific here: the cartoon character IS the anchor for the shape. The labmate IS the cartoon character. The lab's nicknaming convention from the prologue pays off here in full. The reader who has been wondering why the nicknames stuck gets the answer at the primate slide: the nicknames stuck because the labmates are Simpsons-shaped, and the framework names the same four shapes that the Simpsons exemplified, and the show was always working with the same architecture the book is now naming.
-
-This is a major payoff. Worth ensuring the primate slides land as the moments of recognition rather than as visual gags.
-
-**The Ch 12 emotional crest under the new framing.** Burns running his son Bart's shape in Ch 12 is the book's emotional crest. The original framing had Bart running his own shape; the new framing has the Reactor father naming the Pursuer son. The framework's prediction is that the Reactor cannot model others as having inner lives. The exception that love opens may be the framework's interesting friction: a shape's rigidity does not extend evenly to the one's own child. Worth deciding whether the book leans into this as friction or treats it as a clean demonstration of shape-bounded modeling.
+[None currently.]
 
 ---
 

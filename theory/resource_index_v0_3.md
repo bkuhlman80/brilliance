@@ -268,16 +268,10 @@ When future-Claude faces a question during drafting, the routing is:
 
 ---
 
-## Open questions
+## Maintenance notes
 
-### Should this doc live in `/mnt/project/`
+**Location.** This doc lives in `/mnt/project/`. It is a meta-doc about the project's resources, not itself a framework artifact, but `/mnt/project/` is the only place future-Claude reliably reads at conversation start.
 
-This is a meta-doc about the project's resources. It is not itself a framework artifact. Recommend it lives in `/mnt/project/` because that is the only place future-Claude reliably reads at conversation start. The alternative is that future-Claude never sees it.
+**Update cadence.** Light review at version increments and when new docs are added; fuller refresh when the book list passes meaningful milestones (one hundred and fifty books, two hundred books).
 
-### How often does this doc need updating
-
-Project files are added and revised regularly. The book list will grow. The Smithers cluster counts will shift. Recommend a light review at version increments and when new docs are added, with a fuller refresh when the book list passes meaningful milestones (one hundred and fifty books, two hundred books).
-
-### Cluster placement is rough
-
-Several books would fit more than one cluster. Placement above is for retrieval speed, not theoretical commitment. If a question reaches a book under one cluster and the book turns out to live conceptually under a different one, the placement is wrong and should be moved.
+**Cluster placement.** Book-list cluster placement is for retrieval speed, not theoretical commitment. Several books would fit more than one cluster. Move on demand if a query reaches a book under one cluster and the book turns out to live conceptually under a different one.

@@ -49,6 +49,8 @@ Ch 1–4 names each fallacy alongside the function it denies. The structural ele
 
 **Marge's angle.** Names the Noble Savage. The worldview that says: your nature is good, the environment is the cage, fix the fit and the organism flourishes. Quit the draining job. Leave the relationship. Move to the city that matches your energy.
 
+**The grand-theory announcement.** Before naming the first fallacy, Marge announces that she has a grand theory explaining why no one understands psychology, and that she will be teaching it to the team in bits across the book. She names the lab specifically as a site for working the theory out — these four people, in this room, watching this artifact, are the working conditions her theory needs. The team takes the announcement with affection. The grand-theory framing makes her fallacy section feel like a recurring topic from the outset rather than a one-off. She returns to the lab-as-site framing across the arc.
+
 **Her stance.** Observational. She is a working psychologist with a clinical caseload. She sees clients arriving with a "wrong fit" diagnosis they have given themselves. They want to quit and move and start over. The dynamics they describe are not environmental. Marge cannot say this to clients directly. She brings the pattern to the lab.
 
 **What she covers.** The fallacy as it appears in self-help, in popular career advice, in environment-swapping rhetoric. The Pinker source ("Noble Savage"). Rousseau as the genealogy if it lands without bogging down. She does not yet have a structural account of why this view is wrong. She just names it.
@@ -104,6 +106,8 @@ Ch 1–4 names each fallacy alongside the function it denies. The structural ele
 **Connection to chapter.** Bramble has all four functions now. The Dealt Hand worldview is what you get when you delete Reviser from your model of personality: revision vanishes and the trait number is treated as fate. Bramble's Reviser just came online. Marge can point out: Bramble's heritability is one hundred percent identical with the previous chassis. The hardware is the same. But Bramble revised itself this quarter. So either heritability does not mean what the Dealt Hand thinks it means, or revision is real anyway.
 
 **End of phase one.** Marge has now named four fallacies across four quarters. She has not connected them. She sits down. The reader sees four parallel observations that all point at one architecture, and Marge does not yet see it. The architecture is complete. Her theory is not.
+
+**Phase boundary beat (Ch 4-5).** As Marge finishes the Dealt Hand and begins to sit, Lisa or Jasmine notices, quietly, that Marge has more to say than usual. Marks the shift from phase one (naming) to phase two (processing). Lands once, gently, no underline. The beat foreshadows the Ch 5 first-rhyme without spoiling it.
 
 **Length.** Three hundred fifty words. Her most invested fallacy section yet.
 
@@ -230,13 +234,13 @@ The reader does not yet know this is happening. The reader on reread sees Burns'
 
 **Bart moving on.** Bart not noticing what Marge just did is the Pursuer's signature. Eligibility trace runs his own attention: what just happened was a heuristic explanation, what's next is knob design, the long-time-horizon thread (Marge's structural rhyme as a step in her fallacy arc) doesn't fit in the trace window. He moves on. Marge lets him.
 
-#### Chapter-level open questions
+#### Chapter-level decisions (locked)
 
-**Whether to make Marge's structural-rhyme observation explicit to the room.** The draft has her say it aloud, with Lisa asking "same shape how?" and Marge giving a one-paragraph explanation. The alternative is Marge writes it in her notebook silently and the reader only sees Jasmine notice her writing. Vote: the aloud version. Lisa's question lets Marge develop the observation enough that the reader gets the structural homology on first read. Without the aloud version, the rhyme lives only in subtext, and that's a lot of weight for the room to carry.
+**Marge's structural-rhyme observation is explicit to the room.** Marge says it aloud; Lisa asks "same shape how?" and Marge gives a one-paragraph explanation. The reader gets the structural homology on first read; the rhyme does not have to live only in subtext.
 
-**Whether to have Burns react at all.** The ceiling-studying is the lightest possible reaction. The alternative is no reaction (he looks at his notes, no beat). Vote: the ceiling. Without any reaction from him, the moment passes too cleanly. The ceiling-studying is just enough that the reader on reread can locate it.
+**Burns reacts via the ceiling-studying.** Lightest possible reaction. He looks up at the ceiling and does not say anything. Just enough that the reader on reread can locate it as the first moment he could have caught the connection and chose not to.
 
-**Whether Jasmine's interior commentary appears at this density.** Four interior beats in one ten-minute meeting moment is a lot. The book establishes Jasmine's interior channel throughout, so the density is sustainable, but Ch 5 might want lighter interior in this beat to make room for other things the chapter is doing. Vote: keep the density. Jasmine is the narrator and her watching the four of them perform themselves is the chapter's emotional center.
+**Jasmine's interior commentary stays at full density.** Four interior beats in the ten-minute meeting moment. Jasmine watching the four of them perform themselves is the chapter's emotional center; the density is the point, not a budget problem.
 
 ---
 
@@ -310,7 +314,9 @@ She does not make the claim about anyone in the room. She is talking about her c
 
 **What she covers.** The bare observation, hedged. She is not committed yet. She is testing the air.
 
-**Connection to chapter.** Bart's rolling has just put a single shape across levels on the wall. That structural move is exactly what Marge would need to do for her fallacies: tie each fallacy to a single shape that recurs. She does not yet see that her fallacies are *about* exactly the shapes Bart is rolling. The two halves of the framework's central claim are now both in the room. They have not yet met.
+**Ch 5 four-mapping, restated.** Before testing the type hypothesis aloud, Marge restates the four Pavlov-fallacy homologies she has been filing since Ch 5. Latent Inhibition / Ghost in the Machine. Overshadowing / Noble Savage. Eligibility Trace / Dealt Hand. Blocking / Blank Slate. Same shape across each pair: a credit-assignment heuristic that aligns with a personality fallacy. The full mapping is now on the table, four homologies named in one beat, building the structural base for the Ch 11 synthesis without yet making the synthesis. The room hears the four pairs as a set for the first time.
+
+**Connection to chapter.** Burns's shape-shifters segment has just put a single shape across levels on the wall. That structural move is exactly what Marge would need to do for her fallacies: tie each fallacy to a single shape that recurs. She does not yet see that her fallacies are *about* exactly the shapes Burns is running. The two halves of the framework's central claim are now both in the room. They have not yet met.
 
 Burns is in the room. The Pragmatist worldview is what gets generalized from someone Burns-shaped. Marge is talking *about* Burns, in the same meeting Bart is rolling Burns. Marge does not make this connection. The reader can.
 
@@ -352,11 +358,13 @@ Each fallacy is held by people whose own shape lacks the function the fallacy de
 
 This is type-provincialism. The error is not in the constellation of the person making it. The error is in moving from "I am this shape" to "minds are this shape."
 
-**The room.** Burns is in the room. The Ghost in the Machine fallacy is the one that gets generalized from someone Reactor-shaped. Marge has just put his fallacy on the wall and tied it to his shape. She has not said anything about him. She does not have to. Everyone can do the math.
+**The room.** Burns is in the room. The Ghost in the Machine fallacy is the one that gets generalized from someone Reactor-shaped. Marge has just put his fallacy on the wall and tied it to his shape.
 
-Bart's rollings have been priming the room for ten chapters. Now Marge's fallacy work meets Bart's type work, and the two halves of the framework's central claim resolve into one architecture.
+Burns registers fully. He sees that the Ghost-in-the-Machine seat lands on Reactor-shape, and that the Reactor is his shape. He comments — talks through it with Marge and the team, follows the architecture honestly, asks the question that's actually in his head. He stays in his role. He neither deflects nor collapses; he holds the position the framework predicts a Reactor can hold under direct articulation. Marge engages back; she has been preparing for this. They do not make it personal in the sentimental sense, but they do not pretend it is not personal either. The conversation is the conversation.
 
-Marge does not make this a personal moment. She presents it as a general claim about personality science. The book does not need to underline what the room is feeling.
+Burns's shape-shifters across Ch 9–11 have been priming the room. Now Marge's fallacy work meets the shape-shifter work, and the two halves of the framework's central claim resolve into one architecture.
+
+Marge presents the type-provincialism claim as a general claim about personality science. The book does not need to underline what the room is feeling beyond Burns's own engagement.
 
 **Length.** Five hundred words. The biggest section. The architecture is showing through.
 
@@ -384,21 +392,7 @@ The book closes with Mira lifting the cloth. The reader does not know what is un
 
 ## Open questions
 
-**Phase boundary at Ch 4–5.** The phase one structure is tight (one fallacy per chapter, paired to the function being installed). Ch 5 starts the riffs. Is the transition felt? Marge in Ch 1–4 is just naming. Ch 5 onward she is processing. The shift in mode might want a small in-meeting beat where someone notices Marge has more to say than usual.
-
-**Burns in the room when Marge synthesizes.** Ch 11 is where Marge's fallacy work ties the Ghost in the Machine to Reactor-shape. Burns is in the room. The book has committed to "Ben stays Ben" and "the fallacy is placed, not corrected." Marge's Ch 11 presentation is the strongest moment in the book where the fallacy gets placed on Burns specifically. The question is how Burns reads it in the moment. Three options:
-
-1. He does not register that she is talking about him. The Pragmatist's signature: he engages with the model while staying outside it. The frown from the driveway interlude does not appear here because he does not notice he is in scope.
-2. He half-registers. There is a beat where he looks up and then looks back down at his notes. The reader sees it. He does not name it.
-3. He registers fully and stays Ben. He acknowledges the framework intellectually without applying it to himself.
-
-My vote is option 2. Most faithful to the "half-does" trajectory in the Book Frame.
-
-**Does Marge ever name the lab specifically?** She works in a room with one of each shape. The framework's evidence sits across the table from her at every meeting. She does not name this, by my draft. The question is whether the book wants her to gesture at it ever. My vote: no. The reader can see what Marge sees without Marge having to say it.
-
-**Pavlov-fallacy structural homology beyond Ch 5.** Ch 5 has Marge notice one homology (Latent Inhibition / Ghost in the Machine). The full mapping has four homologies. Does she ever complete the mapping out loud? My draft has her notice one and file it without developing it. The full structural-homology mapping might land as background that informs Ch 11's synthesis without being explicitly listed. Worth deciding before drafting Ch 11.
-
-**Does Marge ever cite Pinker by name?** My draft assumes yes, casually, when she names the three myths he named and the fourth he missed. This is fine for a working psychologist; she is well-read enough to cite. Worth confirming with Brian.
+[None currently. Prior questions resolved: the Ch 4-5 phase-boundary beat lands at the end of Ch 4 (small notice from Lisa or Jasmine); Burns registers fully at Ch 11 and talks the architecture through with Marge; Marge names the lab specifically as a site of her grand theory from Ch 1 and returns to that framing across the arc; the full Pavlov-fallacy four-mapping is restated explicitly in Ch 9; Marge cites Pinker by name casually; the Ch 5 chapter-level beats (aloud rhyme, Burns ceiling-studying, four-beat interior density) are all locked.]
 
 ---
 

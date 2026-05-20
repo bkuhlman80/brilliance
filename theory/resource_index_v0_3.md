@@ -50,9 +50,7 @@ All paths are relative to `/mnt/project/`. Files are read-only and represent a s
 
 **`rolling_burns_v1_0.md`.** Full drafts of Burns's shape-shifter segments in Ch 9-12. Ch 9: Reactor across five levels (cartoon Burns face). Ch 10: Conservator across six levels (cartoon Marge face). Ch 11: Planner across seven levels (cartoon Lisa face). Ch 12: Pursuer across eight levels (cartoon Bart face; Burns running his son's shape). Also contains a "Framework Foundation" section incorporating the full PEC theoretical document (headers demoted one level), the grounding for the four constellational shapes Burns runs across those chapters. First place to go for Burns's shape-shifter content and, until PEC is processed and re-filed, for PEC's theoretical content.
 
-**`lisa_presentations_v0_1.md`.** Lisa's twelve quarterly presentations, one per chapter. Locks vocabulary discipline (CS/biology/neuroscience native, aversive to psychology terms), per-chapter argument structures (what Lisa lands, in what order, what is new, what carries forward, what is deferred, cross-line analogue work, where Jasmine plays reader-proxy), and the cumulative arc across all twelve. First place to go for what Lisa is presenting in any given chapter.
-
-**`audience_anchors_v0_1.md`.** Three audience-slot anchors plus the Lisa reader profile. The audience asymmetry, the prestige gradient, yins as dyads, the extreme-by-framework distinction, and type populations. First place to go for reader-modeling questions, including who the book is written for.
+**`lisa_presentations_v0_1.md`.** Lisa's three per-meeting segments (motivations, retirement-transition, new-knob pitch) across all twelve chapters. Locks vocabulary discipline (CS/biology/neuroscience native, aversive to psychology terms), per-chapter argument structures (what Lisa lands, in what order, what is new, what carries forward, what is deferred, cross-line analogue work, where Jasmine plays reader-proxy), and the cumulative arc across all twelve. First place to go for what Lisa is presenting in any given chapter.
 
 ---
 

@@ -20,7 +20,7 @@ The document has three sections:
 
 This section locks the vocabulary discipline that Lisa's twelve presentations are drafted in. Each per-chapter argument structure is built against it. When a structural fact needs invocation in a presentation, the translations here are how Lisa invokes it.
 
-The discipline matters because the framework has been built with insider vocabulary that real scientists would not recognize. Lisa speaks for the framework in the book. If her vocabulary leaks framework-internal shorthand, the framework reads as a private language rather than as a genuine theoretical claim. The Lisa-reader (the framework's most natural audience, per `audience_anchors_v0_1.md`) is the one who notices first.
+The discipline matters because the framework has been built with insider vocabulary that real scientists would not recognize. Lisa speaks for the framework in the book. If her vocabulary leaks framework-internal shorthand, the framework reads as a private language rather than as a genuine theoretical claim. The Lisa-reader (the framework's most natural audience) is the one who notices first.
 
 ## Lisa's character premise
 

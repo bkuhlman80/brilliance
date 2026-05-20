@@ -219,18 +219,6 @@ Sock-puppet avoidance: Jasmine sometimes gets things wrong. She sometimes misses
 
 ---
 
-## The Pragmatist tension
-
-The book's central anti-optimization claim says the Pragmatist line ("your traits aren't destiny, they're a project") is the Pragmatist's own constellational fallacy. Ben is the Pragmatist. Ben is running a project to optimize a four-knob architecture across twelve cells. The whole enterprise of the lab is a Pragmatist's enterprise.
-
-Jasmine is the witness. She watches Ben drive the project. She watches Bart, Lisa, and Marge see what Ben cannot. She lives at home with the version of her husband that is not at the lab and notices what the lab's analytic ethnography compresses out. The fallacy is placed by what Jasmine notices and what Ben does not.
-
-By the end, Ben has built the thing, the project has been a Pragmatist's project, and Ben still does not fully see his own constellation. The colleagues do. Jasmine does. The reader does, through her. Ben half-does.
-
-The fallacy is placed, not corrected. Ben stays Ben. The constellational frame holds across the arc.
-
----
-
 ## Time
 
 Twelve quarterly retrospectives is three years. Mira ages from eight to eleven. Bramble develops across the twelve cells. The kid-developmental arc runs parallel to Bramble's developmental arc. The parallel is intentional and worth honoring at chapter junctures: an aging Mira reacts differently to Bramble's later cells than her younger self would have.

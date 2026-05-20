@@ -304,11 +304,11 @@ The driveway interlude happens after this chapter. Jasmine sees the labmates-as-
 
 ### Ch 9: First gesture at the type hypothesis
 
-**Bramble.** Humanoid chassis. Effector Reciprocity installed. Symbolic line opens. Bart starts his rollings this chapter (Burns across the levels from Bilaterian up to Band-Human).
+**Bramble.** Humanoid chassis. Effector Reciprocity installed. Symbolic line opens. Burns starts his shape-shifters this chapter (Burns runs the Reactor across the levels from Bilaterian up to Band-Human).
 
 **Marge's angle.** First gesture at the type hypothesis.
 
-**Her stance.** Tentative. Bart has just done his first rolling, identifying a single shape across five levels. Marge sits with that. She wonders aloud whether her four fallacies map onto her own people. Maybe the Pragmatist view is something Pragmatist-shaped people hold. Maybe the Fatalist view is something Fatalist-shaped people hold. She is not sure. It feels too neat.
+**Her stance.** Tentative. Burns has just done his first shape-shifter, identifying a single shape across five levels. Marge sits with that. She wonders aloud whether her four fallacies map onto her own people. Maybe the Ghost-in-the-Machine view is something Ghost-in-the-Machine-shaped people hold. Maybe the Dealt-Hand view is something Dealt-Hand-shaped people hold. She is not sure. It feels too neat.
 
 She does not make the claim about anyone in the room. She is talking about her clinical caseload, about colleagues at conferences, about the patterns in who-publishes-what.
 
@@ -318,7 +318,7 @@ She does not make the claim about anyone in the room. She is talking about her c
 
 **Connection to chapter.** Burns's shape-shifters segment has just put a single shape across levels on the wall. That structural move is exactly what Marge would need to do for her fallacies: tie each fallacy to a single shape that recurs. She does not yet see that her fallacies are *about* exactly the shapes Burns is running. The two halves of the framework's central claim are now both in the room. They have not yet met.
 
-Burns is in the room. The Pragmatist worldview is what gets generalized from someone Burns-shaped. Marge is talking *about* Burns, in the same meeting Bart is rolling Burns. Marge does not make this connection. The reader can.
+Burns is in the room. The Ghost-in-the-Machine worldview is what gets generalized from someone Burns-shaped. Marge is talking *about* Burns, in the same meeting Burns is running his own shape. Marge does not make this connection. The reader can.
 
 **Length.** Two hundred words. She is testing, not asserting.
 
@@ -326,17 +326,17 @@ Burns is in the room. The Pragmatist worldview is what gets generalized from som
 
 ### Ch 10: Testing the hypothesis
 
-**Bramble.** Regulator Stability installed. Bart's rolling this chapter is Marge across the levels from Bilaterian up to Settlement-Human.
+**Bramble.** Regulator Stability installed. Burns's shape-shifters this chapter is the Conservator (Marge) across the levels from Bilaterian up to Settlement-Human.
 
 **Marge's angle.** Testing whether each fallacy is held by people of its own shape.
 
-**Her stance.** Earnest. She is trying to falsify her own hypothesis. She tries to think of someone who holds the Pragmatist worldview but is not Pragmatist-shaped. She struggles. She tries the reverse: someone Pragmatist-shaped who does not hold the worldview. Also struggles.
+**Her stance.** Earnest. She is trying to falsify her own hypothesis. She tries to think of someone who holds the Ghost-in-the-Machine worldview but is not Ghost-in-the-Machine-shaped. She struggles. She tries the reverse: someone Ghost-in-the-Machine-shaped who does not hold the worldview. Also struggles.
 
 The hypothesis is firming up. She still has not connected it to the four cybernetic functions.
 
 **What she covers.** Her testing process. Examples she considered and rejected. The moment she realized she could not find a counterexample. She is honest about the limits: this is one psychologist's clinical pattern-recognition, not a controlled study. But the pattern is robust enough that she trusts it as a working hypothesis.
 
-**Connection to chapter.** Bart is rolling Marge while Marge is testing the hypothesis that fallacies are held by people of their own shape. Bart's rolling shows Marge as a recurring shape across the levels. Marge's hypothesis says her own fallacy (the Dealt Hand) is held by people of her shape. The two halves are now sitting on the same table.
+**Connection to chapter.** Burns is running the Conservator (Marge's shape) while Marge is testing the hypothesis that fallacies are held by people of their own shape. Burns's shape-shifters shows Marge as a recurring shape across the levels. Marge's hypothesis says her own fallacy (the Dealt Hand) is held by people of her shape. The two halves are now sitting on the same table.
 
 She still does not connect them.
 
@@ -346,7 +346,7 @@ She still does not connect them.
 
 ### Ch 11: Synthesis
 
-**Bramble.** Modeler Representation installed. Documentary layer online. Bart's rolling is Lisa across the levels from Bilaterian up to City-Human.
+**Bramble.** Modeler Representation installed. Documentary layer online. Burns's shape-shifters is the Planner (Lisa) across the levels from Bilaterian up to City-Human.
 
 **Marge's angle.** The synthesis.
 
@@ -372,7 +372,7 @@ Marge presents the type-provincialism claim as a general claim about personality
 
 ### Ch 12: Closing
 
-**Bramble.** Reviser Universality installed. Stories. Narrative identity. Final chassis under the cloth. Bart's rolling is himself across all twelve levels.
+**Bramble.** Reviser Universality installed. Stories. Narrative identity. Final chassis under the cloth. Burns's shape-shifters is the Pursuer (Bart's shape) across all eight levels.
 
 **Marge's angle.** Closing.
 
@@ -382,7 +382,7 @@ Marge presents the type-provincialism claim as a general claim about personality
 
 The framework displaces *being right* with *being placed*. The work is not to optimize toward a target shape. The work is to recognize the shape you are and how it composes with the environments you are in.
 
-**Connection to chapter.** Bart's rolling of himself this chapter is the positive case for one shape across the levels. Marge's closing is the negative case for what happens when any one of those shapes denies the others. Together the two cases are the framework's central claim.
+**Connection to chapter.** Burns's shape-shifters of his son Bart's shape this chapter is the positive case for one shape across the levels. Marge's closing is the negative case for what happens when any one of those shapes denies the others. Together the two cases are the framework's central claim.
 
 The book closes with Mira lifting the cloth. The reader does not know what is under it. Marge's synthesis has placed the four fallacies, including the one Ben is most invested in. Ben is still Ben. The fallacy is placed. The constellation holds.
 

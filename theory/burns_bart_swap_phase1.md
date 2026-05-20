@@ -13,7 +13,7 @@ Locate the bullet block in the `### The team` subsection that begins with `**Ben
 Replace the entire four-bullet block with:
 
 ```
-- **Ben (Burns).** Lab director. Drives the lab's agenda and the funder-facing presentation. Lives with Bramble alongside Jasmine and Mira. Owns the cybernetic-function vocabulary of the architecture and each clade's signatures. Speaks in cybernetic language. Does not fully see his own configuration.
+- **Ben (Burns).** Lab director. Drives the lab's agenda and the funder-facing presentation. Lives with Bramble alongside Jasmine and Mira. Owns the cybernetic-function vocabulary of the architecture and each clade's signatures. Speaks in cybernetic language. Does not fully see his own constellation.
 - **Bart [real name Rod].** Designer. Engineers Bramble's chassis and the physical form-factor of each knob, but not the computers that control Bramble's behavior. Speaks in ethological language. Makes the clade cards and presents each clade's umwelt, breakthrough, and capacities. Burns's adult son from a prior marriage; lives with his buddies, not at the Bramble house. Pursuer-shaped: action, social acuity, exploration, no rule-stabilization.
 - **Lisa [real name Liza].** Technologist. Engineers the formal model machinery and the knob functionality. Speaks in computer-science language. Presents each clade's motivations and the retirement-transitions between clades. Planner-shaped: stored regulators, modeling, revision, executive arm delegated.
 - **Marge [real name Mary].** Psychologist. Engineers the linguistic algorithms that control Bramble's utterances. Speaks in folk-psychology language. Composes each cell's day-in-the-life vignette in `bramble_across_the_stack` from the logs, sensor records, video, and Jasmine's lived account of the household. Presents each clade's tendencies and her recurring fallacy section. Conservator-shaped: action, stored regulators, rich modeling, no revising drive.
@@ -210,7 +210,7 @@ Jasmine notices summer-as-R1 to herself for the first time.
 with:
 
 ```
-Jasmine notices that summer and founding configurations share a vibe, the first season-architecture rhyme she'll track across the year. Jasmine establishes in her interior channel that Bart is Burns's adult son from a prior marriage; Bart lives with his buddies rather than at the Bramble house, and works with his dad at Smithers.
+Jasmine notices that summer and founding constellations share a vibe, the first season-architecture rhyme she'll track across the year. Jasmine establishes in her interior channel that Bart is Burns's adult son from a prior marriage; Bart lives with his buddies rather than at the Bramble house, and works with his dad at Smithers.
 ```
 
 ### Edit 2.6: Update Ch 2 Possible beats
@@ -264,7 +264,7 @@ Locate the Ch 6 `**Possible beats.**` line.
 Replace:
 
 ```
-Marge presents the household's lived ethnography from the tetrapod's first quarter. Lisa's presentation names Mastery as the central R-role of the Conservator configuration. The first time Bramble does something the lab did not see coming.
+Marge presents the household's lived ethnography from the tetrapod's first quarter. Lisa's presentation names Mastery as the central R-role of the Conservator constellation. The first time Bramble does something the lab did not see coming.
 ```
 
 with:
@@ -280,7 +280,7 @@ Locate the Ch 7 `**Possible beats.**` line.
 Replace:
 
 ```
-Lisa's presentation names Affiliation as the central R-role of the Planner configuration (her own, though she does not name herself).
+Lisa's presentation names Affiliation as the central R-role of the Planner constellation (her own, though she does not name herself).
 ```
 
 with:
@@ -296,7 +296,7 @@ Locate the Ch 8 `**Framework lands.**` line.
 Replace:
 
 ```
-The four configurational types.
+The four constellational types.
 ```
 
 with:
@@ -310,7 +310,7 @@ In the same Ch 8 brief, locate the `**Possible beats.**` line.
 Replace:
 
 ```
-Lisa's presentation names Autonomy as the central R-role of the Pursuer configuration, completing the central-R-role series across the neuronal line. The colleagues see Bramble's primate-level configurational types in the abstract. None of them sees the team's own configurational signature in the knobs they have built.
+Lisa's presentation names Autonomy as the central R-role of the Pursuer constellation, completing the central-R-role series across the neuronal line. The colleagues see Bramble's primate-level constellational types in the abstract. None of them sees the team's own constellational signature in the knobs they have built.
 ```
 
 with:
@@ -334,7 +334,7 @@ In the same interlude, locate the bullet under `**What the interlude does.**` th
 Replace:
 
 ```
-Lands the in-narrative fallacy diagnosis without going through the Pinker taxonomy. Ben's frown carries the type-provincialism point. He cannot see his configuration in his own knob because his configuration is what is left when modeling is absent.
+Lands the in-narrative fallacy diagnosis without going through the Pinker taxonomy. Ben's frown carries the type-provincialism point. He cannot see his constellation in his own knob because his constellation is what is left when modeling is absent.
 ```
 
 with:

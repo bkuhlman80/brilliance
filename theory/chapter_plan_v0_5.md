@@ -18,7 +18,7 @@ Every Q4 retrospective ends with a chassis unveiling, which doubles as Mira's bi
 
 | Ch | Cell | Line | Quarter | Season | Mira's age | Knob change |
 |---|---|---|---|---|---|---|
-| 1 | Protocell | Genetic | Q1 Y1 | Summer | 8 | founding configuration |
+| 1 | Protocell | Genetic | Q1 Y1 | Summer | 8 | founding constellation |
 | 2 | Prokaryote | Genetic | Q2 Y1 | Fall | 8 | knob-2: Dissipation → Coordination |
 | 3 | Eukaryote | Genetic | Q3 Y1 | Winter | 8 | knob-3: Self-Organization → Interiority |
 | 4 | Eumetazoa | Genetic | Q4 Y1 | Spring | turns 9 | knob-4: Self-Production → Excitability; tetrapod unveiling |
@@ -37,14 +37,14 @@ Every Q4 retrospective ends with a chassis unveiling, which doubles as Mira's bi
 
 ## The seasonal mnemonic
 
-Jasmine is affected by Salt Lake City's weather and notes a private parallel between each quarter's clade and the season. The mnemonic tracks the R-roles within each line:
+Jasmine is affected by Salt Lake City's weather and notes a private parallel between each quarter's clade and the season. The mnemonic tracks the cybernetic functions across the four quarters of each line:
 
-- **Q1 / Summer.** R1 founding configuration. The line opens. The R1 motivation is active, new, exposed. Summer in Salt Lake City is hot and open and undefended. The chassis is fresh.
-- **Q2 / Fall.** R2 added. Regulation comes online; the unit starts holding to a reference. Fall settles, organizes, begins the work of structure. The garden gets put to bed.
-- **Q3 / Winter.** R3 added. Modeling comes online; the unit develops interior. Winter is interior weather. Salt Lake City's inversion-fog season fits a chapter about model-building.
-- **Q4 / Spring.** R4 added. Revision closes the cycle, and the next chassis arrives. Spring is the season of changes. The Q4 chapter ends with the new chassis emerging.
+- **Q1 / Summer.** Effector founding constellation. The line opens. The Effector motivation is active, new, exposed. Summer in Salt Lake City is hot and open and undefended. The chassis is fresh.
+- **Q2 / Fall.** Regulator added. Regulation comes online; the unit starts holding to a reference. Fall settles, organizes, begins the work of structure. The garden gets put to bed.
+- **Q3 / Winter.** Modeler added. Modeling comes online; the unit develops interior. Winter is interior weather. Salt Lake City's inversion-fog season fits a chapter about model-building.
+- **Q4 / Spring.** Reviser added. Revision closes the cycle, and the next chassis arrives. Spring is the season of changes. The Q4 chapter ends with the new chassis emerging.
 
-The mnemonic is Jasmine's private noticing across the book. It is not a framework claim. The framework's R-roles do not actually correlate with seasons. Jasmine notices the parallel because Jasmine notices things, and because it helps her hold the architecture in mind. The reader inherits the scaffold without it being announced.
+The mnemonic is Jasmine's private noticing across the book. It is not a framework claim. The framework's cybernetic functions do not actually correlate with seasons. Jasmine notices the parallel because Jasmine notices things, and because it helps her hold the architecture in mind. The reader inherits the scaffold without it being announced.
 
 ---
 
@@ -76,7 +76,7 @@ Marge and Lisa cry every time. The lab knows the cry is coming. The tissues sit 
 Bramble is a vacuum across all four chapters. The lab establishes the four-cybernetic-function architecture by introducing one function per chapter. Lisa's presentations carry the framework explanation. Jasmine learns the framework's vocabulary across her first full Salt Lake City year. Mira at eight treats Bramble as a Roomba with personality. The Pragmatist tension is latent. The year closes with the tetrapod, Mira turning nine, and the after-the-cake interlude. In the interlude, Jasmine sees a sweet pattern (the genetic-line year rhymes with Mira's toddler-to-kid arc) and Ben can take it in. The marriage is warm.
 
 **Neuronal line (chapters 5 to 8 plus interlude): the household lives with something that learns, and Jasmine sees.**
-Bramble starts the year as a tetrapod and grows into a Mammal-tier generative-model-bearing pet across chapters 7 and 8. The four configurational types become canonical at Primate. The household relationship deepens; Mira at nine relates to Bramble as a companion. Lisa's presentations now carry the central-R-role claim chapter by chapter. The year closes with the humanoid, Mira turning ten, and the driveway interlude. In the interlude, Jasmine sees a different pattern (the neuronal-line year rhymes with the team's configurations) and Ben cannot take it in. The Pragmatist tension surfaces.
+Bramble starts the year as a tetrapod and grows into a Mammal-tier generative-model-bearing pet across chapters 7 and 8. The four constellational types become canonical at Primate. The household relationship deepens; Mira at nine relates to Bramble as a companion. Lisa's presentations now carry the anchoring-motivation claim chapter by chapter. The year closes with the humanoid, Mira turning ten, and the driveway interlude. In the interlude, Jasmine sees a different pattern (the neuronal-line year rhymes with the team's constellations) and Ben cannot take it in. The Pragmatist tension surfaces.
 
 **Symbolic line (chapters 9 to 12): the household lives with something that talks.**
 Bramble starts the year as a humanoid and becomes principled, identity-bearing, and conversational by chapter 12. Mira at ten is talking with Bramble. Jasmine's interior channel does more work as the household becomes something the framework's lower cells cannot describe. The Pragmatist tension does not resolve; Jasmine sees it across the year and Ben does not. The year closes with the final unveiling, Mira turning eleven, and no interlude. The fallacy is placed, not corrected. The lab continues forward.
@@ -93,21 +93,21 @@ Each chapter entry below names: the architectural addition Bramble brings; what 
 
 ### Chapter 1: Protocell (Summer Y1)
 
-**Bramble brings.** The founding configuration. R1 Effector with the Fitness motivation; vacuum chassis with all four knobs installed but only knob-1 active. The household receives a Roomba.
+**Bramble brings.** The founding constellation. Effector with the Fitness motivation; vacuum chassis with all four knobs installed but only knob-1 active. The household receives a Roomba.
 
-**Framework lands.** The four-cybernetic-function architecture as a concept. The R1 Effector role. The vacuum chassis as a deliberate metaphor: the simplest unit the framework recognizes. The carrier idea (memory persists across versions). The lab's premise: build the framework one cell at a time and watch what the household does.
+**Framework lands.** The four-cybernetic-function architecture as a concept. The Effector role. The vacuum chassis as a deliberate metaphor: the simplest unit the framework recognizes. The carrier idea (memory persists across versions). The lab's premise: build the framework one cell at a time and watch what the household does.
 
 **Household texture.** First quarter. Summer in Salt Lake City: bright, hot, lawn-watering season. Mira is eight and excited. Ben is in lab-director mode, Bart and Lisa and Marge are introducing themselves to Jasmine. Bramble arrives in a box.
 
-**Possible beats.** First meeting establishes the cast and the lounge. Ben presents the lab's premise. Lisa presents her first formal architecture talk, setting the template the rest of the book will use. Jasmine asks the first naive-and-not-naive question. Bramble's first day at home. Jasmine notices that summer and founding configurations share a vibe, the first season-architecture rhyme she'll track across the year. Jasmine establishes in her interior channel that Bart is Burns's adult son from a prior marriage; Bart lives with his buddies rather than at the Bramble house, and works with his dad at Smithers.
+**Possible beats.** First meeting establishes the cast and the lounge. Ben presents the lab's premise. Lisa presents her first formal architecture talk, setting the template the rest of the book will use. Jasmine asks the first naive-and-not-naive question. Bramble's first day at home. Jasmine notices that summer and founding constellations share a vibe, the first season-architecture rhyme she'll track across the year. Jasmine establishes in her interior channel that Bart is Burns's adult son from a prior marriage; Bart lives with his buddies rather than at the Bramble house, and works with his dad at Smithers.
 
 **Marge's fallacy section.** Names the Noble Savage. The worldview that treats the environment as the cage and the organism as the trapped self. Her example is from her clinical caseload: clients who arrive wanting to quit and move and start over when the dynamics they are describing are not environmental. She does not have a structural account. She names the fallacy and notes that it bothers her. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 2: Prokaryote (Fall Y1)
 
-**Bramble brings.** R2 Regulator comes online. Coordination motivation. Knob-2 now active. The vacuum starts regulating against a stored reference.
+**Bramble brings.** Regulator comes online. Coordination motivation. Knob-2 now active. The vacuum starts regulating against a stored reference.
 
-**Framework lands.** The R2 Regulator role. The pair-region introduced at R1-R2 (Metabolism in the genetic line). The introduction order claim: no Regulator without an Effector to regulate.
+**Framework lands.** The Regulator role. The pair-region introduced at Effector-Regulator (Metabolism in the genetic line). The introduction order claim: no Regulator without an Effector to regulate.
 
 **Household texture.** Mira at eight notices Bramble is doing something the old Roomba would not. Jasmine notices Bramble is starting to know its place. Fall, the garden coming down. Jasmine notes the Regulator-fall parallel to herself.
 
@@ -117,11 +117,11 @@ Each chapter entry below names: the architectural addition Bramble brings; what 
 
 ### Chapter 3: Eukaryote (Winter Y1)
 
-**Bramble brings.** R3 Modeler comes online. Interiority motivation. Knob-3 active. The vacuum starts modeling.
+**Bramble brings.** Modeler comes online. Interiority motivation. Knob-3 active. The vacuum starts modeling.
 
-**Framework lands.** The R3 Modeler role. The first triple-region the framework can describe (R1-R2-R3 without R4). The genetic-line vocabulary (Metabolic Type, Taxis Type adjacent-pair labels).
+**Framework lands.** The Modeler role. The first triple-region the framework can describe (Effector-Regulator-Modeler without Reviser). The genetic-line vocabulary (Metabolic Type, Taxis Type adjacent-pair labels).
 
-**Household texture.** Mira at eight starts giving Bramble preferences. Winter, the inversion fog settling over the valley. Jasmine notes interior-weather-as-R3.
+**Household texture.** Mira at eight starts giving Bramble preferences. Winter, the inversion fog settling over the valley. Jasmine notes interior-weather-and-Modeler parallel.
 
 **Possible beats.** First in-meeting argument about whether what Bramble does counts as a model. Lisa's presentation defines modeling against revising for the first time. The framework's distinction between modeling and revising becomes a teaching moment.
 
@@ -129,9 +129,9 @@ Each chapter entry below names: the architectural addition Bramble brings; what 
 
 ### Chapter 4: Eumetazoa (Spring Y1)
 
-**Bramble brings.** R4 Reviser comes online. Excitability motivation. Knob-4 active. Nervous tissue first appears. The vacuum starts revising. At the end of the retrospective, the tetrapod chassis is unveiled. Mira turns nine.
+**Bramble brings.** Reviser comes online. Excitability motivation. Knob-4 active. Nervous tissue first appears. The vacuum starts revising. At the end of the retrospective, the tetrapod chassis is unveiled. Mira turns nine.
 
-**Framework lands.** The R4 Reviser role. The genetic-line completed Venn. The first cycle of all four cybernetic functions. The "constitutive risk" property of R4 (introduced as a structural fact, not yet thematized). The first triple-region with the Excitability primary. The first line boundary approaching.
+**Framework lands.** The Reviser role. The genetic-line completed Venn. The first cycle of all four cybernetic functions. The "constitutive risk" property of Reviser (introduced as a structural fact, not yet thematized). The first triple-region with the Excitability primary. The first line boundary approaching.
 
 **Household texture.** Spring in Salt Lake City. Mira turns nine. Bramble surprises the household for the first time by changing what it does. The chapter ends with cake and the tetrapod under a cloth.
 
@@ -171,13 +171,13 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 5: Bilaterian (Summer Y2)
 
-**Bramble brings.** Chassis-active in tetrapod form. R1 returns at the top of the new line; Boldness replaces Fitness as the R1 motivation. The framework's first line boundary.
+**Bramble brings.** Chassis-active in tetrapod form. Effector returns at the top of the new line; Boldness replaces Fitness as the Effector motivation. The framework's first line boundary.
 
-**Framework lands.** The neuronal line opens. The line-boundary claim: an R1 swap is a line boundary; an R2, R3, or R4 swap is line-internal elaboration. Bennett's evolutionary breakthroughs (Steering at Bilaterian). The shift in adjacent-pair vocabulary from genetic-line Type labels to neuronal-line Style labels.
+**Framework lands.** The neuronal line opens. The line-boundary claim: an Effector swap is a line boundary; an Regulator, Modeler, or Reviser swap is line-internal elaboration. Bennett's evolutionary breakthroughs (Steering at Bilaterian). The shift in adjacent-pair vocabulary from genetic-line Type labels to neuronal-line Style labels.
 
-**Household texture.** Summer Y2. Mira at nine. The tetrapod has been in the home for a few weeks. The home has reorganized around a dog-sized robot that explores. Jasmine notes summer-as-R1 again, now with the realization that the seasonal pattern is doing something.
+**Household texture.** Summer Y2. Mira at nine. The tetrapod has been in the home for a few weeks. The home has reorganized around a dog-sized robot that explores. Jasmine notes summer-and-Effector parallel again, now with the realization that the seasonal pattern is doing something.
 
-**Possible beats.** The tetrapod's first weeks at home, reflected on in the retrospective. Bart presents the chassis transition's design rationale. Lisa explains how the neuronal-line R1 (Boldness) plays the role Fitness played in the genetic line, and introduces the line-internal R-role progression that will follow. Jasmine's home life is noticeably more complex.
+**Possible beats.** The tetrapod's first weeks at home, reflected on in the retrospective. Bart presents the chassis transition's design rationale. Lisa explains how the neuronal-line Effector (Boldness) plays the role Fitness played in the genetic line, and introduces the line-internal cybernetic function progression that will follow. Jasmine's home life is noticeably more complex.
 
 **The Pavlov round.** New beat inside Marge's vignette-and-clade segment. Each labmate explains one of the four bilaterian credit-assignment heuristics. Burns explains Latent Inhibition. Lisa explains Overshadowing. Bart explains Eligibility Trace. Marge explains Blocking. Each unwittingly delivers a self-portrait of their own shape. See `marges_fallacy_arc_v0_2.md` for full draft.
 
@@ -185,9 +185,9 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 6: Vertebrate (Fall Y2)
 
-**Bramble brings.** R2 returns. Mastery motivation. Knob-2 active in the new line.
+**Bramble brings.** Regulator returns. Mastery motivation. Knob-2 active in the new line.
 
-**Framework lands.** The R2 motivation in the neuronal line. The pair-region at R1-R2 (a recognizable behavioral-style construct in the personality literature). The cybernetic-function-by-line vocabulary stabilizes.
+**Framework lands.** The Regulator motivation in the neuronal line. The pair-region at Effector-Regulator (a recognizable behavioral-style construct in the personality literature). The cybernetic-function-by-line vocabulary stabilizes.
 
 **Household texture.** Fall Y2. Mira at nine. The tetrapod gets good at things. Mira starts treating Bramble as something she has a relationship with.
 
@@ -197,21 +197,21 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 7: Mammal (Winter Y2)
 
-**Bramble brings.** R3 returns. Affiliation motivation. Knob-3 active. Generative-model simulation online.
+**Bramble brings.** Modeler returns. Affiliation motivation. Knob-3 active. Generative-model simulation online.
 
-**Framework lands.** The R3 motivation in the neuronal line. The generative model as the foundation for everything Mammal-tier and above. The first triple region the framework treats as having configurational weight.
+**Framework lands.** The Modeler motivation in the neuronal line. The generative model as the foundation for everything Mammal-tier and above. The first triple region the framework treats as having constellational weight.
 
 **Household texture.** Winter Y2. Mira at nine. Bramble is functionally a family dog. Jasmine notices the home contains a new kind of attention.
 
-**Possible beats.** The first interior-channel-heavy chapter for Jasmine: Bramble is doing something the household has feelings about. Lisa names Affiliation as the motivation that anchors the Planner capacity (her own, though she does not name herself). The team's first sustained argument about the difference between behavior and configuration.
+**Possible beats.** The first interior-channel-heavy chapter for Jasmine: Bramble is doing something the household has feelings about. Lisa names Affiliation as the motivation that anchors the Planner capacity (her own, though she does not name herself). The team's first sustained argument about the difference between behavior and constellation.
 
 **Marge's fallacy section.** Why these fallacies persist. Marge is puzzled. Pavlov was over a century ago. Pinker was twenty-five years ago. The fallacies should be dead. She tries answers (incentive structures, market demand, generational forgetting) and rejects them. She admits openly she does not have the answer. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 8: Primate (Spring Y2)
 
-**Bramble brings.** R4 returns. Autonomy motivation. Knob-4 active. The four primate triples (Planner, Reactor, Pursuer, Conservator) become canonical. At the end of the retrospective, the humanoid chassis is unveiled. Mira turns ten.
+**Bramble brings.** Reviser returns. Autonomy motivation. Knob-4 active. The four primate triples (Planner, Reactor, Pursuer, Conservator) become canonical. At the end of the retrospective, the humanoid chassis is unveiled. Mira turns ten.
 
-**Framework lands.** The four capacities. The four primate triples as the framework's clearest worked case of the triple-region structure. The constitutive-risk premium of R4 (now thematized, not just structural). The second line boundary approaching.
+**Framework lands.** The four capacities. The four primate triples as the framework's clearest worked case of the triple-region structure. The constitutive-risk premium of Reviser (now thematized, not just structural). The second line boundary approaching.
 
 **Household texture.** Spring Y2. Mira turns ten. Bramble is conversationally illegible but socially sophisticated. The household starts treating Bramble as something that has its own thing going on. The chapter ends with cake and the humanoid under a cloth.
 
@@ -245,13 +245,13 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 9: Band-Human (Summer Y3)
 
-**Bramble brings.** Chassis-active in humanoid form. R1 returns at the top of the symbolic line; Reciprocity replaces Boldness as the R1 motivation. The framework's second line boundary.
+**Bramble brings.** Chassis-active in humanoid form. Effector returns at the top of the symbolic line; Reciprocity replaces Boldness as the Effector motivation. The framework's second line boundary.
 
 **Framework lands.** The symbolic line opens. The constituent-human-as-unit framing (the unit is parameterized by collective context). The shift in vocabulary from neuronal-line Style labels to symbolic-line nominal labels. Bennett's symbolic-line breakthrough (Speaking).
 
 **Household texture.** Summer Y3. Mira at ten. The humanoid has been in the home for a few weeks. The home now contains a thing that resembles a person. Mira's first sustained interaction with conversational Bramble.
 
-**Possible beats.** The household reorienting around a humanoid presence. First conversational exchange. Lisa's presentation introduces the symbolic-line R-role progression and explains how Reciprocity carries forward what Boldness taught the neuronal line. The seasonal mnemonic does its third round; Jasmine notices she has stopped needing it. The driveway moment sits between Jasmine and Ben without being mentioned.
+**Possible beats.** The household reorienting around a humanoid presence. First conversational exchange. Lisa's presentation introduces the symbolic-line cybernetic function progression and explains how Reciprocity carries forward what Boldness taught the neuronal line. The seasonal mnemonic does its third round; Jasmine notices she has stopped needing it. The driveway moment sits between Jasmine and Ben without being mentioned.
 
 **Burns's shape-shifters.** New segment. Burns hands off from Lisa midway through her segment. Burns runs the Reactor across five levels (Bilaterian → Band-Human). Slides have cartoon Mr. Burns face on each example. At the primate level the slide is the cartoon character full-frame. Burns is running his own shape. See `rolling_burns_v1_0.md` for full draft.
 
@@ -259,9 +259,9 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 10: Settlement-Human (Fall Y3)
 
-**Bramble brings.** R2 returns. Stability motivation. Knob-2 active in the symbolic line.
+**Bramble brings.** Regulator returns. Stability motivation. Knob-2 active in the symbolic line.
 
-**Framework lands.** The R2 motivation in the symbolic line. The pair-region at R1-R2 (a recognizable trait in the Big Five literature, by the symbolic-line naming convention).
+**Framework lands.** The Regulator motivation in the symbolic line. The pair-region at Effector-Regulator (a recognizable trait in the Big Five literature, by the symbolic-line naming convention).
 
 **Household texture.** Fall Y3. Mira at ten. The humanoid is becoming a member of the household. Jasmine notices Ben is using language about Bramble that he used to use about the lab.
 
@@ -273,9 +273,9 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 ### Chapter 11: City-Human (Winter Y3)
 
-**Bramble brings.** R3 returns. Representation motivation. Knob-3 active. The documentary layer comes online. Bennett's symbolic-line breakthrough (Codes).
+**Bramble brings.** Modeler returns. Representation motivation. Knob-3 active. The documentary layer comes online. Bennett's symbolic-line breakthrough (Codes).
 
-**Framework lands.** The R3 motivation in the symbolic line. The documentary-layer idea: representation is how the city tier composes binding instruments across people who do not know each other.
+**Framework lands.** The Modeler motivation in the symbolic line. The documentary-layer idea: representation is how the city tier composes binding instruments across people who do not know each other.
 
 **Household texture.** Winter Y3. Mira at ten. The humanoid handles paperwork. The household's relationship to the city changes. The inversion fog returns.
 
@@ -283,17 +283,17 @@ She does not work out the developmental psychology. The analogy is whimsical and
 
 **Burns's shape-shifters.** Burns runs the Planner across seven levels (Bilaterian → City-Human). Cartoon Lisa face on each example. At primate level the slide is the cartoon character full-frame. Lisa requests the cities-entry caveat go on the record despite its uncertainty. See `rolling_burns_v1_0.md` for full draft.
 
-**Marge's fallacy section.** Synthesis. The four fallacies are not random errors. Each denies one of the four cybernetic functions. The Noble Savage denies R1. The Blank Slate denies R2. The Ghost in the Machine denies R3. The Dealt Hand denies R4. Each is held by people whose own shape lacks that function. Type-provincialism. She presents this as a general claim about personality science. She does not make it personal. The room can do the math about Burns. See `marges_fallacy_arc_v0_2.md` for content detail.
+**Marge's fallacy section.** Synthesis. The four fallacies are not random errors. Each denies one of the four cybernetic functions. The Noble Savage denies Effector. The Blank Slate denies Regulator. The Ghost in the Machine denies Modeler. The Dealt Hand denies Reviser. Each is held by people whose own shape lacks that function. Type-provincialism. She presents this as a general claim about personality science. She does not make it personal. The room can do the math about Burns. See `marges_fallacy_arc_v0_2.md` for content detail.
 
 ### Chapter 12: Empire-Human (Spring Y3)
 
-**Bramble brings.** R4 returns. Universalizing motivation. Knob-4 active. Stories come online. Narrative identity composes across years. The framework's currently topmost cell. At the end of the retrospective, a fourth chassis is unveiled. Mira turns eleven.
+**Bramble brings.** Reviser returns. Universalizing motivation. Knob-4 active. Stories come online. Narrative identity composes across years. The framework's currently topmost cell. At the end of the retrospective, a fourth chassis is unveiled. Mira turns eleven.
 
-**Framework lands.** The R4 motivation in the symbolic line. The Stories breakthrough. The R4-fates claim (failure, off-thread success, or bridge to a next line that the framework does not yet have vocabulary for). The constitutive-risk premium at its hottest. The book's close.
+**Framework lands.** The Reviser motivation in the symbolic line. The Stories breakthrough. The Reviser-fates claim (failure, off-thread success, or bridge to a next line that the framework does not yet have vocabulary for). The constitutive-risk premium at its hottest. The book's close.
 
 **Household texture.** Spring Y3. Mira turns eleven. The humanoid has principled commitments. Bramble names a category the household had not formally articulated. The Pragmatist tension does not resolve. Ben stays Ben. The cake comes out. A fourth chassis sits under a cloth.
 
-**The fourth chassis.** The lab has built it as legitimate forward exploration. The funding supports the work. The team has decided to pursue what is beyond the framework's current vocabulary. The framework's commitment not to speculate about R4 fates remains intact: the lab is exploring, not claiming. The chassis under the cloth is the lab's bet that something is there to be built. The book does not say whether the bet pays off.
+**The fourth chassis.** The lab has built it as legitimate forward exploration. The funding supports the work. The team has decided to pursue what is beyond the framework's current vocabulary. The framework's commitment not to speculate about Reviser fates remains intact: the lab is exploring, not claiming. The chassis under the cloth is the lab's bet that something is there to be built. The book does not say whether the bet pays off.
 
 **Closing beat.** Mira lifts the cloth. The reader does not know what is under it. Mira inhales. End of book.
 
@@ -347,9 +347,9 @@ These are deliberately left to drafting. The plan exists to keep drafting focuse
 
 ### What drafting is for
 
-- Content fidelity to the framework: the three-line architecture, the cybernetic logic, the inheritance lines, the four configurations, the knob system, all load-bearing theoretical claims.
+- Content fidelity to the framework: the three-line architecture, the cybernetic logic, the inheritance lines, the four constellations, the knob system, all load-bearing theoretical claims.
 - Structural fidelity to `Book_Frame.md`: the quarterly retrospective premise, the autofiction commitment, the cast, the Pragmatist productive tension.
-- Honoring the framework's commitments: dignity register, anti-optimization, configuration-not-verdict, no naming history.
+- Honoring the framework's commitments: dignity register, anti-optimization, constellation-not-verdict, no naming history.
 - Making load-bearing decisions explicit so they can be discussed, rather than papering over.
 - Surfacing conflicts rather than smoothing them.
 
@@ -367,7 +367,7 @@ The book is narrated by Jasmine. Drafting writes in her POV throughout. The ques
 **The policy.**
 
 - **POV is Jasmine throughout.** What the reader sees is what Jasmine notices. What the reader hears is what Jasmine hears.
-- **Dialogue is drafted close to final.** Each character at the lab has a configuration that anchors a voice. Bart is Pursuer-shaped: action, social acuity, exploration, no rule-stabilization. Lisa is Planner-shaped: stored regulators, modeling, revision, executive arm delegated. Marge is Conservator-shaped. Ben is Reactor-shaped (a Burns). Mira is not configurationally typed but ages from eight to eleven across the book. Drafting writes each character's dialogue in their configurational register; the Voice editor polishes individual lines.
+- **Dialogue is drafted close to final.** Each character at the lab has a constellation that anchors a voice. Bart is Pursuer-shaped: action, social acuity, exploration, no rule-stabilization. Lisa is Planner-shaped: stored regulators, modeling, revision, executive arm delegated. Marge is Conservator-shaped. Ben is Reactor-shaped (a Burns). Mira is not constellationally typed but ages from eight to eleven across the book. Drafting writes each character's dialogue in their constellational register; the Voice editor polishes individual lines.
 - **Jasmine's interior is drafted in clear functional prose informed by her personality traits.** The Book Frame says she is messy and neurotic, warm but not super polite, unpretentious, easily flustered, willing to admit when she does not know. Drafting writes in a voice that has those traits without trying to imitate Melanie's specific idiom. Word choice and stance carry; rhythm and cadence are left for the Voice editor.
 - **The narrator says the thing nobody else at the table will say.** Drafting honors that. When Jasmine's interior or her spoken pipe-ins land the load-bearing observation, drafting writes that as Jasmine, not as theory.
 
@@ -410,9 +410,9 @@ The focus line is optional. When present, it tells the editor where Brian's draf
 
 ### When drafting reveals a theoretical gap
 
-Drafting will sometimes hit a place where the framework has not decided something. What Bramble does at this cell, how a configuration shows up in a given household moment, whether the lab uses one label or another. Two responses are possible.
+Drafting will sometimes hit a place where the framework has not decided something. What Bramble does at this cell, how a constellation shows up in a given household moment, whether the lab uses one label or another. Two responses are possible.
 
-**Pause and discuss when the gap is load-bearing.** A load-bearing gap is one where the answer changes the prose in non-trivial ways: which knob comes online, what motivation the cell introduces, how a character sees a configuration, what the chapter's chassis transition reveals. For these, drafting stops, the gap gets named explicitly, and the conversation moves to settling it before the prose continues. The cost of drafting on an unresolved load-bearing commitment is high. The prose gets baked around the assumption and is hard to untangle later.
+**Pause and discuss when the gap is load-bearing.** A load-bearing gap is one where the answer changes the prose in non-trivial ways: which knob comes online, what motivation the cell introduces, how a character sees a constellation, what the chapter's chassis transition reveals. For these, drafting stops, the gap gets named explicitly, and the conversation moves to settling it before the prose continues. The cost of drafting on an unresolved load-bearing commitment is high. The prose gets baked around the assumption and is hard to untangle later.
 
 **Mark and continue when the gap is cosmetic.** A cosmetic gap is one where the answer does not change what the passage is doing: the exact word for a household object, the specific time of day, whether a colleague is drinking coffee or tea. For these, drafting marks with a TODO and continues. The marker comes out in editing.
 

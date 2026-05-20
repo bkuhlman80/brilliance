@@ -20,11 +20,11 @@ This frees the writer to compose the family and the lab as the book needs them, 
 
 ## The narrator
 
-Jasmine is the lab director's wife and the book's narrator. She works as an elementary school special ed teacher and holds a national pedagogy certification. She spends her professional life watching kids develop along non-default configurations and taking those configurations seriously. The framework's central move, that configurations are shapes rather than verdicts, has a natural home in her actual occupation.
+Jasmine is the lab director's wife and the book's narrator. She works as an elementary school special ed teacher and holds a national pedagogy certification. She spends her professional life watching kids develop along non-default constellations and taking those constellations seriously. The framework's central move, that constellations are shapes rather than verdicts, has a natural home in her actual occupation.
 
 Jasmine is messy and neurotic, warm but not super polite, unpretentious, easily flustered, willing to admit when she doesn't know. She translates lab vocabulary when she doesn't follow it. She says the thing nobody else at the table will say. She loves her husband and sees his shape clearly.
 
-Jasmine is not configurationally typed. The book gains by having one consciousness the framework does not capture. The reader gets to project.
+Jasmine is not constellationally typed. The book gains by having one consciousness the framework does not capture. The reader gets to project.
 
 The reader is inside Jasmine's head throughout. Two channels do most of the narrative work: her interior commentary and the meeting's dialogue. The interior channel carries what Jasmine notices and does not say. The dialogue channel carries what she does say, sometimes despite herself.
 
@@ -46,9 +46,9 @@ The team does not interact with Bramble directly. Their data is Bramble's logs, 
 
 ### The team
 
-The four use Simpsons-character nicknames. The nicknames stuck because each member resembles their character. They are also configurationally accurate within the framework: Burns is Reactor-shaped, Bart is Pursuer-shaped, Lisa is Planner-shaped, and Marge is Conservator-shaped.
+The four use Simpsons-character nicknames. The nicknames stuck because each member resembles their character. They are also constellationally accurate within the framework: Burns is Reactor-shaped, Bart is Pursuer-shaped, Lisa is Planner-shaped, and Marge is Conservator-shaped.
 
-- **Ben (Burns).** Lab director. Drives the lab's agenda and the funder-facing presentation. Lives with Bramble alongside Jasmine and Mira. Owns the cybernetic-function vocabulary of the architecture and each clade's signatures. Speaks in cybernetic language. Does not fully see his own configuration.
+- **Ben (Burns).** Lab director. Drives the lab's agenda and the funder-facing presentation. Lives with Bramble alongside Jasmine and Mira. Owns the cybernetic-function vocabulary of the architecture and each clade's signatures. Speaks in cybernetic language. Does not fully see his own constellation.
 - **Bart [real name Rod].** Designer. Engineers Bramble's chassis and the physical form-factor of each knob, but not the computers that control Bramble's behavior. Speaks in ethological language. Makes the clade cards and presents each clade's umwelt, breakthrough, and capacities. Burns's adult son from a prior marriage; lives with his buddies, not at the Bramble house. Pursuer-shaped: action, social acuity, exploration, no rule-stabilization.
 - **Lisa [real name Liza].** Technologist. Engineers the formal model machinery and the knob functionality. Speaks in computer-science language. Presents each clade's motivations and the retirement-transitions between clades. Planner-shaped: stored regulators, modeling, revision, executive arm delegated.
 - **Marge [real name Mary].** Psychologist. Engineers the linguistic algorithms that control Bramble's utterances. Speaks in folk-psychology language. Composes each cell's day-in-the-life vignette in `bramble_across_the_stack` from the logs, sensor records, video, and Jasmine's lived account of the household. Presents each clade's tendencies and her recurring fallacy section. Conservator-shaped: action, stored regulators, rich modeling, no revising drive.
@@ -77,12 +77,12 @@ The clade-specific content that fills each slot (Metabolic Type at the Controlle
 | Row 2 | motivation | Regulator |
 | Row 3 | motivation | Modeler |
 | Row 4 | motivation | Reviser |
-| R1×R2 adjacent | tendency | Controller |
-| R2×R3 adjacent | tendency | Anticipator |
-| R3×R4 adjacent | tendency | Adapter |
-| R4×R1 adjacent | tendency | Explorer |
-| R1×R3 opposite | signature | Connector |
-| R2×R4 opposite | signature | Operator |
+| Effector×Regulator adjacent | tendency | Controller |
+| Regulator×Modeler adjacent | tendency | Anticipator |
+| Modeler×Reviser adjacent | tendency | Adapter |
+| Reviser×Effector adjacent | tendency | Explorer |
+| Effector×Modeler opposite | signature | Connector |
+| Regulator×Reviser opposite | signature | Operator |
 | Triple absent Row 1 | capacity | Planner |
 | Triple absent Row 2 | capacity | Reactor |
 | Triple absent Row 3 | capacity | Pursuer |
@@ -97,7 +97,7 @@ Three people live with Bramble.
 
 - **Jasmine.** Special ed teacher, narrator, household-voice-of-record.
 - **Ben.** Lab director by day, husband at home. Jasmine calls him Ben or Benji. Mira calls him Dad.
-- **Mira.** Their daughter. Ages from eight to eleven across the book. Not configurationally typed.
+- **Mira.** Their daughter. Ages from eight to eleven across the book. Not constellationally typed.
 
 The home is the ethnographic site. Bramble lives there. The lab gets two channels of household record: Ben's analytic distillation and Jasmine's lived account. The framing is closer to anthropology than to clinical trial.
 
@@ -221,13 +221,13 @@ Sock-puppet avoidance: Jasmine sometimes gets things wrong. She sometimes misses
 
 ## The Pragmatist tension
 
-The book's central anti-optimization claim says the Pragmatist line ("your traits aren't destiny, they're a project") is the Pragmatist's own configurational fallacy. Ben is the Pragmatist. Ben is running a project to optimize a four-knob architecture across twelve cells. The whole enterprise of the lab is a Pragmatist's enterprise.
+The book's central anti-optimization claim says the Pragmatist line ("your traits aren't destiny, they're a project") is the Pragmatist's own constellational fallacy. Ben is the Pragmatist. Ben is running a project to optimize a four-knob architecture across twelve cells. The whole enterprise of the lab is a Pragmatist's enterprise.
 
 Jasmine is the witness. She watches Ben drive the project. She watches Bart, Lisa, and Marge see what Ben cannot. She lives at home with the version of her husband that is not at the lab and notices what the lab's analytic ethnography compresses out. The fallacy is placed by what Jasmine notices and what Ben does not.
 
-By the end, Ben has built the thing, the project has been a Pragmatist's project, and Ben still does not fully see his own configuration. The colleagues do. Jasmine does. The reader does, through her. Ben half-does.
+By the end, Ben has built the thing, the project has been a Pragmatist's project, and Ben still does not fully see his own constellation. The colleagues do. Jasmine does. The reader does, through her. Ben half-does.
 
-The fallacy is placed, not corrected. Ben stays Ben. The configurational frame holds across the arc.
+The fallacy is placed, not corrected. Ben stays Ben. The constellational frame holds across the arc.
 
 ---
 

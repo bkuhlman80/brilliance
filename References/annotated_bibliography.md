@@ -3775,31 +3775,6 @@ Demonstrates that the genetic architecture is more complex than the Big Five hie
 
 ---
 
-### 132b. Briley & Tucker-Drob (2014)
-
-**Citation:** Briley, D. A., & Tucker-Drob, E. M. (2014). Genetic and environmental continuity in personality development: A meta-analysis. *Psychological Bulletin, 140*(5), 1303–1331. https://doi.org/10.1037/a0037091
-
-**Purpose:** Meta-Analysis
-**Methodology:** Meta-Analysis, Twin/Genetic, Longitudinal
-**Instruments:** Multiple (aggregated across 24 longitudinal twin studies)
-**Level of Detail:** Personality Domain
-
-**Key Terms:**
-- *Paper keywords:* personality stability, genetic continuity, environmental continuity, meta-analysis, twin studies, development
-- *Additional terms:* gene-environment correlation, crystallization, niche-picking, age-continuous modeling, sibling pairs
-
-#### Core Themes
-- Aggregates 24 longitudinal behavioral genetic studies (21,057 sibling pairs of 6 types varying in genetic relatedness)
-- Genetic contributions to personality stability are moderate from early in life and increase through middle adulthood
-- Environmental contributions to stability also increase across the lifespan but more gradually
-- Gene-environment correlation proposed as mechanism: genetically influenced traits shape environmental exposure, which in turn stabilizes traits
-- Domain-level only — no facet-level decomposition available
-
-**Relevance to Book Project:** HIGH
-Gold-standard meta-analytic evidence that genetic factors are a primary source of personality continuity, with gene-environment correlation as the key developmental mechanism. Domain-level constraint limits facet-level inference.
-
----
-
 ### 133. Cemalcilar et al. (2021)
 
 **Citation:** Cemalcilar, Z., Baruh, L., Kezer, M., Soto, C. J., Sumer, N., & John, O. P. (2021). Testing the BFI-2 in a non-WEIRD community sample. *Personality and Individual Differences, 182*, 111087. https://doi.org/10.1016/j.paid.2021.111087
@@ -5995,49 +5970,6 @@ Provides a cellular-level mechanism for how early-life stress gets "embedded" in
 
 **Relevance to Book Project:** HIGH
 Demonstrates that noradrenergic neuromodulation is not a single broadcast signal but a structured, target-specific system that simultaneously serves execution and optimization functions. Central to the book's argument that mental phenotypes emerge from precisely organized neuromodulatory architectures.
-
----
-
-### 224. Briley & Tucker-Drob (2014)
-
-**Citation:** Briley, D. A., & Tucker-Drob, E. M. (2014). Genetic and environmental continuity in personality development: A meta-analysis. *Psychological Bulletin*, *140*(5), 1303–1331. https://doi.org/10.1037/a0037091
-
-**Purpose:** Meta-Analysis
-**Methodology:** Meta-Analysis, Twin/Genetic
-**Instruments:** Diverse (NEO-PI-R, NEO-FFI, EPQ, MPQ, HiPIC, EAS, CBQ, BIS/BAS, others)
-**Level of Detail:** Personality Domain
-
-**Key Terms:**
-- *Paper keywords:* personality development, heritability, environmental influences, stability, meta-analysis, behavioral genetics
-- *Additional terms:* phenotypic stability, genetic stability, environmental stability, connected-linear spline model, exponential model, Big Five, sibling pairs, MZ/DZ twins, age trends
-
-#### Results Summary
-
-**Heritability and environmentality across the lifespan:**
-
-| Age period | Heritability | Shared environment | Nonshared environment |
-|---|---|---|---|
-| Infancy (~1 yr) | ~.70 | ~.10 | ~.20 |
-| Childhood (~7 yr) | ~.50 | ~.10 | ~.40 |
-| Adulthood (30+ yr) | ~.40 | ~.05 | ~.55 |
-
-**Stability estimates (genetic and environmental contributions):**
-
-| Component | Asymptotic stability | Age at asymptote |
-|---|---|---|
-| Genetic stability | ~1.00 | ~30 years |
-| Environmental stability | ~.33 | Continues rising through adulthood |
-| Phenotypic stability (total) | ~.71 | Continues rising through adulthood |
-
-**Key meta-analytic findings (k = 24 longitudinal studies, 21,057 sibling pairs):**
-- Genetic contributions to phenotypic stability remain relatively constant across the lifespan (~0.38 asymptote)
-- Environmental contributions to phenotypic stability grow from near zero in infancy to ~0.33 in adulthood
-- The life-span increase in phenotypic stability is therefore driven primarily by increasing environmental contributions, not genetic
-- Genetic stability reaches unity by age 30 — the same genes influence personality throughout adulthood
-- Big Five moderation was statistically significant but practically trivial
-
-**Relevance to Book Project:** HIGH
-A cornerstone meta-analysis for the book's argument about the developmental construction of personality: genes set the stage early but environmental embedding is what progressively stabilizes personality across the lifespan. The finding that genetic stability reaches unity by 30 while environmental contributions keep growing is a key narrative element.
 
 ---
 
@@ -14876,7 +14808,7 @@ Demonstrates cumulative cultural evolution outside humans/great apes; relevant t
 
 **Key Terms:**
 - *Paper keywords:* behavioral genetics, personality, rank-order stability, cumulative continuity, meta-analysis
-- *Additional terms:* differential stability, heritability, environmentality, genetic stability, environmental stability, Cholesky decomposition, Five-Factor Theory, social personality models, gene-environment interaction, gene-environment correlation, nonshared environment
+- *Additional terms:* differential stability, heritability, environmentality, genetic stability, environmental stability, Cholesky decomposition, Five-Factor Theory, social personality models, gene-environment interaction, gene-environment correlation, niche-picking, crystallization, nonshared environment
 
 #### Core Themes
 - Both genetic and environmental influences on personality increase in stability with age; genetic stability approaches unity near age 30, environmental stability continues rising into old age
@@ -14885,6 +14817,28 @@ Demonstrates cumulative cultural evolution outside humans/great apes; relevant t
 - Heritability of personality is highest in infancy (~70%) and declines through childhood to stabilize around 40% in adulthood; environmentality shows the complementary pattern
 - Effect sizes were remarkably similar across Big Five traits, self- vs. informant report, and broad vs. narrow measurement — suggesting universal developmental mechanisms
 - Findings support social personality models (SPMs) over Five-Factor Theory (FFT) for explaining increasing phenotypic stability, though genetic effects are more consistent with FFT predictions for stability peaking at age 30
+- Gene-environment correlation proposed as the key developmental mechanism: genetically influenced traits shape environmental exposure (niche-picking), which in turn stabilizes traits (crystallization)
+- Domain-level only — no facet-level decomposition available
+
+#### Results Summary
+
+**Heritability and environmentality across the lifespan:**
+
+| Age period | Heritability | Shared environment | Nonshared environment |
+|---|---|---|---|
+| Infancy (~1 yr) | ~.70 | ~.10 | ~.20 |
+| Childhood (~7 yr) | ~.50 | ~.10 | ~.40 |
+| Adulthood (30+ yr) | ~.40 | ~.05 | ~.55 |
+
+**Stability estimates (genetic and environmental contributions):**
+
+| Component | Asymptotic stability | Age at asymptote |
+|---|---|---|
+| Genetic stability | ~1.00 | ~30 years |
+| Environmental stability | ~.33 | Continues rising through adulthood |
+| Phenotypic stability (total) | ~.71 | Continues rising through adulthood |
+
+- Big Five moderation of these trends was statistically significant but practically trivial
 
 **Relevance to Book Project:** HIGH
 First comprehensive meta-analysis of genetic and environmental mechanisms underlying personality stability across the entire life span. Provides canonical benchmarks for how genetic and environmental contributions to personality stability change from infancy to old age, directly relevant to understanding how personality phenotypes are constructed through development.

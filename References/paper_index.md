@@ -73,7 +73,7 @@
 - **Quality:** N = 807 twin pairs | Structural: M · Heritability: M · Genetic correlations: S | Non-standard instrument (CPI-Big Five, 16 facets), adolescent sample (~17), high-achieving (NMSQT takers). Adventurousness loaded on A not O — sample-specific phenotypic anomaly.
 - **Notes:** 490 MZ and 317 DZ twins from the National Merit Twin Study. Both domain-general and facet-specific genetic/environmental influences found.
 
-### 7b. Briley_Tucker-Drob_2014.pdf
+### 561. Briley_Tucker-Drob_2014.pdf
 - **Citation:** Briley, D. A., & Tucker-Drob, E. M. (2014). Genetic and environmental continuity in personality development: A meta-analysis. *Psychological Bulletin*, *140*(5), 1303–1331. https://doi.org/10.1037/a0037091
 - **Purpose:** Meta-Analysis
 - **Methodology:** Meta-Analysis, Twin/Genetic, Longitudinal
@@ -5105,19 +5105,59 @@
 - **Quality:** 35-year longitudinal field study + playback experiment (N = 25) | Published in *Nature Communications* | Gold-standard longitudinal design for cultural evolution. Single population.
 - **Notes:** Click trains replaced high note clusters in Savannah sparrow songs (1983-2010). Mathematical modeling: cultural SELECTION (σ = 1.70) best fit; drift and frequency-dependent bias did not. Longer click trains elicited stronger male aggression (F = 10.97) and female approach preference (χ² = 11.69). Satisfies all four criteria for cumulative cultural evolution in a wild, unmanipulated population.
 
+### 557. Epstein_1979.pdf
+- **Citation:** Epstein, S. (1979). The stability of behavior: I. On predicting most of the people most of the time. *Journal of Personality and Social Psychology*, *37*(7), 1097–1110. https://doi.org/10.1037/0022-3514.37.7.1097
+- **Purpose:** Original Research
+- **Methodology:** Multiple Study, Aggregation Design
+- **Instruments:** Self-report diaries, behavioral observations, peer ratings; California Q Set (Block studies reviewed)
+- **Level of Detail:** Personality Domain
+- **Topic:** Personality Stability, Behavioral Consistency, Aggregation Principle, Trait-Situation Debate
+- **Quality:** N = 28 (Study 1 own data); N = 201 (Olweus, reviewed); N > 8,000 (Hartshorne & May, reviewed) | Structural: L | JPSP; four-study demonstration; classic foundational paper. Own studies relatively small; stability conclusions rest partly on reviewing others' larger studies. Pre-modern methods (1979).
+- **Notes:** The "personality coefficient" (r ≈ .30) reflects measurement error in single observations, not true instability. When behavioral measures are averaged over multiple occasions, stability rises to .70–.90 across all data types (objective behavior, self-reports, ratings by others). Study 1: emotions most stable (.79–.88 when aggregated across 1 month of daily diaries; <.30 for single day). Reviews Olweus aggression (3-year stability .66 → .80 corrected), Hartshorne & May honesty (aggregating 23 subtests raised reliability .23 → .73; general honesty factor ~50% of variance), and Block's longitudinal Q-sort studies. Proposes aggregation — not interactionism — as the resolution to the stability debate.
+
+### 558. funder_1983.pdf
+- **Citation:** Funder, D. C., & Ozer, D. J. (1983). Behavior as a function of the situation. *Journal of Personality and Social Psychology*, *44*(1), 107–112. https://doi.org/10.1037/0022-3514.44.1.107
+- **Purpose:** Original Research (secondary reanalysis)
+- **Methodology:** Secondary Reanalysis, Effect Size Estimation
+- **Instruments:** Archival behavioral data (Festinger & Carlsmith 1959; Darley & Batson 1973; Darley & Latané 1968; Milgram 1975)
+- **Level of Detail:** Other (situational effects on behavior)
+- **Topic:** Trait-Situation Debate, Situational Effects, Effect Size, Person-Situation Controversy
+- **Quality:** Secondary reanalysis; small N in target studies (Festinger N~60, Darley & Batson N~40, Milgram N~80) | Structural: M | Methodologically transparent and elegant; JPSP. Limited to 3 behaviors, 5 situational variables.
+- **Notes:** Recalculated 5 situational effects from 3 classic social psychology paradigms using linear correlations comparable to personality coefficients: incentive r = −.36; hurry r = −.39; onlookers r = −.38; victim isolation r = .42; authority proximity r = .36 (Table 1). Situational effects average slightly below .40 — not substantially larger than dispositional effects. The illusion of situational dominance arises from t/F statistics (directional tests, not magnitude) and studying only extreme levels of situational variables. Classic rebuttal to the claim that "powerful" situational factors dwarf dispositions.
+
+### 559. Mitchell_etal_2009.pdf
+- **Citation:** Mitchell, A., Romano, G. H., Groisman, B., Yona, A., Dekel, E., Kupiec, M., Dahan, O., & Pilpel, Y. (2009). Adaptive prediction of environmental changes by microorganisms. *Nature*, *460*, 220–224. https://doi.org/10.1038/nature08112
+- **Purpose:** Original Research
+- **Methodology:** Experimental/Intervention, Laboratory Evolution
+- **Instruments:** GFP promoter-fusion reporter library, fitness assays, quantitative RT-PCR, gene deletion library, genome-wide expression profiling
+- **Level of Detail:** Other (microbial regulatory architecture)
+- **Topic:** Anticipatory Regulation, Bacterial Learning, Cybernetics, Regulatory Networks, Evolutionary Adaptation, Pavlovian Conditioning
+- **Quality:** XL | *Nature*; two-organism replication (E. coli + S. cerevisiae); three independent fitness criteria met; 500-generation lab evolution confirmation; genome-wide expression profiling. Landmark paper.
+- **Notes:** Microorganisms evolve to anticipate sequential environmental changes via Pavlovian-analogue conditioning. E. coli: lactose pre-induces maltose operons (natural intestinal sequence). Three adaptive criteria met: asymmetric fitness advantage (S₁→S₂ but not reverse), neutral/maladaptive cost during S₁ alone (eliminated after 500-generation lab evolution without S₂), specificity to natural stimulus pair. S. cerevisiae diauxic shift: fermentation→respiration (heat → oxidative stress) shows asymmetric cross-protection matching ecology. Molecular basis: regulatory network wiring directly encodes ecological temporal sequences. Proposes anticipatory regulation is widespread and repeatedly selected in biology. Directly supports the R3 (anticipatory/predictive modeling) function emerging through selection at the unicellular level.
+
+### 560. Wadhams_2004.pdf
+- **Citation:** Wadhams, G. H., & Armitage, J. P. (2004). Making sense of it all: Bacterial chemotaxis. *Nature Reviews Molecular Cell Biology*, *5*, 1024–1037. https://doi.org/10.1038/nrm1524
+- **Purpose:** Review
+- **Methodology:** Review
+- **Instruments:** N/A
+- **Level of Detail:** Other (bacterial sensory systems)
+- **Topic:** Bacterial Chemotaxis, Sensory Adaptation, Histidine Kinase, Flagellar Motor, Regulatory Networks, Cybernetics
+- **Quality:** Publication prestige: XL | *Nature Reviews Molecular Cell Biology*; comprehensive review of the most studied bacterial sensory system by Oxford biochemistry group; 1,000+ citations.
+- **Notes:** Canonical reference for bacterial chemotaxis. Covers: HAP two-component signaling (HPK + response regulator); E. coli flagellar motor (proton gradient; 15–100 μm/s; CheY-P → FliM switching); chemosensory pathway (CheA, CheY-P, CheB, CheZ); chemoreceptor diversity (1 in Mesorhizobium to 60+ in Magnetospirillum); methylation-based adaptation (5 orders of magnitude of background concentration); ecological roles (pathogenicity, symbiosis, biofilm). Core relevance to framework: E. coli chemotaxis is the canonical R1-R2 (Effector-Regulator) cybernetic loop at the Protocell level — directional action toward attractants (R1) under phosphorelay negative-feedback regulation (R2), without R3 world-model. Companion to Mitchell et al. 2009 which shows R3 being added through selection at the same phylogenetic level.
+
 ---
 
 ## Summary Statistics
 
 | Category | Count |
 |----------|-------|
-| **Total papers** | 556 |
+| **Total papers** | 561 |
 
 ### By Purpose
 | Purpose | Count |
 |---------|-------|
-| Original Research | 288 |
-| Review | 140 |
+| Original Research | 291 |
+| Review | 141 |
 | Meta-Analysis | 31 |
 | Instrument Validation | 29 |
 | Commentary/Editorial | 22 |

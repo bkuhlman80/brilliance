@@ -14967,3 +14967,108 @@ Demonstrates common genetic basis of personality facets and general intelligence
 Identifies the specific personality facets (predominantly emotional) that drive the personality-wellbeing link, and decomposes the association into genetic and environmental sources. Demonstrates that roughly two-thirds of the genetic influence on life satisfaction operates through personality, while one-third is independent — providing a nuanced picture of how personality and wellbeing are genetically and environmentally intertwined.
 
 ---
+
+### 557. Epstein (1979)
+
+**Citation:** Epstein, S. (1979). The stability of behavior: I. On predicting most of the people most of the time. *Journal of Personality and Social Psychology*, *37*(7), 1097–1110. https://doi.org/10.1037/0022-3514.37.7.1097
+
+**Purpose:** Original Research
+**Methodology:** Multiple Study, Aggregation Design
+**Instruments:** Self-report diaries, behavioral observations, peer ratings; California Q Set (Block studies reviewed)
+**Level of Detail:** Personality Domain
+
+**Key Terms:**
+- *Paper keywords:* personality stability, aggregation, behavioral consistency, traits, situationism, error of measurement
+- *Additional terms:* personality coefficient, single-item reliability, temporal stability, within-subject correlation, split-half reliability, Hartshorne & May, Olweus aggression, Block Q-sort, interactionism, situational uniqueness, self-report validity, objective behavior
+
+#### Core Themes
+- The "personality coefficient" (r ≈ .30) reflects measurement error in single behavioral observations, not true instability — analogous to the low reliability of a single intelligence test item, not evidence against the existence of intelligence
+- When behavioral measures are averaged over multiple occasions, stability coefficients rise to .70–.90 across all data types: objective behavior, self-reports, and ratings by others
+- Study 1 (N = 28, 1-month daily diary): self-recorded emotions and behavioral impulses stable at .70+ when aggregated across all odd/even days, but below .30 for 1-day samples; emotions most stable (.79 for unpleasant, .88 for pleasant emotions)
+- Olweus aggression peer-rating studies (N = 201 boys rated across 3–10 peers): 3-year mean stability = .66, rising to ~.80 corrected for unreliability; aggression scores across ratings, self-reports, and observer checklists all highly intercorrelated
+- Hartshorne & May honesty studies (N > 8,000 children): single-test reliability = .23; aggregating 23 deception subtests raised reliability to .73; general honesty factor accounted for ~50% of total variance (Burton, 1963 reanalysis)
+- Block's longitudinal Q-sort data: 58% of 114 items stable at r ≥ .35 from junior to senior high school; stability from senior high to age 30 was lower (29% of items); multiple judges and broad factor scales key to achieving stability
+- Proposes an integrative resolution: trait, situationist, and interactionist positions address different research problems rather than competing answers to the same question; aggregation (not interaction) is the route to demonstrating behavioral stability
+
+**Relevance to Book Project:** HIGH
+Establishes the aggregation principle as the empirical foundation for trait psychology — that cybernetic parameters are recoverable from behavioral observations when measured properly. The distinction between single-act reliability and aggregated-measure reliability maps directly onto the framework's claim that individual behavioral acts are noisy readouts of underlying regulatory parameters, not direct expressions of them. Epstein's demonstration that averaging transforms unreliable single items into stable composites is the psychometric analogue of the framework's claim that personality is the statistical distribution across a sample of situations, not any one situational response.
+
+---
+
+### 558. Funder & Ozer (1983)
+
+**Citation:** Funder, D. C., & Ozer, D. J. (1983). Behavior as a function of the situation. *Journal of Personality and Social Psychology*, *44*(1), 107–112. https://doi.org/10.1037/0022-3514.44.1.107
+
+**Purpose:** Original Research (secondary reanalysis)
+**Methodology:** Secondary Reanalysis, Effect Size Estimation
+**Instruments:** Archival behavioral data (Festinger & Carlsmith 1959; Darley & Batson 1973; Darley & Latané 1968; Milgram 1975)
+**Level of Detail:** Other (situational effects on behavior)
+
+**Key Terms:**
+- *Paper keywords:* situationism, dispositions, effect size, personality coefficient, linear trend, behavior
+- *Additional terms:* counterattitudinal advocacy, bystander intervention, obedience, forced compliance, hurry effect, authority proximity, victim isolation, point-biserial correlation, variance components, t statistic, F statistic, extreme groups, linear correlation
+
+#### Core Themes
+- Recalculated 5 situational effects from 3 classic social psychology paradigms using linear correlation coefficients (the same metric as personality coefficients): incentive for advocacy r = −.36; hurry on bystander r = −.39; number of onlookers r = −.38; Milgram victim isolation r = .42; authority proximity r = .36 (Table 1)
+- Situational effects from the most famous, widely taught studies in social psychology average slightly below .40 — well within the range typically attributed to dispositional effects, and not substantially larger
+- The impression that situations dominate dispositions rests on two methodological asymmetries: (1) situational power is assessed via t/F statistics (which detect directionality, not magnitude); (2) extreme levels of situational variables are deliberately chosen, inflating apparent strength and overestimating the true linear trend
+- Valid comparison requires both sides of the debate to use the same metric: when both situational and dispositional effects are expressed as linear correlations, they operate at comparable scale (~.30–.40)
+- The paper does not claim situations are unimportant, only that "powerful" situational effects are no more powerful than important dispositional ones when measured commensurately
+- Classic rebuttal to interactionist overreach: the person-situation debate was partly a false asymmetry created by mismatched effect-size metrics
+
+**Relevance to Book Project:** MODERATE
+Provides the quantitative rebuttal to the claim that situational context swamps individual differences. Relevant to the framework's core premise that heritable cybernetic parameters (personality traits) are real, stable, and predictively useful — not post-hoc fictions imposed on situationally-determined behavior. The finding that situational and dispositional effects are comparable in magnitude is consistent with the framework's architecture, which treats personality as the parameter space within which situational inputs are processed (neither the person nor the situation is dominant; both contribute, and both are in the same ballpark).
+
+---
+
+### 559. Mitchell et al. (2009)
+
+**Citation:** Mitchell, A., Romano, G. H., Groisman, B., Yona, A., Dekel, E., Kupiec, M., Dahan, O., & Pilpel, Y. (2009). Adaptive prediction of environmental changes by microorganisms. *Nature*, *460*, 220–224. https://doi.org/10.1038/nature08112
+
+**Purpose:** Original Research
+**Methodology:** Experimental/Intervention, Laboratory Evolution
+**Instruments:** GFP promoter-fusion reporter library, fitness assays, quantitative RT-PCR, gene deletion library (29 S. cerevisiae strains), genome-wide expression profiling
+**Level of Detail:** Other (microbial regulatory architecture)
+
+**Key Terms:**
+- *Paper keywords:* anticipatory regulation, environmental prediction, E. coli, S. cerevisiae, fitness advantage, laboratory evolution
+- *Additional terms:* Pavlovian conditioning, conditioned response, asymmetric anticipatory regulation, carbon source switch, lactose-maltose, diauxic shift, heat shock, oxidative stress, cross-protection, maltose operon, regulatory network wiring, ecological temporal sequence, cost of preparation, purifying selection
+
+#### Core Themes
+- Microorganisms evolve to anticipate sequential environmental changes by analogy to Pavlovian conditioning: the stimulus that appears first in the natural ecology activates responses needed for the later stimulus, providing a fitness advantage upon encounter with the second
+- E. coli carbon-source switch: lactose pre-induces maltose operons before maltose is encountered, matching the natural intestinal transit sequence (lactose in small intestine → maltose availability later); fitness advantage confirmed in alternating sugar environment (Fig. 3)
+- Three criteria for adaptive anticipation confirmed: (1) asymmetric fitness advantage — pre-exposure to S₁ improves fitness under S₂ but not the reverse; (2) cost of preparation is neutral or maladaptive during S₁ alone; (3) specificity — unrelated carbon sources (galactose, sucrose) cannot substitute for lactose as the conditioning signal
+- Lab evolution proof: three E. coli lineages evolved 500 generations on high lactose without maltose showed near-complete loss of anticipatory maltose operon induction — purifying selection removed the conditioning when it was consistently uncoupled from its adaptive payoff (Fig. 2b)
+- S. cerevisiae diauxic shift: heat shock and ethanol during fermentation serve as predictive signals for subsequent oxidative stress during respiration; cross-protection is strongly asymmetric — fermentation stresses predict respiration stresses but not vice versa — and direction matches natural ecology (Fig. 4)
+- Molecular mechanism: regulatory network wiring directly embeds the ecological temporal sequence of stimuli — early-occurring signals activate expression of genes required for later stressors; ~300-gene cluster enriched for oxidative stress functions identified as the anticipatory capacity substrate (Fig. 5)
+
+**Relevance to Book Project:** HIGH
+Direct empirical grounding for the framework's cross-line claim that anticipatory regulation (R3, the Modeler function) is substrate-independent and repeatedly selected across evolutionary lineages. Demonstrates that even prokaryotes without neurons implement predictive internal modeling — the regulatory network "knows" the ecological sequence and encodes it in its wiring. The lab-evolution confirmation establishes that this anticipation is genetically encoded, heritable, and selectively maintained or eliminated depending on ecological context — precisely the kind of inherited environment-model that the Good Regulator theorem predicts. Read together with Wadhams & Armitage (2004), which covers the R1-R2 chemotaxis system at the same phylogenetic level, these two papers bracket the R2→R3 transition in microbial regulatory architecture.
+
+---
+
+### 560. Wadhams & Armitage (2004)
+
+**Citation:** Wadhams, G. H., & Armitage, J. P. (2004). Making sense of it all: Bacterial chemotaxis. *Nature Reviews Molecular Cell Biology*, *5*, 1024–1037. https://doi.org/10.1038/nrm1524
+
+**Purpose:** Review
+**Methodology:** Review
+**Instruments:** N/A
+**Level of Detail:** Other (bacterial sensory systems)
+
+**Key Terms:**
+- *Paper keywords:* chemotaxis, flagellar motor, chemoreceptors, signal transduction, histidine kinase, sensory adaptation
+- *Additional terms:* histidine-aspartate phosphorelay, HAP system, methyl-accepting chemotaxis protein, MCP, CheA, CheY-P, CheB, CheZ, FliM, HAMP domain, response regulator, methylation, run-tumble, stochastic switching, receptor clustering, E. coli, Salmonella, Magnetospirillum, environmental sensing, biofilm, quorum sensing, pathogenicity
+
+#### Core Themes
+- Bacterial chemotaxis is the paradigm sensory system: E. coli biases flagellar rotation toward attractants and away from repellents across five orders of magnitude of background concentration, achieving directional movement through a simple two-component phosphorelay
+- Histidine-aspartate phosphorelay (HAP) two-component system (HPK + response regulator) underlies not only motility but also transcription, sporulation, and osmoregulation; widespread across prokaryotes and lower eukaryotes (S. cerevisiae, Arabidopsis)
+- Chemosensory signaling cascade: decreased attractant binding → CheA autophosphorylation → CheY-P binds FliM switch → clockwise rotation → tumbling → direction change; CheZ phosphatase rapidly terminates CheY-P signal for precision
+- Methylation-based adaptation: CheB (activated by CheA-P) demethylates MCPs, reducing CheA stimulation and returning tumbling frequency to prestimulus baseline even in continued attractant — allows gradient sensing against varying background
+- Chemoreceptor diversity reflects niche specificity: 1 MCP in Mesorhizobium loti to 60+ in Magnetospirillum magnetotacticum; cytoplasmic signaling domains highly conserved, periplasmic sensing domains variable — each tuned to species-relevant ligands
+- Ecological roles beyond gradient following: chemotaxis essential for H. pylori colonization of gastric mucosa, Rhizobium homing to legume root hair nodules, and biofilm formation/shedding dynamics
+
+**Relevance to Book Project:** HIGH
+Canonical reference for the R1-R2 (Effector-Regulator) cybernetic loop at the Protocell/Bacterial entry of the genetic inheritance line. E. coli chemotaxis is the textbook R1 (Effector: biasing flagellar rotation toward attractants) under R2 (Regulator: CheA-CheY-CheB phosphorelay adapts response against stored setpoint). Critically, this system operates without R3: the bacterium reads current chemical gradients via temporal sensing, not predicted futures — it has no internal world-model, only a stored reference and a feedback loop. This is exactly the regulatory architecture the framework assigns to the Protocell level, and what Mitchell et al. (2009) shows being augmented by selection-driven R3 emergence at the same phylogenetic level.
+
+---

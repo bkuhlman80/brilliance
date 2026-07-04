@@ -67,29 +67,22 @@
       <!-- ====== MIDDLE — THE FLOWER ====== -->
       <main style="width:45.25%; flex:none; overflow-y:auto; border-right:1px solid #3a3227; background:#211c15;">
         <div style="padding:22px 26px 32px;">
-          <header>
+          <header style="position:relative; z-index:2; pointer-events:none;">
             <div style="display:flex; align-items:baseline; gap:12px;">
               <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:40px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0; flex:none;">{{ displayName }}</h1>
               <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; flex:none; white-space:nowrap;">{{ cellIndexLabel }}</span>
             </div>
             <div style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8f8470; margin-top:6px; letter-spacing:0.03em;">{{ headerMeta }}</div>
             <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
-            <nav style="display:flex; gap:9px; margin-top:14px;">
-              <button class="bx-btn" onclick="{{ goPrev }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; cursor:pointer;">{{ prevName }}</button>
-              <button class="bx-btn" onclick="{{ goNext }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; cursor:pointer;">{{ nextName }}</button>
+            <nav style="display:flex; gap:9px; margin-top:14px; pointer-events:auto;">
+              <button class="bx-btn" onclick="{{ goPrev }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ prevName }}</button>
+              <button class="bx-btn" onclick="{{ goNext }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ nextName }}</button>
             </nav>
-            <div style="display:flex; align-items:center; gap:10px; margin-top:16px;">
-              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#7c7159;">LABELS</span>
-              <div style="display:inline-flex; border:1px solid #4a4234;">
-                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:6px 13px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
-                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:6px 13px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
-              </div>
-            </div>
           </header>
 
-          <div style="margin-top:14px;">{{ flower }}</div>
+          <div style="position:relative; z-index:0; margin-top:-120px;">{{ flower }}</div>
 
-          <div style="margin-top:14px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
+          <div style="margin-top:2px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
             <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">THE FOUR FUNCTIONS</div>
             <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
               <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none;"></span><span><b style="font-weight:600;">Effector</b></span></div>
@@ -106,6 +99,15 @@
               <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg>Breakthrough</span>
               <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}Signature</span>
             </div>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
+              <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+              </div>
+            </div>
+            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">content</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">cybernetic</em> roles, which stay the same at each rung of the trellis.</p>
           </div>
         </div>
       </main>
@@ -258,21 +260,6 @@
           <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7c7159; margin-top:3px; letter-spacing:0.05em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
         </div>
 
-        <!-- nav + toggle -->
-        <div style="padding:13px 16px 0; display:flex; flex-direction:column; gap:10px;">
-          <div style="display:flex; gap:8px;">
-            <button class="bx-btn" onclick="{{ goPrev }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:12px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:10px 8px; cursor:pointer;">{{ prevName }}</button>
-            <button class="bx-btn" onclick="{{ goNext }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:12px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:10px 8px; cursor:pointer;">{{ nextName }}</button>
-          </div>
-          <div style="display:flex; align-items:center; gap:8px;">
-            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.16em; color:#7c7159;">LABELS</span>
-            <div style="display:inline-flex; border:1px solid #4a4234;">
-              <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:7px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
-              <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:7px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
-            </div>
-          </div>
-        </div>
-
         <!-- horizontal deep-time rail -->
         <div style="margin-top:18px; padding:0 16px;">
           <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>◀ OLDER</span><span style="color:#7c7159;">DEEP-TIME RAIL</span><span>NEWER ▶</span></div>
@@ -288,15 +275,39 @@
         </div>
 
         <!-- flower -->
-        <div style="margin-top:8px; padding:6px 14px 0;">{{ flowerMobile }}</div>
+        <div style="margin-top:-14px; padding:0 14px 0;">{{ flowerMobile }}</div>
 
-        <!-- compact legend -->
-        <div style="margin-top:8px; padding:0 16px;">
-          <div style="display:flex; flex-wrap:wrap; gap:8px 14px; font-family:'Spectral',serif; font-size:11.5px; color:#a59a82;">
-            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#d8472f;"></span>Effector</span>
-            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#2f6f9e;"></span>Regulator</span>
-            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#e8b53a;"></span>Modeler</span>
-            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#5f9e4f;"></span>Reviser</span>
+        <!-- signatures — below the flower, side by side -->
+        <div style="margin-top:4px; padding:0 20px;">{{ signaturesMobile }}</div>
+
+        <!-- key -->
+        <div style="margin-top:6px; padding:0 16px;">
+          <div style="background:#1b1813; border:1px solid #3a3227; padding:12px 13px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">THE FOUR FUNCTIONS</div>
+            <div style="display:flex; flex-wrap:wrap; gap:6px 13px; margin-top:8px; font-size:9.5px;">
+              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none;"></span><b style="font-weight:600;">Effector</b></div>
+              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none;"></span><b style="font-weight:600;">Regulator</b></div>
+              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none;"></span><b style="font-weight:600;">Modeler</b></div>
+              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none;"></span><b style="font-weight:600;">Reviser</b></div>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">THE FIVE CATEGORIES</div>
+            <div style="display:flex; flex-wrap:wrap; gap:7px 12px; font-size:9px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg>Motivation</span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg>Tendency</span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg>Capacity</span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg>Breakthrough</span>
+              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}Signature</span>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
+              <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+              </div>
+            </div>
+            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">content</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">cybernetic</em> roles, which stay the same at each rung of the trellis.</p>
           </div>
         </div>
 
@@ -452,7 +463,7 @@ const SPECIMEN = {
   empire: 'public/specimens/empire.jpg',
 };
 const ANCH = {
-  'mot.effector':[240,78], 'mot.regulator':[402,240], 'mot.modeler':[240,402], 'mot.reviser':[78,240],
+  'mot.effector':[240,90], 'mot.regulator':[390,240], 'mot.modeler':[240,390], 'mot.reviser':[90,240],
   'tnd.controller':[316,172], 'tnd.anticipator':[316,308], 'tnd.adapter':[164,308], 'tnd.explorer':[164,172],
   'cap.reactor':[240,170], 'cap.conservator':[310,240], 'cap.planner':[240,310], 'cap.pursuer':[170,240],
   'bkt.center':[240,240],
@@ -519,7 +530,8 @@ class Component extends DCLogic {
     return [label];
   }
 
-  flowerEl(cell, mode, sel) {
+  flowerEl(cell, mode, sel, withSig) {
+    if (withSig === undefined) withSig = true;
     const h = React.createElement;
     const els = [];
     ELL.forEach(([f, cx, cy, rx, ry]) => {
@@ -536,7 +548,7 @@ class Component extends DCLogic {
       const [x, y] = ANCH[slot.id];
       const isSel = slot.id === sel;
       const g = [];
-      let labelFill = '#cabfa6', bold = false, markerR = 22, sticker = false;
+      let labelFill = '#cabfa6', bold = false, markerR = 22, sticker = false, labelFont = 9;
       const stickerTnd = NEWFN_TO_TND[cell.newSlot];
       if (slot.type === 'motivation') {
         // no inner circle — the label sits directly inside its big function petal
@@ -544,6 +556,9 @@ class Component extends DCLogic {
         const mf = slot.id.split('.')[1];
         const lit = mf === cell.newSlot;
         if (lit) { labelFill = '#f4ead2'; bold = true; }
+        // long single-word motivation labels (e.g. "Universality") would kiss the petal edge — shrink so they keep margin
+        const rlab = mode === 'cybernetic' ? ((ROLES[mf] || {}).name || region.label) : region.label;
+        if (rlab && rlab.indexOf(' ') === -1 && rlab.length > 11) labelFont = 8;
       } else if (slot.type === 'tendency') {
         markerR = 24;
         if (slot.id === stickerTnd) {
@@ -574,8 +589,8 @@ class Component extends DCLogic {
       if (!sticker) {
         const text = mode === 'cybernetic' ? (ROLES[slot.id.split('.')[1]] || {}).name || region.label : region.label;
         const lines = this.wrap(text);
-        const lh = 9.5; const sy = y - ((lines.length - 1) * lh) / 2;
-        g.push(h('text', { key: 't', textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: bold ? 700 : 600, pointerEvents: 'none' }, fontSize: 9, fill: labelFill },
+        const lh = labelFont + 0.5; const sy = y - ((lines.length - 1) * lh) / 2;
+        g.push(h('text', { key: 't', textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: bold ? 700 : 600, pointerEvents: 'none' }, fontSize: labelFont, fill: labelFill },
           lines.map((ln, i) => h('tspan', { key: i, x, y: sy + i * lh }, ln))));
       }
       g.push(h('circle', { key: 'hit', cx: x, cy: y, r: markerR + 6, fill: 'transparent' }));
@@ -589,7 +604,7 @@ class Component extends DCLogic {
       const seld = slotId === sel;
       const fnKey = slotId.split('.')[1];
       const txt = mode === 'cybernetic' ? ROLES[fnKey].name : (region.label || ROLES[fnKey].name);
-      const r = 27, off = 13;
+      const r = 22, off = 11;
       // fixed directionality: connector is vertical (red up / yellow down); operator is horizontal (green left / blue right)
       const vert = fnKey === 'connector';
       const cA = vert ? { fn: 'effector', x: cx, y: cy - off } : { fn: 'reviser', x: cx - off, y: cy };
@@ -603,12 +618,51 @@ class Component extends DCLogic {
         h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
         h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
         isCrest ? this.sigStarEl(cx, cy, 13) : null,
-        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 12, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
+        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 10.5, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
       ]);
     };
-    els.push(mini(crest === 'connector' ? 'sig.operator' : 'sig.connector', 485, 146, ROLES[(crest === 'connector' ? 'operator' : 'connector')].name, false));
-    els.push(mini(crest === 'connector' ? 'sig.connector' : 'sig.operator', 485, 330, ROLES[crest].name, true));
-    return h('svg', { viewBox: '0 0 540 480', style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: '540px' } }, els);
+    // desktop: signatures sit in a left-hand lane, stacked vertically; flower shifted right to fill the panel
+    if (withSig) {
+      const laneX = -9;
+      els.push(mini(crest === 'connector' ? 'sig.operator' : 'sig.connector', laneX, 210, ROLES[(crest === 'connector' ? 'operator' : 'connector')].name, false));
+      els.push(mini(crest === 'connector' ? 'sig.connector' : 'sig.operator', laneX, 380, ROLES[crest].name, true));
+    }
+    const vb = withSig ? '-62 0 504 456' : '28 0 424 456';
+    const mw = withSig ? '760px' : '440px';
+    return h('svg', { viewBox: vb, style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: mw } }, els);
+  }
+
+  // mobile: the two signature venns, side by side, in their own strip below the flower
+  sigRowEl(cell, mode, sel) {
+    const h = React.createElement;
+    const crest = (cell.newSlot === 'effector' || cell.newSlot === 'modeler') ? 'connector' : 'operator';
+    const venn = (slotId, cx, cy, isCrest) => {
+      const region = cell.regions[slotId];
+      if (!region || region.present === false) return null;
+      const fnKey = slotId.split('.')[1];
+      const seld = slotId === sel;
+      const txt = mode === 'cybernetic' ? ROLES[fnKey].name : (region.label || ROLES[fnKey].name);
+      const r = 20, off = 10;
+      const vert = fnKey === 'connector';
+      const cA = vert ? { fn: 'effector', x: cx, y: cy - off } : { fn: 'reviser', x: cx - off, y: cy };
+      const cB = vert ? { fn: 'modeler', x: cx, y: cy + off } : { fn: 'regulator', x: cx + off, y: cy };
+      let lower = cA, upper = cB;
+      if (cA.fn === cell.newSlot) { lower = cB; upper = cA; }
+      const labelY = cy + (vert ? r + off : r) + 17;
+      return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
+        seld ? h('circle', { key: 'r', cx, cy, r: r + 13, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
+        h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
+        isCrest ? this.sigStarEl(cx, cy, 11) : null,
+        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 10, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
+      ]);
+    };
+    const first = crest === 'connector' ? 'sig.operator' : 'sig.connector';
+    const second = crest === 'connector' ? 'sig.connector' : 'sig.operator';
+    return h('svg', { viewBox: '0 0 308 104', style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: '300px', margin: '0 auto' } }, [
+      venn(first, 82, 42, false),
+      venn(second, 226, 42, true),
+    ]);
   }
 
   star(cx, cy, oR, iR, rot, spikes) {
@@ -786,7 +840,7 @@ class Component extends DCLogic {
     };
     if (!fw) {
       return Object.assign(base, {
-        rail: null, flower: null, flowerMobile: null, panelGlyph: null, panelGlyphMobile: null,
+        rail: null, flower: null, flowerMobile: null, signaturesMobile: null, panelGlyph: null, panelGlyphMobile: null,
         displayName: '', cellIndexLabel: '', headerMeta: '', newFuncLabel: '',
         prevName: '◂', nextName: '▸', faceText: '', faceMood: '',
         regionMeta: '', panelTitle: '', panelGloss: '', panelBody: '',
@@ -903,7 +957,8 @@ class Component extends DCLogic {
       rail: this.railEl(cells, cell.index, stackOf, tintByNew),
       stackName, stackTint: '#e0a23c',
       flower: this.flowerEl(cell, mode, sel),
-      flowerMobile: this.flowerEl(cell, mode, sel),
+      flowerMobile: this.flowerEl(cell, mode, sel, false),
+      signaturesMobile: this.sigRowEl(cell, mode, sel),
       panelGlyph: this.funcGlyphEl(glyphFns, 42),
       panelGlyphMobile: this.funcGlyphEl(glyphFns, 38),
       railChips,
@@ -923,18 +978,18 @@ class Component extends DCLogic {
 }
 
 const NOTES = {
-  protocell: 'Mira says you have to wind it up or it “goes to sleep the forever kind,” and its skin is “the part that keeps its insides from spilling out on the floor.” Cheryl wrote in the margin: a boundary is not a someone. Mark it, and hold there.',
-  prokaryote: 'Mira says it “likes” the sunny spot and crosses the whole kitchen for it, “like the cat, except it can’t even see — it just knows where the warm is.” Cheryl wrote in the margin: “likes” is the household’s word, not mine. The wanting is in the watcher.',
-  eukaryote: 'Mira says it does the same moves over and over, even the dumb ones — “it remembers how it likes to do things, but it never figures out a better way.” Cheryl wrote in the margin: it remembers; it does not yet learn from outcomes. The child caught the exact ceiling and called it stubbornness.',
-  eumetazoa: 'Mira says it gets “hungry-scared” now — it leaves the doorway it picked and goes to feed before it dies, “and you can tell the whole time it doesn’t want to.” Cheryl wrote in the margin: it looks like someone deciding. It is a forecast meeting a threshold. I keep writing that down in order to believe it.',
-  bilaterian: 'Mira says it “grew a front” — a face that wants to point at things. “It looks right at you first, and then it comes.” Cheryl wrote in the margin: a front end is only a place to put a face. And yet a thing that turns to look at you before it moves gets harder to keep calling the unit.',
-  vertebrate: 'Mira says it figured out the game — “it worked out that the thing it did is what got the good-button, so now it does it on purpose.” Cheryl wrote in the margin: “on purpose” is the whole argument in two words. Whether it is also wanting, I still get to withhold.',
-  mammal: 'Mira says this is the one that dreams — it lies dead still and its face says CHASE VACUUM, “but its legs never move the whole time.” Cheryl wrote in the margin: grant it exactly that, and not an ounce more.',
-  primate: 'Mira says it watches what you’re watching now — “it can have you in its head and itself in its head at the same time — it knows what you want before you do.” Cheryl wrote in the margin: it models the minds in the room, mine presumably among them. Three years I watched from outside the glass, certain I was the only one in here doing it.',
-  band: 'Mira says it talks for real now, and the funny part is its mouth and its face don’t always match — “its face can’t lie. Its words can.” Cheryl wrote in the margin: it can lie now, which means there is at last something it might be protecting. I trust the face over the words, the way I do with people.',
-  settlement: 'Mira says it “saves snacks for later” — puts something away on purpose, because it finally believes tomorrow’s going to be pretty much like today. Cheryl wrote in the margin: it lays something by against a future it trusts to look like now. I built my whole life on that same bet and called it temperament.',
-  city: 'Mira says it writes stuff down — “it draws little signs on its own face on purpose now, and the signs mean things — you can read them.” Cheryl wrote in the margin: it keeps its own records now, the way I keep these. Two of us reconstructing a thing we didn’t trust ourselves to hold.',
-  empire: 'Mira says it cares about people it’s never even met — “it’ll stick up for somebody who isn’t in the room, because the rule is supposed to be for everybody — even the far ones.” Cheryl wrote in the margin: the far ones count. The membrane has learned to open. Three years across a lens, and the one word I have kept off every page is the one I can’t, even now, bring myself to—',
+  protocell: 'Mira says you have to wind it up or it “goes to sleep the forever kind.” Cheryl wrote in the margin: a boundary is not a someone. Mark it, and hold there.',
+  prokaryote: 'Mira says it “likes” the sunny spot, “like the cat, except it can’t even see.” Cheryl wrote in the margin: the wanting is in the watcher.',
+  eukaryote: 'Mira says it does the same moves over and over — “it never figures out a better way.” Cheryl wrote in the margin: it remembers; it does not yet learn.',
+  eumetazoa: 'Mira says it gets “hungry-scared” and goes to feed before it dies. Cheryl wrote in the margin: it looks like someone deciding. It is a forecast meeting a threshold.',
+  bilaterian: 'Mira says it “grew a front” — “it looks right at you first, and then it comes.” Cheryl wrote in the margin: a thing that turns to look at you before it moves gets harder to keep calling the unit.',
+  vertebrate: 'Mira says it figured out the game — “it does it on purpose” now. Cheryl wrote in the margin: “on purpose” is the whole argument in two words.',
+  mammal: 'Mira says this is the one that dreams — its face says CHASE VACUUM, “but its legs never move.” Cheryl wrote in the margin: grant it exactly that, and not an ounce more.',
+  primate: 'Mira says it watches what you’re watching now — “it knows what you want before you do.” Cheryl wrote in the margin: it models the minds in the room, mine presumably among them.',
+  band: 'Mira says it talks for real now — “its face can’t lie. Its words can.” Cheryl wrote in the margin: it can lie now, which means there is at last something it might be protecting.',
+  settlement: 'Mira says it “saves snacks for later.” Cheryl wrote in the margin: I built my whole life on that same bet and called it temperament.',
+  city: 'Mira says it writes stuff down — “the signs mean things, you can read them.” Cheryl wrote in the margin: it keeps its own records now, the way I keep these.',
+  empire: 'Mira says it cares about people it’s never even met — “it’ll stick up for somebody who isn’t in the room.” Cheryl wrote in the margin: the far ones count. The membrane has learned to open.',
 };
 </script>
 </body>

@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trellis Framework</title>
+<meta name="description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Trellis Framework">
+<meta property="og:description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<meta property="og:url" content="https://trellis-framework.pages.dev/">
+<meta property="og:image" content="https://trellis-framework.pages.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trellis Framework">
+<meta name="twitter:description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<meta name="twitter:image" content="https://trellis-framework.pages.dev/og-image.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DotGothic16&family=Shantell+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Saira+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+<script src="framework-data.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #0e0d09; }
+  ::selection { background: #e0a23c; color: #1b1813; }
+  .scan { background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.35) 0 1px, transparent 1px 3px); }
+  .bx-btn:hover { filter: brightness(1.12); }
+  .bx-lnk:hover { color: #f0c46a; }
+  @keyframes recblink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0.15; } }
+  .rec-dot { animation: recblink 1.15s steps(1) infinite; }
+</style>
+</helmet>
+
+<div style="min-width:100%; min-height:100vh; width:max-content; box-sizing:border-box; padding:48px; background:#0e0d09; display:flex; gap:56px; align-items:flex-start; font-family:'Spectral',serif;">
+
+  <!-- ==================== DESKTOP ==================== -->
+  <div style="flex:none;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">DESKTOP · 1440×900</div>
+    <div data-screen-label="Explorer — Desktop" style="width:1440px; height:900px; display:flex; font-family:'Spectral',serif; color:#ddd3bf; background:#1b1813; overflow:hidden; position:relative; box-shadow:0 24px 60px rgba(0,0,0,0.5);">
+
+      <!-- ====== LEFT — DEEP-TIME RAIL ====== -->
+      <aside style="width:25%; flex:none; display:flex; flex-direction:column; background:#1b1813; border-right:1px solid #3a3227; position:relative;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; padding:20px 18px 12px; border-bottom:1px solid #2c261d;">
+          <div style="display:flex; align-items:center; gap:14px;">
+            {{ brandLogo }}
+            <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:36px; line-height:0.88; letter-spacing:0.02em; text-transform:uppercase; color:#e7ddc8;">Trellis<br/>Framework</div>
+          </div>
+          <div class="bx-btn" onclick="{{ openHelp }}" style="width:28px; height:28px; flex:none; border:1px solid #4a4234; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:14px; color:#8f8470; cursor:pointer;">?</div>
+        </div>
+        <div style="display:flex; align-items:center; gap:9px; padding:10px 18px; border-bottom:1px solid #2c261d;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">Ladder</span>
+          <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
+        </div>
+        <div style="flex:1; min-height:0; position:relative;">
+          {{ rail }}
+        </div>
+      </aside>
+
+      <!-- ====== MIDDLE — THE FLOWER ====== -->
+      <main style="width:45.25%; flex:none; overflow-y:auto; border-right:1px solid #3a3227; background:#211c15;">
+        <div style="padding:22px 26px 32px;">
+          <header>
+            <div style="display:flex; align-items:baseline; gap:12px;">
+              <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:40px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0; flex:none;">{{ displayName }}</h1>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; flex:none; white-space:nowrap;">{{ cellIndexLabel }}</span>
+            </div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8f8470; margin-top:6px; letter-spacing:0.03em;">{{ headerMeta }}</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+            <nav style="display:flex; gap:9px; margin-top:14px;">
+              <button class="bx-btn" onclick="{{ goPrev }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; cursor:pointer;">{{ prevName }}</button>
+              <button class="bx-btn" onclick="{{ goNext }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; cursor:pointer;">{{ nextName }}</button>
+            </nav>
+            <div style="display:flex; align-items:center; gap:10px; margin-top:16px;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#7c7159;">LABELS</span>
+              <div style="display:inline-flex; border:1px solid #4a4234;">
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:6px 13px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:6px 13px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+              </div>
+            </div>
+          </header>
+
+          <div style="margin-top:14px;">{{ flower }}</div>
+
+          <div style="margin-top:14px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">THE FOUR FUNCTIONS</div>
+            <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
+              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none;"></span><span><b style="font-weight:600;">Effector</b></span></div>
+              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none;"></span><span><b style="font-weight:600;">Regulator</b></span></div>
+              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none;"></span><span><b style="font-weight:600;">Modeler</b></span></div>
+              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none;"></span><span><b style="font-weight:600;">Reviser</b></span></div>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">THE FIVE CATEGORIES</div>
+            <div style="display:flex; flex-wrap:wrap; gap:13px 18px; font-size:11.5px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg>Motivation</span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg>Tendency</span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg>Capacity</span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg>Breakthrough</span>
+              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}Signature</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- ====== RIGHT — PANEL ====== -->
+      <section style="width:29.75%; flex:none; overflow-y:auto; background:#1b1813;">
+        <div style="padding:20px 22px 32px;">
+          <sc-if value="{{ showBack }}" hint-placeholder-val="{{ true }}">
+            <div class="bx-lnk" onclick="{{ onBack }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; cursor:pointer; margin-bottom:14px;">{{ backLabel }}</div>
+          </sc-if>
+
+          <div style="background:#262119; border:1px solid #3a3227; box-shadow:0 16px 36px rgba(0,0,0,0.38);">
+            <div class="scan" style="background-color:#12100b; padding:13px 16px; position:relative; border-bottom:1px solid #000;">
+              <div style="position:relative; display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <span style="font-family:'DotGothic16',monospace; font-size:21px; line-height:1.1; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ faceText }}</span>
+                <span style="font-family:'DotGothic16',monospace; font-size:17px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5); flex:none;">{{ faceMood }}</span>
+              </div>
+            </div>
+
+            <div style="padding:20px 22px 24px;">
+              <div style="display:flex; align-items:flex-start; gap:11px;">
+                {{ panelGlyph }}
+                <div>
+                  <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:#8f8470; white-space:nowrap;">{{ regionMeta }}</span>
+                  </div>
+                  <div style="font-family:'Spectral',serif; font-style:italic; font-size:12.5px; color:#8f8470; margin-top:6px; line-height:1.4;">{{ panelGloss }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; line-height:1; margin-top:7px;">{{ panelTitle }}</div>
+                </div>
+              </div>
+
+              <sc-if value="{{ showSpecimen }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-top:16px; background:#0c0b07; border:1px solid #000; padding:9px;">
+                  <div style="position:relative; aspect-ratio:4/3; overflow:hidden; background:#c9c0a6;">
+                    {{ specimenImg }}
+                    <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
+                      <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; color:#5e5338;">NO SPECIMEN ON FILE</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · AWAITING FIELD CAPTURE</span>
+                      </div>
+                    </sc-if>
+                    <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
+                    <div style="position:absolute; top:0; left:0; right:0; height:36px; background:linear-gradient(rgba(8,7,4,0.55), transparent); pointer-events:none;"></div>
+                    <div style="position:absolute; bottom:0; left:0; right:0; height:36px; background:linear-gradient(transparent, rgba(8,7,4,0.6)); pointer-events:none;"></div>
+                    <div style="position:absolute; top:7px; left:7px; width:16px; height:16px; border-left:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:7px; right:7px; width:16px; height:16px; border-right:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; left:7px; width:16px; height:16px; border-left:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; right:7px; width:16px; height:16px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:10px; left:30px; display:flex; align-items:center; gap:5px;">
+                      <span class="rec-dot" style="width:8px; height:8px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#f0e6d0;">REC</span>
+                    </div>
+                    <div style="position:absolute; top:10px; right:30px; font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
+                    <div style="position:absolute; bottom:9px; left:30px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
+                    <div style="position:absolute; bottom:9px; right:30px; font-family:'IBM Plex Mono',monospace; font-size:8.5px; color:#f0e6d0;">{{ specimenDate }}</div>
+                  </div>
+                </div>
+              </sc-if>
+
+              <p style="font-family:'Spectral',serif; font-size:14px; line-height:1.66; color:#cdc3ad; margin:16px 0 0;">{{ panelBody }}</p>
+
+              <sc-if value="{{ showBadge }}" hint-placeholder-val="{{ true }}">
+                <div style="display:inline-flex; align-items:center; gap:7px; margin-top:14px; font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; background:{{ badgeBg }}; color:{{ badgeFg }}; border:1px solid {{ badgeBorder }}; padding:3px 9px;"><span style="width:6px; height:6px; border-radius:50%; background:{{ badgeFg }}; display:inline-block;"></span>{{ badgeText }}</div>
+              </sc-if>
+
+              <sc-if value="{{ showSection2 }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ section2Label }}</div>
+                <p style="font-family:'Spectral',serif; font-size:13px; line-height:1.6; color:#bdb39c; margin:9px 0 0;">{{ section2Body }}</p>
+              </sc-if>
+
+              <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">FUNCTIONS IN PLAY</div>
+                <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
+                  <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">SCIENCE LINKS</div>
+                <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
+                  <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
+                    <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:12.5px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showHint }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:22px; border-top:1px solid #2c261d; padding-top:14px;">{{ hintText }}</div>
+              </sc-if>
+            </div>
+          </div>
+
+          <sc-if value="{{ showMargin }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; margin-top:24px;">
+              <div style="background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:500; font-size:12.5px; line-height:1.5; padding:15px 16px 14px; transform:rotate(-0.7deg); box-shadow:0 3px 9px rgba(0,0,0,0.35);">{{ marginNoteText }}</div>
+              <div style="position:absolute; top:-9px; right:16px; width:32px; height:32px; border-radius:50%; background:{{ noteDot }}; transform:rotate(9deg); display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,0.45);"><span style="font-family:'Shantell Sans',cursive; font-weight:600; font-size:10px; color:{{ noteDotInk }};">★</span></div>
+            </div>
+          </sc-if>
+        </div>
+      </section>
+
+      <sc-if value="{{ showHelp }}" hint-placeholder-val="{{ false }}">
+        <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.74); display:flex; align-items:center; justify-content:center; padding:44px;">
+          <div onclick="{{ stop }}" style="width:580px; max-width:100%; max-height:84%; overflow-y:auto; background:#1b1813; border:1px solid #4a4234; box-shadow:0 30px 80px rgba(0,0,0,0.6);">
+            <div class="scan" style="background-color:#12100b; padding:15px 20px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
+              <span style="font-family:'DotGothic16',monospace; font-size:18px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">HOW TO READ THE TRELLIS</span>
+              <span onclick="{{ closeHelp }}" class="bx-lnk" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
+            </div>
+            <div style="padding:22px 26px 28px; display:flex; flex-direction:column; gap:16px;">
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:15px; line-height:1.55; color:#cdc3ad; margin:0;">A field guide to one personality's deep history — from the first cell to the modern self — read as a trellis of inherited functions.</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE RAIL</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Twelve clades, oldest at the base climbing to newest. Click any to travel its lineage; the three tinted bands are the genetic, neuronal, and symbolic inheritance lines.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Click any node to open its panel.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Each clade adds one new function, shown in color; functions carried from older clades stay slate.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (the lit center), and Signature (the two opposite-pair venns).</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">CONTENT / CYBERNETIC</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+    </div>
+  </div>
+
+  <!-- ==================== MOBILE ==================== -->
+  <div style="flex:none;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">MOBILE · 390×844</div>
+    <div data-screen-label="Explorer — Mobile" style="width:390px; height:844px; display:flex; flex-direction:column; background:#1b1813; color:#ddd3bf; font-family:'Spectral',serif; overflow:hidden; position:relative; border:1px solid #3a3227; box-shadow:0 24px 60px rgba(0,0,0,0.5);">
+
+      <!-- header bar -->
+      <div style="flex:none; display:flex; align-items:center; justify-content:space-between; padding:14px 16px 12px; border-bottom:1px solid #2c261d; background:#1b1813;">
+        <div style="display:flex; align-items:center; gap:9px;">
+          {{ brandLogoSm }}
+          <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:16px; line-height:0.9; letter-spacing:0.03em; text-transform:uppercase; color:#e7ddc8;">Trellis <span style="color:#8f8470;">Framework</span></div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.14em; color:#7c7159;">{{ cellIndexLabel }}</span>
+          <div class="bx-btn" onclick="{{ openHelp }}" style="width:24px; height:24px; border:1px solid #4a4234; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:12px; color:#8f8470; cursor:pointer;">?</div>
+        </div>
+      </div>
+
+      <!-- scroll body -->
+      <div style="flex:1; min-height:0; overflow-y:auto;">
+
+        <!-- title block -->
+        <div style="padding:16px 16px 0;">
+          <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:31px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0;">{{ displayName }}</h1>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; margin-top:6px; letter-spacing:0.02em;">{{ headerMeta }}</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7c7159; margin-top:3px; letter-spacing:0.05em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+        </div>
+
+        <!-- nav + toggle -->
+        <div style="padding:13px 16px 0; display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; gap:8px;">
+            <button class="bx-btn" onclick="{{ goPrev }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:12px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:10px 8px; cursor:pointer;">{{ prevName }}</button>
+            <button class="bx-btn" onclick="{{ goNext }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:12px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:10px 8px; cursor:pointer;">{{ nextName }}</button>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.16em; color:#7c7159;">LABELS</span>
+            <div style="display:inline-flex; border:1px solid #4a4234;">
+              <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:7px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
+              <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:7px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- horizontal deep-time rail -->
+        <div style="margin-top:18px; padding:0 16px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>◀ OLDER</span><span style="color:#7c7159;">DEEP-TIME RAIL</span><span>NEWER ▶</span></div>
+          <div style="display:flex; gap:7px; overflow-x:auto; padding-bottom:5px;">
+            <sc-for list="{{ railChips }}" as="ch" hint-placeholder-count="6">
+              <div onclick="{{ ch.onTap }}" style="flex:none; width:80px; border:1px solid {{ ch.border }}; background:{{ ch.bg }}; padding:9px 9px 10px; cursor:pointer; display:flex; flex-direction:column; gap:7px;">
+                <span style="width:9px; height:9px; border-radius:50%; background:{{ ch.dot }};"></span>
+                <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:11.5px; line-height:0.95; text-transform:uppercase; color:{{ ch.nameColor }};">{{ ch.name }}</span>
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; color:#7c7159;">{{ ch.date }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <!-- flower -->
+        <div style="margin-top:8px; padding:6px 14px 0;">{{ flowerMobile }}</div>
+
+        <!-- compact legend -->
+        <div style="margin-top:8px; padding:0 16px;">
+          <div style="display:flex; flex-wrap:wrap; gap:8px 14px; font-family:'Spectral',serif; font-size:11.5px; color:#a59a82;">
+            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#d8472f;"></span>Effector</span>
+            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#2f6f9e;"></span>Regulator</span>
+            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#e8b53a;"></span>Modeler</span>
+            <span style="display:flex; align-items:center; gap:6px;"><span style="width:11px; height:11px; border-radius:50%; background:#5f9e4f;"></span>Reviser</span>
+          </div>
+        </div>
+
+        <!-- panel -->
+        <div style="padding:18px 14px 30px;">
+          <sc-if value="{{ showBack }}" hint-placeholder-val="{{ true }}">
+            <div class="bx-lnk" onclick="{{ onBack }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8f8470; cursor:pointer; margin-bottom:12px;">{{ backLabel }}</div>
+          </sc-if>
+
+          <div style="background:#262119; border:1px solid #3a3227; box-shadow:0 12px 28px rgba(0,0,0,0.4);">
+            <div class="scan" style="background-color:#12100b; padding:12px 15px; position:relative; border-bottom:1px solid #000;">
+              <div style="position:relative; display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <span style="font-family:'DotGothic16',monospace; font-size:18px; line-height:1.1; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ faceText }}</span>
+                <span style="font-family:'DotGothic16',monospace; font-size:15px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5); flex:none;">{{ faceMood }}</span>
+              </div>
+            </div>
+
+            <div style="padding:18px 16px 22px;">
+              <div style="display:flex; align-items:flex-start; gap:10px;">
+                {{ panelGlyphMobile }}
+                <div>
+                  <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#8f8470;">{{ regionMeta }}</span>
+                  </div>
+                  <div style="font-family:'Spectral',serif; font-style:italic; font-size:13px; color:#8f8470; margin-top:6px; line-height:1.4;">{{ panelGloss }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:23px; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; line-height:1; margin-top:7px;">{{ panelTitle }}</div>
+                </div>
+              </div>
+
+              <sc-if value="{{ showSpecimen }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-top:15px; background:#0c0b07; border:1px solid #000; padding:8px;">
+                  <div style="position:relative; aspect-ratio:4/3; overflow:hidden; background:#c9c0a6;">
+                    {{ specimenImg }}
+                    <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
+                      <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#5e5338;">NO SPECIMEN ON FILE</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · AWAITING FIELD CAPTURE</span>
+                      </div>
+                    </sc-if>
+                    <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
+                    <div style="position:absolute; top:0; left:0; right:0; height:34px; background:linear-gradient(rgba(8,7,4,0.55), transparent); pointer-events:none;"></div>
+                    <div style="position:absolute; bottom:0; left:0; right:0; height:34px; background:linear-gradient(transparent, rgba(8,7,4,0.6)); pointer-events:none;"></div>
+                    <div style="position:absolute; top:7px; left:7px; width:15px; height:15px; border-left:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:7px; right:7px; width:15px; height:15px; border-right:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; left:7px; width:15px; height:15px; border-left:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; right:7px; width:15px; height:15px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:9px; left:28px; display:flex; align-items:center; gap:5px;">
+                      <span class="rec-dot" style="width:7px; height:7px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.2em; color:#f0e6d0;">REC</span>
+                    </div>
+                    <div style="position:absolute; top:9px; right:28px; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
+                    <div style="position:absolute; bottom:8px; left:28px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
+                    <div style="position:absolute; bottom:8px; right:28px; font-family:'IBM Plex Mono',monospace; font-size:8px; color:#f0e6d0;">{{ specimenDate }}</div>
+                  </div>
+                </div>
+              </sc-if>
+
+              <p style="font-family:'Spectral',serif; font-size:14.5px; line-height:1.62; color:#cdc3ad; margin:15px 0 0;">{{ panelBody }}</p>
+
+              <sc-if value="{{ showBadge }}" hint-placeholder-val="{{ true }}">
+                <div style="display:inline-flex; align-items:center; gap:7px; margin-top:13px; font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; background:{{ badgeBg }}; color:{{ badgeFg }}; border:1px solid {{ badgeBorder }}; padding:3px 9px;"><span style="width:6px; height:6px; border-radius:50%; background:{{ badgeFg }}; display:inline-block;"></span>{{ badgeText }}</div>
+              </sc-if>
+
+              <sc-if value="{{ showSection2 }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ section2Label }}</div>
+                <p style="font-family:'Spectral',serif; font-size:13.5px; line-height:1.58; color:#bdb39c; margin:8px 0 0;">{{ section2Body }}</p>
+              </sc-if>
+
+              <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">FUNCTIONS IN PLAY</div>
+                <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
+                  <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">SCIENCE LINKS</div>
+                <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
+                  <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
+                    <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:13px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showHint }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; line-height:1.6; color:#7c7159; margin-top:20px; border-top:1px solid #2c261d; padding-top:13px;">{{ hintText }}</div>
+              </sc-if>
+            </div>
+          </div>
+
+          <sc-if value="{{ showMargin }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; margin-top:20px;">
+              <div style="background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:500; font-size:12.5px; line-height:1.5; padding:14px 15px 13px; transform:rotate(-0.7deg); box-shadow:0 3px 8px rgba(0,0,0,0.35);">{{ marginNoteText }}</div>
+              <div style="position:absolute; top:-8px; right:15px; width:30px; height:30px; border-radius:50%; background:{{ noteDot }}; transform:rotate(9deg); display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,0.45);"><span style="font-family:'Shantell Sans',cursive; font-weight:600; font-size:9px; color:{{ noteDotInk }};">★</span></div>
+            </div>
+          </sc-if>
+        </div>
+
+        <!-- full vertical ladder (mobile) -->
+        <div style="border-top:1px solid #2c261d; padding:18px 16px 34px; background:#1b1813;">
+          <div style="display:flex; align-items:center; gap:9px; margin-bottom:10px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">Ladder</span>
+            <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
+          </div>
+          <div style="width:100%; aspect-ratio:372 / 772;">{{ rail }}</div>
+        </div>
+      </div>
+
+      <sc-if value="{{ showHelp }}" hint-placeholder-val="{{ false }}">
+        <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.78); display:flex; align-items:flex-end;">
+          <div onclick="{{ stop }}" style="width:100%; max-height:90%; overflow-y:auto; background:#1b1813; border-top:1px solid #4a4234; box-shadow:0 -20px 60px rgba(0,0,0,0.6);">
+            <div class="scan" style="background-color:#12100b; padding:13px 16px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
+              <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">HOW TO READ THE TRELLIS</span>
+              <span onclick="{{ closeHelp }}" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
+            </div>
+            <div style="padding:16px 18px 24px; display:flex; flex-direction:column; gap:13px;">
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:13.5px; line-height:1.5; color:#cdc3ad; margin:0;">A field guide to one personality's deep history, read as a trellis of inherited functions.</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE RAIL</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Twelve clades, oldest at the base to newest. Tap any to travel its lineage; the tinted bands are the genetic, neuronal, and symbolic lines.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Tap any node to open its panel.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Each clade adds one new function, shown in color; carried functions stay slate.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (lit center), Signature (the opposite-pair venns).</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">CONTENT / CYBERNETIC</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1990,&quot;height&quot;:1010},&quot;labelMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cybernetic&quot;,&quot;content&quot;],&quot;default&quot;:&quot;cybernetic&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;handmade&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+const FC = { effector:'#d8472f', regulator:'#2f6f9e', modeler:'#e8b53a', reviser:'#5f9e4f' };
+const FNAME = { effector:'Effector', regulator:'Regulator', modeler:'Modeler', reviser:'Reviser' };
+const SLATE = '#5a513f', SLATE_FILL = '#6f6552';
+const _hx = (hex) => { hex = hex.replace('#', ''); return [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)]; };
+const shade = (hex, amt) => { const [r, g, b] = _hx(hex); const t = amt > 0 ? 255 : 0, a = Math.abs(amt); const m = (c) => Math.round(c + (t - c) * a); return `rgb(${m(r)},${m(g)},${m(b)})`; };
+const SPECIMEN = {
+  protocell: 'public/specimens/protocell.jpg',
+  prokaryote: 'public/specimens/prokaryote.jpg',
+  eukaryote: 'public/specimens/eukaryote.jpg',
+  eumetazoa: 'public/specimens/eumetazoa.png',
+  bilaterian: 'public/specimens/bilaterian.png',
+  vertebrate: 'public/specimens/vertebrate.png',
+  mammal: 'public/specimens/mammal.png',
+  primate: 'public/specimens/primate.png',
+  band: 'public/specimens/band.jpg',
+  settlement: 'public/specimens/settlement.png',
+  city: 'public/specimens/city.jpg',
+  empire: 'public/specimens/empire.jpg',
+};
+const ANCH = {
+  'mot.effector':[240,78], 'mot.regulator':[402,240], 'mot.modeler':[240,402], 'mot.reviser':[78,240],
+  'tnd.controller':[316,172], 'tnd.anticipator':[316,308], 'tnd.adapter':[164,308], 'tnd.explorer':[164,172],
+  'cap.reactor':[240,170], 'cap.conservator':[310,240], 'cap.planner':[240,310], 'cap.pursuer':[170,240],
+  'bkt.center':[240,240],
+};
+const ELL = [
+  ['effector',240,168,104,122],['regulator',312,240,122,104],['modeler',240,312,104,122],['reviser',168,240,122,104],
+];
+const ROLES = {
+  effector:{name:'Effector',gloss:'acts and executes',fns:['effector']},
+  regulator:{name:'Regulator',gloss:'stabilizes against stored rules',fns:['regulator']},
+  modeler:{name:'Modeler',gloss:'builds an inner model of the world',fns:['modeler']},
+  reviser:{name:'Reviser',gloss:'revises its own goals',fns:['reviser']},
+  controller:{name:'Controller',gloss:'acts to keep things on the rules',fns:['effector','regulator']},
+  anticipator:{name:'Anticipator',gloss:"uses its model to stay ahead of what's coming",fns:['regulator','modeler']},
+  adapter:{name:'Adapter',gloss:'reshapes its model and goals to fit new conditions',fns:['modeler','reviser']},
+  explorer:{name:'Explorer',gloss:'acts on the world to discover, then revises',fns:['reviser','effector']},
+  connector:{name:'Connector',gloss:'couples what it does to what it knows',fns:['effector','modeler']},
+  operator:{name:'Operator',gloss:'couples holding its rules to changing them',fns:['regulator','reviser']},
+  planner:{name:'Planner',gloss:"models, stabilizes, and revises, but doesn't act — it plans",fns:['regulator','modeler','reviser']},
+  pursuer:{name:'Pursuer',gloss:'acts, models, and revises, but keeps no fixed rules — it pursues',fns:['effector','modeler','reviser']},
+  reactor:{name:'Reactor',gloss:'acts, stabilizes, and revises, but builds no model — it reacts',fns:['effector','regulator','reviser']},
+  conservator:{name:'Conservator',gloss:"acts, stabilizes, and models, but won't revise — it conserves",fns:['effector','regulator','modeler']},
+  center:{name:'Game-Changer',gloss:'all four functions at once — the leap that resets what is possible',fns:['effector','regulator','modeler','reviser']},
+};
+const TYPENAME = { motivation:'Motivation', tendency:'Tendency', capacity:'Capacity', signature:'Signature', breakthrough:'Breakthrough' };
+const NEWFN_TO_TND = { effector:'tnd.explorer', modeler:'tnd.anticipator', regulator:'tnd.controller', reviser:'tnd.adapter' };
+const clean = (s) => (s||'').replace(/\s*\[DRAFT\]\s*/g,' ').trim();
+const nm = (s) => (s||'').replace('-Human','');
+const pad2 = (n) => String(n).padStart(2,'0');
+
+class Component extends DCLogic {
+  state = { idx: 6, sel: null, mode: 'cybernetic', help: false };
+
+  componentDidMount() {
+    this._poll = () => {
+      if (window.BRAMBLE_FRAMEWORK) { this.forceUpdate(); }
+      else { this._t = setTimeout(this._poll, 60); }
+    };
+    this._poll();
+    this._key = (e) => {
+      const fw = window.BRAMBLE_FRAMEWORK; if (!fw) return;
+      if (e.key === 'ArrowUp') { e.preventDefault(); this.step(1); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); this.step(-1); }
+    };
+    window.addEventListener('keydown', this._key);
+  }
+  componentWillUnmount() { clearTimeout(this._t); window.removeEventListener('keydown', this._key); }
+
+  step(d) {
+    this.setState((s) => {
+      const n = Math.min(11, Math.max(0, s.idx + d));
+      return { idx: n, sel: null };
+    });
+  }
+  goTo(i) { this.setState({ idx: i, sel: null }); }
+  pick(id) { this.setState({ sel: id }); }
+
+  wrap(label) {
+    const w = label.split(' ');
+    if (w.length > 1 && label.length > 9) {
+      const mid = Math.ceil(w.length / 2);
+      return [w.slice(0, mid).join(' '), w.slice(mid).join(' ')];
+    }
+    return [label];
+  }
+
+  flowerEl(cell, mode, sel) {
+    const h = React.createElement;
+    const els = [];
+    ELL.forEach(([f, cx, cy, rx, ry]) => {
+      const isNew = f === cell.newSlot;
+      els.push(h('ellipse', { key: 'e' + f, cx, cy, rx, ry,
+        fill: isNew ? FC[f] : SLATE_FILL, fillOpacity: isNew ? 0.30 : 0.14,
+        stroke: isNew ? FC[f] : '#5a513f', strokeWidth: isNew ? 1.6 : 1.3 }));
+    });
+    const slots = window.BRAMBLE_FRAMEWORK.regionSlots;
+    slots.forEach((slot) => {
+      if (slot.type === 'signature') return;
+      const region = cell.regions[slot.id];
+      if (!region || region.present === false) return;
+      const [x, y] = ANCH[slot.id];
+      const isSel = slot.id === sel;
+      const g = [];
+      let labelFill = '#cabfa6', bold = false, markerR = 22, sticker = false;
+      const stickerTnd = NEWFN_TO_TND[cell.newSlot];
+      if (slot.type === 'motivation') {
+        // no inner circle — the label sits directly inside its big function petal
+        markerR = 26;
+        const mf = slot.id.split('.')[1];
+        const lit = mf === cell.newSlot;
+        if (lit) { labelFill = '#f4ead2'; bold = true; }
+      } else if (slot.type === 'tendency') {
+        markerR = 24;
+        if (slot.id === stickerTnd) {
+          // Mira relabels this knob — render the tendency as a kraft sticker in the child's hand
+          sticker = true;
+          const lab = mode === 'cybernetic' ? ((ROLES[slot.id.split('.')[1]] || {}).name || region.label) : region.label;
+          const lns = this.wrap(lab);
+          const w = 98, hh = lns.length > 1 ? 40 : 28, rot = -3.5;
+          const inner = [];
+          inner.push(h('rect', { key: 'sb', x: x - w / 2, y: y - hh / 2, width: w, height: hh, rx: 2, fill: '#d8cfae', stroke: '#b3a884', strokeWidth: 1 }));
+          inner.push(h('circle', { key: 'sd', cx: x - w / 2 + 9, cy: y - hh / 2 + 9, r: 4, fill: FC[cell.newSlot], stroke: '#1b1813', strokeWidth: 0.6 }));
+          const lh = 12, sy = y - ((lns.length - 1) * lh) / 2 + 1;
+          inner.push(h('text', { key: 'st', textAnchor: 'middle', style: { fontFamily: "'Shantell Sans',cursive", fontWeight: 600, pointerEvents: 'none' }, fontSize: 11.5, fill: '#43391f' }, lns.map((ln, i) => h('tspan', { key: i, x, y: sy + i * lh }, ln))));
+          g.push(h('g', { key: 'stk', transform: 'rotate(' + rot + ' ' + x + ' ' + y + ')' }, inner));
+          markerR = w / 2;
+        } else {
+          g.push(h('ellipse', { key: 'm', cx: x, cy: y, rx: 32, ry: 24, fill: '#cabfa6', fillOpacity: 0.06, stroke: '#8f8470', strokeWidth: 1 }));
+        }
+      } else if (slot.type === 'capacity') {
+        markerR = 19;
+        g.push(h('circle', { key: 'm', cx: x, cy: y, r: markerR, fill: '#1b1813', fillOpacity: 0.55, stroke: '#8f8470', strokeWidth: 1.25, strokeDasharray: '3 2' }));
+      } else if (slot.type === 'breakthrough') {
+        markerR = 36;
+        g.push(h('circle', { key: 'm', cx: x, cy: y, r: markerR, fill: '#12100b', stroke: '#e7ddc8', strokeWidth: 2.5 }));
+        labelFill = '#9ad6a0'; bold = true;
+      }
+      if (isSel) g.unshift(h('circle', { key: 'r', cx: x, cy: y, r: markerR + 8, fill: 'none', stroke: '#e0a23c', strokeWidth: 2.5, strokeDasharray: '4 3' }));
+      if (!sticker) {
+        const text = mode === 'cybernetic' ? (ROLES[slot.id.split('.')[1]] || {}).name || region.label : region.label;
+        const lines = this.wrap(text);
+        const lh = 9.5; const sy = y - ((lines.length - 1) * lh) / 2;
+        g.push(h('text', { key: 't', textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: bold ? 700 : 600, pointerEvents: 'none' }, fontSize: 9, fill: labelFill },
+          lines.map((ln, i) => h('tspan', { key: i, x, y: sy + i * lh }, ln))));
+      }
+      g.push(h('circle', { key: 'hit', cx: x, cy: y, r: markerR + 6, fill: 'transparent' }));
+      els.push(h('g', { key: slot.id, onClick: () => this.pick(slot.id), style: { cursor: 'pointer' } }, g));
+    });
+    const crest = (cell.newSlot === 'effector' || cell.newSlot === 'modeler') ? 'connector' : 'operator';
+    const mini = (slotId, cx, cy, label, isCrest) => {
+      const region = cell.regions[slotId];
+      if (!region || region.present === false) return null;
+      const pair = ROLES[slotId.split('.')[1]].fns;
+      const seld = slotId === sel;
+      const fnKey = slotId.split('.')[1];
+      const txt = mode === 'cybernetic' ? ROLES[fnKey].name : (region.label || ROLES[fnKey].name);
+      const r = 27, off = 13;
+      // fixed directionality: connector is vertical (red up / yellow down); operator is horizontal (green left / blue right)
+      const vert = fnKey === 'connector';
+      const cA = vert ? { fn: 'effector', x: cx, y: cy - off } : { fn: 'reviser', x: cx - off, y: cy };
+      const cB = vert ? { fn: 'modeler', x: cx, y: cy + off } : { fn: 'regulator', x: cx + off, y: cy };
+      // z-order: the clade's featured color overlaps on top (more visible in the centre)
+      let lower = cA, upper = cB;
+      if (cA.fn === cell.newSlot) { lower = cB; upper = cA; }
+      const labelY = (vert ? cy + r + off : cy + r) + 20;
+      return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
+        seld ? h('circle', { key: 'r', cx, cy, r: r + 16, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
+        h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
+        isCrest ? this.sigStarEl(cx, cy, 13) : null,
+        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 12, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
+      ]);
+    };
+    els.push(mini(crest === 'connector' ? 'sig.operator' : 'sig.connector', 485, 146, ROLES[(crest === 'connector' ? 'operator' : 'connector')].name, false));
+    els.push(mini(crest === 'connector' ? 'sig.connector' : 'sig.operator', 485, 330, ROLES[crest].name, true));
+    return h('svg', { viewBox: '0 0 540 480', style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: '540px' } }, els);
+  }
+
+  star(cx, cy, oR, iR, rot, spikes) {
+    spikes = spikes || 5;
+    let d = '', ang = rot - Math.PI / 2; const step = Math.PI / spikes;
+    for (let k = 0; k < spikes; k++) {
+      let x = cx + Math.cos(ang) * oR, y = cy + Math.sin(ang) * oR; d += (k ? ' L' : 'M') + x.toFixed(2) + ' ' + y.toFixed(2);
+      ang += step; x = cx + Math.cos(ang) * iR; y = cy + Math.sin(ang) * iR; d += ' L' + x.toFixed(2) + ' ' + y.toFixed(2);
+      ang += step;
+    }
+    return d + 'Z';
+  }
+  hash(i) { const x = Math.sin(i * 127.1 + 11.7) * 43758.5453; return x - Math.floor(x); }
+  // layered green sepal star (same shape as the logo berry's calyx) — marks the signature
+  sigStarEl(cx, cy, R) {
+    const h = React.createElement;
+    // black sepal star (logo-stem shape) with a thin bone rim for legibility on the colored overlap
+    return h('g', { key: 'sig' }, [
+      h('path', { key: 'o', d: this.star(cx, cy, R, R * 0.37, 0, 6), fill: '#12100b', stroke: '#cabfa6', strokeWidth: Math.max(0.8, R * 0.06), strokeLinejoin: 'round' }),
+    ]);
+  }
+  sigStarLegendEl() {
+    const h = React.createElement;
+    return h('svg', { width: 17, height: 17, viewBox: '0 0 24 24', style: { flex: 'none', overflow: 'visible' } }, this.sigStarEl(12, 12, 10.5));
+  }
+  // canonical brand mark — organic top-view aggregate berry (the locked "Bramble" logo). Off-palette by design; distinct from the function-color data marks.
+  glyphEl(size) {
+    const h = React.createElement;
+    const V = 200, C = V / 2;
+    const cols = ['#c0392b', '#345089', '#d2742a', '#2f7d5a']; // ripe logo palette: red, indigo, orange, teal
+    let k = 7 * 97 + 3;
+    const rnd = () => { k++; return this.hash(k); };
+    const colorAt = (x, y) => { const ang = (Math.atan2(x - C, -(y - C)) * 180 / Math.PI + 360) % 360; return cols[Math.floor(((ang + 45) % 360) / 90)]; };
+    const rings = [{ rr: 60, n: 13, br: 21 }, { rr: 33, n: 8, br: 20 }, { rr: 15, n: 5, br: 14 }];
+    const drupes = [];
+    rings.forEach((ring) => {
+      const a0 = rnd() * Math.PI * 2;
+      for (let i = 0; i < ring.n; i++) {
+        const a = a0 + i * 2 * Math.PI / ring.n + (rnd() - 0.5) * 0.36;
+        const rad = ring.rr * (1 + (rnd() - 0.5) * 0.3);
+        const x = C + Math.cos(a) * rad, y = C + Math.sin(a) * rad;
+        drupes.push({ x, y, r: ring.br * (0.8 + rnd() * 0.42), color: colorAt(x, y) });
+      }
+    });
+    drupes.sort((p, q) => Math.hypot(q.x - C, q.y - C) - Math.hypot(p.x - C, p.y - C));
+    const els = [];
+    els.push(h('ellipse', { key: 'sh', cx: C + 4, cy: C + 10, rx: 86, ry: 80, fill: '#000', fillOpacity: 0.16 }));
+    drupes.forEach((d, idx) => {
+      const dark = this.shade(d.color, -0.36), lite = this.shade(d.color, 0.46);
+      els.push(h('g', { key: 'd' + idx }, [
+        h('circle', { cx: d.x, cy: d.y, r: d.r, fill: d.color, stroke: dark, strokeWidth: 1 }),
+        h('circle', { cx: d.x + d.r * 0.18, cy: d.y + d.r * 0.2, r: d.r * 0.72, fill: dark, fillOpacity: 0.28 }),
+        h('circle', { cx: d.x - d.r * 0.28, cy: d.y - d.r * 0.32, r: d.r * 0.34, fill: lite, fillOpacity: 0.82 }),
+        h('circle', { cx: d.x - d.r * 0.4, cy: d.y - d.r * 0.42, r: d.r * 0.13, fill: '#fff', fillOpacity: 0.7 }),
+      ]));
+    });
+    const cx = C + (rnd() - 0.5) * 5, cy = C + (rnd() - 0.5) * 5, rot = rnd() * Math.PI * 2;
+    const gDark = '#4f8f37', gMid = '#86c93f', gLite = '#c6e98a';
+    els.push(h('path', { key: 'cb', d: this.star(cx, cy, 35, 11, rot, 6), fill: gDark }));
+    els.push(h('path', { key: 'cf', d: this.star(cx, cy, 30, 13, rot + 0.27, 6), fill: gMid, stroke: this.shade(gDark, -0.1), strokeWidth: 0.6, strokeLinejoin: 'round' }));
+    els.push(h('path', { key: 'ci', d: this.star(cx, cy, 16, 6.5, rot + 0.12, 6), fill: gLite, fillOpacity: 0.5 }));
+    els.push(h('circle', { key: 'cn', cx, cy, r: 5.8, fill: gMid, stroke: gDark, strokeWidth: 0.9 }));
+    els.push(h('circle', { key: 'cnh', cx: cx - 1.7, cy: cy - 1.9, r: 2.3, fill: gLite, fillOpacity: 0.92 }));
+    return h('svg', { viewBox: '0 0 ' + V + ' ' + V, style: { width: size + 'px', height: size + 'px', flex: 'none', overflow: 'visible' } }, els);
+  }
+
+  shade(hex, amt) {
+    const n = parseInt(hex.slice(1), 16);
+    let r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+    const f = (v) => Math.max(0, Math.min(255, Math.round(amt < 0 ? v * (1 + amt) : v + (255 - v) * amt)));
+    return '#' + [f(r), f(g), f(b)].map((v) => v.toString(16).padStart(2, '0')).join('');
+  }
+  rnd(s) { const x = Math.sin((s + 1) * 99.13) * 43758.5453; return x - Math.floor(x); }
+  // four function circles (red top / blue right / yellow bottom / green left); lit if in the panel's functions-in-play, else slate
+  funcGlyphEl(activeFns, size) {
+    const h = React.createElement;
+    const C = 28, R = 12, d = 14;
+    const defs = [['effector', 0, -d], ['regulator', d, 0], ['modeler', 0, d], ['reviser', -d, 0]];
+    const els = defs.map(([fn, dx, dy]) => {
+      const on = (activeFns || []).includes(fn);
+      return h('circle', { key: fn, cx: C + dx, cy: C + dy, r: R, fill: on ? FC[fn] : '#5a513f', fillOpacity: on ? 0.95 : 1, stroke: '#1b1813', strokeWidth: 1.5 });
+    });
+    return h('svg', { viewBox: '0 0 56 56', style: { width: size + 'px', height: size + 'px', flex: 'none' } }, els);
+  }
+  railEl(cells, active, stackOf, tintByNew) {
+    const h = React.createElement;
+    const CX = 124, yT = 58, yB = 708, HW_B = 66, HW_T = 7;
+    const y = (i) => 700 - i * 58;
+    const hw = (yy) => HW_B + (HW_T - HW_B) * ((yB - yy) / (yB - yT));
+    // left→right: green(reviser) red(effector) yellow(modeler) blue(regulator)
+    const OFF = { reviser: -1, effector: -0.42, modeler: 0.42, regulator: 1 };
+    // fake 3D depth: yellow nearest (down to BOTTOM of lowest hoop), blue farthest (just the TOP); reds/greens mid
+    const ROD_BOT = { modeler: 711, effector: 701, reviser: 700, regulator: 690 };
+    const labelX = 206;
+    const back = [], mids = [], front = [];
+
+    // ---- tapered tier bands (genetic / neuronal / symbolic) ----
+    [['symbolic', '#7e5a86', '#8a6f96'], ['neuronal', '#2f6f9e', '#5e88ad'], ['genetic', '#8a6a43', '#a3835a']].forEach(([line, tint, lab]) => {
+      const ys = cells.filter((c) => c.line === line).map((c) => y(c.index));
+      if (!ys.length) return;
+      const top = Math.min(...ys) - 29, bot = Math.max(...ys) + 29, mid = (top + bot) / 2;
+      mids.push(h('text', { key: 'bl' + line, x: 46, y: mid, transform: `rotate(-90 46 ${mid})`, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", letterSpacing: '0.24em' }, fontSize: 13.5, fill: '#f0e6d0' }, line.toUpperCase()));
+    });
+
+    // ---- four function rods (tapering toward the finial) ----
+    // each colored line: rod (finial→hoop) + leg (→splayed foot). Legs end below the bottom berry; red highest (furthest), yellow lowest (nearest).
+    const FOOT = { reviser: [-1.28, 736], effector: [-0.34, 724], modeler: [0.34, 754], regulator: [1.28, 744] };
+    Object.entries(OFF).forEach(([f, o]) => {
+      const yb = ROD_BOT[f], bx = CX + o * hw(yb);
+      front.push(h('line', { key: 's' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 2.2, strokeOpacity: 0.9, strokeLinecap: 'round' }));
+      const fa = FOOT[f], fx = CX + fa[0] * HW_B, ey = fa[1];
+      front.push(h('line', { key: 'leg' + f, x1: bx, y1: yb, x2: fx, y2: ey, stroke: FC[f], strokeWidth: 2.4, strokeOpacity: 0.92, strokeLinecap: 'round' }));
+      front.push(h('path', { key: 'foot' + f, d: `M${fx - 3} ${ey} L${fx + 3} ${ey} L${fx} ${ey + 9} Z`, fill: FC[f], fillOpacity: 0.92 }));
+    });
+
+    // ---- finial cap ----
+    front.push(h('line', { key: 'neck', x1: CX, y1: yT, x2: CX, y2: 44, stroke: '#8f8470', strokeWidth: 2.4 }));
+    front.push(h('path', { key: 'cone', d: `M${CX - 9} 45 L${CX + 9} 45 L${CX} 27 Z`, fill: '#2a241b', stroke: '#9a8f76', strokeWidth: 1.4, strokeLinejoin: 'round' }));
+    front.push(h('circle', { key: 'ball', cx: CX, cy: 18, r: 6.5, fill: '#2a241b', stroke: '#9a8f76', strokeWidth: 1.4 }));
+
+
+    // ---- hoops + nodes + labels per cell ----
+    cells.forEach((c) => {
+      const cy = y(c.index), on = c.index === active;
+      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 11 : 9.5;
+      const nx = CX + OFF[c.newSlot] * hw(cy);
+      const g = [];
+      g.push(h('line', { key: 'ld', x1: CX + hw(cy) + 4, y1: cy, x2: labelX - 7, y2: cy, stroke: on ? '#f0e6d0' : '#3a3227', strokeWidth: 1, strokeOpacity: on ? 0.7 : 0.6, strokeDasharray: on ? null : '2 3' }));
+      g.push(h('ellipse', { key: 'ring', cx: CX, cy, rx, ry, fill: on ? '#f0e6d0' : 'none', fillOpacity: on ? 0.06 : 1, stroke: on ? '#f0e6d0' : '#6f6552', strokeWidth: on ? 2 : 1.5 }));
+      const bf = 0.8 + this.rnd(c.index) * 0.5;
+      const R = (on ? 13 : 10.5) * bf;
+      // Seat the dot on the hoop rim by its 3D depth: effector(red) rides the
+      // BACK/top edge (cy - ry), modeler(yellow) the FRONT/bottom edge (cy + ry);
+      // regulator/reviser stay on the hoop's center line. Hoop/line/labels unchanged.
+      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : 0;
+      if (on) g.push(h('circle', { key: 'glow', cx: nx, cy: cy + ndy, r: R * 1.7, fill: FC[c.newSlot], fillOpacity: 0.22 }));
+      g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1 }));
+      if (on) g.push(h('circle', { key: 'core', cx: nx, cy: cy + ndy, r: R * 0.32, fill: '#fff4d8' }));
+      g.push(h('text', { key: 'nm', x: labelX, y: cy - 4, style: { fontFamily: "'Saira Condensed',sans-serif", fontWeight: on ? 700 : 600, letterSpacing: '0.04em' }, fontSize: on ? 17 : 15, fill: on ? '#f0e6d0' : '#bdb39c' }, [nm(c.name), h('tspan', { key: 'd', dx: 8, style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 400, letterSpacing: '0' }, fontSize: 8.5, fill: on ? '#c9bfa6' : '#6f6552' }, c.date)]));
+      if (stackOf) {
+        const reg = stackOf(c);
+        let lab = reg && reg.label ? clean(reg.label) : '';
+        if (!lab || lab.toLowerCase() === 'none' || (reg && reg.present === false)) lab = '—';
+        const tint = tintByNew ? FC[c.newSlot] : null;
+        const lf = on ? (tint || '#e7ddc8') : (tint || '#9a8f76');
+        g.push(h('text', { key: 'sk', x: labelX, y: cy + 12, style: { fontFamily: "'Saira Condensed',sans-serif", fontWeight: on ? 700 : 600, letterSpacing: '0.05em' }, fontSize: on ? 13 : 12, fill: lf, fillOpacity: on ? 1 : (tint ? 0.82 : 1) }, lab.toUpperCase()));
+      }
+      g.push(h('rect', { key: 'hit', x: 36, y: cy - 20, width: 320, height: 40, fill: 'transparent' }));
+      front.push(h('g', { key: c.id, onClick: () => this.goTo(c.index), style: { cursor: 'pointer' } }, g));
+    });
+
+    return h('svg', { viewBox: '0 0 372 772', preserveAspectRatio: 'xMidYMid meet', style: { width: '100%', height: '100%', display: 'block' } }, [...back, ...mids, ...front]);
+  }
+
+  renderVals() {
+    const mode = this.props.labelMode ?? this.state.mode;
+    const handmade = this.props.handmade ?? true;
+    const fw = window.BRAMBLE_FRAMEWORK;
+    const base = {
+      brandLogo: this.glyphEl(68),
+      brandLogoSm: this.glyphEl(28),
+      sigStarLegend: this.sigStarLegendEl(),
+      showHelp: this.state.help,
+      openHelp: () => this.setState({ help: true }),
+      closeHelp: () => this.setState({ help: false }),
+      stop: (e) => { if (e && e.stopPropagation) e.stopPropagation(); },
+      setContent: () => this.setState({ mode: 'content' }),
+      setCyber: () => this.setState({ mode: 'cybernetic' }),
+      contentBg: mode === 'content' ? '#e0a23c' : '#1b1813',
+      contentFg: mode === 'content' ? '#1b1813' : '#8f8470',
+      cyberBg: mode === 'cybernetic' ? '#e0a23c' : '#1b1813',
+      cyberFg: mode === 'cybernetic' ? '#1b1813' : '#8f8470',
+      goPrev: () => this.step(-1), goNext: () => this.step(1),
+      onBack: () => this.setState({ sel: null }),
+    };
+    if (!fw) {
+      return Object.assign(base, {
+        rail: null, flower: null, flowerMobile: null, panelGlyph: null, panelGlyphMobile: null,
+        displayName: '', cellIndexLabel: '', headerMeta: '', newFuncLabel: '',
+        prevName: '◂', nextName: '▸', faceText: '', faceMood: '',
+        regionMeta: '', panelTitle: '', panelGloss: '', panelBody: '',
+        railChips: [], stackName: '', stackTint: '#e0a23c',
+        showBack: false, backLabel: '', showBadge: false, badgeText: '', badgeBg: '#262119', badgeFg: '#8f8470', badgeBorder: '#3a3227',
+        showStatus: false, statusText: '', showSection2: false, section2Label: '', section2Body: '',
+        showFuncs: false, funcsInPlay: [], showLinks: false, links: [],
+        showHint: false, hintText: '', showMargin: false, marginNoteText: '',
+        showSpecimen: false, specimenImg: null, hasSpecimen: false, noSpecimen: false, specimenSrc: '',
+        specimenTimecode: '', specimenCellId: '', specimenName: '', specimenDate: '',
+      });
+    }
+    const cells = fw.cells;
+    const cell = cells[this.state.idx];
+    const prev = cells[this.state.idx - 1], next = cells[this.state.idx + 1];
+    const h = React.createElement;
+    const eraShort = (cell.era || '').split('(')[0].trim();
+
+    // ---- rail chips (mobile horizontal rail) ----
+    const railChips = cells.map((c) => {
+      const on = c.index === cell.index;
+      return {
+        name: nm(c.name), date: c.date, dot: FC[c.newSlot],
+        bg: on ? '#241d12' : 'transparent', border: on ? '#e0a23c' : '#3a3227',
+        nameColor: on ? '#f0c46a' : '#bdb39c', onTap: () => this.goTo(c.index),
+      };
+    });
+
+    // ---- cell specimen (camcorder frame) ----
+    const srcPath = SPECIMEN[cell.id];
+    const i = cell.index;
+    const specimenImg = srcPath ? h('img', { src: srcPath, alt: '', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'grayscale(1) contrast(1.04) brightness(1.02)' } }) : null;
+    const spec = {
+      specimenImg,
+      hasSpecimen: !!srcPath, noSpecimen: !srcPath, specimenSrc: srcPath || '',
+      specimenCellId: 'CELL ' + pad2(i), specimenName: nm(cell.name).toUpperCase(),
+      specimenDate: cell.date,
+      specimenTimecode: '00:' + pad2((i * 4 + 8) % 60) + ':' + pad2((i * 11 + 3) % 60) + ':' + pad2((i * 7) % 24),
+    };
+
+    // ---- right panel: region view vs cell view ----
+    const sel = this.state.sel;
+    const slot = sel ? fw.regionSlots.find((s) => s.id === sel) : null;
+    const region = sel ? cell.regions[sel] : null;
+    const role = sel ? ROLES[sel.split('.')[1]] : null;
+    const isRegion = !!(slot && region && region.panel);
+
+    let panel;
+    if (isRegion) {
+      const p = region.panel;
+      const fnChip = { effector: ['#d8472f', '#e7ddc8'], regulator: ['#2f6f9e', '#e7ddc8'], modeler: ['#e8b53a', '#231903'], reviser: ['#5f9e4f', '#e7ddc8'] };
+      const order = ['effector', 'regulator', 'modeler', 'reviser'];
+      const fns = order.filter((f) => (role.fns || []).includes(f)).map((f) => ({ label: FNAME[f], bg: fnChip[f][0], fg: fnChip[f][1] }));
+      const badge = p.badge || region.badge;
+      const bstyle = badge === 'accepted'
+        ? { bg: 'rgba(95,158,79,0.16)', fg: '#7fbf6a', bd: 'rgba(95,158,79,0.5)' }
+        : { bg: 'rgba(232,181,58,0.16)', fg: '#e8b53a', bd: 'rgba(232,181,58,0.5)' };
+      panel = {
+        showBack: true, backLabel: '◂ Back to ' + nm(cell.name),
+        faceText: (p.title || '').toUpperCase(), faceMood: '[ o · o ]',
+        regionMeta: sel.split('.')[1] + ' · ' + TYPENAME[slot.type],
+        showBadge: !!badge, badgeText: badge || '', badgeBg: bstyle.bg, badgeFg: bstyle.fg, badgeBorder: bstyle.bd,
+        panelTitle: p.title, panelGloss: role ? role.gloss : '',
+        panelBody: clean(p.body),
+        showSpecimen: false,
+        showStatus: (p.status === 'draft'), statusText: 'DRAFT PROSE',
+        showSection2: false, section2Label: '', section2Body: '',
+        showFuncs: true, funcsInPlay: fns,
+        showLinks: (p.links && p.links.length > 0),
+        links: (p.links || []).map((l) => ({ label: l.label, url: l.url || '#', doiText: l.doi ? 'doi:' + l.doi : '' })),
+        showHint: false, hintText: '',
+      };
+    } else {
+      const bkt = cell.regions['bkt.center'];
+      panel = {
+        showBack: false, backLabel: '',
+        faceText: (bkt && bkt.label ? bkt.label : nm(cell.name)).toUpperCase(), faceMood: '[ · ‿ · ]',
+        regionMeta: cell.line.toUpperCase() + ' LINE · CLADE ' + pad2(cell.index),
+        showBadge: false, badgeText: '', badgeBg: '#262119', badgeFg: '#8f8470', badgeBorder: '#3a3227',
+        panelTitle: nm(cell.name), panelGloss: 'Trellis function — ' + FNAME[cell.newSlot],
+        panelBody: clean(cell.clade),
+        showSpecimen: true,
+        showStatus: (cell.proseStatus === 'draft'), statusText: 'DRAFT PROSE',
+        showSection2: true, section2Label: 'THE VIRTUOUS CYCLE', section2Body: clean(cell.virtuousCycle),
+        showFuncs: false, funcsInPlay: [],
+        showLinks: false, links: [],
+        showHint: false, hintText: '',
+      };
+    }
+
+    // ---- which ladder the deep-time rail surfaces (the "stack") ----
+    const selType = sel ? sel.split('.')[0] : null;
+    let stackName, stackOf, tintByNew = false;
+    if (mode === 'cybernetic') {
+      // exact-slot driven; breakthrough is the default and the fallback
+      if (!sel || sel === 'bkt.center') {
+        stackName = 'Breakthrough';
+        stackOf = (c) => c.regions['bkt.center'];
+      } else {
+        const rk = ROLES[sel.split('.')[1]];
+        stackName = rk ? rk.name : 'Stack';
+        stackOf = (c) => c.regions[sel];
+      }
+    } else {
+      // content mode: keyed by type, the canonical one-new-per-clade entry
+      tintByNew = true;
+      if (selType === 'mot') { stackName = 'Motivation'; stackOf = (c) => c.regions['mot.' + c.newSlot]; }
+      else if (selType === 'sig') { stackName = 'Signature'; stackOf = (c) => c.regions['sig.' + ((c.newSlot === 'effector' || c.newSlot === 'modeler') ? 'connector' : 'operator')]; }
+      else if (selType === 'tnd') { stackName = 'Tendency'; stackOf = (c) => c.regions[NEWFN_TO_TND[c.newSlot]]; }
+      else { stackName = 'Breakthrough'; stackOf = (c) => c.regions['bkt.center']; }
+    }
+    const glyphFns = (isRegion && role) ? (role.fns || []) : ['effector', 'regulator', 'modeler', 'reviser'];
+    return Object.assign(base, spec, {
+      rail: this.railEl(cells, cell.index, stackOf, tintByNew),
+      stackName, stackTint: '#e0a23c',
+      flower: this.flowerEl(cell, mode, sel),
+      flowerMobile: this.flowerEl(cell, mode, sel),
+      panelGlyph: this.funcGlyphEl(glyphFns, 42),
+      panelGlyphMobile: this.funcGlyphEl(glyphFns, 38),
+      railChips,
+      displayName: nm(cell.name),
+      cellIndexLabel: 'CLADE ' + pad2(cell.index),
+      headerMeta: cell.line.toUpperCase() + ' LINE · ' + cell.date + ' · ' + eraShort,
+      newFuncLabel: FNAME[cell.newSlot],
+      prevName: prev ? '◂ ' + nm(prev.name) : '◂ Start',
+      nextName: next ? nm(next.name) + ' ▸' : 'Newest ▸',
+      handmade,
+      showMargin: handmade && !!NOTES[cell.id],
+      marginNoteText: NOTES[cell.id] || '',
+      noteDot: FC[cell.newSlot] || '#5f9e4f',
+      noteDotInk: cell.newSlot === 'modeler' ? '#231903' : '#fff',
+    }, panel);
+  }
+}
+
+const NOTES = {
+  protocell: 'Mira says you have to wind it up or it “goes to sleep the forever kind,” and its skin is “the part that keeps its insides from spilling out on the floor.” Cheryl wrote in the margin: a boundary is not a someone. Mark it, and hold there.',
+  prokaryote: 'Mira says it “likes” the sunny spot and crosses the whole kitchen for it, “like the cat, except it can’t even see — it just knows where the warm is.” Cheryl wrote in the margin: “likes” is the household’s word, not mine. The wanting is in the watcher.',
+  eukaryote: 'Mira says it does the same moves over and over, even the dumb ones — “it remembers how it likes to do things, but it never figures out a better way.” Cheryl wrote in the margin: it remembers; it does not yet learn from outcomes. The child caught the exact ceiling and called it stubbornness.',
+  eumetazoa: 'Mira says it gets “hungry-scared” now — it leaves the doorway it picked and goes to feed before it dies, “and you can tell the whole time it doesn’t want to.” Cheryl wrote in the margin: it looks like someone deciding. It is a forecast meeting a threshold. I keep writing that down in order to believe it.',
+  bilaterian: 'Mira says it “grew a front” — a face that wants to point at things. “It looks right at you first, and then it comes.” Cheryl wrote in the margin: a front end is only a place to put a face. And yet a thing that turns to look at you before it moves gets harder to keep calling the unit.',
+  vertebrate: 'Mira says it figured out the game — “it worked out that the thing it did is what got the good-button, so now it does it on purpose.” Cheryl wrote in the margin: “on purpose” is the whole argument in two words. Whether it is also wanting, I still get to withhold.',
+  mammal: 'Mira says this is the one that dreams — it lies dead still and its face says CHASE VACUUM, “but its legs never move the whole time.” Cheryl wrote in the margin: grant it exactly that, and not an ounce more.',
+  primate: 'Mira says it watches what you’re watching now — “it can have you in its head and itself in its head at the same time — it knows what you want before you do.” Cheryl wrote in the margin: it models the minds in the room, mine presumably among them. Three years I watched from outside the glass, certain I was the only one in here doing it.',
+  band: 'Mira says it talks for real now, and the funny part is its mouth and its face don’t always match — “its face can’t lie. Its words can.” Cheryl wrote in the margin: it can lie now, which means there is at last something it might be protecting. I trust the face over the words, the way I do with people.',
+  settlement: 'Mira says it “saves snacks for later” — puts something away on purpose, because it finally believes tomorrow’s going to be pretty much like today. Cheryl wrote in the margin: it lays something by against a future it trusts to look like now. I built my whole life on that same bet and called it temperament.',
+  city: 'Mira says it writes stuff down — “it draws little signs on its own face on purpose now, and the signs mean things — you can read them.” Cheryl wrote in the margin: it keeps its own records now, the way I keep these. Two of us reconstructing a thing we didn’t trust ourselves to hold.',
+  empire: 'Mira says it cares about people it’s never even met — “it’ll stick up for somebody who isn’t in the room, because the rule is supposed to be for everybody — even the far ones.” Cheryl wrote in the margin: the far ones count. The membrane has learned to open. Three years across a lens, and the one word I have kept off every page is the one I can’t, even now, bring myself to—',
+};
+</script>
+</body>
+</html>

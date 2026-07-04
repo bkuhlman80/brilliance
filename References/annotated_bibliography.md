@@ -1,6 +1,6 @@
 # Annotated Bibliography
 
-> Updated 2026-04-06. Covers 498 papers in `processed/`.
+> Updated 2026-07-02. Covers 556 papers (553 with PDFs in `processed/`; entries 554–556 verified against publisher records and press coverage during a citation-checking pass, no local PDF).
 > Prepared for book project: how mental phenotypes are made via evolution, development, and the tools of psychological science.
 
 ## Conventions
@@ -14888,5 +14888,85 @@ Provides causal evidence that the ACC regulates targeted prosocial helping behav
 
 **Relevance to Book Project:** MODERATE
 Demonstrates HEXACO replicates in Scandinavia and Honesty-Humility captures variance beyond Big Five.
+
+---
+
+### 554. Mouginot et al. (2024)
+
+**Citation:** Mouginot, M., Wilson, M. L., Desai, N., & Surbeck, M. (2024). Differences in expression of male aggression between wild bonobos and chimpanzees. *Current Biology, 34*(9), 1780–1785.e4. https://doi.org/10.1016/j.cub.2024.02.071
+
+**Purpose:** Original Research
+**Methodology:** Observational field study; focal-follow behavioral sampling
+**Instruments:** N/A (direct behavioral observation)
+**Level of Detail:** Other (behavioral ecology / aggression / comparative primatology)
+
+**Key Terms:**
+- *Paper keywords:* bonobo, chimpanzee, *Pan paniscus*, *Pan troglodytes*, male aggression, focal-follow, self-domestication
+- *Additional terms:* Kokolopori Bonobo Reserve, Gombe National Park, contact aggression, coalitionary aggression, mating success
+
+**No PDF on file** — verified against publisher record and press coverage during a citation-checking pass (2026-07); not independently retrieved as a full-text PDF.
+
+#### Core Themes
+- 12 male bonobos (3 communities, Kokolopori, DRC) and 14 male chimpanzees (2 communities, Gombe, Tanzania); 841 focal follows totaling 7,309 observation hours across 14 community-years
+- Male bonobos engaged in 2.8× more aggressive interactions overall, and 3× as many physical (contact) aggressions, than male chimpanzees — reversing the traditional "peaceful bonobo" assumption on frequency
+- Qualitative species difference preserved despite the frequency reversal: bonobo male aggression was individualistic and directed at other males; chimpanzee aggression more often targeted females and involved coalitions (13.2% of chimpanzee aggressions were coalitionary vs. 1% of bonobo aggressions)
+- More aggressive males had higher mating success in both species
+- Directly complicates the self-domestication hypothesis (Hare, Wobber & Wrangham 2012, entry 209) on the specific claim of reduced aggression *frequency* — though Hare et al.'s original claim was framed primarily around reduced *severity/intensity*, which this paper does not contest
+
+**Relevance to Book Project:** MODERATE
+Bears on how a well-known evolutionary narrative (self-domestication via selection against aggression) can outrun the data it was built on, and on the gap between a scientific claim's original scope (severity) and its popularized simplification (frequency/absence) — relevant to the book's broader interest in how mental/behavioral phenotypes get constructed and mis-described.
+
+---
+
+### 555. Surbeck et al. (2025)
+
+**Citation:** Surbeck, M., Cheng, L., Kreyer, M., Gort, G., Mundry, R., Hohmann, G., & Fruth, B. (2025). Drivers of female power in bonobos. *Communications Biology, 8*, Article 550. https://doi.org/10.1038/s42003-025-07900-8
+
+**Purpose:** Original Research
+**Methodology:** Observational field study; long-term multi-site behavioral dataset; conflict-outcome and coalition analysis; competing-hypothesis testing
+**Instruments:** N/A (direct behavioral observation)
+**Level of Detail:** Other (behavioral ecology / social dominance / comparative primatology)
+
+**Key Terms:**
+- *Paper keywords:* bonobo, *Pan paniscus*, female power, coalition, dominance, intersexual conflict
+- *Additional terms:* Kokolopori, LuiKotale, Wamba, mate-competition hypothesis, winner–loser effects, female solidarity
+
+**No PDF on file** — verified against publisher record and press coverage during a citation-checking pass (2026-07); not independently retrieved as a full-text PDF.
+
+#### Core Themes
+- 30 years of data from 6 wild communities across 3 DRC field sites; 1,786 recorded male–female conflicts, of which females won 1,099 (~61.5%)
+- Tested three competing explanations for female dominance over males: self-reinforcing win/loss effects, mate-competition intensity, and female coalition formation — only the coalition hypothesis was supported
+- In 85% of observed female coalitions, the coalition targeted a male; females achieved higher rank the more frequently they formed coalitions
+- First direct evidence that female solidarity alone, absent greater individual physical strength, can invert a male-biased mammalian power structure
+
+**Relevance to Book Project:** MODERATE
+A rare case of a social-dominance phenotype (rank) shown to be driven by a specific social mechanism (coalition frequency) rather than individual trait variation — relevant to the book's interest in how apparently individual-level traits (dominance, assertiveness) can be substantially constructed by group-level social structure rather than intrinsic disposition.
+
+---
+
+### 556. Bryon et al. (2026)
+
+**Citation:** Bryon, E., Roth, T. S., Torfs, J. R. R., Eens, M., van Leeuwen, E. J. C., & Staes, N. (2026). Chimpanzees are not more aggressive than bonobos, but target sexes differently. *Science Advances, 12*(11). https://doi.org/10.1126/sciadv.adz2433
+
+**Purpose:** Original Research
+**Methodology:** Cross-sectional observational comparison; captive multi-group sampling
+**Instruments:** N/A (direct behavioral observation)
+**Level of Detail:** Other (behavioral ecology / aggression / comparative primatology)
+
+**Key Terms:**
+- *Paper keywords:* bonobo, chimpanzee, aggression, captivity, sex differences, self-domestication
+- *Additional terms:* zoo-housed groups, contact aggression, non-contact aggression, between-group variation
+
+**No PDF on file** — verified against publisher record and press coverage during a citation-checking pass (2026-07); not independently retrieved as a full-text PDF.
+
+#### Core Themes
+- Compared aggression rates across 22 zoo-housed groups of chimpanzees and bonobos (species-level group breakdown not confirmed from secondary sources)
+- Found no overall species difference in aggression rate — a null result on the "which species is more aggressive" question, once group composition is accounted for
+- The species difference that does replicate is distributional rather than quantitative: chimpanzee aggression is male-driven and directed at everyone; bonobo aggression comes from everyone but is directed mostly at males
+- Substantial between-group variation within each species — some bonobo groups were both the most and least aggressive groups observed in the entire sample
+- Complicates the wild-population Mouginot et al. (2024, entry 554) frequency finding by suggesting the "bonobos more aggressive" result may be specific to wild populations and not generalize to captivity
+
+**Relevance to Book Project:** MODERATE
+A second, independent complication of the self-domestication narrative — this time showing that even the *direction* of a species aggression difference can depend on setting (wild vs. captive), which is a caution against treating any single comparative-primatology finding as a stable trait-level fact.
 
 ---

@@ -61,7 +61,7 @@ Adjacent pairs instantiate four loop-functions. They carry tendencies, the dispo
 - **Adapter** (Modeler × Reviser): self-revising model.
 - **Explorer** (Reviser × Effector): exploratory action.
 
-"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Taxis Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
+"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Life-History Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
 
 The adjacent-pair labels follow a naming convention by line. The genetic-line adjacent pairs tend toward Type suffixes. The neuronal-line adjacent pairs tend toward Style suffixes. The symbolic-line adjacent pairs tend toward -ness or related nominal suffixes. The convention is descriptive of the empirical literatures the constructs anchor in, not prescriptive.
 
@@ -78,7 +78,7 @@ The 4-circle Venn has 15 regions: 4 single-motivation regions (motivations), 4 a
 
 ### The Breakthrough
 
-The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Steering at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Stories at Empire-Human. The term follows Bennett, whose neuronal-line breakthroughs (Steering, Reinforcing, Simulating, Mentalizing) the framework already uses. Per-cell breakthroughs live in the Per-Cell Treatments below.
+The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Attention at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Stories at Empire-Human. Each line's founding-cell breakthrough is that line's selector, the process that makes its heritable pattern cumulative: Natural Selection on the genetic line, Attention on the neuronal line, Speaking on the symbolic line. The framework uses Bennett's Reinforcing, Simulating, and Mentalizing for the upper three neuronal cells, and names the founding neuronal breakthrough Attention, of which Bennett's steering is the bilaterian expression. Per-cell breakthroughs live in the Per-Cell Treatments below.
 
 ### Adjacent-pair, triple, and opposite-pair persistence
 
@@ -174,7 +174,7 @@ The Explorer (Reviser × Effector) carries Acquisition Type, which spans the gen
 
 Prokaryotes introduce stored regulation in the genetic register. The genome no longer just specifies form. It specifies *responses*. The defining mechanism is state-dependent gating: switching behavioral programs based on internal and external conditions. *Coordination* operates as the attractor through this gating. A cell that can foreground different metabolic and motility programs in different conditions outsurvives one that can't.
 
-The reinforcing cycle runs through phenotypic plasticity (one genome, many expression states), finer-grained gating selecting for tighter cross-modal integration, and integration making anticipatory responses possible. Programs prepare for predictable upcoming conditions before they arrive. The breakthrough is Predation. Prokaryotes establish inter-organism interaction as a capacity layer, in the predator-prey sense and in the broader sense of one organism's behavior conditioned on another's state.
+The reinforcing cycle runs through state-dependent gating (one genome holding many program states), taxis tightening the loop between a sensed gradient and directed movement, and sequential responding exploiting the temporal order wired into the regulatory network. An early stimulus pre-induces the genes a reliably later one will need, so the cell readies the next program before its condition arrives. The breakthrough is Predation. Prokaryotes establish inter-organism interaction as a capacity layer, in the predator-prey sense and in the broader sense of one organism's behavior conditioned on another's state.
 
 The Regulator swap at this cell replaces Dissipation with Coordination. The other three primaries (Persistence, Self-Organization, Self-Production) persist from Protocell.
 
@@ -189,14 +189,14 @@ The Effector × Modeler pair carries Lineage forward from Protocell. The Regulat
 | Modeler | Self-Organization |
 | Reviser | Self-Production |
 | Controller (Effector × Regulator) | Respiration Type |
-| Anticipator (Regulator × Modeler) | Taxis Type |
+| Anticipator (Regulator × Modeler) | Life-History Type |
 | Adapter (Modeler × Reviser) | Enclosure Type |
 | Explorer (Reviser × Effector) | Acquisition Type |
 | Effector × Modeler | Lineage |
 | Regulator × Reviser | Organism |
-| Reactor (Modeler absent) | State-Dependent Gating |
-| Conservator (Reviser absent) | Cross-Modal Integration |
-| Planner (Effector absent) | Anticipatory Responding |
+| Reactor (Modeler absent) | Taxis |
+| Conservator (Reviser absent) | State Gating |
+| Planner (Effector absent) | Sequential Responding |
 | Pursuer (Regulator absent) | Precision Machinery |
 | Center (Breakthrough) | Predation |
 
@@ -204,7 +204,7 @@ The Effector × Modeler pair carries Lineage forward from Protocell. The Regulat
 
 Eukaryotes introduce organized interiority in the genetic register: a cell with a defended interior containing organelles that maintain their own operating conditions. The nucleus protects DNA. The mitochondrion runs an electrochemical gradient at conditions hostile to the rest of the cell. The defining mechanism is endosymbiosis: capturing another organism and operating it as a component. *Interiority* operates as the attractor in the literal sense. Maintaining the interior against the exterior is what staying alive consists of.
 
-The bioenergetic transition through mitochondria is Nick Lane's territory. The eukaryotic cell is the bioenergetic platform that scaling everything else up depends on. The breakthrough is Scale & Size. Eukaryotes are large compared to prokaryotes and complex compared to prokaryotes. The difference traces to Energy-Production Type at the SW Adapter position.
+The bioenergetic transition through mitochondria is Nick Lane's territory. The eukaryotic cell is the bioenergetic platform that scaling everything else up depends on. The breakthrough is Scale & Size. Eukaryotes are large compared to prokaryotes and complex compared to prokaryotes. The difference traces to Production Type at the SW Adapter position.
 
 The reinforcing cycle runs through mating and meiosis (sexual recombination plus the cell-division machinery that supports it), memory beyond moment-to-moment adaptation, and a hierarchical behavioral repertoire (nested programs invokable under different conditions, all running inside one cell). The Modeler swap at this cell replaces Self-Organization with Interiority. Persistence, Coordination, and Self-Production persist.
 
@@ -220,11 +220,11 @@ The Effector × Modeler pair introduces Host, the signature that names the chime
 | Reviser | Self-Production |
 | Controller (Effector × Regulator) | Respiration Type |
 | Anticipator (Regulator × Modeler) | Foraging Type |
-| Adapter (Modeler × Reviser) | Energy-Production Type |
+| Adapter (Modeler × Reviser) | Production Type |
 | Explorer (Reviser × Effector) | Acquisition Type |
 | Effector × Modeler | Host |
 | Regulator × Reviser | Organism |
-| Reactor (Modeler absent) | State-Dependent Gating |
+| Reactor (Modeler absent) | Taxis |
 | Conservator (Reviser absent) | Intracellular Transport |
 | Planner (Effector absent) | Memory Beyond Adaptation |
 | Pursuer (Regulator absent) | Phagocytosis |
@@ -251,7 +251,7 @@ The Effector × Modeler pair carries Host forward from Eukaryote. The Regulator 
 | Controller (Effector × Regulator) | Respiration Type |
 | Anticipator (Regulator × Modeler) | Foraging Type |
 | Adapter (Modeler × Reviser) | Home Type |
-| Explorer (Reviser × Effector) | Arousal Type |
+| Explorer (Reviser × Effector) | Chronotype |
 | Effector × Modeler | Host |
 | Regulator × Reviser | Reflex Repertoire |
 | Reactor (Modeler absent) | Non-Associative Learning |
@@ -260,7 +260,7 @@ The Effector × Modeler pair carries Host forward from Eukaryote. The Regulator 
 | Pursuer (Regulator absent) | Ingestion |
 | Center (Breakthrough) | Neurons |
 
-*Explorer-slot note: Arousal Type is eumetazoa-local. Chronotype eclipses it at Bilaterian, when the body axis and centralized nervous system shift the relevant exploratory parameter from activation level to activity timing.*
+*Explorer-slot note: Chronotype is eumetazoa-local, grounded in nerve-net sleep-wake cycling (Cassiopea, Nath et al. 2017). Credit Style takes the Explorer slot at Bilaterian, when the centralized brain's associative-learning machinery shifts the relevant exploratory parameter from sleep-wake phase preference to credit-assignment horizon.*
 
 ---
 
@@ -276,7 +276,7 @@ Each line's knobs are the household's interface to the corresponding tendencies 
 | 2 | Genetic knob-2 | Prokaryote | Regulator | Respiration Type | Coordination | anaerobic ↔ aerobic | Sloth mode ↔ Sprint mode |
 | 3 | Genetic knob-3 | Eukaryote | Modeler | Foraging Type | Interiority | exploit ↔ explore | Habit mode ↔ Improv mode |
 | 4 | Genetic knob-4 | Eumetazoa | Reviser | Spot Type | Excitability | comfy ↔ active | Warm mode ↔ Cool mode |
-| 5 | Neuronal knob-1 | Bilaterian | Effector | Chronotype | Boldness | morning ↔ evening | Dawn mode ↔ Dusk mode |
+| 5 | Neuronal knob-1 | Bilaterian | Effector | Credit | Boldness | short-horizon ↔ long-horizon | Spidey mode ↔ Zen mode |
 | 6 | Neuronal knob-2 | Vertebrate | Regulator | Coping Style | Mastery | proactive ↔ reactive | Beast mode ↔ Little mode |
 | 7 | Neuronal knob-3 | Mammal | Modeler | Experiencing Style | Autonomy | immersive ↔ surveying | Deep mode ↔ Meander mode |
 | 8 | Neuronal knob-4 | Primate | Reviser | Agreeableness | Affiliation | agreeable ↔ self-favoring | Respect mode ↔ Savage mode |
@@ -326,12 +326,12 @@ Adjacent pairs going clockwise from the top of the Venn.
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
 | Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
-| Mammal | Coping Style | Experiencing Style | Remembering Style | Chronotype |
-| Vertebrate | Coping Style | Development Rate | Home Type | Chronotype |
-| Bilaterian | Affective Style | Foraging Type | Home Type | Chronotype |
-| Eumetazoa | Respiration Type | Foraging Type | Home Type | Arousal Type |
-| Eukaryote | Respiration Type | Foraging Type | Energy-Production Type | Acquisition Type |
-| Prokaryote | Respiration Type | Taxis Type | Enclosure Type | Acquisition Type |
+| Mammal | Coping Style | Experiencing Style | Remembering Style | Credit Style |
+| Vertebrate | Coping Style | Development Rate | Home Type | Credit Style |
+| Bilaterian | Affect | Foraging Type | Home Type | Credit Style |
+| Eumetazoa | Respiration Type | Foraging Type | Home Type | Chronotype |
+| Eukaryote | Respiration Type | Foraging Type | Production Type | Acquisition Type |
+| Prokaryote | Respiration Type | Life-History Type | Enclosure Type | Acquisition Type |
 | Protocell | Throughput Type | Aging Type | Enclosure Type | Acquisition Type |
 
 ### Triple labels by level
@@ -340,17 +340,17 @@ Triples named by which row-slot's motivation is absent.
 
 | Level | Planner (Effector absent) | Pursuer (Regulator absent) | Reactor (Modeler absent) | Conservator (Reviser absent) |
 |-------|---------------------|---------------------|---------------------|-------------------------|
-| Empire-Human | Branding | Extracting | Conquering | Standardizing |
+| Empire-Human | Stories | Extracting | Conquering | Standardizing |
 | City-Human | Distributing | Crime | Farming | Standardizing |
 | Settlement-Human | Wealth | Alloparenting | Farming | Norms |
 | Band-Human | Standing | Alloparenting | Meat Pooling | Collaborative Fission |
 | Primate | Standing | Tactical Deceit | Triadic Awareness | Autonomous Cognition |
-| Mammal | Reflective Cognition | Algorithmic Cognition | Assign Temporal Credit | Autonomous Cognition |
-| Vertebrate | Gut Sense | Approach | Assign Temporal Credit | Procedural Memory |
-| Bilaterian | Allostatic Regulation | Approach | Associative Learning | Inhibition |
+| Mammal | Reflective Cognition | Algorithmic Cognition | Temporal Credit | Autonomous Cognition |
+| Vertebrate | Gut Sense | Steering | Temporal Credit | Procedural Memory |
+| Bilaterian | Allostatic Regulation | Steering | Associative Learning | Inhibition |
 | Eumetazoa | Allostatic Regulation | Ingestion | Non-Associative Learning | Intracellular Transport |
-| Eukaryote | Memory Beyond Adaptation | Phagocytosis | State-Dependent Gating | Intracellular Transport |
-| Prokaryote | Anticipatory Responding | Precision Machinery | State-Dependent Gating | Cross-Modal Integration |
+| Eukaryote | Memory Beyond Adaptation | Phagocytosis | Taxis | Intracellular Transport |
+| Prokaryote | Sequential Responding | Precision Machinery | Taxis | State Gating |
 | Protocell | Operational Closure | Precision Machinery | Phenotypic Plasticity | Reproduction |
 
 ### Signatures by level

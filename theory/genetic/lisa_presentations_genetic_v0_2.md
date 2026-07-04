@@ -61,7 +61,7 @@ Section 2 below gives per-chapter argument structures for all five of Lisa's sub
 
 - The four cybernetic functions: Effector, Regulator, Modeler, Reviser.
 - The four capacities: the Planner, the Reactor, the Pursuer, the Conservator.
-- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Steering, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Stories.
+- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Attention, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Trust.
 - The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Boldness, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
 - The three goos: Boltzmann goo, phenomenal goo, Shannon goo.
 

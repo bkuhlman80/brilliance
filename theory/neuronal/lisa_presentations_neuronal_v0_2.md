@@ -61,7 +61,7 @@ Section 2 below gives per-chapter argument structures for all five of Lisa's sub
 
 - The four cybernetic functions: Effector, Regulator, Modeler, Reviser.
 - The four capacities: the Planner, the Reactor, the Pursuer, the Conservator.
-- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Steering, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Stories.
+- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Attention, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Trust.
 - The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Boldness, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
 - The three goos: Boltzmann goo, affective goo, Shannon goo.
 
@@ -176,7 +176,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 
 ### Clade block step 2 — Tendencies (with Burns)
 
-> TODO: Lisa's Bilaterian tendencies — functional description of what Bilaterian-Bramble does behaviorally (the Effector/Boldness tendencies: directed head-first locomotion, approach/withdrawal under affective valence, Pavlovian conditioning on perceptions, consistent individual differences in boldness) and what falls out of a steering control architecture (Bennett's Steering breakthrough) arriving; anchor in `bramble_specs`, `Inheritance_Lines_neuronal`, and `chapter_plan_neuronal`.
+> TODO: Lisa's Bilaterian tendencies — functional description of what Bilaterian-Bramble does behaviorally (the Effector/Boldness tendencies: directed head-first locomotion, approach/withdrawal under affective valence, Pavlovian conditioning on perceptions, consistent individual differences in boldness) and what falls out of a steering control architecture (the Attention breakthrough, Bennett's Steering) arriving; anchor in `bramble_specs`, `Inheritance_Lines_neuronal`, and `chapter_plan_neuronal`.
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
@@ -184,7 +184,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
-> TODO: Lisa's software pitch for knob-1 repurposed (Effector, Persistence → Boldness; the neuronal knob-1 reads out at the Explorer as **Chronotype**, a morning↔evening toggle — when across the day the unit is most active and most aroused — not a wide/narrow play/work dial) — what the repurposed founding knob now parameterizes in the model and how it builds on the genetic-line knob; the framework's first cross-line handoff.
+> TODO: Lisa's software pitch for knob-1 repurposed (Effector, Persistence → Boldness; the neuronal knob-1 reads out at the Explorer as **Credit Style**, a short-horizon↔long-horizon dial — how far back the unit's credit-assignment machinery looks before deciding what caused what — not a wide/narrow play/work dial, and not a clock: wake/sleep timing runs on the emergent allostatic process installed at Eumetazoa, not on this knob) — what the repurposed founding knob now parameterizes in the model and how it builds on the genetic-line knob; the framework's first cross-line handoff.
 
 ### Bramble block step 3 — Retirement-transition ritual (with Mira)
 

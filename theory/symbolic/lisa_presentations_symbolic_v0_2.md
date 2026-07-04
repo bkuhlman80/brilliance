@@ -61,7 +61,7 @@ Section 2 below gives per-chapter argument structures for all five of Lisa's sub
 
 - The four cybernetic functions: Effector, Regulator, Modeler, Reviser.
 - The four capacities: the Planner, the Reactor, the Pursuer, the Conservator.
-- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Steering, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Stories.
+- The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Attention, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Trust.
 - The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Boldness, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
 - The three goos: Boltzmann goo, phenomenal goo, Shannon goo.
 
@@ -300,7 +300,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 
 ### Clade block step 2 — Tendencies (with Burns)
 
-> TODO: Lisa's Empire-Human tendencies — functional description of universalizing behavior (cross-context universalizing reasoning, abstract-principle commitment regardless of local context, narrative-identity synthesis, empire-scale imagined-community identification) and what falls out of ideologically coherent stories arriving (the Stories breakthrough); anchor in `bramble_specs`, `Inheritance_Lines_symbolic`, and `chapter_plan_symbolic`.
+> TODO: Lisa's Empire-Human tendencies — functional description of universalizing behavior (cross-context universalizing reasoning, abstract-principle commitment regardless of local context, narrative-identity synthesis, empire-scale imagined-community identification) and what falls out of ideologically coherent stories arriving (the Stories capacity that carries the Trust breakthrough); anchor in `bramble_specs`, `Inheritance_Lines_symbolic`, and `chapter_plan_symbolic`.
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
@@ -316,7 +316,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 
 ### Trellis block step 3 — Current Trellis framework
 
-**Central claim.** Affiliation at the Reviser slot has eclipsed. Universality installs. The symbolic line is architecturally complete. All three lines are now populated to their fourth cell. The framework's full architectural shape is visible. The fourth chassis sits under a cloth.
+**Central claim.** Affiliation at the Reviser slot has eclipsed. Universality installs. The symbolic line is architecturally complete. All three lines are now populated to their fourth cell. The framework's full architectural shape is visible.
 
 **Sequence.**
 
@@ -325,7 +325,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 3. Anchor briefly in cultural-evolution work on universalizing ideology. Lisa keeps it short. The depth on identity formation, narrative identity, and universalizing stories is Marge's territory. Burns will wax on Universality in his closing speech.
 4. Cross-line analogue. Three Reviser retirements now: Eumetazoa (Ch 4, genetic), Primate (Ch 8, neuronal), Empire-Human (Ch 12, symbolic). The complete cross-line Reviser-retirement pattern.
 5. The architectural close. Three lines, twelve cells, twelve retirements (counting the founding constellation as the zero point). Every motivation that has ever carried a flag has been consolidated into the memory. The architecture is fully populated.
-6. The next move is structurally constrained. The fourth-cell entity at the symbolic line can fail, succeed as itself but stay off-thread, or bridge to a next inheritance line. The framework does not claim which. Lisa does not speculate. The fourth chassis under the cloth is the lab's exploration of what comes next; the framework's commitment is to architectural openness.
+6. The next move is structurally constrained. The fourth-cell entity at the symbolic line can fail, succeed as itself but stay off-thread, or bridge to a next inheritance line. The framework does not claim which. Lisa does not speculate. The lab's forward exploration of what comes next reaches the page as the book's closing forward-gesture, where the humanoid Bramble tells an odd, awkward story that leads into Burns's closing speech; the framework's commitment is to architectural openness.
 
 **What is new.** The completed Reviser-across-lines pattern. The full architectural picture across three lines and four cells per line. The fates-remain-open framing (named, not speculated).
 

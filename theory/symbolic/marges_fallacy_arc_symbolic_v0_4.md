@@ -49,7 +49,7 @@ Ch 1–4 names each fallacy alongside the function it denies. The structural ele
 
 ### Ch 9: The tentative type hypothesis
 
-**Bramble.** Humanoid chassis. Effector Commitment installed. Symbolic line opens. Bart starts his shape-shifters this chapter (Bart runs the Pursuer across the levels from Bilaterian up to Band-Human).
+**Bramble.** Humanoid chassis. Effector Commitment installed. Symbolic line opens. Bart starts his shape-shifters this chapter (Bart runs the Reactor across the levels from Bilaterian up to Band-Human).
 
 **Marge's angle.** Draws on the clinical register she works in; floats a tentative type hypothesis bridging fallacy and clinical pattern.
 
@@ -97,6 +97,8 @@ The Planner lacks Effector and holds the Ghost in the Machine. The Pursuer lacks
 
 Each shape, generalizing its own absence, produces the corresponding fallacy. This is type-provincialism: one viable shape mistaking its own coverage for the universal. It is the cognitive register Marge has been naming since Ch 1.
 
+*Exemplar note (Blank Slate).* Thomas Szasz's *The Myth of Mental Illness* (1961) is a clean real-world specimen of the Blank Slate fallacy — the Pursuer's denial of the Regulator. By treating psychiatric conditions as nothing but learned problems-in-living, with no stored, constraining structure beneath behavior, it generalizes the Regulator-absent shape's own coverage to the whole of mind. A useful citation when the Blank Slate is named (Ch 2) and again at the synthesis here.
+
 **The room.** Marge names all four labmates by shape, each paired with the fallacy that denies its missing function, and the cascade completes on her own.
 
 Burns is Pursuer-shaped and holds the Blank Slate, which denies the Regulator. Bart is Reactor-shaped and holds the Noble Savage, which denies the Modeler. Lisa is Planner-shaped and holds the Ghost in the Machine, which denies the Effector. Marge is Conservator-shaped and holds the Dealt Hand, which denies the Reviser. Each shape generalizes its own absence into the matching fallacy, and the clinician places herself last.
@@ -109,7 +111,7 @@ The room does the recognizing without the scene turning sentimental. This is a s
 
 ### Ch 12: Closing
 
-**Bramble.** Reviser Universality installed. Stories. Narrative identity. Bart's shape-shifters is the Reactor (his own shape) across all eight levels.
+**Bramble.** Reviser Universality installed. Trust. Stories, narrative identity. Bart's shape-shifters is the Pursuer (Burns's shape) across all eight levels.
 
 **Marge's angle.** Closes the arc.
 
@@ -119,7 +121,7 @@ The room does the recognizing without the scene turning sentimental. This is a s
 
 The framework displaces *being right* with *being placed*. The work is not to optimize toward a target shape. The work is to recognize the shape you are and how it composes with the environments you are in.
 
-**Connection to chapter.** Bart's shape-shifter of his own shape this chapter — the Reactor — is the positive case for one shape across the levels. Marge's closing names the negative case: what happens when any shape denies the others. Together the two cases are the framework's central claim.
+**Connection to chapter.** Bart's shape-shifter this chapter, the Pursuer (Burns's shape), is the positive case for one shape across the levels. Marge's closing names the negative case: what happens when any shape denies the others. Together the two cases are the framework's central claim.
 
 The book closes on Mira's seventh birthday with the lab gesturing forward rather than claiming, pursuing what lies beyond the framework's current vocabulary without yet naming it. Marge's synthesis has placed the four fallacies, including the one Burns is most invested in. Burns is still Burns. The fallacy is placed. The constellation holds.
 

@@ -32,7 +32,7 @@ ABHOP's three lines (genetic, neuronal, symbolic) instantiate the bio-psycho-soc
 
 | Row | GENETIC | NEURONAL | SYMBOLIC |
 |-----|---------|----------|----------|
-| **4** | Eumetazoa (800 MYA), differentiated tissues, *Excitability* | Primates (66 MYA), granular PFC, *Affiliation* | Empires (3 KYA), universalizing ideology and stories, *Universality* |
+| **4** | Eumetazoa (800 MYA), differentiated tissues, *Excitability* | Primates (66 MYA), granular PFC, *Affiliation* | Empires (3 KYA), universalizing ideology and stranger trust, *Universality* |
 | **3** | Eukaryotes (2 BYA), organelles and nucleus, *Interiority* | Mammals (200 MYA), agranular PFC, *Autonomy* | Cities (5 KYA), codes and representations, *Representation* |
 | **2** | Prokaryotes (3.5 BYA), nucleoid and ribosome, *Coordination* | Vertebrates (420 MYA), basal ganglia and hypothalamus, *Mastery* | Settlements (10 KYA), norms, *Stability* |
 | **1** | Protocell (~4 BYA, RNA world), RNA, *Persistence* | Bilaterians (550 MYA), brains and monoamines, *Boldness* | Bands (100 KYA), language, *Commitment* |
@@ -61,7 +61,7 @@ Adjacent pairs instantiate four loop-functions. They carry tendencies, the dispo
 - **Adapter** (Modeler × Reviser): self-revising model.
 - **Explorer** (Reviser × Effector): exploratory action.
 
-"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Taxis Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
+"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Life-History Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
 
 The adjacent-pair labels follow a naming convention by line. The genetic-line adjacent pairs tend toward Type suffixes. The neuronal-line adjacent pairs tend toward Style suffixes. The symbolic-line adjacent pairs tend toward -ness or related nominal suffixes. The convention is descriptive of the empirical literatures the constructs anchor in, not prescriptive.
 
@@ -78,7 +78,7 @@ The 4-circle Venn has 15 regions: 4 single-motivation regions (motivations), 4 a
 
 ### The Breakthrough
 
-The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Steering at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Stories at Empire-Human. The term follows Bennett, whose neuronal-line breakthroughs (Steering, Reinforcing, Simulating, Mentalizing) the framework already uses. Per-cell breakthroughs live in the Per-Cell Treatments below.
+The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Attention at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Trust at Empire-Human. Each line's founding-cell breakthrough is that line's selector, the process that makes its heritable pattern cumulative: Natural Selection on the genetic line, Attention on the neuronal line, Speaking on the symbolic line. The framework uses Bennett's Reinforcing, Simulating, and Mentalizing for the upper three neuronal cells, and names the founding neuronal breakthrough Attention, of which Bennett's steering is the bilaterian expression. Per-cell breakthroughs live in the Per-Cell Treatments below.
 
 ### Adjacent-pair, triple, and opposite-pair persistence
 
@@ -136,7 +136,7 @@ The twelve filled cells of the matrix each get one section below. Each section o
 
 The symbolic line ratchets Shannon goo. Symbols are constraints on signal-space. Lexicons, grammars, conventions, and pragmatic norms each reduce the space of legitimate messages by large factors. Cultural transmission preserves the constraints that work for coordinating groups. Its pre-line groundwork is pre-symbolic animal signaling (indexical and iconic reference), detailed in Deacon's *Symbolic Species* (1997).
 
-The unified Venn at each symbolic-line cell takes the constituent human as its unit, parameterized by collective context. The collective is the group the human runs on. A band produces Speaking. A settlement produces Common Knowledge. A city produces Codes. An empire produces Stories. The cells are named with the -Human suffix (Band-Human, Settlement-Human, City-Human, Empire-Human) to mark that the Venn tracks the constituent human, not the collective.
+The unified Venn at each symbolic-line cell takes the constituent human as its unit, parameterized by collective context. The collective is the group the human runs on. A band produces Speaking. A settlement produces Common Knowledge. A city produces Codes. An empire produces Trust. The cells are named with the -Human suffix (Band-Human, Settlement-Human, City-Human, Empire-Human) to mark that the Venn tracks the constituent human, not the collective.
 
 #### Band-Human Stack
 
@@ -185,6 +185,10 @@ Settlements introduce stored regulation in the symbolic register: norms that gov
 The reinforcing cycle runs through surplus. Agriculture produces surplus. Surplus enables labor specialization (rulers, priests, scribes, soldiers, craftsmen). Specialization produces writing and law and calendars, the technologies of recording stable norms. Recording enables larger-scale coordination. Larger scale requires more stability. The breakthrough is Common Knowledge.
 
 Common Knowledge is meant in the Pinker / Lewis / Schiffer sense: synchronized cross-stranger mutual awareness, where each party knows that the others know, and knows that they know that they know. Speaking, the Band-Human breakthrough, enables face-to-face coordination within a band. Settlement architecture introduces durable focal points — town squares, monuments, marketplaces, eventually bulletin boards — that scale common knowledge across strangers. Norms presuppose common knowledge (Bicchieri); the cognitive achievement is more fundamental than the normative one, and the breakthrough position names the more fundamental achievement. All four motivations are required: Commitment (mutual confirming signals), Stability (durable focal points), Affiliation (shared in-group meaning), and Autonomy (each individual representing it). Common Knowledge is the across, multi-agent counterpart to Band-Human's inward Self-Reference loop; it is not a strange loop.
+
+The recursion in Common Knowledge, the embedding of knows-that-knows, is the same nesting the symbolic line is learning to express in syntax across these cells. Neither builds the other. Both are the symbolic expression of a conceptual nesting the prior already carries, the nested mentalizing the neuronal line installs at Primate with the Mentalizing breakthrough. So a unit whose hierarchical syntax is still maturing has, by the same token, a still-maturing public mutual-knowledge: the broken sentence and the shaky common ground are one conceptual nesting reaching for two symbolic channels at once.
+
+*Mapping status: authorial commitment. That syntactic recursion and recursive mutual-knowledge co-mature because both express one shared conceptual nesting is the framework's account. The stronger claim that they are literally one mechanism is contested in the cognitive science, where the relationship between syntactic and theory-of-mind recursion is unresolved and double-dissociation evidence exists, and is not asserted as fact. The load-bearing reading is the shared conceptual source, which survives even if the two channels prove dissociable.*
 
 The Regulator swap replaces Mastery with Stability. Commitment, Affiliation, and Autonomy persist. Settlement-Human emerges by elaboration, not symbiosis: it develops from band practices through sedentary agriculture.
 
@@ -268,11 +272,11 @@ The Regulator × Reviser pair carries Self-Construal forward from Settlement-Hum
 
 #### Empire-Human Stack
 
-Empires introduce universalizing ideology in the symbolic register. The defining mechanism is the universalizing framework: a story that binds many cities and peoples under one identity, one law, or one faith. *Universality* operates as the attractor because an empire must hold together populations with no shared kinship, language, or local history. A universalizing framework supplies the common identity that kinship cannot.
+Empires introduce stranger-to-stranger trust in the symbolic register. The defining mechanism is the universalizing framework: a currency, a law, a faith, or a shared identity that lets people who will never meet rely on one another anyway. *Universality* operates as the attractor because an empire must extend reliability to populations with no shared kinship, language, or local history. A universalizing framework supplies the trust that kinship cannot.
 
 The empire forms as a symbiosis of cities and colonies committing to integration under a universalizing framework. Cities and their hinterlands supply the political-administrative base. Colonies supply the territorial extension beyond contiguous imperial territory, often resource-extractive or strategic-positional. Historical instances of the empire symbiosis include Rome symbiosing Italian cities, Mediterranean colonies, and Greek polities under senatorial-imperial administration, Han China symbiosing Warring States cities and frontier colonies under the mandate of heaven, the Achaemenid Empire symbiosing Median, Babylonian, Egyptian, and Lydian cities under the King of Kings framework, the Caliphates symbiosing Arab tribal polities and conquered cities under universalizing monotheism, and the British Empire symbiosing the metropolitan city, dominion settler colonies, and resource colonies under a single crown.
 
-The reinforcing cycle runs through universal religion, codified imperial law, monetary integration, and trade networks that cross city borders. The breakthrough is Stories.
+The reinforcing cycle runs through universal religion, codified imperial law, monetary integration, and trade networks that cross city borders, each one a technology for extending reliance past the reach of kinship. The breakthrough is Trust: a stranger hands another stranger something that matters, and trusts it will come back.
 
 The Reviser swap replaces Affiliation with Universality. Commitment, Stability, and Representation persist. The Effector × Modeler pair carries Self-Evaluation forward from City-Human. The Regulator × Reviser pair introduces Identity. Identity is the social-science synthesis at the universalizing-empire level. It anchors on Tajfel-Turner social identity theory, Erikson's identity-formation work, McAdams's narrative identity, and Goffman's presentation of self, with Haidt's Moral Foundations Theory as a secondary anchor.
 
@@ -285,6 +289,8 @@ The Adapter (Modeler × Reviser) carries Integrity. Integrity is the trait of co
 The Explorer (Reviser × Effector) carries Intellect. Intellect is the Intellect facet of Big Five Openness/Intellect. It names universalizing intellectual engagement under reciprocal exchange. The framework predicts that Openness-to-Experience, the aesthetic-experiential facet of Big Five Openness, does not have a structural slot. Only the Intellect facet has a home. This is a retrodictive payoff against De Raad's cross-linguistic finding that Openness is the unstable Big Five factor.
 
 The Reactor triple carries Conquering. Conquering is daily-cycle imperial action. It is reciprocal in tribute, stable in territory, and universalizing in extending the universalizing frame. It runs without engaging novel representation.
+
+The Planner triple carries Stories. Stories are strategic narrative deliberation without commitment: myths, propaganda, and branding, built to justify and stabilize the universalizing frame before anyone has acted on it. It is a Stability × Representation × Universality synthesis without execution; Commitment is absent.
 
 **Unified Venn:**
 
@@ -302,9 +308,9 @@ The Reactor triple carries Conquering. Conquering is daily-cycle imperial action
 | Regulator × Reviser | Identity |
 | Reactor (Modeler absent) | Conquering |
 | Conservator (Reviser absent) | Standardizing |
-| Planner (Effector absent) | Branding |
+| Planner (Effector absent) | Stories |
 | Pursuer (Regulator absent) | Extracting |
-| Center (Breakthrough) | Stories |
+| Center (Breakthrough) | Trust |
 
 **Empire-Human Personality Disorders panel.** The Empire-Human Venn carries a secondary panel in clinical vocabulary. It maps personality disorder clusters drawn from DSM-5, HiTOP, and ICD-11 onto a single consolidated diagram that mirrors the trait Venn's structure. The four adjacent pairs, the four triples, and the Center carry disorder clusters. The two opposite pairs carry the trait-construct labels, Self-Evaluation at the Effector × Modeler pair and Identity at the Regulator × Reviser pair. Disturbances of these traits manifest as the cluster content at the surrounding regions. The Center holds the Breakdown, the symbolic-line participation failure that emerges when all four motivations are pathologically engaged. Pragmatics, Narrative, and Discourse name the three modes of symbolic-line participation whose breakdown defines personality disorder as failure of cultural ratcheting. The structural basis for treating personality disorders as cultural-line failure, rather than biological disease, is laid out in 'Disease, Disorder, and Line of Failure' above.
 
@@ -378,7 +384,7 @@ The "Later rename" column in the structure-at-a-glance table (genetic line doc) 
 * **Sloth ↔ Sprint** (Respiration) — slow endurance off the battery vs. a supercapacitor burst that then sits and recovers. Names a knob the team only ever called aerobic/anaerobic, and one already shelved by the time the name arrives.
 * **Habit ↔ Improv** (Foraging) — the worn efficient groove vs. making the path up as it goes.
 * **Warm ↔ Cool** (Spot) — settles in the warmest corner it can find vs. doesn't care about warmth, parks where the people are.
-* **Dawn ↔ Dusk** (Chronotype) — busy in the morning and winding down by dinner vs. sleeping the morning off and coming alive when the household does. Bramble's setting is the evening one, so the name it wears is Dusk.
+* **Spidey ↔ Zen** (Credit) — jumps to conclusions off one weird thing vs. doesn't sweat it till the pattern's repeated. Bramble's setting: [OPEN — not yet decided; leave placeholder, do not invent].
 * **Beast ↔ Little** (Coping) — leans hard at anything that might pay vs. hangs back and waits to be sure. Little is a size word, not a deficit — "it thinks it's little."
 * **Deep ↔ Meander** (Experiencing) — all of it close and loud, nothing else in the room, vs. the whole field at once with nothing pulling harder than anything else.
 * **Respect ↔ Savage** (Agreeableness) — defers, won't impose, vs. out for its own.
@@ -421,12 +427,12 @@ Adjacent pairs going clockwise from the top of the Venn.
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
 | Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
-| Mammal | Coping Style | Experiencing Style | Remembering Style | Chronotype |
-| Vertebrate | Coping Style | Development Rate | Home Type | Chronotype |
-| Bilaterian | Affective Style | Foraging Type | Home Type | Chronotype |
-| Eumetazoa | Respiration Type | Foraging Type | Home Type | Arousal Type |
-| Eukaryote | Respiration Type | Foraging Type | Energy-Production Type | Acquisition Type |
-| Prokaryote | Respiration Type | Taxis Type | Enclosure Type | Acquisition Type |
+| Mammal | Coping Style | Experiencing Style | Remembering Style | Credit Style |
+| Vertebrate | Coping Style | Development Rate | Home Type | Credit Style |
+| Bilaterian | Affect | Foraging Type | Home Type | Credit Style |
+| Eumetazoa | Respiration Type | Foraging Type | Home Type | Chronotype |
+| Eukaryote | Respiration Type | Foraging Type | Production Type | Acquisition Type |
+| Prokaryote | Respiration Type | Life-History Type | Enclosure Type | Acquisition Type |
 | Protocell | Throughput Type | Aging Type | Enclosure Type | Acquisition Type |
 
 ### Triple labels by level
@@ -435,17 +441,17 @@ Triples named by which row-slot's motivation is absent.
 
 | Level | Planner (Effector absent) | Pursuer (Regulator absent) | Reactor (Modeler absent) | Conservator (Reviser absent) |
 |-------|---------------------|---------------------|---------------------|-------------------------|
-| Empire-Human | Branding | Extracting | Conquering | Standardizing |
+| Empire-Human | Stories | Extracting | Conquering | Standardizing |
 | City-Human | Distributing | Crime | Farming | Standardizing |
 | Settlement-Human | Wealth | Alloparenting | Farming | Norms |
 | Band-Human | Standing | Alloparenting | Meat Pooling | Collaborative Fission |
 | Primate | Standing | Tactical Deceit | Triadic Awareness | Autonomous Cognition |
-| Mammal | Reflective Cognition | Algorithmic Cognition | Assign Temporal Credit | Autonomous Cognition |
-| Vertebrate | Gut Sense | Approach | Assign Temporal Credit | Procedural Memory |
-| Bilaterian | Allostatic Regulation | Approach | Associative Learning | Inhibition |
+| Mammal | Reflective Cognition | Algorithmic Cognition | Temporal Credit | Autonomous Cognition |
+| Vertebrate | Gut Sense | Steering | Temporal Credit | Procedural Memory |
+| Bilaterian | Allostatic Regulation | Steering | Associative Learning | Inhibition |
 | Eumetazoa | Allostatic Regulation | Ingestion | Non-Associative Learning | Intracellular Transport |
-| Eukaryote | Memory Beyond Adaptation | Phagocytosis | State-Dependent Gating | Intracellular Transport |
-| Prokaryote | Anticipatory Responding | Precision Machinery | State-Dependent Gating | Cross-Modal Integration |
+| Eukaryote | Memory Beyond Adaptation | Phagocytosis | Taxis | Intracellular Transport |
+| Prokaryote | Sequential Responding | Precision Machinery | Taxis | State Gating |
 | Protocell | Operational Closure | Precision Machinery | Phenotypic Plasticity | Reproduction |
 
 ### Signatures by level

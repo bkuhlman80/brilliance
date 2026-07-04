@@ -61,7 +61,7 @@ Adjacent pairs instantiate four loop-functions. They carry tendencies, the dispo
 - **Adapter** (Modeler × Reviser): self-revising model.
 - **Explorer** (Reviser × Effector): exploratory action.
 
-"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Taxis Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
+"Tendency" is a permissive umbrella term. At genetic-line cells the adjacent pairs hold genetic-line dispositional capabilities such as Throughput Type and Life-History Type. At neuronal and symbolic cells the adjacent pairs hold personality traits such as Coping Style and Conscientiousness. The umbrella term spans the lines. The specific named constructs differ by cell and by the literature anchoring them.
 
 The adjacent-pair labels follow a naming convention by line. The genetic-line adjacent pairs tend toward Type suffixes. The neuronal-line adjacent pairs tend toward Style suffixes. The symbolic-line adjacent pairs tend toward -ness or related nominal suffixes. The convention is descriptive of the empirical literatures the constructs anchor in, not prescriptive.
 
@@ -78,7 +78,7 @@ The 4-circle Venn has 15 regions: 4 single-motivation regions (motivations), 4 a
 
 ### The Breakthrough
 
-The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Steering at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Stories at Empire-Human. The term follows Bennett, whose neuronal-line breakthroughs (Steering, Reinforcing, Simulating, Mentalizing) the framework already uses. Per-cell breakthroughs live in the Per-Cell Treatments below.
+The center of each Venn is the breakthrough. It is the synthetic capability that emerges when all four flag-carriers operate together. It is not a fifth motivation. It is what the four jointly produce. Examples are Natural Selection at Protocell, Attention at Bilaterian, Speaking at Band-Human, Codes at City-Human, and Stories at Empire-Human. Each line's founding-cell breakthrough is that line's selector, the process that makes its heritable pattern cumulative: Natural Selection on the genetic line, Attention on the neuronal line, Speaking on the symbolic line. The framework uses Bennett's Reinforcing, Simulating, and Mentalizing for the upper three neuronal cells, and names the founding neuronal breakthrough Attention, of which Bennett's steering is the bilaterian expression. Per-cell breakthroughs live in the Per-Cell Treatments below.
 
 ### Adjacent-pair, triple, and opposite-pair persistence
 
@@ -142,7 +142,7 @@ Trait-level individual differences in dispositional response are documented from
 
 The founding form of the neuronal line. The line-defining move is from diffuse nerve nets to centralized brains with monoamine signaling. Dopamine and serotonin emerge as the monoamines of valence and arousal. The defining mechanism is steering: head-first directional movement that requires a brain to process forward sensory input and command body-wide muscular response. *Boldness* operates as the attractor because steering only pays off if the organism actually moves into novel space. A steering animal that doesn't venture forward gains nothing from the architecture.
 
-The reinforcing cycle runs through steering plus affect. Affect is valence and arousal, the basic good-or-bad evaluation of states. Steering plus affect produces associative learning, which makes future steering more rewarding, which selects for finer steering and richer affect. The breakthrough is Steering, the new capability that defines the cell.
+The reinforcing cycle runs through steering plus affect. Affect is valence and arousal, the basic good-or-bad evaluation of states. Steering plus affect produces associative learning, which makes future steering more rewarding, which selects for finer steering and richer affect. The breakthrough is Attention, the within-lifetime selection process in which candidate movements compete for expression and valence picks the winner. Attention is the neuronal line's selector, the within-lifetime counterpart to Natural Selection. It operates across every neuronal cell from Bilaterian up. Steering is its behavioral expression at this cell and sits at the Pursuer capacity.
 
 The Effector swap at Bilaterians replaces Persistence with Boldness, marking the genetic-to-neuronal line boundary. Coordination, Interiority, and Excitability persist as flag-carriers from Eumetazoa. The Effector × Modeler pair introduces Temperament, the founding form of the Effector × Modeler pair (see `trellis_framework doc`). The Regulator × Reviser pair carries Reflex Repertoire forward from Eumetazoa, since Coordination and Excitability both persist.
 
@@ -154,17 +154,17 @@ The Effector swap at Bilaterians replaces Persistence with Boldness, marking the
 | Regulator | Coordination |
 | Modeler | Interiority |
 | Reviser | Excitability |
-| Controller (Effector × Regulator) | Affective Style |
+| Controller (Effector × Regulator) | Affect |
 | Anticipator (Regulator × Modeler) | Foraging Type |
 | Adapter (Modeler × Reviser) | Home Type |
-| Explorer (Reviser × Effector) | Chronotype |
+| Explorer (Reviser × Effector) | Credit Style |
 | Effector × Modeler | Temperament |
 | Regulator × Reviser | Reflex Repertoire |
 | Reactor (Modeler absent) | Associative Learning |
 | Conservator (Reviser absent) | Inhibition |
 | Planner (Effector absent) | Allostatic Regulation |
-| Pursuer (Regulator absent) | Approach |
-| Center (Breakthrough) | Steering |
+| Pursuer (Regulator absent) | Steering |
+| Center (Breakthrough) | Attention |
 
 #### Vertebrate Stack
 
@@ -193,13 +193,13 @@ The Regulator swap replaces Coordination with Mastery. Boldness, Interiority, an
 | Controller (Effector × Regulator) | Coping Style |
 | Anticipator (Regulator × Modeler) | Development Rate |
 | Adapter (Modeler × Reviser) | Home Type |
-| Explorer (Reviser × Effector) | Chronotype |
+| Explorer (Reviser × Effector) | Credit Style |
 | Effector × Modeler | Temperament |
 | Regulator × Reviser | Behavioral Syndrome |
-| Reactor (Modeler absent) | Assign Temporal Credit |
+| Reactor (Modeler absent) | Temporal Credit |
 | Conservator (Reviser absent) | Procedural Memory |
 | Planner (Effector absent) | Gut Sense |
-| Pursuer (Regulator absent) | Approach |
+| Pursuer (Regulator absent) | Steering |
 | Center (Breakthrough) | Reinforcing |
 
 #### Mammal Stack
@@ -218,7 +218,7 @@ The triples at Mammal carry the Stanovich tri-process constructs. The Conservato
 
 Autonomous Cognition's mechanistic substrate includes Pavlovian blocking (Kamin) and neophobia. Its behavioral expression includes countercontrol-shaped responses to socially-mediated aversive control: the controllee's prior model of the controller blocks updating to attempted retraining, and novel cues introduced by the controller meet neophobic avoidance. The pattern is documented across mammals and birds; it is underrepresented in academic experimental work because operant-chamber designs exclude the social loop that countercontrol requires (Delprato 2002).
 
-The Modeler swap replaces Interiority with Autonomy. Boldness, Mastery, and Excitability persist. The Effector × Modeler pair introduces Self-Model. Self-Model is Bennett's term for the mammalian self-representation, the modeled agent that pairs with Simulating at the breakthrough position. The Regulator × Reviser pair carries Behavioral Syndrome forward from Vertebrate (see `trellis_framework doc`).
+The Modeler swap replaces Interiority with Autonomy. Boldness, Mastery, and Excitability persist. The Effector × Modeler pair introduces Self-Model. Self-Model is Bennett's term for the mammalian self-representation, the modeled agent that pairs with Simulating at the breakthrough position. The generative machinery installed at this cell runs in two deployments. Sensory cortex runs a world model that predicts external objects. Frontal cortex runs a self model that predicts the agent's own intentions and internal state, taking its input from hippocampus, amygdala, and hypothalamus. Self-Model names the frontal deployment. That placement is why the signature sits at the Effector × Modeler coupling: it is the generative model of the acting agent. The anatomical grounding is in `clade_reference_neuronal`. The Regulator × Reviser pair carries Behavioral Syndrome forward from Vertebrate (see `trellis_framework doc`).
 
 **Unified Venn:**
 
@@ -231,10 +231,10 @@ The Modeler swap replaces Interiority with Autonomy. Boldness, Mastery, and Exci
 | Controller (Effector × Regulator) | Coping Style |
 | Anticipator (Regulator × Modeler) | Experiencing Style |
 | Adapter (Modeler × Reviser) | Remembering Style |
-| Explorer (Reviser × Effector) | Chronotype |
+| Explorer (Reviser × Effector) | Credit Style |
 | Effector × Modeler | Self-Model |
 | Regulator × Reviser | Behavioral Syndrome |
-| Reactor (Modeler absent) | Assign Temporal Credit |
+| Reactor (Modeler absent) | Temporal Credit |
 | Conservator (Reviser absent) | Autonomous Cognition |
 | Planner (Effector absent) | Reflective Cognition |
 | Pursuer (Regulator absent) | Algorithmic Cognition |
@@ -284,7 +284,7 @@ The Reviser swap replaces Excitability with Affiliation. Boldness, Mastery, and 
 
 The tetrapod arrives at the Bilaterian line boundary carrying identical-copy genetic knobs 2, 3, and 4 in slots 2–4 (active until their respective retirements) plus neuronal knob-1 newly in slot 1.
 
-* **Knob 5 — Neuronal Effector | Chronotype (Time Type) | Motivation: Boldness** *Cell: Bilaterian* Two-position toggle: **morning** vs. **evening**. Sets the unit's activity hours — whether it runs busy in the morning and winds down by dinner, or sleeps the morning off and comes alive when the household does. The Effector founding of the neuronal line: bold-vs.-cautious action timing. "Retires" conceptually at the symbolic line boundary (lineage-level narration only; no physical knob is pulled from either tetrapod or vacuum board).
+* **Knob 5 — Neuronal Effector | Credit Style | Motivation: Boldness** *Cell: Bilaterian* Graded dial: **short-horizon** to **long-horizon**. Tunes how far back the unit's credit-assignment machinery looks before deciding what caused what. Short-horizon: reacts to whatever just happened, forms new associations fast off a single coincidence, discounts long-accumulated history. Long-horizon: filters by exposure — the habitually-seen gets ignored, the novel gets the attention — and needs a pattern to repeat before it commits to a new association. The Effector founding of the neuronal line: bold-vs.-cautious credit assignment, expressed as an attentional horizon rather than a clock. "Retires" conceptually at the symbolic line boundary (lineage-level narration only; no physical knob is pulled from either tetrapod or vacuum board).
 * **Knob 6 — Neuronal Regulator | Coping Style | Motivation: Mastery** *Cell: Vertebrate* Graded dial: **proactive** to **reactive**. Governs the gain on the reward/dopamine signal — how committed vs. exploratory the unit runs its regulatory hand. Proactive: leans hard at anything that might pay, engages faster, higher initiative. Reactive: hangs back and waits to be sure. Mira's framing: "Pushy walks into stuff faster. Hangs-back waits to see."
 * **Knob 7 — Neuronal Modeler | Experiencing Style | Motivation: Autonomy** *Cell: Mammal* Graded dial: **immersive** to **surveying**. Tunes how the generative model foregrounds information. Immersive: all of it close and loud, edges gone, nothing else in the room. Surveying: the whole field at once, nothing pulling harder than anything else. This is the knob that parameterizes the motivation Autonomy introduces — the modeling layer's orientation toward its own generative field. Retires at the Ch 10 retrospective (Lisa pulls the identical-copy from the humanoid board's slot 3 to the trophy shelf with Mira, hands-on ceremony); symbolic-knob-3 takes the freed slot at the Ch 11 week-1 swap.
 * **Knob 8 — Neuronal Reviser | Agreeableness | Motivation: Affiliation** *Cell: Primate* Graded dial: **agreeable** to **self-favoring**. Tunes how much the unit's revision process weights others' preferences against its own. Affiliation is the Reviser motivation installed at Primate; this knob parameterizes it. Retires at the Ch 11 retrospective (Lisa pulls the identical-copy from the humanoid board's slot 4 to the trophy shelf with Mira, hands-on ceremony); symbolic-knob-4 takes the freed slot at the Ch 12 week-1 swap.
@@ -332,12 +332,12 @@ Adjacent pairs going clockwise from the top of the Venn.
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
 | Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
-| Mammal | Coping Style | Experiencing Style | Remembering Style | Chronotype |
-| Vertebrate | Coping Style | Development Rate | Home Type | Chronotype |
-| Bilaterian | Affective Style | Foraging Type | Home Type | Chronotype |
-| Eumetazoa | Respiration Type | Foraging Type | Home Type | Arousal Type |
-| Eukaryote | Respiration Type | Foraging Type | Energy-Production Type | Acquisition Type |
-| Prokaryote | Respiration Type | Taxis Type | Enclosure Type | Acquisition Type |
+| Mammal | Coping Style | Experiencing Style | Remembering Style | Credit Style |
+| Vertebrate | Coping Style | Development Rate | Home Type | Credit Style |
+| Bilaterian | Affect | Foraging Type | Home Type | Credit Style |
+| Eumetazoa | Respiration Type | Foraging Type | Home Type | Chronotype |
+| Eukaryote | Respiration Type | Foraging Type | Production Type | Acquisition Type |
+| Prokaryote | Respiration Type | Life-History Type | Enclosure Type | Acquisition Type |
 | Protocell | Throughput Type | Aging Type | Enclosure Type | Acquisition Type |
 
 ### Triple labels by level
@@ -346,17 +346,17 @@ Triples named by which row-slot's motivation is absent.
 
 | Level | Planner (Effector absent) | Pursuer (Regulator absent) | Reactor (Modeler absent) | Conservator (Reviser absent) |
 |-------|---------------------|---------------------|---------------------|-------------------------|
-| Empire-Human | Branding | Extracting | Conquering | Standardizing |
+| Empire-Human | Stories | Extracting | Conquering | Standardizing |
 | City-Human | Distributing | Crime | Farming | Standardizing |
 | Settlement-Human | Wealth | Alloparenting | Farming | Norms |
 | Band-Human | Standing | Alloparenting | Meat Pooling | Collaborative Fission |
 | Primate | Standing | Tactical Deceit | Triadic Awareness | Autonomous Cognition |
-| Mammal | Reflective Cognition | Algorithmic Cognition | Assign Temporal Credit | Autonomous Cognition |
-| Vertebrate | Gut Sense | Approach | Assign Temporal Credit | Procedural Memory |
-| Bilaterian | Allostatic Regulation | Approach | Associative Learning | Inhibition |
+| Mammal | Reflective Cognition | Algorithmic Cognition | Temporal Credit | Autonomous Cognition |
+| Vertebrate | Gut Sense | Steering | Temporal Credit | Procedural Memory |
+| Bilaterian | Allostatic Regulation | Steering | Associative Learning | Inhibition |
 | Eumetazoa | Allostatic Regulation | Ingestion | Non-Associative Learning | Intracellular Transport |
-| Eukaryote | Memory Beyond Adaptation | Phagocytosis | State-Dependent Gating | Intracellular Transport |
-| Prokaryote | Anticipatory Responding | Precision Machinery | State-Dependent Gating | Cross-Modal Integration |
+| Eukaryote | Memory Beyond Adaptation | Phagocytosis | Taxis | Intracellular Transport |
+| Prokaryote | Sequential Responding | Precision Machinery | Taxis | State Gating |
 | Protocell | Operational Closure | Precision Machinery | Phenotypic Plasticity | Reproduction |
 
 ### Signatures by level

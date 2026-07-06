@@ -62,7 +62,7 @@ Section 2 below gives per-chapter argument structures for all five of Lisa's sub
 - The four cybernetic functions: Effector, Regulator, Modeler, Reviser.
 - The four capacities: the Planner, the Reactor, the Pursuer, the Conservator.
 - The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Attention, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Trust.
-- The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Boldness, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
+- The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Impetus, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
 - The three goos: Boltzmann goo, affective goo, Shannon goo.
 
 **Cited authors and traditions Lisa anchors in.**
@@ -176,15 +176,15 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 
 ### Clade block step 2 — Tendencies (with Burns)
 
-> TODO: Lisa's Bilaterian tendencies — functional description of what Bilaterian-Bramble does behaviorally (the Effector/Boldness tendencies: directed head-first locomotion, approach/withdrawal under affective valence, Pavlovian conditioning on perceptions, consistent individual differences in boldness) and what falls out of a steering control architecture (the Attention breakthrough, Bennett's Steering) arriving; anchor in `bramble_specs`, `Inheritance_Lines_neuronal`, and `chapter_plan_neuronal`.
+> TODO: Lisa's Bilaterian tendencies — functional description of what Bilaterian-Bramble does behaviorally (the Effector/Impetus tendencies: directed head-first locomotion, approach/withdrawal under affective valence, Pavlovian conditioning on perceptions, consistent individual differences in impetus) and what falls out of a steering control architecture (the Attention breakthrough, Bennett's Steering) arriving; anchor in `bramble_specs`, `Inheritance_Lines_neuronal`, and `chapter_plan_neuronal`.
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
-> TODO: Lisa names the active motivations at Bilaterian in CS-native register — Boldness (new, Effector), Coordination, Interiority, Excitability (carried from the genetic line) — and what Boldness parameterizes; presents the signatures — Connector (Temperament), newly present as the neuronal-line Effector motivation couples with the carried Modeler motivation; Operator carried from the genetic line (Behavioral Syndrome arrives at Vertebrate).
+> TODO: Lisa names the active motivations at Bilaterian in CS-native register — Impetus (new, Effector), Coordination, Interiority, Excitability (carried from the genetic line) — and what Impetus parameterizes; presents the signatures — Connector (Temperament), newly present as the neuronal-line Effector motivation couples with the carried Modeler motivation; Operator carried from the genetic line (Behavioral Syndrome arrives at Vertebrate).
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
-> TODO: Lisa's software pitch for knob-1 repurposed (Effector, Persistence → Boldness; the neuronal knob-1 reads out at the Explorer as **Credit Style**, a short-horizon↔long-horizon dial — how far back the unit's credit-assignment machinery looks before deciding what caused what — not a wide/narrow play/work dial, and not a clock: wake/sleep timing runs on the emergent allostatic process installed at Eumetazoa, not on this knob) — what the repurposed founding knob now parameterizes in the model and how it builds on the genetic-line knob; the framework's first cross-line handoff.
+> TODO: Lisa's software pitch for knob-1 repurposed (Effector, Persistence → Impetus; the neuronal knob-1 reads out at the Explorer as **Orienting Style**, a short-horizon↔long-horizon knob — whether the unit orients on the recent or falls back to home-seeking — not a wide/narrow play/work dial, and not a clock: wake/sleep timing runs on the emergent allostatic process installed at Eumetazoa, not on this knob) — what the repurposed founding knob now parameterizes in the model and how it builds on the genetic-line knob; the framework's first cross-line handoff.
 
 ### Bramble block step 3 — Retirement-transition ritual (with Mira)
 
@@ -197,7 +197,7 @@ Each Trellis-block step 3 subsection uses this template where applicable:
 **Sequence.**
 
 1. Debut the formalized clade-Venn. Lisa presents the Venn-diagram format she's been building since last quarter: the clade's motivations, tendencies, and capacities in their structural positions. The format draws on Burns's Good/Fast/Cheap Venn (used a few weeks back as a teaching tool); Lisa saw it could carry the architectural picture from her Ch 4 bramble-diagram pitch. The team adopts the format. Bart will remake the prior cards in this layout.
-2. Open by distinguishing this retirement from the within-line ones. Persistence has retired. The neuronal line's Effector motivation (Boldness) installs.
+2. Open by distinguishing this retirement from the within-line ones. Persistence has retired. The neuronal line's Effector motivation (Impetus) installs.
 3. Explain why this is a line boundary, not within-line elaboration. The Effector motivation changing means the line's selection target has changed. At the genetic line, selection acts on differential reproductive success. At the neuronal line, selection acts on forward action under affective valence. The framework's hardest-to-grasp move.
 4. Name the goo change. The genetic line works on Boltzmann goo (thermodynamic disequilibrium). The neuronal line works on affective goo (affective and motivational structure produced by sensorimotor reentrant signaling). The two are different in kind, not in degree.
 5. Walk the line-boundary mechanism. Lisa fabricated a new board for the tetrapod chassis, identical to the Roomba's — same four slots. She installed identical-copy genetic-knobs 2, 3, and 4 in slots 2, 3, and 4 of the new board; neuronal-knob-1 installs in slot 1. The original Roomba board with all four original genetic knobs stays on the original chassis and goes on running. Genetic-knob-1 (Persistence) retires lineage-level at this chapter: no physical knob is pulled from either board. Genetic-knobs 2, 3, 4 stay active in their slots on the new board and will retire one per quarter across Ch 6–8.
@@ -224,7 +224,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
-> TODO: Lisa names the active motivations at Vertebrate — Boldness, Mastery (new, Regulator), Interiority, Excitability — what Mastery parameterizes; presents the signatures — Operator (Behavioral Syndrome), newly present, coupling the Regulator motivation with the Reviser motivation; Connector (Temperament), carried from Bilaterian.
+> TODO: Lisa names the active motivations at Vertebrate — Impetus, Mastery (new, Regulator), Interiority, Excitability — what Mastery parameterizes; presents the signatures — Operator (Behavioral Syndrome), newly present, coupling the Regulator motivation with the Reviser motivation; Connector (Temperament), carried from Bilaterian.
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
@@ -265,7 +265,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
-> TODO: Lisa names the active motivations at Mammal — Boldness, Mastery, Autonomy (new, Modeler), Excitability — what Autonomy parameterizes; presents the signatures — Connector (Self-Model), newly present, coupling the Modeler function with the Effector motivation carried from Bilaterian; Operator (Behavioral Syndrome), carried from Vertebrate. Attachment-theory depth (Bowlby) is Marge's, not Lisa's.
+> TODO: Lisa names the active motivations at Mammal — Impetus, Mastery, Autonomy (new, Modeler), Excitability — what Autonomy parameterizes; presents the signatures — Connector (Self-Model), newly present, coupling the Modeler function with the Effector motivation carried from Bilaterian; Operator (Behavioral Syndrome), carried from Vertebrate. Attachment-theory depth (Bowlby) is Marge's, not Lisa's.
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
@@ -306,7 +306,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 ### Clade block step 3 — Motivations and signatures (with Marge)
 
-> TODO: Lisa names the active motivations at Primate — Boldness, Mastery, Autonomy, Affiliation (new, Reviser) — what Affiliation parameterizes; presents the signatures — Operator (Sociometer), newly present, coupling the Regulator motivation with the Reviser motivation; Connector (Self-Model), carried from Mammal. Sociometer-as-psychology-trait depth is Marge's, not Lisa's.
+> TODO: Lisa names the active motivations at Primate — Impetus, Mastery, Autonomy, Affiliation (new, Reviser) — what Affiliation parameterizes; presents the signatures — Operator (Sociometer), newly present, coupling the Regulator motivation with the Reviser motivation; Connector (Self-Model), carried from Mammal. Sociometer-as-psychology-trait depth is Marge's, not Lisa's.
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
@@ -318,7 +318,7 @@ Note. Lisa also contributes to the Pavlov round in Marge's segment this chapter 
 
 ### Trellis block step 3 — Current Trellis framework
 
-**Central claim.** Excitability at the Reviser slot has eclipsed. Affiliation installs. The neuronal line is architecturally complete. The four flag-carriers at Primate (Boldness, Mastery, Affiliation, Autonomy) are the framework's clearest worked case of a complete relay. The next chapter is a line boundary.
+**Central claim.** Excitability at the Reviser slot has eclipsed. Affiliation installs. The neuronal line is architecturally complete. The four flag-carriers at Primate (Impetus, Mastery, Affiliation, Autonomy) are the framework's clearest worked case of a complete relay. The next chapter is a line boundary.
 
 **Sequence.**
 

@@ -36,7 +36,7 @@ The family arrives at the retrospective in coordinated meme shirts, each showing
 - **Jasmine:** "MILF: Man I Love Fossils"
 - **Burns:** styled as a tarot card — "The Fool"
 
-Jasmine and Mira arrive for the retrospective, so the shirts surface there, with Burns already in his. Log to book_inventions at draft time. "The Fool" reads Boldness-coded (the leap onto land — Ch 5's motivation) more than Mastery; the friction is kept on purpose (the master paleontologist dressed as the Fool), and it is weather, not theme.
+Jasmine and Mira arrive for the retrospective, so the shirts surface there, with Burns already in his. Log to book_inventions at draft time. "The Fool" reads Impetus-coded (the leap onto land — Ch 5's motivation) more than Mastery; the friction is kept on purpose (the master paleontologist dressed as the Fool), and it is weather, not theme.
 
 ## Status
 

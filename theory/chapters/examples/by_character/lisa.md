@@ -1585,11 +1585,11 @@ She let it sit.
 
 "It is the dumb kind," Marge said. "The dumb kind keeps a cleaner ledger than you do."
 
-### Boldness
+### Impetus
 
-**"Motivations,"** Lisa said. **"One new one this clade, and it's the engine under all of it. Boldness. The Effector. Steering only earns its keep if the animal actually ventures — a steering animal that won't go forward gets nothing for the architecture. Boldness is the go-forward. It sits where Persistence used to sit—"** she paused, half a beat, the way she paused holding a thing for later **"—which is what we have to talk about in the third block, so I'll leave it there. The other three ride up from the genetic line: Coordination, Interiority, Excitability. Same as they were, doing their jobs underneath."**
+**"Motivations,"** Lisa said. **"One new one this clade, and it's the engine under all of it. Impetus. The Effector. Steering only earns its keep if the animal actually ventures — a steering animal that won't go forward gets nothing for the architecture. Impetus is the go-forward. It sits where Persistence used to sit—"** she paused, half a beat, the way she paused holding a thing for later **"—which is what we have to talk about in the third block, so I'll leave it there. The other three ride up from the genetic line: Coordination, Interiority, Excitability. Same as they were, doing their jobs underneath."**
 
-**"And one new signature. Temperament. It's what you get when the go-forward, Boldness, pulls against the inside — the picture the animal carries of itself and its world, Interiority. Couple those two and you get the animal's standing tilt: how bold it runs at rest, before anything's happened to it. Its baseline weather. The old signature carries forward too — Reflex Repertoire, the animal's stock of automatic answers — but that one changes its name next quarter, so don't get attached."**
+**"And one new signature. Temperament. It's what you get when the go-forward, Impetus, pulls against the inside — the picture the animal carries of itself and its world, Interiority. Couple those two and you get the animal's standing tilt: how bold it runs at rest, before anything's happened to it. Its baseline weather. The old signature carries forward too — Reflex Repertoire, the animal's stock of automatic answers — but that one changes its name next quarter, so don't get attached."**
 
 "There's a worm experiment for that one too," Burns said, "or there should be, and if it's been run the way I want it run, I've never seen it. Lay a strip of copper across the middle of the dish — they hate copper, it's a wall to them — and put something they want on the far side, a smell worth crossing for. Thin strip, they all cross. Thick strip, none of them. Set it right in the middle, half a wall, and half the dish crosses and half stays put." He leaned in, too far, the way he did. "Here's what I'd bet the house on, and I don't think it's ever been watched the way I want it watched: track the same animals, run after run. I say the half that crosses is the same half. Not the dice coming up different each time — the same worms crossing and the same worms holding back, a standing difference in how much wall a wanting is worth to them. Bold worms and shy worms. Three hundred and two neurons apiece, the same genes in every one, and a temperament you could call by name if you watched it long enough."
 
@@ -1695,7 +1695,7 @@ Lisa capped the household talk, stood, and took the marker, which meant the fram
 
 **"I've had a picture since last spring I couldn't get to sit still — the four jobs the whole thing runs on. It kept wanting to be a list, and the list kept lying, because the four jobs aren't a list. They overlap."** She wiped the corner and started again, large, center of the board: four circles crossing each other the way Burns's three had, labeling each as she went. Effector. Regulator. Modeler. Reviser. **"Your diagram with one more circle. Same rule — the more of them a thing needs at once, the rarer it is, and the more particular."**
 
-**"One circle by itself is a motivation. One drive, the simplest thing on the board. Boldness, here, at the Effector — the new one. Coordination. Interiority. Excitability. Four circles, four drives. The floor."**
+**"One circle by itself is a motivation. One drive, the simplest thing on the board. Impetus, here, at the Effector — the new one. Coordination. Interiority. Excitability. Four circles, four drives. The floor."**
 
 She set the marker down, which for Lisa was punctuation. **"Now. Every quarter Bart stands up and gives you the cool tricks. Four of them, every time, off a card, like a list. I want to show you they were never a list."**
 
@@ -1717,7 +1717,7 @@ Burns was looking at the sliver like it was something pressed in shale. "Half a 
 
 "I want it on the cards," Bart said — which was how the room learned he'd come all the way around. "The old ones too. I'll redo them in this."
 
-**"From the next one on, every card carries it."** She capped the marker. And then she didn't put it down, because there was one circle she wasn't finished with. **"One more thing, and it's the big one. This label"** — she touched Boldness, at the Effector — **"is the only new word on the board tonight. And it's new in a way none of the others have ever been new. That's the last thing I've got for you."**
+**"From the next one on, every card carries it."** She capped the marker. And then she didn't put it down, because there was one circle she wasn't finished with. **"One more thing, and it's the big one. This label"** — she touched Impetus, at the Effector — **"is the only new word on the board tonight. And it's new in a way none of the others have ever been new. That's the last thing I've got for you."**
 
 ### Goo
 
@@ -1727,7 +1727,7 @@ Burns was looking at the sliver like it was something pressed in shale. "Half a 
 
 "Say what changed," Marge said. "Plainly."
 
-**"What got selected changed. The whole genetic line, first crank to last year, got picked on exactly one thing: who left more copies of itself behind. That's the only scoreboard the genes ever read. More of you tomorrow than today. Persistence won on that board four clades running."** She moved off the Effector. **"Boldness doesn't win on that board. Boldness wins on a different one — whether the thing steers. Whether it goes forward, on purpose, toward the good and off the bad, under a signal that tells it which is which. Not who had the most children. Who pointed themselves at the right thing and went."**
+**"What got selected changed. The whole genetic line, first crank to last year, got picked on exactly one thing: who left more copies of itself behind. That's the only scoreboard the genes ever read. More of you tomorrow than today. Persistence won on that board four clades running."** She moved off the Effector. **"Impetus doesn't win on that board. Impetus wins on a different one — whether the thing steers. Whether it goes forward, on purpose, toward the good and off the bad, under a signal that tells it which is which. Not who had the most children. Who pointed themselves at the right thing and went."**
 
 Jasmine had been quiet the whole framework. "So the genes stop counting," she said. "It's the brain's turn now. The body did its part."
 

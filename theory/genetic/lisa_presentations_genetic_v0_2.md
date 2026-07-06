@@ -62,7 +62,7 @@ Section 2 below gives per-chapter argument structures for all five of Lisa's sub
 - The four cybernetic functions: Effector, Regulator, Modeler, Reviser.
 - The four capacities: the Planner, the Reactor, the Pursuer, the Conservator.
 - The breakthroughs: Natural Selection, Predation, Scale & Size, Neurons, Attention, Reinforcing, Simulating, Mentalizing, Speaking, Common Knowledge, Codes, Trust.
-- The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Boldness, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
+- The primary motivations: Persistence, Dissipation, Self-Organization, Self-Production, Coordination, Interiority, Excitability, Impetus, Mastery, Autonomy, Affiliation, Commitment, Stability, Representation, Universality.
 - The three goos: Boltzmann goo, phenomenal goo, Shannon goo.
 
 **Cited authors and traditions Lisa anchors in.**
@@ -336,7 +336,7 @@ Slot dropped at Ch 1. No knob retires at the founding cell. No knob retires at C
 
 ### Bramble block step 2 — New-knob software pitch (with Bart)
 
-> TODO: Lisa's software pitch for genetic knob-4 (Reviser, Home Type; household-facing Spot Type) — what it parameterizes (spot preference: comfy/warm-spot via the heat sensor vs active/activity-spot via floor-vibration sensing), a categorical toggle like the prior genetic knobs. Genetic knob-4 installs in board slot 4, the genetic-line board's last empty slot. The open framework question — whether the Reviser at Ch 4 lives on the same board or in a separate architecture — is resolved: same board, slot 4. The board is one substrate carrying all four genetic functions. The relay analogy framing (around the bramble-diagram pitch later in this chapter) carries information between layers in the cognitive stack; it is not about knob migration.
+> TODO: Lisa's software pitch for genetic knob-4 (Reviser, Home Type; household-facing Spot Type) — what it parameterizes (spot preference: comfy/warm-spot via the heat sensor vs active/activity-spot via floor-vibration sensing), a knob like the prior genetic knobs. Genetic knob-4 installs in board slot 4, the genetic-line board's last empty slot. The open framework question — whether the Reviser at Ch 4 lives on the same board or in a separate architecture — is resolved: same board, slot 4. The board is one substrate carrying all four genetic functions. The relay analogy framing (around the bramble-diagram pitch later in this chapter) carries information between layers in the cognitive stack; it is not about knob migration.
 
 ### Bramble block step 3 — Retirement-transition ritual (with Mira)
 

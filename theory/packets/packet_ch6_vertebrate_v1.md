@@ -122,14 +122,14 @@ Voice-frame; brief stage-management beat.
 ### Environment and tendencies
 
 - MANDATORY: **Deep-time environment.** The Devonian water-to-land transition (Tiktaalik, ~375 Ma); warm, hot-humid Devonian; shallow seas, swamps, and tidal-floodplain margins; oxygen rising; the lineage running jawless fish to jawed to lobe-finned to tetrapods, against a Late-Devonian mass-extinction backdrop. Burns's research domain. *Examples: Section D deep-time cluster.*
-- MANDATORY: **Tendencies in functional language.** What falls out of the architecture: trial-and-error skill acquisition, learning from action-outcome contingency, fast risk assessment. The card's tendency regions carry Coping Style (Controller), Development Style (Anticipator), Home Type (Adapter), and Credit Style (Explorer); Credit Style carries from Bilaterian. *Examples: Section D behavior cluster.*
+- MANDATORY: **Tendencies in functional language.** What falls out of the architecture: trial-and-error skill acquisition, learning from action-outcome contingency, fast risk assessment. The card's tendency regions carry Coping Style (Controller), Development Style (Anticipator), Home Type (Adapter), and Orienting Style (Explorer); Orienting Style carries from Bilaterian. *Examples: Section D behavior cluster.*
 - MANDATORY: **Coping Style is co-central** (Controller, Effector×Regulator): proactive versus reactive engagement. Koolhaas's two-tier coping architecture, sorting on the SNS-HPA ratio, dopamine the coupling neuromodulator. One of the chapter's two co-central constructs (with actor-critic RL).
 - MANDATORY: **Development Style** (Anticipator) carries pace-of-life / life-history-strategy content, at roughly Behavioral Syndrome's weight but with an explicitly **lighter touch** given the contested research basis. Réale's pace-of-life is the anchor here.
 - LOAD-BEARING: **Clade-side mirror for the retired knob going autonomic.** **CANDIDATE FOR ANCESTOR SASS.** A regulatory choice the lineage once held under explicit control becomes submerged into autonomic central regulation at the vertebrate grade — the discharge balance (sustained-aerobic versus burst-anaerobic energy mobilization) run automatically by the autonomic nervous system, below any willing. This grounds the retired-knob theme and rhymes with the cross-line Regulator-retirement analogue in the Trellis block; the robot's instantiation (genetic knob-2 retiring to autonomic steady-or-dash selection) is a Bramblogues callback. EMPIRICAL ANCHOR PENDING FRAMEWORK RE-SOURCE: the prior O₂-homeostasis mirror and its citations are pulled (wrong sense of respiration — external/breathing rather than cellular aerobic/anaerobic); the biology to source is the autonomic gating of energy mobilization. Not scene prose until re-anchored.
 
 ### Motivations and signatures
 
-- MANDATORY: **Active motivations** (Lisa's CS-native register): Boldness (Effector, carryover), **Mastery** (Regulator, NEW), Interiority (Modeler, carryover), Excitability (Reviser, carryover). Coordination eclipses at the Regulator; Mastery installs. What Mastery does in the model: it puts the unit in the business of improving its own action selection — skill rather than bare response.
+- MANDATORY: **Active motivations** (Lisa's CS-native register): Impetus (Effector, carryover), **Mastery** (Regulator, NEW), Interiority (Modeler, carryover), Excitability (Reviser, carryover). Coordination eclipses at the Regulator; Mastery installs. What Mastery does in the model: it puts the unit in the business of improving its own action selection — skill rather than bare response.
 - MANDATORY: **Signatures** (literature-anchored names): Connector (Effector×Modeler) = **Temperament**, carryover from Bilaterian. Operator (Regulator×Reviser) = **Behavioral Syndrome**, NEW — Mastery coupled with Excitability, correlated trait suites across contexts (Sih, Bell & Johnson 2004). Behavioral Syndrome is **secondary to Coping Style**.
 - MANDATORY: the word "personality" does not appear (held for Ch 8). Class noun for the four is "capacity." No R-numbers.
 
@@ -145,7 +145,7 @@ Voice-frame; brief stage-management beat.
 
 - MANDATORY: the live tetrapod doing this cell's capacities, shown at the table:
   - **Operant learning** — the thumbs now shape actions, not just perceptions (the robot's Temporal Credit): a behavior trained in this quarter, a behavior trained out. *Examples drawn from the quarter's record.*
-  - **Coping Style, visible** — the knob-2 setting produces a proactive or reactive style; knob-1 (Time Type) and knob-2 combine into recognizable Brambles.
+  - **Coping Style, visible** — the knob-2 setting produces a proactive or reactive style; knob-1 (Orienting Style) and knob-2 combine into recognizable Brambles.
   - **Gut Sense, visible** — the tetrapod breaks off an activity on an internal signal, reading from outside like a gut feeling that it is time to refuel.
   - **Procedural Memory** — practiced behavior runs automatically; the Ch 6 gloss is "second nature."
   - **Automatic discharge (retired-knob callback)** — the tetrapod chooses steady or dash, which store it spends from, autonomically, keyed to its internal energy state. It is automatic regulation, not willed, and it is the robot's version of the clade-side mirror above.
@@ -244,7 +244,7 @@ Voice-frame; standing defaults (Jasmine drives Mira and Bramble home; dark windo
 ## Memory board and slots
 
 - **Board** — CARRIED. Tetrapod's own four-slot memory board in the sealed trunk, fabricated by Lisa, identical in layout to the vacuum's. Holds a copy of the lineage's full history to the duplication moment.
-- **Slot 1** — CARRIED. Neuronal knob-1, Credit Style, installed at Bilaterian.
+- **Slot 1** — CARRIED. Neuronal knob-1, Orienting Style, installed at Bilaterian.
 - **Slot 2** — CARRIED (came online at the Ch 6 swap). Neuronal knob-2, **Coping Style**, installs the primary motivation **Mastery** (Regulator). Took the slot the Ch 5 ceremony freed.
 - **Genetic knob-2 (Respiration Type)** — ECLIPSED. Physically retired from slot 2 to the trophy shelf at the Ch 5 retrospective, hands-on with Mira — the shelf's first resident. Its function has run as automatic regulation all quarter (see Computation).
 - **Slot 3** — CARRIED, retiring at this retrospective. Identical-copy genetic knob-3 (Foraging), the oldest knob on the board — pulled to the trophy shelf at the hands-on ceremony (second resident), forward-staging the Ch 7 swap install of neuronal knob-3.

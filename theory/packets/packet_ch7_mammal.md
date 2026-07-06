@@ -27,7 +27,7 @@
 - MANDATORY: Lunch — intimate, one-on-one (partner and restaurant Voice-owned).
 
 **Section B — Chapter 7**
-- MANDATORY: Modeler motivation **Autonomy** installs at the Modeler slot; Boldness, Mastery, Excitability persist.
+- MANDATORY: Modeler motivation **Autonomy** installs at the Modeler slot; Impetus, Mastery, Excitability persist.
 - MANDATORY: two new tendencies — **Experiencing Style** (Anticipator, Regulator × Modeler) and **Remembering Style** (Adapter, Modeler × Reviser).
 - MANDATORY: three new capacities (Stanovich tri-process) — **Autonomous Cognition** (Conservator / Type 1), **Reflective Cognition** (Planner / Type 3), **Algorithmic Cognition** (Pursuer / Type 2). Temporal Credit (Reactor) carries from Vertebrate and is not new.
 - MANDATORY: the **Self-Model** signature newly present at the Connector (Effector × Modeler); Behavioral Syndrome carries at the Operator.
@@ -144,7 +144,7 @@
 - MANDATORY: tendencies in functional language — what falls out of a separable generative model arriving: off-line counterfactual simulation, episodic memory of specific events, internal playback, modeling other agents, attachment behavior, allostatic body-budget regulation. Name the cell's **two new tendencies**: **Experiencing Style** (Anticipator, Regulator × Modeler — the experiencing self) and **Remembering Style** (Adapter, Modeler × Reviser — the remembering self). *(Section D behavior cluster. Bowlby/attachment depth is Marge's; Lisa keeps the architecture.)*
 
 **Motivations and signatures (Lisa + Marge)**
-- MANDATORY: active motivations at Mammal, Lisa's CS-native register — Boldness (Effector), Mastery (Regulator), **Autonomy** (Modeler, new), Excitability (Reviser). Autonomy parameterizes the modeling layer's orientation toward its own generative field — acting on internal models rather than on immediate environmental contingencies.
+- MANDATORY: active motivations at Mammal, Lisa's CS-native register — Impetus (Effector), Mastery (Regulator), **Autonomy** (Modeler, new), Excitability (Reviser). Autonomy parameterizes the modeling layer's orientation toward its own generative field — acting on internal models rather than on immediate environmental contingencies.
 - MANDATORY: signatures — the Connector (Effector × Modeler) is **Self-Model**, new this cell (the modeled agent that pairs with Simulating); the Operator (Regulator × Reviser) is **Behavioral Syndrome**, carried from Vertebrate. Marge carries the attachment reading — the relational component of the Self-Model and the experiencing-self under Experiencing Style (Bowlby, Ainsworth) — as her territory, not Lisa's.
 
 ### Bramble block `MANDATORY ORDER`
@@ -248,7 +248,7 @@
 - **Internal division of space:** NEW warm-core / cool-zone split — the insulated core holds the tanks and power electronics; the compute, memory board, and knob bank sit OUTSIDE the core, running cool, where processing works best and the household can still reach the knobs. Most of the new generative-model processing is concentrated in the upper-body cavity behind the cameras. CARRIED sealed trunk compartment housing the four knob slots.
 - **Mounting & integration:** CARRIED memory-board mounting in the sealed trunk. NEW furnace integration (compressor, vortex manifold, insulated core) into the chassis interior.
 - **Materials & finish:** CARRIED brushed-plastic shell over articulated metal frame. NEW core insulation; the shell now warm to the touch.
-- **Memory board & slots:** the tetrapod's four-slot board (Lisa-fabricated at Ch 5). Slot 1 — neuronal knob-1, Credit Style (Effector), CARRIED from Bilaterian. Slot 2 — neuronal knob-2, Coping Style (Regulator), CARRIED from Vertebrate. Slot 3 — neuronal knob-3, **Experiencing Style (Modeler), NEW** this version (installed at the week-1 swap, displacing the identical-copy genetic knob-3). Slot 4 — identical-copy genetic knob-4, Spot Type, CARRIED — **the oldest knob on the board**, retired at this retrospective's ceremony (forward-staging the Ch 8 swap).
+- **Memory board & slots:** the tetrapod's four-slot board (Lisa-fabricated at Ch 5). Slot 1 — neuronal knob-1, Orienting Style (Effector), CARRIED from Bilaterian. Slot 2 — neuronal knob-2, Coping Style (Regulator), CARRIED from Vertebrate. Slot 3 — neuronal knob-3, **Experiencing Style (Modeler), NEW** this version (installed at the week-1 swap, displacing the identical-copy genetic knob-3). Slot 4 — identical-copy genetic knob-4, Spot Type, CARRIED — **the oldest knob on the board**, retired at this retrospective's ceremony (forward-staging the Ch 8 swap).
 - **Algorithm state:** NEW **separable generative model** (hidden states, with likelihood / transition / preference components updatable independently of the action policy), episodic-memory store, off-line simulation engine running during low-cognition periods (including overnight), and a working-memory buffer holding entities across moments. NEW: System 2 becomes available with the generative model (the algorithmic and reflective minds). CARRIED: the Evo-Algo (System 0) and consolidation (on since Ch 4; knob-function learning since Ch 6); procedural memory; the automatic Respiration Type policy. NEW automatic explore/exploit (the retired genetic knob-3 foraging function; see VERBATIM above).
 
 ---

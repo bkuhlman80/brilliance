@@ -194,7 +194,7 @@ The Reviser motivation of each line names the goo each line ratchets. The Effect
 | Line | Reviser goo-ratchet | Darwin-on-goo | Effector outcome |
 |--------|--------------------|---------------------|------------|
 | Genetic | Self-Production (Boltzmann goo) | thermodynamic selection | Persistence |
-| Neuronal | Excitability (Friston goo) | prediction-error selection | Boldness |
+| Neuronal | Excitability (Friston goo) | prediction-error selection | Impetus |
 | Symbolic | Affiliation (Shannon goo) | exchange-based selection | Commitment |
 
 The mapping at genetic is cleanest. Self-Production directly names Deacon's teleodynamic goo-ratchet work. The mappings at neuronal and symbolic require reading Excitability as FEP-flavored active engagement and Autonomy as self-revising symbolic constraint. These require interpretation, but they are not strained. Framework concepts often unify multiple aspects of a phenomenon.
@@ -287,7 +287,7 @@ Expected free energy decomposes into two terms, and minimizing it maximizes both
 
 **Epistemic value** is the drive to reduce uncertainty about hidden states — expected information gain. It is exploration.
 
-Epistemic value has a structural precondition: a generative model with uncertainty that observations can lower. **[framework]** Without a model, there is nothing to be curious about, and minimizing free energy collapses to the pragmatic term alone. The genetic clades have shallow umwelts and almost no resolvable distal uncertainty, so they run on pragmatic value with the epistemic term near zero. The neuronal clades build models deep in space and time, and the epistemic term switches on and becomes worth paying for. Boldness is the disposition to pay for it — to incur pragmatic risk to sample the uncertain — which is why it is the neuronal line's founding Effector motivation.
+Epistemic value has a structural precondition: a generative model with uncertainty that observations can lower. **[framework]** Without a model, there is nothing to be curious about, and minimizing free energy collapses to the pragmatic term alone. The genetic clades have shallow umwelts and almost no resolvable distal uncertainty, so they run on pragmatic value with the epistemic term near zero. The neuronal clades build models deep in space and time, and the epistemic term switches on and becomes worth paying for. That epistemic drive belongs to the Reviser: Excitability is the disposition to incur pragmatic risk to sample the uncertain, and because epistemic value needs a model to be curious about, it comes fully online at Mammal.
 
 The honest scope of the claim: behavior in both lines stays mostly pragmatic moment to moment, and exploration largely serves later exploitation. **[framework]** What the neuronal line adds is not a majority of epistemic behavior but the *arrival* of epistemic value as a first-class, tunable driver — the explore-exploit balance becomes a dial, which is what the neuronal line's temperature and entropy-bonus settings tune. The genetic line cannot carry that dial, because it has no model whose uncertainty the dial would trade against.
 
@@ -297,7 +297,7 @@ This maps onto the Venn below: the neuronal line is the Regulator line, and the 
 
 Two patterns present themselves. One tempts and fails; the other survives.
 
-**The ABA value pattern.** **[rejected as a line-level claim]** It is tempting to read pragmatic → epistemic → pragmatic across the three lines and call the symbolic line a return to the genetic. This holds only at the Effector, whose verbs do run pragmatic-epistemic-pragmatic — persist, then venture, then commit. It fails at the level of the line. The symbolic line's defining achievement is unbounded reflexivity, the peak of the modeling-and-revising axis, which is the opposite of a pragmatic recapitulation. The symbolic line is the least recapitulative line, not the most. The reason the genetic and symbolic lines *feel* paired is given correctly by the next pattern, not this one.
+**The ABA value pattern.** **[rejected as a line-level claim]** It is tempting to read pragmatic → epistemic → pragmatic across the three lines and call the symbolic line a return to the genetic. This holds only at the Effector, whose verbs do run pragmatic-epistemic-pragmatic — persist, then seize, then commit. It fails at the level of the line. The symbolic line's defining achievement is unbounded reflexivity, the peak of the modeling-and-revising axis, which is the opposite of a pragmatic recapitulation. The symbolic line is the least recapitulative line, not the most. The reason the genetic and symbolic lines *feel* paired is given correctly by the next pattern, not this one.
 
 **The reflexivity square.** **[framework]** Reflexivity does grow across the lines, but reading it as a single ordinal — more reflexive, then more again — is what kept it thin. It resolves into two independent bits. *Sight* is whether a line's variation can be about the line itself: blind at the genetic line, unblinded once a model intervenes. *Binding* is whether reflexive operation is bounded: closed at the genetic and neuronal lines, unbounded once symbols take their own operations as objects without limit. The four cybernetic functions are the four corners of the square these two bits define, and at the scale of the lines the same square is the Venn of lines — the structure that survives, laid out in full below. Two bits, not one ordinal, is what explains why there are exactly four corners, why the lines emerge in the order they do, and why the genetic and symbolic lines rhyme.
 
@@ -348,7 +348,7 @@ Three things fall out. First, the fourth corner is forced: a square has four cor
 
 The framework's distinctive architectural contribution: as the bramble grows up the trellis, four parallel relay teams advance simultaneously — one per cybernetic function (Effector, Regulator, Modeler, Reviser). At any rung, four motivations are active, each carrying its team's flag. Each rung is a handoff for exactly one team: a new motivation takes the flag from its same-color predecessor; the predecessor retires into consolidated memory. The other three teams keep their current flag-carriers.
 
-The handoff order is Regulator → Modeler → Reviser → Effector, repeating across the matrix. Across the twelve cells from Protocell through Empires, the cycle runs three full rotations. The Effector handoff is a line boundary (Persistence to Boldness, Boldness to Commitment); at every other handoff the line persists.
+The handoff order is Regulator → Modeler → Reviser → Effector, repeating across the matrix. Across the twelve cells from Protocell through Empires, the cycle runs three full rotations. The Effector handoff is a line boundary (Persistence to Impetus, Impetus to Commitment); at every other handoff the line persists.
 
 The relay is what differentiates ABHOP from adjacent multi-scale-cybernetics work. Levin & Watson supplies multi-scale competency at any moment in time. Maynard Smith & Szathmáry supplies the diachronic story at coarse grain (transitions in individuality). Neither does the work of how the bramble grows. That work is the claim that the bramble at any rung operates with exactly four flag-carriers, one per team, with handoffs between rungs being the mechanism by which the lineage's cybernetic architecture accumulates.
 
@@ -399,6 +399,29 @@ The unified Venn at each cell applies to a specific unit.
 - **Symbolic-line cells.** The unit is the constituent human parameterized by collective context: Band-Human, Settlement-Human, City-Human, Empire-Human. The collective remains the group. The Venn at the symbolic cell tracks the constituent human as unit. See 'Flora and Fauna Across Lines' below for how the collective relates to the human as meme-fauna to personality-flora.
 
 The systematic-analogy rule lets motivations transfer up the stack by structural analogy, not loose metaphor. At symbolic cells the motivations are held by the constituent human. What shifts across cells is which primaries carry flags given collective context. A Band-Human's Commitment is the band-context-conditioned attractor in the same organism that, in a different context, would activate different motivations.
+
+---
+
+### The Twelve Knobs
+
+Each line's four knobs are the household's interface to that line's tendencies — one knob per cybernetic slot, one activated per quarter. Knob-N is the same cybernetic function across all three lines (knob-1 is always the Effector knob), so cross-line callbacks rhyme on the knob number; the slot-label is discipline-bound and changes at each line boundary. All twelve are the **same shape** — a volume knob, turned up or down.
+
+| Chapter | Line-knob | Cell | Cyb. slot | Motivation | Slot-label (Tendency) | Proper Name | Mira/Bramble rebrand |
+|---|---|---|---|---|---|---|---|
+| 1 | Genetic k-1 | Protocell | Effector | Persistence | Acquisition Type | Going | Live ↔ Dead |
+| 2 | Genetic k-2 | Prokaryote | Regulator | Coordination | Respiration Type | Effort | Sloth ↔ Sprint |
+| 3 | Genetic k-3 | Eukaryote | Modeler | Interiority | Foraging Type | Explore | March ↔ Dance |
+| 4 | Genetic k-4 | Eumetazoa | Reviser | Excitability | Home Type | Action | Warm ↔ Busy |
+| 5 | Neuronal k-1 | Bilaterian | Effector | Impetus | Orienting Style | Orienting | Think ↔ Buzz |
+| 6 | Neuronal k-2 | Vertebrate | Regulator | Mastery | Coping Style | Coping | Beast ↔ Little |
+| 7 | Neuronal k-3 | Mammal | Modeler | Autonomy | Experiencing Style | Attention | Deep ↔ Wide |
+| 8 | Neuronal k-4 | Primate | Reviser | Affiliation | Agreeableness | Agreeable | Respect ↔ Savage |
+| 9 | Symbolic k-1 | Band-Human | Effector | Commitment | Neuroticism | Neurotic | Cancel ↔ Clutch |
+| 10 | Symbolic k-2 | Settlement-Human | Regulator | Stability | Conscientiousness | Conscientious | Preppy ↔ Messy |
+| 11 | Symbolic k-3 | City-Human | Modeler | Representation | Extraversion | Extraverted | Boss ↔ Vibe |
+| 12 | Symbolic k-4 | Empire-Human | Reviser | Universality | Integrity | Honest | Real ↔ Flex |
+
+*Volume-**up** pole, knob 1→12: Live · Sprint · Dance · Busy · Think · Beast · Wide · Respect · Cancel · Preppy · Boss · Real. The other word in each rebrand pair is volume **down**.*
 
 ---
 
@@ -507,7 +530,7 @@ Our framework traces one phylogenetic thread: the specific lineage from protocel
 
 Off-thread lineages (plants, fungi, slime molds, birds, bees, octopi) have their own stacks built from the same architecture, but with different motivations filling the slots above their branching point.
 
-Bees branched at bilaterians, so their stack shares Persistence, Coordination, Interiority, Excitability, and Boldness with the human thread. Above that, bees develop motivations specific to eusocial arthropods, and the lineage stops there because the bee thread did not produce a symbolic line.
+Bees branched at bilaterians, so their stack shares Persistence, Coordination, Interiority, Excitability, and Impetus with the human thread. Above that, bees develop motivations specific to eusocial arthropods, and the lineage stops there because the bee thread did not produce a symbolic line.
 
 This converts an apparent limitation into a feature. Any organism's personality can be analyzed as a 4-sphere active window over its own evolutionary stack. The 4×4 is the case where the lineage runs all the way to symbols. The architecture applies to any thread of life.
 
@@ -715,7 +738,7 @@ This is why the breakthrough at the center is not a fifth motivation. A fifth mo
 
 The four rows of ABHOP's diagram name four cybernetic functions of the unit at every level. Each function has a single role. Together they constitute a complete adaptive control architecture.
 
-**Effector.** The line's executive arm. What makes the unit execute its native verb: persist at the genetic line, venture at the neuronal line, commit at the symbolic line. Effector motivations are the line's primal directives: Persistence, Boldness, Commitment. Action is the row's function. Externalization names the same function viewed from outside the unit: the Effector propagates outward what the Regulator stabilizes, the Modeler models, and the Reviser revises. *Evolutionary signature:* founding form of each line, line present, regulatory layer not yet stabilized.
+**Effector.** The line's executive arm. What makes the unit execute its native verb: persist at the genetic line, seize at the neuronal line, commit at the symbolic line. Effector motivations are the line's primal directives: Persistence, Impetus, Commitment. Action is the row's function. Externalization names the same function viewed from outside the unit: the Effector propagates outward what the Regulator stabilizes, the Modeler models, and the Reviser revises. *Evolutionary signature:* founding form of each line, line present, regulatory layer not yet stabilized.
 
 **Regulator.** Closed-loop stabilization against stored references. The rule both is the setpoint and enforces it; that is why the comparator and the storage are one row, not two. Regulator motivations are what makes the unit's behavior consistent across instances: Dissipation, Coordination, Mastery, Stability. Stabilization is the row's function. *Evolutionary signature:* stored regulation, adjustable rules govern responses without rewriting the underlying structure.
 
@@ -747,7 +770,7 @@ Each adjacent pair is a closed cybernetic loop between two of the four functions
 
 **Modeler × Reviser \= Adapter.** Self-revising model. The model gets updated by the reviser; the reviser proposes updates the model integrates. This is what learning means in the most fundamental sense, model adaptation.
 
-**Reviser × Effector \= Explorer.** Exploratory action. Action that tries new things; results revise what gets tried next. The explore side of explore/exploit.
+**Reviser × Effector \= Explorer.** Exploratory action. Action that tries new things; results revise what gets tried next. The explore side of explore/exploit. The Orienting Style knob sits here and dials recency versus novelty; it is not the explore/exploit dial, which runs exploit (Regulator) to explore (Reviser) — they share the novelty pole and differ on the other.
 
 The four adjacent-pair functions are the four primitive cybernetic loops. Every more complex constellation is a synthesis of these.
 
@@ -807,7 +830,7 @@ The **Connector (Effector × Modeler) pair** hosts Temperament (introduced at Bi
 
 *Epistemic status: documented variation in nerve-net behavior across basal metazoan lineages is empirically established. The placement at the Regulator × Reviser pair at Eumetazoa is a framework theoretical commitment.*
 
-**Temperament (Bilaterian, Effector × Modeler).** Couples Boldness (Effector, just introduced at bilaterians) with Interiority (Modeler, carried from eukaryotes). Behavioral predispositions tied to interior states. This is the founding form of the Effector × Modeler pair, before relational architectures emerge at mammals. Maps to the developmental-psychology temperament tradition (Rothbart; Chess and Thomas; Kagan). Persists at Vertebrate, where Boldness and Interiority both carry.
+**Temperament (Bilaterian, Effector × Modeler).** Couples Impetus (Effector, just introduced at bilaterians) with Interiority (Modeler, carried from eukaryotes). Behavioral predispositions tied to interior states. This is the founding form of the Effector × Modeler pair, before relational architectures emerge at mammals. Maps to the developmental-psychology temperament tradition (Rothbart; Chess and Thomas; Kagan). Persists at Vertebrate, where Impetus and Interiority both carry.
 
 *Epistemic status: temperament as a developmental-psychology construct is empirically well-established. The placement at the Effector × Modeler pair at bilaterians is a framework theoretical commitment.*
 
@@ -817,7 +840,7 @@ The physiological mechanism has three components. The sympathetic nervous system
 
 *Epistemic status: Koolhaas's two-tier architecture is empirically established across multiple vertebrate lineages. The placement at the Regulator × Reviser pair is a framework theoretical commitment.*
 
-**Self-Model (Mammal, Effector × Modeler).** Couples Autonomy (Modeler, just introduced at mammals) with Boldness (Effector, carrying the bilaterian-level instrumental-learning machinery). Self-Model is the mammalian self-representation. The mammalian brain's cortex-plus-hippocampus architecture implements it. It includes representations of the unit as agent and of others as agents. The primary anchors are Bennett's *A Brief History of Intelligence* (2023) and Metzinger's self-model theory of subjectivity. Bowlby's attachment system and its internal-working-model construct give the relational-component reading of the self-model, the modeling of specific others as agents, with the individual-difference variants secure, anxious, avoidant, and disorganized. Squire's episodic memory system and Freud's ego are architectural anchors. Persists at Primate.
+**Self-Model (Mammal, Effector × Modeler).** Couples Autonomy (Modeler, just introduced at mammals) with Impetus (Effector, carrying the bilaterian-level instrumental-learning machinery). Self-Model is the mammalian self-representation. The mammalian brain's cortex-plus-hippocampus architecture implements it. It includes representations of the unit as agent and of others as agents. The primary anchors are Bennett's *A Brief History of Intelligence* (2023) and Metzinger's self-model theory of subjectivity. Bowlby's attachment system and its internal-working-model construct give the relational-component reading of the self-model, the modeling of specific others as agents, with the individual-difference variants secure, anxious, avoidant, and disorganized. Squire's episodic memory system and Freud's ego are architectural anchors. Persists at Primate.
 
 The proposed physiological mechanism parallels the Regulator × Reviser pair mechanism. The fast arm is the parasympathetic nervous system, indexed by vagal tone (resting RSA, HRV, baroreflex sensitivity). The slow arm is the hypothalamic-pituitary-gonadal axis. Gonadal steroids do slow-state-modification work on social and reproductive engagement over weeks to months. Oxytocin and vasopressin signaling operate as the broadcast neuromodulatory coupling layer integrating the fast and slow arms.
 
@@ -857,7 +880,7 @@ Haidt's Moral Foundations Theory is the secondary anchor. It operationalizes the
 
 The mammalian threshold produces three distinct architectural achievements at once. All three are keyed to the new Autonomy drive, but each couples it with a different partner.
 
-**Self-Model** at the Effector × Modeler opposite pair couples Autonomy with Boldness. It is the mammalian self-representation, the modeled agent.
+**Self-Model** at the Effector × Modeler opposite pair couples Autonomy with Impetus. It is the mammalian self-representation, the modeled agent.
 
 **Remembering Style** at the Modeler × Reviser Adapter adjacent pair couples Autonomy with Excitability. It is the retrospectively-constructed self. It anchors on Kahneman's remembering self. It parallels Bowlby's internal-working-model construct and Freud's ego construct.
 
@@ -869,7 +892,7 @@ The three are sisters at the same evolutionary threshold, not the same construct
 
 Each opposite pair sits inside two of the four triples. The Regulator × Reviser pair sits inside Reactor (Effector + Regulator + Reviser) and Planner (Regulator + Modeler + Reviser). The Effector × Modeler pair sits inside Conservator (Effector + Regulator + Modeler) and Pursuer (Effector + Modeler + Reviser).
 
-The opposite pair carries the signature. The two triples that contain it are constellations where the coupling manifests with an added third element. At Vertebrate, Behavioral Syndrome (Regulator × Reviser) manifests in the Reactor as Temporal Credit, where Effector Boldness adds active execution. It manifests in the Planner as Gut Sense, where Modeler Interiority adds internal-state modeling. At Mammal, Self-Model (Effector × Modeler) manifests in the Conservator as Autonomous Cognition, where Regulator Mastery adds stable regulation. It manifests in the Pursuer as Algorithmic Cognition, where Reviser Excitability adds exploratory drive. At Primate, Sociometer (Regulator × Reviser) manifests in the Reactor as Triadic Awareness and in the Planner as Standing. Self-Model (Effector × Modeler) manifests in the Conservator as Autonomous Cognition and in the Pursuer as Tactical Deceit. At Band-Human, Self-Reference (Effector × Modeler) manifests in the Conservator as Collaborative Fission and in the Pursuer as Alloparenting. Sociometer (Regulator × Reviser) manifests in the Reactor as Meat Pooling and in the Planner as Standing.
+The opposite pair carries the signature. The two triples that contain it are constellations where the coupling manifests with an added third element. At Vertebrate, Behavioral Syndrome (Regulator × Reviser) manifests in the Reactor as Temporal Credit, where Effector Impetus adds active execution. It manifests in the Planner as Gut Sense, where Modeler Interiority adds internal-state modeling. At Mammal, Self-Model (Effector × Modeler) manifests in the Conservator as Autonomous Cognition, where Regulator Mastery adds stable regulation. It manifests in the Pursuer as Algorithmic Cognition, where Reviser Excitability adds exploratory drive. At Primate, Sociometer (Regulator × Reviser) manifests in the Reactor as Triadic Awareness and in the Planner as Standing. Self-Model (Effector × Modeler) manifests in the Conservator as Autonomous Cognition and in the Pursuer as Tactical Deceit. At Band-Human, Self-Reference (Effector × Modeler) manifests in the Conservator as Collaborative Fission and in the Pursuer as Alloparenting. Sociometer (Regulator × Reviser) manifests in the Reactor as Meat Pooling and in the Planner as Standing.
 
 The triples are expression forms of the underlying signature.
 
@@ -881,7 +904,7 @@ Eclipsing here means covering, not deleting. The lower layers keep running; the 
 
 This is the claim. The low end of a tendency is not a smaller amount of it. It is the tendency switched off, with the older architecture showing through.
 
-The reading applies only to the tendencies built as graded dials, the ones with a continuous range from a low end to a high end. It does not apply to the toggles, which select between two modes of a single layer rather than adding a layer that can be removed. In the current roster the genetic-line tendencies are all toggles, and these carry no dormant setting and no low-end fall-through. The neuronal line has no toggle: its founding tendency, Credit Style, is itself a graded dial (short-horizon to long-horizon).
+Every knob is a volume knob, with a continuous range from a low pole to a high pole. At the low pole the newer layer goes dormant and the ancestor beneath shows through — the behavior the lineage ran before this knob existed, not a smaller amount of the tendency. Comfy is the warm-seeking every earlier clade already did to recharge; active is the activity-seeking Excitability adds on top of it. The neuronal line's founding knob, Orienting Style, runs short-horizon to long-horizon; at its low pole the recency layer goes dormant and the Excitability home-seeking beneath it shows through.
 
 What falls through depends on which of the four cybernetic functions the dialed tendency belongs to. The functions are added in the order Effector, Regulator, Modeler, Reviser. At a low Regulator setting or a low Reviser setting a behavioral push drops out, either the gain on reward or the weight given to other agents, and the act itself reverts to the lower layer. The Modeler dial behaves differently and deserves care. Its dormant pole is not an intuitive low but the absorbed, immersive end. When the unit is fully immersed in the moment, the self-model that would narrate the moment goes quiet. So at the Modeler's dormant setting the unit still acts at full capacity, and what reverts is the report rather than the act. The unit does the thing without modeling itself doing it.
 

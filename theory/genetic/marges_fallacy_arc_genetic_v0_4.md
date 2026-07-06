@@ -32,7 +32,7 @@ At Ch 9 Marge floats her type hypothesis from the clinical register she works in
 | 2 | Regulator (Coordination) | Names the Blank Slate |
 | 3 | Modeler (Interiority) | Names the Noble Savage |
 | 4 | Reviser (Excitability) | Names the Dealt Hand |
-| 5 | Effector (Boldness) | First structural rhyme (Pavlov bridge) |
+| 5 | Effector (Impetus) | First structural rhyme (Pavlov bridge) |
 | 6 | Regulator (Mastery) | What each fallacy gets right |
 | 7 | Modeler (Autonomy) | Why they persist |
 | 8 | Reviser (Affiliation) | Hunting for a fifth, coming up empty |

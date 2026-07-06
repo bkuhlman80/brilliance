@@ -148,7 +148,7 @@ Each bullet is copied verbatim from the chapter. References to real creatures (l
 - "Teach two chimp groups two good ways to crack the same nut, then show each an expert doing it the *other* way. They watch. They get it. They keep doing it their own way. ... A tradition — nut-cracking, ant-fishing, how you sit to groom — varying troop to troop and not crossing the river, for generations, on nothing but everybody-here-does-it-this-way."
 - "In every other primate they've measured, *dominance* is its own separate thing — its own axis, how hard you push and how often you win. Measure it in a monkey, it stands alone. Measure it in a human ... and it's gone."
 - "we've shut a line this way once before, two billion years down — the genetic line closed at the eumetazoa, when Excitability went in as its last flag."
-- "Boldness, the nerve to spend the build — that came in at the bilaterian. Mastery, getting good at your own moves — the vertebrate. Autonomy, running on your own map instead of the room — the mammal."
+- "Impetus, the nerve to spend the build — that came in at the bilaterian. Mastery, getting good at your own moves — the vertebrate. Autonomy, running on your own map instead of the room — the mammal."
 
 ## Chapter 9
 

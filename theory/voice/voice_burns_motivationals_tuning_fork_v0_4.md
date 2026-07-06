@@ -87,7 +87,7 @@ Per-chapter register notes. The best practices above are the default; this secti
 **The twelve motivations.** The quarter's motivation is the subject of its close and the root of the "may we ___" toast; these are the framework's per-cell labels, with the authoritative list held framework-side. By line:
 
 - *Genetic (Ch 1–4):* Persistence · Coordination · Interiority · Excitability
-- *Neuronal (Ch 5–8):* Boldness · Mastery · Autonomy · Affiliation
+- *Neuronal (Ch 5–8):* Impetus · Mastery · Autonomy · Affiliation
 - *Symbolic (Ch 9–12):* Commitment · Stability · Representation · Universality
 
 **Find each toast verb at draft time.** The toast turns the quarter's motivation into a verb, and that verb is discovered in the drafting — with the room, the way Burns discovers it — not pre-solved across the book ahead of time. Persistence and Coordination conjugate cleanly; from Interiority on, the noun tends to resist (Ch 3 found *hold*), and the hunt for a sayable verb is part of the close's work, not a problem to route around.

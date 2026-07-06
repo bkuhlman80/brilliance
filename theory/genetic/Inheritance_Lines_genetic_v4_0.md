@@ -35,7 +35,7 @@ ABHOP's three lines (genetic, neuronal, symbolic) instantiate the bio-psycho-soc
 | **4** | Eumetazoa (800 MYA), differentiated tissues, *Excitability* | Primates (66 MYA), granular PFC, *Affiliation* | Empires (3 KYA), universalizing ideology and stories, *Universality* |
 | **3** | Eukaryotes (2 BYA), organelles and nucleus, *Interiority* | Mammals (200 MYA), agranular PFC, *Autonomy* | Cities (5 KYA), codes and representations, *Representation* |
 | **2** | Prokaryotes (3.5 BYA), nucleoid and ribosome, *Coordination* | Vertebrates (420 MYA), basal ganglia and hypothalamus, *Mastery* | Settlements (10 KYA), norms, *Stability* |
-| **1** | Protocell (~4 BYA, RNA world), RNA, *Persistence* | Bilaterians (550 MYA), brains and monoamines, *Boldness* | Bands (100 KYA), language, *Commitment* |
+| **1** | Protocell (~4 BYA, RNA world), RNA, *Persistence* | Bilaterians (550 MYA), brains and monoamines, *Impetus* | Bands (100 KYA), language, *Commitment* |
 
 The Row-4 motivation in each column names the goo each line ratchets. The Row-1 motivation names what Darwin selects on that goo. The Reviser motivation introduced at the end of one line carries forward as the Reviser motivation of the next. Excitability introduced at Eumetazoa carries into Bilaterians. Affiliation introduced at Primates carries into Bands. Empires is the framework's current Row 4 of the most-evolved column. The three Row-4 fates remain possible (failure, off-thread success, or bridge to a next line), and the framework does not claim which is in progress. See 'Each Line Ratchets a Different Kind of Goo' in `trellis_framework doc` for the variation-selection account.
 
@@ -45,7 +45,7 @@ Each cell name is shorthand for a clade. The naming convention is set out below 
 
 Row function definitions live in `trellis_framework doc`. The architectural summary:
 
-- **Effector** executes the line's native verb (persist in genetic, venture in neuronal, commit in symbolic).
+- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic).
 - **Regulator** stabilizes behavior against stored references.
 - **Modeler** maintains internal representation that organizes inputs.
 - **Reviser** revises the references the regulator stabilizes against.
@@ -260,7 +260,7 @@ The Effector × Modeler pair carries Host forward from Eukaryote. The Regulator 
 | Pursuer (Regulator absent) | Ingestion |
 | Center (Breakthrough) | Neurons |
 
-*Explorer-slot note: Chronotype is eumetazoa-local, grounded in nerve-net sleep-wake cycling (Cassiopea, Nath et al. 2017). Credit Style takes the Explorer slot at Bilaterian, when the centralized brain's associative-learning machinery shifts the relevant exploratory parameter from sleep-wake phase preference to credit-assignment horizon.*
+*Explorer-slot note: Chronotype is eumetazoa-local, grounded in nerve-net sleep-wake cycling (Cassiopea, Nath et al. 2017). Orienting Style takes the Explorer slot at Bilaterian, when the centralized brain's associative-learning machinery shifts the relevant exploratory parameter from sleep-wake phase preference to credit-assignment horizon.*
 
 ---
 
@@ -274,23 +274,23 @@ Each line's knobs are the household's interface to the corresponding tendencies 
 | -------------------- | --------------- | ---------------- | --------- | ------------------ | -------------- | ------------------------- | -------------------------- |
 | 1 | Genetic knob-1 | Protocell | Effector | Acquisition Type | Persistence | crank (periodic) | Live mode ↔ Dead mode |
 | 2 | Genetic knob-2 | Prokaryote | Regulator | Respiration Type | Coordination | anaerobic ↔ aerobic | Sloth mode ↔ Sprint mode |
-| 3 | Genetic knob-3 | Eukaryote | Modeler | Foraging Type | Interiority | exploit ↔ explore | Habit mode ↔ Improv mode |
-| 4 | Genetic knob-4 | Eumetazoa | Reviser | Spot Type | Excitability | comfy ↔ active | Warm mode ↔ Cool mode |
-| 5 | Neuronal knob-1 | Bilaterian | Effector | Credit | Boldness | short-horizon ↔ long-horizon | Spidey mode ↔ Zen mode |
+| 3 | Genetic knob-3 | Eukaryote | Modeler | Foraging Type | Interiority | exploit ↔ explore | March mode ↔ Dance mode |
+| 4 | Genetic knob-4 | Eumetazoa | Reviser | Spot Type | Excitability | comfy ↔ active | Warm mode ↔ Busy mode |
+| 5 | Neuronal knob-1 | Bilaterian | Effector | Orienting | Impetus | short-horizon ↔ long-horizon | Think mode ↔ Buzz mode |
 | 6 | Neuronal knob-2 | Vertebrate | Regulator | Coping Style | Mastery | proactive ↔ reactive | Beast mode ↔ Little mode |
-| 7 | Neuronal knob-3 | Mammal | Modeler | Experiencing Style | Autonomy | immersive ↔ surveying | Deep mode ↔ Meander mode |
+| 7 | Neuronal knob-3 | Mammal | Modeler | Experiencing Style | Autonomy | immersive ↔ surveying | Deep mode ↔ Wide mode |
 | 8 | Neuronal knob-4 | Primate | Reviser | Agreeableness | Affiliation | agreeable ↔ self-favoring | Respect mode ↔ Savage mode |
 | 9 | Symbolic knob-1 | Band-Human | Effector | Neuroticism | Commitment | High ↔ low | Cancel mode ↔ Clutch mode |
-| 10 | Symbolic knob-2 | Settlement-Human | Regulator | Conscientiousness | Stability | High ↔ low | Tidy mode ↔ Messy mode |
+| 10 | Symbolic knob-2 | Settlement-Human | Regulator | Conscientiousness | Stability | High ↔ low | Preppy mode ↔ Messy mode |
 | 11 | Symbolic knob-3 | City-Human | Modeler | Extraversion | Representation | High ↔ low | Boss mode ↔ Vibe mode |
 | 12 | Symbolic knob-4 | Empire-Human | Reviser | Integrity | Universality | High ↔ low | Real mode ↔ Flex mode |
 
 ### Genetic line knobs (vacuum chassis, Chs 1–4)
 
 * **Knob 1 — Genetic Effector | Acquisition Type | Motivation: Persistence** *Cell: Protocell* A wind-up crank — unique among all twelve knobs in being a periodic input rather than a positional selector. The household winds it weekly; wound, the protocells run their tendencies; unwound, they don't. There's no setting to choose. The household's Sunday winding ritual *is* the knob. At Prokaryote the crank gains a generator tap (winding bootstraps a cold start if the battery is dead), but it stays a crank. Retires at the Bilaterian line boundary; Mira marks the loss.
-* **Knob 2 — Genetic Regulator | Respiration Type | Motivation: Coordination** *Cell: Prokaryote* Two-position toggle: **aerobic** vs. **anaerobic**. The team — Bart included — calls it aerobic/anaerobic throughout; the knob carries no informal name until the naming game reaches it. Governs which tank the unit discharges from. Aerobic = slow battery, steady enduring crawl. Anaerobic = fast supercapacitor, quick darts then a full stop to recharge before the next burst. Harvest (what fills the tanks) is the same either way; the knob only governs spending. At the Eukaryote chapter the dock adds a thermal-gradient income stream on the aerobic side, but the toggle logic doesn't change.
-* **Knob 3 — Genetic Modeler | Foraging Type | Motivation: Interiority** *Cell: Eukaryote* Two-position toggle: **exploration** (male) vs. **exploitation** (female). Governs how the unit draws on its movement-sequence memory. Exploitation: re-runs well-worn sequences, reinforced by use, the tight efficient groove. Exploration: generates new FSM-state-chain sequences, tries corners it hasn't been, misses more and discovers more. The yeast-biology label ("sex brought the question of mixing vs. conserving"). Retires at the Ch 6 retrospective (Lisa pulls the identical-copy from the tetrapod board's slot 3 to the trophy shelf with Mira, hands-on ceremony); neuronal-knob-3 takes the freed slot at the Ch 7 week-1 swap.
-* **Knob 4 — Genetic Reviser | Spot Type (Home Type) | Motivation: Excitability** *Cell: Eumetazoa* Two-position toggle: **comfy** vs. **active**. Sets where the unit prefers to settle. Comfy: seeks the warmest corner it can find (east window, tile by the vent). Active: parks where the people are — middle of the kitchen at dinner. Same unit, same energy behavior, two different settlement-location biases. Retires at the Ch 7 retrospective (Lisa pulls the identical-copy from the tetrapod board's slot 4 to the trophy shelf with Mira, hands-on ceremony); neuronal-knob-4 takes the freed slot at the Ch 8 week-1 swap.
+* **Knob 2 — Genetic Regulator | Respiration Type | Motivation: Coordination** *Cell: Prokaryote* Volume knob: **aerobic** at the low pole, **anaerobic** at the high. The team — Bart included — calls it aerobic/anaerobic throughout; the knob carries no informal name until the naming game reaches it. Governs which tank the unit discharges from. Aerobic = slow battery, steady enduring crawl. Anaerobic = fast supercapacitor, quick darts then a full stop to recharge before the next burst. Harvest (what fills the tanks) is the same either way; the knob only governs spending. At the Eukaryote chapter the dock adds a thermal-gradient income stream on the aerobic side, but the knob logic doesn't change.
+* **Knob 3 — Genetic Modeler | Foraging Type | Motivation: Interiority** *Cell: Eukaryote* Volume knob: **exploitation** (female) at the low pole, **exploration** (male) at the high. Governs how the unit draws on its movement-sequence memory. Exploitation: re-runs well-worn sequences, reinforced by use, the tight efficient groove. Exploration: generates new FSM-state-chain sequences, tries corners it hasn't been, misses more and discovers more. The yeast-biology label ("sex brought the question of mixing vs. conserving"). Retires at the Ch 6 retrospective (Lisa pulls the identical-copy from the tetrapod board's slot 3 to the trophy shelf with Mira, hands-on ceremony); neuronal-knob-3 takes the freed slot at the Ch 7 week-1 swap.
+* **Knob 4 — Genetic Reviser | Spot Type (Home Type) | Motivation: Excitability** *Cell: Eumetazoa* Volume knob: **comfy** at the low pole, **active** at the high. Sets where the unit prefers to settle. Comfy: seeks the warmest corner it can find (east window, tile by the vent). Active: parks where the people are — middle of the kitchen at dinner. Same unit, same energy behavior, two different settlement-location biases. Retires at the Ch 7 retrospective (Lisa pulls the identical-copy from the tetrapod board's slot 4 to the trophy shelf with Mira, hands-on ceremony); neuronal-knob-4 takes the freed slot at the Ch 8 week-1 swap.
 
 ---
 
@@ -306,10 +306,10 @@ The same labels organized by row-slot position rather than by cell. The row-slot
 | Cities | Commitment | Stability | Representation | Affiliation |
 | Settlements | Commitment | Stability | Autonomy | Affiliation |
 | Bands | Commitment | Mastery | Autonomy | Affiliation |
-| Primates | Boldness | Mastery | Autonomy | Affiliation |
-| Mammals | Boldness | Mastery | Autonomy | Excitability |
-| Vertebrates | Boldness | Mastery | Interiority | Excitability |
-| Bilaterians | Boldness | Coordination | Interiority | Excitability |
+| Primates | Impetus | Mastery | Autonomy | Affiliation |
+| Mammals | Impetus | Mastery | Autonomy | Excitability |
+| Vertebrates | Impetus | Mastery | Interiority | Excitability |
+| Bilaterians | Impetus | Coordination | Interiority | Excitability |
 | Eumetazoa | Persistence | Coordination | Interiority | Excitability |
 | Eukaryotes | Persistence | Coordination | Interiority | Self-Production |
 | Prokaryotes | Persistence | Coordination | Self-Organization | Self-Production |
@@ -326,9 +326,9 @@ Adjacent pairs going clockwise from the top of the Venn.
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
 | Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
-| Mammal | Coping Style | Experiencing Style | Remembering Style | Credit Style |
-| Vertebrate | Coping Style | Development Rate | Home Type | Credit Style |
-| Bilaterian | Affect | Foraging Type | Home Type | Credit Style |
+| Mammal | Coping Style | Experiencing Style | Remembering Style | Orienting Style |
+| Vertebrate | Coping Style | Development Rate | Home Type | Orienting Style |
+| Bilaterian | Affect | Foraging Type | Home Type | Orienting Style |
 | Eumetazoa | Respiration Type | Foraging Type | Home Type | Chronotype |
 | Eukaryote | Respiration Type | Foraging Type | Production Type | Acquisition Type |
 | Prokaryote | Respiration Type | Life-History Type | Enclosure Type | Acquisition Type |
@@ -400,8 +400,8 @@ Exactly four spheres are flag-carriers at any cell, one per team. Move up one ru
 
 Two transitions within the bramble mark inheritance-line changes:
 
-- Eumetazoa to Bilaterians (genetic to neuronal, Effector flag passes from Persistence to Boldness).
-- Primates to Bands (neuronal to symbolic, Effector flag passes from Boldness to Commitment).
+- Eumetazoa to Bilaterians (genetic to neuronal, Effector flag passes from Persistence to Impetus).
+- Primates to Bands (neuronal to symbolic, Effector flag passes from Impetus to Commitment).
 
 **Recommended visualization:** inheritance-line bands plus bridge-entity rendering. Bands identify each line (GENETIC, NEURONAL, SYMBOLIC) alongside the bramble with subtle tinting. Bridge-entity rendering makes the parent-of-next-line relationship visible in the geometry. The top sphere of each line extends into or merges with the bottom sphere of the line above. Spacing rhythm (vertical gaps scaled to temporal interval) is interesting but loads heavy visual weight for one specific claim. Hold it as a togglable secondary layer.
 

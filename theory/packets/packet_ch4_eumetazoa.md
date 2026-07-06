@@ -16,7 +16,7 @@
 - **Mira's age:** turns 5 (4 → 5)
 - **Knob change:** install genetic knob-4 (Reviser; household label Spot Type, comfy vs active) in board slot 4 — the last empty slot. Board now full. No retirement.
 - **What comes before:** The Ch 3 packet closes the Eukaryote retrospective and its *After Chapter 3* poetic (symbiosis as a mode — two lineages committing to one unit). The household has lived with the Roomba-chassis vacuum, the memory board, and genetic knob-3 (Foraging Type) all fall.
-- **What comes after:** The Ch 5 packet opens the neuronal line at Bilaterian (Q1 Y2): the first chassis swap to the tetrapod, a duplicate board, neuronal knob-1 (Boldness / Time Type) in slot 1, genetic knob-1 retiring lineage-level, the vacuum still running on the old Roomba. The Ch 5 retrospective also runs the book's first hands-on ceremony, retiring genetic knob-2 (Respiration Type) to the trophy shelf with Mira (pull-and-shelf only, forward-staging the Ch 6 swap install of Coping Style). Its *After Chapter 5* poetic carries the relay / first retirement.
+- **What comes after:** The Ch 5 packet opens the neuronal line at Bilaterian (Q1 Y2): the first chassis swap to the tetrapod, a duplicate board, neuronal knob-1 (Impetus / Orienting Style) in slot 1, genetic knob-1 retiring lineage-level, the vacuum still running on the old Roomba. The Ch 5 retrospective also runs the book's first hands-on ceremony, retiring genetic knob-2 (Respiration Type) to the trophy shelf with Mira (pull-and-shelf only, forward-staging the Ch 6 swap install of Coping Style). Its *After Chapter 5* poetic carries the relay / first retirement.
 
 ---
 
@@ -127,7 +127,7 @@ Source: the Eumetazoa "The day" scenario, adjusted for this chapter's decisions 
   - Controller (Respiration Type) — carried. Heat/light transducer toggle, genetic knob-2.
   - Anticipator (Foraging Type) — carried. Exploration/exploitation mode of the movement-sequence memory, genetic knob-3.
   - Adapter (**Home Type**) — new. The unit's spot preference, the household-facing Spot Type dial (genetic knob-4): comfy (warmest spot, via the heat sensor) versus active (where the floor carries vibration from people moving nearby).
-  - Explorer (**Chronotype**) — new, emergent, not knob-controlled. The sleep-wake-startle arousal complex the unit rests within, with the lexicon STARTLED / AWAKE / SLEEPING: it chooses when to go still in a chosen spot and takes in a slow trickle of ambient energy. Eumetazoa-local; carried forward automatically (not re-elaborated as a new knob) and eclipsed by Credit Style at Bilaterian.
+  - Explorer (**Chronotype**) — new, emergent, not knob-controlled. The sleep-wake-startle arousal complex the unit rests within, with the lexicon STARTLED / AWAKE / SLEEPING: it chooses when to go still in a chosen spot and takes in a slow trickle of ambient energy. Eumetazoa-local; carried forward automatically (not re-elaborated as a new knob) and eclipsed by Orienting Style at Bilaterian.
 
 ### Motivations and signatures (Lisa + Marge)
 

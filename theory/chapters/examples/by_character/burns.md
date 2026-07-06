@@ -1412,7 +1412,7 @@ A silence.
 
 […]
 
-### Boldness
+### Impetus
 
 **"There's a worm experiment for that one too,"** Burns said, **"or there should be, and if it's been run the way I want it run, I've never seen it. Lay a strip of copper across the middle of the dish — they hate copper, it's a wall to them — and put something they want on the far side, a smell worth crossing for. Thin strip, they all cross. Thick strip, none of them. Set it right in the middle, half a wall, and half the dish crosses and half stays put."** He leaned in, too far, the way he did. **"Here's what I'd bet the house on, and I don't think it's ever been watched the way I want it watched: track the same animals, run after run. I say the half that crosses is the same half. Not the dice coming up different each time — the same worms crossing and the same worms holding back, a standing difference in how much wall a wanting is worth to them. Bold worms and shy worms. Three hundred and two neurons apiece, the same genes in every one, and a temperament you could call by name if you watched it long enough."**
 

@@ -1150,15 +1150,15 @@ locator: line 438   [marginal — board/staging]
 > Burns was looking at the sliver like it was something pressed in shale. "Half a billion years," he said, mostly to himself, "for anything to live in that gap."
 locator: line 464   [marginal — figurative shale reference]
 
-── ch_5 · «May we Venture» · exterior-or-view · (Burns) ──
+── ch_5 · «May we Seize» · exterior-or-view · (Burns) ──
 > Somewhere in the warm dark of a Cambrian sea, he said, there is a larva the size of a comma — a few hundred cells, a smear of light-sensitive ones at the front, no one in it yet to give a reason for anything — and one day it turns itself toward the light and swims.
 locator: line 558   [marginal — figurative light/dark scene]
 
-── ch_5 · «May we Venture» · exterior-or-view · (Burns) ──
+── ch_5 · «May we Seize» · exterior-or-view · (Burns) ──
 > "Up," he said, "into water nothing of its kind had ever been, off the bottom, off the only world it had, toward a brightness that could as easily have been a mouth. And it went. ... the first venture, half a billion years deep, and it starts with a speck deciding the light is worth the risk of the dark."
 locator: line 558   [marginal — figurative light/dark]
 
-── ch_5 · «May we Venture» · warehouse (Smithers) ──
+── ch_5 · «May we Seize» · warehouse (Smithers) ──
 > He had his glass up by then, and his eyes went once — the way they always did, the way he'd deny if you asked — to the thing on the floor, the body his son had built, that walked and would not go into the dark, and then back to the room.
 locator: line 564   [marginal]
 

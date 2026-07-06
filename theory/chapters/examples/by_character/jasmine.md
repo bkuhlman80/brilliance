@@ -470,7 +470,7 @@ Lisa took it, because the cable had been hers. "For one afternoon, yes," she sai
 
 ### Goo
 
-"Boldness doesn't win on that board. Boldness wins on a different one — whether the thing steers. Whether it goes forward, on purpose, toward the good and off the bad, under a signal that tells it which is which. Not who had the most children. Who pointed themselves at the right thing and went."
+"Impetus doesn't win on that board. Impetus wins on a different one — whether the thing steers. Whether it goes forward, on purpose, toward the good and off the bad, under a signal that tells it which is which. Not who had the most children. Who pointed themselves at the right thing and went."
 
 Jasmine had been quiet the whole framework. **"So the genes stop counting,"** she said. **"It's the brain's turn now. The body did its part."**
 

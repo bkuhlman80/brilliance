@@ -35,7 +35,7 @@ ABHOP's three lines (genetic, neuronal, symbolic) instantiate the bio-psycho-soc
 | **4** | Eumetazoa (800 MYA), differentiated tissues, *Excitability* | Primates (66 MYA), granular PFC, *Affiliation* | Empires (3 KYA), universalizing ideology and stranger trust, *Universality* |
 | **3** | Eukaryotes (2 BYA), organelles and nucleus, *Interiority* | Mammals (200 MYA), agranular PFC, *Autonomy* | Cities (5 KYA), codes and representations, *Representation* |
 | **2** | Prokaryotes (3.5 BYA), nucleoid and ribosome, *Coordination* | Vertebrates (420 MYA), basal ganglia and hypothalamus, *Mastery* | Settlements (10 KYA), norms, *Stability* |
-| **1** | Protocell (~4 BYA, RNA world), RNA, *Persistence* | Bilaterians (550 MYA), brains and monoamines, *Boldness* | Bands (100 KYA), language, *Commitment* |
+| **1** | Protocell (~4 BYA, RNA world), RNA, *Persistence* | Bilaterians (550 MYA), brains and monoamines, *Impetus* | Bands (100 KYA), language, *Commitment* |
 
 The Row-4 motivation in each column names the goo each line ratchets. The Row-1 motivation names what Darwin selects on that goo. The Reviser motivation introduced at the end of one line carries forward as the Reviser motivation of the next. Excitability introduced at Eumetazoa carries into Bilaterians. Affiliation introduced at Primates carries into Bands. Empires is the framework's current Row 4 of the most-evolved column. The three Row-4 fates remain possible (failure, off-thread success, or bridge to a next line), and the framework does not claim which is in progress.
 
@@ -45,7 +45,7 @@ Each cell name is shorthand for a clade. The naming convention is set out below 
 
 The architectural summary:
 
-- **Effector** executes the line's native verb (persist in genetic, venture in neuronal, commit in symbolic).
+- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic).
 - **Regulator** stabilizes behavior against stored references.
 - **Modeler** maintains internal representation that organizes inputs.
 - **Reviser** revises the references the regulator stabilizes against.
@@ -144,7 +144,7 @@ The founding form of the symbolic line. The line-defining move is from primate-s
 
 The reinforcing cycle runs through meat pooling (calorie-rich food shared across the band rather than monopolized) and collaborative fission-fusion (groups split and rejoin without rupture because the ledger persists, with intergroup marriage formalizing the cross-band reproductive alliances that sustain fusion across long intervals). This unlocks dispersal to all habitable latitudes and cumulative culture, where each generation inherits the previous generation's solutions. The breakthrough is Speaking.
 
-The Effector swap at Bands replaces Boldness with Commitment, marking the neuronal-to-symbolic line boundary. Mastery, Affiliation, and Autonomy persist from Primates. Band-Human emerges by elaboration, not symbiosis: it develops from primate troop dynamics through language-mediated extension.
+The Effector swap at Bands replaces Impetus with Commitment, marking the neuronal-to-symbolic line boundary. Mastery, Affiliation, and Autonomy persist from Primates. Band-Human emerges by elaboration, not symbiosis: it develops from primate troop dynamics through language-mediated extension.
 
 The Controller (Effector × Regulator) carries Reputation. Reputation is how others perceive you, earned by being skilled enough to discharge your social-ledger debts. It sits at the Commitment × Mastery intersection.
 
@@ -372,7 +372,7 @@ The "Later rename" column in the structure-at-a-glance table (genetic line doc) 
 
 **Origin (Band-Human).** This is the first quarter where the game can exist. The humanoid is sentient and can say what a setting feels like from the inside, and the knob ethic arrives — it asks not to be rotated without notice. So the clinical labels on the back of its head become a thing it and Mira can talk about, and then rename. For its own settings Bramble supplies precise words from the inside; Mira proposes, Bramble refines ("turned that way I feel like Boss; turned back I'm in the Backseat"). The names for the symbolic knobs are therefore the sharpest in the book, because they are reports, not guesses.
 
-**The backward extension.** Ancestor knob control debuts at Band-Human: the humanoid can drive both the tetrapod's and the vacuum's knobs directly, with full access to all knobs on both units from the line boundary. For the older units there is no inner report to draw on, so Bramble reaches over, toggles an ancestor's setting, watches the behavior change, and names from the outside. Watching is not feeling, so the names get rougher and more guessed-at the further back they go: Beast/Little on the tetrapod, Sloth/Sprint and Warm/Cool and Habit/Improv on the vacuum, and Live/Dead on the crank — the bluntest of all, because the crank has the least inside of anything in the lab.
+**The backward extension.** Ancestor knob control debuts at Band-Human: the humanoid can drive both the tetrapod's and the vacuum's knobs directly, with full access to all knobs on both units from the line boundary. For the older units there is no inner report to draw on, so Bramble reaches over, toggles an ancestor's setting, watches the behavior change, and names from the outside. Watching is not feeling, so the names get rougher and more guessed-at the further back they go: Beast/Little on the tetrapod, Sloth/Sprint and Warm/Busy and March/Dance on the vacuum, and Live/Dead on the crank — the bluntest of all, because the crank has the least inside of anything in the lab.
 
 **The stickers.** Mira writes the names on little colored garage-sale price-dots and covers the clinical labels — the precise words on the humanoid's hand, the borrowed words on the tetrapod's board, the inventions on the vacuum's. The crank takes a single dot, LIVE; Dead is simply its absence, which is the truth of it. The full dotted-bodies reveal lands at the chassis quarter (Ch 12), where Cheryl is finally in the room and the three bodies stand named at once, the gradient visible across them.
 
@@ -382,14 +382,14 @@ The "Later rename" column in the structure-at-a-glance table (genetic line doc) 
 
 * **Live ↔ Dead** (Acquisition, the crank) — wound it runs, unwound it doesn't. One sticker only; Dead is the absence.
 * **Sloth ↔ Sprint** (Respiration) — slow endurance off the battery vs. a supercapacitor burst that then sits and recovers. Names a knob the team only ever called aerobic/anaerobic, and one already shelved by the time the name arrives.
-* **Habit ↔ Improv** (Foraging) — the worn efficient groove vs. making the path up as it goes.
-* **Warm ↔ Cool** (Spot) — settles in the warmest corner it can find vs. doesn't care about warmth, parks where the people are.
-* **Spidey ↔ Zen** (Credit) — jumps to conclusions off one weird thing vs. doesn't sweat it till the pattern's repeated. Bramble's setting: [OPEN — not yet decided; leave placeholder, do not invent].
+* **March ↔ Dance** (Foraging) — the rote march of the worn groove vs. dancing the path up as it goes.
+* **Warm ↔ Busy** (Spot) — settles in the warmest corner it can find vs. doesn't care about warmth, parks where the people are.
+* **Think ↔ Buzz** (Orienting) — jumps to conclusions off one weird thing vs. doesn't sweat it till the pattern's repeated. Bramble's setting: [OPEN — not yet decided; leave placeholder, do not invent].
 * **Beast ↔ Little** (Coping) — leans hard at anything that might pay vs. hangs back and waits to be sure. Little is a size word, not a deficit — "it thinks it's little."
-* **Deep ↔ Meander** (Experiencing) — all of it close and loud, nothing else in the room, vs. the whole field at once with nothing pulling harder than anything else.
+* **Deep ↔ Wide** (Experiencing) — all of it close and loud, nothing else in the room, vs. the whole field at once with nothing pulling harder than anything else.
 * **Respect ↔ Savage** (Agreeableness) — defers, won't impose, vs. out for its own.
 * **Cancel ↔ Clutch** (Neuroticism) — worry queues and it backs out of the exchange vs. composed, enters freely, comes through. Cancel is the high setting, Clutch the low.
-* **Tidy ↔ Messy** (Conscientiousness) — the schedule is load-bearing vs. the schedule is a suggestion.
+* **Preppy ↔ Messy** (Conscientiousness) — the schedule is load-bearing vs. the schedule is a suggestion.
 * **Boss ↔ Vibe** (Extraversion) — steps up and runs the room vs. warms it and carries the mood; a trade between leading and being good company, not more-or-less of one setting.
 * **Real ↔ Flex** (Integrity) — the principle holds whatever it costs in the moment vs. bends to the situation, giving up the principle to protect the relationship.
 
@@ -407,10 +407,10 @@ The same labels organized by row-slot position rather than by cell. The row-slot
 | Cities | Commitment | Stability | Representation | Affiliation |
 | Settlements | Commitment | Stability | Autonomy | Affiliation |
 | Bands | Commitment | Mastery | Autonomy | Affiliation |
-| Primates | Boldness | Mastery | Autonomy | Affiliation |
-| Mammals | Boldness | Mastery | Autonomy | Excitability |
-| Vertebrates | Boldness | Mastery | Interiority | Excitability |
-| Bilaterians | Boldness | Coordination | Interiority | Excitability |
+| Primates | Impetus | Mastery | Autonomy | Affiliation |
+| Mammals | Impetus | Mastery | Autonomy | Excitability |
+| Vertebrates | Impetus | Mastery | Interiority | Excitability |
+| Bilaterians | Impetus | Coordination | Interiority | Excitability |
 | Eumetazoa | Persistence | Coordination | Interiority | Excitability |
 | Eukaryotes | Persistence | Coordination | Interiority | Self-Production |
 | Prokaryotes | Persistence | Coordination | Self-Organization | Self-Production |
@@ -427,9 +427,9 @@ Adjacent pairs going clockwise from the top of the Venn.
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
 | Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
-| Mammal | Coping Style | Experiencing Style | Remembering Style | Credit Style |
-| Vertebrate | Coping Style | Development Rate | Home Type | Credit Style |
-| Bilaterian | Affect | Foraging Type | Home Type | Credit Style |
+| Mammal | Coping Style | Experiencing Style | Remembering Style | Orienting Style |
+| Vertebrate | Coping Style | Development Rate | Home Type | Orienting Style |
+| Bilaterian | Affect | Foraging Type | Home Type | Orienting Style |
 | Eumetazoa | Respiration Type | Foraging Type | Home Type | Chronotype |
 | Eukaryote | Respiration Type | Foraging Type | Production Type | Acquisition Type |
 | Prokaryote | Respiration Type | Life-History Type | Enclosure Type | Acquisition Type |
@@ -501,8 +501,8 @@ Exactly four spheres are flag-carriers at any cell, one per team. Move up one ru
 
 Two transitions within the bramble mark inheritance-line changes:
 
-- Eumetazoa to Bilaterians (genetic to neuronal, Effector flag passes from Persistence to Boldness).
-- Primates to Bands (neuronal to symbolic, Effector flag passes from Boldness to Commitment).
+- Eumetazoa to Bilaterians (genetic to neuronal, Effector flag passes from Persistence to Impetus).
+- Primates to Bands (neuronal to symbolic, Effector flag passes from Impetus to Commitment).
 
 **Recommended visualization:** inheritance-line bands plus bridge-entity rendering. Bands identify each line (GENETIC, NEURONAL, SYMBOLIC) alongside the bramble with subtle tinting. Bridge-entity rendering makes the parent-of-next-line relationship visible in the geometry. The top sphere of each line extends into or merges with the bottom sphere of the line above. Spacing rhythm (vertical gaps scaled to temporal interval) is interesting but loads heavy visual weight for one specific claim. Hold it as a togglable secondary layer.
 

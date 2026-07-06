@@ -16,7 +16,7 @@
 - **Line:** Neuronal
 - **Quarter and season:** Q1 Y2, Spring
 - **Mira's age:** 5
-- **Knob change:** Line-boundary chassis swap to the tetrapod (Bart, week-1 weekend). Lisa-fabricated duplicate board (same four slots) fastened to the tetrapod; identical-copy genetic-knobs 2, 3, 4 in slots 2, 3, 4; neuronal-knob-1 (Credit Style) in slot 1; ethernet memory duplication from the Roomba onto the new board. Genetic-knob-1 (Persistence) is not carried onto the new board — it keeps running on the vacuum's original board; nothing is pulled; Lisa narrates the retirement (lineage-level). At the retrospective the book's first hands-on ceremony retires genetic-knob-2 (oldest on the tetrapod board), pulled to the trophy shelf with Mira, forward-staging the Ch 6 swap. The Roomba/vacuum keeps its original board and all four original genetic knobs and goes on running.
+- **Knob change:** Line-boundary chassis swap to the tetrapod (Bart, week-1 weekend). Lisa-fabricated duplicate board (same four slots) fastened to the tetrapod; identical-copy genetic-knobs 2, 3, 4 in slots 2, 3, 4; neuronal-knob-1 (Orienting Style) in slot 1; ethernet memory duplication from the Roomba onto the new board. Genetic-knob-1 (Persistence) is not carried onto the new board — it keeps running on the vacuum's original board; nothing is pulled; Lisa narrates the retirement (lineage-level). At the retrospective the book's first hands-on ceremony retires genetic-knob-2 (oldest on the tetrapod board), pulled to the trophy shelf with Mira, forward-staging the Ch 6 swap. The Roomba/vacuum keeps its original board and all four original genetic knobs and goes on running.
 - **What comes before:** Ch 4 (Eumetazoa, Q4 Y1) closed with the tetrapod chassis *body* unveiled bare under a cloth as Mira's fifth-birthday present, then the after-Ch-4 poetic. The functional tetrapod is not yet running then; it arrives at the Ch 5 week-1 swap.
 - **What comes after:** Ch 6 (Vertebrate, Q2 Y2): neuronal-knob-2 (Coping Style) comes online in slot 2 at the week-1 swap (filling the slot freed by this retrospective's ceremony pull of genetic-knob-2); operant learning arrives; the Ch 6 retrospective runs the second hands-on ceremony, retiring genetic-knob-3 (Foraging) and forward-staging the Ch 7 swap; ancestor reach surfaces as a single incidental, non-reinforced bump of a vacuum knob (developed ancestor control — the operator chain — arrives later at Ch 9).
 
@@ -32,7 +32,7 @@
 - MANDATORY: Cheryl lunch, intimate — structural frame only; partner and content Voice-owned.
 
 **Section B — the line boundary (the chapter's spine)**
-- MANDATORY: The neuronal line opens. Effector returns at the top of the new line; **Boldness** is the Effector motivation, taking the role Persistence held in the genetic line.
+- MANDATORY: The neuronal line opens. Effector returns at the top of the new line; **Impetus** is the Effector motivation, taking the role Persistence held in the genetic line.
 - MANDATORY: Bilaterian is the clade that kicks off the neuronal line — the Effector knob (slot 1) swaps from a genetic to a neuronal knob, which resets the line's selection target. Slots 2/3/4 keep their genetic knobs running for now, handing off across Ch 6–8 as Vertebrate/Mammal/Primate complete the line.
 - MANDATORY: **Why an Effector swap is a line boundary** (the selection-target argument; full text in the Trellis block).
 - MANDATORY: **The goo change** — genetic line works on Boltzmann goo, neuronal line on affective goo (full text in the Trellis block).
@@ -54,7 +54,7 @@
 - MANDATORY: The line-boundary / goo-change argument (Lisa).
 - MANDATORY: Marge's first structural rhyme (Latent Inhibition ↔ Blank Slate), filed not developed — this is the Ch 5 fallacy content.
 - MANDATORY: The sentience vote — **Burns's flip from no to yes**, its own beat; room lands **2–2**.
-- MANDATORY: Burns's motivational speech on Boldness (five-element fingerprint).
+- MANDATORY: Burns's motivational speech on Impetus (five-element fingerprint).
 
 **Section B — chapter close**
 - MANDATORY: After-Ch-5 poetic at the bottom of the chapter (spec below).
@@ -90,7 +90,7 @@
 - **Substance:** Marge composes the quarter's day-in-the-life from the household record. Framework supplies the mandated scene-facts below; Voice renders Marge's prose (observational, often Mira-inflected).
 - **Constraint:** Burns is *Burns* even at home — never "Ben" in the vignette. Affective, not sentient: the household reads feelings into the tetrapod, but nothing is felt across — there is nothing it is like to be Bramble yet.
 
-- MANDATORY — **The Credit Style knob (new, knob-1):** a short-horizon↔long-horizon dial. It tunes how far back the tetrapod's credit-assignment machinery looks before deciding what caused what — not circadian timing, and not how wide-ranging or focused it is. The household picks a pole and lives with the association-forming style it produces. (Wake/sleep timing runs on the emergent allostatic process installed at Eumetazoa, not this knob; the wide/narrow ranging-vs-focused behavior is a *different, older* knob and is not the new thing this quarter.)
+- MANDATORY — **The Orienting Style knob (new, knob-1):** a short-horizon↔long-horizon dial. It tunes how far back the tetrapod's credit-assignment machinery looks before deciding what caused what — not circadian timing, and not how wide-ranging or focused it is. The household picks a pole and lives with the association-forming style it produces. (Wake/sleep timing runs on the emergent allostatic process installed at Eumetazoa, not this knob; the wide/narrow ranging-vs-focused behavior is a *different, older* knob and is not the new thing this quarter.)
 - MANDATORY — **The plant beat, as a cadence:** the tetrapod knocks something over; a thumbs-down sours it on *that object* — but not on knocking — so it leaves that object alone and knocks the next thing over instead, at a roughly even clip. The household tries to train the knocking out and can't; eventually they give up and just start hiding or removing anything tippable. Burns explains: the button changes how it *feels about what it sees*, not *what it does* — the Bramble that learns from its own actions is next quarter. The limit, rendered in furniture.
 - MANDATORY — **The dark-fear (environmental conditioning):** running in light/solar harvest mode, dark means no harvest — an energy drain. Over the quarter the tetrapod learns to steer clear of the dark, backing out of dark rooms even when it has charge to spare. No one trains this with the thumbs — the world conditions it. (This pays off Bart's build-log Call about learned avoidance.)
 - MANDATORY — **Two Brambles:** the tetrapod and the vacuum coexist in the house; the tetrapod carries a copy of the vacuum's learned memory up to the moment of the copy. Mira's dinner question — *are they the same Bramble?* — lands here. **No ancestor reach or ancestor control:** the tetrapod does not operate the vacuum at this version.
@@ -129,7 +129,7 @@ Voice-owned frame. Defaults from standing scene facts.
 
 ### Component 1 — Clade cards, breakthrough, capacities, CPG (Bart + Burns)
 
-- MANDATORY — **The cell:** Bilaterian — bilateral body plan plus a centralized nervous system, first radiating in the Cambrian. Defining substrate: the monoamine system — **dopamine, serotonin, and the tyramine/octopamine group** (the invertebrate biogenic amines; not vertebrate norepinephrine) — setting affective state on a valence × arousal plane that biases arousal and movement toward or away from stimuli. Motivation introduced: **Boldness** (Effector). *(Framework-side note: which amine controls which affective state is lineage-specific, not a fixed code — the breakthrough cluster anchors the empirical story in the nematode and uses the leech and flatworm to show the lineage-specificity. The matching `clade_reference` edit — drop "norepinephrine," and drop any single-amine-to-quadrant assignment — is an outstanding CC task.)*
+- MANDATORY — **The cell:** Bilaterian — bilateral body plan plus a centralized nervous system, first radiating in the Cambrian. Defining substrate: the monoamine system — **dopamine, serotonin, and the tyramine/octopamine group** (the invertebrate biogenic amines; not vertebrate norepinephrine) — setting affective state on a valence × arousal plane that biases arousal and movement toward or away from stimuli. Motivation introduced: **Impetus** (Effector). *(Framework-side note: which amine controls which affective state is lineage-specific, not a fixed code — the breakthrough cluster anchors the empirical story in the nematode and uses the leech and flatworm to show the lineage-specificity. The matching `clade_reference` edit — drop "norepinephrine," and drop any single-amine-to-quadrant assignment — is an outstanding CC task.)*
 - MANDATORY — **The breakthrough, Attention:** within-lifetime selection — candidate movements compete and valence picks the winner. Its visible expression is **Steering** (the Pursuer capacity): the first time nervous tissue could orient the whole body toward a goal or away from a threat — directed, head-first locomotion with a front-end bias (cephalization). This is what the head and forward sensor suite are *for*.
 - MANDATORY — **CPG (Bart's talking point):** locomotion runs on a central pattern generator — a circuit producing rhythmic gait without rhythmic input, the real bilaterian motor solution (invertebrate ganglia; the lamprey spinal cord). In Bramble it's the frozen reflex layer Bart built and froze — how the body walks without deliberating each step.
 - MANDATORY — **The four capacities (the "cool tricks"), each tied to its shape:**
@@ -141,8 +141,8 @@ Voice-owned frame. Defaults from standing scene facts.
 
 ### Motivations and signatures (Lisa + Marge)
 
-- MANDATORY — **Motivations:** Boldness (new, Effector); Coordination, Interiority, Excitability (carried from the genetic line) — named in Lisa's CS-native register.
-- MANDATORY — **Signatures:** **Temperament** at the Connector (Effector × Modeler) — newly present, as the neuronal Effector motivation (Boldness) couples with the carried Modeler motivation (Interiority); **Reflex Repertoire** at the Operator (Regulator × Reviser) — carried forward (Behavioral Syndrome arrives at Vertebrate). Marge layers folk-psychology vocabulary over what Lisa names.
+- MANDATORY — **Motivations:** Impetus (new, Effector); Coordination, Interiority, Excitability (carried from the genetic line) — named in Lisa's CS-native register.
+- MANDATORY — **Signatures:** **Temperament** at the Connector (Effector × Modeler) — newly present, as the neuronal Effector motivation (Impetus) couples with the carried Modeler motivation (Interiority); **Reflex Repertoire** at the Operator (Regulator × Reviser) — carried forward (Behavioral Syndrome arrives at Vertebrate). Marge layers folk-psychology vocabulary over what Lisa names.
 
 ### Component 2 — The associative-learning demonstration (the dark-fear)
 
@@ -215,15 +215,15 @@ Voice-owned frame. Defaults from standing scene facts.
 
 | Region (overlap) | Content type | Bilaterian label |
 |---|---|---|
-| Effector | motivation | Boldness *(new — the line boundary)* |
+| Effector | motivation | Impetus *(new — the line boundary)* |
 | Regulator | motivation | Coordination *(carried)* |
 | Modeler | motivation | Interiority *(carried)* |
 | Reviser | motivation | Excitability *(carried)* |
 | Effector × Regulator (Controller) | tendency | Affect |
 | Regulator × Modeler (Anticipator) | tendency | Foraging Type |
 | Modeler × Reviser (Adapter) | tendency | Home Type |
-| Reviser × Effector (Explorer) | tendency | Credit Style *(where the neuronal knob-1 reads out)* |
-| Effector × Modeler (Connector) | signature | Temperament *(new — Boldness + Interiority)* |
+| Reviser × Effector (Explorer) | tendency | Orienting Style *(where the neuronal knob-1 reads out)* |
+| Effector × Modeler (Connector) | signature | Temperament *(new — Impetus + Interiority)* |
 | Regulator × Reviser (Operator) | signature | Reflex Repertoire *(carried)* |
 | Reactor (Modeler absent) | capacity | Associative Learning |
 | Conservator (Reviser absent) | capacity | Inhibition |
@@ -237,7 +237,7 @@ Voice-owned frame. Defaults from standing scene facts.
 
 | Tendency (adjacent pair) | Bilaterian label | Knob position |
 |---|---|---|
-| Reviser × Effector (Explorer) | Credit Style | **neuronal knob-1** (new — slot 1) — clean fit |
+| Reviser × Effector (Explorer) | Orienting Style | **neuronal knob-1** (new — slot 1) — clean fit |
 | Effector × Regulator (Controller) | Affect | **slot 2 = carried genetic knob-2**, still doing *Respiration Type* — **mismatch** |
 | Regulator × Modeler (Anticipator) | Foraging Type | **genetic knob-3** (slot 3) |
 | Modeler × Reviser (Adapter) | Home Type | **genetic knob-4** (slot 4) |
@@ -249,7 +249,7 @@ Voice-owned frame. Defaults from standing scene facts.
 
 *The framework's hardest-to-grasp move, by its own description. This is what makes the Ch 5 retirement different in kind from the other three.*
 
-- MANDATORY — **Distinguish this retirement from the within-line ones.** Persistence has retired and Boldness installs — but this is not the kind of swap that happens *inside* a line. The other neuronal retirements (Ch 6–8) are within-line elaboration. This one is a boundary, because Bilaterian is the clade that kicks off the neuronal line: the Effector knob in slot 1 swaps from a genetic to a neuronal knob, and that resets what the line is selected on.
+- MANDATORY — **Distinguish this retirement from the within-line ones.** Persistence has retired and Impetus installs — but this is not the kind of swap that happens *inside* a line. The other neuronal retirements (Ch 6–8) are within-line elaboration. This one is a boundary, because Bilaterian is the clade that kicks off the neuronal line: the Effector knob in slot 1 swaps from a genetic to a neuronal knob, and that resets what the line is selected on.
 - MANDATORY *(load-bearing — preserve the formulation)* — **Why an Effector swap is a line boundary:** the Effector motivation names what selection acts on, so when it changes, the line's selection target changes. The genetic line is selected on **differential reproductive success** — Boltzmann's bookkeeping. The neuronal line is selected on **forward action under affective valence**: *forward* (directed, head-first movement toward a goal or away from a threat — Steering, not drift) governed *under* a monoamine good/bad signal. Regulator, Modeler, and Reviser swaps leave the selection target intact, so they're elaboration within a line. **The new regime is layered on, not a replacement:** genetic/reproductive selection keeps running underneath (neuronal clades still differ genetically and are still selected on reproduction) — the neuronal line adds a second selection target on top of it.
 - MANDATORY *(load-bearing — preserve the formulation)* — **The goo change:** the genetic line works on **Boltzmann goo** — thermodynamic disequilibrium. The neuronal line works on **affective goo** — valence-and-motivation structure produced by sensorimotor reentrant signaling and shaped by associative learning. The two are different in kind, not in degree. The memory carries the genetic line's work forward into the new chassis, but the stuff the new line ratchets is a different kind of stuff — and the Boltzmann goo keeps ratcheting underneath it. *(The affective goo is the substrate; it is **neutral on sentience** — naming it is not the same as claiming there's something it's like to be the unit. Whether it's already felt is the separate question Burns's vote is about.)*
 - MANDATORY — **The mechanism, narrated** (it's the build sheet; here Lisa is recounting what she did): a new board identical to the Roomba's, identical-copy genetic-knobs 2/3/4 in slots 2/3/4, neuronal-knob-1 in slot 1; the original board still running on the vacuum; genetic-knob-1 not carried onto the new board, nothing pulled.
@@ -266,15 +266,15 @@ Delivered in the Pavlov round (above): the first structural rhyme, Latent Inhibi
 - MANDATORY — **His evidence is the dark-fear:** Bramble is afraid of the dark; it learned the avoidance in light-mode, but the avoidance **remains when switched to heat-mode**, where dark no longer means starvation. The fear outliving its function is, to Burns, the mark of a felt state — not a setpoint.
 - The room: **2–2** (Lisa yes, carried; Burns now yes; Bart and Marge no).
 
-### Motivational speech (Burns) — Boldness
+### Motivational speech (Burns) — Impetus
 
 *Closes the Trellis block. The five-element fingerprint (per `chapter_plan_neuronal`); Burns is sincere, uses the framework vocabulary without irony.*
 
-- MANDATORY — **Boldness as a universal moral stake:** Steering only pays off if you actually venture into novel space — a steering animal that won't move forward gains nothing from the architecture. Burns frames venturing-into-the-unknown as the stake.
+- MANDATORY — **Impetus as a universal moral stake:** Steering only pays off if you actually venture into novel space — a steering animal that won't move forward gains nothing from the architecture. Burns frames venturing-into-the-unknown as the stake.
 - MANDATORY — **A story or vignette** Burns tells — Voice draws from Section D (the Cambrian radiation, or a founding-taxon venturing image: a *Platynereis* larva steering toward light, or *C. elegans* roaming out on exploratory foraging).
 - MANDATORY — **A moral that turns the stake into a call to action**, always Pragmatist-shaped: work on it, build the thing, optimize.
-- MANDATORY — **Framework vocabulary used without irony** (Boldness, Steering, Effector).
-- MANDATORY — **Burns's personal stake:** what Boldness means to him; what he's grateful for in it. (The reveal of his fear-of-failure / self-improvement pattern is implicit, through the moral's shape — no character names it.)
+- MANDATORY — **Framework vocabulary used without irony** (Impetus, Steering, Effector).
+- MANDATORY — **Burns's personal stake:** what Impetus means to him; what he's grateful for in it. (The reveal of his fear-of-failure / self-improvement pattern is implicit, through the moral's shape — no character names it.)
 
 ## Close
 
@@ -316,7 +316,7 @@ Delivered in the Pavlov round (above): the first structural rhyme, Latent Inhibi
 - **Mounting & integration:** Four-slot memory board mounts in the trunk compartment, fastened by Bart; board is Lisa-fabricated, identical in layout to the Roomba's. The tetrapod holds a duplicated copy of vacuum-Bramble's learned memory (ethernet duplication completed at the swap). **Two Brambles now coexist** — this tetrapod and the still-running vacuum (one shared history up to the moment of the copy, two instances after).
 - **Materials & finish:** NEW. Brushed-plastic shell over an articulated metal frame; boxy head; trunk plate. Belly TEG array; dorsal solar panels.
 - **Memory board & slots:** NEW four-slot board hosting Lisa's Evolutionary Algorithm (Evo-Algo). **Slot 1** — neuronal-knob-1 (NEW, see below). **Slots 2/3/4** — identical-copy genetic-knobs 2, 3, 4 (CARRIED, still load-bearing; retire one per quarter across Ch 6–8). Genetic-knob-1 (Persistence) is not carried onto this board (it keeps running on the vacuum's board).
-- **The knob (slot 1):** neuronal-knob-1 is the Effector knob. Bilaterian setting label and pair-slot construct **Credit Style** (the Explorer, Reviser × Effector). A graded dial, short-horizon↔long-horizon, tuning **how far back the unit's credit-assignment machinery looks before deciding what caused what** — not circadian timing (wake/sleep runs on the emergent allostatic process installed at Eumetazoa, independent of this knob) and not amount of activity or breadth of exploration. (The explore/exploit, wide-ranging-vs-focused behavior is the carried **genetic knob-3 (Foraging Type)** in slot 3, not this knob.)
+- **The knob (slot 1):** neuronal-knob-1 is the Effector knob. Bilaterian setting label and pair-slot construct **Orienting Style** (the Explorer, Reviser × Effector). A graded dial, short-horizon↔long-horizon, tuning **how far back the unit's credit-assignment machinery looks before deciding what caused what** — not circadian timing (wake/sleep runs on the emergent allostatic process installed at Eumetazoa, independent of this knob) and not amount of activity or breadth of exploration. (The explore/exploit, wide-ranging-vs-focused behavior is the carried **genetic knob-3 (Foraging Type)** in slot 3, not this knob.)
 - **Algorithm state:** Two minds — the online mind (active-inference style) and the deep-time mind (the genome/Modeler); learning lives in their coupling. NEW at this cell: the operation Steering licenses switches on — the online mind forms cue-outcome (Pavlovian) associations, driven by the valence/arousal scalars. CARRIED: consolidation (on since Eumetazoa; the deep-time mind reads the online mind during sleep-at-a-spot and reshapes itself). ABSENT: operant/reward learning and learning what its own knobs do (both arrive at Vertebrate, Ch 6); no felt experience — there is nothing it is like to be Bramble; valence/arousal are scalars feeding the policy, not a felt register.
 
 ---

@@ -787,17 +787,22 @@ class Component extends DCLogic {
     // ---- hoops + nodes + labels per cell ----
     cells.forEach((c) => {
       const cy = y(c.index), on = c.index === active;
-      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 11 : 9.5;
+      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 8 : 7;
       const nx = CX + OFF[c.newSlot] * hw(cy);
       const g = [];
       g.push(h('line', { key: 'ld', x1: CX + hw(cy) + 4, y1: cy, x2: labelX - 7, y2: cy, stroke: on ? '#f0e6d0' : '#3a3227', strokeWidth: 1, strokeOpacity: on ? 0.7 : 0.6, strokeDasharray: on ? null : '2 3' }));
       g.push(h('ellipse', { key: 'ring', cx: CX, cy, rx, ry, fill: on ? '#f0e6d0' : 'none', fillOpacity: on ? 0.06 : 1, stroke: on ? '#f0e6d0' : '#6f6552', strokeWidth: on ? 2 : 1.5 }));
       const bf = 0.8 + this.rnd(c.index) * 0.5;
-      const R = (on ? 13 : 10.5) * bf;
+      // Taper the dot with the hoop's perspective width so upper cells read as
+      // farther away and their dots never crowd the neighbouring colored rods.
+      const R = Math.max(3.5, Math.min((on ? 13 : 10.5) * bf, hw(cy) * 0.36));
       // Seat the dot on the hoop rim by its 3D depth: effector(red) rides the
       // BACK/top edge (cy - ry), modeler(yellow) the FRONT/bottom edge (cy + ry);
       // regulator/reviser stay on the hoop's center line. Hoop/line/labels unchanged.
-      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : 0;
+      // Seat reviser (leftmost tip) on the oval's LOWER rim at its x so the dot
+      // sits on the bottom corner of the hoop rather than floating above it.
+      const revDown = ry * Math.sqrt(Math.max(0, 1 - (hw(cy) / rx) ** 2));
+      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : c.newSlot === 'reviser' ? revDown : 0;
       if (on) g.push(h('circle', { key: 'glow', cx: nx, cy: cy + ndy, r: R * 1.7, fill: FC[c.newSlot], fillOpacity: 0.22 }));
       g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1 }));
       if (on) g.push(h('circle', { key: 'core', cx: nx, cy: cy + ndy, r: R * 0.32, fill: '#fff4d8' }));

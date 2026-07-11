@@ -101,31 +101,31 @@
           <div style="position:relative; z-index:0; margin-top:-120px;">{{ flower }}</div>
 
           <div style="margin-top:2px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">THE FOUR FUNCTIONS</div>
-            <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
-              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none;"></span><span><b style="font-weight:600;">Effector</b></span></div>
-              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none;"></span><span><b style="font-weight:600;">Regulator</b></span></div>
-              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none;"></span><span><b style="font-weight:600;">Modeler</b></span></div>
-              <div style="display:flex; align-items:center; gap:9px;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none;"></span><span><b style="font-weight:600;">Reviser</b></span></div>
-            </div>
-            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">THE FIVE CATEGORIES</div>
-            <div style="display:flex; flex-wrap:wrap; gap:13px 18px; font-size:11.5px; color:#a59a82;">
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg>Motivation</span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg>Tendency</span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg>Capacity</span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg>Breakthrough</span>
-              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}Signature</span>
-            </div>
-            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
             <div style="display:flex; align-items:center; gap:12px;">
               <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
               <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
-                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
-                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Form</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Function</button>
               </div>
             </div>
-            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">content</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">cybernetic</em> roles, which stay the same at each rung of the trellis.</p>
+            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">form</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">function</em> roles, which stay the same at each rung of the trellis.</p>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">MENTAL MODULES</div>
+            <div style="display:flex; flex-wrap:wrap; gap:13px 18px; font-size:11.5px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">Motivation</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">Tendency</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">Capacity</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">Breakthrough</span></span>
+              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">Signature</span></span>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">CYBERNETIC SYSTEMS</div>
+            <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><span><b style="font-weight:600;">Effector</b></span></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><span><b style="font-weight:600;">Regulator</b></span></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><span><b style="font-weight:600;">Modeler</b></span></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><span><b style="font-weight:600;">Reviser</b></span></div>
+            </div>
           </div>
         </div>
       </main>
@@ -242,7 +242,7 @@
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Click any node to open its panel.</p></div>
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Each clade adds one new function, shown in color; functions carried from older clades stay slate.</p></div>
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (the lit center), and Signature (the two opposite-pair venns).</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">CONTENT / CYBERNETIC</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">FORM / FUNCTION</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
             </div>
           </div>
         </div>
@@ -281,7 +281,7 @@
         <!-- horizontal deep-time rail -->
         <div style="margin-top:18px; padding:0 16px;">
           <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>◀ OLDER</span><span style="color:#7c7159;">DEEP-TIME RAIL</span><span>NEWER ▶</span></div>
-          <div style="display:flex; gap:7px; overflow-x:auto; padding-bottom:5px;">
+          <div id="mobRail" style="display:flex; gap:7px; overflow-x:auto; padding-bottom:5px;">
             <sc-for list="{{ railChips }}" as="ch" hint-placeholder-count="6">
               <div onclick="{{ ch.onTap }}" style="flex:none; width:80px; border:1px solid {{ ch.border }}; background:{{ ch.bg }}; padding:9px 9px 10px; cursor:pointer; display:flex; flex-direction:column; gap:7px;">
                 <span style="width:9px; height:9px; border-radius:50%; background:{{ ch.dot }};"></span>
@@ -301,31 +301,31 @@
         <!-- key -->
         <div style="margin-top:6px; padding:0 16px;">
           <div style="background:#1b1813; border:1px solid #3a3227; padding:12px 13px;">
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">THE FOUR FUNCTIONS</div>
-            <div style="display:flex; flex-wrap:wrap; gap:6px 13px; margin-top:8px; font-size:9.5px;">
-              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none;"></span><b style="font-weight:600;">Effector</b></div>
-              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none;"></span><b style="font-weight:600;">Regulator</b></div>
-              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none;"></span><b style="font-weight:600;">Modeler</b></div>
-              <div style="display:flex; align-items:center; gap:6px;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none;"></span><b style="font-weight:600;">Reviser</b></div>
-            </div>
-            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">THE FIVE CATEGORIES</div>
-            <div style="display:flex; flex-wrap:wrap; gap:7px 12px; font-size:9px; color:#a59a82;">
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg>Motivation</span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg>Tendency</span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg>Capacity</span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg>Breakthrough</span>
-              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}Signature</span>
-            </div>
-            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
             <div style="display:flex; align-items:center; gap:10px;">
               <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
               <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
-                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Content</button>
-                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Cybernetic</button>
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Form</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Function</button>
               </div>
             </div>
-            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">content</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">cybernetic</em> roles, which stay the same at each rung of the trellis.</p>
+            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">form</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">function</em> roles, which stay the same at each rung of the trellis.</p>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">MENTAL MODULES</div>
+            <div style="display:flex; flex-wrap:wrap; gap:7px 12px; font-size:9px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">Motivation</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">Tendency</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">Capacity</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">Breakthrough</span></span>
+              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">Signature</span></span>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">CYBERNETIC SYSTEMS</div>
+            <div style="display:flex; flex-wrap:wrap; gap:6px 13px; margin-top:8px; font-size:9.5px;">
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><b style="font-weight:600;">Effector</b></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><b style="font-weight:600;">Regulator</b></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><b style="font-weight:600;">Modeler</b></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><b style="font-weight:600;">Reviser</b></div>
+            </div>
           </div>
         </div>
 
@@ -449,7 +449,7 @@
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Tap any node to open its panel.</p></div>
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Each clade adds one new function, shown in color; carried functions stay slate.</p></div>
               <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (lit center), Signature (the opposite-pair venns).</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">CONTENT / CYBERNETIC</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">FORM / FUNCTION</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
             </div>
           </div>
         </div>
@@ -462,6 +462,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1990,&quot;height&quot;:1010},&quot;labelMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cybernetic&quot;,&quot;content&quot;],&quot;default&quot;:&quot;cybernetic&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;handmade&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
 const FC = { effector:'#d8472f', regulator:'#2f6f9e', modeler:'#e8b53a', reviser:'#5f9e4f' };
+const BRIGHT = { effector:'#ff6b4f', regulator:'#4aa6e0', modeler:'#ffcf5a', reviser:'#7fd06a' };
 const FNAME = { effector:'Effector', regulator:'Regulator', modeler:'Modeler', reviser:'Reviser' };
 const SLATE = '#5a513f', SLATE_FILL = '#6f6552';
 const _hx = (hex) => { hex = hex.replace('#', ''); return [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)]; };
@@ -508,12 +509,13 @@ const ROLES = {
 };
 const TYPENAME = { motivation:'Motivation', tendency:'Tendency', capacity:'Capacity', signature:'Signature', breakthrough:'Breakthrough' };
 const NEWFN_TO_TND = { effector:'tnd.explorer', modeler:'tnd.anticipator', regulator:'tnd.controller', reviser:'tnd.adapter' };
+const SLOT_FN = { 'mot.effector':'effector','mot.regulator':'regulator','mot.modeler':'modeler','mot.reviser':'reviser','tnd.explorer':'effector','tnd.controller':'regulator','tnd.anticipator':'modeler','tnd.adapter':'reviser','cap.reactor':'effector','cap.conservator':'regulator','cap.planner':'modeler','cap.pursuer':'reviser' };
 const clean = (s) => (s||'').replace(/\s*\[DRAFT\]\s*/g,' ').trim();
 const nm = (s) => (s||'').replace('-Human','');
 const pad2 = (n) => String(n).padStart(2,'0');
 
 class Component extends DCLogic {
-  state = { idx: 6, sel: null, mode: 'cybernetic', help: false };
+  state = { idx: 6, sel: null, mode: 'cybernetic', help: false, sysSel: null, modSel: null };
 
   componentDidMount() {
     this._poll = () => {
@@ -527,8 +529,33 @@ class Component extends DCLogic {
       else if (e.key === 'ArrowDown') { e.preventDefault(); this.step(-1); }
     };
     window.addEventListener('keydown', this._key);
+    this.railIntro();
   }
-  componentWillUnmount() { clearTimeout(this._t); window.removeEventListener('keydown', this._key); }
+  // mobile deep-time rail: on first load, center the default clade (Mammal) and do a
+  // brief left-right-left nudge so it's obvious the rail can be dragged.
+  railIntro() {
+    if (this._railDone) return;
+    const el = document.getElementById('mobRail');
+    const kid = el && el.children[this.state.idx];
+    if (!kid) { this._railTries = (this._railTries || 0) + 1; if (this._railTries < 50) this._rt = setTimeout(() => this.railIntro(), 150); return; }
+    this._railDone = true;
+    const centerLeft = () => { const c = el.getBoundingClientRect(), k = kid.getBoundingClientRect(); return el.scrollLeft + (k.left - c.left) - (el.clientWidth - kid.clientWidth) / 2; };
+    el.scrollLeft = centerLeft();
+    const base = centerLeft();
+    // one continuous per-frame eased oscillation (left → right → settle) rather than three
+    // stacked native smooth-scrolls, which interrupt each other and look jerky.
+    const amp = 56, dur = 1300, t0 = performance.now() + 450;
+    const tick = (now) => {
+      const t = (now - t0) / dur;
+      if (t < 0) { this._raf = requestAnimationFrame(tick); return; }
+      if (t >= 1) { el.scrollLeft = base; return; }
+      const eased = Math.sin(t * Math.PI * 2) * (1 - t); // damped single oscillation
+      el.scrollLeft = base - amp * eased;
+      this._raf = requestAnimationFrame(tick);
+    };
+    this._raf = requestAnimationFrame(tick);
+  }
+  componentWillUnmount() { clearTimeout(this._t); clearTimeout(this._rt); cancelAnimationFrame(this._raf); clearTimeout(this._selTO); window.removeEventListener('keydown', this._key); }
 
   step(d) {
     this.setState((s) => {
@@ -538,6 +565,8 @@ class Component extends DCLogic {
   }
   goTo(i) { this.setState({ idx: i, sel: null }); }
   pick(id) { this.setState({ sel: id }); }
+  pickSys(f) { const next = this.state.sysSel === f ? null : f; clearTimeout(this._selTO); this.setState({ sysSel: next, modSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ sysSel: null }), 3000); }
+  pickMod(t) { const next = this.state.modSel === t ? null : t; clearTimeout(this._selTO); this.setState({ modSel: next, sysSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ modSel: null }), 3000); }
 
   wrap(label) {
     const w = label.split(' ');
@@ -548,7 +577,7 @@ class Component extends DCLogic {
     return [label];
   }
 
-  flowerEl(cell, mode, sel, withSig) {
+  flowerEl(cell, mode, sel, withSig, sysSel, modSel) {
     if (withSig === undefined) withSig = true;
     const h = React.createElement;
     const els = [];
@@ -557,6 +586,10 @@ class Component extends DCLogic {
       els.push(h('ellipse', { key: 'e' + f, cx, cy, rx, ry,
         fill: isNew ? FC[f] : SLATE_FILL, fillOpacity: isNew ? 0.30 : 0.14,
         stroke: isNew ? FC[f] : '#5a513f', strokeWidth: isNew ? 1.6 : 1.3 }));
+      if (f === sysSel || modSel === 'motivation') {
+        els.push(h('ellipse', { key: 'sysglow' + f, cx, cy, rx: rx + 5, ry: ry + 5, fill: 'none', stroke: BRIGHT[f], strokeWidth: 2, strokeOpacity: 0.35 }));
+        els.push(h('ellipse', { key: 'syssel' + f, cx, cy, rx: rx + 2, ry: ry + 2, fill: 'none', stroke: BRIGHT[f], strokeWidth: 3.5 }));
+      }
     });
     const slots = window.BRAMBLE_FRAMEWORK.regionSlots;
     slots.forEach((slot) => {
@@ -604,6 +637,10 @@ class Component extends DCLogic {
         labelFill = '#9ad6a0'; bold = true;
       }
       if (isSel) g.unshift(h('circle', { key: 'r', cx: x, cy: y, r: markerR + 8, fill: 'none', stroke: '#e0a23c', strokeWidth: 2.5, strokeDasharray: '4 3' }));
+      if (modSel && slot.type === modSel && slot.type !== 'motivation') {
+        const mcol = slot.type === 'breakthrough' ? '#f4ead2' : BRIGHT[SLOT_FN[slot.id]];
+        g.unshift(h('circle', { key: 'modsel', cx: x, cy: y, r: markerR + 7, fill: 'none', stroke: mcol, strokeWidth: 3.5 }));
+      }
       if (!sticker) {
         const text = mode === 'cybernetic' ? (ROLES[slot.id.split('.')[1]] || {}).name || region.label : region.label;
         const lines = this.wrap(text);
@@ -633,6 +670,8 @@ class Component extends DCLogic {
       const labelY = (vert ? cy + r + off : cy + r) + 20;
       return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
         seld ? h('circle', { key: 'r', cx, cy, r: r + 16, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msl', cx: lower.x, cy: lower.y, r, fill: 'none', stroke: BRIGHT[lower.fn], strokeWidth: 3 }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msu', cx: upper.x, cy: upper.y, r, fill: 'none', stroke: BRIGHT[upper.fn], strokeWidth: 3 }) : null,
         h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
         h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
         isCrest ? this.sigStarEl(cx, cy, 13) : null,
@@ -651,7 +690,7 @@ class Component extends DCLogic {
   }
 
   // mobile: the two signature venns, side by side, in their own strip below the flower
-  sigRowEl(cell, mode, sel) {
+  sigRowEl(cell, mode, sel, modSel) {
     const h = React.createElement;
     const crest = (cell.newSlot === 'effector' || cell.newSlot === 'modeler') ? 'connector' : 'operator';
     const venn = (slotId, cx, cy, isCrest) => {
@@ -669,6 +708,8 @@ class Component extends DCLogic {
       const labelY = cy + (vert ? r + off : r) + 17;
       return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
         seld ? h('circle', { key: 'r', cx, cy, r: r + 13, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msl', cx: lower.x, cy: lower.y, r, fill: 'none', stroke: BRIGHT[lower.fn], strokeWidth: 3 }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msu', cx: upper.x, cy: upper.y, r, fill: 'none', stroke: BRIGHT[upper.fn], strokeWidth: 3 }) : null,
         h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
         h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
         isCrest ? this.sigStarEl(cx, cy, 11) : null,
@@ -961,6 +1002,24 @@ class Component extends DCLogic {
       stop: (e) => { if (e && e.stopPropagation) e.stopPropagation(); },
       setContent: () => this.setState({ mode: 'content' }),
       setCyber: () => this.setState({ mode: 'cybernetic' }),
+      pickEffector: () => this.pickSys('effector'),
+      pickRegulator: () => this.pickSys('regulator'),
+      pickModeler: () => this.pickSys('modeler'),
+      pickReviser: () => this.pickSys('reviser'),
+      effRing: this.state.sysSel === 'effector' ? '0 0 0 2px #ff6b4f' : '0 0 0 0 rgba(0,0,0,0)',
+      regRing: this.state.sysSel === 'regulator' ? '0 0 0 2px #4aa6e0' : '0 0 0 0 rgba(0,0,0,0)',
+      modRing: this.state.sysSel === 'modeler' ? '0 0 0 2px #ffcf5a' : '0 0 0 0 rgba(0,0,0,0)',
+      revRing: this.state.sysSel === 'reviser' ? '0 0 0 2px #7fd06a' : '0 0 0 0 rgba(0,0,0,0)',
+      pickMotivation: () => this.pickMod('motivation'),
+      pickTendency: () => this.pickMod('tendency'),
+      pickCapacity: () => this.pickMod('capacity'),
+      pickBreakthrough: () => this.pickMod('breakthrough'),
+      pickSignature: () => this.pickMod('signature'),
+      motColor: this.state.modSel === 'motivation' ? '#f0e6d0' : '#a59a82',
+      tndColor: this.state.modSel === 'tendency' ? '#f0e6d0' : '#a59a82',
+      capColor: this.state.modSel === 'capacity' ? '#f0e6d0' : '#a59a82',
+      bktColor: this.state.modSel === 'breakthrough' ? '#f0e6d0' : '#a59a82',
+      sigColor: this.state.modSel === 'signature' ? '#f0e6d0' : '#a59a82',
       contentBg: mode === 'content' ? '#e0a23c' : '#1b1813',
       contentFg: mode === 'content' ? '#1b1813' : '#8f8470',
       cyberBg: mode === 'cybernetic' ? '#e0a23c' : '#1b1813',
@@ -1086,9 +1145,9 @@ class Component extends DCLogic {
     return Object.assign(base, spec, {
       rail: this.railEl(cells, cell.index, stackOf, tintByNew),
       stackName, stackTint: '#e0a23c',
-      flower: this.flowerEl(cell, mode, sel),
-      flowerMobile: this.flowerEl(cell, mode, sel, false),
-      signaturesMobile: this.sigRowEl(cell, mode, sel),
+      flower: this.flowerEl(cell, mode, sel, true, this.state.sysSel, this.state.modSel),
+      flowerMobile: this.flowerEl(cell, mode, sel, false, this.state.sysSel, this.state.modSel),
+      signaturesMobile: this.sigRowEl(cell, mode, sel, this.state.modSel),
       panelGlyph: this.funcGlyphEl(glyphFns, 42),
       panelGlyphMobile: this.funcGlyphEl(glyphFns, 38),
       railChips,

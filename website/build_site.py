@@ -24,6 +24,9 @@ RUNTIME = HERE / "runtime"
 OUT = HERE / "site"
 
 RESPONSIVE_STYLE = """<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#1b1813">
 <style id="bx-responsive">
   html, body { margin:0; background:#1b1813; }
   body { overflow-x:hidden; }
@@ -81,7 +84,8 @@ def build() -> None:
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     (OUT / "index.html").write_text(html, encoding="utf-8")
-    for name in ("support.js", "favicon-32.png", "apple-touch-icon.png", "og-image.png", "_redirects"):
+    for name in ("support.js", "favicon-32.png", "apple-touch-icon.png", "icon-512.png",
+                 "og-image.png", "site.webmanifest", "_redirects"):
         shutil.copy2(RUNTIME / name, OUT / name)
     shutil.copy2(HERE / "framework-data.js", OUT / "framework-data.js")
 

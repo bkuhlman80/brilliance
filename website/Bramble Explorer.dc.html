@@ -693,20 +693,22 @@ class Component extends DCLogic {
     const h = React.createElement;
     const V = 200, C = V / 2;
     const cols = ['#c0392b', '#345089', '#d2742a', '#2f7d5a']; // ripe logo palette: red, indigo, orange, teal
-    let k = 7 * 97 + 3;
+    let k = 3 * 97 + 3;
     const rnd = () => { k++; return this.hash(k); };
     const colorAt = (x, y) => { const ang = (Math.atan2(x - C, -(y - C)) * 180 / Math.PI + 360) % 360; return cols[Math.floor(((ang + 45) % 360) / 90)]; };
-    const rings = [{ rr: 60, n: 13, br: 21 }, { rr: 33, n: 8, br: 20 }, { rr: 15, n: 5, br: 14 }];
+    // 4 drupelets per colour, spread across the width of each colour's 90° wedge → packed top-down berry
+    const slots = [{ da: -30, rr: 55, br: 27 }, { da: 30, rr: 52, br: 27 }, { da: -18, rr: 30, br: 25 }, { da: 20, rr: 29, br: 25 }];
     const drupes = [];
-    rings.forEach((ring) => {
-      const a0 = rnd() * Math.PI * 2;
-      for (let i = 0; i < ring.n; i++) {
-        const a = a0 + i * 2 * Math.PI / ring.n + (rnd() - 0.5) * 0.36;
-        const rad = ring.rr * (1 + (rnd() - 0.5) * 0.3);
-        const x = C + Math.cos(a) * rad, y = C + Math.sin(a) * rad;
-        drupes.push({ x, y, r: ring.br * (0.8 + rnd() * 0.42), color: colorAt(x, y) });
-      }
-    });
+    for (let q = 0; q < 4; q++) {
+      const centerDeg = q * 90;
+      slots.forEach((s) => {
+        const angDeg = centerDeg + s.da + (rnd() - 0.5) * 14;
+        const a = angDeg * Math.PI / 180;
+        const rad = s.rr * (1 + (rnd() - 0.5) * 0.2);
+        const x = C + Math.sin(a) * rad, y = C - Math.cos(a) * rad;
+        drupes.push({ x, y, r: s.br * (0.85 + rnd() * 0.3), color: colorAt(x, y) });
+      });
+    }
     drupes.sort((p, q) => Math.hypot(q.x - C, q.y - C) - Math.hypot(p.x - C, p.y - C));
     const els = [];
     els.push(h('ellipse', { key: 'sh', cx: C + 4, cy: C + 10, rx: 86, ry: 80, fill: '#000', fillOpacity: 0.16 }));
@@ -787,22 +789,17 @@ class Component extends DCLogic {
     // ---- hoops + nodes + labels per cell ----
     cells.forEach((c) => {
       const cy = y(c.index), on = c.index === active;
-      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 8 : 7;
+      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 11 : 9.5;
       const nx = CX + OFF[c.newSlot] * hw(cy);
       const g = [];
       g.push(h('line', { key: 'ld', x1: CX + hw(cy) + 4, y1: cy, x2: labelX - 7, y2: cy, stroke: on ? '#f0e6d0' : '#3a3227', strokeWidth: 1, strokeOpacity: on ? 0.7 : 0.6, strokeDasharray: on ? null : '2 3' }));
       g.push(h('ellipse', { key: 'ring', cx: CX, cy, rx, ry, fill: on ? '#f0e6d0' : 'none', fillOpacity: on ? 0.06 : 1, stroke: on ? '#f0e6d0' : '#6f6552', strokeWidth: on ? 2 : 1.5 }));
       const bf = 0.8 + this.rnd(c.index) * 0.5;
-      // Taper the dot with the hoop's perspective width so upper cells read as
-      // farther away and their dots never crowd the neighbouring colored rods.
-      const R = Math.max(3.5, Math.min((on ? 13 : 10.5) * bf, hw(cy) * 0.36));
+      const R = (on ? 13 : 10.5) * bf;
       // Seat the dot on the hoop rim by its 3D depth: effector(red) rides the
       // BACK/top edge (cy - ry), modeler(yellow) the FRONT/bottom edge (cy + ry);
       // regulator/reviser stay on the hoop's center line. Hoop/line/labels unchanged.
-      // Seat reviser (leftmost tip) on the oval's LOWER rim at its x so the dot
-      // sits on the bottom corner of the hoop rather than floating above it.
-      const revDown = ry * Math.sqrt(Math.max(0, 1 - (hw(cy) / rx) ** 2));
-      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : c.newSlot === 'reviser' ? revDown : 0;
+      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : 0;
       if (on) g.push(h('circle', { key: 'glow', cx: nx, cy: cy + ndy, r: R * 1.7, fill: FC[c.newSlot], fillOpacity: 0.22 }));
       g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1 }));
       if (on) g.push(h('circle', { key: 'core', cx: nx, cy: cy + ndy, r: R * 0.32, fill: '#fff4d8' }));

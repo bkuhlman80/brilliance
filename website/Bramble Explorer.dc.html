@@ -36,6 +36,24 @@
   .bx-lnk:hover { color: #f0c46a; }
   @keyframes recblink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0.15; } }
   .rec-dot { animation: recblink 1.15s steps(1) infinite; }
+  @keyframes vineGrow { to { stroke-dashoffset: 0; } }
+  @keyframes leafPop { 0% { opacity: 0; transform: scale(0) rotate(var(--lr,0deg)); } 60% { opacity: 1; transform: scale(1.18) rotate(var(--lr,0deg)); } 100% { opacity: 1; transform: scale(1) rotate(var(--lr,0deg)); } }
+  @keyframes budPulse { 0%,100% { opacity: 0.85; } 50% { opacity: 0.35; } }
+  .vine-stem { stroke-dasharray: 1; stroke-dashoffset: 1; animation: vineGrow 3s cubic-bezier(.45,.02,.25,1) forwards; }
+  .vine-twig { stroke-dasharray: 1; stroke-dashoffset: 1; animation: vineGrow 0.5s ease-out forwards; }
+  .vine-leaf { opacity: 0; transform-box: fill-box; transform-origin: center; animation: leafPop 0.5s cubic-bezier(.3,1.4,.5,1) forwards; }
+  @keyframes leafSway { 0%,100% { transform: rotate(-11deg); } 50% { transform: rotate(11deg); } }
+  @keyframes twigSway { 0%,100% { transform: rotate(-2.6deg); } 50% { transform: rotate(2.6deg); } }
+  @keyframes bloomPop { 0% { opacity: 0; transform: scale(0.6); } 60% { opacity: 1; transform: scale(1.14); } 100% { opacity: 1; transform: scale(1); } }
+  @keyframes sparkRipple { 0% { opacity: 0.6; transform: scale(0.4); } 100% { opacity: 0; transform: scale(2.6); } }
+  .vine-bloom { opacity: 0; transform-box: fill-box; transform-origin: center; animation: bloomPop 0.75s cubic-bezier(.3,1.35,.5,1) forwards; }
+  .vine-spark { transform-box: fill-box; transform-origin: center; animation: sparkRipple 0.85s ease-out forwards; }
+  .vine-bud { animation: budPulse 1.6s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .vine-stem, .vine-twig { stroke-dashoffset: 0; animation: none; }
+    .vine-leaf, .vine-bloom { opacity: 1; transform: none; animation: none; }
+    .vine-spark { display: none; }
+  }
 </style>
 </helmet>
 
@@ -759,7 +777,7 @@ class Component extends DCLogic {
     // fake 3D depth: yellow nearest (down to BOTTOM of lowest hoop), blue farthest (just the TOP); reds/greens mid
     const ROD_BOT = { modeler: 711, effector: 701, reviser: 700, regulator: 690 };
     const labelX = 206;
-    const back = [], mids = [], front = [];
+    const back = [], mids = [], front = [], rodTops = [];
 
     // ---- tapered tier bands (genetic / neuronal / symbolic) ----
     [['symbolic', '#7e5a86', '#8a6f96'], ['neuronal', '#2f6f9e', '#5e88ad'], ['genetic', '#8a6a43', '#a3835a']].forEach(([line, tint, lab]) => {
@@ -775,16 +793,121 @@ class Component extends DCLogic {
     Object.entries(OFF).forEach(([f, o]) => {
       const yb = ROD_BOT[f], bx = CX + o * hw(yb);
       front.push(h('line', { key: 's' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 2.2, strokeOpacity: 0.9, strokeLinecap: 'round' }));
+      // crisp overlay re-drawn ON TOP of the foliage so each function rod stays traceable through the vine
+      rodTops.push(h('line', { key: 'st' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 1.7, strokeOpacity: 0.95, strokeLinecap: 'round' }));
       const fa = FOOT[f], fx = CX + fa[0] * HW_B, ey = fa[1];
       front.push(h('line', { key: 'leg' + f, x1: bx, y1: yb, x2: fx, y2: ey, stroke: FC[f], strokeWidth: 2.4, strokeOpacity: 0.92, strokeLinecap: 'round' }));
       front.push(h('path', { key: 'foot' + f, d: `M${fx - 3} ${ey} L${fx + 3} ${ey} L${fx} ${ey + 9} Z`, fill: FC[f], fillOpacity: 0.92 }));
     });
 
-    // ---- finial cap ----
-    front.push(h('line', { key: 'neck', x1: CX, y1: yT, x2: CX, y2: 44, stroke: '#8f8470', strokeWidth: 2.4 }));
-    front.push(h('path', { key: 'cone', d: `M${CX - 9} 45 L${CX + 9} 45 L${CX} 27 Z`, fill: '#2a241b', stroke: '#9a8f76', strokeWidth: 1.4, strokeLinejoin: 'round' }));
-    front.push(h('circle', { key: 'ball', cx: CX, cy: 18, r: 6.5, fill: '#2a241b', stroke: '#9a8f76', strokeWidth: 1.4 }));
+    // ---- (finial cap removed: the vine itself crowns the trellis, blooming above the top hoop) ----
 
+
+    // ---- climbing vine: grows on load, coiling up the trellis and touching each new-function dot ----
+    const vOrder = cells.slice().sort((a, b) => a.index - b.index);
+    const vpts = vOrder.map((c) => {
+      const cyy = y(c.index), ona = c.index === active;
+      const rxx = hw(cyy) + (ona ? 6 : 3), ryy = ona ? 8 : 7;
+      const nxx = CX + OFF[c.newSlot] * hw(cyy);
+      const revD = ryy * Math.sqrt(Math.max(0, 1 - (hw(cyy) / rxx) ** 2));
+      const ndyy = c.newSlot === 'effector' ? -ryy : c.newSlot === 'modeler' ? ryy : c.newSlot === 'reviser' ? revD : 0;
+      return { x: nxx, y: cyy + ndyy };
+    });
+    const vStart = { x: CX, y: 728 };
+    const vnodes = [vStart, ...vpts];
+    const segs = [];
+    let vd = `M ${vStart.x.toFixed(1)} ${vStart.y.toFixed(1)}`;
+    for (let i = 1; i < vnodes.length; i++) {
+      const p0 = vnodes[i - 1], p1 = vnodes[i];
+      const midY = (p0.y + p1.y) / 2;
+      const side = i % 2 === 1 ? 1 : -1; // clean coil swinging to alternating sides of the axis
+      const bx = CX + side * hw(midY) * 1.05;
+      const c1 = { x: p0.x + (bx - p0.x) * 0.6, y: p0.y + (p1.y - p0.y) * 0.28 };
+      const c2 = { x: p1.x + (bx - p1.x) * 0.6, y: p0.y + (p1.y - p0.y) * 0.72 };
+      vd += ` C ${c1.x.toFixed(1)} ${c1.y.toFixed(1)} ${c2.x.toFixed(1)} ${c2.y.toFixed(1)} ${p1.x.toFixed(1)} ${p1.y.toFixed(1)}`;
+      const len = Math.hypot(p1.x - p0.x, p1.y - p0.y) + Math.abs(bx - (p0.x + p1.x) / 2) * 0.8;
+      segs.push({ p0, c1, c2, p1, len });
+    }
+    // carry the stem past the top dot up to the finial, where it curls into a tendril and blooms
+    const vTop = vpts[vpts.length - 1];
+    vd += ` C ${vTop.x.toFixed(1)} ${(vTop.y - 16).toFixed(1)} ${(CX - 5).toFixed(1)} 34 ${CX} 36`;
+    const totalLen = segs.reduce((a, s) => a + s.len, 0) || 1;
+    const cumBefore = []; { let a = 0; segs.forEach((s) => { cumBefore.push(a); a += s.len; }); }
+    const VGRN = '#7fb069', VDRK = '#3f6b39', VBRN = '#7a5836', VBDK = '#4a3620', VLIT = '#bfe38f', VDUR = 3;
+    const reduce = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const bez = (s, t) => { const u = 1 - t, a = u * u * u, b = 3 * u * u * t, c = 3 * u * t * t, d = t * t * t; return { x: a * s.p0.x + b * s.c1.x + c * s.c2.x + d * s.p1.x, y: a * s.p0.y + b * s.c1.y + c * s.c2.y + d * s.p1.y }; };
+    const bezAng = (s, t) => { const u = 1 - t; const dx = 3 * u * u * (s.c1.x - s.p0.x) + 6 * u * t * (s.c2.x - s.c1.x) + 3 * t * t * (s.p1.x - s.c2.x); const dy = 3 * u * u * (s.c1.y - s.p0.y) + 6 * u * t * (s.c2.y - s.c1.y) + 3 * t * t * (s.p1.y - s.c2.y); return Math.atan2(dy, dx); };
+    // small leaf, baked at (px,py) pointing along ang; CSS pops it in, then it idly sways. `lit` = near the selected rung → brighter & larger
+    const leaf = (key, px, py, ang, L, delay, lit) => {
+      const LL = lit ? L * 1.3 : L;
+      const c = Math.cos(ang), s = Math.sin(ang), W = LL * 0.42;
+      const P = (dx, dy) => `${(px + dx * c - dy * s).toFixed(1)} ${(py + dx * s + dy * c).toFixed(1)}`;
+      const swDur = (2.2 + this.hash(Math.round(px * 13 + py * 7)) * 2.2).toFixed(2);
+      const swDelay = (2.5 + this.hash(Math.round(px * 5 + py * 11)) * 1.2).toFixed(2); // desync so leaves don't sway in unison
+      const anim = `leafPop .5s cubic-bezier(.3,1.4,.5,1) ${delay.toFixed(2)}s forwards, leafSway ${swDur}s ease-in-out ${swDelay}s infinite`;
+      const st = reduce ? { opacity: 1, animation: 'none' } : { '--lr': '0deg', transformBox: 'fill-box', transformOrigin: 'center', animation: anim };
+      return h('path', { key, className: 'vine-leaf', d: `M ${P(0, 0)} Q ${P(LL * 0.5, -W)} ${P(LL, 0)} Q ${P(LL * 0.5, W)} ${P(0, 0)} Z`, fill: lit ? VLIT : VGRN, stroke: VDRK, strokeWidth: 0.6, style: st });
+    };
+    const litOf = (yy) => Math.abs(yy - y(active)) < 30; // leaves near the selected cell perk up
+    // clean woody coiling stem (no glow)
+    front.push(h('path', { key: 'vine-stem', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBRN, strokeWidth: 2.8, strokeLinecap: 'round' }));
+    front.push(h('path', { key: 'vine-stem2', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBDK, strokeWidth: 1, strokeLinecap: 'round', strokeOpacity: 0.55 }));
+    // lots of little leaves + dense green branch twigs, sprouting as the tip passes
+    let lc = 0, sideFlip = 1;
+    const LT = [0.1, 0.3, 0.5, 0.7, 0.9];
+    segs.forEach((s, si) => {
+      LT.forEach((t) => {
+        const p = bez(s, t), ang = bezAng(s, t);
+        sideFlip *= -1;
+        const out = ang + sideFlip * (Math.PI / 2) * 0.72;
+        const L = 8 + (hw(p.y) / HW_B) * 7.5;
+        const frac = (cumBefore[si] + t * s.len) / totalLen;
+        front.push(leaf('vlf' + (lc++), p.x, p.y, out, L, frac * VDUR * 0.95, litOf(p.y)));
+      });
+      // dense green branch twigs, each ending in its own leaf
+      const NT = 8; // ~75% of the previous density (was 10)
+      for (let k = 0; k < NT; k++) {
+        const t = 0.06 + (k / (NT - 1)) * 0.88;
+        const p = bez(s, t), ang = bezAng(s, t);
+        const bside = ((si + k) % 2 === 0) ? 1 : -1;
+        const j = this.hash(si * 37 + k * 7) - 0.5;
+        const out = ang + bside * (Math.PI / 2) * (0.7 + j * 0.4);
+        const tlen = 8 + (hw(p.y) / HW_B) * 7 + j * 4;
+        const ex = p.x + Math.cos(out) * tlen, ey = p.y + Math.sin(out) * tlen;
+        const cxb = p.x + Math.cos(out) * tlen * 0.5 - Math.sin(out) * bside * 3;
+        const cyb = p.y + Math.sin(out) * tlen * 0.5 + Math.cos(out) * bside * 3;
+        const frac = (cumBefore[si] + t * s.len) / totalLen;
+        const twSwD = (2.6 + Math.abs(j) * 2).toFixed(2);
+        const twStyle = reduce ? {} : { transformBox: 'fill-box', transformOrigin: 'center', animation: `vineGrow .5s ease-out ${(frac * VDUR).toFixed(2)}s forwards, twigSway ${twSwD}s ease-in-out ${(frac * VDUR + 0.5).toFixed(2)}s infinite` };
+        front.push(h('path', { key: `vtw${si}_${k}`, className: 'vine-twig', d: `M ${p.x.toFixed(1)} ${p.y.toFixed(1)} Q ${cxb.toFixed(1)} ${cyb.toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}`, pathLength: 1, fill: 'none', stroke: VGRN, strokeWidth: 1.3, strokeLinecap: 'round', style: twStyle }));
+        if (k % 2 === 0) front.push(leaf(`vtwl${si}_${k}`, ex, ey, out, 7.5 + (hw(ey) / HW_B) * 5.25, frac * VDUR + 0.2, litOf(ey)));
+      }
+    });
+    // tendril curl off the stem, just below the cluster
+    front.push(h('path', { key: 'vtendril', className: 'vine-twig', d: `M ${CX} 42 C ${CX + 10} 40 ${CX + 12} 33 ${CX + 4} 32 C ${CX - 2} 31.4 ${CX - 1} 37 ${CX + 4} 37.3`, pathLength: 1, fill: 'none', stroke: VGRN, strokeWidth: 1.5, strokeLinecap: 'round', style: reduce ? {} : { animation: `vineGrow .7s ease-out ${(VDUR - 0.4).toFixed(2)}s forwards` } }));
+    // bramble bloom cluster crowning the vine above the trellis — pale blossoms, green buds, one ripe berry
+    const clusterEls = [];
+    const node = { x: CX, y: 36 };
+    const sLeaf = (kx, ky, ang, L) => { const c = Math.cos(ang), s = Math.sin(ang), W = L * 0.42; const P = (dx, dy) => `${(kx + dx * c - dy * s).toFixed(1)} ${(ky + dx * s + dy * c).toFixed(1)}`; return h('path', { key: 'sl' + kx + '_' + ky, d: `M ${P(0, 0)} Q ${P(L * 0.5, -W)} ${P(L, 0)} Q ${P(L * 0.5, W)} ${P(0, 0)} Z`, fill: VGRN, stroke: VDRK, strokeWidth: 0.5 }); };
+    const pedicel = (x, yy) => clusterEls.push(h('path', { key: 'ped' + x + '_' + yy, d: `M ${node.x} ${node.y} Q ${((node.x + x) / 2).toFixed(1)} ${((node.y + yy) / 2 - 2).toFixed(1)} ${x} ${yy}`, fill: 'none', stroke: VBRN, strokeWidth: 1.1, strokeLinecap: 'round' }));
+    const blossom = (kx, ky, sc, pink) => { const pc = pink ? '#e9c6d6' : '#f3edf0', pe = pink ? '#c98fae' : '#d7cad3'; const g = []; for (let i = 0; i < 5; i++) { const a = -Math.PI / 2 + i * (2 * Math.PI / 5); g.push(h('circle', { key: 'pt' + i, cx: +(kx + Math.cos(a) * 3.2 * sc).toFixed(1), cy: +(ky + Math.sin(a) * 3.2 * sc).toFixed(1), r: 3.1 * sc, fill: pc, stroke: pe, strokeWidth: 0.5 })); } g.push(h('circle', { key: 'ce', cx: kx, cy: ky, r: 2 * sc, fill: '#c9d16f', stroke: '#93994a', strokeWidth: 0.4 })); for (let i = 0; i < 6; i++) { const a = i * (Math.PI / 3); g.push(h('circle', { key: 'sm' + i, cx: +(kx + Math.cos(a) * 1.5 * sc).toFixed(1), cy: +(ky + Math.sin(a) * 1.5 * sc).toFixed(1), r: 0.5 * sc, fill: '#6f5a24' })); } return h('g', { key: 'bl' + kx + '_' + ky }, g); };
+    const berry = (kx, ky, sc, ripe) => { const g = []; const base = ripe ? '#3a2540' : '#8fae52', dk = ripe ? '#241531' : '#5f7d34', hi = ripe ? '#7a5c86' : '#b6cd7e'; const pts = [[0, -2], [-1.8, -0.6], [1.8, -0.6], [-1.1, 1.3], [1.1, 1.3], [0, 0.3]]; pts.forEach((p, i) => { g.push(h('circle', { key: 'd' + i, cx: +(kx + p[0] * sc).toFixed(1), cy: +(ky + p[1] * sc).toFixed(1), r: 1.7 * sc, fill: base, stroke: dk, strokeWidth: 0.4 })); g.push(h('circle', { key: 'dh' + i, cx: +(kx + p[0] * sc - 0.5).toFixed(1), cy: +(ky + p[1] * sc - 0.5).toFixed(1), r: 0.55 * sc, fill: hi, fillOpacity: 0.7 })); }); return h('g', { key: 'be' + kx + '_' + ky }, g); };
+    [[CX - 12, 16], [CX + 11, 13], [CX - 1, 7], [CX + 14, 25], [CX - 13, 26], [CX + 5, 28]].forEach((p) => pedicel(p[0], p[1]));
+    clusterEls.push(sLeaf(CX - 7, 40, Math.PI * 1.12, 8));
+    clusterEls.push(sLeaf(CX + 8, 41, Math.PI * -0.12, 8));
+    clusterEls.push(berry(CX + 14, 25, 1.0, false));
+    clusterEls.push(berry(CX - 13, 26, 0.9, false));
+    clusterEls.push(berry(CX + 5, 28, 1.05, true));
+    clusterEls.push(blossom(CX - 12, 16, 1.2, true));
+    clusterEls.push(blossom(CX + 11, 13, 1.0, true));
+    clusterEls.push(blossom(CX - 1, 7, 0.9, false));
+    front.push(h('g', { key: 'vbloom', className: 'vine-bloom', style: { transformBox: 'fill-box', transformOrigin: 'center bottom', animationDelay: (VDUR - 0.1).toFixed(2) + 's' } }, clusterEls));
+    // selection spark: a bright ripple at the chosen rung (replays whenever the selection changes)
+    const aDot = vpts[active];
+    if (aDot) front.push(h('circle', { key: `vspark-${active}`, className: 'vine-spark', cx: aDot.x, cy: aDot.y, r: 10, fill: 'none', stroke: FC[vOrder[active].newSlot], strokeWidth: 2 }));
+
+    // rod overlays sit above the foliage but below the hoops/nodes drawn next
+    rodTops.forEach((e) => front.push(e));
 
     // ---- hoops + nodes + labels per cell ----
     cells.forEach((c) => {
@@ -803,7 +926,10 @@ class Component extends DCLogic {
       const revDown = ry * Math.sqrt(Math.max(0, 1 - (hw(cy) / rx) ** 2));
       const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : c.newSlot === 'reviser' ? revDown : 0;
       if (on) g.push(h('circle', { key: 'glow', cx: nx, cy: cy + ndy, r: R * 1.7, fill: FC[c.newSlot], fillOpacity: 0.22 }));
-      g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1 }));
+      // ground halo separates the node from the surrounding foliage so the green dots stay legible against the green vine
+      g.push(h('circle', { key: 'halo', cx: nx, cy: cy + ndy, r: R + 3, fill: '#1b1813', fillOpacity: 0.92 }));
+      g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1.5 }));
+      g.push(h('circle', { key: 'rim', cx: nx, cy: cy + ndy, r: R + 0.6, fill: 'none', stroke: '#f0e6d0', strokeWidth: 1, strokeOpacity: on ? 0.85 : 0.45 }));
       if (on) g.push(h('circle', { key: 'core', cx: nx, cy: cy + ndy, r: R * 0.32, fill: '#fff4d8' }));
       g.push(h('text', { key: 'nm', x: labelX, y: cy - 4, style: { fontFamily: "'Saira Condensed',sans-serif", fontWeight: on ? 700 : 600, letterSpacing: '0.04em' }, fontSize: on ? 17 : 15, fill: on ? '#f0e6d0' : '#bdb39c' }, [nm(c.name), h('tspan', { key: 'd', dx: 8, style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 400, letterSpacing: '0' }, fontSize: 8.5, fill: on ? '#c9bfa6' : '#6f6552' }, c.date)]));
       if (stackOf) {

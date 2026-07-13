@@ -820,6 +820,30 @@ class Component extends DCLogic {
     const labelX = 206;
     const back = [], mids = [], front = [], rodTops = [];
 
+    // ---- GROUND: the whole trellis is planted in a bed of warm, tilled earth ----
+    const GS = 712; // nominal soil surface
+    const soilTop = `M 0 ${GS + 6} C 42 ${GS - 4} 82 ${GS + 8} 122 ${GS} C 166 ${GS - 8} 214 ${GS + 6} 262 ${GS - 2} C 306 ${GS - 8} 342 ${GS + 6} 372 ${GS - 1}`;
+    back.push(h('path', { key: 'soilFill', d: `${soilTop} L 372 772 L 0 772 Z`, fill: '#2c2114' }));
+    // a damper, darker layer lower down
+    back.push(h('path', { key: 'soilDeep', d: 'M 0 748 C 90 740 150 756 220 748 C 290 741 330 752 372 746 L 372 772 L 0 772 Z', fill: '#1f1710' }));
+    // tilled crest highlights along the surface
+    back.push(h('path', { key: 'soilLip', d: soilTop, fill: 'none', stroke: '#4d3d28', strokeWidth: 2, strokeLinecap: 'round', strokeOpacity: 0.9 }));
+    back.push(h('path', { key: 'soilLip2', d: soilTop, fill: 'none', stroke: '#5e4a30', strokeWidth: 0.8, strokeOpacity: 0.6, transform: 'translate(0 -2.5)' }));
+    // pebbles + clods
+    const PEB = [[24, 742, 3.2], [58, 758, 2.2], [86, 730, 2.6], [150, 752, 3.4], [188, 736, 2], [232, 760, 2.8], [300, 744, 3], [336, 730, 2.4], [356, 758, 2], [112, 764, 2.4], [268, 730, 2.2], [44, 726, 1.8]];
+    PEB.forEach((p, i) => {
+      back.push(h('ellipse', { key: 'peb' + i, cx: p[0], cy: p[1], rx: p[2], ry: p[2] * 0.72, fill: i % 2 ? '#4a3d29' : '#574936', stroke: '#241b11', strokeWidth: 0.5, fillOpacity: 0.92 }));
+      back.push(h('ellipse', { key: 'pebh' + i, cx: p[0] - p[2] * 0.3, cy: p[1] - p[2] * 0.3, rx: p[2] * 0.4, ry: p[2] * 0.28, fill: '#6b5a41', fillOpacity: 0.5 }));
+    });
+    // faint scattered grit
+    for (let i = 0; i < 40; i++) { const gx = this.hash(i * 13 + 3) * 372, gy = GS + 8 + this.hash(i * 7 + 9) * (772 - GS - 10); back.push(h('circle', { key: 'gr' + i, cx: +gx.toFixed(1), cy: +gy.toFixed(1), r: 0.7, fill: '#3a2e1e', fillOpacity: 0.65 })); }
+    // small heaps of earth pile at the foot of each rod (pushed last, above the foliage)
+    const mounds = [];
+    const heap = (mx, my, key) => {
+      mounds.push(h('path', { key: 'md' + key, d: `M ${mx - 15} ${my + 5} Q ${mx - 6} ${my - 9} ${mx} ${my - 9} Q ${mx + 6} ${my - 9} ${mx + 15} ${my + 5} Q ${mx} ${my} ${mx - 15} ${my + 5} Z`, fill: '#3a2c1b', stroke: '#241b11', strokeWidth: 0.6 }));
+      mounds.push(h('path', { key: 'mdh' + key, d: `M ${mx - 11} ${my - 1} Q ${mx} ${my - 7} ${mx + 11} ${my - 1}`, fill: 'none', stroke: '#5e4a30', strokeWidth: 1, strokeOpacity: 0.7 }));
+    };
+
     // ---- tapered tier bands (genetic / neuronal / symbolic) ----
     [['symbolic', '#7e5a86', '#8a6f96'], ['neuronal', '#2f6f9e', '#5e88ad'], ['genetic', '#8a6a43', '#a3835a']].forEach(([line, tint, lab]) => {
       const ys = cells.filter((c) => c.line === line).map((c) => y(c.index));
@@ -830,15 +854,17 @@ class Component extends DCLogic {
 
     // ---- four function rods (tapering toward the finial) ----
     // each colored line: rod (finial→hoop) + leg (→splayed foot). Legs end below the bottom berry; red highest (furthest), yellow lowest (nearest).
-    const FOOT = { reviser: [-1.28, 736], effector: [-0.34, 724], modeler: [0.34, 754], regulator: [1.28, 744] };
+    // each colored line: rod (finial→hoop) + leg driven down into the earth.
+    const FOOT = { reviser: [-1.28, 748], effector: [-0.34, 742], modeler: [0.34, 758], regulator: [1.28, 752] };
     Object.entries(OFF).forEach(([f, o]) => {
       const yb = ROD_BOT[f], bx = CX + o * hw(yb);
       front.push(h('line', { key: 's' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 2.2, strokeOpacity: 0.9, strokeLinecap: 'round' }));
       // crisp overlay re-drawn ON TOP of the foliage so each function rod stays traceable through the vine
       rodTops.push(h('line', { key: 'st' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 1.7, strokeOpacity: 0.95, strokeLinecap: 'round' }));
       const fa = FOOT[f], fx = CX + fa[0] * HW_B, ey = fa[1];
+      // leg carries the rod down to its foot, planted on the ground
       front.push(h('line', { key: 'leg' + f, x1: bx, y1: yb, x2: fx, y2: ey, stroke: FC[f], strokeWidth: 2.4, strokeOpacity: 0.92, strokeLinecap: 'round' }));
-      front.push(h('path', { key: 'foot' + f, d: `M${fx - 3} ${ey} L${fx + 3} ${ey} L${fx} ${ey + 9} Z`, fill: FC[f], fillOpacity: 0.92 }));
+      heap(fx, ey, f); // a heap of earth at the foot of the rod
     });
 
     // ---- (finial cap removed: the vine itself crowns the trellis, blooming above the top hoop) ----
@@ -854,10 +880,10 @@ class Component extends DCLogic {
       const ndyy = c.newSlot === 'effector' ? -ryy : c.newSlot === 'modeler' ? ryy : c.newSlot === 'reviser' ? revD : 0;
       return { x: nxx, y: cyy + ndyy };
     });
-    const vStart = { x: CX, y: 728 };
-    const vnodes = [vStart, ...vpts];
+    const vStart = { x: CX, y: 720 };
+    const vnodes = vpts.slice(1);
     const segs = [];
-    let vd = `M ${vStart.x.toFixed(1)} ${vStart.y.toFixed(1)}`;
+    let vd = `M ${vnodes[0].x.toFixed(1)} ${vnodes[0].y.toFixed(1)}`;
     for (let i = 1; i < vnodes.length; i++) {
       const p0 = vnodes[i - 1], p1 = vnodes[i];
       const midY = (p0.y + p1.y) / 2;
@@ -893,6 +919,34 @@ class Component extends DCLogic {
     // clean woody coiling stem (no glow)
     front.push(h('path', { key: 'vine-stem', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBRN, strokeWidth: 2.8, strokeLinecap: 'round' }));
     front.push(h('path', { key: 'vine-stem2', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBDK, strokeWidth: 1, strokeLinecap: 'round', strokeOpacity: 0.55 }));
+    // lifelike woody trunk: follows the vine line from the prokaryote dot, down
+    // through the protocell dot, then flares as it curves into the ground.
+    {
+      const A = vpts[1], B = vpts[0], G = { x: 90, y: 734 };
+      // arc the prokaryote→protocell run outward with a bowed midpoint knot
+      const M = { x: 152, y: 676 };
+      const K = [A, M, B, G];
+      const P = [K[0], ...K, K[K.length - 1]]; // Catmull-Rom with duplicated ends
+      const cr = (p0, p1, p2, p3, t) => { const t2 = t * t, t3 = t2 * t; return {
+        x: 0.5 * (2 * p1.x + (-p0.x + p2.x) * t + (2 * p0.x - 5 * p1.x + 4 * p2.x - p3.x) * t2 + (-p0.x + 3 * p1.x - 3 * p2.x + p3.x) * t3),
+        y: 0.5 * (2 * p1.y + (-p0.y + p2.y) * t + (2 * p0.y - 5 * p1.y + 4 * p2.y - p3.y) * t2 + (-p0.y + 3 * p1.y - 3 * p2.y + p3.y) * t3) }; };
+      const SP = K.length - 1, N = 12 * SP, cl = [];
+      for (let k = 0; k <= N; k++) { const uu = (k / N) * SP; const sp = Math.min(SP - 1, Math.floor(uu)), lt = uu - sp; const c = cr(P[sp], P[sp + 1], P[sp + 2], P[sp + 3], lt); cl.push({ x: c.x, y: c.y, u: k / N }); }
+      const wAt = (u) => 1.6 + 8.6 * Math.pow(u, 1.7); // thin at the top, flaring at the base
+      const Lp = [], Rp = [];
+      for (let k = 0; k <= N; k++) { const p = cl[k], a = cl[Math.max(0, k - 1)], b = cl[Math.min(N, k + 1)]; let tx = b.x - a.x, ty = b.y - a.y; const tl = Math.hypot(tx, ty) || 1; tx /= tl; ty /= tl; const nx = -ty, ny = tx, hw2 = wAt(p.u) / 2; Lp.push([+(p.x + nx * hw2).toFixed(1), +(p.y + ny * hw2).toFixed(1)]); Rp.push([+(p.x - nx * hw2).toFixed(1), +(p.y - ny * hw2).toFixed(1)]); }
+      let td = 'M ' + Lp[0][0] + ' ' + Lp[0][1];
+      for (let k = 1; k <= N; k++) td += ' L ' + Lp[k][0] + ' ' + Lp[k][1];
+      for (let k = N; k >= 0; k--) td += ' L ' + Rp[k][0] + ' ' + Rp[k][1];
+      td += ' Z';
+      front.push(h('path', { key: 'vine-trunk', d: td, fill: VBRN, stroke: VBDK, strokeWidth: 0.8, strokeLinejoin: 'round' }));
+      // bark shadow down the centre gives the trunk roundness
+      let sd = 'M ' + cl[0].x.toFixed(1) + ' ' + cl[0].y.toFixed(1);
+      for (let k = 1; k <= N; k++) sd += ' L ' + cl[k].x.toFixed(1) + ' ' + cl[k].y.toFixed(1);
+      front.push(h('path', { key: 'vine-trunk-sh', d: sd, fill: 'none', stroke: VBDK, strokeWidth: 1.6, strokeOpacity: 0.5, strokeLinecap: 'round' }));
+      // leaves sprouting along the trunk — including the prokaryote→protocell arc
+      [0.14, 0.22, 0.31, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8, 0.88].forEach((u, i) => { const k = Math.round(u * N), p = cl[k], a = cl[Math.max(0, k - 1)], b = cl[Math.min(N, k + 1)]; const ang = Math.atan2(b.y - a.y, b.x - a.x) + (i % 2 ? 1 : -1) * 1.05; front.push(leaf('trlf' + i, p.x, p.y, ang, 8 + (i % 3) * 0.9, 0, litOf(p.y))); });
+    }
     // lots of little leaves + dense green branch twigs, sprouting as the tip passes
     let lc = 0, sideFlip = 1;
     const LT = [0.1, 0.3, 0.5, 0.7, 0.9];
@@ -949,7 +1003,21 @@ class Component extends DCLogic {
 
     // rod overlays sit above the foliage but below the hoops/nodes drawn next
     rodTops.forEach((e) => front.push(e));
+    // heaped earth mounds cover where the legs and vine drive into the ground
+    mounds.forEach((e) => front.push(e));
 
+    // ---- per-cell dot-size overrides ----
+    const idxOf = {}; cells.forEach((c) => { idxOf[c.id] = c.index; });
+    // a cell's default (non-active) node radius, given only its index
+    const baseR = (i) => Math.max(3.5, Math.min(10.5 * (0.8 + this.rnd(i) * 0.5), hw(y(i)) * 0.36));
+    const CELL_FIXED = { protocell: 0.5, eumetazoa: 0.75, eukaryote: 0.75, mammal: 1.15 };
+    // make this cell's dot exactly match another cell's current default size
+    const CELL_MATCH = { vertebrate: 'prokaryote', prokaryote: 'mammal', primate: 'band', band: 'primate' };
+    // a cell's CURRENT default radius, honouring the overrides above
+    const curR = (id) => CELL_FIXED[id] ? baseR(idxOf[id]) * CELL_FIXED[id]
+      : CELL_MATCH[id] ? baseR(idxOf[CELL_MATCH[id]]) : baseR(idxOf[id]);
+    // absolute target radii
+    const CELL_TARGET = { bilaterian: (curR('eumetazoa') + curR('vertebrate')) / 2 };
     // ---- hoops + nodes + labels per cell ----
     cells.forEach((c) => {
       const cy = y(c.index), on = c.index === active;
@@ -959,9 +1027,13 @@ class Component extends DCLogic {
       g.push(h('line', { key: 'ld', x1: CX + hw(cy) + 4, y1: cy, x2: labelX - 7, y2: cy, stroke: on ? '#f0e6d0' : '#3a3227', strokeWidth: 1, strokeOpacity: on ? 0.7 : 0.6, strokeDasharray: on ? null : '2 3' }));
       g.push(h('ellipse', { key: 'ring', cx: CX, cy, rx, ry, fill: on ? '#f0e6d0' : 'none', fillOpacity: on ? 0.06 : 1, stroke: on ? '#f0e6d0' : '#6f6552', strokeWidth: on ? 2 : 1.5 }));
       const bf = 0.8 + this.rnd(c.index) * 0.5;
+      // Per-cell hand-tuned dot-size overrides.
+      let cs = CELL_FIXED[c.id] || 1;
+      if (CELL_MATCH[c.id]) cs = baseR(idxOf[CELL_MATCH[c.id]]) / baseR(c.index);
+      if (CELL_TARGET[c.id] != null) cs = CELL_TARGET[c.id] / baseR(c.index);
       // Taper the dot with the hoop's perspective width so upper cells read as
       // farther away and their dots never crowd the neighbouring colored rods.
-      const R = Math.max(3.5, Math.min((on ? 13 : 10.5) * bf, hw(cy) * 0.36));
+      const R = Math.max(3.5, Math.min((on ? 13 : 10.5) * bf, hw(cy) * 0.36)) * cs;
       // Seat reviser (leftmost tip) on the oval's LOWER rim at its x so the dot
       // sits on the bottom corner of the hoop rather than floating above it.
       const revDown = ry * Math.sqrt(Math.max(0, 1 - (hw(cy) / rx) ** 2));
@@ -1128,6 +1200,7 @@ class Component extends DCLogic {
       if (!sel || sel === 'bkt.center') {
         stackName = 'Breakthrough';
         stackOf = (c) => c.regions['bkt.center'];
+        tintByNew = true; // breakthrough labels stay colored like their dots
       } else {
         const rk = ROLES[sel.split('.')[1]];
         stackName = rk ? rk.name : 'Stack';

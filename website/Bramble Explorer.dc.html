@@ -33,6 +33,7 @@
   ::selection { background: #e0a23c; color: #1b1813; }
   .scan { background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.35) 0 1px, transparent 1px 3px); }
   .bx-btn:hover { filter: brightness(1.12); }
+  .bx-btn:disabled { opacity: 0.32; cursor: default; filter: grayscale(0.4); pointer-events: none; }
   .bx-lnk:hover { color: #f0c46a; }
   @keyframes recblink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0.15; } }
   .rec-dot { animation: recblink 1.15s steps(1) infinite; }
@@ -93,8 +94,8 @@
             <div style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8f8470; margin-top:6px; letter-spacing:0.03em;">{{ headerMeta }}</div>
             <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
             <nav style="display:flex; gap:9px; margin-top:14px; pointer-events:auto;">
-              <button class="bx-btn" onclick="{{ goPrev }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ prevName }}</button>
-              <button class="bx-btn" onclick="{{ goNext }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ nextName }}</button>
+              <button class="bx-btn" onclick="{{ goPrev }}" disabled="{{ atStart }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ prevName }}</button>
+              <button class="bx-btn" onclick="{{ goNext }}" disabled="{{ atEnd }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ nextName }}</button>
             </nav>
           </header>
 
@@ -515,7 +516,7 @@ const nm = (s) => (s||'').replace('-Human','');
 const pad2 = (n) => String(n).padStart(2,'0');
 
 class Component extends DCLogic {
-  state = { idx: 6, sel: null, mode: 'cybernetic', help: false, sysSel: null, modSel: null };
+  state = { idx: 6, sel: null, mode: 'content', help: false, sysSel: null, modSel: null };
 
   componentDidMount() {
     this._poll = () => {
@@ -1103,7 +1104,7 @@ class Component extends DCLogic {
       return Object.assign(base, {
         rail: null, flower: null, flowerMobile: null, signaturesMobile: null, panelGlyph: null, panelGlyphMobile: null,
         displayName: '', cellIndexLabel: '', headerMeta: '', newFuncLabel: '',
-        prevName: '◂', nextName: '▸', faceText: '', faceMood: '',
+        prevName: '◂', nextName: '▸', atStart: false, atEnd: false, faceText: '', faceMood: '',
         regionMeta: '', panelTitle: '', panelGloss: '', panelBody: '',
         railChips: [], stackName: '', stackTint: '#e0a23c',
         showBack: false, backLabel: '', showBadge: false, badgeText: '', badgeBg: '#262119', badgeFg: '#8f8470', badgeBorder: '#3a3227',
@@ -1228,8 +1229,10 @@ class Component extends DCLogic {
       cellIndexLabel: 'CLADE ' + pad2(cell.index),
       headerMeta: cell.line.toUpperCase() + ' LINE · ' + cell.date + ' · ' + eraShort,
       newFuncLabel: FNAME[cell.newSlot],
-      prevName: prev ? '◂ ' + nm(prev.name) : '◂ Start',
-      nextName: next ? nm(next.name) + ' ▸' : 'Newest ▸',
+      prevName: prev ? '◂ ' + nm(prev.name) : '',
+      nextName: next ? nm(next.name) + ' ▸' : '',
+      atStart: !prev,
+      atEnd: !next,
       handmade,
       showMargin: handmade && !!NOTES[cell.id],
       marginNoteText: NOTES[cell.id] || '',

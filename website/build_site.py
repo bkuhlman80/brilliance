@@ -6,9 +6,14 @@ deploy transformations, and assembles the upload bundle in `site/`:
 
   index.html          — the .dc.html + responsive wrapper + web specimen paths
   support.js          — dc-runtime (vendored in runtime/)
-  framework-data.js   — data file (source of truth for labels/prose)
+  framework-data.js   — data file (source of truth for cell/region prose)
+  ui-copy.js          — chrome microcopy (CC-owned; optional until extraction lands)
   favicon/og assets   — vendored in runtime/
   public/specimens_web/*.jpg
+
+Copy ownership: framework-data.js and ui-copy.js are owned by the Code tool
+(all words). Bramble Explorer.dc.html is owned by the Design tool (look & feel;
+reads every string from the data files, hardcodes none). See website/README.md.
 
 Deploy with:
   wrangler pages deploy website/site --project-name trellis-framework --branch main
@@ -88,6 +93,12 @@ def build() -> None:
                  "og-image.png", "site.webmanifest", "_redirects"):
         shutil.copy2(RUNTIME / name, OUT / name)
     shutil.copy2(HERE / "framework-data.js", OUT / "framework-data.js")
+    # ui-copy.js holds the chrome microcopy once it is extracted out of the
+    # .dc.html. Guarded so the build keeps working before that lands; the
+    # .dc.html only <script src="ui-copy.js">'s it after Design wires it in.
+    ui_copy = HERE / "ui-copy.js"
+    if ui_copy.exists():
+        shutil.copy2(ui_copy, OUT / "ui-copy.js")
 
     spec_out = OUT / "public" / "specimens_web"
     spec_out.mkdir(parents=True)

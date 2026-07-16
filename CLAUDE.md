@@ -130,6 +130,24 @@ Apply these regardless of N when relevant:
 - Self-report only when claim requires method separation
 - Preprint / not yet peer-reviewed
 
+## Trellis website copy contract (two-tool ownership)
+
+The `website/` site is built by two tools with a hard split to prevent copy
+drift. Full contract in [website/README.md](website/README.md). The Code tool's
+obligations:
+
+- **Own the words.** All copy the Code tool edits lives in `website/framework-data.js`
+  (cell/region prose) or `website/ui-copy.js` (chrome microcopy). Never edit
+  `website/Bramble Explorer.dc.html` — that file belongs to the Design tool.
+- **Never take a Design bundle's data file.** When integrating a Design handoff,
+  copy in *only* `Bramble Explorer.dc.html` (+ `runtime/` if changed). Do NOT
+  overwrite `framework-data.js` or `ui-copy.js` from the bundle — doing so is the
+  exact regression that reverted Impetus→Boldness (commit e939769).
+- **Build + deploy belong to the Code tool:** `python3 website/build_site.py`
+  then `wrangler pages deploy website/site --project-name trellis-framework --branch main`.
+- If a design change needs a new label/key, the Code tool adds it to the data
+  file; Design never ships data to supply it.
+
 ## Conventions
 
 - All text files use `.md` extension (not `.txt`)

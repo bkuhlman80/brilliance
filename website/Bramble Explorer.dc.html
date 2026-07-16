@@ -27,6 +27,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DotGothic16&family=Shantell+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Saira+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
 <script src="framework-data.js"></script>
+<script src="ui-copy.js"></script>
 <style>
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: #0e0d09; }
@@ -70,12 +71,12 @@
         <div style="display:flex; align-items:flex-start; justify-content:space-between; padding:20px 18px 12px; border-bottom:1px solid #2c261d;">
           <div style="display:flex; align-items:center; gap:14px;">
             {{ brandLogo }}
-            <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:36px; line-height:0.88; letter-spacing:0.02em; text-transform:uppercase; color:#e7ddc8;">Trellis<br/>Framework</div>
+            <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:36px; line-height:0.88; letter-spacing:0.02em; text-transform:uppercase; color:#e7ddc8;">{{ ui.brandLine1 }}<br/>{{ ui.brandLine2 }}</div>
           </div>
           <div class="bx-btn" onclick="{{ openHelp }}" style="width:28px; height:28px; flex:none; border:1px solid #4a4234; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:14px; color:#8f8470; cursor:pointer;">?</div>
         </div>
         <div style="display:flex; align-items:center; gap:9px; padding:10px 18px; border-bottom:1px solid #2c261d;">
-          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">Ladder</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">{{ ui.ladder }}</span>
           <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
         </div>
         <div style="flex:1; min-height:0; position:relative;">
@@ -92,7 +93,7 @@
               <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; flex:none; white-space:nowrap;">{{ cellIndexLabel }}</span>
             </div>
             <div style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8f8470; margin-top:6px; letter-spacing:0.03em;">{{ headerMeta }}</div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">{{ ui.trellisFn }} · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
             <nav style="display:flex; gap:9px; margin-top:14px; pointer-events:auto;">
               <button class="bx-btn" onclick="{{ goPrev }}" disabled="{{ atStart }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ prevName }}</button>
               <button class="bx-btn" onclick="{{ goNext }}" disabled="{{ atEnd }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ nextName }}</button>
@@ -103,29 +104,29 @@
 
           <div style="margin-top:2px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
             <div style="display:flex; align-items:center; gap:12px;">
-              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; flex:none;">{{ ui.labelsHeading }}</span>
               <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
-                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Form</button>
-                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Function</button>
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">{{ ui.formLabel }}</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">{{ ui.functionLabel }}</button>
               </div>
             </div>
-            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">form</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">function</em> roles, which stay the same at each rung of the trellis.</p>
+            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">{{ ui.blurbPre }}<em style="color:#a59a82;">{{ ui.blurbForm }}</em>{{ ui.blurbMid }}<em style="color:#a59a82;">{{ ui.blurbFunction }}</em>{{ ui.blurbPost }}</p>
             <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">MENTAL MODULES</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">{{ ui.modulesHeading }}</div>
             <div style="display:flex; flex-wrap:wrap; gap:13px 18px; font-size:11.5px; color:#a59a82;">
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">Motivation</span></span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">Tendency</span></span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">Capacity</span></span>
-              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">Breakthrough</span></span>
-              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">Signature</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">{{ ui.motivation }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">{{ ui.tendency }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">{{ ui.capacity }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">{{ ui.breakthrough }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">{{ ui.signature }}</span></span>
             </div>
             <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">CYBERNETIC SYSTEMS</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">{{ ui.systemsHeading }}</div>
             <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
-              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><span><b style="font-weight:600;">Effector</b></span></div>
-              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><span><b style="font-weight:600;">Regulator</b></span></div>
-              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><span><b style="font-weight:600;">Modeler</b></span></div>
-              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><span><b style="font-weight:600;">Reviser</b></span></div>
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><span><b style="font-weight:600;">{{ ui.effector }}</b></span></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><span><b style="font-weight:600;">{{ ui.regulator }}</b></span></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><span><b style="font-weight:600;">{{ ui.modeler }}</b></span></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><span><b style="font-weight:600;">{{ ui.reviser }}</b></span></div>
             </div>
           </div>
         </div>
@@ -164,8 +165,8 @@
                     {{ specimenImg }}
                     <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
                       <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
-                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; color:#5e5338;">NO SPECIMEN ON FILE</span>
-                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · AWAITING FIELD CAPTURE</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; color:#5e5338;">{{ ui.noSpecimen }}</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · {{ ui.awaitingCapture }}</span>
                       </div>
                     </sc-if>
                     <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
@@ -177,7 +178,7 @@
                     <div style="position:absolute; bottom:7px; right:7px; width:16px; height:16px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
                     <div style="position:absolute; top:10px; left:30px; display:flex; align-items:center; gap:5px;">
                       <span class="rec-dot" style="width:8px; height:8px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
-                      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#f0e6d0;">REC</span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#f0e6d0;">{{ ui.rec }}</span>
                     </div>
                     <div style="position:absolute; top:10px; right:30px; font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
                     <div style="position:absolute; bottom:9px; left:30px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
@@ -198,7 +199,7 @@
               </sc-if>
 
               <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
-                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">FUNCTIONS IN PLAY</div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ ui.functionsInPlay }}</div>
                 <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
                   <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
                     <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
@@ -207,7 +208,7 @@
               </sc-if>
 
               <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
-                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">SCIENCE LINKS</div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ ui.scienceLinks }}</div>
                 <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
                   <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
                     <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:12.5px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
@@ -234,16 +235,16 @@
         <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.74); display:flex; align-items:center; justify-content:center; padding:44px;">
           <div onclick="{{ stop }}" style="width:580px; max-width:100%; max-height:84%; overflow-y:auto; background:#1b1813; border:1px solid #4a4234; box-shadow:0 30px 80px rgba(0,0,0,0.6);">
             <div class="scan" style="background-color:#12100b; padding:15px 20px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
-              <span style="font-family:'DotGothic16',monospace; font-size:18px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">HOW TO READ THE TRELLIS</span>
+              <span style="font-family:'DotGothic16',monospace; font-size:18px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ ui.helpTitle }}</span>
               <span onclick="{{ closeHelp }}" class="bx-lnk" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
             </div>
             <div style="padding:22px 26px 28px; display:flex; flex-direction:column; gap:16px;">
-              <p style="font-family:'Spectral',serif; font-style:italic; font-size:15px; line-height:1.55; color:#cdc3ad; margin:0;">A field guide to one personality's deep history — from the first cell to the modern self — read as a trellis of inherited functions.</p>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE RAIL</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Twelve clades, oldest at the base climbing to newest. Click any to travel its lineage; the three tinted bands are the genetic, neuronal, and symbolic inheritance lines.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Click any node to open its panel.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Each clade adds one new function, shown in color; functions carried from older clades stay slate.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (the lit center), and Signature (the two opposite-pair venns).</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">FORM / FUNCTION</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:15px; line-height:1.55; color:#cdc3ad; margin:0;">{{ ui.helpIntroDesktop }}</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRailH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpRailPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFlowerH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpFlowerPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpTrellisFnH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpTrellisFnPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRegionsH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpRegionsPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFormFnH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpFormFnPD }}</p></div>
             </div>
           </div>
         </div>
@@ -261,7 +262,7 @@
       <div style="flex:none; display:flex; align-items:center; justify-content:space-between; padding:14px 16px 12px; border-bottom:1px solid #2c261d; background:#1b1813;">
         <div style="display:flex; align-items:center; gap:9px;">
           {{ brandLogoSm }}
-          <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:16px; line-height:0.9; letter-spacing:0.03em; text-transform:uppercase; color:#e7ddc8;">Trellis <span style="color:#8f8470;">Framework</span></div>
+          <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:16px; line-height:0.9; letter-spacing:0.03em; text-transform:uppercase; color:#e7ddc8;">{{ ui.brandLine1 }} <span style="color:#8f8470;">{{ ui.brandLine2 }}</span></div>
         </div>
         <div style="display:flex; align-items:center; gap:10px;">
           <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.14em; color:#7c7159;">{{ cellIndexLabel }}</span>
@@ -276,12 +277,12 @@
         <div style="padding:16px 16px 0;">
           <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:31px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0;">{{ displayName }}</h1>
           <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; margin-top:6px; letter-spacing:0.02em;">{{ headerMeta }}</div>
-          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7c7159; margin-top:3px; letter-spacing:0.05em;">TRELLIS FUNCTION · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7c7159; margin-top:3px; letter-spacing:0.05em;">{{ ui.trellisFn }} · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
         </div>
 
         <!-- horizontal deep-time rail -->
         <div style="margin-top:18px; padding:0 16px;">
-          <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>◀ OLDER</span><span style="color:#7c7159;">DEEP-TIME RAIL</span><span>NEWER ▶</span></div>
+          <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>{{ ui.mobileOlder }}</span><span style="color:#7c7159;">{{ ui.mobileRailTitle }}</span><span>{{ ui.mobileNewer }}</span></div>
           <div id="mobRail" style="display:flex; gap:7px; overflow-x:auto; padding-bottom:5px;">
             <sc-for list="{{ railChips }}" as="ch" hint-placeholder-count="6">
               <div onclick="{{ ch.onTap }}" style="flex:none; width:80px; border:1px solid {{ ch.border }}; background:{{ ch.bg }}; padding:9px 9px 10px; cursor:pointer; display:flex; flex-direction:column; gap:7px;">
@@ -303,29 +304,29 @@
         <div style="margin-top:6px; padding:0 16px;">
           <div style="background:#1b1813; border:1px solid #3a3227; padding:12px 13px;">
             <div style="display:flex; align-items:center; gap:10px;">
-              <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; flex:none;">LABELS</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; flex:none;">{{ ui.labelsHeading }}</span>
               <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
-                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">Form</button>
-                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">Function</button>
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">{{ ui.formLabel }}</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">{{ ui.functionLabel }}</button>
               </div>
             </div>
-            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">Switch the flower's labels between this clade's own <em style="color:#a59a82;">form</em>&nbsp;— which climbs and changes at every level — and the universal <em style="color:#a59a82;">function</em> roles, which stay the same at each rung of the trellis.</p>
+            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">{{ ui.blurbPre }}<em style="color:#a59a82;">{{ ui.blurbForm }}</em>{{ ui.blurbMid }}<em style="color:#a59a82;">{{ ui.blurbFunction }}</em>{{ ui.blurbPost }}</p>
             <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">MENTAL MODULES</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">{{ ui.modulesHeading }}</div>
             <div style="display:flex; flex-wrap:wrap; gap:7px 12px; font-size:9px; color:#a59a82;">
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">Motivation</span></span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">Tendency</span></span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">Capacity</span></span>
-              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">Breakthrough</span></span>
-              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">Signature</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">{{ ui.motivation }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">{{ ui.tendency }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">{{ ui.capacity }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">{{ ui.breakthrough }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">{{ ui.signature }}</span></span>
             </div>
             <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
-            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">CYBERNETIC SYSTEMS</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">{{ ui.systemsHeading }}</div>
             <div style="display:flex; flex-wrap:wrap; gap:6px 13px; margin-top:8px; font-size:9.5px;">
-              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><b style="font-weight:600;">Effector</b></div>
-              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><b style="font-weight:600;">Regulator</b></div>
-              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><b style="font-weight:600;">Modeler</b></div>
-              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><b style="font-weight:600;">Reviser</b></div>
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><b style="font-weight:600;">{{ ui.effector }}</b></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><b style="font-weight:600;">{{ ui.regulator }}</b></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><b style="font-weight:600;">{{ ui.modeler }}</b></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><b style="font-weight:600;">{{ ui.reviser }}</b></div>
             </div>
           </div>
         </div>
@@ -362,8 +363,8 @@
                     {{ specimenImg }}
                     <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
                       <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
-                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#5e5338;">NO SPECIMEN ON FILE</span>
-                        <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · AWAITING FIELD CAPTURE</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#5e5338;">{{ ui.noSpecimen }}</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · {{ ui.awaitingCapture }}</span>
                       </div>
                     </sc-if>
                     <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
@@ -375,7 +376,7 @@
                     <div style="position:absolute; bottom:7px; right:7px; width:15px; height:15px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
                     <div style="position:absolute; top:9px; left:28px; display:flex; align-items:center; gap:5px;">
                       <span class="rec-dot" style="width:7px; height:7px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
-                      <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.2em; color:#f0e6d0;">REC</span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.2em; color:#f0e6d0;">{{ ui.rec }}</span>
                     </div>
                     <div style="position:absolute; top:9px; right:28px; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
                     <div style="position:absolute; bottom:8px; left:28px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
@@ -396,7 +397,7 @@
               </sc-if>
 
               <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
-                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">FUNCTIONS IN PLAY</div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ ui.functionsInPlay }}</div>
                 <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
                   <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
                     <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
@@ -405,7 +406,7 @@
               </sc-if>
 
               <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
-                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">SCIENCE LINKS</div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ ui.scienceLinks }}</div>
                 <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
                   <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
                     <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:13px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
@@ -430,7 +431,7 @@
         <!-- full vertical ladder (mobile) -->
         <div style="border-top:1px solid #2c261d; padding:18px 16px 34px; background:#1b1813;">
           <div style="display:flex; align-items:center; gap:9px; margin-bottom:10px;">
-            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">Ladder</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">{{ ui.ladder }}</span>
             <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
           </div>
           <div style="width:100%; aspect-ratio:372 / 772;">{{ rail }}</div>
@@ -441,16 +442,16 @@
         <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.78); display:flex; align-items:flex-end;">
           <div onclick="{{ stop }}" style="width:100%; max-height:90%; overflow-y:auto; background:#1b1813; border-top:1px solid #4a4234; box-shadow:0 -20px 60px rgba(0,0,0,0.6);">
             <div class="scan" style="background-color:#12100b; padding:13px 16px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
-              <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">HOW TO READ THE TRELLIS</span>
+              <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ ui.helpTitle }}</span>
               <span onclick="{{ closeHelp }}" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
             </div>
             <div style="padding:16px 18px 24px; display:flex; flex-direction:column; gap:13px;">
-              <p style="font-family:'Spectral',serif; font-style:italic; font-size:13.5px; line-height:1.5; color:#cdc3ad; margin:0;">A field guide to one personality's deep history, read as a trellis of inherited functions.</p>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE RAIL</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Twelve clades, oldest at the base to newest. Tap any to travel its lineage; the tinted bands are the genetic, neuronal, and symbolic lines.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE FLOWER</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">The four functions — Effector, Regulator, Modeler, Reviser — and the regions they combine into. Tap any node to open its panel.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">THE TRELLIS FUNCTION</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Each clade adds one new function, shown in color; carried functions stay slate.</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">REGION TYPES</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Motivation (solid), Tendency (soft ellipse), Capacity (dashed), Breakthrough (lit center), Signature (the opposite-pair venns).</p></div>
-              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">FORM / FUNCTION</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">Toggle labels between this clade's specific names and the universal cybernetic roles.</p></div>
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:13.5px; line-height:1.5; color:#cdc3ad; margin:0;">{{ ui.helpIntroMobile }}</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRailH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpRailPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFlowerH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpFlowerPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpTrellisFnH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpTrellisFnPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRegionsH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpRegionsPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFormFnH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpFormFnPD }}</p></div>
             </div>
           </div>
         </div>
@@ -1065,7 +1066,9 @@ class Component extends DCLogic {
     const mode = this.props.labelMode ?? this.state.mode;
     const handmade = this.props.handmade ?? true;
     const fw = window.BRAMBLE_FRAMEWORK;
+    const ui = window.BRAMBLE_UI || {};
     const base = {
+      ui,
       brandLogo: this.glyphEl(68),
       brandLogoSm: this.glyphEl(28),
       sigStarLegend: this.sigStarLegendEl(),
@@ -1161,14 +1164,14 @@ class Component extends DCLogic {
         ? { bg: 'rgba(95,158,79,0.16)', fg: '#7fbf6a', bd: 'rgba(95,158,79,0.5)' }
         : { bg: 'rgba(232,181,58,0.16)', fg: '#e8b53a', bd: 'rgba(232,181,58,0.5)' };
       panel = {
-        showBack: true, backLabel: '◂ Back to ' + nm(cell.name),
+        showBack: true, backLabel: '◂ ' + (ui.backTo || 'Back to') + ' ' + nm(cell.name),
         faceText: (p.title || '').toUpperCase(), faceMood: '[ o · o ]',
         regionMeta: sel.split('.')[1] + ' · ' + TYPENAME[slot.type],
         showBadge: !!badge, badgeText: badge || '', badgeBg: bstyle.bg, badgeFg: bstyle.fg, badgeBorder: bstyle.bd,
         panelTitle: p.title, panelGloss: role ? role.gloss : '',
         panelBody: clean(p.body),
         showSpecimen: false,
-        showStatus: (p.status === 'draft'), statusText: 'DRAFT PROSE',
+        showStatus: (p.status === 'draft'), statusText: ui.draftProse,
         showSection2: false, section2Label: '', section2Body: '',
         showFuncs: true, funcsInPlay: fns,
         showLinks: (p.links && p.links.length > 0),
@@ -1185,8 +1188,8 @@ class Component extends DCLogic {
         panelTitle: nm(cell.name), panelGloss: 'Trellis function — ' + FNAME[cell.newSlot],
         panelBody: clean(cell.clade),
         showSpecimen: true,
-        showStatus: (cell.proseStatus === 'draft'), statusText: 'DRAFT PROSE',
-        showSection2: true, section2Label: 'THE VIRTUOUS CYCLE', section2Body: clean(cell.virtuousCycle),
+        showStatus: (cell.proseStatus === 'draft'), statusText: ui.draftProse,
+        showSection2: true, section2Label: ui.virtuousCycle, section2Body: clean(cell.virtuousCycle),
         showFuncs: false, funcsInPlay: [],
         showLinks: false, links: [],
         showHint: false, hintText: '',

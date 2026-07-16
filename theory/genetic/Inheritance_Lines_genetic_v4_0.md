@@ -208,6 +208,7 @@ The bioenergetic transition through mitochondria is Nick Lane's territory. The e
 
 The reinforcing cycle runs through mating and meiosis (sexual recombination plus the cell-division machinery that supports it), memory beyond moment-to-moment adaptation, and a hierarchical behavioral repertoire (nested programs invokable under different conditions, all running inside one cell). The Modeler swap at this cell replaces Self-Organization with Interiority. Persistence, Coordination, and Self-Production persist.
 
+The Planner-region capacity is Checkpoint Control. The eukaryotic cell withholds a major transition, such as division or replication, until an internal check confirms the represented conditions are met. It represents the internal state, verifies it, and gates the transition, without itself executing the step it gates. The cell-cycle checkpoint system is the standard mechanism, conserved across eukaryotes; a few highly derived lineages have lost it secondarily.
 The Effector × Modeler pair introduces Host, the signature that names the chimeric unit constituted by its incorporated symbiont, canonically the mitochondrion. The Regulator × Reviser pair carries Organism forward from Prokaryote.
 
 **Unified Venn:**
@@ -226,7 +227,7 @@ The Effector × Modeler pair introduces Host, the signature that names the chime
 | Regulator × Reviser | Organism |
 | Reactor (Modeler absent) | Taxis |
 | Conservator (Reviser absent) | Intracellular Transport |
-| Planner (Effector absent) | Memory Beyond Adaptation |
+| Planner (Effector absent) | Checkpoint Control |
 | Pursuer (Regulator absent) | Phagocytosis |
 | Center (Breakthrough) | Scale & Size |
 
@@ -349,7 +350,7 @@ Triples named by which row-slot's motivation is absent.
 | Vertebrate | Gut Sense | Steering | Temporal Credit | Procedural Memory |
 | Bilaterian | Allostatic Regulation | Steering | Associative Learning | Inhibition |
 | Eumetazoa | Allostatic Regulation | Ingestion | Non-Associative Learning | Intracellular Transport |
-| Eukaryote | Memory Beyond Adaptation | Phagocytosis | Taxis | Intracellular Transport |
+| Eukaryote | Checkpoint Control | Phagocytosis | Taxis | Intracellular Transport |
 | Prokaryote | Sequential Responding | Precision Machinery | Taxis | State Gating |
 | Protocell | Operational Closure | Precision Machinery | Phenotypic Plasticity | Reproduction |
 

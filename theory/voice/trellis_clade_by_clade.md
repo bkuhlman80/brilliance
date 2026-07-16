@@ -274,7 +274,7 @@ _Cross-function pairings that mark the clade._
 _Defined by the one function that is *absent*._
 
 
-- **Memory Beyond Adaptation** (Capacity · without Effector) — Set the action drive aside and the other three give memory beyond adaptation: holding a past event the genes did not write in. Physarum, a single-celled slime mold, is hit with dry air at fixed intervals; after a few cycles it slows in advance of the next pulse, even when the pulse never comes. It stored a rhythm, with no neuron.
+- **Checkpoint Control** (Capacity · without Effector) — Set the action drive aside and the other three give checkpoint control: the cell holds a big step back until an inner check clears it. A eukaryote ready to divide waits at its cell-cycle checkpoint, refusing to split until its chromosomes are copied clean, and only a passing check lets it go. It reads its own state and gates the move, without taking the step itself.
   
   _Cite:_ [Saigusa et al.](https://doi.org/10.1103/PhysRevLett.100.018101)
 

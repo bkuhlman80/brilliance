@@ -355,7 +355,7 @@ Triples named by which row-slot's motivation is absent.
 | Vertebrate | Gut Sense | Steering | Temporal Credit | Procedural Memory |
 | Bilaterian | Allostatic Regulation | Steering | Associative Learning | Inhibition |
 | Eumetazoa | Allostatic Regulation | Ingestion | Non-Associative Learning | Intracellular Transport |
-| Eukaryote | Memory Beyond Adaptation | Phagocytosis | Taxis | Intracellular Transport |
+| Eukaryote | Checkpoint Control | Phagocytosis | Taxis | Intracellular Transport |
 | Prokaryote | Sequential Responding | Precision Machinery | Taxis | State Gating |
 | Protocell | Operational Closure | Precision Machinery | Phenotypic Plasticity | Reproduction |
 

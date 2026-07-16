@@ -33,7 +33,7 @@ At Eukaryote the unit's four active motivations are Persistence, Coordination, I
 
 This settles the Ch 3 teaching beat as a consequence of the architecture, not a craft choice. At Eukaryote there is exactly one built mind: the board, the Modeler. There is no built Reviser, so there is no Modeler × Reviser loop, so there is no model adaptation. The board holds a representation shaped by what the unit has done; it cannot yet be revised against outcomes. **"It remembers; it does not yet learn from outcomes"** is a theorem of the slot structure: the Conservator region (Effector + Regulator + Modeler, no Reviser) is the mature loop running with no meta-update.
 
-The genetic line even names the pieces. The board is the Planner-region capacity, **Memory Beyond Adaptation**. The genetic-line Adapter region is **Production Type** — the dock, the mitochondrion-analogue — because the genetic-line Reviser is metabolic, not cognitive. The cognitive reading of the Adapter loop does not switch on until the neuronal line builds a cognitive Reviser.
+The genetic line even names the pieces. The genetic-line Adapter region is **Production Type** — the dock, the mitochondrion-analogue — because the genetic-line Reviser is metabolic, not cognitive. The cognitive reading of the Adapter loop does not switch on until the neuronal line builds a cognitive Reviser.
 
 ---
 

@@ -45,10 +45,10 @@ Each cell name is shorthand for a clade. The naming convention is set out below 
 
 Row function definitions live in `trellis_framework doc`. The architectural summary:
 
-- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic).
-- **Regulator** stabilizes behavior against stored references.
-- **Modeler** maintains internal representation that organizes inputs.
-- **Reviser** revises the references the regulator stabilizes against.
+- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic). In selection, weights recency.
+- **Regulator** stabilizes behavior against stored references. In selection, weights familiarity.
+- **Modeler** maintains internal representation that organizes inputs. In selection, weights potency.
+- **Reviser** revises the references the regulator stabilizes against. In selection, weights novelty.
 
 The four functions emerge in order at every line because each depends on the prior. There is no Regulator without an Effector to regulate. There is no Modeler without something worth representing. There is no Reviser without a model worth updating.
 
@@ -140,7 +140,7 @@ Trait-level individual differences in dispositional response are documented from
 
 #### Bilaterian Stack
 
-The founding form of the neuronal line. The line-defining move is from diffuse nerve nets to centralized brains with monoamine signaling. Dopamine and serotonin emerge as the monoamines of valence and arousal. The defining mechanism is steering: head-first directional movement that requires a brain to process forward sensory input and command body-wide muscular response. *Impetus* operates as the attractor because steering only pays off if the organism acts on what it senses now. A steering animal that hesitates instead of committing to the freshest signal gains nothing from the architecture.
+The founding form of the neuronal line. The line-defining move is from diffuse nerve nets to centralized brains with monoamine signaling. Dopamine and serotonin emerge as the monoamines of valence and arousal. The defining mechanism is steering: head-first directional movement that requires a brain to process forward sensory input and command body-wide muscular response. *Impetus* operates as the attractor because steering only pays off if the organism acts on what it senses now. A steering animal that hesitates instead of committing to the freshest signal gains nothing from the architecture. This is recency: eligibility trace credits whatever cue occurred most recently.
 
 The reinforcing cycle runs through steering plus affect. Affect is valence and arousal, the basic good-or-bad evaluation of states. Steering plus affect produces associative learning, which makes future steering more rewarding, which selects for finer steering and richer affect. The breakthrough is Attention, the within-lifetime selection process in which candidate movements compete for expression and valence picks the winner. Attention is the neuronal line's selector, the within-lifetime counterpart to Natural Selection. It operates across every neuronal cell from Bilaterian up. Steering is its behavioral expression at this cell and sits at the Pursuer capacity.
 
@@ -168,7 +168,7 @@ The Effector swap at Bilaterians replaces Persistence with Impetus, marking the 
 
 #### Vertebrate Stack
 
-Vertebrates introduce stored regulation in the neuronal register: behavior governed by adjustable rules that don't require rewriting wiring. The defining mechanism is operant conditioning, action-outcome contingencies reshaping future action selection. *Mastery* operates as the attractor because the organism is now in the business of getting better at things. Skill rather than just response.
+Vertebrates introduce stored regulation in the neuronal register: behavior governed by adjustable rules that don't require rewriting wiring. The defining mechanism is operant conditioning, action-outcome contingencies reshaping future action selection. *Mastery* operates as the attractor because the organism is now in the business of getting better at things. Skill rather than just response. This is familiarity: blocking lets an established predictor lock out new rivals from taking credit.
 
 The reinforcing cycle runs through the basal ganglia in actor-critic form. The actor selects actions. The critic evaluates outcomes. The reward prediction error updates the actor (Sutton & Barto). Procedural memory consolidates frequently-rewarded action sequences. Model-free reinforcement learning is the formal description of what the system is doing. This is Bennett's Reinforcing breakthrough, basal ganglia plus operant conditioning, and it is the breakthrough at this cell.
 
@@ -206,7 +206,7 @@ The Regulator swap replaces Coordination with Mastery. Impetus, Interiority, and
 
 Mammals introduce organized interiority in the neuronal register: a brain with multiple co-occurring functional architectures running in parallel (agranular PFC, limbic system, hippocampus). The defining mechanism is active inference — perception and action as joint minimization of prediction error against a generative model (Friston). The brain models future states using working memory and proto-episodic memory rather than only responding to current input.
 
-*Autonomy* operates as the attractor because offline simulation lets the organism act on internal models rather than on immediate environmental contingencies. Agency against the pull of present stimuli is what the new machinery enables. Countercontrol-shaped behavior under aversive contingencies and the broader capacity for reactance under operant pressure sit on this substrate.
+*Autonomy* operates as the attractor because offline simulation lets the organism act on internal models rather than on immediate environmental contingencies. Agency against the pull of present stimuli is what the new machinery enables. This is potency: overshadowing lets the strongest cue dominate the model the organism builds. Countercontrol-shaped behavior under aversive contingencies and the broader capacity for reactance under operant pressure sit on this substrate.
 
 The reinforcing cycle runs through simulation. The brain selects action to achieve a modeled future state. The resulting trajectories feed back into the generative model. The breakthrough is Simulating. Active inference (Friston) and Bennett's Simulating breakthrough are the same construct at the four-way intersection. The episodic-memory system is its hardware.
 
@@ -242,13 +242,13 @@ The Modeler swap replaces Interiority with Autonomy. Impetus, Mastery, and Excit
 
 #### Primate Stack
 
-The granular prefrontal cortex made mentalization possible: modeling other minds as having intentions distinct from one's own. *Affiliation* operates as the attractor at this cell, but its affective substrate is inherited rather than minted here. The mammalian attachment system arrives at Mammal. What is new at Primate is that mentalization turns the belonging drive into a Reviser: it lets the unit revise its own goals toward the modeled preferences of others, and it scales the drive from the dyad to the coalition, tracking who allies with whom, where one stands, and what another intends. Alliance-building, reputation management, and hierarchy navigation all rest on aiming the inherited drive through mentalization. The competitive politicking that primate group life selects on is one face of this, not its foundation.
+The granular prefrontal cortex made mentalization possible: modeling other minds as having intentions distinct from one's own. *Affiliation* operates as the attractor at this cell, but its affective machinery is inherited rather than minted here. This is novelty: latent inhibition privileges the unfamiliar mind or signal over the well-worn one. The mammalian attachment system arrives at Mammal. What is new at Primate is that mentalization turns the belonging drive into a Reviser: it lets the unit revise its own goals toward the modeled preferences of others, and it scales the drive from the dyad to the coalition, tracking who allies with whom, where one stands, and what another intends. Alliance-building, reputation management, and hierarchy navigation all rest on aiming the inherited drive through mentalization. The competitive politicking that primate group life selects on is one face of this, not its foundation.
 
 The reinforcing cycle runs through politicking. Mentalization enables coalition-formation and ledger-tracking of social debts within face-to-face troops, which raises social complexity, which selects for deeper mentalization. Metabolic cost is paid by a high-energy fruit diet, which confines the lineage to arboreal niches and limits troop mobility. The bet trades ecological range for cognitive depth. Primates have been losing territory steadily for millions of years to keep paying for it. This is Bennett's Mentalizing breakthrough, modeling other minds and modeling one's own modeling, and it is the breakthrough at this cell.
 
 The Adapter (Modeler × Reviser) carries Agreeableness. Agreeableness is the trait debut. It arises at the Affiliation × Autonomy intersection. Mentalization is the mechanism that enables it. Self-determination (Deci and Ryan) is one anchor of Agreeableness in its mentalization-enabled-autonomous-cooperation form.
 
-The Explorer (Reviser × Effector) carries Strategy Style. Strategy Style is the strategic-exploration construct under autonomy.
+The Explorer (Reviser × Effector) carries Certainty. Certainty is the strategic-exploration construct under autonomy.
 
 The triples at Primate carry the politicking capacities. The Reactor carries Triadic Awareness, observational social cognition: tracking three-way social relationships (kinship, dominance, alliance configuration) without individual-perspective modeling. Its anchors are Cheney and Seyfarth, *How Monkeys See the World* (1990) and *Baboon Metaphysics* (2007). It is the foundational substrate for the alliance behavior previously labeled here. The Planner carries Standing, the deliberative modeling of your position in the social structure — where you sit in the ledger; the primate-politicking literature anchors it, and it persists to the Band-Human Planner. The Pursuer carries Tactical Deceit, goal-pursuit-with-deception without skill-based regulation (Byrne and Whiten). The Conservator carries Autonomous Cognition forward from Mammal.
 
@@ -267,7 +267,7 @@ The Reviser swap replaces Excitability with Affiliation. Impetus, Mastery, and A
 | Controller (Effector × Regulator) | Coping Style |
 | Anticipator (Regulator × Modeler) | Experiencing Style |
 | Adapter (Modeler × Reviser) | Agreeableness |
-| Explorer (Reviser × Effector) | Strategy Style |
+| Explorer (Reviser × Effector) | Certainty |
 | Effector × Modeler | Self-Model |
 | Regulator × Reviser | Sociometer |
 | Reactor (Modeler absent) | Triadic Awareness |
@@ -331,7 +331,7 @@ Adjacent pairs going clockwise from the top of the Venn.
 | City-Human | Conscientiousness | Extraversion | Righteousness | Neuroticism |
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
-| Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
+| Primate | Coping Style | Experiencing Style | Agreeableness | Certainty |
 | Mammal | Coping Style | Experiencing Style | Remembering Style | Orienting Style |
 | Vertebrate | Coping Style | Development Rate | Home Type | Orienting Style |
 | Bilaterian | Affect | Foraging Type | Home Type | Orienting Style |

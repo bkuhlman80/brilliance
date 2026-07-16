@@ -140,7 +140,7 @@ The unified Venn at each symbolic-line cell takes the constituent human as its u
 
 #### Band-Human Stack
 
-The founding form of the symbolic line. The line-defining move is from primate-style alliance politics to shared intentionality: the "we"-mode in which non-kin form joint goals and joint commitments (Tomasello). *Commitment* operates as the attractor because the we-mode lets non-kin bind themselves to common purpose, which is what makes cooperation among strangers possible at all. Language is the medium that lets a shared "we" be declared and scaled. Gossip is the enforcement layer that stabilizes commitments against defection by making social debt trackable across many people without direct observation. Cheaters get talked about. Contributors get talked about. The band maintains a distributed ledger of who owes what to whom. The we-mode is the foundation; the ledger is how it is policed.
+The founding form of the symbolic line. The line-defining move is from primate-style alliance politics to shared intentionality: the "we"-mode in which non-kin form joint goals and joint commitments (Tomasello). *Commitment* operates as the attractor because the we-mode lets non-kin bind themselves to common purpose, which is what makes cooperation among strangers possible at all. This is recency in differential-adoption terms: the commitment made in the moment it is needed is what the ledger credits. Language is the medium that lets a shared "we" be declared and scaled. Gossip is the enforcement layer that stabilizes commitments against defection by making social debt trackable across many people without direct observation. Cheaters get talked about. Contributors get talked about. The band maintains a distributed ledger of who owes what to whom. The we-mode is the foundation; the ledger is how it is policed.
 
 The reinforcing cycle runs through meat pooling (calorie-rich food shared across the band rather than monopolized) and collaborative fission-fusion (groups split and rejoin without rupture because the ledger persists, with intergroup marriage formalizing the cross-band reproductive alliances that sustain fusion across long intervals). This unlocks dispersal to all habitable latitudes and cumulative culture, where each generation inherits the previous generation's solutions. The breakthrough is Speaking.
 
@@ -180,7 +180,7 @@ The Conservator triple carries Collaborative Fission, the institutional protocol
 
 #### Settlement-Human Stack
 
-Settlements introduce stored regulation in the symbolic register: norms that govern behavior without requiring renegotiation each time. The defining mechanism is agriculture, sedentary food production that permits population density, surplus storage, and permanent dwellings. *Stability* operates as the attractor because everything settlement society does only pays off if the settlement persists. Investments in canals, monuments, and stored grain only return if the settlement is still there in fifty years.
+Settlements introduce stored regulation in the symbolic register: norms that govern behavior without requiring renegotiation each time. The defining mechanism is agriculture, sedentary food production that permits population density, surplus storage, and permanent dwellings. *Stability* operates as the attractor because everything settlement society does only pays off if the settlement persists. Investments in canals, monuments, and stored grain only return if the settlement is still there in fifty years. This is familiarity in differential-adoption terms: the established norm defends its place against a novel proposal.
 
 The reinforcing cycle runs through surplus. Agriculture produces surplus. Surplus enables labor specialization (rulers, priests, scribes, soldiers, craftsmen). Specialization produces writing and law and calendars, the technologies of recording stable norms. Recording enables larger-scale coordination. Larger scale requires more stability. The breakthrough is Common Knowledge.
 
@@ -228,7 +228,7 @@ The Effector × Modeler pair carries Self-Reference forward from Band-Human. The
 
 #### City-Human Stack
 
-Cities introduce organized representation in the symbolic register. The defining mechanism is the administrative code: written rule that records obligation, ownership, and procedure in a form that outlives the people who set it down. *Representation* operates as the attractor because a city runs on standing records. Land registers, law codes, tax rolls, and calendars let coordination scale past what any group can hold in memory.
+Cities introduce organized representation in the symbolic register. The defining mechanism is the administrative code: written rule that records obligation, ownership, and procedure in a form that outlives the people who set it down. *Representation* operates as the attractor because a city runs on standing records. Land registers, law codes, tax rolls, and calendars let coordination scale past what any group can hold in memory. This is potency in differential-adoption terms: the most forceful record dominates what the group takes as true.
 
 The city forms as a symbiosis of settlements and trade networks. Settlements supply the population, surplus, and agricultural base. Trade networks supply the connectivity that lets the city aggregate goods, people, and information beyond what any single settlement can produce. The city is the merger product. Historical instances include the Sumerian city-states forming as administrative consolidations of agricultural villages around urban centers along Mesopotamian trade routes, Pharaonic Egyptian urban centers along the Nile, Shang dynasty China consolidating Neolithic settlement clusters around early urban centers along trade corridors, and the Indus Valley urban centers (Mohenjo-Daro, Harappa) at the western terminus of overland Asian trade.
 
@@ -272,7 +272,7 @@ The Regulator × Reviser pair carries Self-Construal forward from Settlement-Hum
 
 #### Empire-Human Stack
 
-Empires introduce stranger-to-stranger trust in the symbolic register. The defining mechanism is the universalizing framework: a currency, a law, a faith, or a shared identity that lets people who will never meet rely on one another anyway. *Universality* operates as the attractor because an empire must extend reliability to populations with no shared kinship, language, or local history. A universalizing framework supplies the trust that kinship cannot.
+Empires introduce stranger-to-stranger trust in the symbolic register. The defining mechanism is the universalizing framework: a currency, a law, a faith, or a shared identity that lets people who will never meet rely on one another anyway. *Universality* operates as the attractor because an empire must extend reliability to populations with no shared kinship, language, or local history. A universalizing framework supplies the trust that kinship cannot. This is novelty in differential-adoption terms: a universalizing framework spreads precisely because it reaches strangers an old, local framework could not.
 
 The empire forms as a symbiosis of cities and colonies committing to integration under a universalizing framework. Cities and their hinterlands supply the political-administrative base. Colonies supply the territorial extension beyond contiguous imperial territory, often resource-extractive or strategic-positional. Historical instances of the empire symbiosis include Rome symbiosing Italian cities, Mediterranean colonies, and Greek polities under senatorial-imperial administration, Han China symbiosing Warring States cities and frontier colonies under the mandate of heaven, the Achaemenid Empire symbiosing Median, Babylonian, Egyptian, and Lydian cities under the King of Kings framework, the Caliphates symbiosing Arab tribal polities and conquered cities under universalizing monotheism, and the British Empire symbiosing the metropolitan city, dominion settler colonies, and resource colonies under a single crown.
 
@@ -426,7 +426,7 @@ Adjacent pairs going clockwise from the top of the Venn.
 | City-Human | Conscientiousness | Extraversion | Righteousness | Neuroticism |
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
-| Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
+| Primate | Coping Style | Experiencing Style | Agreeableness | Certainty |
 | Mammal | Coping Style | Experiencing Style | Remembering Style | Orienting Style |
 | Vertebrate | Coping Style | Development Rate | Home Type | Orienting Style |
 | Bilaterian | Affect | Foraging Type | Home Type | Orienting Style |

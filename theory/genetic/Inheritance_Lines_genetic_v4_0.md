@@ -45,10 +45,10 @@ Each cell name is shorthand for a clade. The naming convention is set out below 
 
 Row function definitions live in `trellis_framework doc`. The architectural summary:
 
-- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic).
-- **Regulator** stabilizes behavior against stored references.
-- **Modeler** maintains internal representation that organizes inputs.
-- **Reviser** revises the references the regulator stabilizes against.
+- **Effector** executes the line's native verb (persist in genetic, seize in neuronal, commit in symbolic). In selection, weights recency.
+- **Regulator** stabilizes behavior against stored references. In selection, weights familiarity.
+- **Modeler** maintains internal representation that organizes inputs. In selection, weights potency.
+- **Reviser** revises the references the regulator stabilizes against. In selection, weights novelty.
 
 The four functions emerge in order at every line because each depends on the prior. There is no Regulator without an Effector to regulate. There is no Modeler without something worth representing. There is no Reviser without a model worth updating.
 
@@ -140,7 +140,7 @@ Genetic-line cells have no documented personality-trait structure. Trait-level i
 
 #### Protocell Stack
 
-The founding form of the genetic line. The line-defining move is the move from chemistry to inheritance. The defining mechanism is autocatalytic ratcheting: RNA sequences that catalyze their own replication, where information and function are the same molecule. Once ratchets exist, *Persistence* operates as an attractor immediately. Any sequence that replicates more reliably outcompetes any sequence that doesn't. Selection pressure on replication fidelity is what the rest of biology runs on.
+The founding form of the genetic line. The line-defining move is the move from chemistry to inheritance. The defining mechanism is autocatalytic ratcheting: RNA sequences that catalyze their own replication, where information and function are the same molecule. Once ratchets exist, *Persistence* operates as an attractor immediately. Any sequence that replicates more reliably outcompetes any sequence that doesn't. Selection pressure on replication fidelity is what the rest of biology runs on. This is recency in differential-reproduction terms: the sequence that keeps replicating under present conditions outcompetes one built for conditions that have already passed.
 
 The reinforcing cycle requires three conditions to hold jointly: a medium (water), a container (lipid vesicle), and periodic energy gradients (tidal, thermal, redox cycles). When all three hold, autopoiesis closes the loop. The breakthrough is Natural Selection itself, named at the level of what the Protocell-as-unit can do that nothing below can: ratchet pattern persistence through differential survival.
 
@@ -172,7 +172,7 @@ The Explorer (Reviser × Effector) carries Acquisition Type, which spans the gen
 
 #### Prokaryote Stack
 
-Prokaryotes introduce stored regulation in the genetic register. The genome no longer just specifies form. It specifies *responses*. The defining mechanism is state-dependent gating: switching behavioral programs based on internal and external conditions. *Coordination* operates as the attractor through this gating. A cell that can foreground different metabolic and motility programs in different conditions outsurvives one that can't.
+Prokaryotes introduce stored regulation in the genetic register. The genome no longer just specifies form. It specifies *responses*. The defining mechanism is state-dependent gating: switching behavioral programs based on internal and external conditions. *Coordination* operates as the attractor through this gating. A cell that can foreground different metabolic and motility programs in different conditions outsurvives one that can't. This is familiarity in differential-reproduction terms: canalization defends the developmental program already established against invasion by new variants.
 
 The reinforcing cycle runs through state-dependent gating (one genome holding many program states), taxis tightening the loop between a sensed gradient and directed movement, and sequential responding exploiting the temporal order wired into the regulatory network. An early stimulus pre-induces the genes a reliably later one will need, so the cell readies the next program before its condition arrives. The breakthrough is Predation. Prokaryotes establish inter-organism interaction as a capacity layer, in the predator-prey sense and in the broader sense of one organism's behavior conditioned on another's state.
 
@@ -202,7 +202,7 @@ The Effector × Modeler pair carries Lineage forward from Protocell. The Regulat
 
 #### Eukaryote Stack
 
-Eukaryotes introduce organized interiority in the genetic register: a cell with a defended interior containing organelles that maintain their own operating conditions. The nucleus protects DNA. The mitochondrion runs an electrochemical gradient at conditions hostile to the rest of the cell. The defining mechanism is endosymbiosis: capturing another organism and operating it as a component. *Interiority* operates as the attractor in the literal sense. Maintaining the interior against the exterior is what staying alive consists of.
+Eukaryotes introduce organized interiority in the genetic register: a cell with a defended interior containing organelles that maintain their own operating conditions. The nucleus protects DNA. The mitochondrion runs an electrochemical gradient at conditions hostile to the rest of the cell. The defining mechanism is endosymbiosis: capturing another organism and operating it as a component. *Interiority* operates as the attractor in the literal sense. Maintaining the interior against the exterior is what staying alive consists of. This is potency in differential-reproduction terms: the strongest environmental regularity dominates what the interior comes to model.
 
 The bioenergetic transition through mitochondria is Nick Lane's territory. The eukaryotic cell is the bioenergetic platform that scaling everything else up depends on. The breakthrough is Scale & Size. Eukaryotes are large compared to prokaryotes and complex compared to prokaryotes. The difference traces to Production Type at the SW Adapter position.
 
@@ -232,7 +232,7 @@ The Effector × Modeler pair introduces Host, the signature that names the chime
 
 #### Eumetazoa Stack
 
-Eumetazoa are the high-variance bet of the genetic line. They are cells that stop competing with each other and start cooperating, with differentiated tissues specialized to different functions. This is not the default outcome of selection. Defection from cooperation is constantly selected for, and most attempts at multicellularity fail or remain marginal. The defining mechanism is differentiated tissues, including the first nervous tissues. The Reviser motivation that arrives at this cell, *Excitability*, names the rapid propagable response to stimulus that nervous tissue makes possible.
+Eumetazoa are the high-variance bet of the genetic line. They are cells that stop competing with each other and start cooperating, with differentiated tissues specialized to different functions. This is not the default outcome of selection. Defection from cooperation is constantly selected for, and most attempts at multicellularity fail or remain marginal. The defining mechanism is differentiated tissues, including the first nervous tissues. The Reviser motivation that arrives at this cell, *Excitability*, names the rapid propagable response to stimulus that nervous tissue makes possible. This is novelty in differential-reproduction terms: disruptive selection favors the rare variant precisely because it is not yet common.
 
 The reinforcing cycle runs through sleep-wake regulation of arousal, allostatic regulation (set points predicted by the brain rather than fixed homeostatically; Sterling), reflexes, habituation, and sensitization. All of these are forms of stored excitability tuning. The breakthrough is Neurons. The nervous tissue that arises here is what no eukaryote has, and it is the goo every neuronal-line capability will be built from. Eumetazoa is the cell where the breakthrough is the neuron itself.
 
@@ -325,7 +325,7 @@ Adjacent pairs going clockwise from the top of the Venn.
 | City-Human | Conscientiousness | Extraversion | Righteousness | Neuroticism |
 | Settlement-Human | Conscientiousness | Assertiveness | Agreeableness | Neuroticism |
 | Band-Human | Reputation | Experiencing Style | Agreeableness | Neuroticism |
-| Primate | Coping Style | Experiencing Style | Agreeableness | Strategy Style |
+| Primate | Coping Style | Experiencing Style | Agreeableness | Certainty |
 | Mammal | Coping Style | Experiencing Style | Remembering Style | Orienting Style |
 | Vertebrate | Coping Style | Development Rate | Home Type | Orienting Style |
 | Bilaterian | Affect | Foraging Type | Home Type | Orienting Style |

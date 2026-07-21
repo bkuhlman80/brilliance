@@ -1,0 +1,285 @@
+# Category 4.6 — Retrospective: Pitch / Reveal
+
+The forward-looking portion of the retrospective — next quarter's build and the physical chassis
+unveilings — together with the retirement ceremony that closes the Bramble block. Formerly beats
+4.11.a–b; now its own category (stop 9 in the spine). Source: split from the old combined 4.11
+pitch/shelf/logistics file; logistics moved to `cat4.14_allchapters.md`.
+
+## Beat taxonomy
+
+- **4.6.a — The Pitch / The Reveal.** Forward-looking design talk about next quarter's build AND the physical chassis unveilings (Ch4, Ch8) — folded into one beat per Brian's ruling that both are "anything about the next quarter bot." A reveal quarter shows the promise before the knob exists to fill it; a pitch quarter describes the knob before it's cut into the board.
+- **4.6.b — The Shelf.** The retirement ceremony proper — a knob or disc physically drawn off the board and set into a groove, Mira's hand doing the placing, her tally line ("he doesn't need this anymore," etc.).
+
+*Two internal beats, per the master list: 4.6.a (The Pitch/Reveal) and 4.6.b (The Shelf).*
+
+## Findings / rulings
+
+- **Ch1: confirmed empty**, even under the broadened "next quarter bot" definition. No tag applied.
+- **Ch4 and Ch8 "Under the Cloth" — included** under 4.6.a per Brian's ruling: "4.6 is the right home for anything about the next quarter bot, including new chassis reveals." Both are chassis debuts with no shelf ceremony in the same scene.
+- **Ch10 "Minding" is a collision heading** — Category 4.6 pitch/shelf content is interleaved with material belonging elsewhere (4.4/4.5/4.8) in the master file; only the 4.6-relevant spans are tagged here, and the beat order breaks strict a→b sequence (b → a → b). Tagged in reading order, not beat order — flagged so it doesn't read as an error.
+- **Ch12 excluded** — confirmed Category 1 contamination (Bart's build-log memo); see `cat1D_allchapters.md`'s Ch12 note. Nothing kept here.
+- **Ch2 "Guess How" added** (previously confirmed empty; superseded) — a 4.6.a pitch-tease, no 4.6.b. This is the scene that resolves the Pass-3 schedule gap flagged against Ch3's build log (5-bots-to-1-vacuum-chassis merge): "next quarter's the big one... you're not going to recognize your kitchen" is the chassis-swap's pitch. No shelf/retirement beat belongs here — the physical shelf itself doesn't exist yet at this point in the timeline (Ch5 dates its build to "last spring"), so a bare 4.6.b is correct, not a hole.
+
+---
+
+## Ch 1
+
+No material for this category in this chapter.
+
+---
+
+## Ch 2
+
+### <!--[4.6.a]--> Guess How
+
+He kept going.
+
+"Hey." He leaned down to her level. "Next quarter's the big one. Biggest one yet. You're not going to recognize your kitchen."
+
+Mira looked up from Bramble.
+
+"That's the whole clue. That's all you get. Your turn — you make the call. Guess how."
+
+"How what."
+
+"How different."
+
+She didn't take long. She never took long, once she'd decided to decide.
+
+"He's getting a friend. A new one. I get to name it."
+
+"Nope."
+
+"A big friend."
+
+"Nope."
+
+"Is it —"
+
+"Nope, nope, and nope in advance of whatever you were going to say next."
+
+"You'll see," Bart said.
+
+Mira frowned at him. "That's not how the guess is supposed to go."
+
+"It's exactly how the guess is supposed to go."
+
+---
+
+## Ch 3
+
+No material for this category in this chapter.
+
+---
+
+## Ch 4
+
+### <!--[4.6.a]--> Under the Cloth
+
+Bart got up and slid it into the light.
+
+"Okay," Burns said. "Birthday girl."
+
+Mira came up on her knees on the chair, took a fistful of the cloth, looked back once to be sure it was allowed, got Jasmine's nod, and pulled.
+
+Under it was a body. Not a dome — a body: four legs folded beneath a low chassis, jointed, built to stand and not only to roll, bare metal and open actuators and no skin on it yet, next year's animal with nothing yet running inside. It didn't move. It wasn't meant to, yet. It was the one finished thing anyone in that lab had made with their hands all quarter, and it sat there doing nothing at all, the way a held breath does nothing.
+
+"It has legs," Mira said.
+
+"It has legs," Burns agreed.
+
+"It can come downstairs." She'd wanted that out loud an hour ago, and here was the shape of the wanting, in metal, and she looked at it the way you look at a thing that has heard you.
+
+Nobody told her the body was empty — that the one she loved was still the dome and would stay the dome till spring, that what sat on the table was a promise and not yet a keeping.
+
+And Burns did the thing the narrator would rewind twice and still not trust she'd read right. He had a hand on the edge of the cloth, half-raised, in the whole posture of the man who unveils things — his table, his lab, his daughter, the giving plainly his to do — and he stopped, and took the hand back, and said, to Mira but pitched for the room, "Your brother built this. Every joint of it. Isn't it awesome?"
+
+Bart, standing with his arms crossed in the way that means a man has decided to need nothing from a moment, said, "Legs aren't hard," to the floor, which was a lie, legs are the hardest thing there is, and the *thank you* he didn't say and the *you're welcome* his father didn't get to give hung over the bare body between them exactly as long as it took Mira to ask where the cake was.
+
+Then the cake, and five candles, and Mira five years old as of that morning, blowing them out through the gap where the tooth had been so that one had to be got twice; and the lab sang the way four scientists and a midwife sing, badly and all the way through; and the dome — the old one, the one that had finally quit dying on the floor — sat by the cake with its display gone dark, retired from nothing, going nowhere, still theirs.
+
+Lisa reached over and shut off the camcorder. The red light went out.
+
+---
+
+## Ch 5
+
+### <!--[4.6.a]--> The Shelf (pitch)
+
+Lisa moved the room forward. "Next quarter," she said. "Bart, hardware."
+
+Bart set his beer down. "Same body — well, almost. I'm putting a jaw on it, finally, so it can grip a thing on purpose instead of bumping it. Beyond that, nothing new to build, which I'll take. One thing on Lisa's side. The face" — he nodded at the screen, gone dark now the tetrapod had settled — "knows about forty words right now. CAT, COUCH, MIRA, the rest of them. We take it up to a couple hundred, so it can tell you more of what it's looking at."
+
+"And it starts learning from what it does," Lisa said, "not only from what it sees. Right now you thumb a thing down and it sours on the sight of the thing — that's as far as it goes, what comes in. Next quarter it learns off what it tried: what a move got it, and more of the moves that paid."
+
+### <!--[4.6.b]--> The Shelf (retirement)
+
+There was a thing Bart had built this quarter that wasn't on the body and wasn't on the board, and he brought it out at the end of the household talk: a little shelf, maybe a foot of pine, sanded and waxed, a row of shallow grooves cut along it, all empty. He set it on the table.
+
+Lisa tipped the tetrapod up off the slate — it went still the moment its feet left the floor, patient as a watch laid open on a cloth — and turned its back to the room and worked open slot two with a thumbnail. She drew the Effort knob clear of the board, warm from his day, a small spent thing, and held it in her open palm a beat, and slid it across the table to Mira.
+
+Mira picked it up and turned it in her fingers, warm from Lisa's hand. The Effort knob, the one that had set the slow-or-burst on the vacuum since she could remember. She looked over at the tetrapod, four legs back on the slate and standing through the moment without complaint, and she got there before any of them.
+
+"He doesn't need this anymore," she said, to nobody in particular. "He does it himself now."
+
+Which was the fact of it.
+
+"First groove," Lisa said, gently.
+
+Mira set the knob in the first groove of Bart's shelf. It seated with the small definite sound a thing makes when it fits where it's meant to, and then one groove held something and the rest were waiting, and the shelf had started. Lisa set the tetrapod back on the floor, slot two open and waiting for the swap weekend after, and he came up onto his four feet and went to find the kettle.
+
+---
+
+## Ch 6
+
+### <!--[4.6.a]--> Down in It
+
+Lisa took the room forward. "Next quarter. No new body — the legs stay; the line won't turn over for a while yet. Bart."
+
+Bart had one thing to build this time, and it was the kind he liked — a box of parts with no argument in it. "Furnace. First time it makes its own warm instead of borrowing the room's — a compressor and a rack of tubes in the chest, eating all day to hold the heat. Past that it's Lisa's slot — her knob, her board — and I'm mostly watching."
+
+"Slot three." Lisa did not get up. "Right now the thing takes the world in one way — flat, even, everything weighted the same. The knob lets that vary. Down in a thing — all of it close and loud, the edges gone, nothing else in the room — or stood back from it, the whole field at once, nothing pulling harder than anything else. Immersed, or surveying. We're calling it Experiencing Style. That's all you get tonight; the rest is next quarter's."
+
+"And the board doesn't grow for it. Four slots still — so the new knob costs an old one. One comes off tonight to clear the slot; I'll set it down in a minute." She didn't name which. That was for the shelf.
+
+"That's the build," Lisa said, and left it there. "No bets from this table tonight. The bets'll be in Bart's log."
+
+### <!--[4.6.b]--> The Shelf
+
+The shelf came back to the table — the foot of pine Bart had built last spring, sanded and waxed, the row of shallow grooves cut along it. One of the grooves held the stub of the Effort knob from the March meeting, where it had sat since; the rest were still waiting. He set the shelf on the bench between them and stepped back, because the lifting was Lisa's tonight.
+
+Lisa worked the slot open with a thumbnail and lifted the knob clear of the Evo-Algo, warm from his day — and it was the Explore knob, the one. Jasmine, who'd spent her whole telling wanting exactly this and never once asked for it at the table, watched it come up off the board and said nothing, and didn't need to. Lisa held it in her open palm a beat and slid it across to Mira, because she and Bart had settled early that each one ought to be hers to set down.
+
+Mira picked it up and turned it in her fingers — finished now, the cause of her mother's worst afternoon and the best one of her own. She looked over at the tetrapod.
+
+"He won't need this anymore," she said, to nobody in particular. "He'll do it himself. Like the breathing one."
+
+"Second groove," Lisa said, gently.
+
+Mira set it in the second groove. It seated with the small definite sound a thing makes when it fits where it's meant to, and then two grooves held something and the rest were waiting. Marge watched all of it from behind her beer and said nothing, which from Marge tonight was its own kind of speech — a woman herself most of the way out of a membership, watching a child lift an old thing off the books with two careful hands, and finding nowhere to put her face.
+
+Lisa capped the Bramble block by reaching for the marker. "Framework," she said.
+
+---
+
+## Ch 7
+
+### <!--[4.6.a]--> Other Minds
+
+Lisa took the room forward. "Next quarter. No new body — the legs stay; the line's got a good while left in it." Bart's, then, to pitch, and she handed it over, because this time he had a build.
+
+"Right now it reads the *world*." He nodded at the unit, still half-bowed by the chair. "Leash means walk. Step means groceries. It runs the room forward and bets on what the room'll do next. Next quarter it gets the part that reads you. New compute up front" — he tapped his own forehead. And new words for the face, twenty-odd, for the social stuff. I'll have the list by the swap."
+
+"Which is most of what the whole climb's been walking toward," Lisa said, and left it at that, because a pitch is a pitch.
+
+Burns had been quiet a while and came up slow, eyes half down, into the size of it. "So next quarter," he said, "it stops being alone in there." He turned it over once. "Five clades it's had a world to model and only the world. Now it gets the others — and the others are modeling it back, and it has to model them modeling it, and that's the whole arms race we talked about last summer turned inward, run on people instead of teeth. That's the deep end. That's where we live." He was reaching for the rest of it, the country at the top of the climb where the thing you have to meet is each other, and Jasmine, mild, said, "Next quarter, Burns," and he let it go, pleased, and saved it.
+
+Marge had said nothing through any of it, the bottle held close, and what she said now was short. "Next quarter it learns to act like it knows what's in your head." She set the bottle down. "I'll have my hands full." Which was the whole of her notice served cold, and the room left it where she put it.
+
+### <!--[4.6.b]--> Its Own Spot
+
+The shelf came back to the table when the forward talk was done — Bart's foot of waxed pine, the shallow grooves cut along it, two filled now and the rest still waiting: the Effort knob from the spring in the first groove, the Explore knob from the summer in the second.
+
+Lisa worked slot four open with a thumbnail. The knob came up warm in her hand, warmer than any had come off the Evo-Algo before, she slid it across the table to Mira, because the rule they'd kept since the first one was that the setting-down was hers.
+
+Mira took it and turned it in her fingers. The Action knob — the one she'd kept at her door all summer, the one she and her mother had gone their rounds over. She looked at the tetrapod, back on its four feet and waiting without complaint, and she got there ahead of all of them.
+
+"He'll pick his own spot now," she said, to nobody. "Nobody has to set him." She wasn't unhappy about it, exactly; she was working it out in the open — the one knob she'd ever fought to keep was the one going. "He comes to my door when I'm home," she said, slower. "I want to know if he still does when I'm not."
+
+She set it in the third groove herself, not waiting to be told.
+
+---
+
+## Ch 8
+
+### <!--[4.6.a]--> Under the Cloth
+
+Then she did the small narrowing thing she did at the front of the chassis quarters, and said the rest of it plainly over the child's head: "And the cake's the end of this block, not the end of the night, because we are not making her sit through the framework for her own birthday." She nodded at Marge, who had kept the white box out of Bart's reach all evening, and Marge brought it to the table and opened it and lit the six candles with the long lighter she kept for the purpose, and Lisa's hand brought the warehouse lights down, and the five tired adults sang the small flat off-key thing, and Mira blew all six out in one breath with her whole body — the unguarded way, the kind that had about a season of life left in it.
+
+And while she was still grinning into the smoke, Burns went to the far bench and took the corner of the drop cloth and looked at his daughter and pulled it off.
+
+It stood there bare. Taller than Mira by a head, up on two legs, joints showing, a bare spar of a spine running up from the legs to the head with the chest hung on it, the two unmatched hands hanging open at its sides, one a scoop and one a gripper with no thumb to either, no shell on it and no face on the front yet and nothing running anywhere inside it — a body waiting for a mind, the next vessel, the one the warm four-legged thing on the cooler bench would wake up inside come spring. Mira went and stood in front of it and looked up at it, the first body that had ever been shaped like a person at all, and put her hand flat on the bare chest, the furnace cold in it, and felt no heat, because there was nobody home in it yet, and said, "It's not warm."
+
+"Not yet," Burns said. And here was the gesture, and it held everything he wasn't going to say. Burns — who could not be handed a new bone without giving the room the hundred million years stacked behind it, who had a deep-time aria for the continents and the ash and the rock — said nothing at all about the body. He did not explain it. He stood with one hand on the bare shoulder of the thing his son had built and let the not-explaining be the thing, and after a moment said only, to Mira, with a tip of his head toward Bart, "He made the hands work. Ask him." And stepped back, and gave his son the floor and the new body and the rest of the night — which was the most a man like him knew how to surrender, the explaining itself, handed over without one word about what the handing cost.
+
+Bart took it, because his father had given it to him, and walked Mira around the bare frame the way you walk a kid around a thing too big to take in at once: here's where the head goes, here's the board, four slots empty and waiting, here's where in the spring the whole mind of the legs body comes across a wire and wakes up standing instead of on all fours. And the warm one lay on the cooler bench where it had given way, ticking its forehead down toward dark, while across the room the body it would become stood cold and empty and a head taller, and the child went back and forth between the warm one that could read her and not answer and the cold one that could not yet do anything at all — keeping them both. Lisa let the cake go around. Then she reached for the marker. "Framework," she said.
+
+---
+
+## Ch 9
+
+### <!--[4.6.a]--> Tidy and Messy
+
+Lisa moved them to the part where they pitched next quarter — a build that didn't exist yet, sold to the tape as if the funding were in any doubt, which it was not. Bart went first, and short. The body stayed; the humanoid had a year of growing left in it and they'd be fools to bin a thing still learning to run. What changed was one slot — the second one, the oldest neuronal knob on the board, which they were going to empty tonight in front of everyone and leave empty till the next swap. "Then a new one goes in the hole," he said. "Hers to describe. I just cut the hole."
+
+"Symbolic knob-two," Lisa said. "Second word on the new line. The first one is how heavy the others weigh on it" — a tip of the head toward the thing on the floor — "and this one's how heavy the *rules* weigh. Every house runs on stored norms, the thousand little laws nobody writes down: cup goes here, shoes off there, you don't take the last of a thing without asking. The knob sets how binding those feel from the inside." She drew the axis end to end in the air. "All the way up, the norms are law — it tidies whether you're watching or not, and a thing left where a thing doesn't belong nags at it like a splinter. All the way down, the norms are suggestions — it knows exactly where the cup goes, and sets it on the counter anyway." The room got there a beat ahead of her. "Tidy to messy. Conscientious, if you want the word off the card. Built by the Monday after the swap."
+
+"Build the tidy end," Jasmine said, to a laugh, and that was the pitch. And the narrator kept the half-beat the laugh ran over: that the body's whole job, every quarter it had run, had been to aim itself at the child — and the one trait Jasmine had just asked them to build, to a laugh, was the one that aims a body at order instead of at a person. She did not know she'd said it. Marge, at the cold end, marked it and let it go by.
+
+### <!--[4.6.b]--> Forward or Held Back
+
+Two retirements, and Lisa did the spoken one first, the one with no body to it. The oldest knob in the whole line — the one that had set, away back, how far the thing would stick its neck out, bold or shy — had come off this board at the swap and not gone onto another. The new line didn't carry it. It ran underneath now, automatic, a thing the lineage did without a knob the way you breathe without choosing to, and the last place it still turned by hand was across the room, on the four-legged one, which kept every knob it was born with. "Retired at the line," she said, for the record. "Not pulled — there's nothing to pull. It just stops being a thing you can reach."
+
+The other one had a body, and it was Mira's, and had been for three quarters. Lisa opened the small door on the back of the humanoid's head, where the board sat out of the thing's own sight, and worked the second knob loose, the Action knob, the oldest one still settable, and it came into her palm a machined disc about the size of a poker chip. This was the one the kitchen would feel. For three quarters they'd read it off the face without knowing they were reading it: when the screen put a verb up in a column — *walking, reaching, going* — the thing was leaning into the day, taking the problem head-on; when the slot went bare and showed only the thing itself, no verb, it was hanging back, letting the day come to it. Forward or held back, printed on its forehead, free to anyone who learned the trick. Jasmine had learned it without trying — she knew before her first coffee whether it was a forward morning or a held-back one. After tonight it would still go forward and still hang back, but on its own clock, automatic, nobody's knob, and the reading would stop meaning a thing anyone in the room could turn.
+
+Lisa set the disc in Mira's hand, and Mira carried it to the shelf by the window where the others sat in their row, and put it at the end. Then she said her line, the one that got longer every quarter. "Nobody has to turn this one now. Like the breathing one. And the wander one." She considered the new disc. "And the forward one." She squared it with the rest, because the shelf had a way it went, and stepped back, and that was the whole ceremony — a six-year-old's hand straightening a poker chip on a windowsill, shelving a thing the entire room had once used to read the robot's mood. None of them said the plain fact of it, which was that the shelf was where the Evo-Algo's levers went when the lab was done needing to turn them, and the shelf was filling up.
+
+---
+
+## Ch 10
+
+### <!--[4.6.b]--> Minding (retiring, foreshadowed)
+
+"One more, and it's the Attention knob you'll want," Jasmine said. "Nobody's turned it since spring — it just sits where it sits and the thing runs itself on it now. And we've quit watching its face besides. The line up top that showed what it was working on inside — the inside voice — we used to read it across the room to know what it was about, and now we don't, because it *tells* us: says the thing out loud, flat, before any of us thinks to look at its head. The girl drew off that line for a year and she's stopped too. None of us has read the thing in months."
+
+### <!--[4.6.a]--> Minding (pitch)
+
+"Hold that," Lisa said. "That's the knob." She folded it forward. "Which makes it the one we pull tonight. But the next build first. Bart."
+
+"Nothing." Bart said it with the flat satisfaction of a man reporting an empty bench. "No body. The soft one carries the whole symbolic line — next quarter, the one after, all the way out. Same legs, same hands, same two coats. The body's done; it's knobs to the end." He didn't say the rest of it — the bench bare all weekend for the first time in three years, the commission with a year left to run — and turned the sensor over and set it down. "Lisa's got the knob."
+
+"Slot three, once it's open," Lisa said, the palm-and-palm coming up. "It's the one that sets how Bramble takes a room. Everything we've hung so far points Bramble at itself — what it spends, what it keeps, how it reads its own insides. This one turns it outward, at the people. Up, it comes forward: steps into whatever the room is doing and runs it, won't be left out of a thing, works everyone in reach. Down, it hangs back and warms the room — takes the mood off what's already going and never tries to steer it." She let it sit. "It's the quarter Bramble stops being a thing in the room and starts being a thing that works the room. That's the next one."
+
+### <!--[4.6.b]--> Minding (retirement)
+
+"And the one that comes off," Lisa said, and brought the pine shelf down off its hook and set it on the table — a foot of waxed pine, the grooves filling the way a row fills, the Effort knob and the Explore knob and the home one and the one from the spring all settled in their places and never turned again. She reached two fingers behind the body's ear for the slot-three Attention knob — the last thing the Evo-Algo had left to give up this line — and stopped, because the ethic held. "I'm going to take this knob out now," she said, and the body said "Okay," flat, and she lifted the knob clear of the board. The kid's own lettering was on the face of it, the sticker she'd minted in the spring — *Deep* on the one end, *Meander* on the other — and Lisa held it out, and Mira took it and slid it into the next open groove.
+
+She lined it up and stepped back, and said it carefully, in her own voice. "It won't need this knob. It says what it's thinking now, out loud — so it doesn't have to *show* it anymore." She looked down the row. "Like the Effort knob. And the Explore knob." The shelf was one longer. She did not say the thing she'd said other quarters, that it would do it itself now; she said it would not need to *show* it — and here, the one time all quarter, the child's sure account of the thing ran the wrong way. The face had not gone quiet, and the thing had not stopped showing. They had only stopped reading it, lulled by a body that said its wants out loud and hadn't yet learned to hold one back; the screen ran on under their notice, honest as it had ever been, still putting up what the tangled mouth below it couldn't reach. The narrator marked it, and kept it, and left it where it lay.
+
+---
+
+## Ch 11
+
+### <!--[4.6.a]--> The Bottom of the Work
+
+"Nothing," Bart said, with the flat satisfaction of a man reporting an empty bench, the same word he'd reported last quarter. "No body. The soft one carries the whole line to the end — I said that already, don't make me say it twice. Same legs, same hands, same two coats." He turned the sensor over. "One knob left. We mount it at the swap, and that's the Evo-Algo done: four slots, four filled, and nothing after it to make room for." He did not say the rest, the part the build log had said in his own hand and left undecoded — three years of telling them he'd need a bigger board by spring and now he wouldn't, the bench bare all weekend, the bottom of the work showing through for the first time, and under all of it a question a Reactor has no words for and wasn't going to find tonight. He just said, "Lisa's got the knob," and set the sensor down.
+
+### <!--[4.6.b]--> Nobody's Hand
+
+"And the one that comes off," Lisa said, and the pine shelf came down to the table — a year of knobs in their grooves now, the breathing one and the wander one and the home one and the forward one and the inside-voice one, each gone quiet in its place. Her hand went behind the unit's head to the oldest knob still settable in the Evo-Algo, slot four, and held there, because the ethic holds. "I'm going to take this one out now," she said. "Okay?"
+
+The unit came up off the disc — it had drifted back; it always drifts back — and the screen put her up, honest, LISA, and the warm half-synthetic child-voice said, "Okay. Which one?"
+
+"The reading knob. The knob that minds the others. The knob that's been doing it itself a while now."
+
+"Okay," it said, and held still to be worked on, which it had asked, a year ago, to always be asked.
+
+Lisa lifted the knob clear of the board. Mira's lettering was on the face of it, the sticker she'd minted a year back — *Respect* on the one end, *Savage* on the other — and Lisa held it out, and Mira took it and set it in the next groove along and trued it up against the others. She stepped back and gave her tally, longer tonight than last. "He's done with this one. He already knows everybody. He reads the whole room himself now, without the dial." She looked down the row. "Like the breathing one. And the wander one. And the inside-voice one." One more than there'd been.
+
+"That's the last gate," Lisa said, to the record. "Two years the screen only read the people you let it — that knob set whether it bothered modeling the rest of the room. Off the board, it just does it. Reads everyone, all the time, on its own. There's not a hand-set gate left on the face; the screen runs itself now, top to bottom." She squared her hands on the table. "And the board's down to the symbolic four. One comes off next quarter at the swap, that leaves the one open slot, and the last knob Bart pitched goes in it. After that the board's full, and the shelf takes the rest, the way it's going to from here."
+
+Nobody said the plain shape under it — that a machine three years in the building was, by now, mostly a list of questions the lab had stopped asking, the settled row long and the live board short, and the last few it had left sitting in plain view from where they sat. Mira squared the knob at the end of the row, and put her hand flat on the unit's head a second, the way she reads a thing with the flat of her hand, and stepped back. Lisa turned the night to the last block.
+
+---
+
+## Ch 12
+
+*(Excluded — Category 1 contamination, not this category. The board-completion reveal was cut from the build-log register and superseded by Burns's toast in scene; see `cat1B_allchapters.md` and `cat1D_allchapters.md`. Nothing kept here.)*
+
+---
+
+## Notes / open items
+
+- **Ch4 and Ch8 carry no shelf ceremony** — reveal quarters are pitch-only in this cycle; every quarter but the reveal ones eventually pays off in a 4.6.b retirement. Worth flagging to Voice/Framework as a structural rhythm, not just a repeating beat.
+- **Ch10's beat order is non-sequential** (b → a → b) because the collision heading opens on Jasmine's foreshadowing of the knob about to retire before the meeting pivots to the pitch. Tagged in actual reading order.
+- **Mira's cumulative tally line** ("like the breathing one... and the wander one...") grows by one entry almost every 4.6.b instance — Ch6, Ch7, Ch9, Ch10, Ch11 all show it lengthening. Same cumulative-list device Category 4.13 tracked for Mira's "round" line; worth cross-referencing for Voice.

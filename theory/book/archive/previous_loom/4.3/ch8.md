@@ -1,0 +1,171 @@
+Ch 1
+
+## The Protocell
+
+Burns took it from there. He stood, because deep time couldn't be rendered sitting down just as, apparently, it couldn't be rendered with his eyes open; he closed them somewhere around the moment he started to describe the planet. The team had known this about him as long as they'd known him, and nobody commented. With his eyes open he could see the warehouse. With them closed he could see the planet, four billion years ago, and move his hands around in it as if it were in the room.
+
+"This is four billion years ago," he said. "Roughly. Four point oh to three point eight. The Hadean's ending, the early Archean beginning. There's a planet — there's *this* planet — and on it no oxygen, the atmosphere reducing, the seas iron-rich, the volcanism heavy. No land you'd recognize as land. Rock, water, and the chemistry that's figuring out how to be a cell."
+
+The hands made the planet, the atmosphere over it, the seas at the bottom of the atmosphere, a small motion at one place at the bottom of the seas — where, in his account, the first protocell may or may not have happened.
+
+"The location's contested. Lane and Martin argue the alkaline hydrothermal vents — the porous chimneys at the seafloor where the proton gradients between vent fluid and ocean would've done bioenergetic work for free. Mulkidjanian argues surface ponds, the wet-dry cycles concentrating molecules, the UV doing early chemistry. Others argue the black smokers. The honest answer is we don't know, and everyone has a favorite. The reason we can't decide is we have no fossils — whatever the protocell was, it left no body. The earliest body in the rock is Strelley Pool, Western Australia, three point four three billion years, by which time we're four hundred million years downstream of the protocell era. What we have instead is the chemistry it left in its descendants. And that chemistry gives us LUCA."
+
+Jasmine, listening hard: "Oh my heck — back up. LUCA?"
+
+He opened his eyes; she'd pulled him back to the room. "Last Universal Common Ancestor. The most recent organism everything alive descends from — bacteria, archaea, eukaryotes, all of us. We don't have it in the rock either, but we can reconstruct a great deal of it from what its descendants share."
+
+She nodded. "OK." He closed his eyes again.
+
+"And at this stage the inside isn't integrated yet. No metabolism. Only reactions — a bubble with the chemistry running uncoordinated inside it. What matters, whichever location and however it happened, is that the protocell crossed the line. The Darwinian threshold. Before it, chemistry. After it, evolution. Once you can be selected on, the universe has a new way of making complicated things, and it hasn't stopped making them in four billion years. We're downstream of the first protocell. Every fossil I've ever picked up — every tiktaalik vertebra — is downstream of the first protocell."
+
+He went back into it — the proton-motive force, the pH gradient, the alkaline vent fluid at nine or ten meeting the acidic Hadean ocean at six, what that would've done for a chemistry with no way yet to make its own gradient and a need for one for free —
+
+"Burns," Jasmine said. He opened his eyes. "You're circling the runway. Land the plane."
+
+He laughed the chest-laugh, at himself this time, the room with him, Bart last and longest — already turning the phrase over. He smiled at his wife and shut his eyes.
+
+"Landing the plane. The vent provides the gradient. The chemistry pulls work out of it, but the gradient itself it inherits from being in the right place. The protocell is *at the vent*, doing local work on a difference it never had to make."
+
+He opened his eyes, looked at the card, and reached for the last thing — "and the thing it had to do that *with*, the thing it brought to bear, the new —" and left his hand open in the air where the word should go, and didn't take it. "I've got the word. Read it in a paper I should've read fifteen years ago. But it's a framework word, and we're keeping framework words to the framework." He let the hand down and sat.
+
+Ch 2
+
+## Strelley Pool
+
+Burns stood for deep-time the way he teaches — weight even on both feet, eyes closing before he had said anything. Lisa started the stopwatch on her phone.
+
+"Twenty minutes," she said. "Strelley Pool gets two."
+
+"Strelley Pool gets two," he agreed, eyes shut, and began.
+
+The clade's rock is in Western Australia and it is three and a half billion years old — the oldest thing a person can hold in a hand and say *this was unambiguously alive.* Stromatolites: layered mats of microbe communities, each generation pinning down a film of sediment, dying, being built over by the next, so the rock is nothing but layers all the way down, every one a floor the next thing stood on.
+
+He opened his eyes and found Jasmine.
+
+"The Templo Mayor," he said. "Mexico City. Five years ago."
+
+"The Aztec temple under the cathedral."
+
+"The same ground rebuilt for five hundred years — temple, then a cathedral on top of it, then a parking lot, then the subway — and you can stand in the one spot and see all of it at once. Each layer holding the one above."
+
+"I remember the tunnels," Jasmine said.
+
+"The tunnels." He closed his eyes. "The stromatolite is the same shape of thing. Bacteria instead of Aztecs. That's the clade's rock, and that's the two minutes."
+
+And then he went on, because the two minutes were never going to be two minutes; Lisa had set the stopwatch the way you set a timer for bread you know will run long. He went down into the deep water of it — what the bacteria did *next,* across a reach of time the mind slides off of rather than holds. The mats learned to split water with sunlight, and the splitting threw off oxygen as a waste, and for a billion years the iron that dissolved in the oceans drank the wasted oxygen and rusted and sank, and the rust is still in the ground: banded iron, the world's ore, most of the steel in the warehouse around them traced back far enough, the leavings of two billion years of bacteria breathing out into the sea. Then the iron filled up and could drink no more, and the waste went into the water and then the air, and the planet that had been one kind of planet became another, and froze, and thawed, and was never the iron-dark world again.
+
+He had his eyes shut for all of it. Bart said that Banded Iron was a rock opera and Marge declined to laugh and Burns laughed anyway, the chest-laugh, without opening his eyes, and went on. Lisa let the watch run.
+
+When he came back up, he came up to the thing he had gone down for.
+
+"The bacteria were not making the world livable," he said. "They were making it *theirs.* The oxygen every breathing thing since has needed — the oxygen in this room — is the leavings of one small cell doing one small thing, and then a great many of them doing it, for a great length of time. They did not mean the world they made. They made it anyway. That is the clade. Change everything, at the scale of a planet, by doing one small thing a very great many times for a very long while."
+
+He opened his eyes.
+
+Lisa stopped the watch at twenty-one fifteen and told him so. He said it was Bart's fault. She told him not to do it again. He laughed — the stopwatch was new this quarter, she'd built it into the meeting and used it, and the room was learning to be a room. He sat down and sighed.
+
+Ch 3
+
+## Bigger
+
+He had his eyes closed by now. He taught deep time with his eyes closed and opened them when something pulled him back to the room, and the team had long since stopped reading it as rudeness.
+
+"The setting for all of this," he said, "is the most boring stretch of time in the history of the planet, and I mean that as praise. Call it the Boring Billion — a billion-some years of a warm, stable, unspectacular world, low drama, nothing much happening at the headline level, the oxygen creeping up slowly and the chemistry staying within bounds. And boring is exactly the runway a complicated thing needs. You don't build a cathedral during an earthquake." It was a good line, but maybe the only good one in the lecture. He went on about the oxygenation, and how the ocean "was still sour and metal-starved down deep. The first tenant, the power plant, came in early. A second kind of tenant came in later, in the lineages that learned the same trick twice and swallowed a photosynthesizer and kept it — that's everything green, every plant, every alga, a second meal kept alive." 
+
+Jasmine liked the part about the photosynthesizer. Burns did not notice. 
+
+"...and the reason it matters is not that it's old. It's that you can see in it that it was having sex. Two kinds of it. Trading. That's new. That arrives here."
+
+He opened his eyes.
+
+"That's the deep time. That's the twenty minutes."
+
+"That was nineteen," Lisa said, and stopped the watch, and looked, for a moment, structurally pleased.
+
+Ch 4
+
+## Mistaken
+
+Burns closed his eyes, which was the tell, and put the world where he wanted it.
+
+"Six hundred million years ago, give or take, and the planet's just crawling out of the worst thing that ever happened to it. The whole earth had frozen — ice to the equator, twice — a white ball. And it's thawing. The seas are warming, and there's more oxygen in the water than there's ever been, because the ice did something to the chemistry I will spare you —"
+
+"Thank you," Bart said.
+
+"— and the shelves, the shallow edges of the continents, go warm and soft and full of breath, and life, which has been single cells and slime for *three billion years,* finally has the room and the air to try being big." His hands were up, shaping the shelf seas over the table. "And the first things it makes are strange. There's a headland in Newfoundland called Mistaken Point — fishermen named it, for all the ships that died on it — and the rock there holds the oldest big animals we've got, and they're *nothing.* Fronds. Quilts. Things like a mattress, like a fern. No mouth, no front, no back, no clear way of making a living. The Ediacarans. Life's rough first draft of an animal. It mostly didn't take. And then —"
+
+"And then the Cambrian, and in a geological blink — twenty million years, which is nothing, which is *lunch* — the seas fill with nearly every body plan there will ever be. Eyes. Shells. Legs. Mouths that bite. Everything that would ever crawl or swim, drafted in that one window, at Chengjiang, at the Burgess Shale, and most of biology since is footnotes, is variation, is —"
+
+"Burns," Lisa said. "Plane."
+
+Burns opened his eyes. "I'm landing it."
+
+"You're at eleven," Bart said. "Bring it down to a four."
+
+"The point," Burns said, with the dignity of a man who knows his dial was at eleven and isn't sorry, "is that the world made the room first. The breath came first. The animals came to spend it."
+
+Ch 5
+
+### May We Have Your Attention
+
+"Steering," Burns said, and stood, and set his hands to the table, then lifted them off. "The first time in the whole history of the thing that a nervous system could take the entire body and aim it. At a meal. Away from a mouth. Before this, things drifted, or they answered wherever they happened to be touched, or they grew toward the light if they were the kind of thing that grew. This is the first animal that goes somewhere on purpose, and leads with its face."
+
+He closed his eyes, the way he did when the room had stopped being the thing he was looking at. The Cambrian, he said — half a billion years ago, give or take, when the sea went in a geological eye-blink from a floor of mats and fronds to an ocean full of animals that could chase and flee and choose, all of them new at once. You find them pressed flat in shale, Chengjiang and the Burgess, soft bodies that had no business keeping and kept anyway, the first things with a front and a back and a side they preferred. And right when they arrive, so does the chemistry of going-and-getting, the good-or-bad signal, invented once down in the stem and never bettered, and the sea fills with things that run on it — the air filling up too, oxygen climbing toward something a muscle could afford. "First time the planet had animals in the sense you'd use the word at a dinner table. Things that want, and steer toward the wanting."
+
+His eyes stayed shut, and the deep time kept rolling downhill toward this real obsession. "Give it a while and a set of legs and you've got the thing that finally hauls itself up out of the water onto the mud, which is the only animal I have ever really—"
+
+"Cambrian, Burns. Nothing crawls out of the sea for another three hundred million years. Land the plane."
+
+"Landing it." He sat.
+
+Ch 6
+
+## Reinforcing
+
+His eyes were shut by now, which was the room's old signal, and the deep time started down its slope—
+
+"Go on."
+
+And Burns landed it. The Devonian, he said — three hundred and seventy-five million years back, the air gone thick and wet, the first real forests just standing up, the shallow water at the edge of the land warm and low and going stale of its oxygen. And in that bad warm water a fish with stout lobed fins and a flat crocodile head, and one day — not one day, across a million years of one-days — it props itself up on those fins in the shallows and gets its eyes up over the surface into the air, where nothing of its kind had ever breathed, and the fins that did the propping have, folded up inside them, the bones you are holding your beer with. A wrist. The first fingers. He had a piece of that wrist in a drawer back at the warehouse, knocked out of Ellesmere rock a thousand miles from the nearest road, and he had spent his one life on it, and he did not say so, because he was wearing it lettered across his chest as a joke and the joke said it for him.
+
+"No grandpa," Mira said from the floor. "Go back."
+
+"Never," Burns said, delighted, and drank — the first beer of a night he plainly meant to enjoy.
+
+Ch 7
+
+## Simulating
+
+Burns took it, eyes already at half-mast. "For a hundred and fifty million years this thing was a rat in the dark. Small, warm, up at night because the day belonged to something with teeth the length of your arm. The whole Mesozoic it stayed under a foot long and out of the light, waiting out the dinosaurs, getting very good at two things — holding its own heat when the world went cold at night, and keeping track of where it had been, because a thing that forages in the dark lives or dies on remembering." His eyes were shut now. "The continents coming to pieces under all of it — Pangaea breaking up, the Atlantic opening, India sailing north to stand the Himalayas up — and the long warm world cooling, age by age, until the grass spread and the grazers came up to eat it. Then a rock the size of a city hit the Yucatán, and the things with the teeth were gone in an afternoon, geologically speaking, and the rat in the dark came up into an empty world and turned into everything. Whales. Bats. Horses. Us. All of it out of a nocturnal bug-eater that had spent the age of giants learning to hold a map in the dark."
+
+"Land it," Jasmine said from her chair, almost like a church *amen*, but also in half-sincerity because she could see Bart wanting the floor.
+
+"The map in the dark *is* the landing," Burns said, delighted to be caught. "Except for one thing I can't get past, and then it's Bart's." His eyes came open. "The small dinosaurs that didn't die became the birds, and the birds went and grew the same kit all over again off a separate ancestor — warm blood from scratch, parents that feed their young, play, and in the clever ones, the crows and the jays, a memory for what happened where and when that looks from the outside exactly like ours. A scrub jay buries food in two hundred places and comes back for the one that rots before the one that keeps, days later, because it kept the *when* of each. Two lineages, two runs at the dark, same answer both times — carry the world inside you and run it forward. When a thing gets built twice from two different sets of parts, you can stop wondering whether it was a fluke."
+
+"This is Tolman," Burns said, picking it up. "Years back he put rats in a maze with no cheese in it — let them wander, nothing to reward, nothing to reinforce. Then he dropped cheese at the far end, and the rats who'd only wandered beat the trained ones cold, first run, because they'd been building the maze in their heads the whole time with nothing paying them to. You can't get that off a thing that only learns what pays. The map builds itself for free and waits for a reason to be used."
+
+Ch 8
+
+## Mentalizing
+
+Burns had his eyes most of the way shut already. "Up a tree," he said. "Sixty-some million years ago, in the warm forests after the rock — a small thing with grabbing hands and its eyes coming round to the front, living where a fall kills you. That's the whole of the early story, the trees. Eyes to the front to judge the branch. Hands that hold so you don't miss it. A brain getting bigger just to run the two of them in the half-second you've got, the reach and the look, up where the ground is a rumor." His hand came up off the table, drew the canopy, dropped.
+
+"Long before any of that, though — before the walking, before the grass." He was somewhere else already. "That same forest ran clear across North Africa once. Not desert. Rivers, meandering ones, laying a new channel every flood and leaving the old one a dead loop full of mud and buried logs. Warm, wet, thirty-some million years back, in what's Egypt now — the whole dig goes by the name of the district, the Fayum, and if you'd stood in it you'd have called it rainforest and been right to. Up in that canopy: small things, none of them a monkey yet, none of them an ape yet, the split hadn't come — just a fistful of early catarrhines gripping and swinging and working out what the season's fruit was. One of them, *Aegyptopithecus*, left us an arm bone thick enough to read before we can read anything else about it: a slow, careful climber. Not a leaper. First draft of the whole idea, and in no hurry to be anything else."
+
+He tapped the table, and the tone changed under him. "Then the world cracked, more or less at once, everywhere. Thirty-four million years back — ice grabs Antarctica for the first time, the whole continent going under it in what's an afternoon on this clock, and the cold drags the carbon down with it. Europe loses half its mammal genera inside a million years. Half — gone, and replaced wholesale by whatever could walk in from Asia once the old ground stopped working. There's a name for the line. The Grande Coupure. The Great Cut."
+
+Mira had been drawing on her napkin with the straw and looked up at the foreign shape of it. "What's a coupure?"
+
+Burns's whole face changed key — the pleasure of a question he could actually finish, plain and fast, instead of the kind that took him an hour to get around to. "A cut," he said. "French for it. The record's running along, and then it isn't — something breaks, and what comes after doesn't match what came before. Like the tape running and running and then it's a different show on it." She turned that over, decided it would do, and let him have the rest.
+
+"And ice at the poles is water not in the ocean, so the ocean drops — the Atlantic itself pulls in narrower than it had ever run, a thousand kilometers of open water gone missing. Which is what let the next thing happen, because a thousand kilometers is still an ocean and nothing was swimming it. A raft's a different matter." His hand opened flat, floated it. "Something tore a tangle of trees and vine off a riverbank on this side — a storm, a flood mouth, nobody knows which — and the mat didn't sink, and the current ran the right way, and it made it across. The whole New World monkey line, the tail-that-grips kind you get in South America now, starts on that boat. Rodents crossed the same ocean the same rough way around the same time, unrelated animals, same dumb luck, same door. Nobody aimed either of them. A door that shouldn't have been open was open exactly as long as it took."
+
+He didn't slow down for it. "Down in Africa the apes were already fanning out under that same warm canopy by twenty-some million years back — *Proconsul*, *Kenyapithecus*, still walking the branches on all fours, monkey-styled in the gait even with the teeth going ape, no tail on either one. Early sketch of the shape, Africa-bound, patient about it. It held there the better part of ten million years, forest running clear and warm all the way up into what's Europe now, before anything crossed. Then, close to fourteen million years back, the apes finally took the bridge and spread into it — dozens of kinds, more shapes of ape loose in the world then than the five we've got left between us now, swinging through country that's vineyards today. An ape's Eden, for a good long while. Wasn't built to last. The climate kept cooling under it, the seasons kept sharpening their edges, and the ones who could eat harder food, tougher food, got through the first squeeze on it — and that was the trap, because the second squeeze came and the same trick that had saved them once couldn't save them twice. Nine million years back, near enough, the whole population came apart inside what's nothing at all on this clock. Most of the Eurasian apes, gone. What's left of the family after that is Africa and one corner of southeast Asia. Everywhere else, the very thing that got them through the first winter is the reason there's nobody left to remember the second."
+
+And then, quieter, the one he'd been walking toward the whole time. "Somewhere in the middle of all that — twenty-five million years back, close to where the apes split off the tailed monkeys for good — something let go of the tail. Not slowly. One mutation, one stray piece of drifting DNA landing in the wrong gene at the wrong moment, and a thing every branch-walking animal before it had balanced on simply wasn't built anymore. Turns out you don't need it once you've stopped walking on top of the branch and started hanging under it, arms out — a tail's just weight on an animal doing that. So the chest went broad and flat, the shoulder blades slid around onto the back where they could swing wide, the fingers ran long and curved and traded their claws for nails. A whole body rebuilt itself off one arm's worth of new math." His hand came down flat on the table, final. "And the mutation's still riding along in us. Same gene, same broken switch, still tied today to a small extra chance the spine doesn't close right in the womb. Twenty-five million years, and the bill's never once come up for cancellation. It just keeps getting carried."
+
+"Then the world cooled and dried, age over age, and the forest came apart into patches — woodland giving over to open grass, hardest down the east of Africa where the ground itself was tearing open, the Rift, a wound in the continent a mile deep and a thousand long. And some of these things came down out of the thinning trees and stood up and walked out across the open between the patches, which is a terrifying thing to do — to leave the trees you were built for and cross the grass where the cats are, slow, on two legs." His eyes opened for the part he loved. "And we have the *walk.* The Rift was volcanoes too; the ash fell and sealed things. There's a track at Laetoli — two of them crossing wet ash three and a half million years ago, an adult and a smaller one, and the smaller one's steps are set down inside the bigger one's, the way a kid walks in your prints on a beach. Not the bone. The *walk.*"
+
+"Land it," Jasmine said, mild, from her chair, because the walk was lovely and the trick was still out ahead of it.
+
+"The walk *is* the way in," Burns said, glad to be caught, "because of who was doing it, and then it's Lisa's." Eyes shut again. "It was never just us. The whole climb — and 'us' is the last three hundred thousand years of it, the blink at the end — there were always *other* ones up walking beside it. Other uprights, other toolmakers, cousins close enough to pass on the grass and clock for people and not prey. We've got a fistful of them overlapping us right at the finish — the heavy ones who took the European cold, the ones in the Siberian cave we have a finger-bone and a tooth of, a little one stranded on an island, another in a South African cave that carried its dead down into the dark. For most of the way the planet had *several kinds of person* on it at once." His hand opened toward the room and stayed open. "We tell it like a relay. One runner, one baton, straight to here. It wasn't a relay. It was a troop — a troop of kinds of people — and we're the one left holding the stick, and we keep mistaking *being the survivor* for *having been the only runner.* This animal was never alone. It couldn't afford to be. Alone, on that grass, you were lunch."

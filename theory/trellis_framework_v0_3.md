@@ -410,18 +410,18 @@ Each line's four knobs are the household's interface to that line's tendencies �
 |---|---|---|---|---|---|---|---|
 | 1 | Genetic k-1 | Protocell | Effector | Persistence | Acquisition Type | Going | Live ↔ Dead |
 | 2 | Genetic k-2 | Prokaryote | Regulator | Coordination | Respiration Type | Effort | Sloth ↔ Sprint |
-| 3 | Genetic k-3 | Eukaryote | Modeler | Interiority | Foraging Type | Explore | March ↔ Dance |
-| 4 | Genetic k-4 | Eumetazoa | Reviser | Excitability | Home Type | Action | Warm ↔ Busy |
-| 5 | Neuronal k-1 | Bilaterian | Effector | Impetus | Orienting Style | Orienting | Think ↔ Buzz |
-| 6 | Neuronal k-2 | Vertebrate | Regulator | Mastery | Coping Style | Coping | Beast ↔ Little |
-| 7 | Neuronal k-3 | Mammal | Modeler | Autonomy | Experiencing Style | Attention | Deep ↔ Wide |
+| 3 | Genetic k-3 | Eukaryote | Modeler | Interiority | Foraging Type | Exploiting | March ↔ Dance |
+| 4 | Genetic k-4 | Eumetazoa | Reviser | Excitability | Home Type | Action | Busy ↔ Warm |
+| 5 | Neuronal k-1 | Bilaterian | Effector | Impetus | Orienting Style | Orienting | Improvise ↔ Think |
+| 6 | Neuronal k-2 | Vertebrate | Regulator | Mastery | Coping Style | Coping | Little ↔ Beast |
+| 7 | Neuronal k-3 | Mammal | Modeler | Autonomy | Experiencing Style | Attention | Wide ↔ Deep |
 | 8 | Neuronal k-4 | Primate | Reviser | Affiliation | Agreeableness | Agreeable | Respect ↔ Savage |
-| 9 | Symbolic k-1 | Band-Human | Effector | Commitment | Neuroticism | Neurotic | Cancel ↔ Clutch |
+| 9 | Symbolic k-1 | Band-Human | Effector | Commitment | Neuroticism | Resolve | Clutch ↔ Stall |
 | 10 | Symbolic k-2 | Settlement-Human | Regulator | Stability | Conscientiousness | Conscientious | Preppy ↔ Messy |
 | 11 | Symbolic k-3 | City-Human | Modeler | Representation | Extraversion | Extraverted | Boss ↔ Vibe |
 | 12 | Symbolic k-4 | Empire-Human | Reviser | Universality | Integrity | Honest | Real ↔ Flex |
 
-*Volume-**up** pole, knob 1→12: Live · Sprint · Dance · Busy · Think · Beast · Wide · Respect · Cancel · Preppy · Boss · Real. The other word in each rebrand pair is volume **down**.*
+*Volume-**up** pole (the derived setting), knob 1→12: Live · Sloth · March · Busy · Improvise · Little · Wide · Respect · Clutch · Preppy · Boss · Real. The other word in each rebrand pair is volume **down**, the primordial setting.*
 
 ---
 
@@ -505,7 +505,7 @@ Coral reefs are a clean example at the eumetazoan level. Reefs are massive multi
 
 Corporations, modern markets, and exchanges are the parallel case at the symbolic line. They are massive multi-institutional structures built around late-empire elaboration. They contain legal frameworks, financial instruments, supply chains, regulatory bodies, and currencies. Their structural complexity rivals any historical empire. They are not a new line. They do not introduce a new inheritance modality. The symbolic-line logic that builds them remains within the empire-Reviser elaboration.
 
-Both are platform elaborations: structures that create the conditions under which other elaborations can flourish. The reef anchors its ecosystem. The market anchors its institutional ecology. Neither breaks the line. The pattern holds across lines: bacterial mats and stromatolites at the prokaryote level, fungi at the eukaryote level, octopus and corvid cognition at the bilaterian level, religious orders and universities at the city level. Most innovation is elaboration. Lines are rare.
+Both are platform elaborations: structures that create the conditions under which other elaborations can flourish. The reef anchors its ecosystem. The market anchors its institutional ecology. Neither breaks the line. The pattern holds across lines: bacterial mats and stromatolites at the prokaryote level, fungi at the eukaryote level, octopus cognition at the bilaterian level, corvid cognition at the vertebrate level, religious orders and universities at the city level. Most innovation is elaboration. Lines are rare.
 
 ---
 
@@ -535,6 +535,36 @@ Bees branched at bilaterians, so their stack shares Persistence, Coordination, I
 This converts an apparent limitation into a feature. Any organism's personality can be analyzed as a 4-sphere active window over its own evolutionary stack. The 4×4 is the case where the lineage runs all the way to symbols. The architecture applies to any thread of life.
 
 Parallel evolution becomes visible without forcing convergence. Octopi branched at bilaterians and developed sophisticated cognition through a different neural architecture. Their stack would resemble the vertebrate stack at certain levels but with different motivations filling the upper slots. The framework predicts structural similarity at the levels of shared ancestry and divergence above the branching point.
+
+A capacity documented in an off-thread lineage informs an on-thread cell only when the capacity sits below the branching point. Two conditions establish this. The capacity must be present in deeply divergent branches of the clade rather than in one branch alone. The capacity must not depend on an organ that postdates the clade's radiation. A capacity failing either condition sits above the branching point, where it is elaboration on the off-thread stack.
+
+The conditions carry no judgment about which lineage is advanced. Every living lineage has been evolving for the same interval. An off-thread capacity is that lineage's own achievement rather than a preview of what a later on-thread cell would build.
+
+Four worked cases. Honeybee mushroom-body elaboration sits above the bee branching point and does not inform the Bilaterian cell. Corvid nidopallial elaboration sits above the bird branching point and does not inform the Vertebrate cell. Box jellyfish associative learning localizes to the rhopalial nervous system, rhopalia are a medusozoan organ, the organ postdates the eumetazoan branching point, and the finding therefore does not inform the Eumetazoa cell. Operant conditioning is present in protostomes and in deuterostomes and depends on no organ unique to either, so it reconstructs below the bilaterian branching point and does inform the cells above it.
+
+The fourth case is the test cutting the other way. A capacity that clears both conditions reaches the cell whether or not the framework wants it there.
+
+*Epistemic status: outgroup comparison and character polarity are standard comparative method. Applying them to capacity placement is the framework's move. Case verdicts depend on current phylogenies and are revisable when a phylogeny is revised.*
+
+---
+
+### Negative Findings and Clade Placement
+
+A capacity found in a lineage is established by the finding. A capacity not found in a lineage is not established as absent. The asymmetry sets a higher bar for lowering a cell label than for raising one.
+
+Three readings compete for every negative finding. The lineage never had the capacity. The lineage had the capacity and lost it. The method failed to detect it. Only the first bears on the clade's ancestral state.
+
+Loss is cheaper than gain. One disabled pathway removes a capacity, and building one requires selection over time. Parsimony that counts gains and losses as equal steps therefore reconstructs ancestors as less capable than they were. Negative findings under-report ancestors as a matter of course.
+
+Three conditions let a negative finding lower a label. The lineage tested must retain the architecture the cell names rather than having secondarily lost it. The method must have detected the capacity in a positive control, in a lineage independently known to have it. The absence must hold across deeply divergent branches of the clade and in the outgroup.
+
+Early-branching position is what makes a lineage worth testing. Morphological simplicity is not. Simplicity is frequently derived, because parasitic and sessile lineages simplify from complex ancestors. The simplest-looking member of a clade is often the least informative about that clade's ancestor.
+
+The comparative literature supplies the calibration. Two laboratories measured visual working memory capacity in rhesus macaques and reported roughly one item and roughly four items. The species is the same and the procedures differ. A procedure that can conceal three items of working memory in a laboratory primate can conceal a capacity in any less-studied animal.
+
+No negative finding currently lowers any cell label. The positive-control condition has not been met below the Bilaterian cell.
+
+*Epistemic status: the loss-versus-gain asymmetry and the negative-result problem are standard in comparative biology and comparative psychology. The three conditions are the framework's statement of what would have to hold. The macaque discrepancy is published (Elmore et al. 2011 ‡; Buschman et al. 2011 ‡) and is a live methodological dispute rather than a settled artifact.*
 
 ---
 
@@ -682,7 +712,7 @@ What the deep-time mind must eventually enable on the online mind, cell by cell.
 
 Consolidation is the deep-time mind reading the online mind and reshaping itself — the Adapter loop running slowly. It switches on at Eumetazoa, the first cell with two minds, and the timing is handed to the book for free: the Eumetazoa reinforcing cycle already includes sleep-wake regulation of arousal and allostasis (per the genetic Inheritance_Lines doc, Eumetazoa).
 
-Consolidation runs during sleep, and sleep is not docking. At Eumetazoa, sleep is the emergent Chronotype behavior at the Explorer (Reviser × Effector): the unit finds a spot — warm or activity-rich, set by the Spot Type knob — settles, and allostasis decides it is time to rest. Sleep is intentional withdrawal in a chosen spot with slow ambient-energy intake; it is emergent, not knob-controlled (the knob picks the spot; allostasis picks the sleep). Docking is a separate event — the Adapter-slot energy exchange (debris for UV or a vortex-tube thermal gradient, the mitochondrion-analogue) — and must not be conflated with sleep. The offline window where consolidation runs is sleep-at-a-spot, not a dock visit.
+Consolidation runs during sleep, and sleep is not docking. At Eumetazoa, sleep is the emergent Chronotype behavior at the Explorer (Reviser × Effector): the unit finds a spot — warm or activity-rich, set by the Home Type knob — settles, and allostasis decides it is time to rest. Sleep is intentional withdrawal in a chosen spot with slow ambient-energy intake; it is emergent, not knob-controlled (the knob picks the spot; allostasis picks the sleep). Docking is a separate event — the Adapter-slot energy exchange (debris for UV or a vortex-tube thermal gradient, the mitochondrion-analogue) — and must not be conflated with sleep. The offline window where consolidation runs is sleep-at-a-spot, not a dock visit.
 
 The empirical anchor for the consolidation that runs during sleep is allostasis (Eumetazoa). Allostatic setpoint revision is one result of consolidation, not the whole of it — it begins at Eumetazoa (Ch 4), alongside the memory restructuring below. Consolidation is the broader process; revised setpoints are one of its outputs.
 
@@ -734,17 +764,39 @@ This is why the breakthrough at the center is not a fifth motivation. A fifth mo
 
 ---
 
+### **The Scope of a Cell Claim**
+
+A cell claims that on this thread, at this rung, four flag-carriers jointly produce one breakthrough. The clade name is the rung's address. It is not a quantifier over the clade's membership.
+
+The distinction needs stating because the diagram is drawn as a ladder, and readers arrive at a ladder expecting a ranking. Four readings the matrix does not license:
+
+**Not exclusive.** The cell does not claim that only members of the clade carry the capacity. Off-thread lineages build their own stacks and reach their own syntheses above their branching points. A crow that simulates or an octopus that models is the architecture working, not the architecture breaking. See 'Off-Thread Branches'.
+
+**Not a priority claim.** The cell does not claim the clade got there first. Where this framework says a cell introduces something, the introduction is indexed to this thread. Another thread may have reached the same synthesis earlier, later, or not at all, and the cell is silent on all three.
+
+**Not an absence below.** The cell does not claim the capacity is missing at lower rungs. Motivations retire into backgrounded infrastructure and keep operating. See 'The Maturity Gradient'.
+
+**Not a description of any living member.** The cell describes what the rung installs. Every living member sits above its rung on its own branch and carries its own elaborations, so a member's four active flag-carriers are read off that member's own stack rather than off the matrix. See 'Off-Thread Branches'.
+
+One question about a cell is always legitimate, and it is none of the four. A reader may ask whether the capacity reconstructs below the rung on this thread. That is the branch-point test, and a capacity that clears it does move the label. See 'Off-Thread Branches'.
+
+The ladder shape encodes genealogy and not rank. A thread has an order because descent has an order. Every living lineage has been evolving for the same interval, and the rungs above any branching point belong to whoever climbed them.
+
+---
+
 ### **The Four Functions**
 
 The four rows of ABHOP's diagram name four cybernetic functions of the unit at every level. Each function has a single role. Together they constitute a complete adaptive control architecture.
 
-**Effector.** The line's executive arm. What makes the unit execute its native verb: persist at the genetic line, seize at the neuronal line, commit at the symbolic line. Effector motivations are the line's primal directives: Persistence, Impetus, Commitment. Action is the row's function. Externalization names the same function viewed from outside the unit: the Effector propagates outward what the Regulator stabilizes, the Modeler models, and the Reviser revises. *Evolutionary signature:* founding form of each line, line present, regulatory layer not yet stabilized.
+**Effector.** The line's executive arm. What makes the unit execute its native verb: persist at the genetic line, seize at the neuronal line, commit at the symbolic line. Effector motivations are the line's primal directives: Persistence, Impetus, Commitment. Action is the row's function. In selection, the Effector weights recency: to act is to commit to the freshest signal. Externalization names the same function viewed from outside the unit: the Effector propagates outward what the Regulator stabilizes, the Modeler models, and the Reviser revises. *Evolutionary signature:* founding form of each line, line present, regulatory layer not yet stabilized.
 
-**Regulator.** Closed-loop stabilization against stored references. The rule both is the setpoint and enforces it; that is why the comparator and the storage are one row, not two. Regulator motivations are what makes the unit's behavior consistent across instances: Dissipation, Coordination, Mastery, Stability. Stabilization is the row's function. *Evolutionary signature:* stored regulation, adjustable rules govern responses without rewriting the underlying structure.
+**Regulator.** Closed-loop stabilization against stored references. The rule both is the setpoint and enforces it; that is why the comparator and the storage are one row, not two. Regulator motivations are what makes the unit's behavior consistent across instances: Dissipation, Coordination, Mastery, Stability. Stabilization is the row's function. In selection, the Regulator weights familiarity: to stabilize is to defend the established predictor against new rivals. *Evolutionary signature:* stored regulation, adjustable rules govern responses without rewriting the underlying structure.
 
-**Modeler.** Internal representation that organizes inputs into a usable account of the world. Sensing is downstream of having a model worth updating. Modeler motivations are what makes the unit's interior do representational work: Self-Organization, Interiority, Autonomy, Representation. Modeling is the row's function. *Evolutionary signature:* organized interiority, internal organization with multiple co-occurring properties (opacity, modularity, protected operating conditions, capacity expansion, asymmetric exchange, internal coordination); structurally interior, not just bounded.
+**Modeler.** Internal representation that organizes inputs into a usable account of the world. Sensing is downstream of having a model worth updating. Modeler motivations are what makes the unit's interior do representational work: Self-Organization, Interiority, Autonomy, Representation. Modeling is the row's function. In selection, the Modeler weights potency: a single account foregrounds the strongest input and lets it overshadow the faint. *Evolutionary signature:* organized interiority, internal organization with multiple co-occurring properties (opacity, modularity, protected operating conditions, capacity expansion, asymmetric exchange, internal coordination); structurally interior, not just bounded.
 
-**Reviser.** Meta-loop that revises the references the regulator stabilizes against. Reviser motivations are what makes the unit able to change its own goals: Self-Production, Excitability, Affiliation, Universality. Revision is the row's function. *Evolutionary signature:* specialized differentiation, division of labor among parts that, in the bridging cases, produces the next line's goo.
+**Reviser.** Meta-loop that revises the references the regulator stabilizes against. Reviser motivations are what makes the unit able to change its own goals: Self-Production, Excitability, Affiliation, Universality. Revision is the row's function. In selection, the Reviser weights novelty: to revise is to weight what hasn't been seen and let the familiar fall to background. *Evolutionary signature:* specialized differentiation, division of labor among parts that, in the bridging cases, produces the next line's goo.
+
+Each function carries a signature bias in the selection race — the rule it applies to decide which cue to credit. The four are recency (Effector), familiarity (Regulator), potency (Modeler), and novelty (Reviser). Every line runs this bias through its own selector: differential reproduction on the genetic line, attention on the neuronal line, differential adoption on the symbolic line. On the neuronal line these four are the Pavlovian associability heuristics — eligibility trace, blocking, overshadowing, and latent inhibition. The bias is not separate from the function; it is the function seen from the selection side.
 
 The sequence is not arbitrary. There is no Regulator without an Effector to regulate, no Modeler without a regulated system whose internal state is worth representing, no Reviser without a model worth updating. Each row depends on the prior row having been achieved. This is why the cybernetic functions emerge in this order at every line, and why the evolutionary descriptions track the functional ones: an effector must be present before it can be regulated; regulation is required before an interior can be defended; a defended interior is required before its parts can be specialized.
 
@@ -773,6 +825,47 @@ Each adjacent pair is a closed cybernetic loop between two of the four functions
 **Reviser × Effector \= Explorer.** Exploratory action. Action that tries new things; results revise what gets tried next. The explore side of explore/exploit. The Orienting Style knob sits here and dials recency versus novelty; it is not the explore/exploit dial, which runs exploit (Regulator) to explore (Reviser) — they share the novelty pole and differ on the other.
 
 The four adjacent-pair functions are the four primitive cybernetic loops. Every more complex constellation is a synthesis of these.
+
+### Tendency knobs: each toggles between clade N and clade N−1
+
+Every tendency knob is installed at one cell and toggles between two adjacent functions: the cell's own function (N) and the function of the cell below it (N−1). The knob's volume-up pole is the cell's own bias, the newer installed layer, the derived setting. Its volume-down pole is the prior cell's bias, the ancestor showing through, the primordial setting. A knob is therefore never the property of one clade alone; it exists to toggle between a clade and its predecessor.
+
+Which adjacent-pair loop a knob is follows from the cell's function, because the cell's function is the up pole and the predecessor's function is the down pole:
+
+- Effector cells (Protocell, Bilaterian, Band-Human) install Explorer knobs. Up is recency (Effector); down is novelty (the prior Reviser). The Explorer edge (Reviser × Effector) is also the line-bridge edge, so an Effector cell's down pole reaches back across the line boundary to the previous line's Reviser.
+- Regulator cells (Prokaryote, Vertebrate, Settlement-Human) install Controller knobs. Up is familiarity (Regulator); down is recency (the prior Effector).
+- Modeler cells (Eukaryote, Mammal, City-Human) install Anticipator knobs. Up is potency (Modeler); down is familiarity (the prior Regulator).
+- Reviser cells (Eumetazoa, Primate, Empire-Human) install Adapter knobs. Up is novelty (Reviser); down is potency (the prior Modeler).
+
+The four selection biases are recency, familiarity, potency, and novelty, one per function. On the neuronal line these biases are named as the four Pavlovian associability heuristics: eligibility trace (recency), blocking (familiarity), overshadowing (potency), and latent inhibition (novelty). A tendency knob toggles between the two heuristics of its two functions: the up pole runs the cell's own heuristic, the down pole runs the predecessor's. The Orienting knob (Bilaterian, Explorer) toggles eligibility trace (recency, up) against latent inhibition (novelty, down). The Coping knob (Vertebrate, Controller) toggles blocking (familiarity, up) against eligibility trace (recency, down). Every knob around the ring toggles the two-of-four that its function and its predecessor's function name.
+
+The biases install one per cell as each cell's own function arrives, in the order the functions arrive: familiarity at the first Regulator cell (Prokaryote), potency at the first Modeler cell (Eukaryote), novelty at the first Reviser cell (Eumetazoa), and recency at the first Effector cell whose knob performs credit assignment (Bilaterian). Protocell's Effector knob is the wind-up (Going), which carries no credit-assignment heuristic, so recency as a running heuristic waits for the neuronal Effector at Bilaterian. From Bilaterian onward all four heuristics are present, and each later cell's knob re-toggles the same two-of-four its function and predecessor name.
+
+Volume up and volume down are properties of knob settings, not a ranking of the four functions, which remain equal primaries. The up pole is the newer layer; the down pole is the older layer showing through. This is the eclipsing account applied to the knobs: at a knob's down pole the newest layer goes dormant and the ancestor beneath runs.
+
+### **Why the Ring Turns: Absence Recruits**
+
+The four adjacent-pair loops above say what the loops are. This section says why the ring turns from one to the next, and why in one direction.
+
+**Constitutive absence.** A phenomenon can be organized around something not present in it. Deacon calls this constitutive absence: a precise missing something that is a defining attribute of a function or a purpose. Hemoglobin is the biological case. The molecule that carries oxygen spends much of its cycle holding none, and its whole allosteric machinery is organized around a gas that is not part of the molecule. Read the molecule alone and its function is invisible; read it against the oxygen it is shaped to bind and release, and the function appears. The framework already makes this move at the center, where each capacity is defined by the one function it lacks: the Planner without a live Effector, the Pursuer without a live Regulator, the Reactor without a live Modeler, the Conservator without a live Reviser. Absence already does definitional work. It also drives the ring.
+
+**Absence recruits.** Each function is complete at what it does and incomplete on its own, and its specific lack recruits the next function. An Effector acts, and open action cannot see its own result; the Regulator supplies the missing comparison, closing the Controller loop. A Regulator holds a reference, and a fixed reference cannot look ahead; the Modeler supplies the missing anticipation, closing the Anticipator loop. A Modeler predicts, and a model fitted to the past goes stale; the Reviser supplies the missing update, closing the Adapter loop. A Reviser rewrites the model, and a rewritten model changes nothing until something acts on it; action supplies the missing test, closing the Explorer loop and returning the ring to the Effector. This is the absent-function principle of the capacities applied to the transitions between functions. The four loops named above are the four answers to four constitutive absences.
+
+**Each recruitment is already attested.** No single source holds the whole ring, and every edge of it is owned somewhere. Effector to Regulator is negative feedback after Wiener, and the TOTE unit of Miller, Galanter, and Pribram, where an incongruity recruits an operation. Regulator to Modeler is the good regulator theorem established in Part I: good regulation already contains a model, so the Regulator's absence is filled by definition, a point Rosen's anticipatory systems make from the other side. Modeler to Reviser is owned three times over, by Piaget's equilibration, where failed assimilation recruits accommodation, by Powers' reorganization, where persistent error recruits restructuring, and by Friston's free energy, where prediction error recruits model update. Reviser to Effector is Peirce's doubt settled only in a habit for action, and West-Eberhard's genes-as-followers, where plastic innovation leads and structure consolidates behind it.
+
+**Why the order is forced.** The recruitments run one way and skip no steps, and two forces set that direction. The first is build-order dependency: each function is constituted by the one before it, so it cannot be recruited until its predecessor exists to complete. This is Deacon's own architecture, where teleodynamics is built on morphodynamics built on homeodynamics, and it is already stated for the lines in the Goo Venn's "Why the ordering is forced, not observed" argument. An Effector cannot recruit a Modeler, because with no Regulator there is no regulation problem for a model to be a model of, and the good regulator theorem defines the model's job as serving regulation. An Effector cannot recruit a Reviser, because with no Modeler there is no model to revise. The skips are ruled out because the skipped-to function has nothing built yet to bind to. The second force is that control flows the other way: the stack is assembled from the bottom and run from the top, as in the Powers and Carver-Scheier hierarchy, where a higher loop sets the reference for the loop below. Assembly climbs; control descends; the two meet, which is why the structure is a directed ring and not a heap.
+
+**Why the ring closes back to action.** The top of the epistemic stack answers to no higher loop, so the closure at Reviser to Effector has its own account, and two forces supply it. The first is Darwinian selection. The Reviser generates variation and the Effector is the selection-outcome (see "Reviser as Goo-Ratchet, Effector as Darwin-Selected Outcome" in Part I); variation never expressed as an acting, selected unit is not inherited, and the framework's scope is a cybernetic loop subject to inheritance, so a loop that never closes this edge is not the kind of loop the framework is about. This is Campbell's blind variation and selective retention at the scale of the ring. At the line boundary the edge is the transformation of one goo into the next, anchored by the fertilized egg: recombination is blind variation producing an unbound unit, and implantation is the binding that turns it into a controlled program. The second force is the epistemics of the untried: epistemic value sits at the Reviser, the payoff of an untried action is unobservable except by taking it, and taking it is action. Within a single lifetime the closure is exact in active inference, where free energy is lowered either by changing the model, the Reviser's horn, or by changing the world, the Effector's horn, and the active in active inference names the Effector. Expected free energy's two parts are the two forces: pragmatic value is the selection leg for one agent, and epistemic value is the exploration leg. Both discharge only through the Effector.
+
+*Scope note: active inference is formally exact at the neuronal line, where the neuronal goo is Friston goo. At the genetic and symbolic lines the same closure runs through the substrate-independent free-energy principle in each line's own machinery, not through mammalian active inference taken literally.*
+
+**What is forced and by which kind of force.** The ring is forced the whole way around, by three kinds of force. Effector to Regulator to Modeler is forced at close to theorem strength, on settled cybernetics and the good regulator theorem. Modeler to Reviser is forced by convergence, three independent traditions deriving the same recruitment. Reviser to Effector is forced by the structure of inheritance, conditional on scope: it holds for inheritance-bearing loops, which is the framework's domain, not for arbitrary control systems outside it. The scope condition is the boundary of the claim, not a soft spot.
+
+**Absence at every scale.** The same principle runs at three scales the framework already names. It defines each capacity by the function that capacity lacks. It recruits the next function across the ring, by the lack the current function carries. And it exposes an ancestor in real time under eclipsing, where a tendency's low pole is the newest layer made absent and the older architecture showing through. Three applications, one principle.
+
+**Borrowed parts, assembled ring.** That absence recruits is not new: negative feedback is that idea, and Deacon owns the name constitutive absence. No single source holds the closed ring. What is assembled here is the whole: the four functions as a closed cycle, the same cycle recurring across the three lines, and the low pole of each function reading as the prior layer showing through. The giants own the edges; the closed ring, the cross-line recurrence, and the eclipsing are the framework's assembly.
+
+*Epistemic status: the extension of the absent-function principle from the capacities to the transitions, and the unification of eclipsing with the same principle, are framework theoretical commitments. Every joint of the ring is forced; the closing joint is forced conditional on the unit being an inheritance-bearing loop. Prior-art anchors drawn from outside the framework's existing citation set (Wiener, Miller-Galanter-Pribram, Carver-Scheier, Powers, Piaget, Peirce, Campbell, Rosen) are named at standard strength and are not yet verified against primary sources.*
 
 ---
 

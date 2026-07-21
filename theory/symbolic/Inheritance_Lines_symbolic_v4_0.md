@@ -39,7 +39,7 @@ ABHOP's three lines (genetic, neuronal, symbolic) instantiate the bio-psycho-soc
 
 The Row-4 motivation in each column names the goo each line ratchets. The Row-1 motivation names what Darwin selects on that goo. The Reviser motivation introduced at the end of one line carries forward as the Reviser motivation of the next. Excitability introduced at Eumetazoa carries into Bilaterians. Affiliation introduced at Primates carries into Bands. Empires is the framework's current Row 4 of the most-evolved column. The three Row-4 fates remain possible (failure, off-thread success, or bridge to a next line), and the framework does not claim which is in progress.
 
-Each cell name is shorthand for a clade. The naming convention is set out below in "Cell Names as Clade Shorthand."
+Each cell name is shorthand for a clade. The naming convention is set out below in "Cell Names as Clade Shorthand." A cell name is the rung's address. It is not a quantifier over the clade's membership. The diagram does not claim that only that clade reaches the cell's breakthrough, and it does not claim that the clade reached it first. See 'The Scope of a Cell Claim' in `trellis_framework doc`.
 
 ### Row functions
 
@@ -380,18 +380,7 @@ The "Later rename" column in the structure-at-a-glance table (genetic line doc) 
 
 **The names.**
 
-* **Live ↔ Dead** (Acquisition, the crank) — wound it runs, unwound it doesn't. One sticker only; Dead is the absence.
-* **Sloth ↔ Sprint** (Respiration) — slow endurance off the battery vs. a supercapacitor burst that then sits and recovers. Names a knob the team only ever called aerobic/anaerobic, and one already shelved by the time the name arrives.
-* **March ↔ Dance** (Foraging) — the rote march of the worn groove vs. dancing the path up as it goes.
-* **Warm ↔ Busy** (Spot) — settles in the warmest corner it can find vs. doesn't care about warmth, parks where the people are.
-* **Think ↔ Buzz** (Orienting) — jumps to conclusions off one weird thing vs. doesn't sweat it till the pattern's repeated. Bramble's setting: [OPEN — not yet decided; leave placeholder, do not invent].
-* **Beast ↔ Little** (Coping) — leans hard at anything that might pay vs. hangs back and waits to be sure. Little is a size word, not a deficit — "it thinks it's little."
-* **Deep ↔ Wide** (Experiencing) — all of it close and loud, nothing else in the room, vs. the whole field at once with nothing pulling harder than anything else.
-* **Respect ↔ Savage** (Agreeableness) — defers, won't impose, vs. out for its own.
-* **Cancel ↔ Clutch** (Neuroticism) — worry queues and it backs out of the exchange vs. composed, enters freely, comes through. Cancel is the high setting, Clutch the low.
-* **Preppy ↔ Messy** (Conscientiousness) — the schedule is load-bearing vs. the schedule is a suggestion.
-* **Boss ↔ Vibe** (Extraversion) — steps up and runs the room vs. warms it and carries the mood; a trade between leading and being good company, not more-or-less of one setting.
-* **Real ↔ Flex** (Integrity) — the principle holds whatever it costs in the moment vs. bends to the situation, giving up the principle to protect the relationship.
+The full set of Mira/Bramble rebrand pairs, derived pole first, lives in `bramble_specs_v1_4.md`, "Structure at a glance" and the names-section bullets beneath it. It is canonical; this doc does not carry a second copy.
 
 ---
 

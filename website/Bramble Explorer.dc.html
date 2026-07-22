@@ -28,6 +28,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DotGothic16&family=Shantell+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Saira+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
 <script src="framework-data.js"></script>
 <script src="ui-copy.js"></script>
+<script src="bramble-data.js"></script>
 <style>
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: #0e0d09; }
@@ -135,6 +136,16 @@
       <!-- ====== RIGHT — PANEL ====== -->
       <section style="width:29.75%; flex:none; overflow-y:auto; background:#1b1813;">
         <div style="padding:20px 22px 32px;">
+
+          <div style="display:flex; align-items:center; gap:11px; margin-bottom:18px;">
+            <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:11px; letter-spacing:0.22em; color:#7c7159; text-transform:uppercase; flex:none;">{{ bu.view }}</span>
+            <div style="display:flex; flex:1; border:1px solid #4a4234; background:#161209;">
+              <button onclick="{{ setAncestor }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13.5px; letter-spacing:0.07em; text-transform:uppercase; padding:9px 0; border:none; cursor:pointer; background:{{ ancBg }}; color:{{ ancFg }};">{{ bu.ancestor }}</button>
+              <button onclick="{{ setBramble }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13.5px; letter-spacing:0.07em; text-transform:uppercase; padding:9px 0; border:none; cursor:pointer; border-left:1px solid #4a4234; background:{{ braBg }}; color:{{ braFg }};">{{ bu.bramble }}</button>
+            </div>
+          </div>
+
+          <sc-if value="{{ isAncestor }}" hint-placeholder-val="{{ true }}">
           <sc-if value="{{ showBack }}" hint-placeholder-val="{{ true }}">
             <div class="bx-lnk" onclick="{{ onBack }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; cursor:pointer; margin-bottom:14px;">{{ backLabel }}</div>
           </sc-if>
@@ -228,6 +239,137 @@
               <div style="position:absolute; top:-9px; right:16px; width:32px; height:32px; border-radius:50%; background:{{ noteDot }}; transform:rotate(9deg); display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,0.45);"><span style="font-family:'Shantell Sans',cursive; font-weight:600; font-size:10px; color:{{ noteDotInk }};">★</span></div>
             </div>
           </sc-if>
+          </sc-if>
+
+          <sc-if value="{{ isBramble }}" hint-placeholder-val="{{ false }}">
+
+            <div style="position:relative; background:#262119; border:1px solid #3a3227; padding:16px 18px 15px; box-shadow:0 16px 36px rgba(0,0,0,0.38);">
+              <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px;">
+                <div>
+                  <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.2em; color:#8f8470;">{{ bu.unitLabel }} · {{ cellIndexLabel }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:29px; line-height:0.92; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; margin-top:5px;">{{ displayName }}</div>
+                  <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.14em; color:#7c7159; margin-top:6px; text-transform:uppercase;">{{ brambleChassis }}</div>
+                </div>
+                <div style="position:relative; flex:none; background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:600; font-size:13px; line-height:1; padding:8px 12px 8px 22px; transform:rotate(3deg); box-shadow:0 2px 6px rgba(0,0,0,0.35);">
+                  <span style="position:absolute; left:7px; top:50%; transform:translateY(-50%); width:10px; height:10px; border-radius:50%; background:#e0a23c; border:0.6px solid #1b1813;"></span>Bramble
+                </div>
+              </div>
+              <p style="font-family:'Spectral',serif; font-size:13.5px; line-height:1.55; color:#cdc3ad; margin:12px 0 0;">{{ brambleBuild }}</p>
+            </div>
+
+            <div style="margin-top:18px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.faceHeading }}</span>
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <sc-if value="{{ faceCanAscii }}" hint-placeholder-val="{{ false }}">
+                    <div style="display:inline-flex; border:1px solid #3a3227;">
+                      <span onclick="{{ setReadout }}" style="cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; padding:3px 7px; background:{{ readoutBg }}; color:{{ readoutFg }};">{{ bu.readoutTag }}</span>
+                      <span onclick="{{ setAscii }}" style="cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; padding:3px 7px; background:{{ asciiBg }}; color:{{ asciiFg }};">{{ bu.asciiTag }}</span>
+                    </div>
+                  </sc-if>
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; color:{{ faceStatusColor }};">{{ faceStatus }}</span>
+                </div>
+              </div>
+
+              <div class="scan" style="position:relative; background:#12100b; border:1px solid #000; min-height:150px; display:flex; align-items:center; justify-content:center; padding:24px 20px; overflow:hidden;">
+                <sc-if value="{{ faceIsNone }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#3f4a3f; text-transform:uppercase;">{{ bu.faceNone }}</span>
+                </sc-if>
+                <sc-if value="{{ faceIsStatus }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+                    <span style="font-family:'DotGothic16',monospace; font-size:34px; line-height:1; color:#9ad6a0; text-shadow:0 0 10px rgba(154,214,160,0.6);">{{ faceWord }}</span>
+                    <div style="display:flex; gap:12px;">
+                      <sc-for list="{{ faceSet }}" as="s" hint-placeholder-count="3">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.14em; color:{{ s.color }};">{{ s.word }}</span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsLines }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center;">
+                    <sc-for list="{{ faceLines }}" as="ln" hint-placeholder-count="1">
+                      <span style="font-family:'DotGothic16',monospace; font-size:24px; line-height:1.15; color:#9ad6a0; text-shadow:0 0 9px rgba(154,214,160,0.55);">{{ ln.text }}</span>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsPersons }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; gap:12px; align-items:stretch; justify-content:center; flex-wrap:wrap;">
+                    <sc-for list="{{ facePersons }}" as="p" hint-placeholder-count="2">
+                      <div style="border:1px solid #2f4a33; padding:11px 12px; display:flex; flex-direction:column; gap:7px; align-items:center; min-width:112px;">
+                        <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#bfe6a0; text-shadow:0 0 7px rgba(154,214,160,0.5);">{{ p.name }}</span>
+                        <span style="font-family:'DotGothic16',monospace; font-size:14px; line-height:1.2; color:#9ad6a0; text-shadow:0 0 8px rgba(154,214,160,0.55); text-align:center;">{{ p.body }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsAscii }}" hint-placeholder-val="{{ false }}">
+                  <pre style="font-family:'IBM Plex Mono',monospace; font-size:13px; line-height:1.25; color:#9ad6a0; text-shadow:0 0 7px rgba(154,214,160,0.5); margin:0; white-space:pre;">{{ faceAscii }}</pre>
+                </sc-if>
+                <div class="scan" style="position:absolute; inset:0; pointer-events:none; opacity:0.5;"></div>
+                <div style="position:absolute; bottom:8px; left:11px; font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.12em; color:#4d5a4d;">{{ faceCaption }}</div>
+              </div>
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:12px; line-height:1.5; color:#8f8470; margin:9px 0 0;">{{ bu.faceNote }}</p>
+            </div>
+
+            <div style="margin-top:22px;">
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.systemsHeading }}</div>
+              <div style="margin-top:12px; display:flex; flex-direction:column; gap:9px;">
+                <sc-for list="{{ sysRows }}" as="r" hint-placeholder-count="4">
+                  <div style="display:flex; align-items:center; gap:11px;">
+                    <span style="width:12px; height:12px; border-radius:50%; background:{{ r.color }}; flex:none; opacity:{{ r.dotOp }};"></span>
+                    <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:15px; text-transform:uppercase; letter-spacing:0.03em; color:{{ r.nameColor }}; flex:none; width:78px;">{{ r.name }}</span>
+                    <span style="font-family:'Spectral',serif; font-style:italic; font-size:12px; color:#8f8470; flex:1;">{{ r.clinical }}</span>
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; padding:2px 7px; background:{{ r.chipBg }}; color:{{ r.chipFg }}; border:1px solid {{ r.chipBorder }}; flex:none;">{{ r.status }}</span>
+                  </div>
+                </sc-for>
+              </div>
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:13px; border-top:1px solid #2c261d; padding-top:12px;">{{ retiredNote }}</div>
+            </div>
+
+            <div style="margin-top:22px;">
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.knobsHeading }}</div>
+              <p style="font-family:'Spectral',serif; font-size:12px; line-height:1.5; color:#8f8470; margin:7px 0 0;">{{ bu.knobsSub }}</p>
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:13px; margin-top:15px;">
+                <sc-for list="{{ knobs }}" as="k" hint-placeholder-count="4">
+                  <div onclick="{{ k.onClick }}" style="cursor:pointer; position:relative; background:{{ k.cellBg }}; border:1px solid {{ k.cellBorder }}; padding:14px 10px 12px; display:flex; flex-direction:column; align-items:center; gap:9px;">
+                    <sc-if value="{{ k.isNew }}" hint-placeholder-val="{{ true }}">
+                      <span style="position:absolute; top:7px; right:7px; font-family:'IBM Plex Mono',monospace; font-size:7.5px; letter-spacing:0.1em; text-transform:uppercase; padding:2px 5px; background:{{ k.color }}; color:{{ k.tagInk }};">{{ bu.newTag }}</span>
+                    </sc-if>
+                    {{ k.dial }}
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; text-transform:uppercase; color:{{ k.stateColor }};">{{ k.stateLabel }}</span>
+                    <div style="position:relative; background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:600; font-size:11.5px; line-height:1; padding:6px 9px 6px 19px; transform:rotate({{ k.rot }}); box-shadow:0 2px 5px rgba(0,0,0,0.3);">
+                      <span style="position:absolute; left:6px; top:50%; transform:translateY(-50%); width:8px; height:8px; border-radius:50%; background:{{ k.color }}; border:0.6px solid #1b1813;"></span>{{ k.stickerName }}
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+
+              <div style="margin-top:15px; background:#1b1813; border:1px solid #3a3227; padding:15px 16px;">
+                <div style="display:flex; align-items:center; gap:9px;">
+                  <span style="width:11px; height:11px; border-radius:50%; background:{{ selColor }}; flex:none;"></span>
+                  <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:18px; text-transform:uppercase; letter-spacing:0.03em; color:#f0e6d0;">{{ selName }}</span>
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; color:#7c7159;">{{ selFnLabel }}</span>
+                </div>
+                <div style="display:flex; gap:16px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:9px; color:#8f8470;">
+                  <span>{{ bu.motivation }} · <span style="color:#cdc3ad;">{{ selMotivation }}</span></span>
+                  <span>{{ bu.clinical }} · <span style="color:#cdc3ad;">{{ selClinical }}</span></span>
+                </div>
+                <div style="margin-top:13px; display:flex; flex-direction:column; gap:8px;">
+                  <div style="display:flex; gap:11px; padding:9px 11px; background:{{ upBg }}; border-left:3px solid {{ upBar }};">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{ upFg }}; flex:none; width:64px;">{{ bu.upTag }} · {{ selMiraUp }}</span>
+                    <span style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.45; color:{{ upText }};">{{ selUpText }}</span>
+                  </div>
+                  <div style="display:flex; gap:11px; padding:9px 11px; background:{{ dnBg }}; border-left:3px solid {{ dnBar }};">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{ dnFg }}; flex:none; width:64px;">{{ bu.downTag }} · {{ selMiraDown }}</span>
+                    <span style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.45; color:{{ dnText }};">{{ selDownText }}</span>
+                  </div>
+                </div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:12px; border-top:1px solid #2c261d; padding-top:11px;">{{ selFaceNote }}</div>
+              </div>
+            </div>
+
+          </sc-if>
+
         </div>
       </section>
 
@@ -517,7 +659,7 @@ const nm = (s) => (s||'').replace('-Human','');
 const pad2 = (n) => String(n).padStart(2,'0');
 
 class Component extends DCLogic {
-  state = { idx: 6, sel: null, mode: 'content', help: false, sysSel: null, modSel: null };
+  state = { idx: 6, sel: null, mode: 'content', help: false, sysSel: null, modSel: null, pv: 'ancestor', knobUp: {}, knobSel: null, faceAscii: false };
 
   componentDidMount() {
     this._poll = () => {
@@ -569,6 +711,24 @@ class Component extends DCLogic {
   pick(id) { this.setState({ sel: id }); }
   pickSys(f) { const next = this.state.sysSel === f ? null : f; clearTimeout(this._selTO); this.setState({ sysSel: next, modSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ sysSel: null }), 3000); }
   pickMod(t) { const next = this.state.modSel === t ? null : t; clearTimeout(this._selTO); this.setState({ modSel: next, sysSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ modSel: null }), 3000); }
+
+  toggleKnob(fn) { this.setState((s) => { const cur = s.knobUp[fn] !== false; const k = Object.assign({}, s.knobUp); k[fn] = !cur; return { knobUp: k, knobSel: fn }; }); }
+
+  // a physical volume knob: pointer swings to an UP detent (upper-left) or DOWN detent (lower-right)
+  dialEl(fn, up, isNew) {
+    const h = React.createElement; const C = 33;
+    const col = FC[fn], br = BRIGHT[fn];
+    const rot = up ? -42 : 132;
+    const els = [];
+    if (isNew && up) els.push(h('circle', { key: 'glow', cx: C, cy: C, r: 29, fill: 'none', stroke: br, strokeWidth: 6, strokeOpacity: 0.16 }));
+    els.push(h('circle', { key: 'body', cx: C, cy: C, r: 29, fill: up ? '#221d15' : '#141009', stroke: isNew ? br : '#4a4234', strokeWidth: isNew ? 2.5 : 1.5 }));
+    for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; els.push(h('line', { key: 'kn' + i, x1: C + Math.cos(a) * 29, y1: C + Math.sin(a) * 29, x2: C + Math.cos(a) * 25, y2: C + Math.sin(a) * 25, stroke: '#0e0b06', strokeWidth: 1.4 })); }
+    const detent = (deg, onWhenUp) => { const a = (deg - 90) * Math.PI / 180; return h('circle', { key: 'dt' + deg, cx: C + Math.cos(a) * 35, cy: C + Math.sin(a) * 35, r: 2.6, fill: (up === onWhenUp) ? br : '#5a513f' }); };
+    els.push(h('g', { key: 'ptr', transform: 'rotate(' + rot + ' ' + C + ' ' + C + ')' }, [h('line', { key: 'p', x1: C, y1: C, x2: C, y2: 9, stroke: up ? br : '#8f8470', strokeWidth: 3.4, strokeLinecap: 'round' })]));
+    els.push(h('circle', { key: 'hub', cx: C, cy: C, r: 7, fill: '#2a241b', stroke: up ? br : '#5a513f', strokeWidth: 1.6 }));
+    els.push(detent(-42, true)); els.push(detent(132, false));
+    return h('svg', { viewBox: '0 0 66 66', style: { width: '66px', height: '66px', display: 'block', overflow: 'visible' } }, els);
+  }
 
   wrap(label) {
     const w = label.split(' ');
@@ -1067,8 +1227,16 @@ class Component extends DCLogic {
     const handmade = this.props.handmade ?? true;
     const fw = window.BRAMBLE_FRAMEWORK;
     const ui = window.BRAMBLE_UI || {};
+    const BU = window.BRAMBLE_UNIT || {};
+    const bu = BU.ui || {};
+    const pv = this.state.pv || 'ancestor';
     const base = {
-      ui,
+      ui, bu,
+      isAncestor: pv !== 'bramble', isBramble: pv === 'bramble',
+      setAncestor: () => this.setState({ pv: 'ancestor' }),
+      setBramble: () => this.setState({ pv: 'bramble' }),
+      ancBg: pv === 'bramble' ? '#161209' : '#e0a23c', ancFg: pv === 'bramble' ? '#8f8470' : '#1b1813',
+      braBg: pv === 'bramble' ? '#e0a23c' : '#161209', braFg: pv === 'bramble' ? '#1b1813' : '#8f8470',
       brandLogo: this.glyphEl(68),
       brandLogoSm: this.glyphEl(28),
       sigStarLegend: this.sigStarLegendEl(),
@@ -1219,7 +1387,84 @@ class Component extends DCLogic {
       else { stackName = 'Breakthrough'; stackOf = (c) => c.regions['bkt.center']; }
     }
     const glyphFns = (isRegion && role) ? (role.fns || []) : ['effector', 'regulator', 'modeler', 'reviser'];
-    return Object.assign(base, spec, {
+
+    // ---- BRAMBLE VIEW (Unit 03) ----
+    const BUcells = BU.cells || {}, BUknobs = BU.knobs || {};
+    const unit = BUcells[cell.id] || {};
+    const chassisName = (BU.chassis || {})[cell.line] || '';
+    const order = ['effector', 'regulator', 'modeler', 'reviser'];
+    const INSTALL = { effector: [0, 4, 8], regulator: [1, 5, 9], modeler: [2, 6, 10], reviser: [3, 7, 11] };
+    const knobNumOf = (fn) => { let best = INSTALL[fn][0]; INSTALL[fn].forEach((ii) => { if (ii <= this.state.idx) best = ii; }); return best + 1; };
+    const isUp = (fn) => this.state.knobUp[fn] !== false;
+    const newFn = cell.newSlot;
+    const newUp = isUp(newFn);
+    const newKnob = BUknobs[String(this.state.idx + 1)] || {};
+
+    // face-screen
+    const F = unit.face || {};
+    let faceIsNone = false, faceIsStatus = false, faceIsLines = false, faceIsPersons = false, faceIsAscii = false;
+    let faceWord = '', faceSet = [], faceLines = [], facePersons = [], faceAsciiText = '', faceCaption = '', faceStatus = bu.faceLive, faceStatusColor = '#6f9a70';
+    const asciiActive = F.canAscii && this.state.faceAscii;
+    if (F.mode === 'none') { faceIsNone = true; faceStatus = bu.faceNone; faceStatusColor = '#4d5a4d'; }
+    else if (asciiActive) { faceIsAscii = true; faceAsciiText = F.ascii || ''; faceStatus = bu.faceLive; faceStatusColor = '#c98a3a'; faceCaption = 'ASCII \u00B7 voluntary'; }
+    else {
+      const fc = F.always ? F : (newUp ? F.up : F.down);
+      faceCaption = F.always ? (F.caption || '') : (newUp ? (F.capUp || '') : (F.capDown || ''));
+      faceStatus = (!F.always && !newUp) ? bu.faceOff : bu.faceLive;
+      faceStatusColor = (!F.always && !newUp) ? '#c98a3a' : '#6f9a70';
+      if (fc) {
+        if (fc.kind === 'status') { faceIsStatus = true; faceWord = fc.word; faceSet = (fc.set || []).map((w) => ({ word: w, color: w === fc.word ? '#9ad6a0' : '#3f4a3f' })); }
+        else if (fc.kind === 'lines') { faceIsLines = true; faceLines = (fc.lines || []).map((t) => ({ text: t })); }
+        else if (fc.kind === 'persons') { faceIsPersons = true; facePersons = (fc.persons || []).map((p) => ({ name: p[0], body: p[1] + ' = ' + p[2] })); }
+      }
+    }
+
+    // installed-systems spec
+    const sysRows = order.map((fn) => {
+      const isNew = fn === newFn; const kd = BUknobs[String(knobNumOf(fn))] || {};
+      return { color: FC[fn], dotOp: isNew ? 1 : 0.5, name: kd.name || FNAME[fn], nameColor: isNew ? '#f0e6d0' : '#8f8470',
+        clinical: kd.clinical || '', status: isNew ? bu.newTag : bu.heldTag,
+        chipBg: isNew ? 'rgba(224,162,60,0.15)' : '#1f1a13', chipFg: isNew ? '#e0a23c' : '#7c7159', chipBorder: isNew ? 'rgba(224,162,60,0.45)' : '#3a3227' };
+    });
+    let retiredNote;
+    if (this.state.idx >= 4) {
+      const pk = BUknobs[String(this.state.idx - 3)] || {};
+      retiredNote = (bu.retiredTmpl || '').replace('{new}', newKnob.name || '').replace('{old}', pk.name || '').replace('{mira}', (pk.miraUp || '') + ' / ' + (pk.miraDown || ''));
+    } else { retiredNote = (bu.retiredFirst || '').replace('{fn}', FNAME[newFn]); }
+
+    // the four disposition knobs
+    const rots = { effector: '-3deg', regulator: '2.5deg', modeler: '-1.5deg', reviser: '3.5deg' };
+    const knobs = order.map((fn) => {
+      const kd = BUknobs[String(knobNumOf(fn))] || {}; const up = isUp(fn); const isNew = fn === newFn;
+      const selected = (this.state.knobSel || newFn) === fn;
+      return { onClick: () => this.toggleKnob(fn), color: FC[fn], tagInk: fn === 'modeler' ? '#231903' : '#fff', isNew,
+        cellBg: selected ? '#2a231a' : '#1b1813', cellBorder: selected ? BRIGHT[fn] : (isNew ? '#4a4234' : '#2c261d'),
+        dial: this.dialEl(fn, up, isNew), stateColor: up ? '#cabfa6' : '#6f6552',
+        stateLabel: up ? (bu.upTag + ' \u00B7 ' + (kd.miraUp || '')) : (bu.downTag + ' \u00B7 ' + (kd.miraDown || '')),
+        stickerName: (kd.miraUp && kd.miraDown) ? (kd.miraUp + ' / ' + kd.miraDown) : (kd.name || FNAME[fn]), rot: rots[fn] };
+    });
+
+    // selected-knob readout
+    const selFn = this.state.knobSel || newFn;
+    const sk = BUknobs[String(knobNumOf(selFn))] || {}; const selUp = isUp(selFn); const selIsNew = selFn === newFn;
+    const selFaceNote = cell.line === 'symbolic' ? bu.faceSymbolicNote : (selIsNew ? bu.faceNewNote : bu.faceHeldNote);
+
+    const brambleVals = {
+      brambleBuild: unit.build || '', brambleChassis: chassisName + ' \u00B7 ' + (bu.newTag || 'New') + ': ' + (newKnob.name || FNAME[newFn]),
+      faceIsNone, faceIsStatus, faceIsLines, faceIsPersons, faceIsAscii,
+      faceWord, faceSet, faceLines, facePersons, faceAscii: faceAsciiText, faceCaption, faceStatus, faceStatusColor,
+      faceCanAscii: !!F.canAscii, setReadout: () => this.setState({ faceAscii: false }), setAscii: () => this.setState({ faceAscii: true }),
+      readoutBg: this.state.faceAscii ? '#161209' : '#3a3227', readoutFg: this.state.faceAscii ? '#7c7159' : '#ddd3bf',
+      asciiBg: this.state.faceAscii ? '#3a3227' : '#161209', asciiFg: this.state.faceAscii ? '#ddd3bf' : '#7c7159',
+      sysRows, retiredNote, knobs,
+      selName: sk.name || FNAME[selFn], selColor: FC[selFn], selFnLabel: FNAME[selFn] + ' \u00B7 KNOB ' + knobNumOf(selFn),
+      selMotivation: sk.motivation || '', selClinical: sk.clinical || '', selMiraUp: sk.miraUp || '', selMiraDown: sk.miraDown || '',
+      selUpText: sk.up || '', selDownText: sk.down || '', selFaceNote,
+      upBg: selUp ? '#241d12' : 'transparent', upBar: selUp ? BRIGHT[selFn] : '#3a3227', upFg: selUp ? '#f0c46a' : '#7c7159', upText: selUp ? '#ddd3bf' : '#8f8470',
+      dnBg: !selUp ? '#241d12' : 'transparent', dnBar: !selUp ? BRIGHT[selFn] : '#3a3227', dnFg: !selUp ? '#f0c46a' : '#7c7159', dnText: !selUp ? '#ddd3bf' : '#8f8470',
+    };
+
+    return Object.assign(base, spec, brambleVals, {
       rail: this.railEl(cells, cell.index, stackOf, tintByNew),
       stackName, stackTint: '#e0a23c',
       flower: this.flowerEl(cell, mode, sel, true, this.state.sysSel, this.state.modSel),

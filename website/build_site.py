@@ -8,12 +8,15 @@ deploy transformations, and assembles the upload bundle in `site/`:
   support.js          — dc-runtime (vendored in runtime/)
   framework-data.js   — data file (source of truth for cell/region prose)
   ui-copy.js          — chrome microcopy (CC-owned; optional until extraction lands)
+  bramble-data.js     — Bramble (Unit 03) panel data (CC-owned; optional, added
+                        with the Ancestor/Bramble toggle)
   favicon/og assets   — vendored in runtime/
   public/specimens_web/*.jpg
 
-Copy ownership: framework-data.js and ui-copy.js are owned by the Code tool
-(all words). Bramble Explorer.dc.html is owned by the Design tool (look & feel;
-reads every string from the data files, hardcodes none). See website/README.md.
+Copy ownership: framework-data.js, ui-copy.js, and bramble-data.js are owned by
+the Code tool (all words). Bramble Explorer.dc.html is owned by the Design tool
+(look & feel; reads every string from the data files, hardcodes none). See
+website/README.md.
 
 Deploy with:
   wrangler pages deploy website/site --project-name trellis-framework --branch main
@@ -99,6 +102,11 @@ def build() -> None:
     ui_copy = HERE / "ui-copy.js"
     if ui_copy.exists():
         shutil.copy2(ui_copy, OUT / "ui-copy.js")
+    # bramble-data.js drives the Bramble (Unit 03) panel view. Guarded the
+    # same way, in case a future .dc.html drops the script tag.
+    bramble_data = HERE / "bramble-data.js"
+    if bramble_data.exists():
+        shutil.copy2(bramble_data, OUT / "bramble-data.js")
 
     spec_out = OUT / "public" / "specimens_web"
     spec_out.mkdir(parents=True)

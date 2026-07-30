@@ -1414,7 +1414,7 @@ The connection between future planning, self-simulation, and theory of mind is d
 - *Additional terms:* Breakthrough #5, Dawkins memes, cumulative culture, over-imitation, thought transfer, Washoe, Kanzi, ape language studies, idea accumulation across generations
 
 #### Core Themes
-- Breakthrough #5 (Speaking) is introduced by systematically dismantling prior claims of human uniqueness — tool use, theory of mind, culture, self-awareness, and planning are all present in other primates to varying degrees, leaving language as the primary distinguishing feature
+- Breakthrough #5 (Conversation) is introduced by systematically dismantling prior claims of human uniqueness — tool use, theory of mind, culture, self-awareness, and planning are all present in other primates to varying degrees, leaving language as the primary distinguishing feature
 - Two specific features of human language set it apart from all animal communication systems: declarative labels (arbitrary symbols that refer to concepts and can be combined freely) and grammar (recursive combinatorial rules that generate infinite meanings from finite elements)
 - Language is characterized as a "thought transfer" technology — its primary evolutionary function was enabling one mind to install its mental models into another mind, dramatically reducing the cost of learning by bypassing individual trial-and-error
 - Dawkins's concept of memes is applied to explain how language enables cumulative cultural evolution: ideas can accumulate and improve across generations because they are transmitted with sufficient fidelity to build upon, unlike the limited cultural traditions observed in other primates
@@ -1514,7 +1514,7 @@ Directly relevant to the project's heuristics-and-biases and rationality themes 
 - *Additional terms:* steering, reinforcing, simulating, mentalizing, speaking, bootstrapping, biological-to-digital intelligence transfer, evolutionary trajectory, cognitive architecture recapitulation
 
 #### Core Themes
-- The five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Speaking) are recapitulated as a cumulative sequence in which each breakthrough required and built upon all prior ones — no breakthrough could have evolved in isolation or in a different order
+- The five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Conversation) are recapitulated as a cumulative sequence in which each breakthrough required and built upon all prior ones — no breakthrough could have evolved in isolation or in a different order
 - The bootstrapping principle is emphasized: each breakthrough expanded the design space for subsequent innovations (e.g., simulation required reinforcement learning, mentalizing required simulation, language required mentalizing), creating an accelerating trajectory of cognitive complexity
 - Evolution is characterized as still young — the five breakthroughs span only ~600 million years of a universe that may persist for trillions, suggesting that intelligence is in its early stages rather than a mature or final product
 - Artificial superintelligence is proposed as the likely sixth breakthrough — a transfer of intelligence from biological to digital substrates that would transcend the metabolic, developmental, and lifespan constraints that limit biological brains

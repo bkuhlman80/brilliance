@@ -1,10 +1,10 @@
 # Methodological Discipline
 
-Standing commitments that govern how the framework states claims, marks evidence, and engages adjacent literatures. Apply to all ABHOP artifacts (book, journal extractions, slide decks, web copy).
+Standing commitments that govern how the framework states claims, marks evidence, and engages adjacent literatures. Apply to all the Trellis Framework artifacts (book, journal extractions, slide decks, web copy).
 
 ## Two framework commitments
 
-These constrain what ABHOP claims and what it applies to. Load-bearing in the architecture itself, not just in how the framework is written about. (See "Rolling-4 Architecture" above for the architectural commitments — eclipsing, systematic analogy, unit-level subjectivity — that are stated there as part of the architecture itself.)
+These constrain what the Trellis Framework claims and what it applies to. Load-bearing in the architecture itself, not just in how the framework is written about. (See "Rolling-4 Architecture" above for the architectural commitments — eclipsing, systematic analogy, unit-level subjectivity — that are stated there as part of the architecture itself.)
 
 ### 1. Feltness is downstream
 
@@ -16,7 +16,7 @@ This dissolves two objections at once: the anthropomorphism objection ("bacteria
 
 ### 2. Inheritance-bearing scope
 
-ABHOP applies to inheritance-bearing units — systems that perpetuate themselves through environmental coupling, transmitting pattern across time. This excludes dissipative structures (hurricanes, vortices, flames) and externally-maintained systems (thermostats); it includes bacteria through agents.
+The Trellis Framework applies to inheritance-bearing units — systems that perpetuate themselves through environmental coupling, transmitting pattern across time. This excludes dissipative structures (hurricanes, vortices, flames) and externally-maintained systems (thermostats); it includes bacteria through agents.
 
 The criterion and the four inheritance regimes are the same concept at different scales. The criterion states, at the level of individual units, what the regimes state at the level of substrate. Theoretical grounding follows Deacon's Shannon-Boltzmann-Darwin framework (2007a, 2007b; *Incomplete Nature*, 2012): inheritance is the Darwinian level of entropy-reduction. The scope criterion follows from that level rather than being stipulated alongside it.
 
@@ -28,15 +28,15 @@ These govern how the framework's commitments get operationalized in writing, int
 
 ### Pearl-hierarchy layer marking
 
-Every prediction is explicitly marked as Layer 1 (observational), Layer 2 (interventional), or Layer 3 (counterfactual), in the sense of the causal hierarchy formalized by Bareinboim et al. (2020) extending Pearl. Most ABHOP predictions are Layer 1 by design — testable on existing data without intervention. This is what makes Eronen & Bringmann's (2021) fat-handedness critique inapplicable to the cross-regime persistence prediction and similar structural claims: ABHOP does not need to manipulate excitability to test whether p-factor has the structural signature of backgrounded ancestral excitability.
+Every prediction is explicitly marked as Layer 1 (observational), Layer 2 (interventional), or Layer 3 (counterfactual), in the sense of the causal hierarchy formalized by Bareinboim et al. (2020) extending Pearl. Most the Trellis Framework predictions are Layer 1 by design — testable on existing data without intervention. This is what makes Eronen & Bringmann's (2021) fat-handedness critique inapplicable to the cross-regime persistence prediction and similar structural claims: the Trellis Framework does not need to manipulate excitability to test whether p-factor has the structural signature of backgrounded ancestral excitability.
 
 The framework's predictive layer is therefore not weak in the standard "predictive personality theory" sense. It is differently shaped: a Layer-1 retrodictive program with selective Layer-2 entailments where mechanistic-trait research permits them.
 
 ### Estimand vocabulary
 
-Following Lundberg, Johnson & Stewart (2021), each prediction states its theoretical estimand — the population-level quantity ABHOP claims — explicitly, separately from any model or estimator. Forces the assumptions to surface; makes the gap between description and causal explanation explicit.
+Following Lundberg, Johnson & Stewart (2021), each prediction states its theoretical estimand — the population-level quantity the Trellis Framework claims — explicitly, separately from any model or estimator. Forces the assumptions to surface; makes the gap between description and causal explanation explicit.
 
-The unit-level commitment is load-bearing here. Most ABHOP estimands are about properties of the unit at the level of organization (the band-as-unit, the settlement-as-unit, the civilization-as-unit), not about properties of unit-members aggregated. This is the move that distinguishes ABHOP from individual-differences psychology applied at scale.
+The unit-level commitment is load-bearing here. Most the Trellis Framework estimands are about properties of the unit at the level of organization (the band-as-unit, the settlement-as-unit, the civilization-as-unit), not about properties of unit-members aggregated. This is the move that distinguishes the Trellis Framework from individual-differences psychology applied at scale.
 
 ### No naming history in project artifacts
 

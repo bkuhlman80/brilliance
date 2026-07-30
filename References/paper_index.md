@@ -547,8 +547,8 @@
 - **Instruments:** N/A
 - **Level of Detail:** Other (evolutionary neuroscience)
 - **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
-- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #5 (Speaking) and argues language is the singular unique human trait.
-- **Notes:** Presents Breakthrough #5: Speaking. Argues that language (declarative labels plus grammar) is the singular unique human trait and the engine of cumulative cultural evolution.
+- **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Introduces Breakthrough #5 (Conversation) and argues language is the singular unique human trait.
+- **Notes:** Presents Breakthrough #5: Conversation. Argues that language (declarative labels plus grammar) is the singular unique human trait and the engine of cumulative cultural evolution.
 
 ### 55. bennett_2023_ch20.pdf
 - **Citation:** Bennett, M. S. (2023). Language in the brain. In *A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains* (Chapter 20). Mariner Books.
@@ -588,7 +588,7 @@
 - **Level of Detail:** Other (evolutionary neuroscience)
 - **Topic:** Comparative Cognition, Brain Evolution, Evolutionary Neuroscience
 - **Quality:** Prestige: XL | *A Brief History of Intelligence* (Mariner Books, 2023). Recapitulates the five breakthroughs and speculates on a sixth.
-- **Notes:** Recapitulates the five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Speaking) and their bootstrapping logic. Speculates on artificial superintelligence as a potential sixth breakthrough.
+- **Notes:** Recapitulates the five breakthroughs (Steering, Reinforcing, Simulating, Mentalizing, Conversation) and their bootstrapping logic. Speculates on artificial superintelligence as a potential sixth breakthrough.
 
 ### 59. Benthin_1992.pdf
 - **Citation:** Benthin, A., Slovic, P., & Severson, H. (1993). A psychometric study of adolescent risk perception. *Journal of Adolescence*, *16*(2), 153–168. https://doi.org/10.1006/jado.1993.1014

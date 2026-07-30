@@ -85,13 +85,13 @@ The pairs are complementary, not redundant. The type is fully realized in two di
 
 The Eliza-reader is the most fleshed-out profile so far. The other three are pending.
 
-**Tendencies.** She is the reader who would actually pick ABHOP up. High Mastery: completionist, reads footnotes, tracks citations, wants the bibliography. High Affiliation: alert to how the framework treats people, sensitive to whether descriptions punch down. High Autonomy: comes in willing to be revised, expects books to update her, not just confirm her. Low Boldness: the book lives in the model first. High engagement, high evangelism, low downstream behavioral change.
+**Tendencies.** She is the reader who would actually pick the Trellis Framework up. High Mastery: completionist, reads footnotes, tracks citations, wants the bibliography. High Affiliation: alert to how the framework treats people, sensitive to whether descriptions punch down. High Autonomy: comes in willing to be revised, expects books to update her, not just confirm her. Low Boldness: the book lives in the model first. High engagement, high evangelism, low downstream behavioral change.
 
 **Preferences.** Rigor over rhetorical punch. Density if the argument earns it. Cross-line scope as catnip. Theoretical coherence is non-negotiable. Suspicious of just-so stories.
 
 **Logos.** Mechanism arguments (Watson and Szathmáry on selection internalizing correlation structure, Conant and Ashby on good regulators, FEP on hierarchical inference). Empirical retrodictions (the De Raad cross-linguistic pattern, the two-metatrait reduction in CB5T, the Big Five recovered as pair regions, the Dark Triad mapped onto the Empire-Human disorders panel). She wants to see why the framework has to be this way, not just that it works.
 
-**Pathos.** The dignity move: configuration as one viable shape, not a verdict. The honesty move: ABHOP offers placement rather than transformation, which is the relief from self-improvement culture. The fit move: environments are not neutral, configurations can be eclipsed by current environments rather than broken.
+**Pathos.** The dignity move: configuration as one viable shape, not a verdict. The honesty move: the Trellis Framework offers placement rather than transformation, which is the relief from self-improvement culture. The fit move: environments are not neutral, configurations can be eclipsed by current environments rather than broken.
 
 **The persuasion problem.** Eliza is the easiest reader to reach, the most likely to accept the configurational reframe in general, and the hardest reader to land the Escapist critique on. She will read the Escapist chapter and see her sister, her ex, her colleagues, anyone but herself. The dam-not-box image has to be precise enough to break that pattern. The most expensive sentence in the book, for the Eliza-reader, is the one that says her preferred move (withdraw into the model, find a better environment) is itself the configurational signature, not the clear-eyed reading it feels like.
 
@@ -141,6 +141,6 @@ The Eliza-reader is the most fleshed-out profile so far. The other three are pen
 
 ## The Audience Asymmetry
 
-Eliza-types are overrepresented in the readership for serious trade nonfiction about minds. The natural ABHOP reader is configurationally a Planner. That skew has consequences. The book risks flattering Eliza-types on the way in (the cross-line elegance, the configurational reframe, the systems-thinking aesthetic) while landing harder on the other three.
+Eliza-types are overrepresented in the readership for serious trade nonfiction about minds. The natural the Trellis Framework reader is configurationally a Planner. That skew has consequences. The book risks flattering Eliza-types on the way in (the cross-line elegance, the configurational reframe, the systems-thinking aesthetic) while landing harder on the other three.
 
 It also reframes what "audience" means. Eliza is the audience that already exists. Maria, Benjamin, and Rodeo are aspirational audiences: targets the book hopes to reach, not constituencies already lined up at the door. Some of them may not be reachable by a book at all. Benjamin in particular reads only when reading promises personal optimization, which is what the framework's anti-optimization line takes away.

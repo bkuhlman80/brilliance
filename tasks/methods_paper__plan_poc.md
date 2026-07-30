@@ -1,6 +1,6 @@
 # **Proof of Concept Plan: Recoverability of Combinatorial Loading Models**  
   
-*Working doc. May 2026\. Audience: Brian and future Claude in the ABHOP project.*  
+*Working doc. May 2026\. Audience: Brian and future Claude in the Trellis Framework project.*  
   
 ---  
   

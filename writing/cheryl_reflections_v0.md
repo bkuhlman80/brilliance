@@ -2,7 +2,7 @@
 
 *Working document. v0. May 2026.*
 
-The deep evolutionary-architecture material behind the framework, gathered here as the source pool for Cheryl's poetic interludes (her reflections on evolution living inside Bramble's on-board memory). Sections relocated from `cybernetics_and_sentience doc` and `Inheritance_Lines_genetic doc`. The framework-grounding docs keep the Venn-reading architecture and the per-cell tables; this doc carries the wider evolutionary story, sequenced from what personality is, through what lines are made of, how the bramble grows, the ecology across lines, the genealogy of the thread, and what ABHOP adds.
+The deep evolutionary-architecture material behind the framework, gathered here as the source pool for Cheryl's poetic interludes (her reflections on evolution living inside Bramble's on-board memory). Sections relocated from `cybernetics_and_sentience doc` and `Inheritance_Lines_genetic doc`. The framework-grounding docs keep the Venn-reading architecture and the per-cell tables; this doc carries the wider evolutionary story, sequenced from what personality is, through what lines are made of, how the bramble grows, the ecology across lines, the genealogy of the thread, and what the Trellis Framework adds.
 
 To be clear about what these are: the poetics are Cheryl's reflections *about* Bramble's evolution and the framework's deep-time architecture. They are not installed inside Bramble. Cheryl writes from outside Bramble, as a participant-observer, in essay or lyrical form. The phrase "evolution living inside Bramble's on-board memory" refers to what the poetics are *about* — the evolution that lives in Bramble — not to where the poetics themselves reside.
 
@@ -10,7 +10,7 @@ To be clear about what these are: the poetics are Cheryl's reflections *about* B
 
 ## Substance distribution across the twelve interludes
 
-Each interlude's poetic does different framework work. The mapping below names each poetic's topic and the section of this doc that supplies its source material. The "what ABHOP adds" content stays in the framework docs; it is not poeticized.
+Each interlude's poetic does different framework work. The mapping below names each poetic's topic and the section of this doc that supplies its source material. The "what the Trellis Framework adds" content stays in the framework docs; it is not poeticized.
 
 - **After Ch 0 — Evolution as learning.** Watson & Szathmáry's equivalences, lyricized. *Source: 'Evolution as Learning' (under Cybernetic-Inheritance Foundations).*
 - **After Ch 1 — Personality as biographical signature.** What it means for trait talk to start applying. *Source: 'Personality as Biographical Signature'.*
@@ -43,9 +43,9 @@ A thermostat lineage does not exist. There is no thermostat-to-thermostat parame
 
 The biographical signature is what every line has evolved a genre to compress. Humans get obituaries. Bacterial strains get strain reports. Codebases get postmortems. Civilizations get historiographies. Trained models get model cards. Agents get deployment retrospectives. Different names, same form: a small set of characterizing adjectives summarizing how the unit tended across the distribution of situations it occupied. A personality assessment of a living unit is a prospective bet on which adjectives the eventual retrospective compression will land on. Things without biographies get event descriptions instead. Hurricanes get meteorological summaries and thermostats get spec sheets, the genre that fits what they actually are.
 
-This is the structural reason ABHOP's scope criterion takes the shape it does. The framework applies to inheritance-bearing units, systems that perpetuate themselves through environmental coupling, transmitting pattern across time. The criterion excludes thermostats, hurricanes, and rocks not on intuitive grounds but on principled ones: they do not transmit pattern to successors, so there is no lineage for selection to write onto, so there is no biographical signature for trait adjectives to summarize.
+This is the structural reason the Trellis Framework's scope criterion takes the shape it does. The framework applies to inheritance-bearing units, systems that perpetuate themselves through environmental coupling, transmitting pattern across time. The criterion excludes thermostats, hurricanes, and rocks not on intuitive grounds but on principled ones: they do not transmit pattern to successors, so there is no lineage for selection to write onto, so there is no biographical signature for trait adjectives to summarize.
 
-The same argument extends ABHOP into lines that are not biological. Code lineages exist (forks, version control, kernel inheritance). Trained-model lineages exist (base weights, fine-tuning chains). Agent constellations propagate (prompt patterns, tool inheritance). The line is engineered at origin, but parameter flow contingent on what works is present. So personality applies, not by metaphorical extension from biological cases, but by the same structural argument that licensed it for bacteria.
+The same argument extends the Trellis Framework into lines that are not biological. Code lineages exist (forks, version control, kernel inheritance). Trained-model lineages exist (base weights, fine-tuning chains). Agent constellations propagate (prompt patterns, tool inheritance). The line is engineered at origin, but parameter flow contingent on what works is present. So personality applies, not by metaphorical extension from biological cases, but by the same structural argument that licensed it for bacteria.
 
 **Personality is the biographical signature of a cybernetic loop subject to inheritance.** Wherever both conditions hold, traits apply. Where either fails, they do not.
 
@@ -53,7 +53,7 @@ The same argument extends ABHOP into lines that are not biological. Code lineage
 
 ## Cybernetic-Inheritance Foundations
 
-The cybernetic-inheritance claim (surviving lineages are regulators with internalized models of their environments, and the dynamic operates in the same algorithmic terms across lines) has a substantial literature. ABHOP stands in this tradition rather than against it.
+The cybernetic-inheritance claim (surviving lineages are regulators with internalized models of their environments, and the dynamic operates in the same algorithmic terms across lines) has a substantial literature. The Trellis Framework stands in this tradition rather than against it.
 
 The foundations are distributed across several anchors. No single paper underwrites the entire cross-line claim. This is honest: the substrate-independence claim is doing real work and benefits from convergence across multiple traditions rather than dependence on any one of them.
 
@@ -65,7 +65,7 @@ Applied at the lineage scale: a surviving lineage is a regulator whose continued
 
 This is the substrate-independent foundation that licenses our cross-line claim. Whatever the substrate (DNA, neural pattern, cultural transmission, code), surviving lineages are good regulators of their environments by the same theorem. The architecture is cybernetic at every line by entailment, not by analogy.
 
-*Epistemic status: Conant-Ashby is a theorem with formal standing. Its application to inheritance-bearing lineages is the move ABHOP makes. The application is consistent with cybernetic-inheritance literature (Bateson, Maturana, Friston) but the lineage from Conant-Ashby specifically to that literature is convergent rather than direct. Most contemporary cyberneticists arrive at the result through their own reasoning rather than citing the 1970 paper.*
+*Epistemic status: Conant-Ashby is a theorem with formal standing. Its application to inheritance-bearing lineages is the move the Trellis Framework makes. The application is consistent with cybernetic-inheritance literature (Bateson, Maturana, Friston) but the lineage from Conant-Ashby specifically to that literature is convergent rather than direct. Most contemporary cyberneticists arrive at the result through their own reasoning rather than citing the 1970 paper.*
 
 Ashby's second theorem (*Introduction to Cybernetics*, 1956) is the law of requisite variety: only variety can destroy variety. A regulator must have at least as many internal states as the perturbations it can encounter. Holding course against a complex environment requires a regulator at least as complex as the environment's relevant disturbance-space.
 
@@ -111,7 +111,7 @@ Levin & Watson (2025) argues for cognition all the way down. Agential competency
 
 Substrate-independence is a central conceptual move in the paper: connectionist learning principles can be implemented in many physical systems from gene networks to protein networks to ecosystems, and Hebbian learning can be demonstrated in non-neural and non-biological systems. The scope as the authors define it is biological-organizational levels plus computational hardware.
 
-For ABHOP's purposes, the paper underwrites scale-free competency from the genetic through the neuronal line, plus silicon. It does not address symbolic or cultural inheritance directly. Extending the cybernetic-inheritance claim into the symbolic line requires additional anchors.
+For the Trellis Framework's purposes, the paper underwrites scale-free competency from the genetic through the neuronal line, plus silicon. It does not address symbolic or cultural inheritance directly. Extending the cybernetic-inheritance claim into the symbolic line requires additional anchors.
 
 *Epistemic status: the paper is an OSF preprint (May 2025). The multi-scale competency claim is asserted with explicit hedging on degree (cognition has degrees of relevance, not equally meaningful at every scale). The substrate-independence claim is well-developed within cell and developmental biology and computational hardware; the symbolic line is out of scope for this paper.*
 
@@ -119,17 +119,17 @@ For ABHOP's purposes, the paper underwrites scale-free competency from the genet
 
 The free energy principle gives a substrate-independent formulation: any system that maintains itself against entropy must minimize a quantity equivalent to free energy, which can be decomposed as expected free energy into pragmatic value (preferred outcomes) and epistemic value (information gain). Safron & DeYoung (2021) maps this onto CB5T's metatraits: Stability tracks pragmatic value (precision over preferences, the C matrix); Plasticity tracks epistemic value (precision over policies).
 
-For ABHOP, FEP operates as a substrate-independent principle that applies wherever a system maintains itself against entropy, compatible with cybernetic-inheritance at every level. Active inference is the specific mammalian instantiation. Other lines run other line-native machinery: ratcheting at protocell, state-dependent gating at prokaryote, associative learning at bilaterian, reinforcement learning at vertebrate, gossip-tracked social debt at band, code-tracked obligation at city.
+For the Trellis Framework, FEP operates as a substrate-independent principle that applies wherever a system maintains itself against entropy, compatible with cybernetic-inheritance at every level. Active inference is the specific mammalian instantiation. Other lines run other line-native machinery: ratcheting at protocell, state-dependent gating at prokaryote, associative learning at bilaterian, reinforcement learning at vertebrate, gossip-tracked social debt at band, code-tracked obligation at city.
 
 The Regulator and Reviser are cross-level structural roles. The machinery implementing them changes by level.
 
-Safron & DeYoung is the strongest existing precedent for grounding CB5T's metatraits in cybernetic-architectural terms. They did that work in detail, with neurobiological grounding, and proposed a methodology (P-structures) for operationalizing it. ABHOP inherits the empirical and theoretical apparatus, cites heavily, and does not duplicate. The framework's specific architectural placement of the metatraits sits at single-primary positions in the Empire-Human Venn rather than at row functions across the framework. Stability sits at the Effector (Reciprocity at Empire-Human). Its adjacency to the Conscientiousness (Effector × Regulator) and Neuroticism (Reviser × Effector) pair-regions explains why CFA recovers it as a metatrait. Plasticity sits at the Modeler (Representation at Empire-Human). Its adjacency to the Extraversion (Regulator × Modeler) and Agreeableness (Modeler × Reviser) pair-regions explains why CFA recovers it as a metatrait.
+Safron & DeYoung is the strongest existing precedent for grounding CB5T's metatraits in cybernetic-architectural terms. They did that work in detail, with neurobiological grounding, and proposed a methodology (P-structures) for operationalizing it. The Trellis Framework inherits the empirical and theoretical apparatus, cites heavily, and does not duplicate. The framework's specific architectural placement of the metatraits sits at single-primary positions in the Empire-Human Venn rather than at row functions across the framework. Stability sits at the Effector (Reciprocity at Empire-Human). Its adjacency to the Conscientiousness (Effector × Regulator) and Neuroticism (Reviser × Effector) pair-regions explains why CFA recovers it as a metatrait. Plasticity sits at the Modeler (Representation at Empire-Human). Its adjacency to the Extraversion (Regulator × Modeler) and Agreeableness (Modeler × Reviser) pair-regions explains why CFA recovers it as a metatrait.
 
 ### Earlier and Adjacent Traditions
 
-Bateson (1967, 1972, 1979\) gives the earliest sharp formulation of the cybernetic view of inheritance, information as restraint, surviving lineages as the residue of a process that ruthlessly enumerated and excluded alternatives. Uexküll's umwelt theory (1934) supplies the environment-construction piece that requisite variety leaves implicit: the regulator regulates against the organism-relative perceptual-effector world, not against objective physical reality. Maturana & Varela's autopoiesis is structural to ABHOP's scope criterion (self-maintaining environmental coupling). Pattee on semiotic closure: biology as hierarchical self-modeling. Jablonka & Lamb (2005) on multi-track inheritance (genetic, epigenetic, behavioral, symbolic) carries the symbolic-line extension that Levin & Watson does not address. Deacon (*Incomplete Nature*, 2012; Shannon-Boltzmann-Darwin, 2007\) provides the entropy-reduction framing the framework's scope criterion follows.
+Bateson (1967, 1972, 1979\) gives the earliest sharp formulation of the cybernetic view of inheritance, information as restraint, surviving lineages as the residue of a process that ruthlessly enumerated and excluded alternatives. Uexküll's umwelt theory (1934) supplies the environment-construction piece that requisite variety leaves implicit: the regulator regulates against the organism-relative perceptual-effector world, not against objective physical reality. Maturana & Varela's autopoiesis is structural to the Trellis Framework's scope criterion (self-maintaining environmental coupling). Pattee on semiotic closure: biology as hierarchical self-modeling. Jablonka & Lamb (2005) on multi-track inheritance (genetic, epigenetic, behavioral, symbolic) carries the symbolic-line extension that Levin & Watson does not address. Deacon (*Incomplete Nature*, 2012; Shannon-Boltzmann-Darwin, 2007\) provides the entropy-reduction framing the framework's scope criterion follows.
 
-ABHOP inherits from all of these. The framework's distinctive contributions sit on top, not against.
+The Trellis Framework inherits from all of these. The framework's distinctive contributions sit on top, not against.
 
 ---
 
@@ -232,7 +232,7 @@ The framework's distinctive architectural contribution: as the bramble grows up 
 
 The handoff order is Regulator → Modeler → Reviser → Effector, repeating across the matrix. Across the twelve cells from Protocell through Empires, the cycle runs three full rotations. The Effector handoff is a line boundary (Persistence to Boldness, Boldness to Reciprocity); at every other handoff the line persists.
 
-The relay is what differentiates ABHOP from adjacent multi-scale-cybernetics work. Levin & Watson supplies multi-scale competency at any moment in time. Maynard Smith & Szathmáry supplies the diachronic story at coarse grain (transitions in individuality). Neither does the work of how the bramble grows. That work is the claim that the bramble at any rung operates with exactly four flag-carriers, one per team, with handoffs between rungs being the mechanism by which the lineage's cybernetic architecture accumulates.
+The relay is what differentiates the Trellis Framework from adjacent multi-scale-cybernetics work. Levin & Watson supplies multi-scale competency at any moment in time. Maynard Smith & Szathmáry supplies the diachronic story at coarse grain (transitions in individuality). Neither does the work of how the bramble grows. That work is the claim that the bramble at any rung operates with exactly four flag-carriers, one per team, with handoffs between rungs being the mechanism by which the lineage's cybernetic architecture accumulates.
 
 Two timescales operate together.
 
@@ -436,9 +436,9 @@ The symbolic line has a floor. Stage lifespan cannot compress below the cycle-ti
 
 ---
 
-## What ABHOP Adds
+## What the Trellis Framework Adds
 
-The cybernetic-inheritance tradition is well-developed — Conant-Ashby, Bateson, Maturana & Varela, Pattee, Jablonka & Lamb, Deacon, Watson & Szathmáry, Levin & Watson, and the Friston school. ABHOP inherits from all of them. Its distinctive contributions sit on top:
+The cybernetic-inheritance tradition is well-developed — Conant-Ashby, Bateson, Maturana & Varela, Pattee, Jablonka & Lamb, Deacon, Watson & Szathmáry, Levin & Watson, and the Friston school. The Trellis Framework inherits from all of them. Its distinctive contributions sit on top:
 
 - **The four-row architecture** as a complete adaptive control system (Effector, Regulator, Modeler, Reviser) present at every level, instantiated in line-specific machinery and configured into 15 discriminable Venn regions whose adjacent-pair loops, triple constellations, and opposite-pair signatures all follow from the row functions. (See 'Opposite Pairs as Level-Defining Couplings' in `cybernetics_and_sentience doc`.)
 - **The four-team relay**: exactly four flag-carriers at every rung, advancing by single-team handoffs, with the within-bramble fast loop and the cross-rung slow loop running the same exploration-consolidation dynamic at different temporal scales.
@@ -449,7 +449,7 @@ This is what makes the framework a theory of personality across lines, not a the
 
 ### Adjacent Architectural-Frameworks Family
 
-ABHOP belongs to the same family as Maynard Smith & Szathmáry's *Major Evolutionary Transitions* (1995), Waring & Wood's "Evolutionary Transition in Inheritance and Individuality" (2021), and the Royal Society B special issue on socio-cultural evolution (2023). The general claim, that cultural evolution represents a new inheritance line layered on the genetic, is established. Dual inheritance theory has explained why cultural evolution is faster than genetic for decades.
+The Trellis Framework belongs to the same family as Maynard Smith & Szathmáry's *Major Evolutionary Transitions* (1995), Waring & Wood's "Evolutionary Transition in Inheritance and Individuality" (2021), and the Royal Society B special issue on socio-cultural evolution (2023). The general claim, that cultural evolution represents a new inheritance line layered on the genetic, is established. Dual inheritance theory has explained why cultural evolution is faster than genetic for decades.
 
 What the framework adds:
 

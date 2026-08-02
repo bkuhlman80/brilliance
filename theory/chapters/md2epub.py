@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as _dt
+import glob
 import html
 import os
 import re
@@ -684,10 +685,74 @@ TABLE_ALIGN = ["---", "---:", "---", "---", "---", "---:", "---:"]
 TABLE_ALIGN += ["---:"] * len(SPEEDS)
 
 RE_TABLE_SEP = re.compile(r"^\|[ \t]*:?-{3,}")
+TOTALS_START = "<!-- TOTALS:START -->"
+TOTALS_END = "<!-- TOTALS:END -->"
 
 
 def _row(cells) -> str:
-    return "| " + " | ".join(cells) + " |"
+    # Escape pipes so a title containing one cannot split the row.
+    return "| " + " | ".join(str(c).replace("|", r"\|") for c in cells) + " |"
+
+
+def parse_log_rows(lines: list[str]) -> list[list[str]]:
+    """The table's data rows as cell lists, newest first."""
+    rows, in_table = [], False
+    for line in lines:
+        if RE_TABLE_SEP.match(line):
+            in_table = True
+            continue
+        if not in_table:
+            continue
+        if not line.startswith("|"):
+            if line.strip():
+                break  # something other than the table; stop
+            continue
+        rows.append([c.strip() for c in line.strip().strip("|").split("|")])
+    return rows
+
+
+def current_totals(out_dir: str, lines: list[str]):
+    """Total spoken words across the EPUBs currently in the folder.
+
+    Word counts come from the log rather than from re-reading the sources, so
+    the total is of the book *as built*. Superseded EPUBs are deleted on bump,
+    so the folder is already one file per chapter; for each one the newest
+    matching row wins.
+    """
+    words_by_source: dict[str, int] = {}
+    for cells in parse_log_rows(lines):
+        if len(cells) < 6:
+            continue
+        source, words = cells[3], cells[5].replace(",", "")
+        if source not in words_by_source and words.isdigit():
+            words_by_source[source] = int(words)
+
+    total, counted, missing = 0, 0, []
+    for epub in sorted(glob.glob(os.path.join(out_dir, "*.epub"))):
+        stem = os.path.splitext(os.path.basename(epub))[0]
+        if stem + ".md" in words_by_source:
+            total += words_by_source[stem + ".md"]
+            counted += 1
+        else:
+            missing.append(os.path.basename(epub))
+    return total, counted, missing
+
+
+def render_totals(total: int, counted: int, missing: list[str], wpm: float) -> list[str]:
+    times = " / ".join(f"**{listen_time(total, wpm, s)}** at {s:g}x" for s in SPEEDS)
+    out = [
+        TOTALS_START,
+        "## Current book",
+        "",
+        f"{counted} EPUB{'s' if counted != 1 else ''} in this folder, "
+        f"{total:,} spoken words.",
+        "",
+        f"Total runtime: {times}.",
+    ]
+    if missing:
+        out += ["", f"Not counted, no row in the log below: {', '.join(missing)}."]
+    out.append(TOTALS_END)
+    return out
 
 
 def readme_header(wpm: float) -> list[str]:
@@ -695,9 +760,13 @@ def readme_header(wpm: float) -> list[str]:
         "# Chapter EPUBs",
         "",
         "Build log for [md2epub.py](../md2epub.py), which converts a chapter to an",
-        "EPUB for ElevenReader TTS ingestion. Newest build first; entries are only",
-        "ever added, never rewritten, so each row records what was true at the time",
-        "it was built.",
+        "EPUB for ElevenReader TTS ingestion. Newest build first; rows are only",
+        "ever added, never rewritten, so each one records what was true at the time",
+        "it was built. The totals block above the table is the one exception -- it",
+        "is recomputed each run, since it reports the book as it currently stands.",
+        "",
+        TOTALS_START,
+        TOTALS_END,
         "",
         "Build one chapter with:",
         "",
@@ -751,9 +820,26 @@ def append_readme(out_dir: str, stats: dict, wpm: float, built: str) -> str:
     else:
         lines = readme_header(wpm) + [row]
 
+    lines = refresh_totals(lines, out_dir, wpm)
     with open(path, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
     return path
+
+
+def refresh_totals(lines: list[str], out_dir: str, wpm: float) -> list[str]:
+    """Replace the delimited totals block, leaving every other line untouched."""
+    block = render_totals(*current_totals(out_dir, lines), wpm=wpm)
+    try:
+        start = lines.index(TOTALS_START)
+        end = lines.index(TOTALS_END, start)
+    except ValueError:
+        # No markers (hand-edited or an older file) -- put the block above the
+        # table so it is still the first thing read.
+        for i, line in enumerate(lines):
+            if line.startswith("| Built") or RE_TABLE_SEP.match(line):
+                return lines[:i] + block + [""] + lines[i:]
+        return block + [""] + lines
+    return lines[:start] + block + lines[end + 1:]
 
 
 # --------------------------------------------------------------------------
@@ -857,19 +943,21 @@ def main(argv=None) -> int:
         print(f"{out}  ({len(sections)} section(s), ~{words:,} words, "
               f"~{listen_time(words, args.wpm, 1.0)} at {args.wpm:g} wpm)")
         out_dir = os.path.dirname(os.path.abspath(out))
-        if not args.no_readme:
-            path = append_readme(out_dir, collect_stats(group, sections),
-                                 args.wpm, built_at)
-            print(f"{path}  (row added)")
 
-        # The previous version's EPUB is now orphaned -- its source no longer
-        # exists under that name. Drop it so the folder keeps one per chapter.
+        # Drop the previous version's EPUB before the README is touched: the
+        # totals are computed from what is on disk, and counting both versions
+        # of a chapter for one moment would double it.
         old_stem = superseded.get(group[0])
         if old_stem:
             stale = os.path.join(out_dir, old_stem + ".epub")
             if os.path.isfile(stale) and os.path.abspath(stale) != os.path.abspath(out):
                 os.remove(stale)
                 print(f"{stale}  (superseded, removed)")
+
+        if not args.no_readme:
+            path = append_readme(out_dir, collect_stats(group, sections),
+                                 args.wpm, built_at)
+            print(f"{path}  (row added)")
 
     return 0
 

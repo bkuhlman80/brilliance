@@ -1,9 +1,18 @@
 # Chapter EPUBs
 
 Build log for [md2epub.py](../md2epub.py), which converts a chapter to an
-EPUB for ElevenReader TTS ingestion. Newest build first; entries are only
-ever added, never rewritten, so each row records what was true at the time
-it was built.
+EPUB for ElevenReader TTS ingestion. Newest build first; rows are only
+ever added, never rewritten, so each one records what was true at the time
+it was built. The totals block above the table is the one exception -- it
+is recomputed each run, since it reports the book as it currently stands.
+
+<!-- TOTALS:START -->
+## Current book
+
+13 EPUBs in this folder, 204,532 spoken words.
+
+Total runtime: **22h 44m** at 1x / **15h 09m** at 1.5x / **11h 22m** at 2x.
+<!-- TOTALS:END -->
 
 Build one chapter with:
 

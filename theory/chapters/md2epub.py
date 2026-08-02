@@ -3,6 +3,10 @@
 
 Lives in theory/chapters/ and writes to theory/chapters/epubs/ by default.
 
+Every run bumps the source version -- ch_0_v3_2.md is renamed to ch_0_v3_3.md
+and built as ch_0_v3_3.epub, and the superseded ch_0_v3_2.epub is removed.
+Pass --no-bump to build in place.
+
 Usage:
     python3 theory/chapters/md2epub.py theory/chapters/sequenced/ch_1_v3_5.md
     python3 theory/chapters/md2epub.py theory/chapters/sequenced/ch_*.md
@@ -600,6 +604,46 @@ def write_epub(path: str, meta, sections, zip_date) -> None:
 
 
 # --------------------------------------------------------------------------
+# version bumping
+# --------------------------------------------------------------------------
+
+RE_VERSION = re.compile(r"^(?P<base>.+)_v(?P<major>\d+)_(?P<minor>\d+)$")
+
+
+def bumped_path(md_path: str) -> str | None:
+    """`ch_0_v3_2.md` -> `ch_0_v3_3.md`; None if the name carries no version."""
+    head, name = os.path.split(md_path)
+    stem, ext = os.path.splitext(name)
+    m = RE_VERSION.match(stem)
+    if not m:
+        return None
+    minor = int(m.group("minor")) + 1
+    return os.path.join(head, f"{m.group('base')}_v{m.group('major')}_{minor}{ext}")
+
+
+def plan_bumps(sources: list[str], fail) -> dict[str, str]:
+    """Work out every rename before performing any of them.
+
+    Validating up front means a collision on the third file doesn't leave the
+    first two already renamed.
+    """
+    plan: dict[str, str] = {}
+    for src in sources:
+        dst = bumped_path(src)
+        if dst is None:
+            print(f"warning: {os.path.basename(src)} has no _vN_N version; "
+                  f"building without a bump", file=sys.stderr)
+            continue
+        if os.path.exists(dst):
+            fail(f"cannot bump {os.path.basename(src)}: "
+                 f"{os.path.basename(dst)} already exists")
+        if dst in plan.values():
+            fail(f"two sources would both bump to {os.path.basename(dst)}")
+        plan[src] = dst
+    return plan
+
+
+# --------------------------------------------------------------------------
 # readme
 # --------------------------------------------------------------------------
 
@@ -673,8 +717,13 @@ def render_readme(rows: list[dict], wpm: float, orphans: list[str]) -> str:
         "Rebuild one chapter with:",
         "",
         "```bash",
-        "python3 theory/chapters/md2epub.py theory/chapters/sequenced/ch_1_v3_5.md",
+        "python3 theory/chapters/md2epub.py theory/chapters/sequenced/<chapter>.md",
         "```",
+        "",
+        "Every run bumps the source version -- `ch_0_v3_2.md` becomes `ch_0_v3_3.md`,",
+        "built as `ch_0_v3_3.epub`, with the superseded EPUB removed. The `Source`",
+        "column below is therefore the version each book was actually built from.",
+        "Pass `--no-bump` to build in place.",
         "",
         f"Word counts are of the *spoken* text after normalization, so they include "
         f"headings and the spoken bracket tokens. Listen times assume {wpm:g} wpm at 1x.",
@@ -755,6 +804,9 @@ def main(argv=None) -> int:
                          "(MIRA, OPEN-BRACKET, WANTING, ...), `commas` drops "
                          "them, `keep` leaves { } [ ] intact "
                          "(default: %(default)s)")
+    ap.add_argument("--no-bump", action="store_true",
+                    help="do not bump the source version (default: every run "
+                         "renames ch_0_v3_2.md to ch_0_v3_3.md and builds that)")
     ap.add_argument("--wpm", type=float, default=150.0,
                     help="words per minute at 1x, for the README listen times "
                          "(default: %(default)s)")
@@ -773,6 +825,17 @@ def main(argv=None) -> int:
 
     if args.output and len(groups) > 1:
         ap.error("--output takes a single file; add --merge or drop -o")
+
+    # Bump first, then build from the new name, so the EPUB and its source
+    # always carry the same version.
+    superseded = {}
+    if not args.dry_run and not args.no_bump:
+        plan = plan_bumps(args.sources, ap.error)
+        for src, dst in plan.items():
+            os.rename(src, dst)
+            print(f"{os.path.basename(src)} -> {os.path.basename(dst)}")
+            superseded[dst] = os.path.splitext(os.path.basename(src))[0]
+        groups = [[plan.get(s, s) for s in group] for group in groups]
 
     written = []
     for group in groups:
@@ -808,8 +871,17 @@ def main(argv=None) -> int:
         words = spoken_words(sections)
         print(f"{out}  ({len(sections)} section(s), ~{words:,} words, "
               f"~{listen_time(words, args.wpm, 1.0)} at {args.wpm:g} wpm)")
-        written.append((os.path.dirname(os.path.abspath(out)),
-                        os.path.dirname(os.path.abspath(group[0]))))
+        out_dir = os.path.dirname(os.path.abspath(out))
+        written.append((out_dir, os.path.dirname(os.path.abspath(group[0]))))
+
+        # The previous version's EPUB is now orphaned -- its source no longer
+        # exists under that name. Drop it so the folder keeps one per chapter.
+        old_stem = superseded.get(group[0])
+        if old_stem:
+            stale = os.path.join(out_dir, old_stem + ".epub")
+            if os.path.isfile(stale) and os.path.abspath(stale) != os.path.abspath(out):
+                os.remove(stale)
+                print(f"{stale}  (superseded, removed)")
 
     if not args.no_readme:
         for out_dir, source_dir in dict.fromkeys(written):

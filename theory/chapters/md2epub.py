@@ -621,6 +621,32 @@ def bumped_path(md_path: str) -> str | None:
     return os.path.join(head, f"{m.group('base')}_v{m.group('major')}_{minor}{ext}")
 
 
+def version_base(stem: str) -> str | None:
+    """`ch_1_v3_8` -> `ch_1`; None if the name carries no version."""
+    m = RE_VERSION.match(stem)
+    return m.group("base") if m else None
+
+
+def superseded_epubs(out_dir: str, out_path: str) -> list[str]:
+    """Every other EPUB in the folder for the same chapter.
+
+    Matching on the version base rather than the exact predecessor filename is
+    what keeps this correct when versions move outside a build -- renamed by
+    hand, bumped twice, a minor skipped. Anything left behind would be counted
+    as a second chapter in the totals.
+    """
+    base = version_base(os.path.splitext(os.path.basename(out_path))[0])
+    if base is None:
+        return []
+    stale = []
+    for path in sorted(glob.glob(os.path.join(out_dir, "*.epub"))):
+        if os.path.abspath(path) == os.path.abspath(out_path):
+            continue
+        if version_base(os.path.splitext(os.path.basename(path))[0]) == base:
+            stale.append(path)
+    return stale
+
+
 def plan_bumps(sources: list[str], fail) -> dict[str, str]:
     """Work out every rename before performing any of them.
 
@@ -899,13 +925,11 @@ def main(argv=None) -> int:
 
     # Bump first, then build from the new name, so the EPUB and its source
     # always carry the same version.
-    superseded = {}
     if not args.dry_run and not args.no_bump:
         plan = plan_bumps(args.sources, ap.error)
         for src, dst in plan.items():
             os.rename(src, dst)
             print(f"{os.path.basename(src)} -> {os.path.basename(dst)}")
-            superseded[dst] = os.path.splitext(os.path.basename(src))[0]
         groups = [[plan.get(s, s) for s in group] for group in groups]
 
     built_at = _dt.datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -944,15 +968,12 @@ def main(argv=None) -> int:
               f"~{listen_time(words, args.wpm, 1.0)} at {args.wpm:g} wpm)")
         out_dir = os.path.dirname(os.path.abspath(out))
 
-        # Drop the previous version's EPUB before the README is touched: the
-        # totals are computed from what is on disk, and counting both versions
-        # of a chapter for one moment would double it.
-        old_stem = superseded.get(group[0])
-        if old_stem:
-            stale = os.path.join(out_dir, old_stem + ".epub")
-            if os.path.isfile(stale) and os.path.abspath(stale) != os.path.abspath(out):
-                os.remove(stale)
-                print(f"{stale}  (superseded, removed)")
+        # Drop older EPUBs of this chapter before the README is touched: the
+        # totals are computed from what is on disk, and counting two versions
+        # of a chapter for even a moment would double it.
+        for stale in superseded_epubs(out_dir, out):
+            os.remove(stale)
+            print(f"{stale}  (superseded, removed)")
 
         if not args.no_readme:
             path = append_readme(out_dir, collect_stats(group, sections),

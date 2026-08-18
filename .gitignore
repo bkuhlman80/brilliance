@@ -3,3 +3,14 @@ scripts/references.db
 
 # Editor backup files
 *.bak
+
+# macOS
+.DS_Store
+
+# Local Claude Code config and worktrees
+.claude/
+
+# PDF archive, intake, and POC scratch (large binaries, not versioned)
+processed/
+inbox/
+recoverability_poc/

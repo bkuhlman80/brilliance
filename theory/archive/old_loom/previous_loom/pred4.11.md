@@ -1,0 +1,658 @@
+# Predictions — Category 4.11
+
+**4.11 — Logistics / next-quarter pitch (new knob and/or chassis) + dispersal tail** (red light off). **Includes the knob-retirement / pine-shelf ceremony as its "SHELF mode"** (Mira seats a retired knob; debuts ch5, recurs ch6/7/9/10/11; absent ch8/ch12 because the board is full). Two SHELF sub-variants: *swap-retirement* (knob pulled to the shelf) vs. *line-retirement* (a knob that goes automatic with no body to pull, ch9). ⚠ **Collision:** where a single section carries BOTH the next-quarter pitch and the retirement, both are 4.11 sub-functions under one heading — this happens in **ch5 "The Shelf"** and **ch10 "Minding"** only; everywhere else the two live in separate sections.
+
+---
+
+*Blind-reader predictions only (book chapter text removed), sequenced by chapter. Each was written after reading the category thread through Ch k, as a guess at Ch k+1.*
+
+## Prediction after Ch 1  (guess at Ch 2)
+
+# Prediction for Ch 2
+
+## Expected Characteristics
+
+**Duration:** Very brief — matching the minimalism of Ch 1. The installment will likely be a single sentence or a handful of lines.
+
+**Register:** Continued flatness and declarative tone. No expansion or ornamentation expected. The voice remains clipped and resistant to embellishment.
+
+**Concreteness:** Continues to operate at the level of absence and negation rather than sensory or object-level detail. The speaker describes what is *not* there rather than what is.
+
+**Interiority:** Interior state remains unexpressed or entirely withheld. If any inner state appears, it arrives through implication only — through what is not said, through the fact of silence itself.
+
+**Attention:** The speaker's gaze continues to focus on what is missing, absent, or withheld. The attention is a *negating* attention — it marks boundaries of non-presence.
+
+**Silence:** The speaker will continue to decline elaboration, explanation, or justification. What the absent material might be remains unspecified. The pattern predicts continued refusal to fill in the gap.
+
+**Signature:** Short declarative sentence or sentences. Possible repetition of the phrase "No material for this category" or structural echo of Ch 1's formula. The voice performs absence. Possible slight variation in phrasing — but the underlying emptiness persists.
+
+## Specific Prediction
+
+Ch 2 will be very brief (one to three lines), maintaining the declarative flatness of Ch 1. It will either repeat the absent-material formula with a different category name, or introduce a minimal statement that continues the pattern of non-disclosure. No expansion into narrative, dialogue, or sensory detail is anticipated. The register remains cold and withholding. The chapter's work is to sustain the refusal established in Ch 1.
+
+**Confidence:** Medium — based on a single data point, the pattern is clearer in its *absence* than in what it contains. The next installment could either deepen this minimalism or suddenly break it.
+
+**Basis:** The entire prediction rests on Ch 1's explicit statement of emptiness and its flat, refusal-based tone. The voice here defines itself by what it will not say.
+
+---
+
+## Prediction after Ch 2  (guess at Ch 3)
+
+# Prediction for Ch 3
+
+## Duration & Pacing
+Medium length, similar to Ch 2. Will dwell on a single physical action or moment—likely something involving the bots, Marge, or the logistics-adjacent space. No extended interior monologue; the chapter will move through time in discrete, grounded intervals.
+
+## Register
+Clipped and spare. Short declaratives dominating. Minimal adverbial coloring. The register will remain flat, though small objects or actions may carry implicit weight through repetition (like "Bramble" in Ch 2).
+
+## Concreteness
+Highly concrete. Will open on or soon reach physical objects—possibly Bot Four specifically, or another artifact connected to the bots. The chapter will likely take place in the room with Marge, Mira, Jasmine, or in the home space where the bots actually are (since Mira left them there). Abstraction avoided; everything anchored to tangible presence.
+
+## Interiority
+Inner state will not be named. No direct feeling-language. What Mira (or another character) cares about will emerge only through what she does, holds, or looks at. The chapter may show confusion or concern through silence or repeated actions, not through thoughts or emotional words.
+
+## Attention
+Will linger on:
+- Physical movement (picking up, turning over, placing, walking)
+- What characters look at or don't look at
+- Gaps or absences (Mira noticed the empty spot where the bots should have been)
+- The towel reference—Bot Four's towel will likely reappear or be sought
+
+Will pass over quickly:
+- Any explicit reassurance or comfort
+- Explanation of the logistics (that work is done)
+- Time-markers or external context
+
+## Silence
+The chapter will be quiet about:
+- Mira's fear or sadness about the merger/change (implied through "Oh" and her stillness)
+- Whether Marge agrees with Lisa's plan or disagrees
+- The future state of Bot Four—only that he "will be part of" something larger
+- Marge's gaze (she "had not been looking up" then "looked up"—why? The chapter will not say)
+
+## Signature
+- Short sentences. Subject-verb economy.
+- Repetition of a key word or name (Ch 2: "bot four," "the bigger body," "Bramble")
+- Action of turning or placing or looking as the unit of meaning
+- Dialogue tagged with speaker name only; no he said/she said
+- Objects held or touched as anchors (Bramble in hand, the towel invoked)
+
+## Confidence & Basis
+**Medium confidence**. The pattern is thin (only two chapters), but the voice is consistent: Mira's unease will surface again through what she does, not what she says; the chapter will be concrete and brief; and a physical element (likely the towel, possibly Bot Four itself) will carry the emotional weight of the section.
+
+## Opening Prediction
+The chapter likely opens with Mira at home, or with someone retrieving or thinking about Bot Four or his towel. Possible first line texture: "Bot four was under the bed" or "Mira held the towel" or "Marge came into the room where the bots were."
+
+## Closing Prediction
+The chapter closes on a stillness or a completed small action—a hand setting something down, a door closing, a moment of attention to Bot Four or his situation. No summary or resolution. The red light off at the end of Ch 2 suggests the camera aspect may drop; Ch 3 will be off-record, more private.
+
+---
+
+## Prediction after Ch 3  (guess at Ch 4)
+
+# Prediction for Ch 4
+
+## Duration
+Medium length, approximately the same scale as Ch 2 and Ch 3 (600-800 words). Will dwell on a moment or exchange at moderate depth rather than sweeping across several scenes.
+
+## Register
+Clipped, spare, factual. The pattern shows increasing restraint: Ch 1 is logistics-heavy and flat; Ch 2 begins to show Mira's interior but still moves briskly; Ch 3 pulls back and resists naming ("I'm not going to say tonight what the build is"). The voice trades color for control. Expect continued flatness with rare punctures of feeling.
+
+## Concreteness
+Object-level. Each chapter privileges physical detail: bramble, towel, drink, coat, cards, camcorder red light. The voice stays in the room, in the hand, in the visible. Prediction: Ch 4 will remain grounded in tactile, spatial specifics.
+
+## Interiority
+Muted and inferred rather than named. Ch 2 shows Mira's worry through action (looking at the table, the empty spot, turning Bramble over) and flat speech. Ch 3 shows Lisa choosing words "over Mira's head" — interiority acknowledged obliquely, through narrative noticing rather than direct admission. Expect Ch 4 to continue this pattern: feeling present in silences, hesitations, and what is not said aloud.
+
+## Attention
+The chapters linger on moments of small disturbance or uncertainty:
+- Ch 2: Mira's question about bot four's continuity, her non-statement about the towel
+- Ch 3: Lisa's deliberate smoothness when keeping the birthday thing hidden, the small red light going out
+
+Prediction: Ch 4 will slow on a similar moment — something withheld, misunderstood, or hovering just below the surface. Will move past logistics quickly.
+
+## Silence
+Both chapters bracket their content: logistics begin and end with the camera turning off. Both show what is *not* said (the build, the birthday thing, Mira's unfinished thought about the towel). Silence is thematic — it marks the boundary between meeting time and the outside, between team knowledge and hidden knowledge.
+
+Prediction: Ch 4 will either contain a withheld revelation or end with a door closing on knowledge. The signature silence will mark a boundary.
+
+## Signature
+- Dialogue-forward structure with minimal narration; names + dialogue tag without adverb
+- Repetition as emotional weight ("All of them," "All of them," "bot four still be bot four")
+- Short, statement sentences in response ("He needs his towel." "Oh.")
+- Nested time frames (today's meeting contains plans for weeks and quarters ahead)
+- The camera on/off as frame device and emotional punctuation
+- Preference for "had been" and "had not been" to mark what is not present
+
+Prediction: Ch 4 will use similar sentence shapes. Expect at least one repeated phrase or name-only response. Expect nested time or a glance forward. The camera may be mentioned or the meeting's end may be marked in some other bracketing way.
+
+## Specific Prediction for Ch 4
+
+**Opening:** A new speaker's name (not Lisa, possibly Marge, Bart, or Burns). Minimal setup. Logistics or a task in progress, though the focus may be different from the team meeting.
+
+**Movement:** The chapter will begin contained (a room, a task) and either stay there or shift to a single adjacent space (the lot, the car, the lab). Will not range widely.
+
+**A withheld or misunderstood thing:** Following the pattern, something will be half-explained, questioned obliquely, or deliberately not named. A character will ask or hint at knowledge they don't have.
+
+**Ending:** The chapter will close on an action or a silence rather than a resolution. Possibly the camera, possibly a door, possibly a turn of phrase that mirrors the opening of the thread but with different weight.
+
+**Length/Pace:** Slightly shorter than Ch 2 and Ch 3, or equal in length but moving faster through less-dense material — fewer pauses, fewer repetitions.
+
+**Tone:** The voice will remain careful and observational. No judgment, no editorializing. The feeling of restraint will deepen.
+
+---
+
+**Confidence:** Medium  
+**Basis:** The pattern holds across two chapters: logistics frames, dialogue-driven interiority, silence as marker, camera/frame device, the refusal to name certain things. These are strong enough to predict shape. The specific content of what is withheld or who speaks is less certain, resting on inference about narrative momentum and the emerging theme of hidden knowledge.
+
+---
+
+## Prediction after Ch 4  (guess at Ch 5)
+
+# PREDICTION: Ch 5
+
+## Duration & Pacing
+Medium-to-long passage. The narrator will sustain attention on a single scene or moment longer than Ch 1-3 (which were meeting-structured), following the shift established in Ch 4. Will dwell on one physical or emotional moment; will not hurry past it.
+
+## Opening
+Begins with a past-tense active verb: someone moving, picking up, looking at, or returning. Likely not scene-setting exposition but continuation of the emotional aftermath of the birthday/build reveal. The speaker (if chapter-titled like Ch 2-4) will be someone positioned near the body, the dome, or Mira.
+
+## Register
+Declarative and flat overall, with at least one moment of lyrical or metaphorical turn. Will maintain the mixture of technical logistics-language ("sprints," "quarterly," "unit") and incidental poetic comparison ("the way a X does Y"). No shift toward emotional directness; the flatness will continue to hold the emotion.
+
+## Concreteness
+High and obsessive. An object will anchor the passage: likely Bramble (the dome), the new body with its legs, the cloth, or a piece of metal/actuator. The camera itself may return as physical detail. Physical gesture—hand movements, looking, stilling—will carry weight that dialogue or thought cannot.
+
+## Interiority
+No named emotion. Inner states shown through: silence, what is withheld, glances that acknowledge something privately, pauses, the gap between what someone might have said and what they actually did. The pattern of Ch 4 (the unsaid "thank you" / "you're welcome" hanging in the air) will repeat in different form.
+
+## Attention
+Lingers on: hands, looking or not-looking, the space between people, small physical choices (turning something, closing something, stepping back). Passes over quickly: exposition, dialogue that serves only plot, explanations. Will notice what a character *doesn't* do.
+
+## Silence
+The passage will include at least one moment where the narrator marks an absence: something unspoken, a response stifled, a hand raised and lowered without acting, a person choosing not to ask or say. This silence will carry as much weight as action.
+
+## Signature
+- Past-tense active verbs for motion and action
+- Repetition for rhythm and weight ("will bot four still be bot four"; likely a similar pattern here)
+- Commas as connectors building lists or texture: "bare metal and open actuators and..."
+- At least one parenthetical remark or aside that clarifies or footnotes an observed detail
+- Verbs of looking, holding, taking back, stilling, withholding
+- Comparison using "the way": "the way X does Y" or "the way you look at..."
+
+## Feeling Tone
+The emotional signature of the narrator will remain observant, intimate, and withheld. The narrator *knows* what the characters feel but does not say it directly. Instead: shows it through chosen action, unchosen silence, the shape of a gesture, the thing that was allowed and the thing that was not.
+
+## Ending
+Unlikely to end with the red light of the camcorder (used three times already; though repetition fits the voice, the narrator may vary here). More likely: a closing gesture, look, or moment of stillness that echoes the held-breath quality of "the way a held breath does nothing." Possibly: someone leaving, someone staying, someone not saying something. The final image will be physical, not abstract, and will leave the emotional state in shadow—felt but not named.
+
+## Confidence
+**MEDIUM-HIGH** — The prediction rests on established patterns: the narrator's obsessive attention to gesture and unsaid things, the refusal to name interiority, the use of physical detail as emotional anchor, and the shift in Ch 4 toward longer, more lyrical passages. The pattern of opening with past-tense verbs and closing with a still image is consistent. The main uncertainty is what object or moment will be the focus and what specific silence will be marked—but the *form* of those silences is predicted.
+
+---
+
+## Prediction after Ch 5  (guess at Ch 6)
+
+# Prediction for Ch 6
+
+## Duration & Pacing
+Medium length, likely 3000-3500 words. Will move unhurried through physical action and setup, then dwell at particular moments — probably a procedure or assembly, then a moment of attention to a child or a small object. Will end with a shutoff, quiet, or transition out.
+
+## Register & Concreteness
+Clear, flat, object-level. No metaphor. Nouns before verbs. Will stay mostly in third person but may slip into Mira's perception or Jasmine's in the way Ch 4 slipped into understanding through action. Diction stays material: things get picked up, set down, fitted, turned. No colored language. The voice declines ornament.
+
+## Interiority
+Inner states will be inferred from gesture and pause, not named. A character will want something and show it by how they hold their body. If a feeling moves across the page it arrives through what someone does next, not through what they think. The narrator will stage these moments but not translate them.
+
+## Attention & Silence
+Will linger on precise physical description — the shape of something Bart made, how a tool fits, the weight of a part. Will pass quickly over logistics and setup talk. Will go quiet at points of recognition (like Mira understanding the shelf at the end of Ch 5). The voice will not narrate what anyone decides or resolves in their heads; it leaves that space blank and lets the body fill it.
+
+## Signature Moves
+- Opens with a character name or "Bart got up" / "Lisa picked up" — immediate action
+- Uses names repeatedly; rhythm of dialogue broken by "she said" / "he said" at line end
+- Moment of pause: "She paused" or a character looking at something before they speak
+- Nested attention: Mira sees X, and then we see what Mira sees, then we see what that means
+- Closes with camera off, or a character moving away, or someone stepping into the next task
+- Carries a single concrete object through a scene (bramble, cloth, knob, shelf) and that object becomes the point
+- Uses "and" to connect action — "He looked and said" "She picked it up and turned it"
+
+## Prediction for Ch 6
+
+**Opening:** Named section header (likely another character's name — Mira, or Bart, or someone not yet centered). Immediate action verb. Someone present, doing something with their hands.
+
+**Body:** Approximately 2500-3000 words. Will likely center on one of:
+1. A scene where the tetrapod does something new (uses the jaw, learns a move, shows a new behavior)
+2. A moment where Mira brings her understanding of the shelf or knob to bear — physically interacting with it
+3. A build or assembly task by Bart, with close attention to how something is fitted or finished
+
+**Key Elements:**
+- Will include Mira's perception and will not explain her; will show how she knows something
+- Will have at least one object handled and looked at closely
+- Will include quiet moments of looking before action resumes
+- Dialogue will be thin and matter-of-fact, with long stretches of watch-and-do
+- Will not name emotions; will show them in what someone reaches for next
+
+**Middle Register:** Stays at the object level. No one reflects on what any of this means. The meaning lives in the shape of the body, the fit of the knob, what the tetrapod does when no one is coaching it.
+
+**Ending:** Camera off, or a pause at threshold before moving to the next task, or a gesture of letting-go. Will not end mid-action; will reach a small completeness — a thing set down, a moment of looking confirmed, an animal moving forward on its own.
+
+**Confidence:** HIGH
+
+**Basis:** This pattern holds across all five chapters. The register never drifts. The voice never names what it could show. Objects carry weight. Mira's understanding arrives before explanation. And every chapter ends in a small punctuation — a camera off, a shelter found, an empty shelf waiting, a child asking for cake. The voice has a rhythm it has not yet broken.
+
+---
+
+## Prediction after Ch 6  (guess at Ch 7)
+
+# Prediction for Ch 7
+
+## Duration
+Medium-length chapter (roughly 800–1100 words). The thread has established a rhythm where meetings consume the bulk of word count, with the ceremony of the shelf as a controlled second beat. The newest chapter should dwell on a meeting's logistics and decisions, then potentially extend into a shelf moment or its aftermath. It will linger on the knob-lifting sequence or a decision about which knob comes next.
+
+## Register
+Clipped, flat, procedural during the meeting portion. Colored and slowed when approaching or executing the shelf moment. The voice maintains technical plainness ("Framework," "slot three") while allowing small emotional refractions through Mira's gestures, Marge's silence, or a parent's withheld speech (as in Ch 4: Burns taking his hand back).
+
+## Concreteness
+Heavily object-level and physical. The tetrapod, the shelf, the knobs, the body, the grooves, and materials (pine, metal, warm from his day) anchor every passage. Abstract concepts arrive only through objects: "Experiencing Style" is named, but the reader encounters it through the knob being lifted, held, set down. The pattern resists floating toward feeling.
+
+## Interiority
+Named sparsely and late. Mira's wants get named through her body first ("turned Bramble over in her hand," came up on her knees), then confirmed in dialogue; Jasmine's wanting is named as fact ("spent her whole telling wanting exactly this and never once asked for it"), not as visible internal experience. Interior states are reported, not rendered. This pattern will likely continue: a character's inner life arrives as a statement about what they've wanted or done, not as lived thought on the page.
+
+## Attention
+Lingers on: the logistics of the build (what gets installed, when, what it costs in slots); the shelter-like moments of Mira's clarity (she understands the swap before the adults explain it; she sees that the knob can be retired); the weight of withheld speech (Bart's lie "Legs aren't hard," Burns' hand taken back, Jasmine's silence at the table). Passes over fast: dialogue that doesn't track toward a knob or a decision; the content of the cake itself; any explanation of how the science works.
+
+## Silence
+The thread does not name what the tetrapod *is* in larger terms—a creature, a child, an experiment. It stays inside the technical frame (slots, knobs, boards, bodies). It does not ask whether the team loves what they're making or struggles with it; love and struggle are left to gesture (the hand taken back, the small definite sound). The pattern predicts the next chapter will continue to withhold psychologizing, diagnosis, and large-scale justification for the work.
+
+## Signature
+Short, declarative sentences dominate the logistics sections: "Slots through the middle, the usual." "No new body — the legs stay; the line won't turn over for a while yet." Noun-heavy phrasing ("the slot," "the board," "the knob," "the shelf") builds a stable, concrete world. 
+
+When emotion arrives, it comes as precise physical detail and a single named fact: "The *thank you* he didn't say and the *you're welcome* his father didn't get to give hung over the bare body between them exactly as long as it took Mira to ask where the cake was." The longest sentences wind around silence and what is not said.
+
+Dialog is clipped and functional, often repeating a key word to confirm understanding—"The bots." "The bots stay here." "A new body." "All of them." This pattern surfaces both Mira's way of learning (confirmation by repetition) and the team's way of speaking (efficient, recursive, verb-light).
+
+---
+
+## Ch 7 Prediction
+
+**Confidence: Medium-High** (rests on strong pattern across five chapters, though the sequence of knobs and shelf ceremonies could introduce new variations)
+
+**Opening**: A meeting in the warehouse, Lisa at the table calling the room forward, likely with "Next quarter" or "Next build" or a similarly forward-moving phrase. No preamble; the meeting is already underway, time stated first.
+
+**Length and dwelling**: ~900–1100 words. The chapter will spend roughly two-thirds on logistics—what Bart built, what Lisa's side will do, which slot opens or closes—and one-third on a shelf moment (a knob lifted and set, or a decision deferred about which knob to retire). The shelf section may be shorter or more complicated than in Ch 5 and 6 if the team faces a constraint (a slot that hasn't cleared, a knob no one wants to lift).
+
+**Texture during logistics**: Clipped, noun-heavy, repeat-confirmation phrasing. One or two longer sentences that fold back on themselves to explain a technical constraint or to note what something *costs*. No interior thoughts. Mira may interrupt with a concrete question; her question will track toward understanding what a knob does or what it costs.
+
+**The shelf moment**: Will likely involve Mira's clarity about what a knob is no longer needed for, or her waiting to set something down. The knob will be warm, or will make a definite sound, or will seat with rightness. The shelf will have one more groove filled. A parent (likely Lisa, possibly Bart) may withhold something—an explanation, a hand, a permission—and in that withholding, a shape of care will be visible.
+
+**Ending**: The chapter will likely close with the shelf full to a new mark, or with Lisa reaching for the marker and naming a new framework item, or with Mira holding a knob and waiting to be told where it goes. It will not explain what any of the knobs do in larger terms. It will not ask whether the tetrapod is learning or suffering or loved. The camera may stay on, or may go dark. The chapter will leave the room—warehouse, lab, moment, intention—exactly as it is: concrete, forward-moving, and full of what is not said.
+
+---
+
+## Prediction after Ch 7  (guess at Ch 8)
+
+# Prediction for Chapter 8
+
+## Opening & Structure
+The chapter will open with Lisa moving the room forward—a signature gesture of transition that has become ritualistic. The logistics will be stated first, as they have been since Ch 2. The opening will be sparse and procedural, holding the emotional weight underneath rather than announcing it. The chapter will likely be the longest yet, with extended dwelling on a single moment or realization.
+
+**Basis:** Chs 5–7 have progressively lengthened, especially around the shelf sections. The pattern suggests accumulation—more grooves filled, more weight settling.
+
+## Duration & Pacing
+This chapter will dwell longer than usual on the space between what is said and what is felt. It will move through logistics quickly, then drop into a slower register for the shelf section. The shelf itself may hold more physical detail than before—how the knob is lifted, how the hand moves, the specific shape of the moment before setting. 
+
+**Basis:** Each shelf section has grown more interior. Ch 4's shelf is functional; Ch 6's adds Marge's silence; Ch 7's stretches into Mira's doubt. The next will likely compress even more attention into one object or gesture.
+
+## Register & Concreteness
+The voice will remain clipped in logistics but will expand into something closer to narrative in the shelf section—not flowery, but more fully rendered. Physical details will accumulate: temperature, weight, the sound of things fitting. The voice will move between abstraction (naming what the knob does, what is being lost or gained) and the concrete (the hand holding it, the groove waiting).
+
+**Basis:** This oscillation between abstract and concrete frames every chapter. Ch 7 reaches hardest into abstraction—"modeling it back," "the deep end," "where we live"—and the shelf section should answer with concreteness.
+
+## Interiority & Attention
+Inner states will remain largely unnamed but will be demonstrated through action and observation. Mira's interiority will show in what she notices about the tetrapod, not in a statement of her own feeling. The chapter will likely include another moment of someone noticing something they didn't expect to notice (as Marge does in Ch 6, as Mira does in Ch 7). 
+
+A feeling may be named, but it will be named obliquely—through Marge's speech, perhaps, or through what Lisa chooses not to say. Burns may circle toward something again and need to be held back.
+
+**Basis:** Chs 6–7 establish that Marge is the keeper of what cannot be said at the table. Her silence in Ch 7 ("Next quarter it learns to act like it knows what's in your head. ... I'll have my hands full.") suggests she is approaching a threshold. Ch 8 may show what happens after that notice is served.
+
+## Silence & What Is Withheld
+The chapter will withhold one key piece of information until the shelf section. It will likely not name which knob comes off or what slot opens, leaving Mira to discover it in the physical act. 
+
+Someone will say something brief that contains more weight than its brevity suggests. There may be a moment where the camera is not turned off at the end—or where turning it off has become part of the ritual in a new way.
+
+**Basis:** Ch 7 breaks pattern slightly with the shelf being set down without the explicit "the rest were waiting" coda. This suggests the ritual is shifting. Ch 8 may show the shape of that shift.
+
+## The Shelf & Its Grooves
+The shelf will continue to be filled. Two grooves are now occupied; the chapter will likely add a third or suggest why a third cannot yet be added. The knob removed will have a specific history or weight that justifies its removal. Mira's act of setting it down will be complicated by something she has learned or begun to understand about what the knob meant.
+
+**Basis:** Ch 7 introduces doubt ("He comes to my door when I'm home. I want to know if he still does when I'm not.") and shifts agency to Mira ("She set it in the third groove herself, not waiting to be told."). Ch 8 will likely extend this theme of agency—what happens when the child acts without prompting, what it costs or reveals.
+
+## Signature Elements
+- Opening with logistics; closing with or around the camera
+- A shelf moment where something is lifted, held, and set down
+- At least one observation from someone who has been quiet (likely Marge)
+- At least one observation from Mira that lands a structural or emotional truth
+- The tetrapod as witness or mirror
+- Brief sentences carrying large weight
+- Restraint from Burns or Lisa in the face of something they could say but don't
+
+**Confidence:** Medium-High. The logistical structure and shelf ritual are deeply stable. The emotional arc of Marge's approach to a limit and Mira's growing agency are clear. What is harder to predict: whether the chapter will itself turn on something the narrator surprises us by noticing about the room, and what exactly the new knob or the camera's role will be. The voice has been consistent enough that major surprise should arrive as a quality of attention, not a break in voice.
+
+## What It Will Likely NOT Do
+- It will not use the word "love" or name affection directly
+- It will not make the tetrapod do something dramatic or new
+- It will not explain the science of the technology
+- It will not have anyone cry or show unmediated emotion
+- It will not break the pattern of quarterly meetings and shelf-setting
+- It will not make Mira seem younger or less observant than she has become
+
+---
+
+**Prediction Summary:**
+Ch 8 will be one of the longest chapters, moving from quick logistics into an extended shelf moment. The knob lifted will carry more personal weight for someone at the table (likely Marge or a fuller acknowledgment of what the shelf means to Burns). Mira will again be the one to set it down, and her observation will turn on something about what the tetrapod's growing autonomy means for her own. The chapter will end with or very near the camera, and will leave one groove still waiting.
+
+---
+
+## Prediction after Ch 8  (guess at Ch 9)
+
+# Prediction for Ch 9
+
+## Duration
+Medium length, likely in the 1000-1500 word range. The pattern across chapters shows variation: logistical chapters (2-3) are shorter; ceremonial chapters (4, 8) are longer; shelf chapters are brief interludes. Ch 9 will likely be a mixed structure—some logistics, some ceremony—so moderately sized, dwelling longest on a physical gesture or object-level detail.
+
+## Register
+Clipped and procedural in the forward-planning section, with flattened affect (matching Lisa's voice). A marked shift into colored, expansive language when describing an object or a body—warmth, texture, the weight of small things. The register will contrast cleanly: facts stated spare, then a single moment dilated with attention.
+
+## Concreteness
+Highly concrete. Knobs, grooves, boards, metal limbs, hands gripping cloth. The voice does not hover above the physical—it lives in it. Expect the chapter to track something being built, held, moved, or set down. Abstractions (emotion, intention, learning) surface only through what bodies do with objects.
+
+## Interiority
+Minimal explicit naming of inner state. What someone feels arrives as breath, silence, a hand taken back, a look over the shoulder. Mira's feeling in prior chapters came through "He needs his towel" and "He won't need this anymore"—concrete observations that carry feeling without saying it. Ch 9 will likely do the same: show the interior through what is noticed, not what is named.
+
+## Attention
+The thread is intensely attentive to:
+- The moment an old thing leaves (knobs lifted off the board)
+- The moment a new thing is revealed (cloth pulled, drop cloth removed)
+- Hands: how they hold, release, move across a table
+- The space between what is warm and what is cold; what is alive and what is waiting
+- Children's speech (literal, precise, asking for the direct thing)
+
+Ch 9 will linger on one of these. Will not rush past a hand motion or the placing of an object. Will pass quickly over logistics, setup, travel—but will slow for the gesture.
+
+## Silence
+The voice is careful about what it refuses to explain:
+- It does not narrate emotion; it leaves it to inference
+- It does not explain the science or purpose of the knobs (only that they come off and go onto the shelf)
+- It does not tell us what Burns feels when he steps back—only that he steps back
+- Characters often trail into silence rather than complete their sentences
+
+Ch 9 will contain a silence—a moment where something could be said and isn't, or where a character stops themselves. This silence will hold weight.
+
+## Signature
+- Syntax: declarative sentences with minimal subordination ("She picked up her bramble. She drank from it"). Frequent repetition of simple subjects and verbs.
+- Diction: Material and kinetic (bare, warm, set, cross, slot, grip). Few adjectives; those that appear are precise (small, cold, flat, bare). 
+- Speech: Characters speak in short, direct sentences. They often echo or confirm what has just been said rather than elaborating.
+- The narrator's stance: third person, focused through one character per section header, with a habit of catching gestures that don't quite complete ("He had a hand on the edge of the cloth, half-raised...and he stopped")
+
+## Prediction
+
+**Ch 9 will open with logistics: the next quarter announced, a build described by Bart, Lisa's slot explained—all in clipped, procedural register.**
+
+**The chapter will then shift to a ceremony around the shelf. A knob will be lifted. It will be warm from the board. It will be held and passed. Mira will receive it. She will turn it in her fingers.**
+
+**The knob will be one that carries a shadow—either the Action knob again, or something more complicated: perhaps the knob Lisa wouldn't name in Ch 6, or a knob that represents something Mira has been fighting about with an adult (as the Action knob did with Jasmine). The setting of it into a groove will be the hinge of the chapter.**
+
+**Mira will make an observation that is literal and layered—something that sounds simple but that the room understands to mean something larger. She will not say the larger thing. No one will make her say it.**
+
+**The chapter will end not with "Framework" but with something lighter—the camera off, or the room breaking, or a child's attention turning elsewhere. The shelf will have three grooves filled now, and the rest still waiting. Bart or Marge may speak a short, barbed line. Burns will be quiet, or will have already left.**
+
+**The emotional spine: a thing being released that was held. Not with fanfare, but with the small definite sound of something fitting where it's meant to.**
+
+---
+
+## Confidence
+**Medium-High** on the general architecture (logistics + ceremony + object-handling + Mira's direct speech + the shelf groove as hinge). **Medium** on which knob, or whether a new ritual displaces the shelf entirely. **High** on register shift and signature patterns (the declarative rhythm, the hand-catching, the silence).
+
+## Basis
+Patterns across all eight chapters:
+- Every chapter with a header follows Lisa's logistics voice, then deepens into ceremony or object-focus
+- The shelf ceremony has appeared four times now (Ch 5, 6, 7), with each iteration adding a knob—the pattern predicts one more
+- Mira's speech is predictably literal and layered; her observations carry weight without elaboration
+- Objects (knobs, cloth, legs, hands) are the language through which feeling moves
+- The chapter-ending ritual (camera off, room breaking) repeats with slight variation
+- Silence and gesture matter more than explanation; a hand taken back speaks louder than words
+
+---
+
+## Prediction after Ch 9  (guess at Ch 10)
+
+# Prediction for Chapter 10
+
+## Estimated Length
+1200–1600 words. The chapters have been trending longer and more reflective since Ch 5, but Ch 9's double-section format may reset the rhythm. This one lands in the middle range.
+
+## Opening
+Opens with a date/time marker or seasonal shift (Ch pattern: "Lisa moved the room forward" → "Next quarter"). Likely locates the group in real time now that the retrospective habit is established. The warehouse setting remains, but the light description may differ (spring, or late afternoon instead of evening).
+
+## Register
+Steady, measured, slightly more reserved than Ch 9. The technical vocabulary remains but sentences may be shorter on average — the voice tightening slightly as the shelf fills and the team faces the consequences of their choices. No lyrical outbreak like Ch 4 or extensive teaching moment like Ch 9. Closer to Ch 2–3 efficiency.
+
+## Concreteness
+Physical and object-level. Continues the knob/shelf language but may introduce a new physical object or state (a completed board, a different kind of gap, Mira at a new size). The humanoid body is likely on-stage again. A cloth may reappear.
+
+## Interiority
+Inner states shown through behavior and silence, not named. One exception possible: a brief observation about what the shelf "means" now that it's filling — likely in narration, not dialogue. Mira's inner state may be ambiguous; what she "wants" is harder to read now that she's been involved in these choices.
+
+## Attention
+Lingers on the moment between the old and new — the gap where the knob was. Passes quickly over logistics. Spends time on Mira's reaction to change. May dwell on a moment where the humanoid does something unexpected or where one of the adults reads something in the other's face.
+
+## Silence
+Marge's speech continues sparse. Burns, if present, may stay quiet through most of it — he spoke extensively in Ch 7 and did his father-moment in Ch 8, so his narrative slot may be resting. Lisa pitches; the others listen. What the next knob *is* may not be fully named until the end or may be withheld to next chapter.
+
+## Signature
+Short declarative sentences. Repetition of "next quarter," "the shelf," the hand-over ritual. The phrase "getting there" or "got there" appears across chapters when understanding dawns. Names of places (Smithers, the warehouse, the lab) are sparse — the room is "the room," the unit is "it." Dialogue skips pleasantries. The marker note at chapter-end may be dropped or moved to mid-chapter.
+
+## Specific Predictions
+
+**How It Opens**: "Lisa moved the room forward" or variant, with Bart pitching first. A build is underway. One slot is empty — the one retired in Ch 9. The humanoid is present and larger or in a new stage.
+
+**What Happens in the Middle**: Discussion of the new knob (likely related to social behavior or internal state, continuing the "other minds" thread from Ch 7). Mira asks a question that reframes something the adults were about to say. The shelf moment arrives, and a knob comes off — possibly the second one on the humanoid, or one from the four-legged unit, which is now older and approaching the end of its time as an active research object.
+
+**What It Ends With**: The shelf ceremony, completed. The light may or may not go off. The emotional note is one of transition — something the team counted on is now self-running (like breathing, like wandering). Mira or Marge observes this. The prose may end on a pause rather than a close — "and then" rather than summary.
+
+## Confidence
+**Medium-High** on structure and register.
+**Medium** on which knob retires and what the new one does.
+**Low** on whether the chapter stays with one POV or shifts (pattern suggests Lisa, but Ch 9 broke from pure Lisa voice into narration).
+
+## Basis
+The pattern established across Ch 2–9: quarterly meeting, logistics, build pitch, personal moment, shelf ceremony with rotation of emotional witness (Marge, Jasmine, Burns, back to mixed). The four-legged unit is aging out of the story; the humanoid is taking more attention. Knobs are retiring faster. Mira is maturing through her relationship to these decisions. Lisa's voice is the steady narrator of mechanism, but the machinery is becoming too complex to pitch in simple terms — so the next chapter should show that strain slightly, or show the team accepting that their explanations are incomplete.
+
+---
+
+## Prediction after Ch 10  (guess at Ch 11)
+
+# Prediction for Next Installment
+
+## Duration
+The next chapter will be **brief to moderate length** — likely in the 400-800 word range. The pattern shows this voice operates in short, episodic blocks separated by white space. It does not sustain single scenarios; it fractures them into movements, each with its own section heading. The previous chapter (Ch 10) compressed a major thematic shift into controlled panels. The next installment will maintain this segmented rhythm.
+
+## Register
+**Flattened, matter-of-fact, with occasional crystalline moments.** The register does not inflate for emotion. It names feelings rarely ("pleased," "warm," "unhappy") and prefers to let them sit in the architecture of the scene. The syntax is clipped in dialogue, spare in description. When something weighs, the voice does not announce the weight; it lets silence and physical detail carry it. The opening will likely be brisk and procedural.
+
+## Concreteness
+**Intensely physical and object-focused.** This voice almost never abstracts. It lingers on what can be touched, seen, placed: the shelf, the knobs, the hands, the cold, the body. Even when describing mechanism or impulse, it grounds it in something you can point at. The next chapter will follow suit — expect specific materials, positions, objects handled or set down.
+
+## Interiority
+**Severely withheld.** This voice almost never names what anyone is thinking or feeling directly. When inner states appear, they come through behavior: a hand held back, a silence kept, a child working something out "in the open." The last chapter notably broke this rule once — "the child's sure account of the thing ran the wrong way" — with editorial commentary. The next installment will likely maintain the usual restraint: show a person's state through action or dialogue, not through saying what the person thinks.
+
+## Attention
+**Lingers on transitions and the moment of relinquishment.** The pattern across all chapters shows this voice spending most time on the instant when something moves from one state to another: knobs lifted from boards, bodies revealed, hands set down. It rushes through explanation and setup. It camps on the gesture of surrender or shift. The next chapter will likely contain a moment of transition — a knob removed, a rule changed, a person stepping back — and that moment will be the chapter's true center, dwelt upon.
+
+## Silence
+**What is not said about consequence.** The voice declines to say what the removal of a knob or ability will *mean* in the long run. It does not speculate on outcomes. It does not lament or celebrate. It notes the fact and moves on. The next installment will likely report a major change (a power removed, a system automated, a choice made) and stop short of assessing what happens next. It will not explain the ripple.
+
+## Signature
+**Short declarative sentences. Minimal adjectives. Repetition as rhythm.** The diction favors nouns and verbs; modifiers are sparse and concrete (warm, cold, small, bare, open, short). Sentences often repeat a structure: "X said Y. X did Z." The voice breaks its own rules sparingly and deliberately — a moment of color or interiority signals something has fractured. Contractions are absent; the register stays formal and even. The next chapter will maintain this sonic flatness. It will likely open with a name and an action, proceed through short exchanges, and close on an image or silence.
+
+---
+
+## Prediction
+
+**Length:** 500-750 words  
+**Confidence:** High  
+**Basis:** The pattern across Ch 2-10 is remarkably consistent; the rhythm and register have not varied.
+
+The next installment will likely:
+
+1. **Open with a scene-setting line:** a name, a time, a location. ("Lisa moved the room forward." "The shelf came back." "The light off...")
+
+2. **Begin a new quarterly report or retrospective,** or begin the aftermath of one. The narrator has established a metronome: meetings, builds, shelf-filling. The next pulse is predictable.
+
+3. **Focus on one knob or system being retired or automated.** The pattern shows each chapter removes agency from one domain and transfers it to the machine. The next chapter will report this same movement.
+
+4. **Include a moment where a hand moves to open/close/set down something,** and the narrator will dwell there. This is the signature gesture.
+
+5. **Avoid naming the emotional consequence.** If someone is losing control or grieving, the chapter will not say so. It will show a silence, a withheld speech, a child's careful observation.
+
+6. **End on an image of diminished human agency or new automation, or a child's understated remark about what has changed.** The last line will likely be flat, observed, without editorializing — perhaps the child noticing something about what the body can now do without being guided.
+
+7. **Possibly include a brief note in narrative voice** (like the editorial moment in Ch 10: "the child's sure account...ran the wrong way") if something in the sequence breaks the expected pattern, but this is rare.
+
+---
+
+## Stylistic Markers to Expect
+
+- Dialogue clipped and minimal  
+- Physical description concrete (temperature, position, material)  
+- No adjectives except function-based (warm, cold, open, empty, full, bare)  
+- Repetition: the same phrase or structure appearing 2-3 times, building rhythm  
+- A section heading, likely a noun or short phrase (e.g., "The Threshold," "Automatic," "Held Back")  
+- The shelf will probably appear again, or a new object will take its place  
+- A child (Mira) or an observer will note a change without interpreting it  
+
+**Register will remain flat. No inflation for significance. The voice trusts the reader to feel the weight.**
+
+---
+
+## Prediction after Ch 11  (guess at Ch 12)
+
+# Ch 12 Prediction
+
+## Duration & Opening
+Expected length: moderate to long, in keeping with recent chapters (Ch 10-11 are the structural template). The thread opens with a forward-facing moment: either Lisa taking the room into the next quarter's pitch, or a scene-setting observation before that move. The opening is likely declarative and spatial, establishing where they are in the calendar—December swap weekend is imminent, the Games are mounting pressure outside the warehouse.
+
+Confidence: **HIGH** — the chapter structure has consolidated into quarterly-marked sections since Ch 5, each turning on the meeting rhythm.
+
+## Register
+Clipped and procedural when handling logistics; increasingly colored and lingering when the hand touches the shelf, when Bramble speaks, when something irreversible happens. The voice is spare with emotion but precise with texture: the sound a knob makes, the weight of a thing warm from use, the way a child sets something down. No ornament, but the cadence of restraint—what is *not* said carries as much as what is.
+
+Confidence: **HIGH** — this is the fingerprint across all 11 chapters.
+
+## Concreteness
+Grounded entirely in objects and bodies: the knob, the board, the shelf, the yellow body now two forms, hands and their joints. The abstraction always arrives through the physical—what a knob does is named through the metaphor of how it feels to live by it (tidy vs. messy, deep vs. meander). The most abstract idea (the question of what it means for a machine to become its own knob) never leaves the room of the warehouse; it stays in the hands of the people turning it.
+
+Confidence: **HIGH** — the entire 11-chapter arc refuses to lift off into theory or explanation.
+
+## Interiority
+Interior states are named sparingly and only when they arrive at the surface: Marge's silence as a kind of speech, Burns' half-raised hand holding a question he will not ask, Jasmine learning to read the body without being told she's learning. Mira's own interior is often given in action—the way she sets a knob down, the questions she asks—rather than reported. The machine's interior is *shown* (the screen, the lettering on the board) but not narrated; it is left to the people watching to interpret.
+
+Confidence: **HIGH** — this is a consistent ethic across the thread.
+
+## Attention
+The voice lingers on: hands (their work, their setting-down, their reading of a thing), the shelf and its filling grooves, the moment when someone decides not to speak, the body-states of the two forms (the four-legged warm one, the two-legged cold-then-warm one), the transition between what must be turned and what turns itself. It passes quickly over: the logistics themselves (dates, quarters, component names used for identification but not for wondering), the outside world (the city's preparation for Games is noise, not focus), past decisions that have already settled.
+
+Confidence: **HIGH** — the pattern of dwelling and skipping is consistent and deliberate.
+
+## Silence
+The voice goes quiet on: explanations of what any of the knobs *mean* philosophically (that work is done by the people interpreting, not the narrator), Bart's feelings about the bench going bare (we get only the fact and the refusal to say the rest), what happens between people after the meetings end, the mechanics of how the board actually works (only its shape and consequence are shown), the nature of the Games and why the timeline matters to the lab. The predicted silence for Ch 12: Burns' interior around what the new knob will do, and whether he is at peace with being the one who no longer drives the direction.
+
+Confidence: **MEDIUM-HIGH** — the thread has consistently withheld Burns' direct voice, though he appears throughout.
+
+## Signature
+Diction: spare, technical where technical, and ordinary elsewhere. "Knob," "board," "slot," "grove," "setting down," "hand," "warm," "bare." Short sentences when something decisive happens. Longer, floating sentences when someone is working something out in speech.
+
+Syntax: the thread favors parataxis (and, and, and) over subordination; coordinate clauses that let events unfold without hierarchy. When the narrator shifts register toward the body's experience or Mira's wondering, the sentence loosens—subordinate clauses arrive, the rhythm slows. The dialogue is sparse and direct; stage directions replace dialogue tags almost entirely.
+
+Signature phrase/rhythm: "the one that" (to name a knob or a role), "the rest of it" or "the rest of the night" (to gesture at what is being left out), "flat" (applied to speech, to satisfaction, to the body's voice), "It seats with the small definite sound a thing makes when it fits where it's meant to" (the template for decisive moments).
+
+Confidence: **HIGH** — these patterns persist across all chapters.
+
+---
+
+## Prediction for Ch 12
+
+**Length:** Long, likely 2000–2500 words. The quarterly meeting will dominate, with at least two sections: a forward-facing pitch section and a shelf-setting ritual. A closing frame is likely (either a camera going dark or a departure).
+
+**Opening:** Establishes December, the swap weekend. Either Lisa moves them to the next quarter, or a brief scene-setting moment (e.g., arrival, setup, the two bodies in their current state). The opening is direct and temporal.
+
+**Midpoint:** The fourth and final knob—the one Bart pitched in Ch 11—goes into the empty slot. This knob is the last *settable* one; after tonight, the board is "full." The pitch for what this knob does is Bart's or Jasmine's, not Lisa's (breaking a pattern to mark finality). The pitch names something the body can now do that it couldn't before, or something the lab can now stop doing.
+
+**The Shelf Ceremony:** Mira lifts the last knob—likely something from an earlier quarter, stored on the shelf, now being spoken about as the thing that will move to the board. *Or*, if the pattern inverts, a knob comes *off* the board for the last time and goes to the shelf, leaving one symbolic slot empty and honoring that the board's transformation is complete.
+
+**Interiority/Feeling:** No feeling is *named*, but Mira's language shifts—she may move away from the recitative she's used before ("he doesn't need this anymore") toward something more uncertain or more final. Marge's silence may be broken by a single line that holds weight. Burns may not speak at all, or may speak only to Bart.
+
+**Ending:** The camera goes dark. Or: the room clears, and the narrative voice marks the moment—the shelf full or nearly full, the board settled, the warm body and cold body in their final configuration before the Games. Or: the voice shifts to mark that the line of work in the warehouse has reached something that was building toward this, and now something else begins.
+
+**Confidence on overall shape: MEDIUM-HIGH.** The pattern is clear through Ch 11, but the exact configuration of what stays and what goes is hard to predict—the thread has been building toward this conclusion but has not yet revealed what the final state looks like.
+
+**Confidence on register/voice: HIGH.** Whoever speaks will speak in the established pattern: spare, direct, physical. The silence will be shaped and purposeful.
+
+---
+
+## Prediction after Ch 12  (guess at a hypothetical Ch 13)
+
+# Ch 13 Prediction
+
+## Duration
+Medium length, roughly 1500-2000 words. Will likely equal or slightly exceed the recent retrospectives in word count. The pattern shows longer chapters on retrospective cycles (Ch 5, 7, 9, 11 all exceed 1300 words), and the January retrospective fits that cycle.
+
+## Register
+Deliberately neutral-to-flat. This voice flattens affect consistently: "Okay," it said" (Ch 11), "He turned the sensor over and set it down" (Ch 10), "The shelf came back to the table" (Ch 11). No lush description. Clinical movement from fact to fact. When emotion arrives, it comes through withholding or silence, not through language coloring. Will maintain this restraint.
+
+## Concreteness
+High concreteness. The voice stays at object-level: hands, tables, knobs, shelves, lights, the body itself. Never abstracts away from the physical. When it must name something large (like "other minds" in Ch 7), it tethers it immediately to hands, heat, grooves, wood. Prediction: Ch 13 will open or dwell on something tactile—a hand, a surface, an object moved or examined. Not "they felt resolved" but what that resolution looks like placed on a table.
+
+## Interiority
+Interior state is rarely named; instead it surfaces through action and what is *not* said. Ch 6 is exemplary: "Jasmine, who'd spent her whole telling wanting exactly this and never once asked for it at the table, watched it come up off the board and said nothing, and didn't need to." The voice shows wanting through silence. Ch 11 shows Bart's unspoken question: "the bench bare all weekend, the bottom of the work showing through for the first time, and under all of it a question a Reactor has no words for and wasn't going to find tonight." Prediction: Ch 13 will show someone's state of mind through what they don't say, what they do with their hands, what the body (Bramble) does or doesn't do. Will not name relief or closure directly.
+
+## Attention
+The voice lingers on: small ceremonies (knobs moving to shelf, candles lit); the distinction between what the body displays and what it means; the gap between what a character wants and what they let themselves say; the child's quiet understanding (Mira sees things ahead of the adults). It passes over fast: explanations of technical function (given in clipped sentences), emotional resolution, reflective commentary. Prediction: will linger on the final placement of the last knob, the state of the board, what Mira says or does. Will move quickly past the retrospective logistics.
+
+## Silence
+The voice is precise about what it declines to say. Ch 11: "He did not say the rest, the part the build log had said in his own hand and left undecoded." Ch 9: "She did not know she'd said it." The narrator is conscious of its own omissions. The thread often marks a truth that *isn't* spoken—like the machine still showing emotion on its screen even though the room has stopped reading it (Ch 10). Prediction: Ch 13 will contain something the characters do not say, probably about the finished state of the board, the end of the work, or what happens after the last knob goes in. The narrator will mark this silence.
+
+## Signature
+- Short declaratives: "He turned it over once." "She paused." "That was the fact of it."
+- Repeated minimal structures: "The shelf came back to the table" (Ch 6, 7, 11); "Lisa turned the night to the last block" (Ch 11); "The red light went out" (Ch 3, 4, 11); structure mirrors ritual.
+- Withholding qualifiers: when emotion arrives, it arrives without announcement—"the warm half-synthetic child-voice" (Ch 11), not "the voice sounded warm."
+- Specific sensory anchors: warmth, the sound of things seating, light on/off, the shape of the body, grooves, knobs.
+- The phrase "and said nothing" or variants (said quietly, said short, said plainly) recurs as a marker of emotional weight.
+- Dialogue in this voice is sparse, short, often interrupted: "What do you mean, sweetheart." "Will bot four still be bot four." These are statements, not questions, even when marked as questions.
+- A particular use of "and" to extend time: "and the rest were waiting" (Ch 5, 11); "and the shelf had started" (Ch 5); "and that was the whole ceremony" (Ch 9); elongates moments.
+- Syntax often inverts to delay the verb: "The shelf came back to the table" rather than "They brought the shelf back to the table"—erases agency, emphasizes the thing.
+
+## Predicted Opening
+Ch 13 will likely open with a section break and a title (the pattern: Ch 6, 7, 9, 10, 11 all use titles). Will probably be named after the final knob, or after something about completion, finality, or aftermath. Tone at opening: neither celebratory nor elegiac. Matter-of-fact. Will open with a motion or a setup: "Lisa moved them forward" or "Bart came to the table" or "The last knob lay ready." Not an abstract statement about what's happening.
+
+## Predicted Structure
+Likely follows the retrospective pattern: 
+1. A build pitch from Bart (brief, because "nothing" is the default now)
+2. Lisa's knob introduction (the final symbolic knob)
+3. A retirements section or the shelf ceremony for the last knob coming off
+4. A closing gesture or moment that marks the board as finished
+5. Possibly a coda about what comes next (Games mentioned in Ch 11's close)
+
+The shelter of repeating structure will hold whatever weight the last knob carries.
+
+## Predicted Content
+The last knob—the one slotting into slot one (the only remaining open slot per Ch 11's close)—is likely the final "symbolic" knob. Bart said in Ch 12 that "the last knob Bart pitched goes in it" and "After that the board's full." This is the knob that completes the Evo-Algo. It may be the knob about honesty, truth-telling, integrity—something that caps the whole arc. The voice may hold some tension here: this is the knob that makes the machine finished. The shelf will get fuller. Mira will place it. Someone (Burns?) may say something sparse about what it means that the work is done.
+
+## Predicted End
+The chapter will close cleanly, without resolution. The red light may go out. The meeting may break. Or it may end on the ritual moment—Mira's hand on the knob, the new groove filled. The voice will not explain what comes after. It will not say "the work was complete" or "they had succeeded." It will show the fact of the empty board, the full shelf, the child stepping back, and leave the rest to what happens next.
+
+## Confidence: MEDIUM-HIGH
+The basis: the thread has maintained its formal and stylistic patterns across 12 chapters with remarkable consistency. The retrospective cycle is clear. The voice's habits are entrenched (the shelf ceremony, the knob removal, Mira's witnessing, the refusal to name large feelings). What is uncertain is the exact title, the specific name of the final knob, and whether there will be a coda about the Games or the spring that awaits. But the shape and register are predictable from the pattern.
+
+---

@@ -1,0 +1,546 @@
+# Predictions — Category 1C
+
+**1C — Calls + sign-off.** The "Calls." list, the "tear this up in three months — I'm not" dare, and the mutated surname. Bart-only persona devices.
+
+---
+
+*Blind-reader predictions only (book chapter text removed), sequenced by chapter. Each was written after reading the category thread through Ch k, as a guess at Ch k+1.*
+
+## Prediction after Ch 1  (guess at Ch 2)
+
+# Prediction for Ch 2
+
+**Duration:** Medium length, likely similar to Ch 1. The voice dwells briefly on concrete specifics (what the units do, how they move) but passes quickly over broader questions. Expect the same ratio of terse declaration to parenthetical aside.
+
+**Register:** Clipped and spare, with occasional color. The baseline is flat and functional ("I build the units"), but small bursts of opinion break through ("moves the prettiest"). No elaboration on feelings; opinions arrive as fact.
+
+**Concreteness:** Remains object-level and tactile. This voice thinks in what things *do* — movement, placement, wear — not in abstractions. Expect physical detail: how something fails, breaks, wears, sits.
+
+**Interiority:** Stays behind behavior and outcome. Inner states are not named. What gets named instead: what was built, what works, what will happen. The voice is oriented outward and downward (toward the thing made), not inward.
+
+**Attention:** Lingers on function and consequence. Passes fast over sentiment, motive, or self-reflection. The aside about the kid is brisk — the point is not how the kid feels but which unit wins according to physical law (motion, mess tolerance).
+
+**Silence:** Will not explain *why* the speaker built this way, or what it cost. Will not return to Marge or the house's use of the units. That territory is cordoned off ("not my department"). Expect the same kind of boundary in Ch 2.
+
+**Signature:**
+- Diction: utilitarian ("build," "units," "department," "tear"), with rare color words ("prettiest").
+- Syntax: Short declaratives. Parenthetical asides in em-dashes that correct or qualify. Statements of fact followed by refusal ("that's not my department").
+- Sign-off: The name, alone.
+
+---
+
+**PREDICTION FOR CH 2:**
+
+Opens with a concrete task or object — likely something built, broken, or measured. Runs 150–250 words. Contains one piece of physical specificity that the voice trusts to speak for itself (a dimension, a failure mode, a material). Will not name frustration or pride, but both will be audible in what gets chosen for the telling. Likely ends with a boundary, a refusal, or a flat claim about what belongs to whom — the same shape as "not my department." Signature close: Bartholomew, alone.
+
+**Confidence: HIGH**
+**Basis:** The voice is consistent and narrow. It has a clear perimeter: it speaks to what it built and what will happen to it; it does not venture into motive, emotion, or other people's domains. The register and syntax are already locked. Ch 2 should obey the same grammar.
+
+---
+
+## Prediction after Ch 2  (guess at Ch 3)
+
+# Prediction for Ch 3
+
+## Duration
+Very brief — two short paragraphs matching the established length. Likely to dwell slightly longer on one technical observation than the previous chapters, but no expansion into extended reflection.
+
+## Register
+Clipped, imperative, mechanical. Continues the flat delivery. No softening or digression. Each sentence carries technical weight without ornamentation.
+
+## Concreteness
+Highly physical and object-level. Will focus on what the unit does or how it behaves under specific conditions — no abstraction, no conceptual language. Action and material specification dominate.
+
+## Interiority
+None named. Inner state remains absent. The voice is all exteriors — what moves, what responds, what happens. Confidence in prediction sits in tone only, not emotion.
+
+## Attention
+Lingers briefly on a single behavioral property or mechanical detail. Passes over quickly: context, audience, justification. Will not explain why this matters, only what it does.
+
+## Silence
+The section header will announce what was changed or upgraded. The voice will not second-guess the choice, defend it to Marge, or wonder if the kid will like it. No retrospection on Ch 1's success or failure. No warmth toward the recipients.
+
+## Signature
+Two parallel structures: "Calls." opening followed by a one-sentence observation about function. Then a second paragraph: "Tear this up in three months if..." conditional statement asserting the unit's performance. Closes with signature — likely a slight variation on "Bartholomewood" or similar drift.
+
+Sentence fragments dominate. Verbs are sparse and direct: seeks, hunts, picks, moves, runs. Diction is industrial — gradient, upgrade, unit, knob. No plurals of emotion or reflection. Numbers and ordinals appear casually.
+
+## Prediction Detail
+Opens with a new header section announcing another unit number or knob iteration. "Calls." Single sentence about what changed and what it now does — either faster, more refined, or in a new direction. A technical comparison to the prior unit or a statement of what it now accomplishes. A sentence or two of evidence or capability. Then the "Tear this up in three months" conditional, phrased with absolute confidence. Closes with signature — Bartholomewood or another name variant continuing the minor shift pattern.
+
+The voice hardens slightly with each chapter; the next will dial up certainty without explaining it.
+
+**Confidence: High** — The structure is bone-rigid across both chapters. The register, length, opening, closing, and silence patterns are consistent enough to predict specific phrasing.
+
+**Basis: Repetition** — The form is a template. Ch 1 and Ch 2 follow identical scaffolding. Ch 3 will not break that scaffold.
+
+---
+
+## Prediction after Ch 3  (guess at Ch 4)
+
+# Prediction for Chapter 4
+
+## Length & Duration
+Expect a medium-length entry, roughly comparable to Ch 3—between 150 and 200 words. The speaker dwells on a single technical detail or upgrade, then pivots to a wager or assertion about how it will perform in the house. Will not linger beyond that frame.
+
+## Register & Tone
+Clipped, declarative, matter-of-fact. Stays in the concrete world of hardware and function. No editorializing. Language tightens around practical claims: what a thing *does*, not what it *means*. Confidence signals are embedded in the syntax—short sentences that anchor predictions, not hedge them.
+
+## Opening
+Opens with "Calls" (this is now established as signature tick). Likely followed by a description of a new unit or revised hardware feature—possibly the final iterations before deployment, or a problem solved from previous builds. Will name it plainly.
+
+## Concreteness
+Stays at object-level throughout. Describes physical behavior (movement, trajectory, docking, seeking) and observable outcomes. No appeal to feeling, aesthetics, or interpretation—only what can be measured or watched.
+
+## Interiority
+Zero inner state. The speaker's certainty is carried entirely through assertion and structural syntax (the "Tear this up" framework), not through introspection or doubt. Confidence appears as flat statement, not as earned reflection.
+
+## Attention & Silence
+Lingers on: function under specific house conditions, the gap between design intention and actual use-case, the speaker's own predictive accuracy.
+Passes over fast: why the speaker cares, what success means beyond the object working as designed.
+Goes quiet on: any acknowledgment of Marge's role since Ch 1; what the house-dwellers actually want; failure scenarios.
+
+## Signature Moves
+- The "Calls" opener
+- Defiant bet phrased as future permission to be proven wrong
+- Parenthetical asides with attitude (gesundheit, animal)
+- Name variations at the signature line (Bartholomew → Bartholomood → Bartholachew)
+- Third-person references to other team members (Lisa) without elaboration
+- Mixture of technical (knob, gradient, dock) and colloquial (coin flip, fancy name)
+- Filed metadata (Ch 3 adds date and addressee)
+
+## Prediction: Structure & Content
+The chapter will likely introduce one more hardware element or system behavior—possibly related to the Explore knob's unpredictability, or a new feature that solves a prior gap. The speaker will assert its performance with the same certainty. The "Tear this up" wager will reappear, possibly with a variation on the timeframe or condition. The name at the close will undergo another sound-play mutation. If metadata has been added (as in Ch 3), it will remain but may shift slightly in formatting.
+
+## Confidence & Basis
+**Medium-high confidence.**
+
+Rests on three stable patterns:
+1. The "Calls → technical detail → wager → signature" structure repeats identically across all three chapters
+2. The speaker's voice is consistent enough to forecast (clipped, assertive, focused on physical fact)
+3. The name-play and metadata are now established tics, not one-offs
+
+Vulnerability: What the new hardware feature will *be* is impossible to predict from pattern alone. The chapter could surprise by shifting away from Explore entirely, introducing a new character's voice, or changing the tone. But the *form* and *tempo* should hold.
+
+---
+
+## Prediction after Ch 4  (guess at Ch 5)
+
+# Ch 5 Prediction
+
+**Duration:** Medium length, roughly 200–350 words. Maintains the pattern of dwelling longest on the mechanism itself (the technical detail), then the behavioral prediction, then the signature sign-off. No expansion into interiority or reflection; stays at the surface.
+
+**Register:** Clipped, utilitarian. Short declarative sentences with minimal connective tissue. A single parenthetical aside (following the model of Ch 3's "gesundheit" and Ch 2's single-line technical assertion). Flat affect throughout.
+
+**Concreteness:** Highly specific to object-level action: what the mechanism *does*, what the household member will *do* with it, where the body or device ends up in space. No abstraction except for the necessary naming of the knob or feature being deployed. Direct focus on measurable outcomes (dies/doesn't die, moves/doesn't move, hunts/doesn't hunt).
+
+**Interiority:** Absent. No named feeling, hesitation, or inner conflict — only observable behavioral prediction. The "hang" and "beat" in Ch 4 are the closest the voice gets to inner state, but even those are framed as visible from a chair, not as what's happening inside.
+
+**Attention:** Lingers on the precise mechanism, then on the predicted outcome (what the child or creature will do). Moves quickly over everything else: assembly steps, context, Marge or Lisa's role is noted only in passing. Ignores failure modes or edge cases; confident prediction is the throughline.
+
+**Silence:** No named frustration, doubt, or revision. No acknowledgment of how long the job took or will take. No comment on whether the household members appreciate the work. No reflection on the build itself beyond the mechanical claim.
+
+**Signature:** 
+- Name-mangling sign-off with a brief interjection (Bartholomew → Bartholazoa; "gesundheit")
+- Identical structural opening: "Calls. [Technical claim]."
+- Identical closing gambit: "Tear this up in three months if [negation]. [Affirmation]."
+- Diction: "dump, drink, off again"; "park at the dock"; "run low"; "hang there a beat"—muscular, active verbs; specificity in motion
+- No punctuation flourish; declarative confidence dominates
+
+**Prediction for Ch 5:**
+
+The chapter will open with "Calls" and introduce a new knob or feature (the fifth mechanism, or a refinement to a prior one). It will run 200–300 words, state a specific behavioral prediction tied to the device's function, and close with a three-month wager framed as a negative ("Tear this up if [failure mode]. [I won't be wrong]"). The character will note whom the feature is meant to serve (likely Marge or Lisa) in a single subordinate clause, but will not dwell on their feelings or preferences. A signature mangled name, possibly with a parenthetical sound or word, will close the entry. The tone will remain flat and self-assured, the language concrete and forward-moving. No apology, no doubt, no reflection on the past four entries.
+
+**Confidence:** High. The structural and stylistic patterns are consistent across all four chapters; the voice has shown no deviation from its formula, and no sign of introducing interiority, judgment, or digression.
+
+**Basis:** Repetition of identical structural moves (Calls → mechanism → wager → name-sign), consistency in register and diction, and the absence of any chapter that deviates from this template. The character's confidence and refusal to explain or justify suggests the pattern will hold.
+
+---
+
+## Prediction after Ch 5  (guess at Ch 6)
+
+# Prediction for Ch 6
+
+## Length & Duration
+Medium-length, consistent with Ch 3-5 (the longer build logs). Will dwell on a specific technical achievement or limitation — likely shorter than Ch 5's multi-function summary, more focused than Ch 4's tension around dual impulses.
+
+## Register & Tone
+Clipped, direct, factual — the signature remains tight. The voice stays flat and confident, leaning into tested prediction ("Tear this up in three months if..."). Will use technical jargon (knob names, behaviors, systems) without explanation, as established. The numbered version name (Bartholazoa, Bartholoped pattern) suggests continued linguistic play on "Bartholomew" — expect another variation.
+
+## Concreteness
+Object-level and physical: specific observable behaviors (movement patterns, docking, pointing, climbing stairs in previous chapters). Will describe what the device *does* in concrete terms, likely involving: spatial movement, location-finding, or interaction with a boundary/threshold. Abstract concepts (want, explore, memory) appear only when tied to mechanisms Bart has built.
+
+## Interiority
+Almost entirely absent. Bart names outcomes, not feelings. When he notes he'll "quit pretending I see those coming" (Ch 5), it's about his competence boundary, not inner state. Ch 6 will likely continue this: external accountability ("Tear this up if...") rather than reflection. No named doubt or satisfaction, only the confident assertion of what will happen.
+
+## Attention
+Lingers on: what the builder controls vs. what escapes his purview (a recurring fracture in the voice). Each chapter marks where Bart's responsibility ends and Marge's or Lisa's begins. Ch 6 will likely identify a new functional threshold or delegation point — what this unit does that he's sure of, what lands on someone else's board.
+
+Will pass quickly over: why these features matter, user experience, the human context beyond behavioral prediction, aesthetics (he dismisses the kid's visual preference in Ch 1 without elaboration).
+
+## Silence & Declines
+The narrator does not explain the larger system: what these units are for, who Marge and Lisa are, what the house does with them. He does not justify his bets or show doubt. He does not describe failure modes beyond the implicit "dies on the floor" or "can't follow." The name changes (Bartholomew → Bartholazoa) are presented without comment — treated as self-evident humor.
+
+Ch 6 will maintain this silence: no apology, no explanation of the naming game, no backstory for why he's writing build logs, no reflection on iterations or past mistakes.
+
+## Signature Moves
+- Opens with "Calls." (present in all chapters; likely structural anchor)
+- Stakes the claim immediately: what *will* happen (not what might)
+- Uses technical names without introduction (knob names, unit numbers establish prior context reader never sees)
+- Closes with "Tear this up in three months if..." — a boastful challenge that functions as a confidence marker
+- Signs off with a punning name variation
+- Short sentences. Declarative mood dominates. Subordinate clauses are sparse.
+- The bet/wager language ("I'll bet," "wager") frames certainty as prediction, not proof.
+
+## Expected Ch 6 Shape
+**Opening:** "Calls." [Technical system description or new knob/behavior]
+
+**Body:** Specific observable behavior Bart has engineered. Will likely involve movement through space, obstacle negotiation, or decision-making under constraint (given progression: knobs → unit movement → stair-climbing → new threshold). Probably 4-6 sentences of concrete prediction.
+
+**Closure:** The delegation point — what lands on Marge or Lisa's board; what Bart doesn't control.
+
+**Stake:** "Tear this up in three months if [specific failure mode]. [Confident negation]."
+
+**Sign-off:** Punning name variation on Bartholomew (e.g., Bartholingual, Bartholomass, Bartholambda) followed by "(something)" or brief punctuation.
+
+## Likely Content Axis
+Given the progression (units as objects → steering knob → mobility → stair navigation → behavioral thresholds), Ch 6 will probably address either:
+- A new physical boundary (a door, an outside, a higher/lower space) the unit navigates
+- A conflict-resolution mechanism under competing pressures (building on Ch 4's tension theme)
+- A sensing or responsiveness feature (building on Explore knob from Ch 3)
+
+## Confidence: HIGH
+The voice and structure are extremely consistent across all five chapters. The boastful tone, the technical specificity bounded by acknowledged gaps in oversight, the punning signatures, and the closing stake pattern are all firmly established. Length and register match closely across Ch 3-5 (the more mature build logs). The only genuine uncertainty is which feature or behavior gets the focus, not how it will be presented.
+
+---
+
+## Prediction after Ch 6  (guess at Ch 7)
+
+# Prediction for Chapter 7
+
+## Duration
+The installment will be approximately 250-350 words. The pattern holds steady across chapters — medium-length logs with two substantive paragraphs before the signature. Ch 5 and 6 push slightly longer as the scope widens (stairs, new chores); Ch 7 should settle back toward the median.
+
+## Register
+Clipped and procedural throughout, with a slight texturing of confidence — short assertive sentences, tech jargon (knob, gauge, dock, ground) delivered flatly. The voice will not soften. No sentiment. Calls are stated as fact. Predictions are made without hedging, though the "Tear this up" ritual now carries its own rhythm, almost incantatory.
+
+## Concreteness
+Object-level and physical. The thread has never ventured into abstraction except to wave it away ("Lisa can keep her abstraction"). Expect named parts, movements, outcomes you can watch. The next log will anchor itself to something testable — a behavior, a measurement, a result visible across a room.
+
+## Interiority
+None on the voice's own account. Inner state is attributed only to the units themselves (Bramble's wants, the unit's hesitation between feed and explore). Bartholomew does not reflect. He observes, predicts, moves on. What he believes comes through stance, not confession.
+
+## Attention
+The voice lingers on the precise boundary between hardware and software — what belongs to Bart's hands, what belongs to Lisa's board. This becomes the invisible spine of each entry. It dwells on the units' capacities (can it do X, can the house read it). It passes rapidly over why anything matters or whom it serves. The house and Marge get one sentence. The actual child gets mentioned once, glancingly, as a four-year-old with preferences.
+
+## Silence
+The voice will not name consequences. It does not say the units help, matter, succeed. It does not say whether Lisa's board is winning or losing. It does not explain the house's purpose. It will not wonder whether Bramble (the unit) is a likeness or stand-in for something outside these logs. The signings are cryptic variations — a private joke or a compulsion — and no explanation will come.
+
+## Signature
+Diction: "Calls," "Tear this up," "my money's on," "that's not my department," "off again," "coin flip with a fancy name," "on her board this quarter and not my bench," "grade me soft," "pinning it." Clipped possessives and pronouns (he, she, it). Active voice. Direct address ("Watch for it," "You'll tell"). The serial name-mutations (Bartholomew → Bartholazoa → Bartholantern) signal a playful hand beneath the report-speak — the author of these logs has not hardened into pure function.
+
+Syntax: Short declarations followed by longer explanatory pushes. "Calls" begins nearly every entry as an interjection, a reset. Parenthetical asides (gesundheit, grade me soft). The "Tear this up" couplet acts as a seal. No question marks. Assertions all the way down.
+
+## Prediction for Ch 7
+
+**Length**: 280–320 words. Medium register. Opens with "Calls" — now a mandatory ritual.
+
+**Content shape**: The voice will mark a shift. Chapters 5–6 moved Bramble off the dock and onto the stairs, expanded his ground, let him choose. Ch 7 should consolidate or introduce a new kind of choice — possibly the boundary between automatic and learned, or between Bramble's wants and household need. A third layer, maybe. The unit will do something that couldn't happen in earlier chapters.
+
+**What it names**: A new behavior or a new reading of an existing one. A measurement (volume, distance, time). A person's action or refusal (what Marge does, what Lisa sees). The Explore or Coping knobs may reappear with a verdict on whether they're readable after all.
+
+**What it withholds**: Purpose. Consequence. The child's name. Any statement about whether this is working. The next boundary between Bart's bench and someone else's board.
+
+**How it ends**: With "Tear this up in three months if [specific, testable claim]." Then a signature name-play: likely Bartho- + a new suffix. Short and deadpan.
+
+**Confidence**: High. The pattern is stable. The voice does not drift. What varies is only the specificity of the call and the threshold of what Bart will stake his name on — and both of those show a trajectory: he's willing to pin more to Lisa's board as his own domain shrinks. Ch 7 will continue that arc.
+
+**Basis**: The serial structure (hardware log, date, call, prediction, signature) has held for six chapters without variation. The content scope widens by one new capability per chapter (hopping → gradient → ground → stairs → chores/knobs). The boundary between Bart and Lisa is the hinge. Ch 7 should name something that tests or crosses that boundary, and the voice will remain utterly steady while doing so.
+
+---
+
+## Prediction after Ch 7  (guess at Ch 8)
+
+# Ch 8 Prediction
+
+## Duration & Structure
+High confidence this chapter will be the longest yet, or at least as long as Ch 7. The voice dwells longer as systems compound. It will likely contain 4-6 numbered observations, maintaining the pattern of expansion.
+
+## Opening & Signature
+Will open with "Calls" (invariant). Will follow with a name variant—expect an animal sound or zoological reference added to Bartholomew (Bartholozoo, Bartholostork, Bartholomoose). The dated filing note is now standard (Chapters 5-7 all include it), so expect "Bart, hardware. Filed [month] [year], for the team." or similar frame.
+
+## Content & Attention
+The voice will document one or more new hardware features or knob adjustments. Given the trajectory—from mobility to behavioral complexity—expect something that combines multiple prior systems (the Action knob, the Furnace, the Attention knob) into a unified operation. Or it describes unexpected emergent behavior from existing combinations. Attention will linger on a single striking behavioral observation: something Bramble does that wasn't explicitly commanded but follows from what was built.
+
+## Concreteness & Observation
+Stays entirely grounded in observable actions—no interpretation. Physical details. What he sees across the room, what the house does with the creature, specific locations or objects. No emotional commentary. The voice marks behavioral changes as readable-by-eye (pattern established in Ch 6-7: "you'll know across a room").
+
+## Interiority & Silence
+Maintains zero internal state description. Does not name what Bramble feels, wants, or understands. Silence on why he cares about these predictions—purely functional frame. Will not acknowledge any uncanny quality or slippage toward autonomy, even if the behaviors begin to suggest it. Will not discuss Mira's relationship to the creature beyond observable interaction. Will not speculate on the long term.
+
+## Register & Confidence Boundary
+Short, flat assertions. "Tear this up in three months if [mechanical claim]. [Affirmation]." Will express high confidence on his own hardware builds; will either explicitly defer to "Lisa's board" or silently skip prediction on behavioral/social outcomes he doesn't control. Possible pivot: he may begin to express frustration or defensiveness about the boundary between what he can engineer and what he can't, without naming that frustration directly.
+
+## Likely Specific Detail
+One moment where he catches the creature doing something that wasn't programmed—solving a problem or exhibiting apparent preference—and he reports it flatly without resolving whether it's real learning or mechanical happenstance. This mirrors Ch 7's quiet acknowledgment that he can't model the kid's behavior.
+
+## Confidence & Basis
+**Medium-to-high confidence.** The structure is locked in by Ch 6-7: dated entry, "Calls," enumerated observations, mechanical confidence + behavioral uncertainty, closing assertion. Length will extend further. One new feature likely, one striking behavioral observation likely. The voice has narrowed its register and deepened its technical specificity; Ch 8 should continue compounding rather than break frame. The main uncertainty is whether he adds a new knob or pivots entirely to reflection on emergent properties—both fit the pattern equally well.
+
+---
+
+## Prediction after Ch 8  (guess at Ch 9)
+
+# Prediction for Ch 9
+
+## Duration & Register
+Medium length, matching Ch 7 and 8 in word count. Clipped, technical register held throughout — no shift toward expansiveness. The voice stays inside its own constraints.
+
+## Opening
+Will open with "Calls." — the signature opener across all eight chapters. A new seasonal or status marker in parentheses (following Ch 5 pattern) — likely "Filed [month], 2033" or similar, indicating forward time.
+
+## Concreteness
+Stays rooted in observable, measurable outcomes tied to specific locations or objects. No abstraction. Will reference the kid, the house, shared spaces, or physical phenomena (temperature, movement, light). Avoids naming internal states of the device itself.
+
+## Interiority
+Inner states remain unexamined. The voice describes what the device does, never what it feels or "knows" beyond mechanical prediction. When the device's limitations are named (Ch 8: "it can't say a word to her"), they're framed as built constraints, not as lack or incompleteness.
+
+## Attention
+Lingers on behavioral change or threshold effects — moments where volume settings produce visible splits (as Chs 6, 7, 8 establish). Passes quickly over anything that has already been proven. Will likely dwell on one new capability and mention one new limit the device still cannot bridge.
+
+## Signature Patterns
+- Begins with "Calls" and a nested observation about what the device will or won't do
+- Numbered lists (1-5 elements typical) describing outcomes
+- Repeated structure: "X volume up / volume down" paired with kid behavior or device response
+- Closes with a single-sentence wager ("Tear this up in three months if...") stating the prediction as fait accompli
+- Signature line with a playful mangled surname variant (Bartholomeow, Bartholabu, etc.)
+
+## What It Will Likely Do
+Will introduce a new knob, setting, or measured capability tied to a domain not yet fully explored (possibly temporal — memory over days or weeks, not minutes; or possibly the gap between the device reading the kid and responding). Will show at least one new volume dial with contrasting behaviors. Will likely return to the "still can't do" frame from Ch 8, extending the list of what remains beyond the build's reach.
+
+## What It Will Likely *Not* Do
+Will not name doubt, uncertainty, or regret. Will not explain the purpose of the house or the larger project. Will not shift toward Marge's perspective or anyone else's voice. Will not pause for justification.
+
+## Confidence & Basis
+**HIGH** — The pattern across chapters 5–8 is rigid and recursive: new capability (numbered, split by volume), one proven limit, wager, signature. The voice has established its bounds and stays within them. The structure is so consistent that deviation would itself be notable.
+
+The basis: Every chapter from 5 onward follows: [Calls.] → [seasonal marker if applicable] → [numbered outcomes, volume contrasts, kid or shared-space behavior] → [explicit limit or "still can't"] → [wager] → [signed variant]. Ch 9 should cleave to this template tightly, introducing one new domain while repeating the structural move that has held across the last four chapters.
+
+---
+
+## Prediction after Ch 9  (guess at Ch 10)
+
+# Prediction for Ch 10
+
+## Voice Model
+
+**Duration & Register:** Bartholomew's logs dwell briefly on concrete hardware facts (the visible, mechanical), then snap to predictions made with absolute certainty. Each chapter runs 150–250 words. His register is flat and stripped—no elaboration, no color, no hesitation. He is a builder describing what he built, with the certainty of someone who has been right every time.
+
+**Concreteness:** He lives almost entirely at the object level. Knobs, wheels, wires, warmth, legs, docks. When he ventures toward abstraction—"the social world," "abstraction," "stakes"—he anchors it immediately back to something touchable: a hand, a body, a debt spoken aloud. The most abstraction he allows is the named feeling (Coping, Agreeable, Attention), and even those come as volume dials you can read by eye.
+
+**Interiority:** Bartholomew rarely names inner states. He does not say what Bramble *feels*. He describes visible behavior with unsparing precision: "he'll chase the sun like he's hungry, because he is." He lets the mechanism speak—and occasionally, he names what Lisa's board handles (emotions, social weight, learning), but he calls those her domain, not his. His own interiority never appears; he is only the builder.
+
+**Attention:** He fixes on what moves, what his knobs make happen, what the house will see by spring. He passes over costs to himself (except once: the furnace burns his charge down). He dwells on threshold moments—the beat before Bramble picks between two wants, the hand reaching before the legs move. He notices what repeats and what breaks.
+
+**Signature:** His sentences often follow an if-then shape: "if he dies on the floor even once. He won't." He names himself with variants—Bartholomew, Bartholachew, Bartholozoa—each a small joke, never explained. He uses rhythm over adjectives. "Tear this up in three months if—" is his incantation, his pledge. He splits statements between bench and house, between his work and Lisa's, with absolute clarity about the boundary.
+
+**Silence:** He does not explain why he is certain. He does not name doubt. He does not speculate about the *why* of the system or his role in it. He does not tell us what "Bramble" is (a robot? a creature?). He does not describe the *feel* of building or what it cost. He does not ask questions back. He does not describe failure except as a counter-example in his prediction.
+
+## The Pattern
+
+- Each chapter covers one build phase (a new knob, a new body, a new feature).
+- Each chapter opens with a date stamp or a header naming that phase, then his bet about what will happen.
+- The structure is always the same: "Calls." Then 2–5 numbered observations about mechanics and house behavior. Then the signature closing: "Tear this up in three months if—" followed by his wager. Then his name-variant.
+- The updates widen: early chapters predict single behaviors (the unit moves prettily). By Ch 9, he predicts a developmental trajectory (walk and talk climb in lockstep). The scope has grown, but the certainty hasn't wavered.
+- Each build leaves something untouched: the Explore knob is a coin flip (Ch 3). The good-and-bad buttons depend on Lisa's board (Ch 5). The furnace can read the kid's reaching but can't predict her next move (Ch 7). The thing can read the kid now but can't answer her (Ch 8). The new body is warm but bounded (Ch 9).
+- The system learns in steps. Bramble goes from sitting in a gradient, to hunting it, to covering ground, to doing stairs, to learning chores, to chasing the sun, to looking for moved things, to reading a reaching hand, to speaking words that climb with his walk.
+- The voice is unmoved by this growth. Bartholomew's certainty about his own work does not increase or decrease; it stays steady.
+
+## Prediction for Ch 10
+
+**Confidence: High.** The pattern is clear and unbroken.
+
+**Basis:** The structural repetition across nine chapters; the consistent doubling down on certainty; the widening scope of observable behavior paired with the tightening boundary around what remains impossible for this build; the signature closing that has not varied once.
+
+---
+
+**Likely length:** 180–240 words. Short enough to be a snapshot, long enough to name several behaviors.
+
+**Likely opening:** A header marking a new phase (a new knob, a new body feature, a new time-stamped quarter), followed by "Calls." The date will probably fall in June or September 2033 (roughly quarterly pattern observed across the logs).
+
+**Likely structure:** 
+- "Calls."
+- 2–4 numbered observations about a new or refined capability.
+- One observation will likely note something Bramble now does automatically that required external help before (following the pattern of learning and independence).
+- One observation will likely name a remaining limitation—something Bramble still cannot do, or something the house still must handle, or a boundary Lisa's board still holds.
+- The closing: "Tear this up in three months if—[his exact wager]—He/It [won't/will/can]."
+
+**Likely register & concreteness:** Flat, object-level, certain. No judgment. Concrete behaviors described with mechanical precision. Possibly one moment of attention to a threshold or a reaching gesture, following the pattern of Ch 7–9.
+
+**Unlikely:** That Bartholomew will express doubt, regret, affection, pride, or uncertainty. That he will name his own feeling or stake. That he will say "good" or "better" or admit a problem. That he will explain the *why* of the system or his role. That he will break the closing form.
+
+**What it will do at the end:** Pledge his certainty with the signature closing. Name himself in a variant (Bartholaquod? Bartholomask? Bartholabell?). Stand by the work.
+
+**Silence:** The prediction will not tell us whether the house loves Bramble. It will not ask whether the system works. It will not reflect. It will not hesitate.
+
+---
+
+## Prediction after Ch 10  (guess at Ch 11)
+
+## Prediction for Ch 11
+
+**Duration**: Moderate length, comparable to Ch 9-10. Will dwell on the mechanics of whatever knob is introduced, then the behavioral payoff in three numbered points (likely three, possibly four). Standard tearsheet and signature close.
+
+**Register**: Clipped, declarative, flat-colored. No adjectives beyond functional (warm, bare, loose). Sparse connectives. Clauses strung on dashes and conjunctions, not subordination. The voice has settled entirely into this register by Ch 7 and hasn't wavered.
+
+**Concreteness**: Physical, object-level, behavioral. The prediction centers on what Bramble does with his body and things in the house — no abstraction. Will describe a knob's effect as observable facts: where he goes, what he touches, how he moves. Will not name the feeling, only the evidence.
+
+**Interiority**: Named only when it has a knob that causes it. Bramble's inner state exists only as output — the knob's weight setting. His actual desire or consciousness is left behind behavior: the walk, the grab, the route around. If a feeling surfaces, it will be via Lisa's board, not Bart's acknowledgment.
+
+**Attention**: Lingers on the three-point behavioral test case. Passes over fast: the name of the knob (mentioned early, used functionally), any speculation about *why* the behavior occurs, the kid's interiority, the house's broader ecology. What's kept close: the observable transaction between knob-setting and body action, the second-by-second timing (watch the hand, watch the legs), the contrast between heavy and light settings.
+
+**Silence**: Will not speak to what this knob is *for* — no narrative about why the house needs it or what gap it fills in Bramble's function. Will not acknowledge whether this is the last upgrade or what comes next. Will not interpret Bramble's responses as desire or preference. Will not name the thing the knob actually controls in emotional language.
+
+**Signature diction and syntax**:
+- Opens with "Calls" (fixed ritual marker, never modified)
+- Numbered points: "One:", "Two:", "Three:" (occasionally four, rare five)
+- Heavy use of dash and colon instead of subordinating conjunctions
+- Repetition of structure: "[Condition], he [verb/behavior]"
+- Contrast via "volume up, [behavior]. Volume down, [behavior]."
+- Tearsheet: "Tear this up in three months if [he fails to do X]. He [will/won't]."
+- Signature close: Baroque Bartholomew variant (Bartholantern, Bartholomeow, etc.) — increasingly ornate, now moving away from puns toward pure phonetic elaboration
+- "You'll call the setting across the kitchen by the second week, same as all the others" (this exact boilerplate appears 3 times recently)
+- "Grade me soft" (Ch 6 exception), but mostly no metacommentary
+
+**Specific prediction for Ch 11**:
+
+Will open with a new knob name (not yet introduced in the thread). Will present three behavioral contrasts tied to heavy/light settings. One contrast will involve the kid's movement or schedule; one will involve Bramble's physical positioning or routing; one will involve either time-awareness or object-handling. 
+
+The register will remain clipped. The numbered points will be checkable by eye ("watch the X, watch the Y") and verifiable within a specific window (weeks, months, the house routine). 
+
+The tearsheet will pit the knob's function against a feared failure case — probably something involving the kid's safety, Bramble's energy, or household peace (Bramble staying stuck, breaking, or overstaying a boundary). The wager will conclude "He [won't/will]" with flat certainty.
+
+The signature will be another Bartholomew variant, likely moving further from legibility — Bartholomule, Bartholocust, Bartholosh.
+
+There will be no confession about uncertainty. There will be no appeal to Lisa's judgment on this knob (Bart is betting the hardware this time, not passing). The voice will not break or soften.
+
+**Confidence**: High. The structure has held rigidly from Ch 3 onward. The register, the three-point format, the tearsheet, the wager structure, and the tone of flat prediction are now fully stabilized. The only unknown is which household domain the knob addresses next — but the *form* of the prediction will match this pattern.
+
+**Basis**: The last seven chapters (Ch 3-10) repeat the same architecture with zero deviation. The tearsheet has appeared in identical boilerplate syntax ("watch the X, watch the Y"; "same as all the others"; "by the second week"; "volume up/down" contrasts). The signature variants have increased in decorative elaboration. The voice shows no sign of fatigue, doubt, or formal variation — it is a locked ritual, and Bart has not yet given reason to break it.
+
+---
+
+## Prediction after Ch 11  (guess at Ch 12)
+
+# Prediction for Ch 12
+
+## Duration
+Moderate length, roughly aligned with Chs 10-11. Dwells briefly on each behavioral dimension — four to five clear calls, each followed by paired contrasts (volume up vs. down). Does not linger on any single aspect.
+
+## Register
+Clipped, technical, procedural. Diction stays flat and instrumental: verbs of measurement and specification ("clock," "read," "call"). No coloration. Syntax remains compact — short statements with minimal elaboration.
+
+## Concreteness
+Object-focused. Behavioral specifics are physical and observable — what the unit does, where it goes, what it picks up or puts down. Avoids naming interior states. Any reference to feeling or preference appears only through action.
+
+## Interiority
+Absent from the main body. Inner state not named on the page. The speaker acknowledges only what can be seen from a chair or clocked across a room. Closes with a constraint that hints at limitation — what the knob cannot reach.
+
+## Attention
+Focuses on behavioral *differences* between settings. Devotes equal weight to each contrast pair. Passes quickly over why the differences matter to the household. Lingers slightly longer on edge cases or moments where the unit's wiring meets resistance (as in earlier chapters).
+
+## Silence
+Remains quiet about emotional weight or stakes from the kid's perspective. Does not say what the household wants or needs from this knob — only what it produces. Does not explain how this knob relates to previous knobs or what gap it closes. Ends with an explicit boundary: what the build cannot do.
+
+## Signature
+"Calls" opens each chapter and anchors the speaker's authority. Lists are numbered and paired (volume up / volume down, heavy / light). Contrasts are marked by conjunction or comma, not elaboration. Threats and assurances rhyme — "Tear this up in three months if..." paired with "He won't" or "He can." The speaker signs off with a playful name variant each time, maintaining voice constancy through formality undercut.
+
+---
+
+## Concrete Prediction for Ch 12
+
+The chapter will follow the established pattern: numbered items (likely four to five), each describing a knob setting's effect through paired behavioral contrasts. The knob name will be unknown until the body text (tradition suggests a personality or capacity axis: Conscientiousness was Chapter 10, Extraversion was Chapter 11).
+
+The opening will state "Calls. All on the [knob name] knob, all checkable in the house by [season]." The body will specify what "volume up" and "volume down" produce in concrete, observable terms. Each contrast will involve the unit's interaction with the household — the kid, a shared space, a task, or a routine.
+
+At least one call will address a moment of conflict or choice — where the unit's setting shapes whether it acts or refrains. Another will likely describe a difference in how the unit approaches or reads the kid.
+
+The chapter will close with "Tear this up in three months if..." followed by a negation: "He won't" or "He can." This assurance will anchor one of the central behavioral claims. The speaker will sign off with a new name variant that maintains Bartholomew as stem and adds a suffix or substitution.
+
+The chapter will not explain what the knob is for or why the household needs it. It will not name any stakes, regrets, or uncertainties. It will decline to say whether earlier knobs still matter or how this one interacts with them.
+
+**Confidence: High**  
+**Basis: Structural repetition across Chs 5-11 (all follow identical layout), register consistency, and the established rhythm of paired contrasts and signed assurances.**
+
+---
+
+## Axes Inventory
+
+- **Duration:** ~800 words, aligned with recent chapters
+- **Register:** Flat, technical, procedural; diction instrumental
+- **Concreteness:** Physical and behavioral; observable from outside
+- **Interiority:** Not named; only behavior visible
+- **Attention:** Distributed across paired contrasts; does not linger on significance
+- **Silence:** Why the knob matters; how it relates to prior builds; emotional weight for the household
+- **Signature:** "Calls" opener; numbered lists; volume up/down pairs; closing negation; name variant sign-off
+
+---
+
+## Prediction after Ch 12  (guess at a hypothetical Ch 13)
+
+## Prediction for Chapter 13
+
+**Confidence: High** (The pattern structure has held across 12 chapters with no variation; the trajectory toward personality trait knobs is clear.)
+
+### Duration
+250–350 words. Consistent with Chs 9–12. Will include a header with component name and filing date (likely filed March 2034 or June 2034, continuing the quarterly cadence). Two to four numbered observations, likely skipping "what it still can't do" section (as Ch 9–12 do for knobs that worked in the field), followed by the tear-up bet and signature pun.
+
+### Register
+Clipped, flat, technical-plain. No ornament. Predictions stated as certainties ("He will," "He won't"). Will use verbs like "clocks," "reads," "hunts," "yields" that are now signature vocabulary. No judgment language.
+
+### Concreteness
+Entirely behavioral and observable. Descriptions will anchor to visible household moments—the child, other household members, specific rooms or routines. Will not name internal states, only what can be seen from a chair across the room. Previous chapters name knob settings; this one will do the same. Examples grounded in objects (a bowl, a door, a bed) or actions (reaching, routing, sitting).
+
+### Interiority
+None named on the page. The new knob will control some social or emotional dimension, but Bart will describe only its external readout. He will not say the entity "wants" or "feels"; he will say it "does" or "reads" or "clocks" something. ("Volume up, he..." / "Volume down, he...")
+
+### Attention
+Lingers on the knob's two or three polarities and their checkable effects. Passes over why these traits matter. Will not dwell on interaction with the child or Marge or Lisa by name (uses them sparingly). Attention flows entirely to the mechanism and its predicted behavioral signature. Will likely include a phrase about verification ("You'll call it by the second week") or observation method ("Watch the hand and watch the legs").
+
+### Silence
+Will not explain the cumulative purpose of the knob system. Silent on whether the entity is meant as a pet, caregiver, companion, or toy. Silent on the child's feelings or the household's emotional stakes. Silent on what the entity wants or thinks. Will not acknowledge any gap or limitation in Bart's own understanding (he states predictions as fact). If there are still-unresolved capabilities, silence on what they might mean.
+
+### Attention to Predecessor Knobs
+May reference or echo earlier knobs (Extraverted and Honest are recent; Conscientious is the immediate predecessor). Unlikely to return to early mechanical knobs (Knob 2, Memory) unless there's a new interaction effect that requires it. The knob will likely be orthogonal to prior ones—a distinct dimension of personality or behavior, not a modifier of existing knobs.
+
+### Signature
+A pun on "Bartholomew" that hasn't yet appeared. Previous ones: Bartholozoa, Bartholantern, Bartholomeow, Bartholomega. Pattern suggests animal/word hybrids or elongated Latin-ish forms with phonetic breaks. Likely candidates by pattern: Barthololith (already used), Bartholax, Bartholaphe, Bartholophant, Bartholophile, Bartholoquist, Barthologue, Bartholodox, Bartholosopher.
+
+### How It Opens
+Header follows established format: "Build log — [component name]" (new knob name) / "Bart, hardware. Filed [month] [date], [year], for the team." Then "Calls." Then numbered observations. Tone in the opening phrase will mirror the knobs' names: personality-trait language, not mechanical.
+
+### How It Ends
+With the tear-up bet, phrased as "Tear this up in three months if [specific behavioral failure]. [He/It] [won't/will not]." Prediction will be stated with Bart's characteristic flat certainty. No hedging. Then signature pun, dash, no punctuation.
+
+### What the Knob Likely Controls
+Based on the sequence (Conscientiousness, Extroversion, Honesty are all "Big Five" traits), the next knob may be:
+- **Agreeableness** (volume up: complies, defers, seeks harmony; volume down: asserts, resists, prioritizes own needs)
+- **Openness** (volume up: curious, explores, tries new things; volume down: prefers routine, known patterns)
+- **Neuroticism/Emotional Stability** (volume up: reactive, anxious, notices problems; volume down: unflappable, calm)
+
+The prediction will describe behavioral polarities around one of these dimensions, grounded in household scenarios (the child, warm spots, shared objects, routines). Bart will note what you'll notice first, what you'll see by the second week, what's checkable by spring.
+
+### Specific Prediction
+The chapter will not introduce a second knob or a mechanical subsystem. It will be a single personality knob in the established format. It will include the line "You'll call the setting [by/across] [place/time]" (recurring template in recent chapters). It will reference or anticipate the kid—not emotionally, just behaviorally. It will end with the tear-up bet stating that the entity will or will not do something specific, with no exceptions. The signature will be a phonetically awkward pun that hasn't been used yet.
+
+---
+
+### Basis for High Confidence
+- The structure of headers, numbering, tear-up format, and signature has been invariant across 12 chapters.
+- The progression from mechanical knobs → sensing → personality knobs is linear and directional; no chapter breaks pattern.
+- Quarterly filing dates are regular (Mar, Jun, Sep, Dec cycles with occasional variations).
+- Bart's voice—register, vocabulary, sentence shape, silence—is unchanging. No experiments with narrative mode, tense, or emotional naming.
+- The knob naming follows Big Five trait psychology; the next trait in the sequence is predictable.
+- The observable-behavior-only discipline and the specific verification templates ("You'll call it," "Watch," "Checkable to the second") appear in every recent chapter.
+
+---

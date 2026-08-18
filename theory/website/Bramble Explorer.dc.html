@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trellis Framework</title>
+<meta name="description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Trellis Framework">
+<meta property="og:description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<meta property="og:url" content="https://trellis-framework.pages.dev/">
+<meta property="og:image" content="https://trellis-framework.pages.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trellis Framework">
+<meta name="twitter:description" content="One personality’s deep history, from the first cell to the modern self — read as a trellis of inherited functions.">
+<meta name="twitter:image" content="https://trellis-framework.pages.dev/og-image.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DotGothic16&family=Shantell+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Saira+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+<script src="framework-data.js"></script>
+<script src="ui-copy.js"></script>
+<script src="bramble-data.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #0e0d09; }
+  ::selection { background: #e0a23c; color: #1b1813; }
+  .scan { background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.35) 0 1px, transparent 1px 3px); }
+  .bx-btn:hover { filter: brightness(1.12); }
+  .bx-btn:disabled { opacity: 0.32; cursor: default; filter: grayscale(0.4); pointer-events: none; }
+  .bx-lnk:hover { color: #f0c46a; }
+  @keyframes recblink { 0%,55% { opacity: 1; } 56%,100% { opacity: 0.15; } }
+  .rec-dot { animation: recblink 1.15s steps(1) infinite; }
+  @keyframes vineGrow { to { stroke-dashoffset: 0; } }
+  @keyframes leafPop { 0% { opacity: 0; transform: scale(0) rotate(var(--lr,0deg)); } 60% { opacity: 1; transform: scale(1.18) rotate(var(--lr,0deg)); } 100% { opacity: 1; transform: scale(1) rotate(var(--lr,0deg)); } }
+  @keyframes budPulse { 0%,100% { opacity: 0.85; } 50% { opacity: 0.35; } }
+  .vine-stem { stroke-dasharray: 1; stroke-dashoffset: 1; animation: vineGrow 3s cubic-bezier(.45,.02,.25,1) forwards; }
+  .vine-twig { stroke-dasharray: 1; stroke-dashoffset: 1; animation: vineGrow 0.5s ease-out forwards; }
+  .vine-leaf { opacity: 0; transform-box: fill-box; transform-origin: center; animation: leafPop 0.5s cubic-bezier(.3,1.4,.5,1) forwards; }
+  @keyframes leafSway { 0%,100% { transform: rotate(-11deg); } 50% { transform: rotate(11deg); } }
+  @keyframes twigSway { 0%,100% { transform: rotate(-2.6deg); } 50% { transform: rotate(2.6deg); } }
+  @keyframes bloomPop { 0% { opacity: 0; transform: scale(0.6); } 60% { opacity: 1; transform: scale(1.14); } 100% { opacity: 1; transform: scale(1); } }
+  @keyframes sparkRipple { 0% { opacity: 0.6; transform: scale(0.4); } 100% { opacity: 0; transform: scale(2.6); } }
+  .vine-bloom { opacity: 0; transform-box: fill-box; transform-origin: center; animation: bloomPop 0.75s cubic-bezier(.3,1.35,.5,1) forwards; }
+  .vine-spark { transform-box: fill-box; transform-origin: center; animation: sparkRipple 0.85s ease-out forwards; }
+  .vine-bud { animation: budPulse 1.6s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .vine-stem, .vine-twig { stroke-dashoffset: 0; animation: none; }
+    .vine-leaf, .vine-bloom { opacity: 1; transform: none; animation: none; }
+    .vine-spark { display: none; }
+  }
+</style>
+</helmet>
+
+<div style="min-width:100%; min-height:100vh; width:max-content; box-sizing:border-box; padding:48px; background:#0e0d09; display:flex; gap:56px; align-items:flex-start; font-family:'Spectral',serif;">
+
+  <!-- ==================== DESKTOP ==================== -->
+  <div style="flex:none;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">DESKTOP · 1440×900</div>
+    <div data-screen-label="Explorer — Desktop" style="width:1440px; height:900px; display:flex; font-family:'Spectral',serif; color:#ddd3bf; background:#1b1813; overflow:hidden; position:relative; box-shadow:0 24px 60px rgba(0,0,0,0.5);">
+
+      <!-- ====== LEFT — DEEP-TIME RAIL ====== -->
+      <aside style="width:25%; flex:none; display:flex; flex-direction:column; background:#1b1813; border-right:1px solid #3a3227; position:relative;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; padding:20px 18px 12px; border-bottom:1px solid #2c261d;">
+          <div style="display:flex; align-items:center; gap:14px;">
+            {{ brandLogo }}
+            <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:36px; line-height:0.88; letter-spacing:0.02em; text-transform:uppercase; color:#e7ddc8;">{{ ui.brandLine1 }}<br/>{{ ui.brandLine2 }}</div>
+          </div>
+          <div class="bx-btn" onclick="{{ openHelp }}" style="width:28px; height:28px; flex:none; border:1px solid #4a4234; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:14px; color:#8f8470; cursor:pointer;">?</div>
+        </div>
+        <div style="display:flex; align-items:center; gap:9px; padding:10px 18px; border-bottom:1px solid #2c261d;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">{{ ui.ladder }}</span>
+          <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
+        </div>
+        <div style="flex:1; min-height:0; position:relative;">
+          {{ rail }}
+        </div>
+      </aside>
+
+      <!-- ====== MIDDLE — THE FLOWER ====== -->
+      <main style="width:45.25%; flex:none; overflow-y:auto; border-right:1px solid #3a3227; background:#211c15;">
+        <div style="padding:22px 26px 32px;">
+          <header style="position:relative; z-index:2; pointer-events:none;">
+            <div style="display:flex; align-items:baseline; gap:12px;">
+              <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:40px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0; flex:none;">{{ displayName }}</h1>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; flex:none; white-space:nowrap;">{{ cellIndexLabel }}</span>
+            </div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#8f8470; margin-top:6px; letter-spacing:0.03em;">{{ headerMeta }}</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#7c7159; margin-top:3px; letter-spacing:0.06em;">{{ ui.trellisFn }} · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+            <nav style="display:flex; gap:9px; margin-top:14px; pointer-events:auto;">
+              <button class="bx-btn" onclick="{{ goPrev }}" disabled="{{ atStart }}" style="font-family:'Saira Condensed',sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#1b1813; border:1px solid #4a4234; color:#cabfa6; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ prevName }}</button>
+              <button class="bx-btn" onclick="{{ goNext }}" disabled="{{ atEnd }}" style="font-family:'Saira Condensed',sans-serif; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:13.5px; background:#e0a23c; border:1px solid #e0a23c; color:#1b1813; padding:8px 14px; width:112px; box-sizing:border-box; text-align:center; cursor:pointer;">{{ nextName }}</button>
+            </nav>
+          </header>
+
+          <div style="position:relative; z-index:0; margin-top:-120px;">{{ flower }}</div>
+
+          <div style="margin-top:2px; background:#1b1813; border:1px solid #3a3227; padding:16px 18px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; flex:none;">{{ ui.labelsHeading }}</span>
+              <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">{{ ui.formLabel }}</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; padding:5px 12px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">{{ ui.functionLabel }}</button>
+              </div>
+            </div>
+            <p style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.5; color:#8f8470; margin:10px 0 0;">{{ ui.blurbPre }}<em style="color:#a59a82;">{{ ui.blurbForm }}</em>{{ ui.blurbMid }}<em style="color:#a59a82;">{{ ui.blurbFunction }}</em>{{ ui.blurbPost }}</p>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">{{ ui.modulesHeading }}</div>
+            <div style="display:flex; flex-wrap:wrap; gap:13px 18px; font-size:11.5px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">{{ ui.motivation }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><ellipse cx="12" cy="10" rx="10" ry="7" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">{{ ui.tendency }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">{{ ui.capacity }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;"><svg width="24" height="20" style="overflow:visible; flex:none;"><circle cx="12" cy="10" r="7" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">{{ ui.breakthrough }}</span></span>
+              <span style="display:flex; align-items:center; gap:7px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">{{ ui.signature }}</span></span>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:13px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#7c7159;">{{ ui.systemsHeading }}</div>
+            <div style="display:flex; flex-wrap:wrap; gap:9px 18px; margin-top:12px; font-size:13px;">
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><span><b style="font-weight:600;">{{ ui.effector }}</b></span></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><span><b style="font-weight:600;">{{ ui.regulator }}</b></span></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><span><b style="font-weight:600;">{{ ui.modeler }}</b></span></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:9px; cursor:pointer;"><span style="width:13px; height:13px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><span><b style="font-weight:600;">{{ ui.reviser }}</b></span></div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- ====== RIGHT — PANEL ====== -->
+      <section style="width:29.75%; flex:none; overflow-y:auto; background:#1b1813;">
+        <div style="padding:20px 22px 32px;">
+
+          <div style="display:flex; align-items:center; gap:11px; margin-bottom:18px;">
+            <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:11px; letter-spacing:0.22em; color:#7c7159; text-transform:uppercase; flex:none;">{{ bu.view }}</span>
+            <div style="display:flex; flex:1; border:1px solid #4a4234; background:#161209;">
+              <button onclick="{{ setAncestor }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13.5px; letter-spacing:0.07em; text-transform:uppercase; padding:9px 0; border:none; cursor:pointer; background:{{ ancBg }}; color:{{ ancFg }};">{{ bu.ancestor }}</button>
+              <button onclick="{{ setBramble }}" style="flex:1; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:13.5px; letter-spacing:0.07em; text-transform:uppercase; padding:9px 0; border:none; cursor:pointer; border-left:1px solid #4a4234; background:{{ braBg }}; color:{{ braFg }};">{{ bu.bramble }}</button>
+            </div>
+          </div>
+
+          <sc-if value="{{ isAncestor }}" hint-placeholder-val="{{ true }}">
+          <sc-if value="{{ showBack }}" hint-placeholder-val="{{ true }}">
+            <div class="bx-lnk" onclick="{{ onBack }}" style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; cursor:pointer; margin-bottom:14px;">{{ backLabel }}</div>
+          </sc-if>
+
+          <div style="background:#262119; border:1px solid #3a3227; box-shadow:0 16px 36px rgba(0,0,0,0.38);">
+            <div class="scan" style="background-color:#12100b; padding:13px 16px; position:relative; border-bottom:1px solid #000;">
+              <div style="position:relative; display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <span style="font-family:'DotGothic16',monospace; font-size:21px; line-height:1.1; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ faceText }}</span>
+                <span style="font-family:'DotGothic16',monospace; font-size:17px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5); flex:none;">{{ faceMood }}</span>
+              </div>
+            </div>
+
+            <div style="padding:20px 22px 24px;">
+              <div style="display:flex; align-items:flex-start; gap:11px;">
+                {{ panelGlyph }}
+                <div>
+                  <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:#8f8470; white-space:nowrap;">{{ regionMeta }}</span>
+                  </div>
+                  <div style="font-family:'Spectral',serif; font-style:italic; font-size:12.5px; color:#8f8470; margin-top:6px; line-height:1.4;">{{ panelGloss }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:24px; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; line-height:1; margin-top:7px;">{{ panelTitle }}</div>
+                </div>
+              </div>
+
+              <sc-if value="{{ showSpecimen }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-top:16px; background:#0c0b07; border:1px solid #000; padding:9px;">
+                  <div style="position:relative; aspect-ratio:4/3; overflow:hidden; background:#c9c0a6;">
+                    {{ specimenImg }}
+                    <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
+                      <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; color:#5e5338;">{{ ui.noSpecimen }}</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · {{ ui.awaitingCapture }}</span>
+                      </div>
+                    </sc-if>
+                    <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
+                    <div style="position:absolute; top:0; left:0; right:0; height:36px; background:linear-gradient(rgba(8,7,4,0.55), transparent); pointer-events:none;"></div>
+                    <div style="position:absolute; bottom:0; left:0; right:0; height:36px; background:linear-gradient(transparent, rgba(8,7,4,0.6)); pointer-events:none;"></div>
+                    <div style="position:absolute; top:7px; left:7px; width:16px; height:16px; border-left:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:7px; right:7px; width:16px; height:16px; border-right:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; left:7px; width:16px; height:16px; border-left:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; right:7px; width:16px; height:16px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:10px; left:30px; display:flex; align-items:center; gap:5px;">
+                      <span class="rec-dot" style="width:8px; height:8px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#f0e6d0;">{{ ui.rec }}</span>
+                    </div>
+                    <div style="position:absolute; top:10px; right:30px; font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
+                    <div style="position:absolute; bottom:9px; left:30px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
+                    <div style="position:absolute; bottom:9px; right:30px; font-family:'IBM Plex Mono',monospace; font-size:8.5px; color:#f0e6d0;">{{ specimenDate }}</div>
+                  </div>
+                </div>
+              </sc-if>
+
+              <p style="font-family:'Spectral',serif; font-size:14px; line-height:1.66; color:#cdc3ad; margin:16px 0 0;">{{ panelBody }}</p>
+
+              <sc-if value="{{ showBadge }}" hint-placeholder-val="{{ true }}">
+                <div style="display:inline-flex; align-items:center; gap:7px; margin-top:14px; font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; background:{{ badgeBg }}; color:{{ badgeFg }}; border:1px solid {{ badgeBorder }}; padding:3px 9px;"><span style="width:6px; height:6px; border-radius:50%; background:{{ badgeFg }}; display:inline-block;"></span>{{ badgeText }}</div>
+              </sc-if>
+
+              <sc-if value="{{ showSection2 }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ section2Label }}</div>
+                <p style="font-family:'Spectral',serif; font-size:13px; line-height:1.6; color:#bdb39c; margin:9px 0 0;">{{ section2Body }}</p>
+              </sc-if>
+
+              <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ ui.functionsInPlay }}</div>
+                <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
+                  <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:22px;">{{ ui.scienceLinks }}</div>
+                <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
+                  <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
+                    <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:12.5px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showHint }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:22px; border-top:1px solid #2c261d; padding-top:14px;">{{ hintText }}</div>
+              </sc-if>
+            </div>
+          </div>
+
+          <sc-if value="{{ showMargin }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; margin-top:24px;">
+              <div style="background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:500; font-size:12.5px; line-height:1.5; padding:15px 16px 14px; transform:rotate(-0.7deg); box-shadow:0 3px 9px rgba(0,0,0,0.35);">{{ marginNoteText }}</div>
+              <div style="position:absolute; top:-9px; right:16px; width:32px; height:32px; border-radius:50%; background:{{ noteDot }}; transform:rotate(9deg); display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,0.45);"><span style="font-family:'Shantell Sans',cursive; font-weight:600; font-size:10px; color:{{ noteDotInk }};">★</span></div>
+            </div>
+          </sc-if>
+          </sc-if>
+
+          <sc-if value="{{ isBramble }}" hint-placeholder-val="{{ false }}">
+
+            <div style="position:relative; background:#262119; border:1px solid #3a3227; padding:16px 18px 15px; box-shadow:0 16px 36px rgba(0,0,0,0.38);">
+              <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px;">
+                <div>
+                  <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.2em; color:#8f8470;">{{ bu.unitLabel }} · {{ cellIndexLabel }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:29px; line-height:0.92; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; margin-top:5px;">{{ displayName }}</div>
+                  <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.14em; color:#7c7159; margin-top:6px; text-transform:uppercase;">{{ brambleChassis }}</div>
+                </div>
+                <div style="position:relative; flex:none; background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:600; font-size:13px; line-height:1; padding:8px 12px 8px 22px; transform:rotate(3deg); box-shadow:0 2px 6px rgba(0,0,0,0.35);">
+                  <span style="position:absolute; left:7px; top:50%; transform:translateY(-50%); width:10px; height:10px; border-radius:50%; background:#e0a23c; border:0.6px solid #1b1813;"></span>Bramble
+                </div>
+              </div>
+              <p style="font-family:'Spectral',serif; font-size:13.5px; line-height:1.55; color:#cdc3ad; margin:12px 0 0;">{{ brambleBuild }}</p>
+            </div>
+
+            <div style="margin-top:18px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.faceHeading }}</span>
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <sc-if value="{{ faceCanAscii }}" hint-placeholder-val="{{ false }}">
+                    <div style="display:inline-flex; border:1px solid #3a3227;">
+                      <span onclick="{{ setReadout }}" style="cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; padding:3px 7px; background:{{ readoutBg }}; color:{{ readoutFg }};">{{ bu.readoutTag }}</span>
+                      <span onclick="{{ setAscii }}" style="cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; padding:3px 7px; background:{{ asciiBg }}; color:{{ asciiFg }};">{{ bu.asciiTag }}</span>
+                    </div>
+                  </sc-if>
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; color:{{ faceStatusColor }};">{{ faceStatus }}</span>
+                </div>
+              </div>
+
+              <div class="scan" style="position:relative; background:#12100b; border:1px solid #000; min-height:150px; display:flex; align-items:center; justify-content:center; padding:24px 20px; overflow:hidden;">
+                <sc-if value="{{ faceIsNone }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#3f4a3f; text-transform:uppercase;">{{ bu.faceNone }}</span>
+                </sc-if>
+                <sc-if value="{{ faceIsStatus }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:14px;">
+                    <span style="font-family:'DotGothic16',monospace; font-size:34px; line-height:1; color:#9ad6a0; text-shadow:0 0 10px rgba(154,214,160,0.6);">{{ faceWord }}</span>
+                    <div style="display:flex; gap:12px;">
+                      <sc-for list="{{ faceSet }}" as="s" hint-placeholder-count="3">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.14em; color:{{ s.color }};">{{ s.word }}</span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsLines }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center;">
+                    <sc-for list="{{ faceLines }}" as="ln" hint-placeholder-count="1">
+                      <span style="font-family:'DotGothic16',monospace; font-size:24px; line-height:1.15; color:#9ad6a0; text-shadow:0 0 9px rgba(154,214,160,0.55);">{{ ln.text }}</span>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsPersons }}" hint-placeholder-val="{{ false }}">
+                  <div style="display:flex; gap:12px; align-items:stretch; justify-content:center; flex-wrap:wrap;">
+                    <sc-for list="{{ facePersons }}" as="p" hint-placeholder-count="2">
+                      <div style="border:1px solid #2f4a33; padding:11px 12px; display:flex; flex-direction:column; gap:7px; align-items:center; min-width:112px;">
+                        <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#bfe6a0; text-shadow:0 0 7px rgba(154,214,160,0.5);">{{ p.name }}</span>
+                        <span style="font-family:'DotGothic16',monospace; font-size:14px; line-height:1.2; color:#9ad6a0; text-shadow:0 0 8px rgba(154,214,160,0.55); text-align:center;">{{ p.body }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ faceIsAscii }}" hint-placeholder-val="{{ false }}">
+                  <pre style="font-family:'IBM Plex Mono',monospace; font-size:13px; line-height:1.25; color:#9ad6a0; text-shadow:0 0 7px rgba(154,214,160,0.5); margin:0; white-space:pre;">{{ faceAscii }}</pre>
+                </sc-if>
+                <div class="scan" style="position:absolute; inset:0; pointer-events:none; opacity:0.5;"></div>
+                <div style="position:absolute; bottom:8px; left:11px; font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.12em; color:#4d5a4d;">{{ faceCaption }}</div>
+              </div>
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:12px; line-height:1.5; color:#8f8470; margin:9px 0 0;">{{ bu.faceNote }}</p>
+            </div>
+
+            <div style="margin-top:22px;">
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.systemsHeading }}</div>
+              <div style="margin-top:12px; display:flex; flex-direction:column; gap:9px;">
+                <sc-for list="{{ sysRows }}" as="r" hint-placeholder-count="4">
+                  <div style="display:flex; align-items:center; gap:11px;">
+                    <span style="width:12px; height:12px; border-radius:50%; background:{{ r.color }}; flex:none; opacity:{{ r.dotOp }};"></span>
+                    <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:15px; text-transform:uppercase; letter-spacing:0.03em; color:{{ r.nameColor }}; flex:none; width:78px;">{{ r.name }}</span>
+                    <span style="font-family:'Spectral',serif; font-style:italic; font-size:12px; color:#8f8470; flex:1;">{{ r.clinical }}</span>
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; padding:2px 7px; background:{{ r.chipBg }}; color:{{ r.chipFg }}; border:1px solid {{ r.chipBorder }}; flex:none;">{{ r.status }}</span>
+                  </div>
+                </sc-for>
+              </div>
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:13px; border-top:1px solid #2c261d; padding-top:12px;">{{ retiredNote }}</div>
+            </div>
+
+            <div style="margin-top:22px;">
+              <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; color:#7c7159; text-transform:uppercase;">{{ bu.knobsHeading }}</div>
+              <p style="font-family:'Spectral',serif; font-size:12px; line-height:1.5; color:#8f8470; margin:7px 0 0;">{{ bu.knobsSub }}</p>
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:13px; margin-top:15px;">
+                <sc-for list="{{ knobs }}" as="k" hint-placeholder-count="4">
+                  <div onclick="{{ k.onClick }}" style="cursor:pointer; position:relative; background:{{ k.cellBg }}; border:1px solid {{ k.cellBorder }}; padding:14px 10px 12px; display:flex; flex-direction:column; align-items:center; gap:9px;">
+                    <sc-if value="{{ k.isNew }}" hint-placeholder-val="{{ true }}">
+                      <span style="position:absolute; top:7px; right:7px; font-family:'IBM Plex Mono',monospace; font-size:7.5px; letter-spacing:0.1em; text-transform:uppercase; padding:2px 5px; background:{{ k.color }}; color:{{ k.tagInk }};">{{ bu.newTag }}</span>
+                    </sc-if>
+                    {{ k.dial }}
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; text-transform:uppercase; color:{{ k.stateColor }};">{{ k.stateLabel }}</span>
+                    <div style="position:relative; background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:600; font-size:11.5px; line-height:1; padding:6px 9px 6px 19px; transform:rotate({{ k.rot }}); box-shadow:0 2px 5px rgba(0,0,0,0.3);">
+                      <span style="position:absolute; left:6px; top:50%; transform:translateY(-50%); width:8px; height:8px; border-radius:50%; background:{{ k.color }}; border:0.6px solid #1b1813;"></span>{{ k.stickerName }}
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+
+              <div style="margin-top:15px; background:#1b1813; border:1px solid #3a3227; padding:15px 16px;">
+                <div style="display:flex; align-items:center; gap:9px;">
+                  <span style="width:11px; height:11px; border-radius:50%; background:{{ selColor }}; flex:none;"></span>
+                  <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:18px; text-transform:uppercase; letter-spacing:0.03em; color:#f0e6d0;">{{ selName }}</span>
+                  <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; color:#7c7159;">{{ selFnLabel }}</span>
+                </div>
+                <div style="display:flex; gap:16px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:9px; color:#8f8470;">
+                  <span>{{ bu.motivation }} · <span style="color:#cdc3ad;">{{ selMotivation }}</span></span>
+                  <span>{{ bu.clinical }} · <span style="color:#cdc3ad;">{{ selClinical }}</span></span>
+                </div>
+                <div style="margin-top:13px; display:flex; flex-direction:column; gap:8px;">
+                  <div style="display:flex; gap:11px; padding:9px 11px; background:{{ upBg }}; border-left:3px solid {{ upBar }};">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{ upFg }}; flex:none; width:64px;">{{ bu.upTag }} · {{ selMiraUp }}</span>
+                    <span style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.45; color:{{ upText }};">{{ selUpText }}</span>
+                  </div>
+                  <div style="display:flex; gap:11px; padding:9px 11px; background:{{ dnBg }}; border-left:3px solid {{ dnBar }};">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{ dnFg }}; flex:none; width:64px;">{{ bu.downTag }} · {{ selMiraDown }}</span>
+                    <span style="font-family:'Spectral',serif; font-size:12.5px; line-height:1.45; color:{{ dnText }};">{{ selDownText }}</span>
+                  </div>
+                </div>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; line-height:1.6; color:#7c7159; margin-top:12px; border-top:1px solid #2c261d; padding-top:11px;">{{ selFaceNote }}</div>
+              </div>
+            </div>
+
+          </sc-if>
+
+        </div>
+      </section>
+
+      <sc-if value="{{ showHelp }}" hint-placeholder-val="{{ false }}">
+        <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.74); display:flex; align-items:center; justify-content:center; padding:44px;">
+          <div onclick="{{ stop }}" style="width:580px; max-width:100%; max-height:84%; overflow-y:auto; background:#1b1813; border:1px solid #4a4234; box-shadow:0 30px 80px rgba(0,0,0,0.6);">
+            <div class="scan" style="background-color:#12100b; padding:15px 20px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
+              <span style="font-family:'DotGothic16',monospace; font-size:18px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ ui.helpTitle }}</span>
+              <span onclick="{{ closeHelp }}" class="bx-lnk" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
+            </div>
+            <div style="padding:22px 26px 28px; display:flex; flex-direction:column; gap:16px;">
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:15px; line-height:1.55; color:#cdc3ad; margin:0;">{{ ui.helpIntroDesktop }}</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRailH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpRailPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFlowerH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpFlowerPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpTrellisFnH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpTrellisFnPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRegionsH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpRegionsPD }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFormFnH }}</div><p style="font-family:'Spectral',serif; font-size:14px; line-height:1.55; color:#bdb39c; margin:5px 0 0;">{{ ui.helpFormFnPD }}</p></div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+    </div>
+  </div>
+
+  <!-- ==================== MOBILE ==================== -->
+  <div style="flex:none;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.18em; color:#7c7159; margin-bottom:12px;">MOBILE · 390×844</div>
+    <div data-screen-label="Explorer — Mobile" style="width:390px; height:844px; display:flex; flex-direction:column; background:#1b1813; color:#ddd3bf; font-family:'Spectral',serif; overflow:hidden; position:relative; border:1px solid #3a3227; box-shadow:0 24px 60px rgba(0,0,0,0.5);">
+
+      <!-- header bar -->
+      <div style="flex:none; display:flex; align-items:center; justify-content:space-between; padding:14px 16px 12px; border-bottom:1px solid #2c261d; background:#1b1813;">
+        <div style="display:flex; align-items:center; gap:9px;">
+          {{ brandLogoSm }}
+          <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:16px; line-height:0.9; letter-spacing:0.03em; text-transform:uppercase; color:#e7ddc8;">{{ ui.brandLine1 }} <span style="color:#8f8470;">{{ ui.brandLine2 }}</span></div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.14em; color:#7c7159;">{{ cellIndexLabel }}</span>
+          <div class="bx-btn" onclick="{{ openHelp }}" style="width:24px; height:24px; border:1px solid #4a4234; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:12px; color:#8f8470; cursor:pointer;">?</div>
+        </div>
+      </div>
+
+      <!-- scroll body -->
+      <div style="flex:1; min-height:0; overflow-y:auto;">
+
+        <!-- title block -->
+        <div style="padding:16px 16px 0;">
+          <h1 style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:31px; line-height:0.9; letter-spacing:0.02em; text-transform:uppercase; color:#f0e6d0; margin:0;">{{ displayName }}</h1>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8f8470; margin-top:6px; letter-spacing:0.02em;">{{ headerMeta }}</div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#7c7159; margin-top:3px; letter-spacing:0.05em;">{{ ui.trellisFn }} · <span style="color:#f0e6d0;">{{ newFuncLabel }}</span></div>
+        </div>
+
+        <!-- horizontal deep-time rail -->
+        <div style="margin-top:18px; padding:0 16px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#5e5544; margin-bottom:8px;"><span>{{ ui.mobileOlder }}</span><span style="color:#7c7159;">{{ ui.mobileRailTitle }}</span><span>{{ ui.mobileNewer }}</span></div>
+          <div id="mobRail" style="display:flex; gap:7px; overflow-x:auto; padding-bottom:5px;">
+            <sc-for list="{{ railChips }}" as="ch" hint-placeholder-count="6">
+              <div onclick="{{ ch.onTap }}" style="flex:none; width:80px; border:1px solid {{ ch.border }}; background:{{ ch.bg }}; padding:9px 9px 10px; cursor:pointer; display:flex; flex-direction:column; gap:7px;">
+                <span style="width:9px; height:9px; border-radius:50%; background:{{ ch.dot }};"></span>
+                <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:11.5px; line-height:0.95; text-transform:uppercase; color:{{ ch.nameColor }};">{{ ch.name }}</span>
+                <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; color:#7c7159;">{{ ch.date }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <!-- flower -->
+        <div style="margin-top:-14px; padding:0 14px 0;">{{ flowerMobile }}</div>
+
+        <!-- signatures — below the flower, side by side -->
+        <div style="margin-top:4px; padding:0 20px;">{{ signaturesMobile }}</div>
+
+        <!-- key -->
+        <div style="margin-top:6px; padding:0 16px;">
+          <div style="background:#1b1813; border:1px solid #3a3227; padding:12px 13px;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; flex:none;">{{ ui.labelsHeading }}</span>
+              <div style="display:inline-flex; border:1px solid #4a4234; flex:none;">
+                <button onclick="{{ setContent }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ contentBg }}; color:{{ contentFg }};">{{ ui.formLabel }}</button>
+                <button onclick="{{ setCyber }}" style="font-family:'IBM Plex Mono',monospace; font-size:9px; padding:5px 10px; cursor:pointer; border:none; background:{{ cyberBg }}; color:{{ cyberFg }};">{{ ui.functionLabel }}</button>
+              </div>
+            </div>
+            <p style="font-family:'Spectral',serif; font-size:10px; line-height:1.5; color:#8f8470; margin:9px 0 0;">{{ ui.blurbPre }}<em style="color:#a59a82;">{{ ui.blurbForm }}</em>{{ ui.blurbMid }}<em style="color:#a59a82;">{{ ui.blurbFunction }}</em>{{ ui.blurbPost }}</p>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159; margin-bottom:8px;">{{ ui.modulesHeading }}</div>
+            <div style="display:flex; flex-wrap:wrap; gap:7px 12px; font-size:9px; color:#a59a82;">
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="#5a513f" stroke="#cabfa6"></ellipse></svg><span onclick="{{ pickMotivation }}" style="cursor:pointer; color:{{ motColor }};">{{ ui.motivation }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><ellipse cx="9.5" cy="7.5" rx="8" ry="5.5" fill="none" stroke="#8f8470"></ellipse></svg><span onclick="{{ pickTendency }}" style="cursor:pointer; color:{{ tndColor }};">{{ ui.tendency }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#8f8470" stroke-dasharray="3 2"></circle></svg><span onclick="{{ pickCapacity }}" style="cursor:pointer; color:{{ capColor }};">{{ ui.capacity }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;"><svg width="19" height="15" style="overflow:visible; flex:none;"><circle cx="9.5" cy="7.5" r="5.5" fill="none" stroke="#e7ddc8" stroke-width="2"></circle></svg><span onclick="{{ pickBreakthrough }}" style="cursor:pointer; color:{{ bktColor }};">{{ ui.breakthrough }}</span></span>
+              <span style="display:flex; align-items:center; gap:6px;">{{ sigStarLegend }}<span onclick="{{ pickSignature }}" style="cursor:pointer; color:{{ sigColor }};">{{ ui.signature }}</span></span>
+            </div>
+            <div style="height:1px; background:#2c261d; margin:10px 0;"></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:8px; letter-spacing:0.18em; color:#7c7159;">{{ ui.systemsHeading }}</div>
+            <div style="display:flex; flex-wrap:wrap; gap:6px 13px; margin-top:8px; font-size:9.5px;">
+              <div onclick="{{ pickEffector }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#d8472f; flex:none; box-shadow:{{ effRing }};"></span><b style="font-weight:600;">{{ ui.effector }}</b></div>
+              <div onclick="{{ pickRegulator }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#2f6f9e; flex:none; box-shadow:{{ regRing }};"></span><b style="font-weight:600;">{{ ui.regulator }}</b></div>
+              <div onclick="{{ pickModeler }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#e8b53a; flex:none; box-shadow:{{ modRing }};"></span><b style="font-weight:600;">{{ ui.modeler }}</b></div>
+              <div onclick="{{ pickReviser }}" style="display:flex; align-items:center; gap:6px; cursor:pointer;"><span style="width:9px; height:9px; border-radius:50%; background:#5f9e4f; flex:none; box-shadow:{{ revRing }};"></span><b style="font-weight:600;">{{ ui.reviser }}</b></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- panel -->
+        <div style="padding:18px 14px 30px;">
+          <sc-if value="{{ showBack }}" hint-placeholder-val="{{ true }}">
+            <div class="bx-lnk" onclick="{{ onBack }}" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8f8470; cursor:pointer; margin-bottom:12px;">{{ backLabel }}</div>
+          </sc-if>
+
+          <div style="background:#262119; border:1px solid #3a3227; box-shadow:0 12px 28px rgba(0,0,0,0.4);">
+            <div class="scan" style="background-color:#12100b; padding:12px 15px; position:relative; border-bottom:1px solid #000;">
+              <div style="position:relative; display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <span style="font-family:'DotGothic16',monospace; font-size:18px; line-height:1.1; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ faceText }}</span>
+                <span style="font-family:'DotGothic16',monospace; font-size:15px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5); flex:none;">{{ faceMood }}</span>
+              </div>
+            </div>
+
+            <div style="padding:18px 16px 22px;">
+              <div style="display:flex; align-items:flex-start; gap:10px;">
+                {{ panelGlyphMobile }}
+                <div>
+                  <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#8f8470;">{{ regionMeta }}</span>
+                  </div>
+                  <div style="font-family:'Spectral',serif; font-style:italic; font-size:13px; color:#8f8470; margin-top:6px; line-height:1.4;">{{ panelGloss }}</div>
+                  <div style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:23px; text-transform:uppercase; letter-spacing:0.02em; color:#f0e6d0; line-height:1; margin-top:7px;">{{ panelTitle }}</div>
+                </div>
+              </div>
+
+              <sc-if value="{{ showSpecimen }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-top:15px; background:#0c0b07; border:1px solid #000; padding:8px;">
+                  <div style="position:relative; aspect-ratio:4/3; overflow:hidden; background:#c9c0a6;">
+                    {{ specimenImg }}
+                    <sc-if value="{{ noSpecimen }}" hint-placeholder-val="{{ true }}">
+                      <div style="position:absolute; inset:0; background-color:#c4bba2; background-image:repeating-linear-gradient(45deg, rgba(60,50,30,0.10) 0 7px, transparent 7px 14px); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#5e5338;">{{ ui.noSpecimen }}</span>
+                        <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.12em; color:#7d7156;">{{ specimenCellId }} · {{ ui.awaitingCapture }}</span>
+                      </div>
+                    </sc-if>
+                    <div class="scan" style="position:absolute; inset:0; pointer-events:none; mix-blend-mode:multiply; opacity:0.55;"></div>
+                    <div style="position:absolute; top:0; left:0; right:0; height:34px; background:linear-gradient(rgba(8,7,4,0.55), transparent); pointer-events:none;"></div>
+                    <div style="position:absolute; bottom:0; left:0; right:0; height:34px; background:linear-gradient(transparent, rgba(8,7,4,0.6)); pointer-events:none;"></div>
+                    <div style="position:absolute; top:7px; left:7px; width:15px; height:15px; border-left:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:7px; right:7px; width:15px; height:15px; border-right:2px solid #e7ddc8; border-top:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; left:7px; width:15px; height:15px; border-left:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; bottom:7px; right:7px; width:15px; height:15px; border-right:2px solid #e7ddc8; border-bottom:2px solid #e7ddc8;"></div>
+                    <div style="position:absolute; top:9px; left:28px; display:flex; align-items:center; gap:5px;">
+                      <span class="rec-dot" style="width:7px; height:7px; border-radius:50%; background:#d8472f; box-shadow:0 0 6px #d8472f;"></span>
+                      <span style="font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.2em; color:#f0e6d0;">{{ ui.rec }}</span>
+                    </div>
+                    <div style="position:absolute; top:9px; right:28px; font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:0.06em; color:#f0e6d0;">{{ specimenTimecode }}</div>
+                    <div style="position:absolute; bottom:8px; left:28px; font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#f0e6d0;">{{ specimenCellId }} · {{ specimenName }}</div>
+                    <div style="position:absolute; bottom:8px; right:28px; font-family:'IBM Plex Mono',monospace; font-size:8px; color:#f0e6d0;">{{ specimenDate }}</div>
+                  </div>
+                </div>
+              </sc-if>
+
+              <p style="font-family:'Spectral',serif; font-size:14.5px; line-height:1.62; color:#cdc3ad; margin:15px 0 0;">{{ panelBody }}</p>
+
+              <sc-if value="{{ showBadge }}" hint-placeholder-val="{{ true }}">
+                <div style="display:inline-flex; align-items:center; gap:7px; margin-top:13px; font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; background:{{ badgeBg }}; color:{{ badgeFg }}; border:1px solid {{ badgeBorder }}; padding:3px 9px;"><span style="width:6px; height:6px; border-radius:50%; background:{{ badgeFg }}; display:inline-block;"></span>{{ badgeText }}</div>
+              </sc-if>
+
+              <sc-if value="{{ showSection2 }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ section2Label }}</div>
+                <p style="font-family:'Spectral',serif; font-size:13.5px; line-height:1.58; color:#bdb39c; margin:8px 0 0;">{{ section2Body }}</p>
+              </sc-if>
+
+              <sc-if value="{{ showFuncs }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ ui.functionsInPlay }}</div>
+                <div style="display:flex; gap:7px; margin-top:9px; flex-wrap:wrap;">
+                  <sc-for list="{{ funcsInPlay }}" as="fn" hint-placeholder-count="4">
+                    <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; padding:3px 9px; background:{{ fn.bg }}; color:{{ fn.fg }};">{{ fn.label }}</span>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showLinks }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#7c7159; margin-top:20px;">{{ ui.scienceLinks }}</div>
+                <div style="margin-top:9px; display:flex; flex-direction:column; gap:9px;">
+                  <sc-for list="{{ links }}" as="lk" hint-placeholder-count="2">
+                    <a class="bx-lnk" href="{{ lk.url }}" target="_blank" style="font-family:'Spectral',serif; font-size:13px; color:#e0a23c; text-decoration:none; border-bottom:1px dotted #8a6a2a; padding-bottom:2px;">{{ lk.label }} <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; color:#7c7159;">{{ lk.doiText }}</span></a>
+                  </sc-for>
+                </div>
+              </sc-if>
+
+              <sc-if value="{{ showHint }}" hint-placeholder-val="{{ true }}">
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; line-height:1.6; color:#7c7159; margin-top:20px; border-top:1px solid #2c261d; padding-top:13px;">{{ hintText }}</div>
+              </sc-if>
+            </div>
+          </div>
+
+          <sc-if value="{{ showMargin }}" hint-placeholder-val="{{ true }}">
+            <div style="position:relative; margin-top:20px;">
+              <div style="background:#d8cfae; color:#43391f; font-family:'Shantell Sans',cursive; font-weight:500; font-size:12.5px; line-height:1.5; padding:14px 15px 13px; transform:rotate(-0.7deg); box-shadow:0 3px 8px rgba(0,0,0,0.35);">{{ marginNoteText }}</div>
+              <div style="position:absolute; top:-8px; right:15px; width:30px; height:30px; border-radius:50%; background:{{ noteDot }}; transform:rotate(9deg); display:flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(0,0,0,0.45);"><span style="font-family:'Shantell Sans',cursive; font-weight:600; font-size:9px; color:{{ noteDotInk }};">★</span></div>
+            </div>
+          </sc-if>
+        </div>
+
+        <!-- full vertical ladder (mobile) -->
+        <div style="border-top:1px solid #2c261d; padding:18px 16px 34px; background:#1b1813;">
+          <div style="display:flex; align-items:center; gap:9px; margin-bottom:10px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.2em; color:#7c7159; text-transform:uppercase;">{{ ui.ladder }}</span>
+            <span style="font-family:'Saira Condensed',sans-serif; font-weight:700; font-size:14px; letter-spacing:0.06em; color:#e7ddc8; text-transform:uppercase;">{{ stackName }}</span>
+          </div>
+          <div style="width:100%; aspect-ratio:372 / 772;">{{ rail }}</div>
+        </div>
+      </div>
+
+      <sc-if value="{{ showHelp }}" hint-placeholder-val="{{ false }}">
+        <div onclick="{{ closeHelp }}" style="position:absolute; inset:0; z-index:60; background:rgba(10,9,6,0.78); display:flex; align-items:flex-end;">
+          <div onclick="{{ stop }}" style="width:100%; max-height:90%; overflow-y:auto; background:#1b1813; border-top:1px solid #4a4234; box-shadow:0 -20px 60px rgba(0,0,0,0.6);">
+            <div class="scan" style="background-color:#12100b; padding:13px 16px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #000;">
+              <span style="font-family:'DotGothic16',monospace; font-size:14px; color:#9ad6a0; text-shadow:0 0 6px rgba(154,214,160,0.5);">{{ ui.helpTitle }}</span>
+              <span onclick="{{ closeHelp }}" style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#9ad6a0; cursor:pointer; padding:2px 6px;">✕</span>
+            </div>
+            <div style="padding:16px 18px 24px; display:flex; flex-direction:column; gap:13px;">
+              <p style="font-family:'Spectral',serif; font-style:italic; font-size:13.5px; line-height:1.5; color:#cdc3ad; margin:0;">{{ ui.helpIntroMobile }}</p>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRailH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpRailPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFlowerH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpFlowerPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpTrellisFnH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpTrellisFnPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpRegionsH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpRegionsPM }}</p></div>
+              <div><div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.16em; color:#e0a23c;">{{ ui.helpFormFnH }}</div><p style="font-family:'Spectral',serif; font-size:13px; line-height:1.5; color:#bdb39c; margin:4px 0 0;">{{ ui.helpFormFnPD }}</p></div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1990,&quot;height&quot;:1010},&quot;labelMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cybernetic&quot;,&quot;content&quot;],&quot;default&quot;:&quot;cybernetic&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;handmade&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+const FC = { effector:'#d8472f', regulator:'#2f6f9e', modeler:'#e8b53a', reviser:'#5f9e4f' };
+const BRIGHT = { effector:'#ff6b4f', regulator:'#4aa6e0', modeler:'#ffcf5a', reviser:'#7fd06a' };
+const FNAME = { effector:'Effector', regulator:'Regulator', modeler:'Modeler', reviser:'Reviser' };
+const SLATE = '#5a513f', SLATE_FILL = '#6f6552';
+const _hx = (hex) => { hex = hex.replace('#', ''); return [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)]; };
+const shade = (hex, amt) => { const [r, g, b] = _hx(hex); const t = amt > 0 ? 255 : 0, a = Math.abs(amt); const m = (c) => Math.round(c + (t - c) * a); return `rgb(${m(r)},${m(g)},${m(b)})`; };
+const SPECIMEN = {
+  prokaryote: 'public/specimens/prokaryote.jpg',
+  archaeon: 'public/specimens/archaeon.jpg',
+  eukaryote: 'public/specimens/eukaryote.jpg',
+  eumetazoa: 'public/specimens/eumetazoa.png',
+  bilaterian: 'public/specimens/bilaterian.png',
+  vertebrate: 'public/specimens/vertebrate.png',
+  mammal: 'public/specimens/mammal.png',
+  primate: 'public/specimens/primate.png',
+  band: 'public/specimens/band.jpg',
+  settlement: 'public/specimens/settlement.png',
+  city: 'public/specimens/city.jpg',
+  empire: 'public/specimens/empire.jpg',
+};
+const ANCH = {
+  'mot.effector':[240,90], 'mot.regulator':[390,240], 'mot.modeler':[240,390], 'mot.reviser':[90,240],
+  'tnd.controller':[316,172], 'tnd.anticipator':[316,308], 'tnd.adapter':[164,308], 'tnd.explorer':[164,172],
+  'cap.reactor':[240,170], 'cap.conservator':[310,240], 'cap.planner':[240,310], 'cap.pursuer':[170,240],
+  'bkt.center':[240,240],
+};
+const ELL = [
+  ['effector',240,168,104,122],['regulator',312,240,122,104],['modeler',240,312,104,122],['reviser',168,240,122,104],
+];
+const ROLES = {
+  effector:{name:'Effector',gloss:'acts and executes',fns:['effector']},
+  regulator:{name:'Regulator',gloss:'stabilizes against stored rules',fns:['regulator']},
+  modeler:{name:'Modeler',gloss:'builds an inner model of the world',fns:['modeler']},
+  reviser:{name:'Reviser',gloss:'revises its own goals',fns:['reviser']},
+  controller:{name:'Controller',gloss:'acts to keep things on the rules',fns:['effector','regulator']},
+  anticipator:{name:'Anticipator',gloss:"uses its model to stay ahead of what's coming",fns:['regulator','modeler']},
+  adapter:{name:'Adapter',gloss:'reshapes its model and goals to fit new conditions',fns:['modeler','reviser']},
+  explorer:{name:'Explorer',gloss:'acts on the world to discover, then revises',fns:['reviser','effector']},
+  connector:{name:'Connector',gloss:'couples what it does to what it knows',fns:['effector','modeler']},
+  operator:{name:'Operator',gloss:'couples holding its rules to changing them',fns:['regulator','reviser']},
+  planner:{name:'Planner',gloss:"models, stabilizes, and revises, but doesn't act — it plans",fns:['regulator','modeler','reviser']},
+  pursuer:{name:'Pursuer',gloss:'acts, models, and revises, but keeps no fixed rules — it pursues',fns:['effector','modeler','reviser']},
+  reactor:{name:'Reactor',gloss:'acts, stabilizes, and revises, but builds no model — it reacts',fns:['effector','regulator','reviser']},
+  conservator:{name:'Conservator',gloss:"acts, stabilizes, and models, but won't revise — it conserves",fns:['effector','regulator','modeler']},
+  center:{name:'Game-Changer',gloss:'all four functions at once — the leap that resets what is possible',fns:['effector','regulator','modeler','reviser']},
+};
+const TYPENAME = { motivation:'Motivation', tendency:'Tendency', capacity:'Capacity', signature:'Signature', breakthrough:'Breakthrough' };
+const NEWFN_TO_TND = { effector:'tnd.explorer', modeler:'tnd.anticipator', regulator:'tnd.controller', reviser:'tnd.adapter' };
+const SLOT_FN = { 'mot.effector':'effector','mot.regulator':'regulator','mot.modeler':'modeler','mot.reviser':'reviser','tnd.explorer':'effector','tnd.controller':'regulator','tnd.anticipator':'modeler','tnd.adapter':'reviser','cap.reactor':'effector','cap.conservator':'regulator','cap.planner':'modeler','cap.pursuer':'reviser' };
+const clean = (s) => (s||'').replace(/\s*\[DRAFT\]\s*/g,' ').trim();
+const nm = (s) => (s||'').replace('-Human','');
+const pad2 = (n) => String(n).padStart(2,'0');
+
+class Component extends DCLogic {
+  state = { idx: 6, sel: null, mode: 'content', help: false, sysSel: null, modSel: null, pv: 'ancestor', knobUp: {}, knobSel: null, faceAscii: false };
+
+  componentDidMount() {
+    this._poll = () => {
+      if (window.BRAMBLE_FRAMEWORK) { this.forceUpdate(); }
+      else { this._t = setTimeout(this._poll, 60); }
+    };
+    this._poll();
+    this._key = (e) => {
+      const fw = window.BRAMBLE_FRAMEWORK; if (!fw) return;
+      if (e.key === 'ArrowUp') { e.preventDefault(); this.step(1); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); this.step(-1); }
+    };
+    window.addEventListener('keydown', this._key);
+    this.railIntro();
+  }
+  // mobile deep-time rail: on first load, center the default clade (Mammal) and do a
+  // brief left-right-left nudge so it's obvious the rail can be dragged.
+  railIntro() {
+    if (this._railDone) return;
+    const el = document.getElementById('mobRail');
+    const kid = el && el.children[this.state.idx];
+    if (!kid) { this._railTries = (this._railTries || 0) + 1; if (this._railTries < 50) this._rt = setTimeout(() => this.railIntro(), 150); return; }
+    this._railDone = true;
+    const centerLeft = () => { const c = el.getBoundingClientRect(), k = kid.getBoundingClientRect(); return el.scrollLeft + (k.left - c.left) - (el.clientWidth - kid.clientWidth) / 2; };
+    el.scrollLeft = centerLeft();
+    const base = centerLeft();
+    // one continuous per-frame eased oscillation (left → right → settle) rather than three
+    // stacked native smooth-scrolls, which interrupt each other and look jerky.
+    const amp = 56, dur = 1300, t0 = performance.now() + 450;
+    const tick = (now) => {
+      const t = (now - t0) / dur;
+      if (t < 0) { this._raf = requestAnimationFrame(tick); return; }
+      if (t >= 1) { el.scrollLeft = base; return; }
+      const eased = Math.sin(t * Math.PI * 2) * (1 - t); // damped single oscillation
+      el.scrollLeft = base - amp * eased;
+      this._raf = requestAnimationFrame(tick);
+    };
+    this._raf = requestAnimationFrame(tick);
+  }
+  componentWillUnmount() { clearTimeout(this._t); clearTimeout(this._rt); cancelAnimationFrame(this._raf); clearTimeout(this._selTO); window.removeEventListener('keydown', this._key); }
+
+  step(d) {
+    this.setState((s) => {
+      const n = Math.min(11, Math.max(0, s.idx + d));
+      return { idx: n, sel: null };
+    });
+  }
+  goTo(i) { this.setState({ idx: i, sel: null }); }
+  pick(id) { this.setState({ sel: id }); }
+  pickSys(f) { const next = this.state.sysSel === f ? null : f; clearTimeout(this._selTO); this.setState({ sysSel: next, modSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ sysSel: null }), 3000); }
+  pickMod(t) { const next = this.state.modSel === t ? null : t; clearTimeout(this._selTO); this.setState({ modSel: next, sysSel: null }); if (next) this._selTO = setTimeout(() => this.setState({ modSel: null }), 3000); }
+
+  toggleKnob(fn) { this.setState((s) => { const cur = s.knobUp[fn] !== false; const k = Object.assign({}, s.knobUp); k[fn] = !cur; return { knobUp: k, knobSel: fn }; }); }
+
+  // a physical volume knob: pointer swings to an UP detent (upper-left) or DOWN detent (lower-right)
+  dialEl(fn, up, isNew) {
+    const h = React.createElement; const C = 33;
+    const col = FC[fn], br = BRIGHT[fn];
+    const rot = up ? -42 : 132;
+    const els = [];
+    if (isNew && up) els.push(h('circle', { key: 'glow', cx: C, cy: C, r: 29, fill: 'none', stroke: br, strokeWidth: 6, strokeOpacity: 0.16 }));
+    els.push(h('circle', { key: 'body', cx: C, cy: C, r: 29, fill: up ? '#221d15' : '#141009', stroke: isNew ? br : '#4a4234', strokeWidth: isNew ? 2.5 : 1.5 }));
+    for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; els.push(h('line', { key: 'kn' + i, x1: C + Math.cos(a) * 29, y1: C + Math.sin(a) * 29, x2: C + Math.cos(a) * 25, y2: C + Math.sin(a) * 25, stroke: '#0e0b06', strokeWidth: 1.4 })); }
+    const detent = (deg, onWhenUp) => { const a = (deg - 90) * Math.PI / 180; return h('circle', { key: 'dt' + deg, cx: C + Math.cos(a) * 35, cy: C + Math.sin(a) * 35, r: 2.6, fill: (up === onWhenUp) ? br : '#5a513f' }); };
+    els.push(h('g', { key: 'ptr', transform: 'rotate(' + rot + ' ' + C + ' ' + C + ')' }, [h('line', { key: 'p', x1: C, y1: C, x2: C, y2: 9, stroke: up ? br : '#8f8470', strokeWidth: 3.4, strokeLinecap: 'round' })]));
+    els.push(h('circle', { key: 'hub', cx: C, cy: C, r: 7, fill: '#2a241b', stroke: up ? br : '#5a513f', strokeWidth: 1.6 }));
+    els.push(detent(-42, true)); els.push(detent(132, false));
+    return h('svg', { viewBox: '0 0 66 66', style: { width: '66px', height: '66px', display: 'block', overflow: 'visible' } }, els);
+  }
+
+  wrap(label) {
+    const w = label.split(' ');
+    if (w.length > 1 && label.length > 9) {
+      const mid = Math.ceil(w.length / 2);
+      return [w.slice(0, mid).join(' '), w.slice(mid).join(' ')];
+    }
+    return [label];
+  }
+
+  flowerEl(cell, mode, sel, withSig, sysSel, modSel) {
+    if (withSig === undefined) withSig = true;
+    const h = React.createElement;
+    const els = [];
+    ELL.forEach(([f, cx, cy, rx, ry]) => {
+      const isNew = f === cell.newSlot;
+      els.push(h('ellipse', { key: 'e' + f, cx, cy, rx, ry,
+        fill: isNew ? FC[f] : SLATE_FILL, fillOpacity: isNew ? 0.30 : 0.14,
+        stroke: isNew ? FC[f] : '#5a513f', strokeWidth: isNew ? 1.6 : 1.3 }));
+      if (f === sysSel || modSel === 'motivation') {
+        els.push(h('ellipse', { key: 'sysglow' + f, cx, cy, rx: rx + 5, ry: ry + 5, fill: 'none', stroke: BRIGHT[f], strokeWidth: 2, strokeOpacity: 0.35 }));
+        els.push(h('ellipse', { key: 'syssel' + f, cx, cy, rx: rx + 2, ry: ry + 2, fill: 'none', stroke: BRIGHT[f], strokeWidth: 3.5 }));
+      }
+    });
+    const slots = window.BRAMBLE_FRAMEWORK.regionSlots;
+    slots.forEach((slot) => {
+      if (slot.type === 'signature') return;
+      const region = cell.regions[slot.id];
+      if (!region || region.present === false) return;
+      const [x, y] = ANCH[slot.id];
+      const isSel = slot.id === sel;
+      const g = [];
+      let labelFill = '#cabfa6', bold = false, markerR = 22, sticker = false, labelFont = 9;
+      const stickerTnd = NEWFN_TO_TND[cell.newSlot];
+      if (slot.type === 'motivation') {
+        // no inner circle — the label sits directly inside its big function petal
+        markerR = 26;
+        const mf = slot.id.split('.')[1];
+        const lit = mf === cell.newSlot;
+        if (lit) { labelFill = '#f4ead2'; bold = true; }
+        // long single-word motivation labels (e.g. "Universality") would kiss the petal edge — shrink so they keep margin
+        const rlab = mode === 'cybernetic' ? ((ROLES[mf] || {}).name || region.label) : region.label;
+        if (rlab && rlab.indexOf(' ') === -1 && rlab.length > 11) labelFont = 8;
+      } else if (slot.type === 'tendency') {
+        markerR = 24;
+        if (slot.id === stickerTnd) {
+          // Mira relabels this knob — render the tendency as a kraft sticker in the child's hand
+          sticker = true;
+          const lab = mode === 'cybernetic' ? ((ROLES[slot.id.split('.')[1]] || {}).name || region.label) : region.label;
+          const lns = this.wrap(lab);
+          const w = 98, hh = lns.length > 1 ? 40 : 28, rot = -3.5;
+          const inner = [];
+          inner.push(h('rect', { key: 'sb', x: x - w / 2, y: y - hh / 2, width: w, height: hh, rx: 2, fill: '#d8cfae', stroke: '#b3a884', strokeWidth: 1 }));
+          inner.push(h('circle', { key: 'sd', cx: x - w / 2 + 9, cy: y - hh / 2 + 9, r: 4, fill: FC[cell.newSlot], stroke: '#1b1813', strokeWidth: 0.6 }));
+          const lh = 12, sy = y - ((lns.length - 1) * lh) / 2 + 1;
+          inner.push(h('text', { key: 'st', textAnchor: 'middle', style: { fontFamily: "'Shantell Sans',cursive", fontWeight: 600, pointerEvents: 'none' }, fontSize: 11.5, fill: '#43391f' }, lns.map((ln, i) => h('tspan', { key: i, x, y: sy + i * lh }, ln))));
+          g.push(h('g', { key: 'stk', transform: 'rotate(' + rot + ' ' + x + ' ' + y + ')' }, inner));
+          markerR = w / 2;
+        } else {
+          g.push(h('ellipse', { key: 'm', cx: x, cy: y, rx: 32, ry: 24, fill: '#cabfa6', fillOpacity: 0.06, stroke: '#8f8470', strokeWidth: 1 }));
+        }
+      } else if (slot.type === 'capacity') {
+        markerR = 19;
+        g.push(h('circle', { key: 'm', cx: x, cy: y, r: markerR, fill: '#1b1813', fillOpacity: 0.55, stroke: '#8f8470', strokeWidth: 1.25, strokeDasharray: '3 2' }));
+      } else if (slot.type === 'breakthrough') {
+        markerR = 36;
+        g.push(h('circle', { key: 'm', cx: x, cy: y, r: markerR, fill: '#12100b', stroke: '#e7ddc8', strokeWidth: 2.5 }));
+        labelFill = '#9ad6a0'; bold = true;
+      }
+      if (isSel) g.unshift(h('circle', { key: 'r', cx: x, cy: y, r: markerR + 8, fill: 'none', stroke: '#e0a23c', strokeWidth: 2.5, strokeDasharray: '4 3' }));
+      if (modSel && slot.type === modSel && slot.type !== 'motivation') {
+        const mcol = slot.type === 'breakthrough' ? '#f4ead2' : BRIGHT[SLOT_FN[slot.id]];
+        g.unshift(h('circle', { key: 'modsel', cx: x, cy: y, r: markerR + 7, fill: 'none', stroke: mcol, strokeWidth: 3.5 }));
+      }
+      if (!sticker) {
+        const text = mode === 'cybernetic' ? (ROLES[slot.id.split('.')[1]] || {}).name || region.label : region.label;
+        const lines = this.wrap(text);
+        const lh = labelFont + 0.5; const sy = y - ((lines.length - 1) * lh) / 2;
+        g.push(h('text', { key: 't', textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: bold ? 700 : 600, pointerEvents: 'none' }, fontSize: labelFont, fill: labelFill },
+          lines.map((ln, i) => h('tspan', { key: i, x, y: sy + i * lh }, ln))));
+      }
+      g.push(h('circle', { key: 'hit', cx: x, cy: y, r: markerR + 6, fill: 'transparent' }));
+      els.push(h('g', { key: slot.id, onClick: () => this.pick(slot.id), style: { cursor: 'pointer' } }, g));
+    });
+    const crest = (cell.newSlot === 'effector' || cell.newSlot === 'modeler') ? 'connector' : 'operator';
+    const mini = (slotId, cx, cy, label, isCrest) => {
+      const region = cell.regions[slotId];
+      if (!region || region.present === false) return null;
+      const pair = ROLES[slotId.split('.')[1]].fns;
+      const seld = slotId === sel;
+      const fnKey = slotId.split('.')[1];
+      const txt = mode === 'cybernetic' ? ROLES[fnKey].name : (region.label || ROLES[fnKey].name);
+      const r = 22, off = 11;
+      // fixed directionality: connector is vertical (red up / yellow down); operator is horizontal (green left / blue right)
+      const vert = fnKey === 'connector';
+      const cA = vert ? { fn: 'effector', x: cx, y: cy - off } : { fn: 'reviser', x: cx - off, y: cy };
+      const cB = vert ? { fn: 'modeler', x: cx, y: cy + off } : { fn: 'regulator', x: cx + off, y: cy };
+      // z-order: the clade's featured color overlaps on top (more visible in the centre)
+      let lower = cA, upper = cB;
+      if (cA.fn === cell.newSlot) { lower = cB; upper = cA; }
+      const labelY = (vert ? cy + r + off : cy + r) + 20;
+      return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
+        seld ? h('circle', { key: 'r', cx, cy, r: r + 16, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msl', cx: lower.x, cy: lower.y, r, fill: 'none', stroke: BRIGHT[lower.fn], strokeWidth: 3 }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msu', cx: upper.x, cy: upper.y, r, fill: 'none', stroke: BRIGHT[upper.fn], strokeWidth: 3 }) : null,
+        h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
+        h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
+        isCrest ? this.sigStarEl(cx, cy, 13) : null,
+        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 10.5, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
+      ]);
+    };
+    // desktop: signatures sit in a left-hand lane, stacked vertically; flower shifted right to fill the panel
+    if (withSig) {
+      const laneX = -9;
+      els.push(mini(crest === 'connector' ? 'sig.operator' : 'sig.connector', laneX, 210, ROLES[(crest === 'connector' ? 'operator' : 'connector')].name, false));
+      els.push(mini(crest === 'connector' ? 'sig.connector' : 'sig.operator', laneX, 380, ROLES[crest].name, true));
+    }
+    const vb = withSig ? '-62 0 504 456' : '28 0 424 456';
+    const mw = withSig ? '760px' : '440px';
+    return h('svg', { viewBox: vb, style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: mw } }, els);
+  }
+
+  // mobile: the two signature venns, side by side, in their own strip below the flower
+  sigRowEl(cell, mode, sel, modSel) {
+    const h = React.createElement;
+    const crest = (cell.newSlot === 'effector' || cell.newSlot === 'modeler') ? 'connector' : 'operator';
+    const venn = (slotId, cx, cy, isCrest) => {
+      const region = cell.regions[slotId];
+      if (!region || region.present === false) return null;
+      const fnKey = slotId.split('.')[1];
+      const seld = slotId === sel;
+      const txt = mode === 'cybernetic' ? ROLES[fnKey].name : (region.label || ROLES[fnKey].name);
+      const r = 20, off = 10;
+      const vert = fnKey === 'connector';
+      const cA = vert ? { fn: 'effector', x: cx, y: cy - off } : { fn: 'reviser', x: cx - off, y: cy };
+      const cB = vert ? { fn: 'modeler', x: cx, y: cy + off } : { fn: 'regulator', x: cx + off, y: cy };
+      let lower = cA, upper = cB;
+      if (cA.fn === cell.newSlot) { lower = cB; upper = cA; }
+      const labelY = cy + (vert ? r + off : r) + 17;
+      return h('g', { key: slotId, onClick: () => this.pick(slotId), style: { cursor: 'pointer' } }, [
+        seld ? h('circle', { key: 'r', cx, cy, r: r + 13, fill: 'none', stroke: '#e0a23c', strokeWidth: 2, strokeDasharray: '3 3' }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msl', cx: lower.x, cy: lower.y, r, fill: 'none', stroke: BRIGHT[lower.fn], strokeWidth: 3 }) : null,
+        modSel === 'signature' ? h('circle', { key: 'msu', cx: upper.x, cy: upper.y, r, fill: 'none', stroke: BRIGHT[upper.fn], strokeWidth: 3 }) : null,
+        h('circle', { key: 'lo', cx: lower.x, cy: lower.y, r, fill: FC[lower.fn], fillOpacity: 0.5, stroke: '#3a3227', strokeWidth: 1.25 }),
+        h('circle', { key: 'up', cx: upper.x, cy: upper.y, r, fill: FC[upper.fn], fillOpacity: 0.72, stroke: '#3a3227', strokeWidth: 1.25 }),
+        isCrest ? this.sigStarEl(cx, cy, 11) : null,
+        h('text', { key: 't', x: cx, y: labelY, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace" }, fontSize: 10, fill: isCrest ? '#f0e6d0' : '#8f8470' }, txt),
+      ]);
+    };
+    const first = crest === 'connector' ? 'sig.operator' : 'sig.connector';
+    const second = crest === 'connector' ? 'sig.connector' : 'sig.operator';
+    return h('svg', { viewBox: '0 0 308 104', style: { width: '100%', height: 'auto', display: 'block', overflow: 'visible', maxWidth: '300px', margin: '0 auto' } }, [
+      venn(first, 82, 42, false),
+      venn(second, 226, 42, true),
+    ]);
+  }
+
+  star(cx, cy, oR, iR, rot, spikes) {
+    spikes = spikes || 5;
+    let d = '', ang = rot - Math.PI / 2; const step = Math.PI / spikes;
+    for (let k = 0; k < spikes; k++) {
+      let x = cx + Math.cos(ang) * oR, y = cy + Math.sin(ang) * oR; d += (k ? ' L' : 'M') + x.toFixed(2) + ' ' + y.toFixed(2);
+      ang += step; x = cx + Math.cos(ang) * iR; y = cy + Math.sin(ang) * iR; d += ' L' + x.toFixed(2) + ' ' + y.toFixed(2);
+      ang += step;
+    }
+    return d + 'Z';
+  }
+  hash(i) { const x = Math.sin(i * 127.1 + 11.7) * 43758.5453; return x - Math.floor(x); }
+  // layered green sepal star (same shape as the logo berry's calyx) — marks the signature
+  sigStarEl(cx, cy, R) {
+    const h = React.createElement;
+    // black sepal star (logo-stem shape) with a thin bone rim for legibility on the colored overlap
+    return h('g', { key: 'sig' }, [
+      h('path', { key: 'o', d: this.star(cx, cy, R, R * 0.37, 0, 6), fill: '#12100b', stroke: '#cabfa6', strokeWidth: Math.max(0.8, R * 0.06), strokeLinejoin: 'round' }),
+    ]);
+  }
+  sigStarLegendEl() {
+    const h = React.createElement;
+    return h('svg', { width: 17, height: 17, viewBox: '0 0 24 24', style: { flex: 'none', overflow: 'visible' } }, this.sigStarEl(12, 12, 10.5));
+  }
+  // canonical brand mark — organic top-view aggregate berry (the locked "Bramble" logo). Off-palette by design; distinct from the function-color data marks.
+  glyphEl(size) {
+    const h = React.createElement;
+    const V = 200, C = V / 2;
+    const cols = ['#c0392b', '#345089', '#d2742a', '#2f7d5a']; // ripe logo palette: red, indigo, orange, teal
+    let k = 3 * 97 + 3;
+    const rnd = () => { k++; return this.hash(k); };
+    const colorAt = (x, y) => { const ang = (Math.atan2(x - C, -(y - C)) * 180 / Math.PI + 360) % 360; return cols[Math.floor(((ang + 45) % 360) / 90)]; };
+    // 4 drupelets per colour, spread across the width of each colour's 90° wedge → packed top-down berry
+    const slots = [{ da: -30, rr: 55, br: 27 }, { da: 30, rr: 52, br: 27 }, { da: -18, rr: 30, br: 25 }, { da: 20, rr: 29, br: 25 }];
+    const drupes = [];
+    for (let q = 0; q < 4; q++) {
+      const centerDeg = q * 90;
+      slots.forEach((s) => {
+        const angDeg = centerDeg + s.da + (rnd() - 0.5) * 14;
+        const a = angDeg * Math.PI / 180;
+        const rad = s.rr * (1 + (rnd() - 0.5) * 0.2);
+        const x = C + Math.sin(a) * rad, y = C - Math.cos(a) * rad;
+        drupes.push({ x, y, r: s.br * (0.85 + rnd() * 0.3), color: colorAt(x, y) });
+      });
+    }
+    drupes.sort((p, q) => Math.hypot(q.x - C, q.y - C) - Math.hypot(p.x - C, p.y - C));
+    const els = [];
+    els.push(h('ellipse', { key: 'sh', cx: C + 4, cy: C + 10, rx: 86, ry: 80, fill: '#000', fillOpacity: 0.16 }));
+    drupes.forEach((d, idx) => {
+      const dark = this.shade(d.color, -0.36), lite = this.shade(d.color, 0.46);
+      els.push(h('g', { key: 'd' + idx }, [
+        h('circle', { cx: d.x, cy: d.y, r: d.r, fill: d.color, stroke: dark, strokeWidth: 1 }),
+        h('circle', { cx: d.x + d.r * 0.18, cy: d.y + d.r * 0.2, r: d.r * 0.72, fill: dark, fillOpacity: 0.28 }),
+        h('circle', { cx: d.x - d.r * 0.28, cy: d.y - d.r * 0.32, r: d.r * 0.34, fill: lite, fillOpacity: 0.82 }),
+        h('circle', { cx: d.x - d.r * 0.4, cy: d.y - d.r * 0.42, r: d.r * 0.13, fill: '#fff', fillOpacity: 0.7 }),
+      ]));
+    });
+    const cx = C + (rnd() - 0.5) * 5, cy = C + (rnd() - 0.5) * 5, rot = rnd() * Math.PI * 2;
+    const gDark = '#4f8f37', gMid = '#86c93f', gLite = '#c6e98a';
+    els.push(h('path', { key: 'cb', d: this.star(cx, cy, 35, 11, rot, 6), fill: gDark }));
+    els.push(h('path', { key: 'cf', d: this.star(cx, cy, 30, 13, rot + 0.27, 6), fill: gMid, stroke: this.shade(gDark, -0.1), strokeWidth: 0.6, strokeLinejoin: 'round' }));
+    els.push(h('path', { key: 'ci', d: this.star(cx, cy, 16, 6.5, rot + 0.12, 6), fill: gLite, fillOpacity: 0.5 }));
+    els.push(h('circle', { key: 'cn', cx, cy, r: 5.8, fill: gMid, stroke: gDark, strokeWidth: 0.9 }));
+    els.push(h('circle', { key: 'cnh', cx: cx - 1.7, cy: cy - 1.9, r: 2.3, fill: gLite, fillOpacity: 0.92 }));
+    return h('svg', { viewBox: '0 0 ' + V + ' ' + V, style: { width: size + 'px', height: size + 'px', flex: 'none', overflow: 'visible' } }, els);
+  }
+
+  shade(hex, amt) {
+    const n = parseInt(hex.slice(1), 16);
+    let r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+    const f = (v) => Math.max(0, Math.min(255, Math.round(amt < 0 ? v * (1 + amt) : v + (255 - v) * amt)));
+    return '#' + [f(r), f(g), f(b)].map((v) => v.toString(16).padStart(2, '0')).join('');
+  }
+  rnd(s) { const x = Math.sin((s + 1) * 99.13) * 43758.5453; return x - Math.floor(x); }
+  // four function circles (red top / blue right / yellow bottom / green left); lit if in the panel's functions-in-play, else slate
+  funcGlyphEl(activeFns, size) {
+    const h = React.createElement;
+    const C = 28, R = 12, d = 14;
+    const defs = [['effector', 0, -d], ['regulator', d, 0], ['modeler', 0, d], ['reviser', -d, 0]];
+    const els = defs.map(([fn, dx, dy]) => {
+      const on = (activeFns || []).includes(fn);
+      return h('circle', { key: fn, cx: C + dx, cy: C + dy, r: R, fill: on ? FC[fn] : '#5a513f', fillOpacity: on ? 0.95 : 1, stroke: '#1b1813', strokeWidth: 1.5 });
+    });
+    return h('svg', { viewBox: '0 0 56 56', style: { width: size + 'px', height: size + 'px', flex: 'none' } }, els);
+  }
+  railEl(cells, active, stackOf, tintByNew) {
+    const h = React.createElement;
+    const CX = 124, yT = 58, yB = 708, HW_B = 66, HW_T = 7;
+    const y = (i) => 700 - i * 58;
+    const hw = (yy) => HW_B + (HW_T - HW_B) * ((yB - yy) / (yB - yT));
+    // left→right: green(reviser) red(effector) yellow(modeler) blue(regulator)
+    const OFF = { reviser: -1, effector: -0.42, modeler: 0.42, regulator: 1 };
+    // fake 3D depth: yellow nearest (down to BOTTOM of lowest hoop), blue farthest (just the TOP); reds/greens mid
+    const ROD_BOT = { modeler: 711, effector: 701, reviser: 700, regulator: 690 };
+    const labelX = 206;
+    const back = [], mids = [], front = [], rodTops = [];
+
+    // ---- GROUND: the whole trellis is planted in a bed of warm, tilled earth ----
+    const GS = 712; // nominal soil surface
+    const soilTop = `M 0 ${GS + 6} C 42 ${GS - 4} 82 ${GS + 8} 122 ${GS} C 166 ${GS - 8} 214 ${GS + 6} 262 ${GS - 2} C 306 ${GS - 8} 342 ${GS + 6} 372 ${GS - 1}`;
+    back.push(h('path', { key: 'soilFill', d: `${soilTop} L 372 772 L 0 772 Z`, fill: '#2c2114' }));
+    // a damper, darker layer lower down
+    back.push(h('path', { key: 'soilDeep', d: 'M 0 748 C 90 740 150 756 220 748 C 290 741 330 752 372 746 L 372 772 L 0 772 Z', fill: '#1f1710' }));
+    // tilled crest highlights along the surface
+    back.push(h('path', { key: 'soilLip', d: soilTop, fill: 'none', stroke: '#4d3d28', strokeWidth: 2, strokeLinecap: 'round', strokeOpacity: 0.9 }));
+    back.push(h('path', { key: 'soilLip2', d: soilTop, fill: 'none', stroke: '#5e4a30', strokeWidth: 0.8, strokeOpacity: 0.6, transform: 'translate(0 -2.5)' }));
+    // pebbles + clods
+    const PEB = [[24, 742, 3.2], [58, 758, 2.2], [86, 730, 2.6], [150, 752, 3.4], [188, 736, 2], [232, 760, 2.8], [300, 744, 3], [336, 730, 2.4], [356, 758, 2], [112, 764, 2.4], [268, 730, 2.2], [44, 726, 1.8]];
+    PEB.forEach((p, i) => {
+      back.push(h('ellipse', { key: 'peb' + i, cx: p[0], cy: p[1], rx: p[2], ry: p[2] * 0.72, fill: i % 2 ? '#4a3d29' : '#574936', stroke: '#241b11', strokeWidth: 0.5, fillOpacity: 0.92 }));
+      back.push(h('ellipse', { key: 'pebh' + i, cx: p[0] - p[2] * 0.3, cy: p[1] - p[2] * 0.3, rx: p[2] * 0.4, ry: p[2] * 0.28, fill: '#6b5a41', fillOpacity: 0.5 }));
+    });
+    // faint scattered grit
+    for (let i = 0; i < 40; i++) { const gx = this.hash(i * 13 + 3) * 372, gy = GS + 8 + this.hash(i * 7 + 9) * (772 - GS - 10); back.push(h('circle', { key: 'gr' + i, cx: +gx.toFixed(1), cy: +gy.toFixed(1), r: 0.7, fill: '#3a2e1e', fillOpacity: 0.65 })); }
+    // small heaps of earth pile at the foot of each rod (pushed last, above the foliage)
+    const mounds = [];
+    const heap = (mx, my, key) => {
+      mounds.push(h('path', { key: 'md' + key, d: `M ${mx - 15} ${my + 5} Q ${mx - 6} ${my - 9} ${mx} ${my - 9} Q ${mx + 6} ${my - 9} ${mx + 15} ${my + 5} Q ${mx} ${my} ${mx - 15} ${my + 5} Z`, fill: '#3a2c1b', stroke: '#241b11', strokeWidth: 0.6 }));
+      mounds.push(h('path', { key: 'mdh' + key, d: `M ${mx - 11} ${my - 1} Q ${mx} ${my - 7} ${mx + 11} ${my - 1}`, fill: 'none', stroke: '#5e4a30', strokeWidth: 1, strokeOpacity: 0.7 }));
+    };
+
+    // ---- tapered tier bands (genetic / neuronal / symbolic) ----
+    [['symbolic', '#7e5a86', '#8a6f96'], ['neuronal', '#2f6f9e', '#5e88ad'], ['genetic', '#8a6a43', '#a3835a']].forEach(([line, tint, lab]) => {
+      const ys = cells.filter((c) => c.line === line).map((c) => y(c.index));
+      if (!ys.length) return;
+      const top = Math.min(...ys) - 29, bot = Math.max(...ys) + 29, mid = (top + bot) / 2;
+      mids.push(h('text', { key: 'bl' + line, x: 46, y: mid, transform: `rotate(-90 46 ${mid})`, textAnchor: 'middle', style: { fontFamily: "'IBM Plex Mono',monospace", letterSpacing: '0.24em' }, fontSize: 13.5, fill: '#f0e6d0' }, line.toUpperCase()));
+    });
+
+    // ---- four function rods (tapering toward the finial) ----
+    // each colored line: rod (finial→hoop) + leg (→splayed foot). Legs end below the bottom berry; red highest (furthest), yellow lowest (nearest).
+    // each colored line: rod (finial→hoop) + leg driven down into the earth.
+    const FOOT = { reviser: [-1.28, 748], effector: [-0.34, 742], modeler: [0.34, 758], regulator: [1.28, 752] };
+    Object.entries(OFF).forEach(([f, o]) => {
+      const yb = ROD_BOT[f], bx = CX + o * hw(yb);
+      front.push(h('line', { key: 's' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 2.2, strokeOpacity: 0.9, strokeLinecap: 'round' }));
+      // crisp overlay re-drawn ON TOP of the foliage so each function rod stays traceable through the vine
+      rodTops.push(h('line', { key: 'st' + f, x1: CX + o * hw(yT), y1: yT, x2: bx, y2: yb, stroke: FC[f], strokeWidth: 1.7, strokeOpacity: 0.95, strokeLinecap: 'round' }));
+      const fa = FOOT[f], fx = CX + fa[0] * HW_B, ey = fa[1];
+      // leg carries the rod down to its foot, planted on the ground
+      front.push(h('line', { key: 'leg' + f, x1: bx, y1: yb, x2: fx, y2: ey, stroke: FC[f], strokeWidth: 2.4, strokeOpacity: 0.92, strokeLinecap: 'round' }));
+      heap(fx, ey, f); // a heap of earth at the foot of the rod
+    });
+
+    // ---- (finial cap removed: the vine itself crowns the trellis, blooming above the top hoop) ----
+
+
+    // ---- climbing vine: grows on load, coiling up the trellis and touching each new-function dot ----
+    const vOrder = cells.slice().sort((a, b) => a.index - b.index);
+    const vpts = vOrder.map((c) => {
+      const cyy = y(c.index), ona = c.index === active;
+      const rxx = hw(cyy) + (ona ? 6 : 3), ryy = ona ? 8 : 7;
+      const nxx = CX + OFF[c.newSlot] * hw(cyy);
+      const revD = ryy * Math.sqrt(Math.max(0, 1 - (hw(cyy) / rxx) ** 2));
+      const ndyy = c.newSlot === 'effector' ? -ryy : c.newSlot === 'modeler' ? ryy : c.newSlot === 'reviser' ? revD : 0;
+      return { x: nxx, y: cyy + ndyy };
+    });
+    const vStart = { x: CX, y: 720 };
+    const vnodes = vpts.slice(1);
+    const segs = [];
+    let vd = `M ${vnodes[0].x.toFixed(1)} ${vnodes[0].y.toFixed(1)}`;
+    for (let i = 1; i < vnodes.length; i++) {
+      const p0 = vnodes[i - 1], p1 = vnodes[i];
+      const midY = (p0.y + p1.y) / 2;
+      const side = i % 2 === 1 ? 1 : -1; // clean coil swinging to alternating sides of the axis
+      const bx = CX + side * hw(midY) * 1.05;
+      const c1 = { x: p0.x + (bx - p0.x) * 0.6, y: p0.y + (p1.y - p0.y) * 0.28 };
+      const c2 = { x: p1.x + (bx - p1.x) * 0.6, y: p0.y + (p1.y - p0.y) * 0.72 };
+      vd += ` C ${c1.x.toFixed(1)} ${c1.y.toFixed(1)} ${c2.x.toFixed(1)} ${c2.y.toFixed(1)} ${p1.x.toFixed(1)} ${p1.y.toFixed(1)}`;
+      const len = Math.hypot(p1.x - p0.x, p1.y - p0.y) + Math.abs(bx - (p0.x + p1.x) / 2) * 0.8;
+      segs.push({ p0, c1, c2, p1, len });
+    }
+    // carry the stem past the top dot up to the finial, where it curls into a tendril and blooms
+    const vTop = vpts[vpts.length - 1];
+    vd += ` C ${vTop.x.toFixed(1)} ${(vTop.y - 16).toFixed(1)} ${(CX - 5).toFixed(1)} 34 ${CX} 36`;
+    const totalLen = segs.reduce((a, s) => a + s.len, 0) || 1;
+    const cumBefore = []; { let a = 0; segs.forEach((s) => { cumBefore.push(a); a += s.len; }); }
+    const VGRN = '#7fb069', VDRK = '#3f6b39', VBRN = '#7a5836', VBDK = '#4a3620', VLIT = '#bfe38f', VDUR = 3;
+    const reduce = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const bez = (s, t) => { const u = 1 - t, a = u * u * u, b = 3 * u * u * t, c = 3 * u * t * t, d = t * t * t; return { x: a * s.p0.x + b * s.c1.x + c * s.c2.x + d * s.p1.x, y: a * s.p0.y + b * s.c1.y + c * s.c2.y + d * s.p1.y }; };
+    const bezAng = (s, t) => { const u = 1 - t; const dx = 3 * u * u * (s.c1.x - s.p0.x) + 6 * u * t * (s.c2.x - s.c1.x) + 3 * t * t * (s.p1.x - s.c2.x); const dy = 3 * u * u * (s.c1.y - s.p0.y) + 6 * u * t * (s.c2.y - s.c1.y) + 3 * t * t * (s.p1.y - s.c2.y); return Math.atan2(dy, dx); };
+    // small leaf, baked at (px,py) pointing along ang; CSS pops it in, then it idly sways. `lit` = near the selected rung → brighter & larger
+    const leaf = (key, px, py, ang, L, delay, lit) => {
+      const LL = lit ? L * 1.3 : L;
+      const c = Math.cos(ang), s = Math.sin(ang), W = LL * 0.42;
+      const P = (dx, dy) => `${(px + dx * c - dy * s).toFixed(1)} ${(py + dx * s + dy * c).toFixed(1)}`;
+      const swDur = (2.2 + this.hash(Math.round(px * 13 + py * 7)) * 2.2).toFixed(2);
+      const swDelay = (2.5 + this.hash(Math.round(px * 5 + py * 11)) * 1.2).toFixed(2); // desync so leaves don't sway in unison
+      const anim = `leafPop .5s cubic-bezier(.3,1.4,.5,1) ${delay.toFixed(2)}s forwards, leafSway ${swDur}s ease-in-out ${swDelay}s infinite`;
+      const st = reduce ? { opacity: 1, animation: 'none' } : { '--lr': '0deg', transformBox: 'fill-box', transformOrigin: 'center', animation: anim };
+      return h('path', { key, className: 'vine-leaf', d: `M ${P(0, 0)} Q ${P(LL * 0.5, -W)} ${P(LL, 0)} Q ${P(LL * 0.5, W)} ${P(0, 0)} Z`, fill: lit ? VLIT : VGRN, stroke: VDRK, strokeWidth: 0.6, style: st });
+    };
+    const litOf = (yy) => Math.abs(yy - y(active)) < 30; // leaves near the selected cell perk up
+    // clean woody coiling stem (no glow)
+    front.push(h('path', { key: 'vine-stem', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBRN, strokeWidth: 2.8, strokeLinecap: 'round' }));
+    front.push(h('path', { key: 'vine-stem2', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBDK, strokeWidth: 1, strokeLinecap: 'round', strokeOpacity: 0.55 }));
+    // lifelike woody trunk: follows the vine line from the archaeon dot, down
+    // through the prokaryote dot, then flares as it curves into the ground.
+    {
+      const A = vpts[1], B = vpts[0], G = { x: 90, y: 734 };
+      // arc the archaeon→prokaryote run outward with a bowed midpoint knot
+      const M = { x: 152, y: 676 };
+      const K = [A, M, B, G];
+      const P = [K[0], ...K, K[K.length - 1]]; // Catmull-Rom with duplicated ends
+      const cr = (p0, p1, p2, p3, t) => { const t2 = t * t, t3 = t2 * t; return {
+        x: 0.5 * (2 * p1.x + (-p0.x + p2.x) * t + (2 * p0.x - 5 * p1.x + 4 * p2.x - p3.x) * t2 + (-p0.x + 3 * p1.x - 3 * p2.x + p3.x) * t3),
+        y: 0.5 * (2 * p1.y + (-p0.y + p2.y) * t + (2 * p0.y - 5 * p1.y + 4 * p2.y - p3.y) * t2 + (-p0.y + 3 * p1.y - 3 * p2.y + p3.y) * t3) }; };
+      const SP = K.length - 1, N = 12 * SP, cl = [];
+      for (let k = 0; k <= N; k++) { const uu = (k / N) * SP; const sp = Math.min(SP - 1, Math.floor(uu)), lt = uu - sp; const c = cr(P[sp], P[sp + 1], P[sp + 2], P[sp + 3], lt); cl.push({ x: c.x, y: c.y, u: k / N }); }
+      const wAt = (u) => 1.6 + 8.6 * Math.pow(u, 1.7); // thin at the top, flaring at the base
+      const Lp = [], Rp = [];
+      for (let k = 0; k <= N; k++) { const p = cl[k], a = cl[Math.max(0, k - 1)], b = cl[Math.min(N, k + 1)]; let tx = b.x - a.x, ty = b.y - a.y; const tl = Math.hypot(tx, ty) || 1; tx /= tl; ty /= tl; const nx = -ty, ny = tx, hw2 = wAt(p.u) / 2; Lp.push([+(p.x + nx * hw2).toFixed(1), +(p.y + ny * hw2).toFixed(1)]); Rp.push([+(p.x - nx * hw2).toFixed(1), +(p.y - ny * hw2).toFixed(1)]); }
+      let td = 'M ' + Lp[0][0] + ' ' + Lp[0][1];
+      for (let k = 1; k <= N; k++) td += ' L ' + Lp[k][0] + ' ' + Lp[k][1];
+      for (let k = N; k >= 0; k--) td += ' L ' + Rp[k][0] + ' ' + Rp[k][1];
+      td += ' Z';
+      front.push(h('path', { key: 'vine-trunk', d: td, fill: VBRN, stroke: VBDK, strokeWidth: 0.8, strokeLinejoin: 'round' }));
+      // bark shadow down the centre gives the trunk roundness
+      let sd = 'M ' + cl[0].x.toFixed(1) + ' ' + cl[0].y.toFixed(1);
+      for (let k = 1; k <= N; k++) sd += ' L ' + cl[k].x.toFixed(1) + ' ' + cl[k].y.toFixed(1);
+      front.push(h('path', { key: 'vine-trunk-sh', d: sd, fill: 'none', stroke: VBDK, strokeWidth: 1.6, strokeOpacity: 0.5, strokeLinecap: 'round' }));
+      // leaves sprouting along the trunk — including the archaeon→prokaryote arc
+      [0.14, 0.22, 0.31, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8, 0.88].forEach((u, i) => { const k = Math.round(u * N), p = cl[k], a = cl[Math.max(0, k - 1)], b = cl[Math.min(N, k + 1)]; const ang = Math.atan2(b.y - a.y, b.x - a.x) + (i % 2 ? 1 : -1) * 1.05; front.push(leaf('trlf' + i, p.x, p.y, ang, 8 + (i % 3) * 0.9, 0, litOf(p.y))); });
+    }
+    // lots of little leaves + dense green branch twigs, sprouting as the tip passes
+    let lc = 0, sideFlip = 1;
+    const LT = [0.1, 0.3, 0.5, 0.7, 0.9];
+    segs.forEach((s, si) => {
+      LT.forEach((t) => {
+        const p = bez(s, t), ang = bezAng(s, t);
+        sideFlip *= -1;
+        const out = ang + sideFlip * (Math.PI / 2) * 0.72;
+        const L = 8 + (hw(p.y) / HW_B) * 7.5;
+        const frac = (cumBefore[si] + t * s.len) / totalLen;
+        front.push(leaf('vlf' + (lc++), p.x, p.y, out, L, frac * VDUR * 0.95, litOf(p.y)));
+      });
+      // dense green branch twigs, each ending in its own leaf
+      const NT = 8; // ~75% of the previous density (was 10)
+      for (let k = 0; k < NT; k++) {
+        const t = 0.06 + (k / (NT - 1)) * 0.88;
+        const p = bez(s, t), ang = bezAng(s, t);
+        const bside = ((si + k) % 2 === 0) ? 1 : -1;
+        const j = this.hash(si * 37 + k * 7) - 0.5;
+        const out = ang + bside * (Math.PI / 2) * (0.7 + j * 0.4);
+        const tlen = 8 + (hw(p.y) / HW_B) * 7 + j * 4;
+        const ex = p.x + Math.cos(out) * tlen, ey = p.y + Math.sin(out) * tlen;
+        const cxb = p.x + Math.cos(out) * tlen * 0.5 - Math.sin(out) * bside * 3;
+        const cyb = p.y + Math.sin(out) * tlen * 0.5 + Math.cos(out) * bside * 3;
+        const frac = (cumBefore[si] + t * s.len) / totalLen;
+        const twSwD = (2.6 + Math.abs(j) * 2).toFixed(2);
+        const twStyle = reduce ? {} : { transformBox: 'fill-box', transformOrigin: 'center', animation: `vineGrow .5s ease-out ${(frac * VDUR).toFixed(2)}s forwards, twigSway ${twSwD}s ease-in-out ${(frac * VDUR + 0.5).toFixed(2)}s infinite` };
+        front.push(h('path', { key: `vtw${si}_${k}`, className: 'vine-twig', d: `M ${p.x.toFixed(1)} ${p.y.toFixed(1)} Q ${cxb.toFixed(1)} ${cyb.toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}`, pathLength: 1, fill: 'none', stroke: VGRN, strokeWidth: 1.3, strokeLinecap: 'round', style: twStyle }));
+        if (k % 2 === 0) front.push(leaf(`vtwl${si}_${k}`, ex, ey, out, 7.5 + (hw(ey) / HW_B) * 5.25, frac * VDUR + 0.2, litOf(ey)));
+      }
+    });
+    // tendril curl off the stem, just below the cluster
+    front.push(h('path', { key: 'vtendril', className: 'vine-twig', d: `M ${CX} 42 C ${CX + 10} 40 ${CX + 12} 33 ${CX + 4} 32 C ${CX - 2} 31.4 ${CX - 1} 37 ${CX + 4} 37.3`, pathLength: 1, fill: 'none', stroke: VGRN, strokeWidth: 1.5, strokeLinecap: 'round', style: reduce ? {} : { animation: `vineGrow .7s ease-out ${(VDUR - 0.4).toFixed(2)}s forwards` } }));
+    // bramble bloom cluster crowning the vine above the trellis — pale blossoms, green buds, one ripe berry
+    const clusterEls = [];
+    const node = { x: CX, y: 36 };
+    const sLeaf = (kx, ky, ang, L) => { const c = Math.cos(ang), s = Math.sin(ang), W = L * 0.42; const P = (dx, dy) => `${(kx + dx * c - dy * s).toFixed(1)} ${(ky + dx * s + dy * c).toFixed(1)}`; return h('path', { key: 'sl' + kx + '_' + ky, d: `M ${P(0, 0)} Q ${P(L * 0.5, -W)} ${P(L, 0)} Q ${P(L * 0.5, W)} ${P(0, 0)} Z`, fill: VGRN, stroke: VDRK, strokeWidth: 0.5 }); };
+    const pedicel = (x, yy) => clusterEls.push(h('path', { key: 'ped' + x + '_' + yy, d: `M ${node.x} ${node.y} Q ${((node.x + x) / 2).toFixed(1)} ${((node.y + yy) / 2 - 2).toFixed(1)} ${x} ${yy}`, fill: 'none', stroke: VBRN, strokeWidth: 1.1, strokeLinecap: 'round' }));
+    const blossom = (kx, ky, sc, pink) => { const pc = pink ? '#e9c6d6' : '#f3edf0', pe = pink ? '#c98fae' : '#d7cad3'; const g = []; for (let i = 0; i < 5; i++) { const a = -Math.PI / 2 + i * (2 * Math.PI / 5); g.push(h('circle', { key: 'pt' + i, cx: +(kx + Math.cos(a) * 3.2 * sc).toFixed(1), cy: +(ky + Math.sin(a) * 3.2 * sc).toFixed(1), r: 3.1 * sc, fill: pc, stroke: pe, strokeWidth: 0.5 })); } g.push(h('circle', { key: 'ce', cx: kx, cy: ky, r: 2 * sc, fill: '#c9d16f', stroke: '#93994a', strokeWidth: 0.4 })); for (let i = 0; i < 6; i++) { const a = i * (Math.PI / 3); g.push(h('circle', { key: 'sm' + i, cx: +(kx + Math.cos(a) * 1.5 * sc).toFixed(1), cy: +(ky + Math.sin(a) * 1.5 * sc).toFixed(1), r: 0.5 * sc, fill: '#6f5a24' })); } return h('g', { key: 'bl' + kx + '_' + ky }, g); };
+    const berry = (kx, ky, sc, ripe) => { const g = []; const base = ripe ? '#3a2540' : '#8fae52', dk = ripe ? '#241531' : '#5f7d34', hi = ripe ? '#7a5c86' : '#b6cd7e'; const pts = [[0, -2], [-1.8, -0.6], [1.8, -0.6], [-1.1, 1.3], [1.1, 1.3], [0, 0.3]]; pts.forEach((p, i) => { g.push(h('circle', { key: 'd' + i, cx: +(kx + p[0] * sc).toFixed(1), cy: +(ky + p[1] * sc).toFixed(1), r: 1.7 * sc, fill: base, stroke: dk, strokeWidth: 0.4 })); g.push(h('circle', { key: 'dh' + i, cx: +(kx + p[0] * sc - 0.5).toFixed(1), cy: +(ky + p[1] * sc - 0.5).toFixed(1), r: 0.55 * sc, fill: hi, fillOpacity: 0.7 })); }); return h('g', { key: 'be' + kx + '_' + ky }, g); };
+    [[CX - 12, 16], [CX + 11, 13], [CX - 1, 7], [CX + 14, 25], [CX - 13, 26], [CX + 5, 28]].forEach((p) => pedicel(p[0], p[1]));
+    clusterEls.push(sLeaf(CX - 7, 40, Math.PI * 1.12, 8));
+    clusterEls.push(sLeaf(CX + 8, 41, Math.PI * -0.12, 8));
+    clusterEls.push(berry(CX + 14, 25, 1.0, false));
+    clusterEls.push(berry(CX - 13, 26, 0.9, false));
+    clusterEls.push(berry(CX + 5, 28, 1.05, true));
+    clusterEls.push(blossom(CX - 12, 16, 1.2, true));
+    clusterEls.push(blossom(CX + 11, 13, 1.0, true));
+    clusterEls.push(blossom(CX - 1, 7, 0.9, false));
+    front.push(h('g', { key: 'vbloom', className: 'vine-bloom', style: { transformBox: 'fill-box', transformOrigin: 'center bottom', animationDelay: (VDUR - 0.1).toFixed(2) + 's' } }, clusterEls));
+    // selection spark: a bright ripple at the chosen rung (replays whenever the selection changes)
+    const aDot = vpts[active];
+    if (aDot) front.push(h('circle', { key: `vspark-${active}`, className: 'vine-spark', cx: aDot.x, cy: aDot.y, r: 10, fill: 'none', stroke: FC[vOrder[active].newSlot], strokeWidth: 2 }));
+
+    // rod overlays sit above the foliage but below the hoops/nodes drawn next
+    rodTops.forEach((e) => front.push(e));
+    // heaped earth mounds cover where the legs and vine drive into the ground
+    mounds.forEach((e) => front.push(e));
+
+    // ---- per-cell dot-size overrides ----
+    const idxOf = {}; cells.forEach((c) => { idxOf[c.id] = c.index; });
+    // a cell's default (non-active) node radius, given only its index
+    const baseR = (i) => Math.max(3.5, Math.min(10.5 * (0.8 + this.rnd(i) * 0.5), hw(y(i)) * 0.36));
+    const CELL_FIXED = { prokaryote: 0.5, eumetazoa: 0.75, eukaryote: 0.75, mammal: 1.15 };
+    // make this cell's dot exactly match another cell's current default size
+    const CELL_MATCH = { vertebrate: 'archaeon', archaeon: 'mammal', primate: 'band', band: 'primate' };
+    // a cell's CURRENT default radius, honouring the overrides above
+    const curR = (id) => CELL_FIXED[id] ? baseR(idxOf[id]) * CELL_FIXED[id]
+      : CELL_MATCH[id] ? baseR(idxOf[CELL_MATCH[id]]) : baseR(idxOf[id]);
+    // absolute target radii
+    const CELL_TARGET = { bilaterian: (curR('eumetazoa') + curR('vertebrate')) / 2 };
+    // ---- hoops + nodes + labels per cell ----
+    cells.forEach((c) => {
+      const cy = y(c.index), on = c.index === active;
+      const rx = hw(cy) + (on ? 6 : 3), ry = on ? 8 : 7;
+      const nx = CX + OFF[c.newSlot] * hw(cy);
+      const g = [];
+      g.push(h('line', { key: 'ld', x1: CX + hw(cy) + 4, y1: cy, x2: labelX - 7, y2: cy, stroke: on ? '#f0e6d0' : '#3a3227', strokeWidth: 1, strokeOpacity: on ? 0.7 : 0.6, strokeDasharray: on ? null : '2 3' }));
+      g.push(h('ellipse', { key: 'ring', cx: CX, cy, rx, ry, fill: on ? '#f0e6d0' : 'none', fillOpacity: on ? 0.06 : 1, stroke: on ? '#f0e6d0' : '#6f6552', strokeWidth: on ? 2 : 1.5 }));
+      const bf = 0.8 + this.rnd(c.index) * 0.5;
+      // Per-cell hand-tuned dot-size overrides.
+      let cs = CELL_FIXED[c.id] || 1;
+      if (CELL_MATCH[c.id]) cs = baseR(idxOf[CELL_MATCH[c.id]]) / baseR(c.index);
+      if (CELL_TARGET[c.id] != null) cs = CELL_TARGET[c.id] / baseR(c.index);
+      // Taper the dot with the hoop's perspective width so upper cells read as
+      // farther away and their dots never crowd the neighbouring colored rods.
+      const R = Math.max(3.5, Math.min((on ? 13 : 10.5) * bf, hw(cy) * 0.36)) * cs;
+      // Seat reviser (leftmost tip) on the oval's LOWER rim at its x so the dot
+      // sits on the bottom corner of the hoop rather than floating above it.
+      const revDown = ry * Math.sqrt(Math.max(0, 1 - (hw(cy) / rx) ** 2));
+      const ndy = c.newSlot === 'effector' ? -ry : c.newSlot === 'modeler' ? ry : c.newSlot === 'reviser' ? revDown : 0;
+      if (on) g.push(h('circle', { key: 'glow', cx: nx, cy: cy + ndy, r: R * 1.7, fill: FC[c.newSlot], fillOpacity: 0.22 }));
+      // ground halo separates the node from the surrounding foliage so the green dots stay legible against the green vine
+      g.push(h('circle', { key: 'halo', cx: nx, cy: cy + ndy, r: R + 3, fill: '#1b1813', fillOpacity: 0.92 }));
+      g.push(h('circle', { key: 'node', cx: nx, cy: cy + ndy, r: R, fill: FC[c.newSlot], stroke: '#1b1813', strokeWidth: 1.5 }));
+      g.push(h('circle', { key: 'rim', cx: nx, cy: cy + ndy, r: R + 0.6, fill: 'none', stroke: '#f0e6d0', strokeWidth: 1, strokeOpacity: on ? 0.85 : 0.45 }));
+      if (on) g.push(h('circle', { key: 'core', cx: nx, cy: cy + ndy, r: R * 0.32, fill: '#fff4d8' }));
+      g.push(h('text', { key: 'nm', x: labelX, y: cy - 4, style: { fontFamily: "'Saira Condensed',sans-serif", fontWeight: on ? 700 : 600, letterSpacing: '0.04em' }, fontSize: on ? 17 : 15, fill: on ? '#f0e6d0' : '#bdb39c' }, [nm(c.name), h('tspan', { key: 'd', dx: 8, style: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 400, letterSpacing: '0' }, fontSize: 8.5, fill: on ? '#c9bfa6' : '#6f6552' }, c.date)]));
+      if (stackOf) {
+        const reg = stackOf(c);
+        let lab = reg && reg.label ? clean(reg.label) : '';
+        if (!lab || lab.toLowerCase() === 'none' || (reg && reg.present === false)) lab = '—';
+        const tint = tintByNew ? FC[c.newSlot] : null;
+        const lf = on ? (tint || '#e7ddc8') : (tint || '#9a8f76');
+        g.push(h('text', { key: 'sk', x: labelX, y: cy + 12, style: { fontFamily: "'Saira Condensed',sans-serif", fontWeight: on ? 700 : 600, letterSpacing: '0.05em' }, fontSize: on ? 13 : 12, fill: lf, fillOpacity: on ? 1 : (tint ? 0.82 : 1) }, lab.toUpperCase()));
+      }
+      g.push(h('rect', { key: 'hit', x: 36, y: cy - 20, width: 320, height: 40, fill: 'transparent' }));
+      front.push(h('g', { key: c.id, onClick: () => this.goTo(c.index), style: { cursor: 'pointer' } }, g));
+    });
+
+    return h('svg', { viewBox: '0 0 372 772', preserveAspectRatio: 'xMidYMid meet', style: { width: '100%', height: '100%', display: 'block' } }, [...back, ...mids, ...front]);
+  }
+
+  renderVals() {
+    const mode = this.props.labelMode ?? this.state.mode;
+    const handmade = this.props.handmade ?? true;
+    const fw = window.BRAMBLE_FRAMEWORK;
+    const ui = window.BRAMBLE_UI || {};
+    const BU = window.BRAMBLE_UNIT || {};
+    const bu = BU.ui || {};
+    const pv = this.state.pv || 'ancestor';
+    const base = {
+      ui, bu,
+      isAncestor: pv !== 'bramble', isBramble: pv === 'bramble',
+      setAncestor: () => this.setState({ pv: 'ancestor' }),
+      setBramble: () => this.setState({ pv: 'bramble' }),
+      ancBg: pv === 'bramble' ? '#161209' : '#e0a23c', ancFg: pv === 'bramble' ? '#8f8470' : '#1b1813',
+      braBg: pv === 'bramble' ? '#e0a23c' : '#161209', braFg: pv === 'bramble' ? '#1b1813' : '#8f8470',
+      brandLogo: this.glyphEl(68),
+      brandLogoSm: this.glyphEl(28),
+      sigStarLegend: this.sigStarLegendEl(),
+      showHelp: this.state.help,
+      openHelp: () => this.setState({ help: true }),
+      closeHelp: () => this.setState({ help: false }),
+      stop: (e) => { if (e && e.stopPropagation) e.stopPropagation(); },
+      setContent: () => this.setState({ mode: 'content' }),
+      setCyber: () => this.setState({ mode: 'cybernetic' }),
+      pickEffector: () => this.pickSys('effector'),
+      pickRegulator: () => this.pickSys('regulator'),
+      pickModeler: () => this.pickSys('modeler'),
+      pickReviser: () => this.pickSys('reviser'),
+      effRing: this.state.sysSel === 'effector' ? '0 0 0 2px #ff6b4f' : '0 0 0 0 rgba(0,0,0,0)',
+      regRing: this.state.sysSel === 'regulator' ? '0 0 0 2px #4aa6e0' : '0 0 0 0 rgba(0,0,0,0)',
+      modRing: this.state.sysSel === 'modeler' ? '0 0 0 2px #ffcf5a' : '0 0 0 0 rgba(0,0,0,0)',
+      revRing: this.state.sysSel === 'reviser' ? '0 0 0 2px #7fd06a' : '0 0 0 0 rgba(0,0,0,0)',
+      pickMotivation: () => this.pickMod('motivation'),
+      pickTendency: () => this.pickMod('tendency'),
+      pickCapacity: () => this.pickMod('capacity'),
+      pickBreakthrough: () => this.pickMod('breakthrough'),
+      pickSignature: () => this.pickMod('signature'),
+      motColor: this.state.modSel === 'motivation' ? '#f0e6d0' : '#a59a82',
+      tndColor: this.state.modSel === 'tendency' ? '#f0e6d0' : '#a59a82',
+      capColor: this.state.modSel === 'capacity' ? '#f0e6d0' : '#a59a82',
+      bktColor: this.state.modSel === 'breakthrough' ? '#f0e6d0' : '#a59a82',
+      sigColor: this.state.modSel === 'signature' ? '#f0e6d0' : '#a59a82',
+      contentBg: mode === 'content' ? '#e0a23c' : '#1b1813',
+      contentFg: mode === 'content' ? '#1b1813' : '#8f8470',
+      cyberBg: mode === 'cybernetic' ? '#e0a23c' : '#1b1813',
+      cyberFg: mode === 'cybernetic' ? '#1b1813' : '#8f8470',
+      goPrev: () => this.step(-1), goNext: () => this.step(1),
+      onBack: () => this.setState({ sel: null }),
+    };
+    if (!fw) {
+      return Object.assign(base, {
+        rail: null, flower: null, flowerMobile: null, signaturesMobile: null, panelGlyph: null, panelGlyphMobile: null,
+        displayName: '', cellIndexLabel: '', headerMeta: '', newFuncLabel: '',
+        prevName: '◂', nextName: '▸', atStart: false, atEnd: false, faceText: '', faceMood: '',
+        regionMeta: '', panelTitle: '', panelGloss: '', panelBody: '',
+        railChips: [], stackName: '', stackTint: '#e0a23c',
+        showBack: false, backLabel: '', showBadge: false, badgeText: '', badgeBg: '#262119', badgeFg: '#8f8470', badgeBorder: '#3a3227',
+        showStatus: false, statusText: '', showSection2: false, section2Label: '', section2Body: '',
+        showFuncs: false, funcsInPlay: [], showLinks: false, links: [],
+        showHint: false, hintText: '', showMargin: false, marginNoteText: '',
+        showSpecimen: false, specimenImg: null, hasSpecimen: false, noSpecimen: false, specimenSrc: '',
+        specimenTimecode: '', specimenCellId: '', specimenName: '', specimenDate: '',
+      });
+    }
+    const cells = fw.cells;
+    const cell = cells[this.state.idx];
+    const prev = cells[this.state.idx - 1], next = cells[this.state.idx + 1];
+    const h = React.createElement;
+    const eraShort = (cell.era || '').split('(')[0].trim();
+
+    // ---- rail chips (mobile horizontal rail) ----
+    const railChips = cells.map((c) => {
+      const on = c.index === cell.index;
+      return {
+        name: nm(c.name), date: c.date, dot: FC[c.newSlot],
+        bg: on ? '#241d12' : 'transparent', border: on ? '#e0a23c' : '#3a3227',
+        nameColor: on ? '#f0c46a' : '#bdb39c', onTap: () => this.goTo(c.index),
+      };
+    });
+
+    // ---- cell specimen (camcorder frame) ----
+    const srcPath = SPECIMEN[cell.id];
+    const i = cell.index;
+    const specimenImg = srcPath ? h('img', { src: srcPath, alt: '', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'grayscale(1) contrast(1.04) brightness(1.02)' } }) : null;
+    const spec = {
+      specimenImg,
+      hasSpecimen: !!srcPath, noSpecimen: !srcPath, specimenSrc: srcPath || '',
+      specimenCellId: 'CELL ' + pad2(i), specimenName: nm(cell.name).toUpperCase(),
+      specimenDate: cell.date,
+      specimenTimecode: '00:' + pad2((i * 4 + 8) % 60) + ':' + pad2((i * 11 + 3) % 60) + ':' + pad2((i * 7) % 24),
+    };
+
+    // ---- right panel: region view vs cell view ----
+    const sel = this.state.sel;
+    const slot = sel ? fw.regionSlots.find((s) => s.id === sel) : null;
+    const region = sel ? cell.regions[sel] : null;
+    const role = sel ? ROLES[sel.split('.')[1]] : null;
+    const isRegion = !!(slot && region && region.panel);
+
+    let panel;
+    if (isRegion) {
+      const p = region.panel;
+      const fnChip = { effector: ['#d8472f', '#e7ddc8'], regulator: ['#2f6f9e', '#e7ddc8'], modeler: ['#e8b53a', '#231903'], reviser: ['#5f9e4f', '#e7ddc8'] };
+      const order = ['effector', 'regulator', 'modeler', 'reviser'];
+      const fns = order.filter((f) => (role.fns || []).includes(f)).map((f) => ({ label: FNAME[f], bg: fnChip[f][0], fg: fnChip[f][1] }));
+      const badge = p.badge || region.badge;
+      const bstyle = badge === 'accepted'
+        ? { bg: 'rgba(95,158,79,0.16)', fg: '#7fbf6a', bd: 'rgba(95,158,79,0.5)' }
+        : { bg: 'rgba(232,181,58,0.16)', fg: '#e8b53a', bd: 'rgba(232,181,58,0.5)' };
+      panel = {
+        showBack: true, backLabel: '◂ ' + (ui.backTo || 'Back to') + ' ' + nm(cell.name),
+        faceText: (p.title || '').toUpperCase(), faceMood: '[ o · o ]',
+        regionMeta: sel.split('.')[1] + ' · ' + TYPENAME[slot.type],
+        showBadge: !!badge, badgeText: badge || '', badgeBg: bstyle.bg, badgeFg: bstyle.fg, badgeBorder: bstyle.bd,
+        panelTitle: p.title, panelGloss: role ? role.gloss : '',
+        panelBody: clean(p.body),
+        showSpecimen: false,
+        showStatus: (p.status === 'draft'), statusText: ui.draftProse,
+        showSection2: false, section2Label: '', section2Body: '',
+        showFuncs: true, funcsInPlay: fns,
+        showLinks: (p.links && p.links.length > 0),
+        links: (p.links || []).map((l) => ({ label: l.label, url: l.url || '#', doiText: l.doi ? 'doi:' + l.doi : '' })),
+        showHint: false, hintText: '',
+      };
+    } else {
+      const bkt = cell.regions['bkt.center'];
+      panel = {
+        showBack: false, backLabel: '',
+        faceText: (bkt && bkt.label ? bkt.label : nm(cell.name)).toUpperCase(), faceMood: '[ · ‿ · ]',
+        regionMeta: cell.line.toUpperCase() + ' LINE · CLADE ' + pad2(cell.index),
+        showBadge: false, badgeText: '', badgeBg: '#262119', badgeFg: '#8f8470', badgeBorder: '#3a3227',
+        panelTitle: nm(cell.name), panelGloss: 'Trellis function — ' + FNAME[cell.newSlot],
+        panelBody: clean(cell.clade),
+        showSpecimen: true,
+        showStatus: (cell.proseStatus === 'draft'), statusText: ui.draftProse,
+        showSection2: true, section2Label: ui.virtuousCycle, section2Body: clean(cell.virtuousCycle),
+        showFuncs: false, funcsInPlay: [],
+        showLinks: false, links: [],
+        showHint: false, hintText: '',
+      };
+    }
+
+    // ---- which ladder the deep-time rail surfaces (the "stack") ----
+    const selType = sel ? sel.split('.')[0] : null;
+    let stackName, stackOf, tintByNew = false;
+    if (mode === 'cybernetic') {
+      // exact-slot driven; breakthrough is the default and the fallback
+      if (!sel || sel === 'bkt.center') {
+        stackName = 'Breakthrough';
+        stackOf = (c) => c.regions['bkt.center'];
+        tintByNew = true; // breakthrough labels stay colored like their dots
+      } else {
+        const rk = ROLES[sel.split('.')[1]];
+        stackName = rk ? rk.name : 'Stack';
+        stackOf = (c) => c.regions[sel];
+      }
+    } else {
+      // content mode: keyed by type, the canonical one-new-per-clade entry
+      tintByNew = true;
+      if (selType === 'mot') { stackName = 'Motivation'; stackOf = (c) => c.regions['mot.' + c.newSlot]; }
+      else if (selType === 'sig') { stackName = 'Signature'; stackOf = (c) => c.regions['sig.' + ((c.newSlot === 'effector' || c.newSlot === 'modeler') ? 'connector' : 'operator')]; }
+      else if (selType === 'tnd') { stackName = 'Tendency'; stackOf = (c) => c.regions[NEWFN_TO_TND[c.newSlot]]; }
+      else { stackName = 'Breakthrough'; stackOf = (c) => c.regions['bkt.center']; }
+    }
+    const glyphFns = (isRegion && role) ? (role.fns || []) : ['effector', 'regulator', 'modeler', 'reviser'];
+
+    // ---- BRAMBLE VIEW (Unit 03) ----
+    const BUcells = BU.cells || {}, BUknobs = BU.knobs || {};
+    const unit = BUcells[cell.id] || {};
+    const chassisName = (BU.chassis || {})[cell.line] || '';
+    const order = ['effector', 'regulator', 'modeler', 'reviser'];
+    const INSTALL = { effector: [0, 4, 8], regulator: [1, 5, 9], modeler: [2, 6, 10], reviser: [3, 7, 11] };
+    const knobNumOf = (fn) => { let best = INSTALL[fn][0]; INSTALL[fn].forEach((ii) => { if (ii <= this.state.idx) best = ii; }); return best + 1; };
+    const isUp = (fn) => this.state.knobUp[fn] !== false;
+    const newFn = cell.newSlot;
+    const newUp = isUp(newFn);
+    const newKnob = BUknobs[String(this.state.idx + 1)] || {};
+
+    // face-screen
+    const F = unit.face || {};
+    let faceIsNone = false, faceIsStatus = false, faceIsLines = false, faceIsPersons = false, faceIsAscii = false;
+    let faceWord = '', faceSet = [], faceLines = [], facePersons = [], faceAsciiText = '', faceCaption = '', faceStatus = bu.faceLive, faceStatusColor = '#6f9a70';
+    const asciiActive = F.canAscii && this.state.faceAscii;
+    if (F.mode === 'none') { faceIsNone = true; faceStatus = bu.faceNone; faceStatusColor = '#4d5a4d'; }
+    else if (asciiActive) { faceIsAscii = true; faceAsciiText = F.ascii || ''; faceStatus = bu.faceLive; faceStatusColor = '#c98a3a'; faceCaption = 'ASCII \u00B7 voluntary'; }
+    else {
+      const fc = F.always ? F : (newUp ? F.up : F.down);
+      faceCaption = F.always ? (F.caption || '') : (newUp ? (F.capUp || '') : (F.capDown || ''));
+      faceStatus = (!F.always && !newUp) ? bu.faceOff : bu.faceLive;
+      faceStatusColor = (!F.always && !newUp) ? '#c98a3a' : '#6f9a70';
+      if (fc) {
+        if (fc.kind === 'status') { faceIsStatus = true; faceWord = fc.word; faceSet = (fc.set || []).map((w) => ({ word: w, color: w === fc.word ? '#9ad6a0' : '#3f4a3f' })); }
+        else if (fc.kind === 'lines') { faceIsLines = true; faceLines = (fc.lines || []).map((t) => ({ text: t })); }
+        else if (fc.kind === 'persons') { faceIsPersons = true; facePersons = (fc.persons || []).map((p) => ({ name: p[0], body: p[1] + ' = ' + p[2] })); }
+      }
+    }
+
+    // installed-systems spec
+    const sysRows = order.map((fn) => {
+      const isNew = fn === newFn; const kd = BUknobs[String(knobNumOf(fn))] || {};
+      return { color: FC[fn], dotOp: isNew ? 1 : 0.5, name: kd.name || FNAME[fn], nameColor: isNew ? '#f0e6d0' : '#8f8470',
+        clinical: kd.clinical || '', status: isNew ? bu.newTag : bu.heldTag,
+        chipBg: isNew ? 'rgba(224,162,60,0.15)' : '#1f1a13', chipFg: isNew ? '#e0a23c' : '#7c7159', chipBorder: isNew ? 'rgba(224,162,60,0.45)' : '#3a3227' };
+    });
+    let retiredNote;
+    if (this.state.idx >= 4) {
+      const pk = BUknobs[String(this.state.idx - 3)] || {};
+      retiredNote = (bu.retiredTmpl || '').replace('{new}', newKnob.name || '').replace('{old}', pk.name || '').replace('{mira}', (pk.miraUp || '') + ' / ' + (pk.miraDown || ''));
+    } else { retiredNote = (bu.retiredFirst || '').replace('{fn}', FNAME[newFn]); }
+
+    // the four disposition knobs
+    const rots = { effector: '-3deg', regulator: '2.5deg', modeler: '-1.5deg', reviser: '3.5deg' };
+    const knobs = order.map((fn) => {
+      const kd = BUknobs[String(knobNumOf(fn))] || {}; const up = isUp(fn); const isNew = fn === newFn;
+      const selected = (this.state.knobSel || newFn) === fn;
+      return { onClick: () => this.toggleKnob(fn), color: FC[fn], tagInk: fn === 'modeler' ? '#231903' : '#fff', isNew,
+        cellBg: selected ? '#2a231a' : '#1b1813', cellBorder: selected ? BRIGHT[fn] : (isNew ? '#4a4234' : '#2c261d'),
+        dial: this.dialEl(fn, up, isNew), stateColor: up ? '#cabfa6' : '#6f6552',
+        stateLabel: up ? (bu.upTag + ' \u00B7 ' + (kd.miraUp || '')) : (bu.downTag + ' \u00B7 ' + (kd.miraDown || '')),
+        stickerName: (kd.miraUp && kd.miraDown) ? (kd.miraUp + ' / ' + kd.miraDown) : (kd.name || FNAME[fn]), rot: rots[fn] };
+    });
+
+    // selected-knob readout
+    const selFn = this.state.knobSel || newFn;
+    const sk = BUknobs[String(knobNumOf(selFn))] || {}; const selUp = isUp(selFn); const selIsNew = selFn === newFn;
+    const selFaceNote = cell.line === 'symbolic' ? bu.faceSymbolicNote : (selIsNew ? bu.faceNewNote : bu.faceHeldNote);
+
+    const brambleVals = {
+      brambleBuild: unit.build || '', brambleChassis: chassisName + ' \u00B7 ' + (bu.newTag || 'New') + ': ' + (newKnob.name || FNAME[newFn]),
+      faceIsNone, faceIsStatus, faceIsLines, faceIsPersons, faceIsAscii,
+      faceWord, faceSet, faceLines, facePersons, faceAscii: faceAsciiText, faceCaption, faceStatus, faceStatusColor,
+      faceCanAscii: !!F.canAscii, setReadout: () => this.setState({ faceAscii: false }), setAscii: () => this.setState({ faceAscii: true }),
+      readoutBg: this.state.faceAscii ? '#161209' : '#3a3227', readoutFg: this.state.faceAscii ? '#7c7159' : '#ddd3bf',
+      asciiBg: this.state.faceAscii ? '#3a3227' : '#161209', asciiFg: this.state.faceAscii ? '#ddd3bf' : '#7c7159',
+      sysRows, retiredNote, knobs,
+      selName: sk.name || FNAME[selFn], selColor: FC[selFn], selFnLabel: FNAME[selFn] + ' \u00B7 KNOB ' + knobNumOf(selFn),
+      selMotivation: sk.motivation || '', selClinical: sk.clinical || '', selMiraUp: sk.miraUp || '', selMiraDown: sk.miraDown || '',
+      selUpText: sk.up || '', selDownText: sk.down || '', selFaceNote,
+      upBg: selUp ? '#241d12' : 'transparent', upBar: selUp ? BRIGHT[selFn] : '#3a3227', upFg: selUp ? '#f0c46a' : '#7c7159', upText: selUp ? '#ddd3bf' : '#8f8470',
+      dnBg: !selUp ? '#241d12' : 'transparent', dnBar: !selUp ? BRIGHT[selFn] : '#3a3227', dnFg: !selUp ? '#f0c46a' : '#7c7159', dnText: !selUp ? '#ddd3bf' : '#8f8470',
+    };
+
+    return Object.assign(base, spec, brambleVals, {
+      rail: this.railEl(cells, cell.index, stackOf, tintByNew),
+      stackName, stackTint: '#e0a23c',
+      flower: this.flowerEl(cell, mode, sel, true, this.state.sysSel, this.state.modSel),
+      flowerMobile: this.flowerEl(cell, mode, sel, false, this.state.sysSel, this.state.modSel),
+      signaturesMobile: this.sigRowEl(cell, mode, sel, this.state.modSel),
+      panelGlyph: this.funcGlyphEl(glyphFns, 42),
+      panelGlyphMobile: this.funcGlyphEl(glyphFns, 38),
+      railChips,
+      displayName: nm(cell.name),
+      cellIndexLabel: 'CLADE ' + pad2(cell.index),
+      headerMeta: cell.line.toUpperCase() + ' LINE · ' + cell.date + ' · ' + eraShort,
+      newFuncLabel: FNAME[cell.newSlot],
+      prevName: prev ? '◂ ' + nm(prev.name) : '',
+      nextName: next ? nm(next.name) + ' ▸' : '',
+      atStart: !prev,
+      atEnd: !next,
+      handmade,
+      showMargin: handmade && !!NOTES[cell.id],
+      marginNoteText: NOTES[cell.id] || '',
+      noteDot: FC[cell.newSlot] || '#5f9e4f',
+      noteDotInk: cell.newSlot === 'modeler' ? '#231903' : '#fff',
+    }, panel);
+  }
+}
+
+const NOTES = {
+  prokaryote: 'Mira says it “likes” the sunny spot, “like the cat, except it can’t even see.” Cheryl wrote in the margin: the wanting is in the watcher.',
+  archaeon: 'Mira says it “isn’t even trying” — it just sits in the boiling part where nothing else will go. Cheryl wrote in the margin: it is not enduring that place. It is holding the only ground nothing else can afford.',
+  eukaryote: 'Mira says it does the same moves over and over — “it never figures out a better way.” Cheryl wrote in the margin: it remembers; it does not yet learn.',
+  eumetazoa: 'Mira says it gets “hungry-scared” and goes to feed before it dies. Cheryl wrote in the margin: it looks like someone deciding. It is a forecast meeting a threshold.',
+  bilaterian: 'Mira says it “grew a front” — “it looks right at you first, and then it comes.” Cheryl wrote in the margin: a thing that turns to look at you before it moves gets harder to keep calling the unit.',
+  vertebrate: 'Mira says it figured out the game — “it does it on purpose” now. Cheryl wrote in the margin: “on purpose” is the whole argument in two words.',
+  mammal: 'Mira says this is the one that dreams — its face says CHASE VACUUM, “but its legs never move.” Cheryl wrote in the margin: grant it exactly that, and not an ounce more.',
+  primate: 'Mira says it watches what you’re watching now — “it knows what you want before you do.” Cheryl wrote in the margin: it models the minds in the room, mine presumably among them.',
+  band: 'Mira says it talks for real now — “its face can’t lie. Its words can.” Cheryl wrote in the margin: it can lie now, which means there is at last something it might be protecting.',
+  settlement: 'Mira says it “saves snacks for later.” Cheryl wrote in the margin: I built my whole life on that same bet and called it temperament.',
+  city: 'Mira says it writes stuff down — “the signs mean things, you can read them.” Cheryl wrote in the margin: it keeps its own records now, the way I keep these.',
+  empire: 'Mira says it cares about people it’s never even met — “it’ll stick up for somebody who isn’t in the room.” Cheryl wrote in the margin: the far ones count. The membrane has learned to open.',
+};
+</script>
+</body>
+</html>

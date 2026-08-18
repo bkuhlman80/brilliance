@@ -11,7 +11,7 @@
 //            up = derived pole (newer layer, expressive); down = primordial pole
 //            (ancestor showing through, suppressive). mira = the sticker names.
 //  cells   — per clade: chassis build line + face-screen readout.
-//            face.mode 'none'        → no screen fitted (Protocell)
+//            face.mode 'none'        → no screen fitted (pre-board builds)
 //            face.always             → shows regardless of the new knob
 //            face.gated + up/down    → up shows when the clade's NEW knob is up;
 //                                      down is the fall-through to the layer below
@@ -48,15 +48,15 @@ window.BRAMBLE_UNIT = {
 
   // ---- the twelve knobs (up = derived / expressive · down = primordial / suppressive) ----
   knobs: {
-    '1':  { fn: 'effector',  cell: 'protocell',  name: 'Going',    motivation: 'Persistence',   clinical: 'Acquisition Type', crank: true,
-            labUp: 'wound', labDown: 'unwound', miraUp: 'Live', miraDown: 'Dead',
-            up: 'Wound — the protocell runs its tendencies.', down: 'Unwound — it goes still (\u201Cthe forever kind of sleep\u201D).' },
-    '2':  { fn: 'regulator', cell: 'prokaryote', name: 'Working',  motivation: 'Coordination',  clinical: 'Respiration Type',
-            labUp: 'aerobic', labDown: 'anaerobic', miraUp: 'Sloth', miraDown: 'Sprint',
-            up: 'Draws the slow battery — a steady, enduring crawl.', down: 'Spends the fast supercapacitor — quick darts, then a full stop to recharge.' },
-    '3':  { fn: 'modeler',   cell: 'eukaryote',  name: 'Getting',  motivation: 'Interiority',   clinical: 'Foraging Type',
-            labUp: 'exploit', labDown: 'explore', miraUp: 'March', miraDown: 'Dance',
-            up: 'Re-runs the worn, efficient groove — reinforced by use.', down: 'Makes new movement-sequences up as it goes — misses more, discovers more.' },
+    '1':  { fn: 'effector',  cell: 'prokaryote', name: 'Going',    motivation: 'Persistence',   clinical: 'Extension Type', crank: true,
+            labUp: 'wound', labDown: 'unwound', miraUp: '—', miraDown: '—',
+            up: 'Wound — the unit runs its tendencies: kickers out, grab, retract.', down: 'Unwound — it goes still (\u201Cthe forever kind of sleep\u201D).' },
+    '2':  { fn: 'regulator', cell: 'archaeon',   name: 'Working',  motivation: 'Thrift',        clinical: 'Dependency Type',
+            labUp: 'obligate', labDown: 'free-living', miraUp: '—', miraDown: '—',
+            up: 'Draws through the dock — trades its sweepings for a gradient it cannot make alone.', down: 'Gathers with its own surfaces — dearer per joule, free to range.' },
+    '3':  { fn: 'modeler',   cell: 'eukaryote',  name: 'Getting',  motivation: 'Interiority',   clinical: 'Pruning Type',
+            labUp: 'active', labDown: 'passive', miraUp: '—', miraDown: '—',
+            up: 'Clears hard — sequences that stop earning their keep are torn out, and the worn grooves left standing run clean.', down: 'Lets them lie — unused sequences decay on their own schedule, and old paths linger.' },
     '4':  { fn: 'reviser',   cell: 'eumetazoa',  name: 'Resting',  motivation: 'Excitability',  clinical: 'Home Type',
             labUp: 'loud', labDown: 'quiet', miraUp: 'Busy', miraDown: 'Warm',
             up: 'Settles in the thick of bodies — the middle of the kitchen at dinner.', down: 'Follows the thermal gradient to the warmest corner it can reach.' },
@@ -88,9 +88,9 @@ window.BRAMBLE_UNIT = {
 
   // ---- per-clade chassis build + face-screen readout ----
   cells: {
-    protocell:  { build: 'A fatty bead with a wind-up crank. No board, no battery, no screen — nothing persists across runs.',
-      face: { mode: 'none' } },
-    prokaryote: { build: 'A self-winding cell: battery, finite-state machine, solar panels. It hunts the warm spot and holds there.',
+    prokaryote: { build: 'A wind-up cell: crank-armed battery, finite-state machine, four canted solar panels. The organ it sees with is the organ it eats with, and it hunts the warm spot and holds there.',
+      face: { always: true, kind: 'status', word: 'STOP', set: ['RUN', 'TUMBLE', 'STOP'], caption: 'Movement panel' } },
+    archaeon:   { build: 'The dock arrives — an outboard partner trading a thermal gradient for a debris deposit; neither side is complete alone. Aboard, nothing new: idle draw falls, the margin widens, and the household learns its budget.',
       face: { always: true, kind: 'status', word: 'STOP', set: ['RUN', 'TUMBLE', 'STOP'], caption: 'Movement panel' } },
     eukaryote:  { build: 'A Roomba-class vacuum. It docks to feed and re-runs worn foraging grooves off a use-weighted board — it remembers, it does not yet learn.',
       face: { always: true, kind: 'status', word: 'STORED', set: ['STORED', 'EMPTY'], caption: 'Carry panel' } },

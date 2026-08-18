@@ -612,8 +612,8 @@ const SLATE = '#5a513f', SLATE_FILL = '#6f6552';
 const _hx = (hex) => { hex = hex.replace('#', ''); return [parseInt(hex.slice(0, 2), 16), parseInt(hex.slice(2, 4), 16), parseInt(hex.slice(4, 6), 16)]; };
 const shade = (hex, amt) => { const [r, g, b] = _hx(hex); const t = amt > 0 ? 255 : 0, a = Math.abs(amt); const m = (c) => Math.round(c + (t - c) * a); return `rgb(${m(r)},${m(g)},${m(b)})`; };
 const SPECIMEN = {
-  protocell: 'public/specimens/protocell.jpg',
   prokaryote: 'public/specimens/prokaryote.jpg',
+  archaeon: 'public/specimens/protocell.jpg', /* placeholder — needs a true archaeon specimen */
   eukaryote: 'public/specimens/eukaryote.jpg',
   eumetazoa: 'public/specimens/eumetazoa.png',
   bilaterian: 'public/specimens/bilaterian.png',
@@ -1081,11 +1081,11 @@ class Component extends DCLogic {
     // clean woody coiling stem (no glow)
     front.push(h('path', { key: 'vine-stem', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBRN, strokeWidth: 2.8, strokeLinecap: 'round' }));
     front.push(h('path', { key: 'vine-stem2', className: 'vine-stem', d: vd, pathLength: 1, fill: 'none', stroke: VBDK, strokeWidth: 1, strokeLinecap: 'round', strokeOpacity: 0.55 }));
-    // lifelike woody trunk: follows the vine line from the prokaryote dot, down
-    // through the protocell dot, then flares as it curves into the ground.
+    // lifelike woody trunk: follows the vine line from the archaeon dot, down
+    // through the prokaryote dot, then flares as it curves into the ground.
     {
       const A = vpts[1], B = vpts[0], G = { x: 90, y: 734 };
-      // arc the prokaryote→protocell run outward with a bowed midpoint knot
+      // arc the archaeon→prokaryote run outward with a bowed midpoint knot
       const M = { x: 152, y: 676 };
       const K = [A, M, B, G];
       const P = [K[0], ...K, K[K.length - 1]]; // Catmull-Rom with duplicated ends
@@ -1106,7 +1106,7 @@ class Component extends DCLogic {
       let sd = 'M ' + cl[0].x.toFixed(1) + ' ' + cl[0].y.toFixed(1);
       for (let k = 1; k <= N; k++) sd += ' L ' + cl[k].x.toFixed(1) + ' ' + cl[k].y.toFixed(1);
       front.push(h('path', { key: 'vine-trunk-sh', d: sd, fill: 'none', stroke: VBDK, strokeWidth: 1.6, strokeOpacity: 0.5, strokeLinecap: 'round' }));
-      // leaves sprouting along the trunk — including the prokaryote→protocell arc
+      // leaves sprouting along the trunk — including the archaeon→prokaryote arc
       [0.14, 0.22, 0.31, 0.4, 0.48, 0.56, 0.64, 0.72, 0.8, 0.88].forEach((u, i) => { const k = Math.round(u * N), p = cl[k], a = cl[Math.max(0, k - 1)], b = cl[Math.min(N, k + 1)]; const ang = Math.atan2(b.y - a.y, b.x - a.x) + (i % 2 ? 1 : -1) * 1.05; front.push(leaf('trlf' + i, p.x, p.y, ang, 8 + (i % 3) * 0.9, 0, litOf(p.y))); });
     }
     // lots of little leaves + dense green branch twigs, sprouting as the tip passes
@@ -1172,9 +1172,9 @@ class Component extends DCLogic {
     const idxOf = {}; cells.forEach((c) => { idxOf[c.id] = c.index; });
     // a cell's default (non-active) node radius, given only its index
     const baseR = (i) => Math.max(3.5, Math.min(10.5 * (0.8 + this.rnd(i) * 0.5), hw(y(i)) * 0.36));
-    const CELL_FIXED = { protocell: 0.5, eumetazoa: 0.75, eukaryote: 0.75, mammal: 1.15 };
+    const CELL_FIXED = { prokaryote: 0.5, eumetazoa: 0.75, eukaryote: 0.75, mammal: 1.15 };
     // make this cell's dot exactly match another cell's current default size
-    const CELL_MATCH = { vertebrate: 'prokaryote', prokaryote: 'mammal', primate: 'band', band: 'primate' };
+    const CELL_MATCH = { vertebrate: 'archaeon', archaeon: 'mammal', primate: 'band', band: 'primate' };
     // a cell's CURRENT default radius, honouring the overrides above
     const curR = (id) => CELL_FIXED[id] ? baseR(idxOf[id]) * CELL_FIXED[id]
       : CELL_MATCH[id] ? baseR(idxOf[CELL_MATCH[id]]) : baseR(idxOf[id]);
@@ -1491,8 +1491,8 @@ class Component extends DCLogic {
 }
 
 const NOTES = {
-  protocell: 'Mira says you have to wind it up or it “goes to sleep the forever kind.” Cheryl wrote in the margin: a boundary is not a someone. Mark it, and hold there.',
-  prokaryote: 'Mira says it “likes” the sunny spot, “like the cat, except it can’t even see.” Cheryl wrote in the margin: the wanting is in the watcher.',
+  prokaryote: 'Mira says you have to wind it up or it “goes to sleep the forever kind.” Cheryl wrote in the margin: a boundary is not a someone. Mark it, and hold there.',
+  archaeon: 'Mira says it “likes” the sunny spot, “like the cat, except it can’t even see.” Cheryl wrote in the margin: the wanting is in the watcher.',
   eukaryote: 'Mira says it does the same moves over and over — “it never figures out a better way.” Cheryl wrote in the margin: it remembers; it does not yet learn.',
   eumetazoa: 'Mira says it gets “hungry-scared” and goes to feed before it dies. Cheryl wrote in the margin: it looks like someone deciding. It is a forecast meeting a threshold.',
   bilaterian: 'Mira says it “grew a front” — “it looks right at you first, and then it comes.” Cheryl wrote in the margin: a thing that turns to look at you before it moves gets harder to keep calling the unit.',

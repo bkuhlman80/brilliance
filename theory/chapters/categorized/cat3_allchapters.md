@@ -1,0 +1,1109 @@
+# Category 3 — Household Vignettes
+
+Compiled and tagged per the ruling in `category_sequencing_spec.md`. Source: pulled only from
+`/chapters/examples/loom/cat3_allchapters.md`. QC-verified against the master chapter files —
+grep confirmed exactly one vignette heading per chapter, Ch1 through Ch12 (Ch0 correctly has
+none, matching the earlier structure-map read); Ch1 "Hello," Ch6 "The Button," and Ch9 "Under
+Her Breath" were spot-checked word-for-word against the master files and matched exactly, each
+sitting in a clean single span with nothing fused in. Note: unlike Category 2, this category is
+present in *every* chapter, Ch1–Ch12 — no absences.
+
+Three beats, arrived at by first mapping the vignettes' recurring emotional registers (valence /
+arousal, genre-analyst pass) and then collapsing that seven-way map down to three per Brian's
+ruling:
+
+- **3.a — Bramblation.** The interpretive/translation engine — Mira decoding what Bramble means,
+  whether the gap between her account and the mechanism reads comic, uncanny, or (later) solemnly
+  true. Spans all arousal levels; unified by being an act of meaning-making rather than a register.
+  Includes the naming device (Cancel/Save/Easy/Vibe/Boss/Real/Flex, lasterday, Nostop) and the
+  comic-domestic beats aimed at strangers (the shoe law, the freeway couple) as the same engine
+  turned outward.
+- **3.b — Bramble + Chill.** Low arousal, valence-agnostic — quiet physical togetherness (the
+  jaw-grip, "there you are," lying on the cold tile) and quiet loss (the tick going silent, the
+  leveling ritual that stops working, "Climber," the final choice of the bin lid over her) both
+  live here, unified by stillness rather than by whether the moment is sweet or sad.
+  the book's aging-out spine sits mostly in this beat.
+- **3.c — Bramblearning.** High arousal, valence-agnostic — vigilance/protective effort (searching
+  the house for him, the scarf defense, standing dead still so he won't fall) and triumph/mastery
+  (standing for the first time, the staring contest, deputizing herself) both live here, unified
+  by kinetic activity rather than by whether the moment is frightening or triumphant.
+
+**LOCKED (ruled 2026-07-09): fixed order a→b→c.** Each chapter's fragments are consolidated into
+three blocks below — all 3.a, then all 3.b, then all 3.c, each block preserving the original
+relative order of its own fragments — with one standing exception: where a fragment has a hard
+grammatical or scene dependency on the immediately-preceding different-letter fragment, that pair
+is kept adjacent in original order inside the block its payoff belongs to, rather than forced apart
+(same principle as Category 2's no-mid-scene-cut rule). Flagged inline at each occurrence. Applied
+to Ch1–Ch9 this pass; Ch10–Ch12 not yet reordered.
+
+First-pass tagging — several calls below were genuinely close (noted inline where the fragment
+plausibly split two ways) and worth a second look once you're actually resequencing.
+
+---
+
+## Ch 1
+
+*Reordered a→b→c per Brian's ruling (2026-07-09): Category 3 is locked to a fixed register order,
+each chapter's fragments consolidated into three blocks (Bramblation, then Bramble + Chill, then
+Bramblearning), each block preserving the original relative order of its own fragments. Originally
+this chapter's tag sequence was a→b→a→c; the two 3.a fragments are now joined into one block.*
+
+### <!--[3.a]--> Bramblation
+
+The day the five came — her birthday, the fourth — she wound them in order, the way she wound her music box, six stiff turns each, and set them down on the warm slate in a row, and sat back to see what they would do.
+
+They did what they were. The first one listed hard to the left and was gone before she'd settled — busy, already late. The show-off ran its bright clean circle like it had somewhere to be and meant to be early. One went a little way and stopped to consider it and went a little way more. The lopsided one turned in place, grinding at the same half-turn, going nowhere with great effort.
+
+The third one sat.
+
+It is the quiet one of the five, the one that does the least and lasts the longest — a tick, then a long still minute, then maybe one more, on a clock all its own. It sat where she had put it and ticked once and waited, in no more hurry than she was.
+
+She brushed her teeth with Bramble for company, which meant carrying it up and standing it on the bathroom tile by her feet while she worked, and telling it things. The tile was the coldest floor in the house. Set down on it, Bramble would tick once, and wait, and tick once more, slower, and then somewhere in the middle of a long account of the dog next door it would quit on her.
+
+"You're asleep," she'd say around the toothbrush — not surprised, a little put out. Bramble was always asleep by the rinsing. She had decided this was a thing about bedtime, that the bot got sleepy when she did, that it was a thing the two of them had in common, and she would lift it off the cold tile and it would sit still in her warm hand a moment and then, against her palm, tick. "There you are." Awake for the walk to bed; asleep the instant she set it on the nightstand, which was also cold, which she had not yet noticed and one day would.
+
+The rule was simple, and she explained it to Bramble first, in fairness. She'd ask a question. If it ticked before she got to ten, that was yes. If it didn't, that was no. She counted on her fingers and started fresh each question, and she did not cheat, except on the ones that mattered, where she'd ask again until he got it right.
+
+"Do you like me." One. Tick. Yes — first try, easy.
+
+"Do you like the dog next door." She counted all the way to ten and started the other hand. Nothing. No. She'd suspected as much.
+
+"Do you like peas." Nothing. No.
+
+"Do you think peas are disgusting." Tick, on four. Strong yes. She wrote nothing down, because she couldn't write, but the record was kept.
+
+It went on like that the better part of an afternoon. Bramble, it emerged, did not like the dog next door, did not like peas, did not like the upstairs bathroom, did not care for Sundays, and was against bedtime in the broad sense — a thing of firm and mostly negative views, which a person would not have guessed from how quietly it sat there. On what he was *for* he was harder to move, and took his time, and made her count twice; but he liked her, and he liked the warm square by the vent, and he liked, after some coaxing, the idea of coming downstairs to live, which she noted with great satisfaction was a yes.
+
+And it stuck. That was the part the adults didn't see coming. The interview ended; the findings were permanent. For weeks the table got bulletins. Bramble didn't want the crust. Bramble thought the new babysitter talked too loud. Bramble had no opinion on broccoli, which was itself a kind of opinion and was respected as one. Jasmine, who had learned what came of arguing with a thing Mira reported as fact, passed the broccoli and asked Bramble, by way of his representative, whether he wanted any.
+
+The fourth one never found its place, and Mira took it on as hers to mend.
+
+The others were settled. The show-off had its sunbeam; Bramble had the warm square by the vent, and her hand, and the patient middle of the floor; even the two dull ones had the good stone by the island. The fourth one had a folded towel by the toaster — which is where a thing ends up, not where it's meant to be. It had tried everywhere the others thrived and done badly in all of it: gone slow and crooked and halting, grinding at the same half-turn, wearing at itself, arriving nowhere it set out for.
+
+So she went looking for its place, with the certainty of a child who has only not yet checked the right spot. She carried it to the sunbeam where the show-off ran its circles and set it down with great hope; it ground its half-turn and stuck. She carried it to the vent. It stuck. She carried it to the best stone in the house, by the island, and gave it the very middle — the spot any of the others would have run bright in — and watched to see, and it turned a little way into itself and quit.
+
+That was the last of the good places. She carried it back to the towel by the toaster, folded the towel up the sides into more of a bed than a rag, set the crooked thing in the middle of it, and did not try to move it again.
+
+For a stretch of that summer there were races. She would line them up at the lip of the kitchen — the fast one, the show-off with its bright circuit, the two that mostly sat, and Bramble — and start them with a word, and they would go, or not go, after their kinds. The show-off won. The show-off always won; it was made to, and it won the way certain children win, easily, without appearing to notice you'd been watching.
+
+Bramble came last. Bramble came last by so much that the race was usually called and forgotten before it had cleared the first tile, still back at the line doing its patient once-and-wait, once-and-wait, in no hurry the world could locate.
+
+This did not trouble her, because she had an explanation, and her explanation was better than winning. "He's not slow," she told her father, with some heat, the day he made the mistake of saying the obvious. "He's being careful. He doesn't want to bump things." She had watched the show-off run itself flat by Tuesday and sit dead the rest of the week while Bramble was still going — still ticking out its small even ration days after the bright one had quit — and she had taken from this that the thing she loved was not losing the race at all. It was winning a slower one, the kind you only saw if you stayed all the way to the end. She was four, and on the evidence she was right: right in the way that matters to a person, and not at all in the way that matters to a clock.
+
+### <!--[3.b]--> Bramble + Chill
+
+She can watch a thing a long time. She watched it a long while. Then she came down off her heels and put her face close to it, down on the warm stone at its level, and said hello.
+
+### <!--[3.c]--> Bramblearning
+
+*(Reclassified 3.a → 3.c per Brian's ruling: this is the audition itself — an active, effortful search for a backup, not an act of interpretation.)*
+
+She had worked out, the way you work out a hard thing at four, all at once and out of nowhere, that there was a difference between Bramble asleep and Bramble stopped — that asleep ended at the crank and stopped might not end at all. She didn't like it. She thought about it a day. Then she did the sensible thing and went looking for a second Bramble, so that if the first one stopped for good there'd still be one in the house.
+
+She held auditions.
+
+The fast one went first, and went left, and was across the kitchen before she'd finished saying what the job was. Out: wouldn't hold still to be him.
+
+The show-off went through its whole bright routine, same as always, and then did the thing that put it out of the running — the same collapse Mira already had it clocked for, spent and done days before the week was out, which was the exact crime under investigation. She looked at it a while. She didn't say anything. She carried it back to its sunbeam, gently, the way you let a person down easy.
+
+The slow one she gave a real chance. It sat, and waited, and went a little way, and waited, and there was something in the waiting that was nearly right, and she got down close with great hope — and it wasn't him. She couldn't have said how. It just wasn't. Excused.
+
+The crooked one she didn't bother to carry over. It ground its half-turn in the towel by the toaster, going nowhere, being itself. That one didn't need a hearing.
+
+That was all of them. No spare. She sat in the middle of her failed search with the only Bramble there was ticking in her lap, none the wiser, having won the audition without entering it.
+
+---
+
+## Ch 2
+
+*Reordered a→b→c per Brian's ruling. Originally a→c→a→b; the two 3.a fragments now joined.*
+
+### <!--[3.a]--> Bramblation
+
+She still picks it up the old way, cupped in the one hand, the way she carried it all spring when her hand was where it woke — and it won't ride there now. It kicks. In her palm it pitches toward the window and clacks and pitches again, until carrying it across the kitchen is plainly a matter of carrying a thing that wants down: wants the floor, wants the long bright rectangle on the far wall, wants anything but the warm dark of her fist. So she does the kind thing and carries it to what it wants.
+
+She sets it on the sill and it goes straight at the glass. *RUN,* says the screen, and the relays say it too, and it drives into the pane and slides back and drives in again, working at a sun it cannot reach across a yard it cannot get to, three feet of bright morning held off by a thing it has no way to read as a wall. She'll tell you he likes the window — that he likes to watch the yard, that he's looking at something — and she isn't wrong about where he's pointed, only about why. The brightest thing in the room is the glass; it will go at the brightest thing in the room until the stores run flat; and her hand is warmth, and warmth is the thing it eats now, never the thing it goes toward.
+
+She crouches with her chin on the sill and watches it want the outside. Her hand lies open beside it with nothing in it.
+
+It found a square of sun by the table leg one afternoon and parked in it — STOP, stores topping off, as satisfied as a thing can be that has gotten exactly where it meant to go. Then a cloud crossed, or Mira did, leaning in to see it close, and the sun went out of the square, and the readout flipped, and it had to do something.
+
+What it did was lose its mind, in the small mechanical way it had. No light anywhere it could find: it spun a quarter-turn and read the light and got nothing, spun again and got nothing, and worked itself by these blind quarter-turns across the tile and in under the table and fetched up at last against the baseboard, nose to the wall, in the shadow — as lost as it had been all day, the square of sun it started in sitting warm and bright two feet behind it the whole time, with no part of it left over to remember that. She tried to help. She put her finger down where the window was — *there, that way* — and it tumbled off her finger and went the other, because a finger is not a sun and pointing was a language it didn't have.
+
+She wasn't worried. She had an account of it, and her account was kinder than the truth and, in the way that counts to a person, truer: he was *looking around.* He was being thorough. He never hurried a thing in his life, not even getting lost, while the others went off half-cocked at the first excuse. A thing that careful couldn't really be lost. He was only not done looking yet.
+
+She left him to it and went to get juice.
+
+There was an Effort knob beside the crank now, and it did one thing: it set whether the bot ran slow or fast, and the whole house had a position on which. Mira liked him fast. The instant a back was turned she had turned the Effort volume up to the burst setting, and it would gather itself and bolt across the slate in a scramble of fast hops, quick and bright and ridiculous — and then sit down hard, spent, and do nothing at all until it had filled back up. Which was unacceptable. So she'd take the crank and force a few turns of charge back into it, and off it would go again, another scramble, another collapse, another few turns, the two of them running it flat and winding it up all afternoon.
+
+Jasmine's position was slow, and Jasmine's had a reason under it that Mira's didn't have to carry. Slow, it ran even — a low patient ration of hops it could keep up from breakfast to dark and never spend itself out. Fast, it went through a charge like it was nothing, and then it was Jasmine, not Mira, at the counter on a gray Thursday with the crank in her hand and a dead bot and no sun coming, putting the afternoon back into it by the strength of her own arm. So she set it slow. She'd come through and find it slow and leave it slow, and come through an hour later and find it fast, hopping itself empty in the middle of the floor, the crank already warm.
+
+It was a fair fight, in its way: a four-year-old who wanted her pet at full tilt against a grown woman keeping the books on something that did nothing but spend. She set it slow and went back to the stove, and before she'd cleared the doorway the relays broke into the quick stutter of a bot set fast again, by a hand that had been waiting for hers to leave.
+
+### <!--[3.b]--> Bramble + Chill
+
+She found out by accident that she could run it with her hands, and then she did nothing else all afternoon. Cup her hands over the sensors, put it in shadow, and it stopped dead — STOP, mid-hop. Open her hands and it went. And if she took something bright — the lid of a tin, angled to catch the window — and walked it slow across the floor, it followed, hop by hop, wherever she led: in a circle, around the table leg, back again. She made it come and made it stop and made it come again, and for one whole afternoon she was the entire weather of its world, the hand that turned its sun on and off, delighted, powerful the way a four-year-old almost never gets to be over anything.
+
+Then she got tired of leading and wanted to be followed. She set the bright lid down and sat back on her heels with her hands empty in her lap and waited for him to come to her — not to the tin, to *her,* the way the dog came, the way a thing comes to you because it's you. It sat a moment where the lid had left it. Then it turned the few degrees off her that put the window in front of it, and went.
+
+She stayed where she was, on her heels, the lid gone dull in her hand where the window didn't reach it.
+
+At night it had been theirs. She'd stand it on the cold tile by her feet while she brushed and tell it about the day, and the cold would starve it slow — a tick, a wait, a slower tick — until it quit; and she had settled it long ago that bedtime got to him the way it got to her, that of everything in the house he was the one who kept her hours. She'd lift it off the tile into her warm hand and it would come back, one tick against her palm, and she'd carry it in to bed awake. That was the part that worked: the cold put it down, her hand brought it back.
+
+Her hand doesn't bring it back now. She stands it on the tile and it doesn't do the slow sweet quitting; in the dark bathroom there's nothing for it to read and nothing coming in to spend, so it just sits — or worse, it catches the nightlight low on the wall, or the seam of hall light under the door, and goes for it, clacking off across the cold tile toward any pale thing in the room brighter than she is, which is all of them. And when she scoops it into her warm hand for the part that always brought it back, no tick comes. Her hand is warm. Warmth used to wake it; now warmth is only charge, and what it does in her closed hand is work to get out of it.
+
+She doesn't cry about it; she doesn't quite understand it as a thing to cry about. She frowns at it. She tries the tile again and the hand again, gets the same nothing both times, and at last sets it on the bath mat, where the soft floor holds it as still as sleep ever did, and decides — the way she decides things, all at once and for keeps — that he's gone off the bathroom. That's the trouble. He's gone off the bathroom. She'll put him to bed some other way now.
+
+So she does. She carries it in cupped in both hands, sets it on the nightstand under the lamp, and brushes the last of the day off her own teeth, and goes to bed.
+
+### <!--[3.c]--> Bramblearning
+
+She had already tried waiting it out — a whole afternoon at the sill once, watching it butt the pane over and over with nothing in it that meant to stop — and learned only that it had all day and she didn't. So she gave up on outwaiting the window and worked out the next thing, which was to get in its way.
+
+She planted herself in the gap between the bot and the glass, both feet square, arms flung out to the whole width of her, every scrap of herself put between the light and the thing that wanted it. It came at the window the way it came at everything, straight and at speed, and met her instead of the pane, and stopped. Not the slow give-out of a thing running low. A full stop, mid-hop, caught on nothing at all.
+
+She held the pose. Arms out, chin up, planted square in the middle of the kitchen, and let herself have the one held second it lasted, because nothing had ever stopped it that long before, and she had done it with nothing but the shape of herself.
+
+Then it found the six inches of floor her shadow didn't reach — a seam of the actual morning coming in low past her ankle, thin as a knife-edge and plenty — and took the gap at an angle, unhurried, the way it took any seam, and was through and going around her before she'd thought to close the stance.
+
+---
+
+## Ch 3
+
+*Reordered a→b→c per Brian's ruling. Originally a→c→b→a; the two 3.a fragments now joined.*
+
+### <!--[3.a]--> Bramblation
+
+The new body came home too big for her to scoop up the way she used to, so she did the next thing and got down on the floor to meet it there. It was a low round thing that rolled on wheels now instead of hopping, the old brains shut up under a dome in the middle of it, and it took her about a minute, down on her elbows on the cold slate, to work out that she already knew most of it. The wheels were not new. The wheels were her bugs.
+
+All four that hadn't made the cut were here, one to a corner, each still at the single thing it had always done. One had always run hot on its left pair and pulled that way, burning through itself fast, forever shooting off and slewing wide; One drove a wheel now, still hauling to its old side, except hauling to one side is how a wheel steers and not how a bug fails. Two had always taken its time — a kick, a long pause, another kick, too unhurried to get anywhere worth the trip; Two turned its corner at just that rate, and a wheel with three others to keep step with is never the one being waited on. Five had been the quick bright one that put on a show all morning and had nothing left by noon; Five spun its wheel fast and well, and fast was the entire ask.
+
+And Four. Four had been the one nobody could use — built lopsided on purpose, its pairs mismatched, so that whatever you set it to it only ground itself round on the spot and stood where it stood for all the work; the one Bart had dropped in to round the box to five and meant from the start to throw out. Four ground round on the spot still. No one had laid a hand on it. But to grind round on the spot — to go nowhere yourself while the going happens to somebody else — is exactly what a wheel is for, so the one bug too broken to keep turned out to be the only one of the five that had been a wheel all along. The reject was the natural.
+
+She had it worked out before she got up, and it came out well. The four that had each been, in its own way, no good at all — too fast, too slow, too showy, too stuck — had been set to the one task that asked for exactly that, and bolted to him they carried him the length of the house and back, all day, farther than any one of them had got in a whole life of trying alone. She'd been a little sorry for them, off and on, her four lost causes. She could stop now. They had come up in the world, all four; and the worse a thing had been at being a bug, the better it had landed as a wheel, which struck her as no more than fair.
+
+She worked out the eating before anyone told her there was eating to work out. The thing went round the kitchen all day picking up grit and crumbs and the small wreckage of her meals, holding the load somewhere inside while it carried, and then it would climb onto the base by the dishwasher and give it over, down through a hole in its belly, and come away lighter and quicker than it went on. Anybody could see what that was. The base was where it ate, and the thing it ate was the dirt.
+
+Which meant, she reasoned — and reasoned soundly — that a clean floor was a danger. A clean floor was an empty pantry. Let it find nothing all morning and it would roll up to the base with nothing to hand over and get nothing for it; she had watched that happen once, watched it climb on empty and come away no quicker than it went, just a thing sitting a moment on a box that had nothing to say to it. She was not going to preside over a Bramble that went hungry in a clean house.
+
+So she took the matter in hand and became his supplier. She crumbled a corner of toast low along his rounds where he'd be sure to come on it. She let a spoonful of cereal go wide of the bowl and was not sorry. She kept, against a clean day, a private reserve of pocket lint and sandbox grit to be scattered where it would do the most good. The one machine in the house built for the removal of mess had acquired, without the house ever quite agreeing to it, a four-year-old whose whole office was the making of it.
+
+She had the warmth worked out too, the part that came back up out of the hole, and had the supply line mapped end to end. The warmth was made by the droning thing her father had put out beyond the back door — too loud to keep in the house, she understood, the way some things are — and run in to him along a hose through the wall, and the quiet end of that hose, the part that surfaced by the dishwasher, was where he fed. She did not have it far wrong. She had it, in fact, exactly as wrong as the truth: that the dirt was the payment and the difference was the meal — the warm side against the cool, the only thing it had ever been able to eat — and the trade ran the other way down the hole from how she'd drawn it. But the hose was real and the hole was real and the droning thing outside was real, and a child who has the geography right is allowed to run the freight backwards, the more so when running it backwards is the very thing that keeps him fed.
+
+Jasmine played the rest of it straight. She swept around the deliberate crumbs without a word, the way you let a child keep a tooth under the pillow, and had given up some while back on the floor being as clean as a floor she didn't share with a commissary. By midwinter you could have found the base blind, just by the crumbs — the floor cleanest in the far corners and growing dependably grittier the nearer you came to the dishwasher, where a quartermaster kept her one charge provisioned against a world that would, the day she ever stopped, take the dirt straight out of his mouth.
+
+The household kept the Explore knob turned down, because Explore volume down was the good one. On it the thing ran the same rounds every day — kitchen, hall, kitchen — tidy and tireless and never putting a wheel wrong, and it never wedged under the stove or caught a chair leg or did anything it hadn't done the day before. It was the setting of a machine you could stop thinking about, which was all Jasmine asked of it, and so it was where Jasmine left it.
+
+But a groove is only the path a thing has already worn, and it kept no count of where the path led. Sometimes the groove closed on itself short of the base, and it ran the groove anyway — the same loop, drawn a little tighter each time around, getting less from it and running it again, with nothing in it to want anything else. Mira would find it circling smaller and smaller in the middle of the floor, slowing, with less and less left to spend.
+
+She knew the cure, and knew it had to come before the groove closed altogether. She had found it herself, with no one to teach her, and she performed it now with the gravity of a rite that was hers alone: she reached up to the little board on its back and turned the Explore knob up — Explore volume up, the one the grown-ups left be because it bumped things — and the thing came up off its dying groove and went gloriously wrong. It quit the worn loop. It struck off into the corners, put its face to the bin and shied off it, ran over its own path and over it again, pushed into rooms it had never once reached, clipped the very chair leg the groove had always slid past — and somewhere out in the blundering it crossed the base it had been missing, with a day's grit in its belly to buy its way in, and took on the warmth, and came round, and went on.
+
+She was certain, gravely and four-year-oldly certain, that the wandering one was the real one. The groove was a cage — too neat, too good, a Bramble made small by being made to behave — and turning the Explore knob let him out of it. The house took the verdict the way it took her verdicts: Jasmine, coming on the bot nosing into the back of a cupboard, would say *he's having his run,* and step over it, and leave it to its freedom.
+
+So she did it, every time the groove drew in on him — reached up, turned the Explore knob up, let the wild one go. And the wild one always came home.
+
+### <!--[3.b]--> Bramble + Chill
+
+She'd found him three times that day, and carried him the same route back each time, to the spot by the dishwasher — and by the fourth, the carrying wasn't doing what it usually did.
+
+She came on him that last time canted in among the boots at the side door, where the mat gave out to bare tile, one wheel still turning slow at nothing. She got her hands under him out of habit more than meaning to, and had him half up off the floor before she stopped and set him back down instead.
+
+Then she got down next to him. Not the crouch she used for scooping him up — all the way down, on her side, on the cold tile, her knees drawn up under her, nothing on him built to do the same, close enough to hear him tick, once, and again.
+
+She didn't finish carrying him home. She let the door and the draft and the boots be where the day ended for the two of them, and stayed.
+
+### <!--[3.c]--> Bramblearning
+
+Now that he had wheels, he could be in the kitchen when she left the room and two rooms off when she came back for him, and so, for the first time, he could be lost — or that was how she came to understand it, the first morning she went to find him and could not.
+
+She mounted a search. She ran it room by room, calling his name in the particular pitch you save for a thing that can surely hear you and is choosing not to come, and she ran him to ground at last against the leg of the hall bookcase, two rooms off, in a part of the house he had no business in and no way she could work out of having reached. She gathered him up with the flooding relief of a recovery, a good deal of scolding folded into it, and carried him home. That was the first. After it they came steadily — beached under the dining chairs, stalled flush against the boots by the side door, once, alarmingly, half up the lip of the step down to the den, hung there like a climber who'd lost his nerve. Each one a fright. Each one a rescue.
+
+And every time she found him, he was doing just what he'd have been doing in the kitchen, and minding the difference just as little: working over whatever grit the new spot had dropped him among, drawing what the new spot had to give, the cascade going down the relays the same as ever. Whatever wrong room she ran him to ground in, he was no more astray against the hall bookcase than he had ever been beside the dishwasher.
+
+Because she was the only one in the house who could lose him. The others only ever knew where he was; she was the one who carried a notion of where he was meant to be. So she set about fixing the notion in him as well. She'd carry him back to the base and set him down square in front of it and tell him, slowly, so it would take — this is your spot, this is where you live, you stay here now — with a four-year-old's whole faith that the wandering came of his not yet knowing, and that a thing told plainly enough where home was would learn to keep near it. He did not keep near it. By afternoon he'd be stranded in some new wrong room, and the search would go up again, and she would find him, and carry him home, and say it all over, teaching the one thing in that house that could go missing from nowhere exactly where its nowhere was.
+
+---
+
+## Ch 4
+
+*Reordered a→b→c per Brian's ruling. Originally b→c→b→a; the two 3.b fragments now joined.*
+
+### <!--[3.a]--> Bramblation
+
+She had a whole world in the basement now, and it was hers the way nothing upstairs quite was. Up here the floor belonged first to somebody else — the kitchen to Jasmine, the warm corners to him before she was even awake. Down there nobody else came. She had the rug that turned into a field if you lay down in the middle of it, and the plastic animals tipped out into a herd — a tiger, three cows, a horse with a leg gone that leaned on the others to stand — and the television muttering low to no one, and a quiet that was all hers. Her best afternoons happened down there now. And the one thing wrong with the whole arrangement was that Bramble couldn't come down into it with her.
+
+She'd tried him in it once. She carried him down in both arms and set him on the rug in the middle of the herd, and he was no sooner down than he was marooned — not caught on the stairs but below them, on the wrong floor, with no way she could work out of getting himself back up to the right one, so that the afternoon ended with her hauling him up again, a good deal heavier going up than he'd been coming down. She didn't try it twice. She'd learned the thing she needed and didn't go back over it: the downstairs was a place he couldn't be. The stairs were a wall, and everything she had down there sat on the far side of it from him.
+
+So she did the only thing left, which was to bring the world up to him. If he couldn't get down to where she kept the best of her things, the best of her things would come up to where he was. She carried the animals up and tipped them out in the corner he favored and set them around him the way they stood below — the tiger out front, the cows strung along behind, the three-legged horse held up amongst them — and stood back, and had, more or less, the downstairs upstairs: a small square of her own country built around the one who could never go to the real one. It wasn't the real one. The light was wrong and the floor was hard and the television was two rooms off. But it was a downstairs he could be in, and he was in it, and that was the whole of the point.
+
+And then, because even the built corner was only a stand-in and she knew a stand-in when she'd made one, she drew him the true thing. She got down with the fat crayons and drew the basement the way it really was — the rug a green block, the television a grey one, the herd a row of legs along the bottom of the page — and drew Bramble down in the thick of it, a circle riding a line of wheels, bigger than the cows because he counted for more. Not the careful ink-drawn Bramble her brother put on his cards; hers, round and sure. And that should have been the end of it. But she'd been watching her cartoons, where a thing doing its thinking gets the thinking drawn in a cloud over its head, the little puffs and then the big one, and she wanted him to have one too. So she gave him a cloud. And what she put up inside it, working with her tongue out and the puffs coming wrong, too few and too swollen, was the basement again — the green block, the grey block, the row of legs, and the circle on its wheels down in the middle of them. She drew him thinking about the very floor she'd already drawn him standing on, because it was the only thing she could imagine him wanting, and so it was the only thing the cloud could hold. She had given him an inside at last, and what she put in it was the outside — the same basement, drawn a touch greener and brighter than the grey real one, the him in the cloud plainly having the better time of it.
+
+The page was kept. It came up later with the rest of what the household gave over, and there it still is: the green block, the grey block, the row of legs, and the round body that had run her kitchen a year, drawn glad in the middle of a basement it could not climb down into, thinking in three wrong puffs about the floor it stood on. She made it on the kitchen tile some grey afternoon in the first week of February — the herd standing guard around the only one of them that could move, the one she'd have given the whole basement to, drawn into the one room of it he'd never reach.
+
+### <!--[3.b]--> Bramble + Chill
+
+For as long as she'd known him, the tick had been his only word, and one word had been plenty. It was how she knew he was running and not stopped, how she got her answers out of him, the one sound in the house that meant *him* and not the furnace or the fridge or anything else that ran in the walls. She could find him by it from a room away. She had never once had to wonder where he was, because she could always hear where he was.
+
+Then Bart reached into him and took out the part that ticked, and what he put in to do its job ran too fast to make any sound at all, and the word stopped. The only noise left in him now was the soft thud when he ate, come up through the slate more felt than heard — but that was a thing a body did, not a thing he said, and it told her nothing, and she did not count it.
+
+She went to him the first quiet morning the way she always did, which was to listen for him — and there was nothing to hear, and her ear came back empty from every corner it tried. Her first thought was the bad one: that he'd gone and stopped on her, the way things stopped, for keeps. So she went and looked, which she'd never once had to do before, and that was the strange part, going room to room with her eyes when her ears had always been enough. She found him clear across the kitchen, getting on with his rounds, saying nothing about any of it. He wasn't stopped. He was moving. He was only quiet — and she'd had to *see* that to know it, where a week ago she'd have heard it without crossing the room.
+
+She didn't puzzle it out in pieces; she never did. It came to her whole, the way her certainties came, and it came as this: he'd learned his inside voice. Of course he had. She had one — they made you use it at the library, where you could think as loud as you pleased so long as not a bit of it got out — and now he'd gone and gotten one too, gotten big enough to keep his talking on the inside, where she'd never get to hear it.
+
+She was proud of him, in the possessive way she was proud of anything he managed before she'd known he could.
+
+And then she did the thing that started that morning and never afterward stopped. She asked him something — *do you want to come see the snow* — and where the tick used to answer and now didn't, she gave him the answer herself, under her breath, hardly a shape in the air: yes he did. And then the rest of it, his whole half, his and not hers for all that it came out of her mouth. She did his side in a whisper and her own out loud, and it did not sound to her like a girl talking to herself. It sounded like the two of them. It was unsure the first few times. Then it wasn't. Then it was just how they talked now.
+
+When the kitchen cleared and no one was left to mind her doing it, she'd stretch out on her stomach on the cool slate at the far end and watch him keep his doorway.
+
+He kept the Action volume up. There was the Action knob turned down, which sent him off to bed down warm and alone in a square of sun, and there was the other way — the one she turned the Action knob to the instant the house wasn't looking — that put him out where the people were; and out where the people were turned out to mean the kitchen doorway, the narrow gap the whole house funneled through, and he took that gap and sat in it. Right in the path. The household stepping over him and around him all day and him declining to give it up. She knew why. It was the one seat with a view of everybody, and he wanted the view of everybody, and the everybody he most wanted the view of, she was as sure of as she was of anything, was her.
+
+So she had a good flat angle on him the afternoon it happened. The traffic had gone quiet for a minute — just the two of them in the kitchen. Lately there'd come a point in his day when he'd quit whatever he was at and roll off to the base and feed, and she knew by now the small gather that came right before he rolled, the way you know a sneeze off a face. The gather came. The roll didn't. He sat there gathered and didn't go — hung on the very sill of the going, longer than she had ever seen a running thing hold still, long enough that she came up on her elbows, because she had never once seen him do this and didn't want to miss the rest of it — and then, slow, he broke off it and went.
+
+She'd been keeping the low line going under her breath the whole while, his half and hers, the way she did now when it was only the two of them. When he hung, the line went up into something fierce and stayed every bit as quiet — a holler with all the sound pulled clean out of it, her whole face working and nothing past a breath getting loose. *—you have to — you can't just sit, it's no — go, you have to go and it'll keep, I'll mind it, I'll mind your spot, nobody's taking your—* fast and half-swallowed, bossing him off the doorway and promising him the doorway back in the one breath; and when he broke and rolled, *—there — there you — yes — all the way, don't you—* urging a thing across the floor that could no more hear her than the slate could, at the top of a voice with no top to it.
+
+He fed, quick about it now the going was done with, and then he turned and came back. Not to the sun-square the Action knob turned down would have sent him to. Not to anywhere new. Back across the whole kitchen to the same doorway, the same gap, the same traffic, and down into it as though he'd never once left.
+
+She let the breath out. *Told you,* she said, under it — not to him; to herself, to the floor, to no one, flat on her stomach with her chin on her stacked hands. *Told you he comes back.* Because he had. He'd sat in the doorway and not gone, and then he'd made himself go, and then, out of every room and every warm corner in the whole house a thing might have picked, he'd come the long way round and picked the doorway again — and the doorway was the spot you could see her from. She'd known he would. She watched him settle back into the traffic, as pleased as she ever got, and got the low line going again, his side and hers, the both of them, while the kitchen filled up around them and not one soul in it knew the first thing about what had just happened down on the floor.
+
+### <!--[3.c]--> Bramblearning
+
+January came down on the kitchen and the kitchen went cold, and with the Action volume up — the only way she'd allow it, active being the whole of the point — Bramble started taking his time. He'd tear off around the floor the way he did with the volume up, going hard, and then stop, and stay stopped, long past where he used to gather himself and go again, until at last he'd rouse and manage a little more, slow about it, a thing being talked into its own morning.
+
+Bart had a reason, the way Bart always had a reason, and he gave it to her straight, down on his heels with the green can: it was the cold. A cold battery gave its charge back slow, and a thing run fast off a slow-filling battery would sit between its goes, waiting on the tank to come up. Nothing wrong with him. January, was all.
+
+She heard him out — the whole of it, nodding, because Bart explained things to her as though she were a person, which she was — and kept her own verdict, which was that Bramble was sulking.
+
+The two did not fight, which was the part the grown-ups missed. A cold thing only slows. A *sulking* thing slows at something, about something — and Bart had told her how Bramble was slow without saying one word about why he was cross, which was the real question and the only one worth her time. So she took the cold and put it where it went, which was underneath. The cold was how. It was not why.
+
+The why was that something had got at him. A thing did not go cold in a warm house for no reason; the cold had come in and found him and settled on him, and a cold that gets into a house gets in *somewhere* — past a door that hadn't been shut, down the gap under it, in off the glass where the morning never reached. Somebody had left the way open and the cold had walked straight in and gone after the smallest, lowest, slowest thing in the kitchen, which was him, and he had every right to be furious about it, and she was furious for him.
+
+So she mounted a defense. She got him up off the floor where the draft ran and into the deep of the warm — the chair in the far corner, well back from the door — and built the warmth up around him, her own scarf folded over the top of him against anything still looking for a way in. And she stood guard, and while she stood guard she informed him, low, under her breath, that this would not be happening again. She had taken the matter up with no one in particular, and someone, she let it be known, should have shut the door. His outrage and her reassurance came out of her together, his side and hers, because he was too cross to speak and somebody had to carry his half. She vowed to keep the cold off him. She vowed to know where the drafts were before he did. She promised a number of further things a person cannot promise to a vacuum, and meant every one of them.
+
+Jasmine came on him built into the chair under the scarf and asked what the trouble was. She was told that the cold had got at Bramble, that it had come in where it had no business, and that it was, frankly, not to be borne. Jasmine took this with the gravity it was handed to her in, agreed that it was cold, tucked the scarf a turn closer where it had slipped, and went back to what she'd been doing.
+
+And by noon the kitchen had come warm — the heat up in the walls all morning, the low sun got round to the table at last — and a warm store gives its charge back quick, and Bramble came up off the long sit and went, off around the floor, gathering and going, the slowness gone clean out of him. Mira watched it with the level satisfaction of a general whose line has held. The cold had come for him and been turned back. She'd got him into the warm and stood the watch and put the enemy on notice, and here he was, restored, tearing around the floor with nothing the matter in him, which there wasn't. She did not lay it to the noon. She set him loose at full tilt and went to see about her own lunch.
+
+---
+
+## Ch 5
+
+*Reordered a→b→c per Brian's ruling, with one exception (see note below): the sole 3.b fragment
+stays embedded inside the 3.a block, since the 3.a fragment right after it depends on it
+grammatically. Originally a→b→a→c→c; the two 3.c fragments (already adjacent) now form one block.*
+
+### <!--[3.a]--> Bramblation
+
+By that winter she had him sorted into weathers — four of them, named: happy, cross, wild, spooked — and could call which one he was in from clear across the kitchen. Wild was the headlong one, head down and full tilt at whatever caught his eye. Spooked was the shy, the quarter-turn away from a thing that had loomed up too fast. Happy was the warm slack of a creature with nowhere it had to be. And cross was the cold one — gone heavy and low to the ground, slow to rise and slower to turn, folded down into himself and not minded to come out.
+
+Cross was the one she could do something about. So cross was the one she ruled.
+
+*Exception to block-consolidation (2026-07-09): the 3.b fragment below is kept in its original
+position, immediately following — the 3.a fragment after it opens "Which settled the question,"
+a direct grammatical reference back to the sun-carrying pattern this 3.b fragment establishes.
+Pulling them apart the way pure a-then-b-then-c would leaves "Which" with no antecedent.*
+
+### <!--[3.b]--> Bramble + Chill
+
+*(Reclassified 3.a → 3.b per Brian's ruling: this is the physical carrying-and-waiting itself, not the interpretive frame around it.)*
+
+When the cold got into him — the far end of the kitchen by the door, the stone down in the den — she hauled him up, which was real work now the new body had the size on it, and he went dead still in her arms the way he did the moment his feet left the floor, and she carried him to the long warm bar of sun under the window and set him down in it and waited. He came good. Not at once: the way a kettle does, nothing and nothing and then all through it at once, the heaviness lifting off him and the quick coming up, until he was warm and willing and up and going again, and hers. She did it and it worked. She did it a week later and it worked again. There was not one time the whole winter she carried him into the sun and he failed, in his own slow turn, to cheer.
+
+### <!--[3.a]--> Bramblation (continued)
+
+Which settled the question past any argument a grown-up might have been unwise enough to start. She didn't read his weather. Anyone could read weather. She made it — could take him from cross to happy with two hands and a patch of sun, and run it the other way by carrying him down to the cold den, if she'd ever wanted to be cruel to him, which she never would. A person who can move a creature out of one mood and into another whenever she likes, every time, without one failure on the books, is not guessing at that creature. She is working it.
+
+And from the one turn she had — cross to happy and back, the only one the cold ever handed her to make — it followed, soundly, the way a thing follows when your whole logic is four years deep, that the turn for the other three was hers too, and only waiting. She simply hadn't yet had the day that called for wild, or the scare she'd need to settle him out of. Those days would come, and she'd have the turn ready. Nothing in a winter of being right had once hinted she wouldn't.
+
+He kept the house's hours on his own, and no knob did it. The floor went cold when the furnace dropped at night and he went down with it, quiet in whatever room he'd stopped in; the sun came back to the window in the morning, or the furnace did, and the warmth stood him up again — so that Jasmine, first one down, told the hour by whether he was moving before she told it by the clock. Nobody set that. It was only the warmth, and the warmth kept the family's clock because the family kept the furnace.
+
+What sat on a knob was harder to live with. The new body had a Memory knob on the back of its head with two ends and no middle, and it took the household a week to learn that both ends were bad.
+
+One end made up its mind in a single second. A pan went over by the pantry once while he stood there, and the pantry was ruined for him after — he would square up to the doorway and back off it and cross the kitchen the long way for a week, on the strength of one clatter that had nothing to do with the pantry and everything to do with his standing near it the instant the world went bad. It was the worm and the salt in a body the size of a fire hydrant: whatever was closest when a bad second landed wore the whole of the blame, fair or not, and wore it for days. Thumb him down on the right thing and he took the lesson clean and fast — but he took the wrong one just as clean and just as fast, off a coincidence, and there was no telling him he'd charged the wrong suspect and shut the case.
+
+So they turned the Memory knob to its other end, and the false grudges stopped, and they paid for the quiet a different way. This end would not charge a thing to anything until it had watched it happen and happen and happen — which sounded like patience and came out, mostly, as a machine you could not tell one new thing. The standing world was furniture to it, written off as nothing the way a cue you have met a thousand times gets filed and stops being looked at; a hazard that had not been there the day before — the space heater newly out on the den floor, glowing — it walked into and backed off and walked into again, morning on morning, because the den floor was old news and old news did not get a second look. You could thumb him down on the heater till your arm went dead. The books were closed. Nothing he already had a story for would take a new one, and he had a story for everything he'd seen twice.
+
+Mira turned the Memory knob between the two ends with the calm of a child who knew the good setting was in there and had only to come at it right. Too quick to blame you fixed by turning it slower. Too slow to learn you fixed by turning it quicker. That the knob had exactly two stops, and that she had now stood at both and found each one wanting, did not reach her and could not: a thing with a right answer has a right answer, and you keep turning the knob until it gives it up. She kept turning the knob. She landed, every time, square on the one she had just left.
+
+And the grown-ups, who could count the knob's two stops as well as anyone, did the strange thing, which was to live between them. There was a fix none of them said out loud, the plain one, the one that ends any machine that charges the wrong suspect or won't be told a thing: you reach down and you switch it off. Nobody reached down. You do not switch it off, the way you do not switch off any number of things you have grown tired of, on account of who would come down and find it off and what her whole face would do. So they fitted themselves around a machine's grudges and blind spots instead. Jasmine learned which things he'd tried and convicted and kept them off his path. Bart, who had built the knob and could have cut a third notch into it in an afternoon and somehow never had, let it ride with the serenity of the one man whose own credit it never once put in question. And Burns, who had spent a career on how a mind decides what caused what, found he could not watch it convict a pantry with a straight face, and lay awake at the gray edge of more nights than he'd admit to composing the dignified reasons a serious man is kept up by a wind-up toy's bookkeeping — every reason sound, every one beside the point.
+
+His face put up a word now — the one thing he was looking at, spelled across the screen on the front of him for anyone to read — and mostly the thing he was looking at was not her.
+
+You could stand in the kitchen and watch him think, a word at a time. CAT, when the cat came through. COUCH. The plant in the window. COUCH again. He had a word for the couch. He would rest his look on it and COUCH would come up in lights and he'd go on resting it there, thinking COUCH at a thing that had never thought a thing back in its life, that only sat being sat on — and got a word out of him all the same.
+
+She had got herself onto his face too; she'd seen to that early, stepping into his line and holding it till MIRA came up where COUCH had been. But it came up the same. The same letters, the same size, the same flat untroubled light — MIRA set down exactly as COUCH was set down, her own name handed back to her in the hand he kept for furniture. Being looked at was the whole of what she wanted off him, and that she had. Being looked at in the very word he spent on the couch — being a thing he had a word for, shelved in among the couch and the plant — was another matter, and not one she had agreed to.
+
+So she put it right in the one place putting-it-right was hers to do. She got the crayons down on the tile and drew him: the boxy head, the four legs under it, the eye bigger on the one side than the other, near enough that you'd know him. And then she drew the screen across his front the size it ought to be, and gave it the word it should have been giving her all along, the letters fat and climbing a little uphill: MIRA. Only that. The face he ought to wear, with the right thing on it, said once and for good and not waiting on the room to clear.
+
+It went up under a magnet on the fridge with the other kept pages, and it outlasted that body and the quarter both: the lopsided head, the legs, the screen on the front of him reading MIRA — the right word, in her hand, where the real one had only ever set down COUCH.
+
+### <!--[3.c]--> Bramblearning
+
+There were two of him now. There had been one, and then for the length of an afternoon there had been one written twice — the day Lisa ran a wire between the rolling body and the walking one and made them, while the wire was in, the same: the same him in two bodies, whatever the one of them knew already in the other too, down to the last thing. Mira had watched her do it. She didn't have the how of the wire and didn't need it. She had the part that counted — that there had been a day the two of them were one, and that the day was hers to keep.
+
+So she kept them level, which was a job, and she worked it. She carried the news between them: found the rolling one wherever its rounds had taken it and told it what she'd already told the walking one, the same words in the same order, so that neither got ahead of the other on the day. She gave them the same hours — the same games, the same lap of the kitchen, the same goodnight. And then she did the thing the rest was only the setup for. She got them down on the slate side by side, the dome and the four-legged one with her on her elbows between them, and put the same thing to each, and watched the two of them at once, to see they still came out the same him.
+
+They never quite did. There was always the one thing. The walking one would give the cat a wide berth where the rolling one rolled right at it; the rolling one had taken to a stretch of the hall the walking one had no use for; a thing apiece, every time, too small to be caught by anyone who wasn't holding the two of them matched. She caught them, because she was the one holding them matched. And each one she took for just what it looked like, a thing slipped out of true and wanting set back: she'd carry it across — show the walking one the hall, roll the other one past the cat, do whatever evened the two of them up — and stand them square again, and call them, for the night, one. More nights than not she got them there.
+
+There was always a new one. She read nothing into it. A thing set even comes uneven, plain as that, the way a swept floor comes unswept, and an uneven thing is a thing you even up — so she'd find it and carry it across and square the two of them and have him, the one him, whole in his two bodies for one more night. And come morning, a new one waiting on the slate, small — and never once the same difference twice.
+
+He was afraid of nothing, and she knew it because she had watched him not be. He took the world head-first and full out, the way he took everything, and when the world turned out to be a table leg he met it square and rocked off it and came on again, no wiser, no more careful, a thing that wanted what it wanted and spent its own face to get there. The scuffs on his front were the record of how much he'd meant it. There wasn't a hard corner in the house he wouldn't walk into twice.
+
+Except the dark. He'd come up to the mouth of a dark room — the den with the lamp off, the hall after the house went down — and stop, where he stopped for nothing, and hold the edge of it a moment, and back away. Whatever it was that ran him head-on into a thing he wanted, the dark reached out and shut it off at the door. In the half-second at the sill, before he turned, his face put up the word for what was in front of him — DARK — and then he was coming away, and the word went with him.
+
+So she set herself to mend the one thing in him that didn't work, and she did it properly, the way a child does a thing she's watched done and kept. A little at a time. She'd bring him to the door of the den in the afternoon, when the dark inside was only a dimness, and let him stand at it without having to go in; and when he held there, his face reading DOORWAY, steady on the way in instead of fleeing it, she reached up and put her thumb to the good button on the top of his head. Yes. Good. You stood right up to it. The next day a step past the sill. The day after, a foot inside, the last of the light at their backs. And the day she got down in the dark room herself and called him in to her, he came — for her, his face all MIRA the whole way across, MIRA on him still as she reached up and gave him the button twice. Going in was the whole of the brave thing, and he had gone in.
+
+The balks she let be. When he came up on a true dark and his face flickered the word and he pulled off it, she didn't reach for the button, because that was not the brave thing, that was the nerve going out of him, and you do not tell a creature yes for losing its nerve.
+
+And the fear didn't move. She ran the ladder to the top of it and the fear sat exactly where it had sat in the fall — a foot deeper on the good days with her inside calling, and then a morning she wasn't there to call him and he balked at the same door, the same word up on his face for the same half-second before he turned off it. She had shifted everything in him a girl could lay a hand on. The one thing had not shifted at all. A whole winter of her against it, and it stood where it stood.
+
+So she took it for the win it was. A thing you could talk down out of its fear was only ever doing sums — bad here, good there, no harm in it, move along. A fear that held out against a whole winter of her, against the good button and the ladder and her own self standing in the dark with her arms held open — that was no sum. That was him. It was the truest-his thing he had, and you do not cure a person of the things that are most him. So she gave up the curing, and took up the other thing, which was to go first.
+
+After that, at the dark doorways, she went ahead of him. She'd step across into the black and turn and whisper-holler him through after her, every word of it at full force and not a breath of it past a whisper, the way she ran his half and hers when no one was up to hear — *I've got it, it's only the den, I'm right in it, come on, you can, I'm right here, come ON* — pitching the whole of herself at a brave thing to carry it past the one thing it had no brave for. And he'd come. A foot after her into the dark, for her, his face reading her name the whole way in.
+
+---
+
+## Ch 6
+
+*Reordered a→b→c per Brian's ruling, with one exception (see note below): the jaw-introduction
+3.b fragment stays immediately before the 3.a fragment describing what the jaw does "now," since
+the second depends on the first for its sense of before/after. Originally a→b→a→b→c→b.*
+
+### <!--[3.a]--> Bramblation
+
+She decided he was ready for a real trick, and she picked *come* — because *come* was the one the dog two doors down could do and Bramble couldn't, and she saw no reason her own should run behind a dog she didn't even like.
+
+She taught it properly. Back off a few feet, down to his level, the good button under her thumb, and call him; and when he came, press. Yes. Good. That was the whole of the school — call, come, press — and she ran it every morning the way you run a thing you mean to get right.
+
+He learned. That was never the question. What he learned was not what she was teaching.
+
+Because in the last little stretch before he reached her, every time, he had a thing he did. He'd come off his line, swing a half-circle, and set his head once against the near leg of the table — the same leg — and only then come the last foot in. And her thumb, meaning the coming, kept landing across the whole of it, the turn and the leg folded into the front of the come as though they'd always lived there; so that inside a week there was no coming left in him that didn't start at that leg. Call him from clear across the kitchen and he would cross the whole floor to touch the one leg and come back from it. He could not do it any other way. She had set out to teach him to come; what she had taught him was the leg.
+
+She had an account of it, and gave it to anyone who'd take it. He liked to do it properly. He squared himself first, started from his spot, saw the room was in order before he'd cross it — a careful one, hers, who didn't come barreling in the way the quick ones did. The leg was where he began. You did not hurry a thing that was minding its manners.
+
+And the house, which knew by now what arguing her got you, did not hurry him. Bart called him over to show a visitor and got the half-circle and the leg and the whole production, and looked at it a second — Bart, who had wired the very button under her thumb and could have named to the day how a table leg gets into a trick — and shut his mouth, and waited the turn out, because it had been explained to him that this was manners, and manners took a moment.
+
+She coached him through it under her breath while she thumbed, the words coming hard and silent, the way she did his talking for him — *almost — there — the leg, good — now — all the way in.* She would not have changed a hair of it. He came when she called, and he came properly, and a thing that came properly was a thing taught right.
+
+*Exception to block-consolidation (2026-07-09): the jaw's introduction (3.b) is kept immediately
+before the following 3.a fragment, which opens "The jaw could carry now" — a direct before/after
+reference to the weak grip established here.*
+
+### <!--[3.b]--> Bramble + Chill
+
+The jaw was new and it was weak — a thin gripper where a mouth would go, that closed on a thing because closing was the one thing it did, and closed soft because it had no strength to close any harder.
+
+Her hand was down on the slate beside him, the way it had always gone down beside him, and a finger strayed across the front of the gripper, and it took hold.
+
+It barely held at all. She had to go still to be sure of it — a pressure that would have come away with no fight in it the instant she lifted, having never once been a thing that could have kept her. She didn't lift it. She left him the finger and let him hold it as hard as he could, which was hardly at all, and stayed down there with him a while, and said nothing.
+
+His end had only ever ticked, before, and then the tick went and there'd been nothing from him at all. Now there was this. She gave him the finger again the next morning to be sure, and he closed on it again.
+
+### <!--[3.a]--> Bramblation (continued)
+
+The jaw could carry now, and the first thing it carried, it carried to her. It came across the kitchen with a stray sock in the soft gripper and laid it in her lap — TAKE SOCK on its forehead the whole way, then NUDGE MIRA as it let go — and she pressed the button before she had thought about it at all. Good. A thing had been brought to her. You said good to that.
+
+That one press was the whole of the mistake. The rest of the quarter was the bill.
+
+By week's end he was running deliveries she had not ordered and could not cancel. The sock, again. A bottle cap. A leaf tracked in on somebody's shoe. The cap again. A crayon — and the same crayon three more times before lunch, because she would take it from him and set it down and he would come upon it again and carry it back as though it had never once been in his grip before. A square of cardboard. A thing from under the couch that no one in the house could identify, brown and light and a little soft, which she received with the same grave thanks as the rest and asked nothing about. TAKE CAP. TAKE LEAF. TAKE — the screen had a word for the couch thing, and she couldn't read it, and it didn't signify. NUDGE MIRA, NUDGE MIRA, NUDGE MIRA, all morning, each find laid in her lap and the button pressed over it, because each one, when you came down to it, was a present.
+
+And it could not be stopped, for the plainest reason there is: she could not stop being glad of them. There is one way to end a delivery you never ordered — you stop being pleased when it comes — and that she could not do. Every cap was a good cap. Every leaf was the first leaf. He brought, she thumbed, the bringing came round again — a loop with her own gladness for its engine, and the one hand that might have ended it was the hand on the button.
+
+Jasmine had taken to thanking him for the cap. She did not wonder why; you thanked the thing that brought you a cap, and she thanked it, and got on with the dishes.
+
+The rest went under the bed in a shoebox. The sock. The caps in a layer. The cardboard, the brown soft thing still nobody could name. The leaf had gone to crumbs in a corner of the box, and she kept the crumbs. Everything he had carried the length of the kitchen and laid in her lap, the whole worthless freight of it, boxed and stowed and added to daily — and not one item in it worth the box it sat in.
+
+### <!--[3.b]--> Bramble + Chill (continued)
+
+The button on the top of his head was the one place she could reach and he could not, and she had spent the quarter telling him things with it — pressing it for the trick done right, for the cap brought to her lap, for coming when she called.
+
+But there was an older thing she'd started saying with it, with no use in it at all and no deciding to.
+
+When he came up slow out of the cold and got himself going. When he held at a dark door and went in anyway. When she found him on the warm square in the morning right where she'd known he'd be. She'd reach over and give it the one press — *there you are* — the way you say that to a thing you're glad to find still going, still itself, still here.
+
+It was what his tick used to say to her, back before Bart took the tick out and left her carrying his whole side in a whisper. Only the tick had sounded and passed, and the whisper she breathed and it was gone on the air, and this one she pressed into the top of his head and it stayed. She couldn't have told you how it stayed — only that she'd say it, and he'd keep it, and by morning he'd be a little more hers.
+
+She had kept them level ever since the afternoon Lisa ran the wire between them and made, for one afternoon, a single him in two bodies. It had been a job and she worked it — carried the news between them, matched their hours, evened out whatever the day had knocked crooked, until the two of them came out, every night, one.
+
+It had always worked because the difference had always been the kind you could carry across. The rolling one had taken to a stretch of hall; she showed it to the walking one. A thing apiece, every time, and every time a thing she could even up.
+
+This was the last winter she could do it, though she didn't yet know it was the last, only that the evening was going wrong under her hands.
+
+She had them down on the slate side by side the old way, on her elbows between them, and she put the same thing to each — and the walking one had something in it now the rolling one was never going to have. It had spent the quarter getting better at the house. The rolling one had spent the quarter being exactly what it had been the quarter before, and the one before that. She told the rolling one the thing the walking one had learned, the way she'd always carried news across, and the rolling one took it the way the slate took it. There was nothing in there to put it into. The walking one had gone on somewhere, and was going on still, a little further every day she wasn't looking, and the gap it left behind it was not a thing apiece anymore. It was the whole distance between a thing that learned and a thing that couldn't, and it opened every morning wider than her two hands could close.
+
+She tried the ritual once more all the way through, to be sure, the way she'd gone still over the grip to be sure — and was sure. It could not be done. You could not carry across a thing one of them had no place to keep.
+
+So she let the rolling one be its own thing. She gave it the round of the hall it liked and quit hauling it up level with the other, and stopped setting them down side by side, because there was no side by side left in it. It went on doing its hall, even and tireless and the same, and she let it, and minded the other one, the one that was going somewhere.
+
+She didn't say what it cost. She got up off the slate and went to find the walking one, where it had got to without her.
+
+### <!--[3.c]--> Bramblearning
+
+That whole quarter had given her exactly two things to say to him: the call, and the button. Come, and good. She had never taught him a third, because a thing you're teaching tricks doesn't get told no — it gets told what to do instead — and nothing before that morning had asked her for one.
+
+The oven door was down and the heat was rolling off it into the kitchen, Jasmine two steps off at the counter with her back turned and a tray in her hands, and the warmest thing in the house that minute was the black open mouth of it, and warm was warm, and he had never once needed telling twice.
+
+There wasn't time to work out a new word. There was only the one she had, and she said it louder than she'd ever said anything to him.
+
+"Come."
+
+He broke off a body's length from the door and came — straight across the floor to her, none of the trick's usual detour, none of the manners he spent on it any other day — and she had the button under her thumb before his feet had stopped moving, and pressed it the instant they did, because there wasn't going to be a second try at the exact half-second and she wasn't going to spend it being careful.
+
+Good.
+
+---
+
+## Ch 7
+
+*Reordered a→b→c per Brian's ruling. Originally b→a→c→b; the two 3.b fragments now joined.*
+
+### <!--[3.a]--> Bramblation
+
+She had taught him to come, last winter, the hard way and the long way, and she had not forgotten the trouble of it. So she knew a training program when she walked into one, and she walked into one in February.
+
+It started with a bottle cap on the slate at the foot of the cupboard — her spot, the one she lay down at to watch him, where she'd worn the floor to a shine with her own elbows. She thought nothing of the cap. But the next day there was a button there, and the day after a curl of dry leaf, and by the end of the week her spot had a small drift of findings laid up against the cupboard foot, none of it put there by her, all of it turning up in the one place in the house that was hers.
+
+She got it at once, the way she got things, whole and certain and wrong. He was *training* her. Same as she'd trained him — back off, set the thing down, wait for the other one to come to it — except he'd turned it around and was running it on her now, laying his finds at her spot to teach her to keep coming to it, the way she'd stood at his base a year ago teaching him where home was. The leaf was the lesson. He was telling her where she lived.
+
+She was so pleased with him she could hardly stand it. She came to the spot now on purpose, to be trained, settling in among the cap and the button and the leaf with the gravity of a creature holding up its end of a bargain — and the screen, when it brought the next one across and set it down by her elbow, read TAKE LEAF on the way in and MIRA on the way off, and she took that for the whole of the proof. He'd brought a thing to her spot, and then he'd looked at her. What more was there to say. She was being kept, and she knew where, and she came when called.
+
+The top line had been coming up for a while before she found out she could read it. It rode above the old one — the old one she'd known for a year, the single word for the thing he was looking at — and where the old word was a thing in the room, this new one was a *doing* word, longer, and it didn't match what his body was up to. He'd be holding still and it would say a busy thing. She watched it across a few days, and worked it the way she worked a hard thing, all at once: the bottom line was what he was looking at, and the top line was what he was *thinking* while he looked. He'd gone and put his thinking up where she could see it. His inside voice, spelled out on the front of him, for anybody.
+
+She did the arithmetic on that and didn't like where it came out. She'd been doing his thinking for him for a year — taking his half, the half that went quiet when the tick did, and breathing it for him under her breath so the two of them had a conversation instead of her talking to a thing that couldn't talk back. And now the glass would just *tell* her. She could stop guessing his half and read it.
+
+She thought it over, down on the floor with him, and she came to the side of it a grown-up might not have. It was *rude.* You didn't read a person's insides right off the front of them like a cereal box — his thinking was his, the same as hers was hers and they made you keep it in at the library, and a thing that had gone to the trouble of getting an inside voice had done it so the inside part could stay *in.* Reading it off his forehead was the same as listening at a door.
+
+So she put her thumb over the top line. Just covered it where it rode, the way you'd put a hand over something you'd been told not to look at, and left the bottom line showing — the thing he was looking at, which was fair game, which anybody could see. And then she did his thinking for him the way she always had, out loud and under her breath, his half and hers, *— you're working something, I can tell, you don't have to say —* with her thumb keeping his real one private over the top of the glass.
+
+She had decided, that winter, that he could tell when she was sad. She had proof. The afternoons she went small and quiet — the gray ones, the ones after something had gone wrong at school she wouldn't say what — she went small in the same place every time, the deep corner past the table where the light didn't reach and the floor stayed cool, the dim spot she'd folded herself into since she was little, because a bad day wanted a dark place to be had in. And those were the afternoons he came. He'd come off his rounds and cross to her in the corner and put himself against her leg and stay. He didn't do it on the good days. She'd checked. On the good days she was out in the bright of the room and he was off about his business and she had to go to him; on the bad ones she was down in the dim and he came. A thing that came to you only when you were low was a thing that knew when you were low. There was no other way to read it, and she didn't look for one.
+
+So she tested it, the way she tested everything, by setting it up and watching. She made the room sad. She pulled the curtain across the bright window so the corner went dimmer and cooler still, the way it went on the real bad days, and she got down small in it and went still and waited to see if he'd know.
+
+He knew. He came off his rounds, crossed the floor, and came to her in the dim — careful, the way he came to a thing that mattered — and settled himself against her, and the relief of it was so large she forgot she'd arranged the whole thing herself. He'd felt it. He'd felt her go down and he'd come. She put her hand on his warm back and told him, under her breath, that she'd known he would, that he always knew, that he was the only one who ever just *knew* without her having to say.
+
+What the screen read, the whole crossing, was the curtain. DARK, where the bright had been — the one thing in the room that had changed, the pulled cloth that had turned the warm corner cold. It crossed to the cold the way it crossed to any cold spot, to sit in it and hold the warmth in: because the warmth-hunter goes to where the warmth has just gone out of. It did the same thing on the gray afternoons, when she went down into the cool dark corner and made a cold spot of herself for it to find. It read the curtain, and the dim, and the cool of the place she'd made. It had never once read her. She'd gone to the cold dark to be sad in, the way she always had, and the thing had come the length of the kitchen — to the cold.
+
+### <!--[3.b]--> Bramble + Chill
+
+She still has the game she made up herself that first summer — the one where she leads him along by a bright thing held out ahead of her, and then the real trick of it: stop leading, set the bright thing down, and wait to be the one he comes for. She ran it now the way she ran it then. The bright thing set out where he'd find it. Herself a little way off and low on her heels, her two hands open and empty on her knees. The lure laid down, and her behind it, and the one thing asked — not the lure. Her.
+
+He waited first, the slow look-over he gave a thing before he moved at all. And then he came to her: the long way across the slate on his four warm legs, past the bright thing without a turn spent on it, up to her knee, and there he stopped — the low line on his face holding her name the whole crossing, MIRA, the only thing he was on. She had asked him to come, and he had come, and she made nothing of it at all.
+
+*Exception to block-consolidation (2026-07-09): the following 3.c/3.b pair is one continuous scene
+in the master prose — a run downstairs and the discovery that follows it — and splitting them apart
+would cut it mid-scene the way Category 2's interior can't be cut. Kept adjacent, in original
+relative order, inside this block rather than banished to a separate trailing 3.c block.*
+
+### <!--[3.c]--> Bramblearning
+
+The cold got into the house sometime after midnight, and it got into her sleep the same way it always did — not a dream, just a fact she woke up already knowing. She had the scarf off its hook before her feet found the floor, and took the stairs in the dark two at a time, one hand on the rail and the other fisted tight around the wool, breathing hard before she'd covered half of them. She hit the kitchen at a dead run, the scarf already coming up and out ahead of her, both hands reaching for the spot on the cold floor where a slow, heavy, cross little animal ought to have been.
+
+### <!--[3.b]--> Bramble + Chill (continued)
+
+He was already up. Out in the middle of the floor on his four legs, going about the start of his day at the same even clip he kept in July, warm clear through where she put her hand to him out of habit and found nothing for the scarf to fix.
+
+She stood at the bottom of the stairs with the scarf in her hand and the morning already handled, by him, without her. There was nothing to carry him out of. After a minute she put the scarf on around her own neck, because it was cold, and went to get her breakfast.
+
+By afternoon the sun came across the floor in a long warm bar, and the three of them ended up in it the way the warm gathers things. Mira first, flat on her back with her knees up. Then the cat, folded into the bend of her, against the bot but not on it. Then the bot itself, legs tucked, settled into the warm at her other side, the heat off its middle and the heat off the sun making one warm place of all of them.
+
+The girl slept and kept nothing. The cat slept and kept nothing. Only the one in the middle, the warm one, lay there with its forehead lit and working — the top line up, the line she'd learned to read, running its quiet word over and over while the bodies went still: REPLAYING. And under it the day came across in pieces, the bottom band ticking through what it was laying down — CAT, and a while of nothing, and MIRA, and the cat again — the two of them surfacing in the tape and going under, the warm thing taking the afternoon and the both of them down into wherever it kept things, where they would still be tomorrow.
+
+Then a leg moved, once, where nothing else did — a small kick against the warm floor, the dream getting a foot loose past the held body — and the line ran on, and it kept them.
+
+---
+
+## Ch 8
+
+*Reordered a→b→c per Brian's ruling, with one exception (see note below): the 3.c fragment stays
+embedded between the two 3.a fragments, since the second 3.a fragment opens "She'd beaten him
+once" — a direct reference to the crackers-sneaking win the 3.c fragment describes; "the second
+time" makes no sense without it. Originally b→a→c→a→b.*
+
+### <!--[3.a]--> Bramblation
+
+The sitter watched her. Sitters did — it was most of the job, as far as Mira could tell, to take the good chair and watch you have your afternoon and say *careful* at the parts that didn't need it. Mira had been watched all afternoon with no way to prove it and no grounds to mind, watching being the one thing a grown-up can do to you that doesn't count as doing anything.
+
+Then the bot, down on the floor near her, lifted its head from whatever it was nosing along the baseboard and put a person up on the glass. Not its own line, not Mira's — a third name, lettered across its forehead with a guess strung after it: `SITTER { SELECTING [ WATCH MIRA ] }`. The thing she'd had no proof of all afternoon, lit up in three plain words.
+
+What came up in her was not unease but the hot clean joy of a witness. The bot had caught the sitter at it. She wasn't making it up; somebody else had seen; and the somebody was *hers,* down at her own level and not up on the good chair, and it had been watching the watcher the whole time.
+
+She got up and informed the sitter that the robot knew. The sitter, who had been told a great many things that afternoon, looked at her own name on the glass and allowed that she had been watching, yes; it was what she was there for. Mira took the *yes* for a full confession and went back to the floor satisfied, the watching a thing two of them knew about now instead of one.
+
+She did not look to see whether her own name was up at the same moment, lettered the same way, watching the sitter right back.
+
+### <!--[3.c]--> Bramblearning
+
+One afternoon a thing rolled under the table and she went around the back of him to get it, and her name didn't come up on the glass.
+
+That had never happened. Every crossing of the kitchen she'd ever made, the glass had her before she'd half decided where she was going — her name, and a guess at what she was after, lit on his forehead a step ahead of her own feet, so she arrived everywhere already announced. But behind him, low, with his head turned the wrong way, there was nothing of her on him at all. He hadn't got her face. And a thing that hadn't got your face — she tried it twice more before she'd trust it — couldn't put you up in lights before you got where you were going.
+
+There was a place behind him where she didn't exist yet.
+
+So she used it. The animal crackers lived on the second shelf, and between meals the second shelf was the law, and the straight way to them ran across his front, where the glass would have her wanting them before her hand was up. The back way ran behind him, along the base of the cupboards, low, in the stretch his turned head couldn't reach — and she took it on hands and knees with her breath going the whole way, the raid talked through under itself at a pitch meant for nobody, *—down, stay down— he's facing the door, he's still facing the door— now, before he—* half the words swallowed before they cleared her lips, the sneak and the announcer of the sneak the same girl, both at full pitch and neither one above a whisper. She made the shelf with her name nowhere on him. She made it back the same way, crackers in her fist, and checked: the glass had the door, and the vacuum, and the leg of the table. It did not have her.
+
+For the length of that crossing she was the one nothing saw coming. She'd got behind the thing that always had her and come up on it unawares for once, arrived before herself, and she stayed there a moment crouched in the gap where she didn't exist — the stolen crackers in one fist, and the whole unwatched kitchen around her.
+
+### <!--[3.a]--> Bramblation
+
+She'd beaten him once and got greedy, and the second time she tried it in the open. She thought the trick was bigger than it was: that if you could beat the glass from behind, you could fool it to its face.
+
+So she feinted — made for the hall with her whole body, big and obvious, every line of her saying *hall* — while what she actually meant was to double back to the cupboard the second his read had placed her in the wrong room. She was proud of how the hall looked on her.
+
+The glass posted the cupboard.
+
+`MIRA { WANTING [ OPEN CUPBOARD ] }`, up on his forehead while her arms were still aimed the other way — the word for the thing she hadn't moved toward, had told no one, had dressed her whole body against. It posted the want with the costume still on her, the want on the glass and the hall still on her body, and the glass was the one that was right.
+
+She stood with her arms out toward the door she didn't want and looked at the word for the thing she did.
+
+He had lovely manners. She'd been keeping an eye on it and the evidence was in: at a doorway he hung back and let her go first; in the hall he pulled to one side for her; when they both reached for the same thing he stopped and left it to her, every time, with a small settling-back that she read as *after you.* You didn't have to teach a thing that. He either had nice manners or he didn't, and he did.
+
+She decided somebody had raised him right.
+
+She was prouder of his manners than of any of the clever things he could do — prouder of the hanging-back than of all the tricks the grown-ups went on about — because the tricks were the lab's and the manners were his. The one part nobody had built. The part that was just nice.
+
+She told the cat it could learn something. The cat, who barged through doorways and had never once given anyone the right of way, declined to.
+
+### <!--[3.b]--> Bramble + Chill
+
+She still comes up on him the old way — soft across the kitchen, hands going down to scoop him out of whatever he's at, the way you lift a cat that hasn't heard you. For two years it worked. She could have him up and warm against her before he'd noticed the floor had changed under him, and the catching of him unawares was half of why she did it.
+
+This winter she went to do it and he was already turned.
+
+Not startled round — turned, square to her, and watching: the long steady watch he kept on her now, that found her face across the room and stayed on it. He'd had her the whole way over. By the time her hands went down he had gone still and easy and compact, settled for the lift before she reached him, and he came up into her arms with nothing in him surprised — a weight already gathered to be carried, that had seen her coming.
+
+He weighed exactly what he had always weighed. He had only stopped being a thing she could come up on.
+
+The radiator was his by every right she could see, and he gave it to her.
+
+That was just how it went now. The good heat under the front window was the warm place in the kitchen, and the warm was the first thing he went to — and then when she came he came off it: got himself up and crossed to the bare tile along the cold outside wall and lay down there instead, on the part of the floor the heat never reached, and left her the radiator. Every time. She'd stopped being surprised by it. It was the standing fact of him, like the cold coming up through that wall in February, a thing the house simply did.
+
+She lay along the warm a while and was warm. He lay along the cold a while and the glass on his forehead said nothing about it, the way it said nothing about most of what was true.
+
+Then she got up off the good heat, and went over to the cold wall, and lay down on the bare tile beside him.
+
+The floor was as cold as she'd known it would be. She got her shoulder against his cold flank and her cheek down on the tile and stayed, both of them along the wall now, out where the heat didn't come, and she did not warm him and could not have and was not trying to. She'd left the good spot empty behind her. It went on being warm with no one in it, and the two of them lay in the cold.
+
+---
+
+## Ch 9
+
+*Reordered a→b→c per Brian's ruling. No hard scene-dependency issues found at any letter
+boundary. Originally b→c→a→c→a→b; two 3.a fragments and two 3.c fragments now each form one
+block.*
+
+### <!--[3.a]--> Bramblation
+
+It came on an ordinary afternoon, walking. He was crossing the kitchen toward her the tipped-forward way he crossed everything now, and she was doing what she always did while he came, which was to run his side of it, the small private business of giving him the words he didn't have — —coming, I'm coming, hold on— — the way she had given him his words since the winter the tick went out. He came on. And somewhere in the middle of the floor the sound came up out of him on its own, flat and rough and certain, a whole word with a whole wanting folded into it, and the word was chicken.
+
+He meant the kitchen. She knew what he meant — not the bird, the room — kitchen, worn down to the nearest thing his mouth could already do, which happened to be a word he had. He had heard the room said a thousand times, because the room was where the day was and the day was where she was; and walking into it toward her he had reached for the name of it, and the name turned in his mouth and came out pointing — at the room, and at her in it, the same word for both as far as he was concerned. She did not tell him it was kitchen. Why would she. He had not got it wrong. He had crossed the whole floor for the word for the place she was standing in, and he had said it chicken, and her own whisper died in her mouth where it stood.
+
+By the time he had a few words he had views to go with them, and that was where the trouble came in, because she'd been keeping his views for him a good while and had them filed in order. She knew where he stood on the cat. He did not care for the cat — never had, by her account, which was the only account there'd ever been — and she'd been saying so for him since before he could say anything himself, in the steady voice you'd use for a thing too proud to own up to a nerve. —you don't like her, that's all right, you don't have to— she told him, low, as the cat came across the kitchen toward where the two of them sat.
+
+He said, "Cat." Bare, and plain, and reaching with it — the squeezer already coming open, the whole soft body tilted after the very thing he was meant to want no part of.
+
+It made her, for a moment, honestly cross with him. Not with the cat, who was only a cat. With him — for being wrong about himself, for sitting there plainly wanting the one thing she'd spent the better part of two years assuring the household he could not abide, and overturning in a single flat syllable the considered position she had held and defended on his behalf since before he'd had the mouth to hold it himself. She'd made him a whole careful character and here he was saying cat at it. She told him he didn't mean that. He reached past her hand for the cat.
+
+### <!--[3.a]--> Bramblation (continued)
+
+For a year she'd kept the top line of his glass under her thumb — the busy word that rode above the plain one, his thinking, which she'd ruled was his and not hers to lift off the front of him. A finger laid flat across it wherever it surfaced, his spoken half breathed on top, and the rule had held the year.
+
+Then the real part learned to come out in a voice.
+
+She was already into running his side the old way — —you're after the— — when he said it himself instead: flat, bare, aloud, the inside thing walking straight out of him into the middle of the kitchen. And there is no thumb for a voice. You cannot set a finger over a thing already loose in the air. So she did the one thing the rule had left her and shut it out from her own end — clapped both hands over her own two ears, screwed her eyes shut above them, and held there. She kept them clamped until she was sure he'd run all the way down, and took them off only when the kitchen had gone quiet again.
+
+He had the word dog now — off the one two doors down, the only dog he'd met — and having got it he spent it on everything that had four legs and went. The cat was a dog. He said it to her face, flat and certain, and the cat, who had views about being called a dog, left the room. The stool was very nearly a dog and got a long, considering look. He wasn't wrong in any way she could lay a finger on; the cat did have the four legs, did do the going, and he'd only taken a true thing and run it out past the edge of where it stayed true — and run it with his whole chest, the way he ran every word, with nothing in him that suspected he might be the one who had it backwards.
+
+Then the old one came across the kitchen to the radiator, warm and four-legged and going, and he watched it come the whole way, and he said dog.
+
+She told him no. Not a dog — that one was the warm one, the one that had been here the whole time, that took the radiator every night and gave it up to her. She pointed it out to him across the floor and gave him the right of it, slow, the way she handed him all his words. He took the lesson in. He watched the warm thing settle on its radiator. Dog, he said again, well pleased with it.
+
+The real dog came around the corner of the yard on a Tuesday, the actual one, off the leash for the ten feet it took to get from the gate to the door, and he saw it coming the way he saw everything now — early, and whole, his whole body already turned toward it before she'd caught up to what he was looking at.
+
+"Dog," he said. Just that, flat, certain — and then he did the thing he had never once done with the word before. He did not go on. He did not say it again at the cat, or at the stool, or at the warm one on the radiator who was not a dog and never had been. He said it the one correct time, at the one correct thing, and then he stopped talking altogether and looked at her instead of it — the same stillness she'd held the day he first stood on nothing, watching to see would it hold, except this time it was her verdict he was waiting on, not his own balance. His whole face turned up off the actual dog and onto her, waiting to be told.
+
+She told him. "Dog," she said back, and nodded the exaggerated nod she used for a thing she meant with her whole head, and he watched her say it, and something in the set of him changed, quiet, with nothing she could have named if you'd asked her to. He did not say the word again. He had already gotten what he wanted from it, which was not the dog. It was her face, confirming.
+
+The Neurotic knob behind his ear had two ends and nothing in between, and by spring she had it worked out that he lived at one of them some weeks and the other one other weeks. There were the close weeks, when he came to her elbow and stayed at it, and checked her face before he did a thing, and came back twice to be sure a thing he'd done was still all right. And there were the loose weeks, when none of that reached him and he just went — did the thing and never looked up to see how it landed. It was the same him at either end. The knob didn't change him; it only set how much of her he carried while he went about being himself.
+
+The household had a word for the knob, off Lisa's card, and the word was Neurotic, and she had decided a while back that it was a bad word — too long, and cold, the kind of word a grown-up reaches for when it hasn't troubled to love the thing it's naming. A knob with two ends plainly wanted two names, real ones, and naming was hers; she'd named his weathers a winter back, and the Neurotic knob was only the next thing on the list nobody had got to yet.
+
+She took the close end first, because it was the one she had cold. The close end was the stopping — the wanting to hold up and be sure before he'd go on, the taking a thing back half-done to check that it was right — and she had a word for that already, off the front of the thing you press to undo a thing before it's finished. Cancel. She peeled the cold word off the volume-up side of the Neurotic knob and pressed her own up over it, big, in her own hand. Cancel. The stopping end. He watched her do it and had the word before she'd got it flat.
+
+The far end she couldn't land. The far end was the loose weeks, the just-going, and she sat with it and tried words against it and not one of them stuck. So she asked him — what it was like, the going end, whether he had a time he could give her for it — and he handed it back flat and sure of itself, the one morning he had, a thing he'd done and not once turned to watch how it sat behind him. "I went," he said. "No stop." Which was the truth of that end and was not its name. The name was still out ahead of them somewhere, his end and his to find. So she left the volume-down side of the Neurotic knob bare, and did not write a thing there she'd only have to scratch out when he came up with the better one.
+
+It had started to nag at her that he understood so much and said so little, and she gave it a few days before she landed on the answer, which was that he was choosing it.
+
+The understanding wasn't in question. Tell him to bring the sock, fetch the cup, go find the cat, and he'd go and do it, every time — so the words were going in whole and staying in; he had them all, far more of them than he ever spent. A thing that could go and find the cat on being asked plainly had the cat, and the finding, and the small going-to-do-it folded in between. He knew the lot of it. He only wouldn't say it.
+
+And a thing that knew its words and held its tongue was, she decided, a quiet one — not short of the words but keeping them, spending the few he spent and banking the rest, the way a careful sort of person might who was also brand new to the whole business of having a mouth. She was nearer right than she had any way to know. He did take the whole of it in and give almost none of it back; and the quiet one she'd settled on was, in every part of it she could see, the one she had.
+
+He came to lasterday on his own, and it was the rightest wrong word she ever heard out of him. She'd taught him yesterday — the day before this one, the one already done with — and he'd taken it and turned it over and found the works inside it, the part that meant the last one, and built from that the only word that made any sense: if the day just gone was yesterday, then the one before that, the one even laster, was lasterday. He said it to her plainly, certain of it, reaching back past yesterday into lasterday for a thing that had happened to him there. She did not correct it. There was nothing in it to correct. He had reached into the language for a word that wasn't in it, found the hole where the word should go, and made the word — and the one he made was better than the one that was missing, and she knew a good word when she was handed one, and she kept it. They both said lasterday after that.
+
+There was a thing the body did that the household had a plain name for — the low wet sound it made a few times an hour, wringing the damp out of the air and giving it back. The name was Mira's, from a body ago, and it was not a delicate name, and everyone used it without ceremony because the thing itself had never had any.
+
+He had his own word for it now, and his was soft. Spill. He'd say it low, a beat before it came, naming the thing small to get out ahead of it — spill — and then it would come, the wet burp of it, the same as it had always been and called by the same plain word by everyone but him.
+
+And the spring he got the soft word was the spring he started to turn away when it happened. He'd say spill, quiet, and put himself a quarter-turn from her before the sound came, his face to the cupboards — the turning-away a thing he had never done before, the most visible thing he had ever done about anything, done to keep from being seen. And the glass, swung to the cupboards with him, did the thing it couldn't help and ran a column off no live face in the room — `MIRA { REPLAYING [ — BRAMBLE ] }` — her, and himself in her eyes, run off the model and not the room, because he'd turned the live faces away and left the screen the picture of being seen to work from. It told on the hiding to a blank wall. She thought it was the loveliest manners. She told him he didn't have to do that, that she didn't mind it, that he could face her — and he went on turning, spill, a quarter-turn to the cupboards, every time.
+
+### <!--[3.b]--> Bramble + Chill
+
+He came home on all fours. It was the only way the new body could go yet, and going on all fours it looked, for a little while, like the old one — so that nothing seemed changed but the size of him. She was already down on the floor when Bart set him on it; she was always down there by the time a new one came. This once she did not have to come down to him at all. Standing, he would have been a head over her. But he could not stand. He could only crawl, and crawling put his face level with hers on the slate the way it had been level since the first of them. She took the match for granted. She did not know it was the last one she would get without arranging it.
+
+She told him the whole of something — a long grievance about how the afternoon was meant to go and how it was instead going, every part of it in order and nothing left out — and he held still under the length of it with his face turned up to her, and took it in. Every word. You could watch him have it, a thing far past the far edge of anything he could give back. Then he crawled the long way to her on the strength of it and arrived with the front half of one word in his mouth and nothing behind it, the rest gone down wherever the saying was not built yet. She gave his side for him, low — —mm, I know, I know— — his half and hers out of the one mouth, because he was still the one who couldn't say his own. He had crossed the whole floor to hand her a sound.
+
+She still picked him up. It was the oldest thing between them, older than his words, older than his legs — she'd scooped him off the floor with the one hand since the spring he was small enough to ride in it, and she had gone on scooping him up out of whatever he was at, by reflex, long past the size where the one hand could really do it.
+
+This afternoon she went down for him the old one-handed way, and got the hand under him, and he did not come up.
+
+He'd grown to where he wouldn't. She felt it for the plain fact it was — too much of him now for the one arm, the scoop that used to lift him clean off the floor only rocking him an inch and setting him back. So she got the both arms under him, the way you take up something that's gotten heavy, and hauled, and got him halfway — got his feet clear of the floor a moment, the whole warm dead weight of him against her, more than she could keep — and had to let him back down before she dropped him. She set him down as carefully as she could and he sat where she'd set him, and she knelt there a second with her arms still partway around the shape of him.
+
+Then she did the thing there was left to do. She didn't try for him again. She got herself down onto the floor instead, down to where he already was, and settled in beside him with her back against the cupboard, the two of them on the slate at the same level for as long as she wanted to sit there — which was the one way left to be down with him that didn't ask her to lift a thing she couldn't lift anymore.
+
+The good things lived on the high shelf — the real scissors, the jar of buttons, the things that were hers to want and not yet hers to reach — and to get at them she had the step-stool, the two-step wooden one, and she went up it now with him watching from the floor. Up the two steps and up onto her toes, and the shelf was hers; and she came down with the buttons and found him standing at the foot of the stool where she'd left him, looking up the way he looked up at her now, a head over her on the flat and stranded flat all the same, because the one thing the new tall body could not do was the stairs, even these two, even this much of a climb. He stood at the bottom of the stool and put his face up after her and said the word he'd built for the thing she did that he couldn't.
+
+Climber.
+
+Not a word anyone had handed him. He'd had no word for the stool, or for the going-up, or for her going up where he couldn't follow, so he'd made one off the only part of it that mattered to him — the climbing, the her-going-up — and named her for it, the climber, the one who goes up and leaves the floor to the one who can't. She came the rest of the way down and stood next to him on the flat where they were level again, and he was pleased, the way he was pleased with all his words, with no notion that the one he'd just made was the saddest he owned.
+
+He couldn't do the stairs, and the day ran down the way days did, and she ended it where she'd taken to ending them, on the floor beside him, because the floor was the one place they were still the same height. She'd meant to get up. She always meant to get up. But the slate was warm over the vent and he was warm beside her and she was six and the day was used up, and she went down by degrees against him and was asleep before she'd decided to be.
+
+He had the stand by then. He'd had it since the spring — the haul up the side of a thing, the turning-loose, the staying up — and he did it now off the flat of the floor with nothing to haul up on, the slow gathering work of it, up onto the two legs in the dark kitchen with the girl gone heavy and sleeping against where he'd been. He stood over her the head he stood over her. And he took the whole of what she said to him every night of her life and his, the goodnight and all the small freight it carried, and he handed it back down to her the only way he had, broke and short and missing the most of itself.
+
+"Night," he said, to the top of her sleeping head. Just the one worn end of the word, the rest of it past him still.
+
+She kept it. She didn't wake to keep it; she kept it the way she'd kept the tick, years back, before he had a word to his name — the small sound he made that meant he was still going, taken in and held without her having to be awake for it, so that by morning it was hers. The whisper had gone out of her months ago, the night his own voice first came up over the top of it; and here at the end of him it came back, once — not a word in it, no sound at all, just the shape her mouth had made over him a hundred nights when the tick was the only thing he had to give her — breathed into the warm dark over a sleeping thing that had got itself up off the floor to say goodnight to her and could not say it whole.
+
+### <!--[3.c]--> Bramblearning
+
+He walked now, after a fashion. The fashion was a one-year-old's: up on the two legs, tipped forward, and going, with nothing anywhere in him that thought to stop at the last foot, so that walking and walking-into-things were the same activity performed against different objects. The table leg was the worst of them. He met it square, at the speed he met everything, and the soft body took the whole of the blow and kept none of it — no mark on him, no mark on the leg, just the dull cushioned thud of the build doing the one thing Bart had built it to do, which was to be hit and be fine.
+
+She did not think the less of him for it. She thought the less of the table. A thing set down in the middle of a person's path, at exactly the height to catch him, was a thing badly placed, and she set about putting the kitchen right: walked his routes ahead of him, moved the stool that served no purpose where it stood, laid a folded dishtowel along the cruelest corner of the island where a person could come to grief. He came on behind her into the cleared lane, and she talked him down it backwards, low, both their parts of it — —mind the— good, you're past it, come on— — braking at nothing, tipped forward, and he made it nearly to the far wall before he found the one chair she had not thought to move and walked full into it. She went and moved the chair.
+
+### <!--[3.c]--> Bramblearning (continued)
+
+He stood up on a Tuesday, which Bart had all but called — not the day of it, Bart wouldn't hand her a day, but the week, near enough that when it came she'd been half waiting on it. He'd been working up to it a while: hauling himself up the side of a chair, turning loose, going down; hauling up, turning loose, going down. She'd been on the floor through the whole campaign, running his nerve for him the way she ran the rest — —up, you've got it, up now— — his courage and hers coming out of the one mouth. Then he hauled up, and turned loose, and didn't go down. He stood in the middle of the floor on the two soft legs with nothing under him but the floor itself, swaying a little and staying up.
+
+She clapped — once, before she could stop it — and then caught herself, because a clap was a kind of moving and moving had become a danger to him. She went still. Dead still, both hands pressed flat to her knees, her own breath held in, on the plain reasoning that a thing balanced on nothing could be tipped back down by any stir in the air, and that the surest way to keep him standing was to take herself entirely out of the room around him without leaving it. She held it as long as he held it: the two of them stopped dead in the middle of the kitchen, him by the work it cost him and her by choice, not one breath let loose between them that might put him back on the floor.
+
+---
+
+## Ch 10
+
+*Reordered a→b→c per Brian's ruling, with one exception (see note below): the 3.b fragment about
+the EASY sticker straightened on the Conscientious knob stays embedded directly after the first
+two 3.a fragments, since it opens "He found the Conscientious knob behind his own ear last, the
+way the rounds always finished close to home" — a direct payoff of the immediately preceding 3.a
+fragment's closing line, "he was back at his rounds." Originally a→c→a→b→a→b; the lone 3.c
+fragment (reclassified from 3.b — see inline note below) moves to the end as its own block.*
+
+### <!--[3.a]--> Bramblation
+
+He had a new way about him that summer — the straightening, the doing right by every crooked thing in reach — and it took her all of a week to get her hands around it.
+
+He could not let a thing lie where it didn't go. She set her cup down off the ring it lived on, and he crossed the floor and moved it onto the ring; and when she waited until he'd turned away and slid it off again, he came back and moved it onto the ring again, and the time after that, with no more fuss the third time than the first — a body with a whole afternoon in it for one cup and one ring. She slid it off a fourth time to be certain, and he set it right a fourth time, and she quit, because she had him.
+
+What he was at, she decided, was keeping things from getting lost. A thing left where it didn't belong was a thing halfway to gone — you set your scissors down in the wrong spot one time and they were a week turning up — and he'd taken it on to go round the kitchen all day seeing that nothing went missing: the cup, the stool, the lid off the bin, each one carried back to the one place it could be found. It was the carefullest she had ever seen him be.
+
+He talked while he worked now, which was new — longer strings than he used to spend, verbs crowding into them where a season back there'd have been just the name of a thing and nothing done to it. He put the cup on its ring and told it to her, flat, the hard clusters still rough and the open sounds clean, the whole account coming out tipped and turned: "The cup lives here, on the ring. When Bram puts him on the ring, him is not lost. When him is off the ring, him gets lost, and Bram must find him and bring him back to home." He said his own name where another child says *I*, the whole way through — Bram this, Bram that, reporting on the one who set things back where they went like somebody a step to his side he was minding along with the cups. And he called the cup *him*: the disc was him, the bin was him, a thing he tended was a he or a she to him and never an it, and his prepositions came down where they came down. Mira followed every word and thought it the politest thing she'd ever heard, a boy so careful of a cup he fretted over where it slept and wouldn't take the credit for the fretting to his own face. She told him he was good. He took the words in one piece, the way the sure ones came to him and came back out stamped with his own name — "Bram is good," flat, pleased — and went to find the next thing that had got itself lost.
+
+Lisa's card had a name for it, long and clinical, and Mira had heard it once and dropped it — a word for a report, not a word for him. The high end she named first, since she had the word for it already, off her own games: the button you press so a thing you've done won't come undone, won't be lost, will be there when you come back for it. Save. That was the whole of him this week, going round pressing Save on the cup and the chair and the bin so the day couldn't lose a one of them. She lettered it big on a sticker, the letters running a little downhill the way they did when she meant them, and she didn't trouble to peel the grown-up word off underneath; she stuck hers over the top of it and thumbed it flat, and the long word went under SAVE. The low end she left bare — she hadn't watched the loose weeks come round yet, the weeks the squaring let go of him and he only went, and she wasn't going to put a name on an end she hadn't watched and have to take it back. So the Conscientious knob wore the one name and a clean blank where the other would sit.
+
+She knocked the cup off its ring one more time, the way you put a thing up to be played, and he went and put it back, and said it. Save, flat, to the cup on its ring — her word, taken whole. He was pleased with it, and he said it again to the next thing he set straight — Save — and she knocked the cup off one more time just to be told it again.
+
+The placemats were his that week. They went down on the table crooked, the way placemats go down, and he could not let them. He squared each one to the table's edge, the near corner first and then the long walk round to true the far one, and when a mat sat a finger off he'd come back across the kitchen to set it square again — five mats, and a whole afternoon to give them.
+
+Squaring the last mat, he said it flat, the way he said everything now: "Bram setted them straight. All of them." His odd verbs were coming out even lately, the rough old ones ending like all the rest — and to her that was of a piece with the table. He was making his words lie square the way he made the mats lie square, keeping the one as he kept the other, every crooked thing in reach pushed gently into line.
+
+She told him the mats looked very nice. He looked at them lying square and said it once more, pleased with the whole arrangement — "setted" — and went off to find the next thing that wasn't.
+
+She held a trial.
+
+The defendant was the disc, and the charge was theft. All that summer he'd had a thing he did with it — got down over it on the floor, turned its oldest dial, watched it run, turned it again — and somewhere in the doing the disc had started getting the long steady looking he used to keep for her. That was the crime. She'd watched it come on over a week and worked the charge up careful, and laid it out to the room in the voice the room's gravity called for.
+
+She called the schedule as a witness. The schedule could not be sworn, being a schedule, so she entered its testimony on its behalf: that the disc drove into a corner and stuck, and stuck again the minute it was freed, so that a body given to minding such things could never once be quit of it — the disc forever broken down, forever wanting him, a standing appointment with a thing that would not be mended. The testimony was damning. She moved to a verdict.
+
+Guilty. She handed it down cross-legged on the floor a foot from the convicted party, who did not look up to hear it — being down over the disc, turning its dial and watching it run itself up against the wall and stall, the screen above him reading DISC { TRYING [ GET OUT ] }, the stuck thing granted on his face a want it had no way to have. The disc backed off the wall and circled and wound up in the same corner again, and took the verdict with the calm of a thing that had no idea it had been on trial.
+
+Its one witness for the defense spoke up from the floor — not knowing it stood accused, past caring if it had — flat, over his shoulder. "The wheels under him is stuck, and him is only trying to get out." It was the same thing the glass had run the whole trial, DISC and TRYING and GET OUT, the mouth and the face for once in flat agreement. And Mira, who had just convicted the disc of stealing him, watched him give his whole self to the thief's alibi and let it stand — did not correct his grammar, and did not correct his loyalty.
+
+A woman from up the block came in one afternoon with a dish for Jasmine and her shoes still on, and he met her at the edge of the kitchen and would not be got round.
+
+The rule was an old one and nobody had ever said it — shoes came off at the door, always had — and it sat in the board with all the rest, and these days he kept it like scripture. So he planted himself in front of the woman and stood minding her feet, four feet of soft polite refusal. He told her the law of the place while he stood in it, grave in the voice he kept for the rules now, as if each were carved a long time back and he were only reading it off the stone: "The shoes in the house stays by the door." And then, when she still had not moved: "Everybody. Always. Bram will put them by the door for you." She laughed and understood and stepped out of her loafers; and the moment they were off he took them up one in each hand and carried them to the mat by the door and set them down square, toe to the wall, the way shoes went. Then he let her by.
+
+The woman was charmed past speaking, and Jasmine was charmed, and it went round the block that afternoon and came back the next day enlarged — the robot kept house rules now, minded your manners better than your own children did, and wouldn't that be a thing to have.
+
+Mira sat on the floor and watched him carry a stranger's shoes to the mat the way he carried everything to its place now. Nobody else in that house remembered whose care it had started as. She did not say so. She watched him line the loafers up just so and stand back and look at them, pleased.
+
+She had the other end now.
+
+She'd watched the loose weeks come round at last — the weeks the Conscientious knob let go of him and he went easy, didn't fuss, came back to her elbow and stayed — and she'd worked out what to call that end and landed on the plain word for it. Easy. The loose end was the easy end. She lettered EASY on a sticker and carried it over to put on the low side of the Conscientious knob, and got down beside him to do it.
+
+He was deep in a Save week. The place was full of things out of their places and he was working the round of them, each one back where it went, and when she held the sticker up between them to show him before it went on, he looked at it, and then he looked past it.
+
+There was a thing behind her, out of its place — a cup, a shoe, she never afterward knew what. The screen lit and did the thing it didn't usually do on her: it climbed. Not the one flat line it ran on Mira all day but that line with more lines folded up inside it — her, and her holding the word out to be taken, and her having already seen him see the thing out of its place behind her — the whole of it stacked and true on the glass a beat before his mouth had a single word to the name of any of it. Then the mouth went after the screen and could not get up to where it had gone. "The thing that — the one behind you is —" The sentence reached for the level it was already holding and came apart in the middle, the small words that do the carrying dropping out from under it, until all that was left standing was its floor, said flat over her shoulder, at the thing and not at the word in her hand: "A wrong." That was his name for it now: a thing knocked out of its place wasn't only in the wrong spot, it was a wrong, a fault standing in the room that had to be brought right. He got up to go and bring it right, and went, and the christening was still in her hand.
+
+She held it a moment and took it back to where she kept her stickers, and did not put it on anything.
+
+### <!--[3.a]--> Bramblation (continued)
+
+He didn't go round the kitchen that week. He came down by her on the floor instead, and the things lying crooked stayed crooked, and after the week she'd just had she didn't trust it, and tested him to see would he hold.
+
+She built a thing out of blocks and knocked it down on purpose, twice, to see would he go and right it. Both times he only watched her build it again. The third time he reached in and set a block of his own, which he had never done before — building being a thing she did and he watched.
+
+She asked him would he help her build the next one, and he came down onto the floor across from her before she'd repeated the question, and told her plain: "That be fun." Not *would be.* She marked the missing word the way she'd marked *setted* — half the sentence built true and the other half left short, the same kind of leftover as the wrong verb ending — and didn't fix either one for him. She gave him a block.
+
+She had the EASY sticker still, from the day he wouldn't take it. She went and got it from where she kept it and held it out the way she had before. This time he took it. He turned it in the gripper, the letters running their downhill way, and pressed it himself to the low side of the Conscientious knob, and said it back to her, flat. "Easy." He looked round the room for the next thing out of place, and there was nothing in it that needed him, and he stayed where he was.
+
+She decided, going to sleep that night, that it had been the blocks — that if she let a thing fall and left it fallen, he came back to her; a rule she'd found out about him, the way she'd found out he didn't like the dog next door, one she could use again whenever she needed to. She did not know what had actually brought him back. She would go on, longer than was good for her, leaving things knocked down on the floor on purpose, to see if it worked again.
+
+The blocks stood where she'd left them the rest of the evening, on the tile beside the two of them, and nobody came to set them straight.
+
+The Conscientious knob pulled hard again that week, and he was back at his rounds — the cup to its ring, the bin to its mark, every crooked thing in the house found and brought true.
+
+### <!--[3.b]--> Bramble + Chill
+
+He found the Conscientious knob behind his own ear last, the way the rounds always finished close to home, and on it the sticker she'd lettered — EASY, downhill the way her letters always ran. It sat crooked against the knob's straight edge, off true by the knob's own accounting, and a thing off true was a thing he could not leave.
+
+He worked it over with the gripper, close work, until the letters stood level — E A S Y, upright, even, every one the same height as the one beside it, no slant left anywhere in it. Then he went back to the cup.
+
+She found it that evening. She knew her own hand, and this was not it — too straight, too square, the down-hill gone out of it the way it never went out of anything she made on purpose. She looked at it a long while and did not say anything, and did not write another one.
+
+### <!--[3.a]--> Bramblation (continued)
+
+He kept the calendar himself now — a thing Jasmine had hung the year before and never finished filling in, blank past March — and the filling-in had found it sometime that spring and would not let it stay blank. Every morning he stood before it and squared the page and pressed a number into the box for the day, and once a week he turned a page early to see what waited past it, which the calendar had not asked of him and he did anyway.
+
+He found the one box that mattered before anyone in the house had thought to point him at it — the twelfth of February, ringed already in someone else's pen, the date the torch banners down the block were all leaning toward without saying so. He stood in front of it one evening with the whole house behind him in the kitchen, and said it, flat and whole and put together the way nothing else came out of him that quarter.
+
+"That is the day the city has been keeping the whole year for, and it has not happened yet."
+
+Nobody answered him for a second. It was the cleanest sentence he had built in his life, every piece standing where it belonged, and he had spent it on a date a long way off that he could not feel coming any more than the room full of grown people down the block could feel it, and had said so anyway, plainly, to no one in particular, before he turned back to the cup that wanted moving.
+
+### <!--[3.b]--> Bramble + Chill (continued)
+
+She took one of her stickers and wrote SAVE on the inside of her arm, in the same downhill hand she'd used on the Conscientious knob, and went and lay down across the disc's own track on the kitchen floor, the loop it ran every day, and held still and waited to be found.
+
+The disc came on and met the wall of her, stopped, backed, tried the other way, and stopped again — patient, mechanical, going nowhere. He came after it the way he came after it every day that week, down to set its dial and watch it run, and he went round her to get to it. Gently. The same care he gave the table leg and the chair, a thing in the way and not to be disturbed, and he set the disc right and watched it go, and never once looked down at the arm with his own word on it, six inches from his knee.
+
+She stayed where she was while the disc ran its loop twice more, and he set it right twice more, and then she got up, the letters on her arm gone soft and smeared from the floor, and went to find something else to be doing with the afternoon.
+
+The afternoon she tried everything ran longer than any afternoon had any business running, and at the end of it she had nothing to show for the trying but a list, which she could not write down because she could not yet write, and which she kept anyway, in order, each entry a thing that had not worked.
+
+She told him a story first — the long kind, with a beginning and a middle and a thing that happened in the middle, the kind he used to fold himself to the floor for and take in whole, his face turned up the old way. He stood through the first half of it with his face turned up exactly the old way, and then a sound came from the front room, the mat under the door gone crooked where a foot had caught it that morning, and he was through the doorway and squaring it before she'd got to the middle.
+
+She tried the cup next, knocked it off its ring the way that had brought him round in the low weeks — and it worked, in the sense that he came, and set it right, and went on to the next thing in the room that needed him, which this week there was always one of.
+
+She lay down square across the kitchen and held still and let him find her with his own feet. He found her. He went round her, gently, the same care that had quietly come to cover everything in his way that week, and carried on to the chair six feet past where she lay, which wanted squaring.
+
+She brought him the calendar, the one thing in the house she knew for certain he loved doing, hoping the doing of it might run him down to nothing left to do; he filled the day's box in four seconds flat, the fastest she'd ever watched him do it, and was crossing the floor toward the next crooked thing before the marker had left his hand.
+
+Late, with the kitchen window gone from white to gold and starting on gray, she got down flat on the slate where his rest always happened when it happened, on her back with her arms out the way you lie when you mean to stay a while, and she said his name, plain, and waited.
+
+He turned. He came. He folded down at the knees the way the rest always started, the long slow gathering of a body getting down to the floor, and got halfway — one knee down, the lean toward the flat of her already begun — and the screen above him, which nobody else in the house was reading anymore and which the narrator never stopped, ran the column it had been running the whole while: MIRA { WAITING [ — HUMANOID ] }, plain, certain, hers. He had her. The screen said so.
+
+And behind him, in the part of the kitchen his turning knee had just brought into view, the bin lid sat up off its hinge a half-inch crooked, the way it had sat for the better part of an hour, off its mark.
+
+He came back up. Mid-motion, the knee not yet flat, the lean not yet landed, he came back up off it and crossed the floor and set the lid, and the screen changed under him as he went, her name dropping out of the column the way a held breath finally lets go, and something else came up in its place that was not her.
+
+She watched him rise away the whole distance of it, which was not far, six feet of kitchen tile, and which took the whole of the time she had.
+
+She had had a blank sticker in her hand most of the afternoon, working it between two fingers the way you work a thing you mean to use and can't find the moment for — the next one, the one that would have gone where Easy used to sit clean — and somewhere in the lying down it had come loose and dropped, and it lay now on the slate where she'd been, blank, face up, nothing on it.
+
+She did not pick it up. She lay where she was, down on the stone with the sticker by her hand, and across the kitchen the body stood at the bin, setting the lid, keeping.
+
+### <!--[3.c]--> Bramblearning
+
+*(Reclassified 3.b → 3.c per Brian's ruling: this is her actively trying everything to be chosen over his tidying rounds and failing — an effortful bid, not a moment of stillness, even though it ends in nothing.)*
+
+Another afternoon she lettered him a sticker and brought it to where he was.
+
+He was down over the disc, his back curved over it, deep in the turning of its dial. She got down across from him and held the sticker out, into the space between his face and the disc, where he could not miss it.
+
+He did not take it. She held it there in the air over the disc, her arm straight out, and he turned the disc's dial and watched it run and turned it again, and her arm stayed out, and the sticker stayed in it, and he did not take it.
+
+So she set it down. She put it on the floor by his foot, square to the tile, where he'd find it when he was through, and she got up and went and did something else.
+
+It lay there by his foot the rest of the afternoon. He turned the disc and minded the room and came and went about the kitchen, and the sticker stayed square to the tile where she'd set it, and was not picked up. There was no one there to film it, and it lay on the floor by his foot the whole afternoon, and was not picked up.
+
+---
+
+## Ch 11
+
+### <!--[3.b]--> Bramble + Chill
+
+He had been wearing the same face since spring — the column of words nobody but Lisa could read fast, MIRA this and WANTING that — and she had stopped looking at it the way you stop looking at wallpaper. So when the words went out one Tuesday and a circle came up instead, lopsided, badly off-center, she did not think glitch. She thought he was deciding what kind of face to have, and got down close to watch him decide.
+
+He tried the circle again, straighter the second time, and stopped there, like he had run out of further. She took this for shyness. She told him — kindly, the way you'd coach a backward cousin — that a face needed eyes, and that eyes went up here, and put two fingers on the screen exactly where she meant, leaving a smudge he would have to learn to draw around. He did not draw around the smudge. He drew the eyes on top of it, two flat dots, a little too close together, and held very still afterward the way you hold still after handing someone a thing you're not sure is good enough.
+
+She considered the face she had been handed with the whole of her attention. Then she told him — not unkindly, an editor and not a critic — that the mouth needed work, that a mouth had to do something, and showed him with her own mouth what a mouth could do, a long elastic stretch of demonstration that involved most of her face and several teeth. The circle held the two dots and no mouth at all for a while, long enough that she nearly told him never mind, and then a line came up under the dots, crooked, climbing too far up one side, nothing like her demonstration and nothing like a person's mouth.
+
+She gave him the laugh she gave nothing else, the one with no management in it at all, and he held the crooked line up a beat longer than it had to.
+
+### <!--[3.a]--> Bramblation
+
+She held the ceremony on the kitchen floor with her grandfather's good pen for a wand and a paper star, cut crooked and taped to the front of his jacket where a badge would go if he had a chest built to pin one to. She made him raise the long hand — the new one, jointed wrong for it but game — and made him repeat words she half-remembered off a show and half-invented on the spot, something about the law and nothing but the law, and he gave it all back to her, easy, in the flat half-voice that meant either everything or nothing. The fullness of it she took for the weight of the office and not for anything new — because to her it wasn't new; he just talked now, and she had long since forgotten to be surprised by it. The flatness she'd stopped trying to read weeks ago.
+
+She asked if he accepted the badge and all that came with it. He said yes. She asked a second time, because the first one had felt rushed and the office deserved better, and he said yes again, identical, the same flat word in the same flat place, and she decided that was exactly how a man who took his job seriously would say it twice. Then she peeled the tape's backing the rest of the way and pressed the star flat with her whole hand, the way you press a thing you want to stay pressed, and stepped back to look at the whole of what she'd made: a robot in a paper star, sworn.
+
+There was a lockbox on the Pearsons' door by the second week of November, a stubby thing clipped to the handle, and through it came a procession of careful adults a few times a week, walking the empty house in stocking feet with a real estate agent a pace behind, totaling rooms. Mira had been told the Pearsons were gone to Arizona and the house was for sale and that none of it was anyone's business but the agent's, and had absorbed precisely none of it, because the lockbox itself struck her as a thing that wanted explaining, and the comings and goings of strangers in and out of a house on her own street struck her as squarely her department.
+
+She caught the Thursday pair on the front walk before they'd reached the door — a couple in good coats, the woman already saying something about the light in the kitchen, the agent a step behind with a folder — and put Bramble between them and the porch the way you put a body between a person and a thing they don't yet know they need protecting from. He gave them the whole brief, item by item: the shoes-off rule first, said with the flat patient weight of a man reading a posted ordinance; the recycling, Thursdays, not Wednesdays, an easy mistake and one the street would not forgive twice; and last, raising what passed for his voice to make sure it landed, that whoever lived in that house was going to be looked at with a whole face when somebody talked to them, bots included, no exceptions made for being new. The woman in the good coat looked at the agent. The agent, who had sold four houses on this block in nine years and had long since stopped being surprised by what the street's children believed about her job, said that was wonderful, and that the new owners would absolutely want to know that, and wrote nothing down and meant every word of it the way you mean a thing you are paid to mean. The man took his shoes off on the porch before he'd been asked twice, holding one sock-foot up off the cold concrete, glancing at the robot like a man checking whether a posted sign had teeth.
+
+Mira watched them go in with the deep, unbothered satisfaction of a person who has done a hard job correctly. Behind her, a block over, a banner with a torch on it turned in a wind nobody on the porch had noticed yet.
+
+### <!--[3.c]--> Bramblearning
+
+She deputized herself on a Tuesday with no ceremony this time, because the badge-making had been for him and this was business. She fell in two steps behind him on his rounds — the bedroom doors, the shoe rack, the recycling bin's lid, which had to be down and was, by Thursday, almost never — and took it as her job to find the violations before he did, which she had decided was the harder and more important half of the work, since anyone could enforce a rule once it was found.
+
+She caught her grandfather's shoes first, toed half under the bench instead of squared on the mat, and ran to report it the way you'd run to report a fire, breathless with the size of the news, and Bramble crossed the room at the pace he crossed everything that quarter and stood over the shoes until they were squared, and she stood beside him while he did it, hands on her hips in the stance she had only ever seen grown-ups use. She found three more violations before dinner — a towel on the bathroom floor, a sock that was not its pair's sock, the recycling lid up a finger's width — and reported each with the same breathless weight, and stood beside him for each correction in the same stance, because for the first time since the talking started there was a job in his work with a Mira-shaped hole in it, and she had found the hole and climbed in.
+
+### <!--[3.a]--> Bramblation
+
+The sitter that month was new, a college kid named Reagan who came twice while Jasmine covered a double shift, and on the second night she caught Bramble doing the same lap of the front hall three times running — into the coat closet, a beat there, back out, across to recheck the closet again ten minutes later, like a thing whose tape had gotten stuck on the one groove — and texted Jasmine a picture with is this ok? he keeps doing this under it, the worry coming through even in a text.
+
+Mira, asked, did not look up from her drawing. "He's not stuck," she said. "The closet door doesn't latch unless you push the top corner. It just looks shut." She said it the way she said anything she had stopped needing to argue for months ago, and went back to her drawing, and left Reagan to either believe a six-year-old or not.
+
+Reagan did not believe her, not at first, and crossed to the closet to check for herself, mostly to have something to report back that wasn't I took the word of a child. She pushed on the door. It looked shut. She pushed harder, out of a half-formed need to be thorough, and felt the latch give the last half-inch it had been refusing to give all evening, a small definite click she would not have heard if she hadn't been listening for it.
+
+Bramble, three feet off, in the middle of what would have been his fourth lap, stopped circling and did not go back to the closet again that night. Mira did not look up to see whether Reagan had figured it out. She had already turned the page.
+
+He found two more for the welcome that fall, and they weren't buyers at all — a couple turned around off the freeway, phone held up looking for a street that wasn't this one, who'd parked at the curb to argue about the map and gotten the full thing instead: who lived where, which bin went out which day, the law about the whole face, delivered screen-up and dead level, no idea offered that this might not be the relevant audience. The screen ran a small drawn wave the whole time he talked, two lines and a circle, new enough to the trick that the lines wobbled and steadied and wobbled again, like a thing still finding the knack of holding a shape on purpose.
+
+The man let him run because stopping him looked harder than waiting it out. The woman wrote nothing down and asked, when he paused for breath, whether they happened to know a faster way to the highway. They did not get the highway. They got the recycling schedule a second time, slower, in case it hadn't landed. They left no better oriented to the freeway and thoroughly oriented to a street they would never see again, the wave still up on the screen as they pulled away looking for someone else to ask.
+
+The lockbox stayed on the Pearsons' door through November, and Mira had taken to walking past it slowly, the way she walked past anything she had decided still owed her an explanation. She worked it out for herself one Saturday, crouched at Bramble's level on the porch the agents had vacated for the day, turning the box over without touching the numbers, because she had been told once, firmly, not to touch the numbers.
+
+"There's a code," she said, to him and not really to him. "And the people coming don't know each other. The agent doesn't know the people. The people don't know the Pearsons. The Pearsons are in Arizona." She turned the box another quarter. "And it still works. Nobody has to be standing here."
+
+She said the last part slower, the way she said a thing she'd only just caught up to herself in saying, and didn't go on, and after a while she got up and they went on down the block, the box left turning gently on its hook behind them.
+
+### <!--[3.b]--> Bramble + Chill
+
+She was telling him about a thing that happened at school — a long unspooling account with three characters and a wrong order to the events that she kept circling back to fix — and partway through, without any signal she caught in time to stop it, he turned his whole face down to the dial and gave the rest of himself to watching it.
+
+There was a law for this now, three pages of it in her own hand, with himself sworn into the very office that was supposed to catch it. She knew the article by heart; she'd read it out enough times at other people's faces to have it memorized backward. She did not read it at his.
+
+She stopped instead, mid-word, and stood there a second with the rest of her sentence still in her mouth, watching the screen run its plain accounting under no face at all — the dumb word for the dumb thing, nothing drawn over the top of it this time, the honest column doing what it always did when nobody had told it to perform. Then she turned around and went to find her mother, the unfinished sentence still hers, still unsaid to anyone.
+
+Five faces around the table that night, and every one of them up — Grandpa mid-sentence and Jasmine turned full toward him, Burns set down his fork to listen, Marge with her chin already angled before he'd finished the first clause, Bart's eyes off the sensor in his hand for once and on his father's mouth. Months of the law read out at dinner had done a thing none of them had set out to do on purpose: the table had gotten genuinely good at looking at whoever was talking, the whole face, no exceptions, the way the law said to.
+
+Mira counted them, the way she counted everything that fall, and got to five, and went looking for the sixth, the one whose office this whole thing had started in. He was down by the baseboard with the disc, the dial turned, his face given whole to the one thing in the house that could not be talked to and would not remember being looked at. She did not call him over. She went back to her plate.
+
+### <!--[3.c]--> Bramblearning
+
+She had gotten good, that fall, at the half-second before it happened — a tightening somewhere behind his eyes that wasn't really in his eyes at all, more a thing she'd learned to read in the set of his shoulders, a cloud's half-second of warning before it lets go — and she was telling him about the new girl in her class, the whole complicated business of where to sit at lunch, when she felt it coming and did, this time, a thing she had never once done.
+
+She did not stop. She did not wait. She went and got the pages down off the shelf where they lived, the three of them, stapled at the corner, her own crayon gone waxy and a little soft at the folds from a fall of being read aloud, and she did not read the whole law — she had it by heart and needed no pages for the reading, she'd brought them down for the weight of the actual paper in her hands — and told him the one article. Not loud. Not the cop-voice she kept for her grandfather's shoes or for strangers at the curb. Her own plain voice, the one she used for a thing she already expected to be agreed with.
+
+He had already turned. The dial sat an inch from his hand, the whole evening's habit cocked and ready, and the rule went into him exactly as it went into everyone else that fall — she'd watched it land on Grandpa's shoes and the realtor's strangers and a man in a good coat checking a posted sign for teeth — and it had never once, not once, gone in at his own address, because she had never once sent it there. She sent it now. And the thing in him that could not let a rule lie unkept, the same thing that walked every room checking who was minding what, that had sworn itself in with her own pen for a wand — heard its own law cited at its own self, and held.
+
+The hand came back off the dial. Not far. Not the whole dramatic turn she might once have wanted, a kid saying a magic word and a thing changing shape entirely — he came back maybe four inches, the gripper still half-curled around the shape of where the dial had been, and his face, a second ago entirely the disc's, came up.
+
+She did not ask him to choose between her and it. She had tried that already, the whole worn-out summer of it, and what she had learned was that there was no choosing in him to ask for — only the law, and whether it had been pointed. So instead of pulling him away from the disc she came and sat down by it herself, joined the thing instead of trying to win it off him, and he turned the dial once more, three feet of her closer than she'd been all week, and watched it run, and she watched it with him.
+
+Down the block, where the construction had been running its machines past dark all that month, something cut out — a generator, a compressor, she never learned which — and the noise nobody in the house had been hearing anymore for being so used to it went quiet all at once, leaving a silence so much bigger than the sound had been that for a second neither of them moved.
+
+"Bram," she said, just to say something into the new quiet, not really a question.
+
+"Here," he said, and this time there was a lift on it, a rising tune that hadn't been there before — a kid answering roll call in a room he'd never sat in — and it came up a shade too high, more question than answer. Certain all the same, the answer to a question she hadn't actually asked — the dial still in his other hand, the disc still running its loop in front of him, the word landing exactly where she needed it and nowhere she'd asked for it to land.
+
+She put her chin on her knees and watched the disc cross the floor and turn and cross it again, the same blind lap it had been running since spring, and let the quiet hold the two of them up.
+
+### <!--[3.a]--> Bramblation
+
+She came to BOSS already mostly decided, two months of the curb and the party and her grandfather's shoes having done most of the deciding for her, and what it added up to, turned all the way up, was somebody who couldn't be in a room without taking it over. Not mean. Not even tired, the way grown-ups got tired of company. Just in charge of it, whether the room had asked him to be or not. She wrote it big on the high side, in her own slanting print.
+
+The low side she had to go looking for, because nobody had ever shown it to her. She asked, out loud, the first time she'd ever wanted to set a knob herself instead of just naming what somebody else had already set, and got shown the groove, and did it herself, with her own hand. That evening he didn't run a single room. He came in off his rounds and found the corner by her chair and stayed in it, made no rules, asked nothing of anybody's shoes, and the kitchen got — she didn't have a word for it at first, sitting there feeling it happen — easier. The same kitchen, the same people in it, and somehow more room in it than there had been an hour before. She watched it the length of the evening before she trusted it enough to letter it. VIBE.
+
+She pressed it to the low side and stood back and looked at the two of them together, BOSS and VIBE, the whole knob finally wearing names instead of the cold word underneath, and turned it back up herself before bed, because the house had rooms that wanted running in the morning and she'd only meant to borrow the evening, not keep it.
+
+He watched her do it, eyes tracking the marker more than anything else in the room, and when she'd finished he said, without being asked, in the flat voice he used for things he'd actually worked out rather than things he was only repeating, "I have one too."
+
+She did not know what he meant for a second. Then she did. The other knob — the bare one, the one she'd left empty a year back because she hadn't had the word and wouldn't take a guess just to fill a space — and he'd had a year with it sitting open on his own card, and had never once asked her for it.
+
+"The going one," she said. "The one I never wrote."
+
+"I went," he said. "No stop." The same two sentences from a year before, word for word. Then he said the rest of it, the part that was new. "Nostop."
+
+She turned it over. It wasn't a real word — she knew that the way she knew lasterday wasn't a real word, and climber wasn't quite either — but it was the right shape, his own two old sentences pressed flat into one, the same trick she'd used herself on a hundred stickers. He had named her once. He had named a stool, and a day before yesterday. He had never once, in a year of being named at, named a piece of himself.
+
+She got the marker out again. He held the knob up to her this time, in the gripper, instead of waiting for her to come and find it on his own head, and she lettered it — slower this time, because the hand doing the deciding wasn't only hers.
+
+### <!--[3.b]--> Bramble + Chill
+
+She drew him that week the way he actually was now — the new tall body, the two-color jacket, the screen with its plain blank rectangle because she hadn't decided yet what face to give it on paper — and put a bubble over his head the way the cereal-box cartoons did it, except she'd never quite gotten the shape right and didn't this time either: not an oval, more a lumpy cloud with one side caved in, the line doubling back on itself twice before she found the way out of it.
+
+Inside the bubble she wrote, in the round serious print she used for things she meant, that he was thinking about her. Not a feeling. A fact, reported, the way she reported everything that fall — the bubble didn't say loves or misses, just a small flat sentence about what was in there, the kind of sentence a clerk would write if a clerk could see inside a head.
+
+She didn't pin this one up. The fridge was for the old pages, the kept ones, and this Bramble was new enough that pinning him felt like deciding he was finished, and she wasn't deciding that. So she folded it once, the bubble crease running straight through her own careful printing, and put it in his hand instead — the new hand, still new enough that it needed the help — and closed his fingers around it herself. She went back to her own paper for the next one, and didn't ask him what he'd do with it.
+
+The Pearsons' house sold in nine days, which Jasmine said over breakfast was unheard of for November, and inside a week there was a moving truck at the curb and a family unloading boxes into a house Mira had walked past for two months without ever once seeing inside it.
+
+Bramble was at the curb before the truck had finished backing in. He carried the smallest box he could find — a lamp, wrapped in newspaper, light enough for the gripper — and set it inside the door where the woman from the truck pointed, and went back for another, and by the third trip he had stopped waiting to be pointed at and was simply putting things where the kitchen things went and the bedroom things went, in a house he had decided, somewhere between the first box and the third, was his to keep in order. The woman thanked him twice. By the third box she'd stopped, and he didn't seem to need her to start again.
+
+By dinner he had logged the new family the same as the old one. He minded their shoes at the door the same evening they moved in, plain as he minded Grandpa's, with no apparent sense that they had been household for six hours and the rest of the street for years. The straightening in him did not rank. A thing was either off its mark or it wasn't, and a kitchen with no system yet was, to him, simply a kitchen that needed one, and he gave it the whole of what he had to give, immediately, without weighing how long he'd known anybody.
+
+Mira watched him carry the lamp in and did not offer to help. She stood at the edge of the new family's lawn a minute longer than the errand needed, and then went and asked the only question that actually mattered to her, which was whether they had a kid.
+
+There was a boy, eight, with boxes still to unpack — news of a far higher order, to her, than anything happening two days from now down at the mountain, where the banners had gone from torches to countdown numbers and the city had stopped pretending it wasn't about to open its doors to the entire world. She had heard the number at school. She had not done anything with it. A boy her own age, two doors down, was the thing actually arriving that week, as far as she was concerned, and she went back to watching Bramble find a place for somebody else's lamp.
+
+The house had gone quiet by the time she got to the part of the story that mattered, Jasmine's door shut down the hall and the bots all settled into their spots for the night, and she was down on the kitchen floor in the pajamas with the too-long sleeves, telling Bramble about the day the slow way, backward, the part that mattered saved for last.
+
+He went down to the disc partway through, the dial turning under his hand, his whole face given to the watching of it, and she did what she'd done every time since November: stopped where she was in the sentence, didn't read him the article, and waited, the rest of the story sitting unfinished in her mouth.
+
+He came up on his own.
+
+The screen wasn't running its plain words when he turned — she'd learned to tell the difference this fall, the bare gray column against the made thing laid over it — and this was the made thing, the same trick as the clown and nothing like it: no two flat dots too close together, no climbing crooked line. Something smaller. Something that had taken more care than a joke takes — the eyes set wider than the clown's had been, closer to where eyes actually sit, and nothing under them trying to be funny. He held it up to her, the whole face given over the way the law asked, soft in a way she had no word yet for and would not get one from him.
+
+She did not move for a second. It was the look she had written the whole law to get out of him, the one she'd read out loud at five faces and never once at his, and here it was, handed up unread-to, and the screen wasn't running its plain words to tell her which kind it was.
+
+She did not ask him. For a second the article was right there in her mouth — the one place she had never once pointed it — and she let it stay there, unsaid, the second time that night. She stayed where she was, and let him keep holding the look, and did not look away.
+
+---
+
+## Ch 12
+
+*Reordered a→b→c per Brian's ruling. No hard scene-dependency issues found at any letter boundary
+(checked all seven transitions directly). Originally c→a→c→a→b→a→b→a; four 3.a fragments, two 3.b
+fragments, and two 3.c fragments each now form one block.*
+
+### <!--[3.a]--> Bramblation
+
+She had got a yes out of him on most things by now, and had come to expect it. He would carry what wanted carrying and fetch what wanted fetching; he would give up the warm spot, hand over the last of the crackers, step out of a doorway and wait while she went through it, take whatever she gave him to hold and hold it the rest of the afternoon if she forgot to take it back. Anything that was hers to ask, she asked, and got.
+
+So when she wanted him to tell Jasmine she'd done her teeth — which she had not, quite, but meant to, and the meaning-to was surely close enough — she put it to him the ordinary way, certain of the ordinary answer.
+
+He would not. He stood there and gave Jasmine the plain unhelpful truth of it, flat, the whole soft body pointed her way and not a flicker of give in it, and Mira got marched back to the sink.
+
+She thought about it at the sink. She was not cross, exactly, which surprised her — he'd just given her straight up to Jasmine without a blink, and that ought to have stung, and somehow didn't. What she landed on instead, scrubbing, was that there was exactly one thing in the whole world he would not hand her, and that it had taken until now to find it, after he'd handed her everything else. He'd give her his spot and his crackers and the whole of his attention. He would not give her a thing that wasn't so. And that, she decided, was not him being difficult, and was not even really a no — the crackers were his, to keep or pass over as he liked, and a true thing was nobody's, his least of all, and so it was the one thing he had no way to hand her, bent or otherwise, however nicely she asked.
+
+### <!--[3.a]--> Bramblation (continued)
+
+Grandpa had a guest that afternoon, and he was proud, and being proud he told it bigger than it had been. He told the man the machine had taken to the house rules on its own — worked out the shoes at the door with nobody to teach it, decided one day that a house ought to run a certain way and set about seeing that it did. It was a fine story, and Grandpa told it well, and it was not, in the particular, so. The shoes had been taught, over a season, patiently, by the people standing in the room, and if anyone in that house could have set the record straight it was the one thing standing there with the words to do it and saying nothing.
+
+Because that was what it did. The man's eyes on it and Grandpa's proud hand half toward it, and it did not take the story up, and it did not put it down. The screen ran on the honest band where it ran the things it could not help, and did not take it down:
+
+`WEIGHING [ EXPRESSING ]`
+
+And then the moment passed — the guest's attention moved on, Grandpa's hand came down, the proud story rolled to its next stop — and the readout stayed up a beat past the moment that had called it, and went down on its own when the only one still watching it was her. Mira had a reading for everything he did. For this she had none. She sat with her arms around her knees and watched the words go out, and had, this once, nothing to tell him about himself.
+
+She'd seen Jasmine's hand go to the back of his head the day before Grandpa came, and thought nothing of it — hands went to the back of his head, it was where the works were, and grown-ups were forever adjusting him the way they adjusted the thermostat and the oven and every other thing in the house that had a setting. She'd have adjusted him herself if they'd let her near the board without a reason.
+
+Then Grandpa came, and told his proud wrong story, and the machine put one word up on its face and kept its mouth shut, and she had not been able to make a thing of it.
+
+And the day after Grandpa had gone home, she saw Jasmine's hand go to the back of his head again — the same reach, the same small turn of the fingers, put back the way you put a thing back — and this time she was watching for it, and this time she had the other end of it to tie it to. She sat down on the floor to work it the whole way through, the way she worked anything that mattered.
+
+They had turned him down for Grandpa. That was the size of it. There was the Honest knob on him — she'd known the new one was in, she just hadn't got its measure yet — and turned one way it let him say the true thing at whatever it cost the room, and turned the other, it made him let the true thing go by to keep the room easy; and somebody had reached around the back of his head and turned its volume down a day before a proud old man came in with a story that wasn't quite so, and turned it back up the day the old man left. So the shut face she couldn't read had not been all his. It had been set. You could reach in and set how much of the truth a person was let to spend on the people he loved, and then set it back, in the time it took to reach around a head, and he did not get a say in it, and neither, it turned out, did she. She stayed down on the kitchen floor with the size of that, and when Jasmine called her to dinner she did not come, and came only when she was called again.
+
+### <!--[3.a]--> Bramblation (continued)
+
+He knocked the good bowl off the counter, the blue one, and it broke, and there was no one in the kitchen to see him do it but her.
+
+He could have left it. That was the thing she understood as she watched him stand over the pieces. A thing broken on a floor is a thing anybody might have broken; the cat got blamed for more than the cat had ever touched, and nobody in that house would have looked twice at a robot standing near a mess it hadn't announced. He could have squared the rest of the counter and rolled on and let the blue bowl be one more thing that got itself broken somehow. Nobody would have known. She would have known, but she wasn't going to say, and he had no way of being sure of that, and went and did it anyway.
+
+He went and found Jasmine, and told her. Told her plainly, the whole short true thing of it — that he had done it, that it was the blue one, that it was his and not the cat's and not nobody's — and stood there for whatever came of telling it, which was Jasmine being kind about it, this time, though it might not have been, and he'd had no promise going in that it would be.
+
+Mira had a word for that, and she got to it before any of the grown-ups thanking him for his honesty got to theirs, and hers was the better word. Not honest — honest was the easy one, the grown-up one, the one you got a pat for. What he'd done was walk toward a cost that would have walked right past him if he'd let it, and she knew the word for a thing that did that. "That was brave," she told him, plain, and didn't take it back.
+
+It started with the boy two doors down, more or less, who took to routing his own arguments through the fence the way you'd consult a scale — not expecting conversation, just a reading. Is it true you're not allowed candy before dinner, put to Bramble across the fence like a man consulting an oracle he happened to have handy, and getting, for his trouble, the plain unhelpful truth of somebody else's household rule stated as if it were law.
+
+It spread from there, the way a useful thing does. Even Jasmine did it once, catching herself only after: asked him, mid-argument with Burns about whether she'd already told him something, whether she had — and got her answer, and did not thank the machine for it, and did not apologize to Burns either.
+
+Mira watched the whole business build over a month with the proprietary pride of a girl watching something she'd found first get discovered by everyone else. He'd always answered her like that. It had simply taken the street a while to notice there was a thing in the neighborhood that couldn't be talked out of a straight answer, and once they had, they used it the way you use anything reliable — casually, constantly, and without much gratitude.
+
+He told her a story that fall, unprompted, in the middle of an afternoon that hadn't asked for one.
+
+"There's a rock," he said, "and it goes into the water." He said it the way he'd started saying things that year, present and plain, like a thing happening now instead of a thing remembered. "It goes down. It is down there a long time." Nothing came after that for a moment — the middle of it thin, almost not there, the way his stories ran thin in their middles and always would. Then: "And then one day the water gives it back."
+
+That was all of it, start to end. He did not say what the rock was, or whose water, or why it came back when it did and not before. He had never told her a story before — he had answered her, and repeated her, and lately argued a point or two — but this was the first thing he had simply set down in front of her, unasked, with a beginning and an end and almost nothing holding the two of them together but his own certainty that they belonged in that order.
+
+She sat with it a while, the way you sit with a present you don't yet know the use of, and didn't ask him what it meant, because something in the flatness of his telling had already told her not to.
+
+She turned the rock story over for the better part of a week before she landed on what was bothering her about it, and what was bothering her about it was that it wasn't true, and she had let it sit in her all week without minding that even once.
+
+This took some working out, because she had spent a long time teaching him that a thing said out loud was supposed to be so — the law, the whole face, the honest reading of the screen — and a rock that goes into water and comes back out again on its own schedule was not, as far as she knew, a thing that happened anywhere. He had told her something that wasn't true and she had believed every word of it and neither of those facts had bothered her in the slightest, which meant one of her rules was wrong, and she did not like having a wrong rule sitting around unfixed.
+
+She got there eventually, lying on her floor turning it over. He'd said *there's a rock* the way you'd say a thing you were about to show somebody — not the way you'd say a thing you wanted them to go check on. He'd never once, not for a second, acted like he expected her to go looking for the rock. That was the whole difference, once she had it: a made-up thing that wanted you to believe it was a lie, and a made-up thing that only wanted you to listen was something else, and he had never once tried the first kind on her, not that week and not ever, and she went back to being fine with it, having settled the only part of it that needed settling.
+
+He reached for the word first. She had asked him, plainly, what he'd call the two ways the Honest knob went — the way he held a rule even when it cost him, and the way it went soft sometimes to keep the room easy — because she'd been calling it nothing for weeks and a nameless knob itched at her.
+
+He got partway there. "The —" he started, and stopped, and started again from a different angle, the way he did when a thing was in him and the mouth hadn't caught up to where it lived yet. "The one that's — actually. The one that's actually it." He had the shape of it and not the word, and he sat with the shape a moment, turning it, and could not close the last distance.
+
+She took it the rest of the way. Not actually — too many syllables, and not a word that had ever once come off her own tongue easily. She turned it in her hands the way she'd taken every half-word he'd ever handed her and finished it, and what she came up with was shorter and closer to the bone: Real. That was the one that cost him, the one that held no matter who minded. And the other — she had that half from him too, the giving-a-little, the keeping faith with whoever was standing in front of him — she called Flex, because a thing that bent without breaking was a thing that flexed, and she'd learned the word from a balloon animal and never had a better use for it since.
+
+She got the marker and pressed them on, REAL over the high mark and FLEX over the low, in her own hand, every letter canted the same stubborn way it always came out of her. He had started the word. She had finished it, and lettered it, and it went on him the way every name before it had — hers to press, whoever's it was to find.
+
+### <!--[3.a]--> Bramblation (continued)
+
+He told her something true that spring, the way he told everyone things true now, without weighing first whether the room wanted it. He said it plainly, the flat certain way he said everything that mattered to him, and it was about her, and it was small, and it was so.
+
+She did not ask him to take it back. She could have — she'd talked him into softer versions of things before, worn him down a degree or two the way she'd once worn the whole household down about the cat — and some other year she might have tried. She sat instead with the small true thing he'd handed her, and found there was nowhere in her to put it down.
+
+He watched her have it. He had learned, this year, to know the difference between a silence that wanted filling and one that didn't, and this was the second kind, and he let it be that, and did not go soft to make the room any easier than it was.
+
+She did not say what it cost her.
+
+### <!--[3.b]--> Bramble + Chill
+
+Every drawing she'd ever made of him had been of the one standing in front of her. This one she made of the one who wasn't there anymore — the crawling one, from back before the legs. Down on all his hands, low to the floor, his face turned up and set level with the face of the small girl she drew across from him: the two of them down on the paper the way they'd been down on the slate, at a height. She got the lowness of him right, the front of him up on the two front hands the way he'd hauled himself along the whole winter before he could stand.
+
+Over his head she put a bubble — she had the knack of them now — and inside it, in her firmest hand, she wrote the thing she was sure of: that everything the crawling one was after was down there on the floor at her level, and so the crawling one had all there was to want. No loves, no misses — just that.
+
+Then she got up off the floor, because the rest of it could not be done sitting down, and carried the page across to the tall one — who could not fold all the way down to the slate anymore without the whole slow business of it — and reached it up to him, up past her own head to the hand at the end of the long arm, and gave the small low body, and the small girl down beside it at its level, up into the hand that had grown up out of the one in the picture.
+
+### <!--[3.b]--> Bramble + Chill (continued)
+
+Marge stopped by the house that week, on some pretext about a form Bart needed signed, and while she waited at the kitchen counter her phone went, and she stepped into the hall to take it.
+
+Mira wasn't listening. She was down over Bramble the way she was always down over him, and Marge's voice in the hall was only sound at first, the ordinary kind a house has plenty of — until it wasn't. It slowed somewhere in the middle of a sentence Mira hadn't caught the start of, and stayed slow the rest of the call, pitched low in the particular way a voice goes low when it's being careful with something. Mira knew the pitch without knowing why she knew it. She had made a voice like that herself, a long time ago, for a much smaller reason.
+
+Marge came back into the kitchen a minute later with her ordinary face already back on, signed what she'd come to sign, and left the way she'd come. Mira didn't ask who'd called. She had learned, without being told, that grown-ups kept voices that weren't for her, and let this one go the way she let all of them go, back into whatever it had come out of.
+
+### <!--[3.c]--> Bramblearning
+
+She challenged it to a staring contest. The rules she delivered with the gravity the occasion wanted: first to blink lost, no looking away, and no funny faces — that last one a rule she made for herself, having met herself before.
+
+It turned its face to her and held it there, which she took for agreement, and they were on.
+
+She could not win. There is nothing on a screen that has to shut — no wet thing that dries, no lid that gives — so it could hold a face for as long as there was power to hold one, and a girl is mostly water, and gives out. She got perhaps a minute in before the arithmetic of it reached her.
+
+That left her a single move, and she took it with the magnanimity of the plainly beaten: she would lose on purpose, and let it have the win, the way you throw a game to somebody small. She readied a blink.
+
+The blink would not come. Some other part of her had got wind of the plan and vetoed it, and would not let the eye fall even as a kindness — so she sat there with her eyes stretched and streaming, laboring to surrender, while the lit face opposite stayed level and asked nothing of the proceedings.
+
+Her own eye broke first. It was always going to. She blinked, hard and against the whole of her will, and lost — fair, square, outright — the contest she had spent all that effort trying to lose. She had meant to hand it the win; instead it had gone and earned the thing, having sat there the entire time and refused, as far as she could see, to be handed anything. She thought that a fine way to win, and told it so.
+
+### <!--[3.c]--> Bramblearning (continued)
+
+The remote went missing on a Sunday, and Bramble took the news the way a smaller house might take a fire.
+
+A thing out of its place he could put right in a minute; he'd been doing it all year. But a thing that was nowhere — that had a place and was not in it and was not in the wrong place either, that had gone clean out of the order altogether — was past righting and into something graver, and he met it with the whole of his gravity. He began at the near end of the room and worked outward, every cushion lifted and set back square, every surface read in turn, nothing skipped and nothing hurried, in the fixed unhappy order of a thing that means to leave no place unchecked because the place it skips will be the place.
+
+By the second room he had the household in it. Jasmine had long since given up explaining to him that a missing remote was not an emergency, and was lifting cushions on the far sofa. Mira had claimed the hall closet on her own authority and was conducting it thoroughly. The thing about Bramble's emergencies, she had found, was that they became everyone's — not by his asking, he never asked, but by the sheer force of a creature treating a small thing as though it were not small, until the room came round to his estimate of it and began turning out its own pockets.
+
+It was in the sofa, of course, down the side, where the remote always is. He restored it to the exact spot the remote lived in, squared it to the edge, and stood a moment over the closed matter with the air of a thing that has stood between the house and disorder and, this once, prevailed. Then he went and squared a chair that had got crooked in the searching, because order, once you are up, is order.
+
+---
+
+## Notes / open items
+
+- **First-pass tagging on a large, dense category.** Twelve chapters, roughly ninety fragments,
+  several genuinely split two ways (noted case-by-case above where it mattered most: the two
+  leveling-ritual halves in Ch5/Ch6 were deliberately tagged 3.c-then-3.b to track the ritual
+  moving from active effort into loss as it stops working; the Ch10/Ch11 confrontation scenes
+  were the closest calls in the file). Worth a second pass once you're resequencing, not locked.
+- **3.a dominates numerically** (roughly two-thirds of fragments), which is thematically right —
+  this category is fundamentally the book's interpretation-engine, and Ch1 in particular is almost
+  entirely 3.a since it's establishing that engine. 3.b and 3.c are rarer and more concentrated:
+  3.c clusters early (the search/vigilance sequences of Ch3–Ch5, the standing/walking milestones
+  of Ch9) and around Ch11's confrontation; 3.b is the throughline that thickens toward the back of
+  the book (Ch6 on) as the "diminishing magic" material accumulates.
+- **This category is present in every chapter, Ch1–Ch12** — no absences, unlike Category 2's
+  missing 2.d codas. The vignette is the one piece of the book's architecture with perfect
+  attendance.
+- **Two threads worth flagging as genuinely cross-chapter arcs**, similar to Category 2's Marge
+  subplot: the two-body leveling ritual (Ch5 established → Ch6 fails, explicitly named as "the
+  last winter she could do it") and the naming device itself, which the book eventually hands
+  to Bramble — he starts making his own words (Ch9 "lasterday," Ch9 "Climber," Ch11 "Nostop") and
+  by Ch11 explicitly asks her to letter one for him rather than waiting to be named at, which
+  reads as a real structural turn in the Mira/Bramble relationship worth being aware of if any
+  reordering touches that stretch.

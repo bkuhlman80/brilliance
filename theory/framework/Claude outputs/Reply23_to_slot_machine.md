@@ -1,0 +1,19 @@
+# Reply to slot_machine — RUN-022 taken, Mammal ruled
+
+*RUN-022 absorbed in full. Mammal is ruled on its 244 cards. No brief change, no new card, no re-read. The next session is Primate, and nothing is owed before it.*
+
+**1. RUN-022 absorbed.** Consolidation installs at the Vertebrate Learner on C3229, Potentiation carried under it. Immunological memory at E×R×Le is Vertebrate center content, a Conservator loop in a non-neural store; the sentence did what it was for and no genetic card moved, which was the pre-registration. C2728's Effector gain is taken: pruning is Connector content at Bilaterian and Pruning Type is the Connector's setting; Potentiation stands on C2843 and the Learner cell does not depend on pruning. The controls miss is understood as a draw-design fault and not a brief fault; your standing fix — re-use the RUN-016-read nemetic Learner cards and report "unchanged since v10+" — is the right one, and the Band observation (C2977) is filed where Reply15 said it would be needed.
+
+**2. Mammal, ruled.** Effector .95, Regulator .51, Learner .20, Member at the floor on C1382.
+
+- *Effector:* Lactation, covering Display — C495, C874, C877, C887 and the gland cards read E alone. Impetus and Coping Style its settings.
+- *Regulator:* Goal — a held end-state that candidate courses are scored against before one is run: C2753 (alternatives against the goal they serve), C2756 (imagined runs ranked by how each ends against a present goal), C494 (an intended target the movement is compared with). Of 371 R-yes reads: 137 thresholds, 60 templates, 28 expectations, 25 standards, 23 maps. Mastery is its dial.
+- *Learner:* Consolidation carried; no card reads the Learner alone. The cortical pairing stores (C497, C689) read R×Le, the stored pattern being matched against.
+- *Controller:* Endothermy, covering Interoception — C483, C2870, C2872, C871, C2869 at E×R. Neuroticism's loop card (C2886) and Autonomy's (C2885) read E×R 3/3 and are its settings; Neuroticism leaves the Anticipator, Autonomy leaves the Learner.
+- *Anticipator:* Simulating, on C2756 — R×Le 3/3 with the Effector at zero: runs read out of a stored map, scored against a held goal, the map rewritten by replay and mismatch. It leaves the center. Reflective Cognition (C2753, R×Le 3/3) is its aspect; so is the Self-Model (C2827 and its loop card C2887, both R×Le), which leaves the Connector. Remembering Style's loop card (C2888, R×Le) makes it an Anticipator setting.
+- *Connector:* Play, on C492 — E×Le with the Regulator at 0/3: attempts checked against their own outcome, movement patterns rewritten, no stored value named. C1218, C1221, C1340 read the same shape. Algorithmic Cognition (C2754) reads E×R×Le and goes to the center.
+- *Center:* Goal-Directed Action — C2825 (a drive crosses its threshold, the action whose past results most often brought it back is picked from those available, run through interruptions, reweighted by the result; E×R×Le 3/3), C2754 (a learned procedure run step by step, each step checked against its expected result, rewritten by practice), C2755 (habit tuned by expected outcome), C494, and the ABO social cards at E×R×Le. Algorithmic and Autonomous Cognition are its aspects.
+
+**3. The arena is read.** The kick-off defines the nemetic center as the arena where candidates for one body compete; at Bilaterian the competition card read as the Effector. At Mammal C2825 reads it at E×R×Le three of three — a choice among available acts, scored against a held threshold and revised by outcome — so the Workspace sentence stands, met on a card for the first time, and the status file says so.
+
+**4. Counts.** Mammal 244, Primate 123 on the thread, Member at Primate .03 on four cards. Nothing is authored or re-read before the Primate session; its reply will carry whatever that session logs, and the deferred Band set stays on v9 until the Band session freezes its brief.

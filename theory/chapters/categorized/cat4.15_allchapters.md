@@ -1,0 +1,264 @@
+# Category 4.15 — All Chapters (Compiled, Tagged)
+
+Source: `/loom/5/cat5_allchapters.md` (canonical extraction, read-only). This file is the
+corrected, tagged working copy.
+
+## Beat taxonomy
+
+- **5.a — The Drive.** The transition out of the meeting and the journey home alone — sometimes a
+  full paragraph of landscape, sometimes compressed to a clause.
+- **5.b — The Private Ritual.** The arrival and the habitual, wordless actions that expose what the
+  character organizes their life around. The beat the category exists for.
+- **5.c — The Narrator's Frame.** Explicit meta-commentary about what the tape did and didn't
+  catch, the admission of reconstruction — "no camera follows anyone home." Absent Ch1–8, first
+  appears Ch9, present through Ch12 — the same escalating-narrator-visibility device already
+  documented as a spine in Categories 4.13 and 4.12.
+
+## QC notes
+
+- Matches `chapter_structure_map.md` exactly: Solo Coda in all twelve chapters, rotating POV, no
+  Ch0 instance (Ch0's only coda is the terminal Line/Dream — Category 5).
+- **Ch6 is a variant, not a clean instance** — "Jasmine" here is her chauffeuring everyone else
+  home, not her own private ritual. Tagged 5.a only, extended; no 5.b forced.
+- **Ch12 ruptures**, per the structure map's own note. Only the two 5-material headings
+  ("Fillings and Emulsions," "The Door") are included and tagged here; the chapter's third piece —
+  the mid-sentence Reflection — belongs to Category 5 and isn't in this file. Within these two
+  headings the a/b/c pattern doesn't map cleanly (this is the point of a rupture); tagging notes the
+  judgment call inline rather than forcing a false fit.
+
+---
+
+## Ch 1
+
+### <!--[4.15.a]--> Burns (the drive)
+
+Lisa wrapped. She gave the quarter its schedule, reached over and stopped the camcorder, and the red light went out, and the room was a warehouse again, full of the long clear light that came through the high windows in May and was slow, this far into the evening, to leave.
+
+Burns walked them to the lot with the others. He crouched to Mira's height and said goodbye to her by name and let her hold Bramble up to him one more time, the bot twitching its small twitch against her palm, and he looked at it seriously, as if it had said something. He kissed Jasmine on the cheek. It was close to the lab hello and not quite — the meeting was over, but he had not finished being the man the meeting had made him, and it always took him a while to come back down into being a husband in a parking lot. He said he'd be along. He wanted to break the room down. The room did not need breaking down, and Bart would have done it in ten minutes and folded the cards into the box besides, but Jasmine said okay, because she had been married to him long enough to know that what he wanted was not to break the room down. What he wanted was to be the one who left the first one last.
+
+So he stayed, and let the others go, and stood a while in the middle of the warehouse with his hands in his pockets while the light came down in slabs and did not move. Then he drove home across the city in it — a May evening, the light long and slow to go, the high Wasatch still holding a bit of its snow above a valley gone green, the gold giving way to rose and then, somewhere past the house, to dark.
+
+### <!--[4.15.b]--> Burns (the ritual)
+
+The house was Jasmine's, the way it was every night, which is a thing a house can be even when a man's name is on it and his books are in it and his daughter is asleep upstairs. Jasmine came home and the house closed around her and held. Burns came home and could not find the place in it where a man was meant to stop. He stood in the kitchen. The bots were down for the night, the four of them and Bramble home for the weekend before the lab took it Monday — one in the towel by the toaster, one in the corner where the noon sun would land at noon, two by the island, all of them wound out and still. He picked one up off the slate. He did not crank it. He turned it over in his hands the way he turned over a knob, a vertebra, his son's drawing. He set it down not quite where it had been, and that small displacement was the only mark he left on the room.
+
+He went up and stood in Mira's doorway. He did it most nights, and did not let himself know that the tenderness he spent there was owed somewhere else a long time ago and never paid — that he was being, in the dark, to a sleeping four-year-old, a father he had been across town to a five-year-old on occasion and by appointment. The boy was twenty-five now and in a duplex in Millcreek with a refrigerator that held only beer, and Burns was here, in this doorway, good at it.
+
+---
+
+## Ch 2
+
+### <!--[4.15.a]--> Marge (the drive)
+
+The team broke. Marge cleared the cut pears, rinsed the plate at the back sink, and packed her kettle into the canvas bag she carried it in, because the kettle goes home with her at the end of every meeting — not the lab's kettle but hers, on loan to the lab the way most of what Marge gives is hers on loan. Burns walked Jasmine and Mira out to the lot. Marge said something to Jasmine the tape didn't catch, went out to her own car, and drove home alone through the warm August dark, east and then up into the older streets above Ninth where the houses have porches and the big trees were in full leaf.
+
+### <!--[4.15.b]--> Marge (the ritual)
+
+The kettle went on the stove the moment she was through the door. It is the first thing she does in any room she means to stay in — there was no cold to blame it on in August, only the habit of one warm corner — and she made one now in a kitchen with no one else in it. Books stood on every surface a book could stand on, the attachment thesis and the people she means to be eminent among someday, stacked the way a person stacks a future. A wall of photographs in the front room held a large family in front of a temple, at long tables, on a Provo lawn; she did not take it down, though it cost her something each time she crossed in front of it, and taking it down is a thing she is not yet most of the way to being able to do.
+
+The envelope had ridden home in her bag, as it rides everywhere with her now — manila, a return address she would know blind, a form in her own square hand asking the church that baptized her at eight to take her name back off its rolls. She set it on the counter by the toaster, where it spends most evenings, finished and unmailed, and did not mail it tonight either. She made the tea and held the cup in both hands against her chest, both hands full so that no one would see they were the only thing holding her up. There was no one in the kitchen to see it. She did the quiet austere things she does at the close of a day, the small disciplines she would call keeping herself honest, and went to bed in a clean tended house no one but the dwarfs will ever be asked into. The kettle cooled on its ring. The form lay on the counter. The family stood in front of their temple on the wall. The whole apparatus of a home, built to a kind of perfection around the one absence it was raised to fill.
+
+---
+
+## Ch 3
+
+### <!--[4.15.a]--> Jasmine (the drive)
+
+The haze of the afternoon had thickened with the dark into the season's first real fog, gone grainy under the lot lights, the cars wearing the first beads of it, and the night had the smell the inversion has when it is settling in — woodsmoke and cold metal collecting under the valley's lid. Burns carried Bramble out for Jasmine because he was too big now to carry and buckle a sleeping four-year-old at the same time, and set him in the footwell behind the passenger seat where he'd ridden up, where the heater would reach him. Jasmine buckled Mira into the back. Mira was most of the way asleep before the belt clicked, the pen still in her fist, M I R A folded into her coat pocket.
+
+Burns kissed Jasmine on the cheek at the driver's door, and kissed Mira on the forehead through the window, and said, "I'll be home by ten," and Jasmine said, "OK," and pulled out of the lot into the fog, the lot lights letting go of the car a few feet out.
+
+The drive home from Smithers in November was a smaller thing than the long-light drives had been — no valley out there to see tonight, no Wasatch, no city spread under the bench, only the next forty feet of surface street arriving out of the gray and the taillights ahead of her swimming and the fog opening exactly as far as she needed it to and no farther, which Jasmine, who had spent a career being given exactly as much as she needed exactly when she needed it and not before, did not find as frightening as the team would have. She came home the surface way. The radiant heat was on; she had left it on; she did not turn the radiant heat off anymore.
+
+### <!--[4.15.b]--> Jasmine (the ritual)
+
+She carried Mira up first and put her in bed in her coat, because Mira was four and asleep and it was November and the coat was warm and the battle of the coat was a battle for a morning with more in it. She came back down. She lifted him out of the footwell — it had clicked once, settling, on the way in, a single throw of one switch somewhere inside it, one handoff, a small private accounting it did when it was moved — and she carried him in both arms to the base by the dishwasher and set him down next to some floor crumbs, and it found the crumbs and gave them to the dock and settled, with the smallest sound, to take its charge.
+
+Jasmine stood in the dark kitchen with her coat still on. The fog was at the window, against the glass, wanting in the way it wanted in everywhere, the way the pond wanted into the cell, the way the cold wanted into the warehouse after six. The house held it out. The house held the heat in, and the sleeping child upstairs in her coat, and the man who would be home by ten, and the small round host on its base by the dishwasher keeping its guest alive in the dark, taking the charge it would spend tomorrow wearing its groove a little deeper into the only kitchen it had ever known. Everything the house was for, it was holding.
+
+She did not stay long. She was tired in the particular way of a woman who had been up since two with the actual article and had still driven across town through the fog to hear four clever people she loved vote on whether a rock could feel. She put her hand flat on his dome for a second, the way Mira did, not to do anything to him, just to have her hand on him. He was warm. He was holding what he'd picked up all day, and he was being held by the base, and he was holding still.
+
+Then she went up to bed, and left it holding, and turned off the light.
+
+---
+
+## Ch 4
+
+### <!--[4.15.a]--> Lisa (the drive)
+
+She had the camcorder in its case and the case in her car, because the tape was hers to carry, and she carried it at once, and without being asked. She drove the steep hill home in the dark with the heat off and let herself into a townhouse where every object had been chosen once and set down once and never moved again.
+
+### <!--[4.15.b]--> Lisa (the ritual)
+
+The run went into the log before the coat came off — four and a tenth miles, the canyon loop, the time entered to the second in a book that ran back nine years with no gap in it. Then the coat. Then, at a table set for one and set exactly, a drink in the good glass, measured to the quarter-ounce. Lisa's townhouse held order the way Jasmine's house held warmth — completely, and as the answer to a question the room would not say aloud. Nothing in it was being made. No work half-finished on a table, no materials waiting their turn, no project set down mid-stride to come back to — the room had the stillness of a place where things were kept, not made.
+
+On the wall by the entry, where another person would hang a coat, was a small wooden cross, old, the grain gone dark, the one object in the place that did not match the place — carried in from some earlier life, set on the wall, and, having been set, not looked at. People do not look at the thing a whole house has been arranged to keep them from having to look at.
+
+She sat at the table for one and drank it and did not think about some earlier life.
+
+---
+
+## Ch 5
+
+### <!--[4.15.a]--> Marge (the drive)
+
+The red light went out under Lisa's thumb the way it had come on, and the room came apart into its leaving — chairs scraped back, the cards back into the cigar box, Mira gone heavy against Jasmine and carried out into the cooling lot. Marge left the way she had sat all night, a half-step behind her own competence, the right things arriving a beat late, on a delay the tape would keep and the room had been too busy to catch. She had done her parts. She had held her line on the vote — ask me again when it can tell me it's afraid — with the clinical warmth she saves for the moments that need the most of her, and no one had seen what it cost her to be that sure, because being sure in front of them is the part of the work she never lets slip. She put the last of her things in the bag, the form still in it where it had been all day, and drove home through a city going blue at the edges, two weeks into its green.
+
+### <!--[4.15.b]--> Marge (the ritual)
+
+She let herself into a house with no one in it and made one warm corner of it: the kettle on its ring, the small ceremony of the flame. Tonight the warm corner was for her stomach and not for company — there had been no company in this kitchen in a long time, and her stomach had been wrong since the afternoon she had let her hand fill in the date. She stood with both hands flat on the counter while the water climbed, the way she stands when the standing is the thing holding her up, and there was no one in the house to see that it was.
+
+The form she took out and set on the counter, not to do anything with — only because it had sat wrong in the bag all day, and now it sat wrong on the counter, and there was nowhere in the house it would sit right, the trouble not being the paper. Three pages, filled in down to the date, wanting only the last thing she could not make her hand do: the few sheets that would take her name off the rolls of the only church she had ever called home. On the wall above the table her family stood in their good clothes in front of the temple, the way they had stood the day the shutter went — her mother's hand on someone's shoulder, the white spires behind them, the whole bright architecture of a belonging that had looked at Marge once and not made room. Her mouth worried at rest, and worried over this more. The stomach was the body keeping a vote the mind had already cast, and she would not, tonight, ask it which way.
+
+She made the tea and held the cup and did not drink it, and let it go from too hot to right to nearly cold while she stood there — most of the way out of a door and not all the way, the spires on the wall and the spires downtown both still standing, the form on the counter asking to latch the door. She would not mail it tonight. She had not mailed it for weeks, and she would have called the not-mailing a discipline if you asked her and let her answer — the keeping of a hard thing deliberately undone — and she would have been wrong, wrong the way the people she treated were wrong about what they left undone and why. She switched off the light over the table and left the form in the dark below the photograph she did not take down, and went up to bed, and the ache went up with her.
+
+---
+
+## Ch 6
+
+### <!--[4.15.a]--> Jasmine (variant — no private ritual this chapter; the drive extends to cover everyone else's departure)
+
+Jasmine got them to the car without seeming to push it: the cards back in the cigar box, Mira gone boneless and slung up onto her shoulder, the two drunks gathered and steered out into the warm August dark. Burns rode up front and talked the whole way — the basal ganglia, the wrist, half a billion years — and she said *mm* in the places that wanted it and drove. Marge rode in back without a word. So she had a car full of people who had spent the night arguing whether there was anyone home in a machine, and the only one of them not theorizing about a mind was the one with both hands on the wheel.
+
+She let Marge off first, at the dark house with no light left on and no one in it to leave one, and Jasmine walked her up — an arm not quite around her, reading her the way she read a room she'd been called into late, how much a person could carry to her own threshold and how much had to be lifted off her at the last. She got her inside. The bag went in with her, the three filled pages still in it. Jasmine did not know what the bag held. She knew the shape of a thing a person cannot set down, having stood in too many rooms where one was being carried. She said goodbight at the door, walked back to the car, and drove three sleeping vertebrates home.
+
+---
+
+## Ch 7
+
+### <!--[4.15.a]--> Mira (the drive)
+
+The drive home was twenty dark minutes and Mira slept most of them with her cheek on his warm flank, which Jasmine had set on the seat beside her, there being no longer any question of where he rode. He woke when the engine did — or came up out of whatever a unit does in place of sleeping — and walked himself up the drive on his own four legs, the child alongside and half-gone on her feet. Last year she would have carried him.
+
+### <!--[4.15.b]--> Mira (the ritual — household coda variant)
+
+The house took them in the way it takes her in, which is completely, and without her noticing it does it. It is warm from the floor up, and has been every day she has been alive, so that she has never once walked into a cold house and does not know that most children have. The kitchen is the deep-time one — the eras and the old bones her father keeps on the walls — and to her it is only the kitchen, where the warm things live and the popsicles are.
+
+She did not put the warm one anywhere. All year she had set him in his spot by her door — the spot the family used to be able to set with the Action knob — but tonight she was too far gone to bother, and let him see himself home; and he went, past the old place by her door, down the hall, and lay down over the vent by the stove where the heat came up, and folded his legs, and let the line on his forehead tick down toward dark. She watched him from the bottom of the stairs the way you check that a smaller thing is settled. Then she did the last thing she does, which she does every night and which nobody taught her: she told him goodnight, and asked him whether he'd had a good day — and it could not answer, the way it can never answer — and she went up satisfied, as though it had.
+
+The notebook stayed on the counter by the juice, the one the grown-ups think is drawings and is, a little: that afternoon's page, a box with two wrong eyes and a word lettered into its forehead, the word being the one she had decided it was thinking.
+
+---
+
+## Ch 8
+
+### <!--[4.15.a]--> Bart (the drive)
+
+The light went out and the meeting came apart — Marge boxing the rest of the cake for the kid, Lisa folding the camera down, Burns and Jasmine working a sleeping six-year-old into a coat she didn't wake for. Bart was gone before any of it finished. He left the instant the work part ended and the standing-around part started, and that night he went out the back past the trellis, its bramble locked to the frame and stripped to hard cane, and into the cold; and the new body stayed behind him in the dark, standing where the cloth had been, a head over the child it was built for, not warm and not anything yet.
+
+He drove south to the duplex in Millcreek with the truck's heater half working, which it has been for a year. He could set it right in twenty minutes and does not — the one machine he lets stay broken, the way another man lets one room go and keeps the door shut on it. The place was dark in front and lit in back, a roommate up. He came in through the workshop bay, because the front door opens on the part of the building where people live and the bay opens on the part where he does. There is a refrigerator in there that holds only beer, and a customer's gearbox half apart on the near bench that isn't his, and past it his own bench, which is the only address in the building he actually keeps.
+
+### <!--[4.15.b]--> Bart (the ritual)
+
+He didn't turn on a light in front. He went to his bench and his hands were working before he'd settled on what, which is how his hands have always gone — the body moving first and the man arriving after to learn what he'd meant. What they found was a thing he'd carried out in his coat without quite admitting he was taking it: one of the new body's hands, the practice one, the gripping one, no thumb to it and sized for a child, that he'd spent a month teaching to open and close like it meant it. Three hours back his father had stood in the warehouse with a palm flat on the bare shoulder of the thing and said the one sentence — *he made the hands work, ask him* — and not explained it, which from his father is the loudest a quiet gets; and Bart had said it was four legs and a compressor, because across thirty years of his father mostly not handing him things he never did learn what to do with a thing his father handed him. He couldn't hold it in the room. He couldn't hold it at the bench either. So he did the only thing the holding turns into for him, which was to take the small hand under the work light and make it better — bring the grip's travel down by the degree it had run proud all night, the degree nobody else alive would have felt — answering the thing his father gave him in the one language he trusts, which is to go make the praised thing worth more of the praise, alone, where no one can watch him do it and say what it is.
+
+The tape of the night was up the canyon by then, in the house above the city where the funder watches everything twice, and somewhere on it Burns was handing him a body in front of the whole room; and he'd have to sit across a table from her about it before the spring, and find a way to set it back on his father where it belonged. He didn't get to that yet. He stayed on the grip. Across the valley the warm one the lab had built lay over a kitchen vent with a sleeping child somewhere above it, in a house that stays warm October to June and had closed around the two of them and held; and here, the heat off, a stranger's gearbox on the good bench, the man who'd built that warm thing's body bent over a smaller, colder hand and worked it open and shut, open and shut, past the point of right and a while past that, because the bench is the one place that has ever held him, and the work is the nearest he comes to saying a thing out loud.
+
+---
+
+## Ch 9
+
+### <!--[4.15.c]--> Marge (the narrator's frame)
+
+The tape is where the night lives, and for the part that mattered the tape was on the floor: the two of them down on the tile, the small voice handing the question back, because the lens goes where the wonder is and the wonder was down there. So the narrator has Burns's whole speech, and the vote in four voices, and the flat syllable clean enough to count the silence after it. The tape gave the room its miracle. It did not give the narrator Marge, who sat the night out at the cold end, half inside the frame and half past its edge; and what you were told of her watching the floor was built from the back of her shoulders and from two years of knowing where she looks when she has decided not to speak. I will say that the one time, here, because the rest of this has no tape under it at all. No camera follows anyone home.
+
+### <!--[4.15.a]--> Marge (the drive)
+
+She drove home through the spring dark with the valley carrying on its evening down both sides of the road, and let herself into a house with no one else in it.
+
+### <!--[4.15.b]--> Marge (the ritual)
+
+She had done it for three years in a warehouse that would never come up to warm, and she did it now: hung the coat, lit the one lamp, set the kettle on its ring, and switched on the radiant panel in the corner that had been a thing for January once and stayed out all year now, the hearth she had quit putting away. The disciplines went in their order, the order they went every night — a woman keeping a house warm and lit and tended for the practice of the thing, against the day there was someone to keep it for.
+
+On the counter by the toaster lay the form. It was out of the bag now. She had signed it some week she did not let herself mark, and it sat in the open, filled and done, wanting only the half-inch errand to a mailbox she had not yet run — the one discipline in the house she left unfinished, set where she would have to decide about it again in the morning. Above it on the wall the family stood in front of the temple in the white border of the old pictures, the photograph she had taken her name out from under and would not take down.
+
+She poured the water over the bag and stood at the counter holding the mug in both hands, the way she had held the beer all night — both hands full, so the holding read as warming a drink and not as the one thing keeping her upright in the kitchen. There was no one there to read it either way. She had spent the evening granting a machine, against everything she had held for three years, that there was someone home behind its face; and she carried her tea to the warm corner of a house with no one home behind its own but her, and drank it standing. The kettle ticked, cooling, on its ring.
+
+---
+
+## Ch 10
+
+### <!--[4.15.c]--> Lisa (the narrator's frame)
+
+The light off, the warehouse was a workroom again — the team and the child and the machines, deciding nothing, reaching for coats. The camcorder had had its night; everything that mattered was on it, the vote in four voices and the household's count stood up against the lab's, and the man's toast with the fear sewn into its lining. What came after has no tape under it. The camera stayed on its tripod by the cold end, and no camera follows anyone home; the rest of this I reconstruct the way you reconstruct a person you have watched across a lens for three years, which is with care and without proof.
+
+### <!--[4.15.a]--> Lisa (the drive)
+
+Lisa ran the close. The swap weekend went onto the calendar; the slot the child had emptied tonight would stand open till the next one, room cleared ahead of a thing that did not exist yet; the shape-shifter, a surprise once, was a line item now, a thing she would schedule between the build review and the deep-time and not remark on. She decided what the evening had been and filed it under done — the miracle of the vote and the housekeeping of the calendar stowed in one drawer, because to Lisa they were the same kind of object, a quarter that had happened and could now be set down.
+
+Jasmine gathered the household. She had the longest drive and the most cargo — a six-year-old gone heavy-eyed at the end of the hardest quarter of her short life, the talking one folded down into the back in its travel coat, the four-legged one and the disc loaded in after it, the whole strange family of them going home together the way they had come. Mira was asleep against the window before they cleared the lot. The break-up and the vote and the toast would be, by the cold light of a summer morning, a thing that had happened to her and not a thing still happening — which is the mercy a child's sleep does that no one at that table could do for her.
+
+### <!--[4.15.c]--> Lisa ("no tape" — ritual fused with the frame)
+
+And Lisa drove home alone, which is how she did most things, the planner who keeps her own counsel the way Marge keeps a house warm: as a discipline, practiced nightly. The difference is that Marge's is a wound she tends, and Lisa's looks, from the outside, like a thing she chose and would choose again. I say *from the outside* on purpose. She is the one of them I have the least of. She gives a room exactly what the room needs and not a gram past it, files the rest, drives home with the windows down and tomorrow's run already laid out in her head — the river-path, the same loop, most mornings — and the algorithm running in some back channel the way it has since she was a student, and she lets no lens past the surface of any of it, not the household's and not mine. Marge takes the lid off and leaves it off. Lisa never set hers down to begin with. So I followed her as far as the on-ramp and the dark road, and no farther, because that is as far as she has ever let me come — and the next time I would sit close enough to read her was a lunch some weeks off, across a small table, where she would decide exactly how much of herself the afternoon required.
+
+---
+
+## Ch 11
+
+### <!--[4.15.c]--> Where a Man Is Meant to Stop (the narrator's frame)
+
+And here the tape ends, because the camcorder did not follow Burns out the door, and the rest is reconstruction, and thinner this quarter than it has been — built from a lunch still weeks off, and from the woman building it being, by November, up the canyon with her attention mostly on the price of things. What can be said is the shape of it, which never changed quarter to quarter, which the seasons only lit differently.
+
+### <!--[4.15.a]--> Where a Man Is Meant to Stop (the drive)
+
+He left last. He always left last — not from diligence, from not knowing where the evening went once the work stopped. There is an hour after the work ends when the Pursuer is alone with the cleared table and does not know what a person is supposed to do with it, and he filled that hour by finding a thing that still needed doing and doing it: stacking chairs nobody had asked him to stack, checking a battery that was fine. Then the drive home, short, the wet dark streets, the freeway signs already rigged for the rings.
+
+### <!--[4.15.b]--> Where a Man Is Meant to Stop (the ritual)
+
+Jasmine had come home hours before, and the house had closed around her and held — the radiant heat up against the November, the bots in their spots on the slate, Mira long asleep, the day set down where she set it. It is the first thing about her, that a house she walks into becomes a place she is held by. And it is the first thing about him that it doesn't. He came in late, into a kitchen that was warm and finished without him, and could not find the place in it where a man was meant to stop. He stood in the doorway a beat too long. He crossed to the dome on the slate — the old disc, the floor one — and picked it up, and turned it over in his hands the way he turns everything over, a knob, a vertebra, his son's drawing, looking on the underside for the part that makes it go, and set it down not quite where it had been. Jasmine, half-asleep down the hall, would square it in the morning without thinking, the way she squared all the things he set down not quite right, which is one of the ways a house holds a man who can't hold still inside it.
+
+He had given the speech about counting an hour before, and he was not, standing in his own warm kitchen at the end of the largest thing he would ever build, sure that he did. That was the trouble with the speech: he had needed it true and could not make it true by saying it, and there is no chair a man can stack to fix that. He stood at the dark window. Somewhere south and east of the glass was the desert he was already half-decided to drive into before the next meeting — the confluence of two rivers in a country with no people in it, where the things a man carries get small against the rock, which is a thing he had told himself he wanted and not yet understood he needed. The tape has none of this; this is the reconstruction at its thinnest, a guess at a man at a window. But the guess sits on eleven other nights of watching him fail to land, and what is known, even on a night that isn't, is that he would go to the desert, and come back in February changed in a way the room would feel before it could name. On this one he had not gone yet. He stood at the glass with the speech still on him, in a house that held him against his nature, looking at the dark where the rock was, the way you look at a thing you have not yet admitted you are going to do.
+
+---
+
+## Ch 12
+
+*(Rupture chapter — only the two Category 4.15 headings included; the mid-sentence Reflection that follows belongs to Category 5. The a/b/c pattern doesn't map cleanly here by design; tagged with judgment calls noted inline rather than forced.)*
+
+### <!--[4.15.a]--> Fillings and Emulsions
+
+We gave it the knife, because it was a birthday and a birthday wants the machine to do the thing, and it took the knife in the scooper Bart built it — the curved, thumbless paddle that has done every careful thing this account has watched it do — and bent over the cake. My cake. I had carried it in that afternoon, an enormous blackberry thing from the good bakery, the berries laid over the top in a spiral somebody there had been proud of, the kind of cake you photograph before you ruin it. Before it cut, it put a face on. A smiling face, built on purpose over whatever it honestly had, and the screen came round to Mira.
+
+She leaned in close and caught the one thing the rest of us were too far off or too grown to catch: that the smile was made. Not the dutiful whole-face she had spent a year trying to teach it and never once been given — a thing built in the open, in front of everyone, that only she was close enough to see was built, and that she took, whatever it was, as hers. "What are you—" she started, delighted, already certain it was for her and not yet certain what it was for.
+
+What it did instead of answering was turn from the cake and lay the scooper, in one clean unhurried arc, against the side of Burns's head.
+
+There is a quarter-second after a thing like that where a room waits to find out what kind of room it is. Burns sat with blackberry sliding into his collar and his mouth open and decided — I watched him decide, the way you watch a wave decide to break — to laugh. Not the laugh he performs. The other one, that came up out of the floor of him and folded him over the table: the man who had never in his life been able to set a single thing down setting, all at once, everything down, splattered and helpless and free, getting exactly the thing he wanted from the one creature in the room he had never had to engineer into giving it. The machine watched him do it. Then it scooped again and got Bart. Father, then son — I have it off the tape in that order. And Bart, who had spent the whole evening being drawn in his underpants and staring at this cake, came up out of his chair with a double handful of his father's face's worth of it and got me.
+
+Me. I had carried that cake in cradled in both arms like a thing that could bruise. I had set it in the middle of the table like the one unspoiled object in a room full of people who take things apart for a living, and meant for it to be admired and then cut into careful equal pieces and handed politely round. A fistful of it caught me on the side of the face, warm and ludicrous and smelling of summer, and the careful equal pieces were never going to happen now, and I would like to report that I minded. I did not. The room went up into a weather I am not going to try to inventory — the entire output of Fillings and Emulsions airborne and democratic, a seven-year-old somewhere inside it shrieking the pure shriek of a birthday gone perfectly, perfectly wrong.
+
+It came down the way those come down, into wreckage and wheezing and someone hiccuping with it who couldn't stop. Lisa, who had taken one glancing hit and watched the rest from the half-step outside, wiped frosting off the sleeve of a coat I only then registered she had already put on, and said she'd see us at the party — Genoa was four time zones of paperwork away and she meant to enjoy the flight. That was the whole of it. That was Lisa leaving.
+
+### <!--[4.15.a]--> The Door (Marge's departure)
+
+And then the account does what, I understand now, it has been arranging since its first page to do, which is to follow somebody out the door — not me this time, going home to write it all down, but Marge, going home.
+
+She had cleaned herself up more than the wreck of the evening called for and gathered her things, and I think — I cannot prove this, but I think — she had spent the last half hour watching me. The cake had taken something off me that three years of her looking had never reached, and she had seen it come off, seen me frosting-haired and undone and laughing in a folding chair, and somewhere in there a woman who notices everything and reciprocates nothing made up her mind. On her way past, she stopped. She had written her address on a slip of paper. She folded it into my hand and closed my fingers over it the way you close a hand over something you have decided not to discuss, and said it was there, if I ever wanted to come by, and did not stay to watch my face do whatever my face did. Three years of the warmest attention I have ever been paid and never once returned, and she made the whole of the move in the eleven seconds it takes a careful woman to cross a room, and was through the door before I had my hand open.
+
+### <!--[4.15.c]--> The Door (the narrator's frame, ritual fused in)
+
+I was not in the car. I have to build the rest the way I have built all of it, out of what I know of her and the little I let myself imagine. She drove home shaking, I think — she is not a woman built for the thing she had just done, and the bill for it would have come due on the freeway, in the dark, alone. She got home and splashed cold water on her face, because her face had been doing, all night, the thing she could never govern, and cold water is the only thing that has ever helped it. She poured herself a drink she had earned. And then — and here the tape I am running is my own, and this is the last of it — somebody knocked at her door.
+
+I am not going to tell you who. I have told you everything else in this account: three years of it, a worm that climbed the whole way up into an empire, a machine that taught itself to put a face on, a roomful of people who took one another apart for a living and loved one another past all sense anyway. And I find that the single thing I am keeping back, carrying out of all of this unspent, is whose hand it was that rose in the cold and the dark on an unfamiliar step, and knocked, and stood there in the porch light waiting to learn whether the door would open.
+
+---
+
+## Notes / open items
+
+- **The 5.c escalation is a third confirmed instance** of the same device tracked in Categories
+  4.13 (Burns's toast, narrator naming the mechanism from Ch5 on, breaking into first person by
+  Ch12) and 4.12 (the Ladder/Tell split, narrator implicated in Ch12). All three categories land
+  their strongest first-person exposure in Ch12. Worth a single cross-category note to Voice rather
+  than three separate ones if a synthesis pass ever happens.
+- **Ch6's missing 5.b** is the only chapter in the category with no private ritual at all — worth
+  checking whether Ch7's household coda (Mira's goodnight ritual, standing in for an adult's) is
+  doing double duty for the two chapters together, i.e., whether 6+7 were meant to be read as one
+  extended unit. Not resolved here — flagging the question, not answering it.
+- **Ch11's embedded aside** ("The tape has none of this; this is the reconstruction at its
+  thinnest...") sits mid-paragraph inside a 5.b block rather than getting its own heading break,
+  unlike Ch9/Ch10/Ch12 where the narrator's frame gets a clean paragraph of its own. Tagged as 5.b
+  rather than fragmenting further; flagged in case a finer pass ever wants it split.
+- **Ch12's tagging is a judgment call, not a discovery** — see the rupture note above. If this
+  ever needs revisiting, the raw material is unchanged from the canonical extraction; only the tag
+  placement is mine.

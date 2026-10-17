@@ -18,6 +18,9 @@
 //  ui      — chrome strings for the Bramble view.
 // ============================================================================
 window.BRAMBLE_UNIT = {
+  // v2 Explorer shows the Ancestor/Bramble toggle only when this is true. Off until
+  // the knob board is mapped onto the growing Venn (see DESIGN_BRIEF_growing_venn.md §6).
+  enabled: false,
   unitLabel: 'UNIT 03',
 
   chassis: { genetic: 'Vacuum chassis', neuronal: 'Tetrapod chassis', symbolic: 'Humanoid chassis' },

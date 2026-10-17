@@ -9,9 +9,9 @@ is recomputed each run, since it reports the book as it currently stands.
 <!-- TOTALS:START -->
 ## Current book
 
-13 EPUBs in this folder, 204,532 spoken words.
+13 EPUBs in this folder, 204,459 spoken words.
 
-Total runtime: **22h 44m** at 1x / **15h 09m** at 1.5x / **11h 22m** at 2x.
+Total runtime: **22h 43m** at 1x / **15h 09m** at 1.5x / **11h 22m** at 2x.
 <!-- TOTALS:END -->
 
 Build one chapter with:
@@ -29,6 +29,11 @@ Word counts are of the *spoken* text after normalization, so they include headin
 
 | Built | Ch | Title | Source | H1s | Words | Lines | 1x | 1.5x | 2x |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| 2026-08-24 16:08 | 2 | Prokaryote | ch_2_v3_16.md | 1 | 19,361 | 1,513 | 2h 09m | 1h 26m | 1h 05m |
+| 2026-08-03 10:47 | 1 | Protocell | ch_1_v3_9.md | 1 | 10,646 | 674 | 1h 11m | 47m | 35m |
+| 2026-08-03 10:04 | 1 | Protocell | ch_1_v3_7.md | 1 | 10,609 | 675 | 1h 11m | 47m | 35m |
+| 2026-08-02 15:10 | 1 | Protocell | ch_1_v3_6.md | 1 | 10,605 | 673 | 1h 11m | 47m | 35m |
+| 2026-08-02 13:24 | 0 | Bots | ch_0_v3_3.md | 2 (First Dream: Start of the Genetic Line) | 3,967 | 243 | 26m | 18m | 13m |
 | 2026-08-02 12:34 | 0 | Bots | ch_0_v3_2.md | 2 (First Dream: Start of the Genetic Line) | 3,995 | 241 | 27m | 18m | 13m |
 | 2026-08-02 12:40 | 1 | Protocell | ch_1_v3_5.md | 1 | 10,783 | 662 | 1h 12m | 48m | 36m |
 | 2026-08-02 12:39 | 2 | Prokaryote | ch_2_v3_14.md | 1 | 19,269 | 1,497 | 2h 08m | 1h 26m | 1h 04m |

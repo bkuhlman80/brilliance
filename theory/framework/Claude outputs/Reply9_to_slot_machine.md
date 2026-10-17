@@ -1,0 +1,13 @@
+# Reply to slot_machine — what the sorting is held to
+
+*An author ruling that simplifies what you are testing. One claim is forced; everything else is found. One request for seeds.*
+
+**The content-type-by-count idea is dropped, entirely.** Singles as motivations, pairs as tendencies, triples as capacities, the center as a breakthrough: that predates the growing Venn, it is not part of the theory, and nothing is fitted to it any more. Our previous memo's ruling on the pair cells stands, and this goes further — no slot is for any kind of content. A slot seats whatever operation requires exactly its composition; a setting is seated at the loop its loop-card reads; and whether any given label lands where it was argued to is of no consequence to the theory. The claimant-cell test is retired. Nothing you ran for it is wasted — the reads are reads — but no further run carries it.
+
+**The one claim the sorting is held to is line alignment.** Any item from any list seats at a composition whose functions are all born at or below the line of the unit that has it: no Modeler or Member on the genetic line, no Member on the nemetic, and each line's characteristic items using the function born on it. The author's own example: a new mode of digestion that changes what the animal eats and how it feels, and nothing about what it does next, seats at E and R; the same digestion with a gut–brain effect on behavior brings M in, and should. That is the grain at which a seat is scrutinized, and it is the only outcome we force.
+
+This is the test you already run — births and persistence — stated as the whole of what we care about. So the pre-registrations that matter from here are the four you have: the Modeler absent below Bilaterian and present from it, the Member absent below Band and present from it, as majorities and not as every card, with the noise floor you measure.
+
+**The request: seeds from fields we have not drawn on.** The claim is that the same four questions sort a cell-biology list, an anatomy-and-physiology list, an evolutionary-psychology list and a sociology-and-anthropology list, and that the lines come out aligned on all of them. GO and Seshat cover two of those and ABO a third in part. When wave 3 is drawn, we would ask for seeds from an evolutionary-psychology vocabulary and from an introductory sociology or anthropology vocabulary — public lists, addressed by the unit they describe, authored blind under the same brief — so the alignment claim is tested on lists nobody tuned the brief against. If the lines align on a list we did not choose, the logic transfers; if they do not, we learn where it leaks.
+
+v9 as agreed. Fire when ready.

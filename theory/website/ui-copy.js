@@ -79,4 +79,13 @@ window.BRAMBLE_UI = {
   helpFormFnH: "FORM / FUNCTION",
   helpFormFnPD: "Toggle labels between this clade's specific names and the universal cybernetic roles.",
   helpFormFnPM: "Toggle labels between this clade's specific names and the universal cybernetic roles.",
+
+  // Four Corners (the growing pyramid, served at /four-corners/)
+  fourCorners: "Four Corners",
+  fourCornersBlurb: "Why 3, then 7, then 15: the four functions as the corners of a pyramid that grows a dimension per line.",
+  fourCornersHref: "/four-corners/",
+  fourCornersBack: "Back to the Explorer",
+  helpFourCornersH: "FOUR CORNERS",
+  helpFourCornersPD: "The slot counts are not a convention. Four functions are the corners of a pyramid: a point, then a line, a triangle, a solid. Its corners, edges, faces and interior are the fifteen slots. Open Four Corners to watch it grow.",
+  helpFourCornersPM: "Four functions are the corners of a pyramid; its corners, edges, faces and interior are the fifteen slots. Open Four Corners to watch it grow.",
 };

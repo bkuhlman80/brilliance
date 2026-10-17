@@ -1,22 +1,28 @@
 #!/usr/bin/env python3
-"""Build the deployable Trellis Framework site from the design-canvas source.
+"""Build the deployable Trellis Framework site from the design-canvas sources.
 
-Reads `Bramble Explorer.dc.html` (the Claude Design export), applies the
-deploy transformations, and assembles the upload bundle in `site/`:
+Two design files, two routes:
 
-  index.html          — the .dc.html + responsive wrapper + web specimen paths
-  support.js          — dc-runtime (vendored in runtime/)
+  Bramble Explorer.dc.html  ->  site/index.html          (the Explorer)
+  Four Corners.dc.html      ->  site/four-corners/index.html  (the growing pyramid)
+
+Each is a Claude Design export. The Explorer gets the deploy transformations
+below and the vendored dc-runtime in `runtime/`. Four Corners is a newer
+export and runs on its own runtime, vendored in `runtime/four-corners/`
+(support.js plus vendor/react*.js), so the two never share a support.js.
+
+Also assembled into `site/`:
+
+  support.js          — Explorer dc-runtime (runtime/)
   framework-data.js   — data file (source of truth for cell/region prose)
   ui-copy.js          — chrome microcopy (CC-owned; optional until extraction lands)
-  bramble-data.js     — Bramble (Unit 03) panel data (CC-owned; optional, added
-                        with the Ancestor/Bramble toggle)
+  bramble-data.js     — Bramble (Unit 03) panel data (CC-owned; optional)
   favicon/og assets   — vendored in runtime/
   public/specimens_web/*.jpg
 
 Copy ownership: framework-data.js, ui-copy.js, and bramble-data.js are owned by
-the Code tool (all words). Bramble Explorer.dc.html is owned by the Design tool
-(look & feel; reads every string from the data files, hardcodes none). See
-README.md.
+the Code tool (all words). The .dc.html files are owned by the Design tool
+(look & feel). See README.md.
 
 Deploy with:
   wrangler pages deploy theory/website/site --project-name trellis-framework --branch main
@@ -28,8 +34,11 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "Bramble Explorer.dc.html"
+SRC_FC = HERE / "Four Corners.dc.html"
 RUNTIME = HERE / "runtime"
+RUNTIME_FC = RUNTIME / "four-corners"
 OUT = HERE / "site"
+OUT_FC = OUT / "four-corners"
 
 RESPONSIVE_STYLE = """<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
@@ -70,16 +79,34 @@ EDITS = [
      '<div id="bx-mobile-frame" data-screen-label="Explorer — Mobile"', 1),
 ]
 
+# Four Corners ships as a plain page (no canvas frames), so it only needs the
+# page head the design export leaves out: viewport, icons, description.
+FC_HEAD = """<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Four corners, fifteen slots: how four functions, born one line at a time, make the Trellis Framework's growing Venn.">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1b1813">
+<style>html, body { margin:0; background:#1b1813; } body { overflow-x:hidden; }</style>"""
 
-def build() -> None:
-    html = SRC.read_text(encoding="utf-8")
+FC_EDITS = [
+    ('<meta charset="utf-8">', FC_HEAD, 1),
+    ('<title>Four Corners</title>', '<title>Four Corners — Trellis Framework</title>', 1),
+]
 
-    for needle, replacement, expected in EDITS:
+
+def apply(html: str, edits, name: str) -> str:
+    for needle, replacement, expected in edits:
         n = html.count(needle)
         if n != expected:
-            sys.exit(f"ABORT: expected {expected} occurrence(s) of {needle[:60]!r}, found {n} — "
+            sys.exit(f"ABORT: expected {expected} occurrence(s) of {needle[:60]!r} in {name}, found {n} — "
                      "the design file changed shape; update build_site.py.")
         html = html.replace(needle, replacement)
+    return html
+
+
+def build_explorer() -> None:
+    html = apply(SRC.read_text(encoding="utf-8"), EDITS, SRC.name)
 
     # specimen images: design-canvas paths -> web-optimized jpgs
     start = html.index("const SPECIMEN = {")
@@ -88,9 +115,6 @@ def build() -> None:
     fixed = block.replace("public/specimens/", "public/specimens_web/").replace(".png'", ".jpg'")
     html = html[:start] + fixed + html[end:]
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir(parents=True)
     (OUT / "index.html").write_text(html, encoding="utf-8")
     for name in ("support.js", "favicon-32.png", "apple-touch-icon.png", "icon-512.png",
                  "og-image.png", "site.webmanifest", "_redirects"):
@@ -116,6 +140,29 @@ def build() -> None:
     for jpg in jpgs:
         shutil.copy2(jpg, spec_out / jpg.name)
 
+
+def build_four_corners() -> None:
+    if not SRC_FC.exists():
+        print(f"skip four-corners: {SRC_FC.name} not present")
+        return
+    for name in ("support.js", "vendor/react.js", "vendor/react-dom.js"):
+        if not (RUNTIME_FC / name).exists():
+            sys.exit(f"ABORT: {RUNTIME_FC / name} missing — unpack the Four Corners export's runtime there")
+    html = apply(SRC_FC.read_text(encoding="utf-8"), FC_EDITS, SRC_FC.name)
+    OUT_FC.mkdir(parents=True)
+    (OUT_FC / "index.html").write_text(html, encoding="utf-8")
+    shutil.copy2(RUNTIME_FC / "support.js", OUT_FC / "support.js")
+    (OUT_FC / "vendor").mkdir()
+    for name in ("react.js", "react-dom.js"):
+        shutil.copy2(RUNTIME_FC / "vendor" / name, OUT_FC / "vendor" / name)
+
+
+def build() -> None:
+    if OUT.exists():
+        shutil.rmtree(OUT)
+    OUT.mkdir(parents=True)
+    build_explorer()
+    build_four_corners()
     total = sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())
     print(f"built {OUT} — {sum(1 for f in OUT.rglob('*') if f.is_file())} files, {total/1024:.0f} KiB")
 

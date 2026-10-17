@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Four Corners</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#e0a23c}a:hover{color:#f0c060}
+</style>
+</helmet>
+<div style="background: {{th.bg}}; color: {{th.fg}}; font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.5; box-sizing: border-box; padding: 20px 16px">
+<div style="max-width: 1180px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+
+  <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+    <div style="position: relative; aspect-ratio: 4 / 3; max-width: 100%; background: {{th.panel}}; border: 1px solid {{th.rule}}">
+      <canvas ref="{{cvRef}}" aria-label="The four functions drawn as the corners of a growing pyramid" style="position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; touch-action: none" onPointerDown="{{onDown}}" onPointerMove="{{onMove}}" onPointerUp="{{onUp}}" onPointerLeave="{{onLeave}}"></canvas>
+      <div style="position: absolute; right: 10px; top: 8px; display: flex; gap: 12px; font-size: 12px; color: {{th.muted}}; pointer-events: none">
+        <sc-for list="{{legend}}" as="it" hint-placeholder-count="4">
+          <sc-if value="{{it.shown}}" hint-placeholder-val="{{true}}">
+            <div style="display: flex; align-items: center; gap: 5px"><span style="display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: {{it.color}}"></span><span>{{it.name}}</span></div>
+          </sc-if>
+        </sc-for>
+      </div>
+      <div style="position: absolute; left: 10px; bottom: 8px; font-size: 12px; color: {{th.muted}}; pointer-events: none">Drag to turn · hover or tap a name</div>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px">
+      <button type="button" onClick="{{onBack}}" disabled="{{atStart}}" style="font: 500 13px 'IBM Plex Sans', sans-serif; color: {{th.fg}}; background: {{th.panel}}; border: 1px solid {{th.rule}}; padding: 8px 14px; min-height: 44px; cursor: pointer; opacity: {{backOpacity}}">◀ Back</button>
+      <button type="button" onClick="{{onNext}}" disabled="{{atEnd}}" style="font: 500 13px 'IBM Plex Sans', sans-serif; color: {{th.fg}}; background: {{th.panel}}; border: 1px solid {{th.rule}}; padding: 8px 14px; min-height: 44px; cursor: pointer; opacity: {{nextOpacity}}">{{nextLabel}}</button>
+      <div style="flex: 1 1 180px; min-width: 0; display: flex; align-items: center">
+        <label for="fc-scrub" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Stage</label>
+        <input id="fc-scrub" type="range" min="0" max="3" step="0.01" value="{{progress}}" onChange="{{onScrub}}" style="flex: 1; min-width: 0; accent-color: {{th.fg}}">
+      </div>
+      <label for="fc-labels" style="font-size: 13px; color: {{th.muted}}; display: inline-flex; align-items: center; gap: 6px; min-height: 44px"><input id="fc-labels" type="checkbox" checked="{{showLabels}}" onChange="{{onLabels}}"> Edge and face names</label>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; font: 11px/1.3 'IBM Plex Mono', monospace; color: {{th.muted}}; letter-spacing: .04em; text-transform: uppercase">
+      <div style="display: flex; flex-direction: column; text-align: left"><span>Point</span><span style="opacity: .7">process</span></div>
+      <div style="display: flex; flex-direction: column; text-align: center"><span>Line</span><span style="opacity: .7">genetic</span></div>
+      <div style="display: flex; flex-direction: column; text-align: center"><span>Plane</span><span style="opacity: .7">nemetic</span></div>
+      <div style="display: flex; flex-direction: column; text-align: right"><span>Space</span><span style="opacity: .7">memetic</span></div>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 300px; min-width: 0; max-width: 360px; display: flex; flex-direction: column; gap: 14px">
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <div style="font: 11px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: {{th.muted}}">A function is a corner; every birth opens a dimension</div>
+      <h1 style="font: 600 30px/1.1 'Spectral', Georgia, serif; margin: 0; letter-spacing: -.01em">Four corners, fifteen slots</h1>
+    </div>
+    <p style="margin: 0; max-width: 42ch; color: {{th.muted}}; font-size: 14px">Each new function rises out of the center of the figure and lifts it into a dimension that did not exist before. Every face it leaves behind gets a twin that reaches the new corner. Point, line, triangle, pyramid: 1, 3, 7, 15, and nothing older is lost.</p>
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <div style="font: 11px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: {{th.muted}}">{{stage.eyebrow}}</div>
+      <h2 style="font: 600 22px/1.15 'Spectral', Georgia, serif; margin: 0">{{stage.title}}</h2>
+      <div style="font: italic 400 15px 'Spectral', Georgia, serif; color: {{th.muted}}">{{stage.sub}}</div>
+    </div>
+    <p style="margin: 0; max-width: 42ch">{{stage.text}}</p>
+    <div style="display: flex; gap: 18px; font-variant-numeric: tabular-nums">
+      <sc-for list="{{counts}}" as="c" hint-placeholder-count="4">
+        <div style="display: flex; flex-direction: column; gap: 1px"><b style="font: 600 24px/1 'Spectral', Georgia, serif">{{c.n}}</b><span style="font: 11px 'IBM Plex Mono', monospace; letter-spacing: .06em; text-transform: uppercase; color: {{th.muted}}">{{c.label}}</span></div>
+      </sc-for>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <div style="font: 11px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: {{th.muted}}">{{bornHead}}</div>
+      <div style="display: flex; flex-wrap: wrap; gap: 4px 8px; font: 13px 'IBM Plex Mono', monospace">
+        <sc-for list="{{born}}" as="b" hint-placeholder-count="7">
+          <span style="color: {{b.color}}">{{b.name}}</span>
+        </sc-for>
+      </div>
+    </div>
+    <div style="border-top: 1px solid {{th.rule}}; padding-top: 12px; display: flex; flex-direction: column; gap: 4px; min-height: 96px">
+      <sc-if value="{{card.empty}}" hint-placeholder-val="{{true}}">
+        <div style="font: italic 400 15px 'Spectral', Georgia, serif; color: {{th.muted}}">Hover a name for its slot.</div>
+      </sc-if>
+      <sc-if value="{{card.full}}" hint-placeholder-val="{{false}}">
+        <div style="font: 600 19px/1.1 'Spectral', Georgia, serif">{{card.name}}</div>
+        <div style="display: flex; gap: 4px; font: 13px 'IBM Plex Mono', monospace; color: {{th.muted}}">
+          <sc-for list="{{card.parts}}" as="p" hint-placeholder-count="2">
+            <span style="color: {{p.color}}; font-weight: 500">{{p.text}}</span>
+          </sc-for>
+        </div>
+        <div style="font-size: 13px; color: {{th.muted}}">{{card.note}}</div>
+      </sc-if>
+    </div>
+  </div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"dark":{"editor":"boolean","default":true,"section":"Look"},"effector":{"editor":"color","default":"#ff6a58","section":"Function colors"},"regulator":{"editor":"color","default":"#6ea4ff","section":"Function colors"},"learner":{"editor":"color","default":"#f2c14e","section":"Function colors"},"member":{"editor":"color","default":"#5fd98f","section":"Function colors"},"$preview":{"width":1280,"height":760}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { progress: 0, hover: null, showLabels: true };
+    this.yaw = -0.6; this.pitch = 0.38;
+    this.anchors = {}; this.drag = null; this.anim = null; this.cv = null;
+    this.cvRef = (el) => { this.cv = el; };
+  }
+
+  // ---------- fixed data ----------
+  get AXES() { return ['e','r','le','me']; }
+  get AXIS_NAME() { return { e:'Effector', r:'Regulator', le:'Learner', me:'Member' }; }
+  get AXIS_ABBR() { return { e:'E', r:'R', le:'Le', me:'Me' }; }
+  get LINE() { return ['process', 'genetic', 'nemetic', 'memetic']; }
+  get KIND() { return ['', 'corner', 'edge', 'face', 'solid']; }
+  get RENAME() { return { 1: ['Process', 1], 3: ['Body', 2], 7: ['Workspace', 3] }; }
+  get STAGES() {
+    return [
+      { title:'Process', sub:'a point', eyebrow:'Stage 0', text:
+        'Before there is a unit there is activity that keeps itself going. One point, no dimensions, one slot. There is nowhere else to be.' },
+      { title:'The Regulator is born', sub:'a line · the genetic line', eyebrow:'Stage 1 · genetic', text:
+        'The Regulator rises out of the process and pulls it into a line. Two corners and the edge between them: Effector, Regulator, Body. What was the whole is now one end of something larger, so the process is the Effector, the process without a reference. The whole is the edge.' },
+      { title:'The Learner is born', sub:'a plane · the nemetic line', eyebrow:'Stage 2 · nemetic', text:
+        'The Learner rises out of the middle of the line and pulls it into a triangle. Three corners, three edges, one face: seven. The line is still an edge of the triangle, still running. Body becomes Controller, the loop without a revisable store. A creature living on the line cannot point at where the Learner went.' },
+      { title:'The Member is born', sub:'space · the memetic line', eyebrow:'Stage 3 · memetic', text:
+        'The Member rises out of the center of the triangle and lifts it into a pyramid. Four corners, six edges, four faces, one solid: fifteen. Workspace becomes Conservator, the arena without an exit. The solid is the Translator, the whole unit running, and every slot is a face of it. Nothing is inner or outer; the six pairs are six identical edges.' },
+    ];
+  }
+  theme() {
+    return this.props.dark
+      ? { bg:'#1b1813', panel:'#26211a', fg:'#f0e6d0', muted:'#a59a82', rule:'#4a4234' }
+      : { bg:'#eef0f3', panel:'#f8f9fb', fg:'#1b1f26', muted:'#5f6673', rule:'#cfd4dc' };
+  }
+  colors() {
+    const p = this.props, d = p.dark;
+    return [
+      p.effector ?? (d ? '#ff6a58' : '#e3382b'),
+      p.regulator ?? (d ? '#6ea4ff' : '#2a6cf2'),
+      p.learner ?? (d ? '#f2c14e' : '#efa715'),
+      p.member ?? (d ? '#5fd98f' : '#1ea65c'),
+    ];
+  }
+  slotName(mask, stage) {
+    switch (mask) {
+      case 1:  return stage >= 1 ? 'Effector' : 'Process';
+      case 2:  return 'Regulator';
+      case 3:  return stage >= 2 ? 'Controller' : 'Body';
+      case 4:  return 'Learner';
+      case 5:  return 'Connector';
+      case 6:  return 'Anticipator';
+      case 7:  return stage >= 3 ? 'Conservator' : 'Workspace';
+      case 8:  return 'Member';
+      case 9:  return 'Starter';
+      case 10: return 'Operator';
+      case 11: return 'Herald';
+      case 12: return 'Adapter';
+      case 13: return 'Tester';
+      case 14: return 'Counselor';
+      case 15: return 'Translator';
+    }
+    return '';
+  }
+  bornStage(mask) { return 31 - Math.clz32(mask); }
+  bits(mask) { return [0,1,2,3].filter(k => (mask >> k) & 1); }
+  stageOf() { return Math.floor(this.state.progress + 1e-9); }
+
+  // ---------- geometry ----------
+  amount(k) { return k === 0 ? 1 : Math.min(1, Math.max(0, this.state.progress - k + 1)); }
+  cornerPos(k) {
+    const S3 = Math.sqrt(3), S6 = Math.sqrt(6);
+    const FINAL = [ [0,0,0], [1,0,0], [0.5,0,S3/2], [0.5,S6/3,S3/6] ];
+    const START = [ [0,0,0], [0,0,0], [0.5,0,0], [0.5,0,S3/6] ];
+    const u = this.amount(k), a = u*u*(3 - 2*u);
+    return [0,1,2].map(i => START[k][i] + (FINAL[k][i] - START[k][i]) * a);
+  }
+  alive(mask) { return this.bits(mask).every(k => this.amount(k) > 0); }
+  fade(mask) { return Math.min(...this.bits(mask).map(k => Math.min(1, this.amount(k) * 2))); }
+  centroid(ks) {
+    const pts = ks.map(k => this.cornerPos(k)); const c = [0,0,0];
+    for (const p of pts) for (let i = 0; i < 3; i++) c[i] += p[i] / pts.length;
+    return c;
+  }
+  project(p, W, H, center) {
+    const cy = Math.cos(this.yaw), sy = Math.sin(this.yaw), cp = Math.cos(this.pitch), sp = Math.sin(this.pitch);
+    const x = p[0] - center[0], y = p[1] - center[1], z = p[2] - center[2];
+    const x1 = x*cy + z*sy, z1 = -x*sy + z*cy;
+    const y1 = y*cp - z1*sp, z2 = y*sp + z1*cp;
+    const f = 4.5, zoom = Math.min(W,H) * 0.52, k = f / (f + z2);
+    return { x: W/2 + x1*zoom*k, y: H/2 - y1*zoom*k, z: z2, k };
+  }
+
+  // ---------- drawing ----------
+  draw() {
+    const cv = this.cv; if (!cv) return;
+    const ctx = cv.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    const W = cv.clientWidth, H = cv.clientHeight;
+    if (!W || !H) return;
+    if (cv.width !== W*dpr || cv.height !== H*dpr) { cv.width = W*dpr; cv.height = H*dpr; }
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.clearRect(0,0,W,H);
+    const stage = this.stageOf(), hover = this.state.hover, th = this.theme();
+    const hex = (h) => { h = h.replace('#',''); if (h.length === 3) h = h.split('').map(c => c + c).join(''); return [0,2,4].map(i => parseInt(h.slice(i,i+2),16)); };
+    const COL = this.colors().map(hex);
+    const mix = (cols) => { const r = [0,0,0]; for (const c of cols) for (let i = 0; i < 3; i++) r[i] += c[i]/cols.length; return r.map(Math.round); };
+    const rgba = (c, a) => 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + a + ')';
+    const S3 = Math.sqrt(3), S6 = Math.sqrt(6);
+    const FINAL = [ [0,0,0], [1,0,0], [0.5,0,S3/2], [0.5,S6/3,S3/6] ];
+    const START = [ [0,0,0], [0,0,0], [0.5,0,0], [0.5,0,S3/6] ];
+
+    const weights = [0,1,2,3].map(k => this.amount(k)), wsum = weights.reduce((a,b) => a+b, 0);
+    const center = [0,0,0];
+    for (let k = 0; k < 4; k++) { const p = this.cornerPos(k); for (let i = 0; i < 3; i++) center[i] += p[i] * weights[k] / wsum; }
+    center[1] += 0.06;
+    const P = [0,1,2,3].map(k => this.project(this.cornerPos(k), W, H, center));
+    const topMask = (1 << (stage + 1)) - 1;
+    const anchors = {};
+
+    if (stage < 3 && this.state.progress === stage) {
+      const g = this.project(FINAL[stage + 1], W, H, center);
+      ctx.save(); ctx.setLineDash([3,4]); ctx.lineWidth = 1; ctx.strokeStyle = th.muted; ctx.globalAlpha = 0.4;
+      for (let k = 0; k <= stage; k++) { ctx.beginPath(); ctx.moveTo(P[k].x, P[k].y); ctx.lineTo(g.x, g.y); ctx.stroke(); }
+      ctx.beginPath(); ctx.arc(g.x, g.y, 4, 0, Math.PI*2); ctx.stroke();
+      const s = this.project(START[stage + 1], W, H, center);
+      ctx.beginPath(); ctx.arc(s.x, s.y, 2.5, 0, Math.PI*2); ctx.fillStyle = th.muted; ctx.fill();
+      ctx.restore();
+    }
+
+    const faces = [7, 11, 13, 14].filter(m => this.alive(m)).map(m => ({ m, z: this.bits(m).reduce((s,k) => s + P[k].z, 0) / 3 }));
+    faces.sort((a,b) => b.z - a.z);
+    for (const f of faces) {
+      const b = this.bits(f.m), hot = hover === f.m;
+      ctx.beginPath(); ctx.moveTo(P[b[0]].x, P[b[0]].y); ctx.lineTo(P[b[1]].x, P[b[1]].y); ctx.lineTo(P[b[2]].x, P[b[2]].y); ctx.closePath();
+      ctx.fillStyle = rgba(mix(b.map(k => COL[k])), (hot ? 0.5 : 0.26) * this.fade(f.m));
+      ctx.fill();
+    }
+
+    const edges = [3, 5, 6, 9, 10, 12].filter(m => this.alive(m)).map(m => ({ m, z: this.bits(m).reduce((s,k) => s + P[k].z, 0) / 2 }));
+    edges.sort((a,b) => b.z - a.z);
+    for (const e of edges) {
+      const [i, j] = this.bits(e.m), hot = hover === e.m;
+      const grad = ctx.createLinearGradient(P[i].x, P[i].y, P[j].x, P[j].y);
+      grad.addColorStop(0, rgba(COL[i], 1)); grad.addColorStop(1, rgba(COL[j], 1));
+      const depth = (e.z + 1) / 2;
+      ctx.beginPath(); ctx.moveTo(P[i].x, P[i].y); ctx.lineTo(P[j].x, P[j].y);
+      ctx.strokeStyle = grad; ctx.lineCap = 'round';
+      ctx.lineWidth = (hot ? 5.5 : 3.6) * (0.85 + 0.3 * (1 - depth));
+      ctx.globalAlpha = (hot ? 1 : Math.max(0.78, 1 - depth * 0.25)) * this.fade(e.m);
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+
+    const corners = [0,1,2,3].filter(k => this.amount(k) > 0).sort((a,b) => P[b].z - P[a].z);
+    for (const k of corners) {
+      const m = 1 << k, p = P[k], hot = hover === m, fd = this.fade(m);
+      ctx.beginPath(); ctx.arc(p.x, p.y, (hot ? 13 : 11) * p.k, 0, Math.PI*2);
+      ctx.fillStyle = rgba(COL[k], 0.22 * fd); ctx.fill();
+      ctx.beginPath(); ctx.arc(p.x, p.y, (hot ? 8.5 : 7) * p.k, 0, Math.PI*2);
+      ctx.fillStyle = rgba(COL[k], fd); ctx.fill();
+      if (hot) { ctx.lineWidth = 2; ctx.strokeStyle = th.fg; ctx.stroke(); }
+    }
+
+    ctx.textBaseline = 'middle';
+    const BODY = "'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif", DISPLAY = "'Spectral', Georgia, serif";
+    const label = (m, p, kind) => {
+      anchors[m] = p;
+      const isTop = m === topMask, hot = hover === m;
+      if (!this.state.showLabels && kind !== 'corner' && !isTop) return;
+      const name = this.slotName(m, stage), fd = this.fade(m);
+      if (kind === 'corner') {
+        let dx = p.x - W/2, dy = p.y - H/2; const L = Math.hypot(dx,dy) || 1; dx /= L; dy /= L;
+        ctx.font = (hot ? '600' : '500') + ' 13px ' + BODY;
+        ctx.textAlign = dx < -0.25 ? 'right' : dx > 0.25 ? 'left' : 'center';
+        ctx.fillStyle = th.fg; ctx.globalAlpha = fd;
+        ctx.fillText(name, p.x + dx * 16, p.y + dy * 16 + (ctx.textAlign === 'center' ? dy * 6 : 0));
+      } else {
+        ctx.font = isTop ? ('600 15px ' + DISPLAY) : ((hot ? '600' : '400') + ' 12px ' + BODY);
+        ctx.textAlign = 'center';
+        const w = ctx.measureText(name).width + 10, h = isTop ? 20 : 16;
+        ctx.fillStyle = th.panel; ctx.globalAlpha = 0.82 * fd;
+        ctx.fillRect(p.x - w/2, p.y - h/2, w, h);
+        ctx.fillStyle = isTop || hot ? th.fg : th.muted; ctx.globalAlpha = fd;
+        ctx.fillText(name, p.x, p.y + 0.5);
+      }
+      ctx.globalAlpha = 1;
+    };
+    for (const f of faces) if (f.m !== topMask) label(f.m, this.project(this.centroid(this.bits(f.m)), W, H, center), 'face');
+    for (const e of edges) if (e.m !== topMask) label(e.m, this.project(this.centroid(this.bits(e.m)), W, H, center), 'edge');
+    for (const k of corners) label(1 << k, P[k], 'corner');
+    if (stage >= 1) label(topMask, this.project(this.centroid(this.bits(topMask)), W, H, center), this.KIND[this.bits(topMask).length]);
+    this.anchors = anchors;
+  }
+
+  // ---------- lifecycle ----------
+  componentDidMount() {
+    if (this.cv && window.ResizeObserver) { this.ro = new ResizeObserver(() => this.draw()); this.ro.observe(this.cv); }
+    this.draw();
+  }
+  componentDidUpdate() { this.draw(); }
+  componentWillUnmount() { if (this.ro) this.ro.disconnect(); if (this.anim) cancelAnimationFrame(this.anim); }
+
+  // ---------- animation ----------
+  go(to) {
+    const target = Math.max(0, Math.min(3, to));
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { this.setState({ progress: target }); return; }
+    if (this.anim) cancelAnimationFrame(this.anim);
+    const from = this.state.progress, t0 = performance.now(), dur = 1300 * Math.abs(target - from) || 1;
+    const step = (t) => {
+      const u = Math.min(1, (t - t0) / dur);
+      const p = u >= 1 ? target : from + (target - from) * u;
+      this.setState({ progress: p });
+      if (u < 1) this.anim = requestAnimationFrame(step); else this.anim = null;
+    };
+    this.anim = requestAnimationFrame(step);
+  }
+
+  // ---------- pointer ----------
+  pick(e) {
+    const rect = this.cv.getBoundingClientRect(); const x = e.clientX - rect.left, y = e.clientY - rect.top;
+    let best = null, bd = 22;
+    for (const m in this.anchors) { const p = this.anchors[m]; const d = Math.hypot(p.x - x, p.y - y); if (d < bd) { bd = d; best = +m; } }
+    return best;
+  }
+  setHover(m) { if (m !== this.state.hover) this.setState({ hover: m }); }
+
+  renderVals() {
+    const s = this.state, stage = this.stageOf(), th = this.theme(), COL = this.colors();
+    const S = this.STAGES[stage], n = stage + 1;
+    const topMask = (1 << (stage + 1)) - 1;
+
+    const born = [];
+    for (let m = 1; m < 16; m++) if (this.bornStage(m) <= stage) born.push(m);
+    born.sort((a,b) => this.bornStage(a) - this.bornStage(b) || this.bits(a).length - this.bits(b).length || a - b);
+    const bornItems = born.map(m => {
+      const isNew = this.bornStage(m) === stage && stage > 0;
+      const renamed = this.RENAME[m] && this.RENAME[m][1] === stage;
+      return { name: this.slotName(m, stage) + (renamed ? ' ↩' : ''), color: (isNew || renamed) ? th.fg : th.muted };
+    });
+
+    let card = { empty: true, full: false, name: '', note: '', parts: [] };
+    if (s.hover !== null) {
+      const m = s.hover, b = this.bornStage(m), k = this.bits(m).length, KIND = this.KIND;
+      let note = 'A ' + KIND[k] + ' of the figure: ' + (k === 1 ? 'one function alone' : 'the ' + KIND[k] + ' spanned by its ' + k + ' functions') + '. Born on the ' + this.LINE[b] + ' line, ' + (b === 0 ? 'with the process itself' : 'when the ' + this.AXIS_NAME[this.AXES[b]] + ' rose') + '.';
+      if (m === topMask) note += ' The whole figure as it stands: the center.';
+      else if (this.RENAME[m] && this.RENAME[m][1] <= stage) note += ' Was ' + this.RENAME[m][0] + ', the whole of stage ' + (this.RENAME[m][1] - 1) + ', until a corner rose beyond it.';
+      const parts = [];
+      this.bits(m).forEach((kk, i) => { if (i > 0) parts.push({ text: '×', color: th.muted }); parts.push({ text: this.AXIS_ABBR[this.AXES[kk]], color: COL[kk] }); });
+      card = { empty: false, full: true, name: this.slotName(m, stage), note, parts };
+    }
+
+    return {
+      th,
+      progress: s.progress,
+      showLabels: s.showLabels,
+      stage: S,
+      counts: [ { n: stage, label: 'dimensions' }, { n: n, label: 'corners' }, { n: n * (n - 1) / 2, label: 'edges' }, { n: 2 ** n - 1, label: 'slots' } ],
+      legend: [0,1,2,3].map(k => ({ name: this.AXIS_NAME[this.AXES[k]], color: COL[k], shown: k <= stage })),
+      born: bornItems,
+      bornHead: stage === 0 ? 'Slots at this stage' : 'Slots at this stage · born now in plain, renamed ↩',
+      card,
+      atStart: s.progress === 0,
+      atEnd: s.progress >= 3,
+      backOpacity: s.progress === 0 ? 0.45 : 1,
+      nextOpacity: s.progress >= 3 ? 0.45 : 1,
+      nextLabel: stage >= 3 ? 'Done' : 'Rise: ' + this.AXIS_NAME[this.AXES[stage + 1]] + ' ▶',
+      cvRef: this.cvRef,
+      onBack: () => { const p = s.progress; this.go(p > Math.floor(p + 1e-9) ? Math.floor(p) : Math.floor(p) - 1); },
+      onNext: () => this.go(Math.floor(s.progress + 1e-9) + 1),
+      onScrub: (e) => { if (this.anim) cancelAnimationFrame(this.anim); this.anim = null; this.setState({ progress: parseFloat(e.target.value) }); },
+      onLabels: (e) => this.setState({ showLabels: e.target.checked }),
+      onDown: (e) => { this.drag = { x: e.clientX, y: e.clientY, moved: false }; if (e.target.setPointerCapture) e.target.setPointerCapture(e.pointerId); e.target.style.cursor = 'grabbing'; },
+      onMove: (e) => {
+        if (this.drag) {
+          const dx = e.clientX - this.drag.x, dy = e.clientY - this.drag.y;
+          if (Math.abs(dx) + Math.abs(dy) > 2) this.drag.moved = true;
+          this.yaw += dx * 0.008; this.pitch = Math.max(-1.4, Math.min(1.4, this.pitch + dy * 0.008));
+          this.drag.x = e.clientX; this.drag.y = e.clientY; this.draw(); return;
+        }
+        this.setHover(this.pick(e));
+      },
+      onUp: (e) => { if (this.drag && !this.drag.moved) this.setHover(this.pick(e)); this.drag = null; e.target.style.cursor = 'grab'; },
+      onLeave: () => { if (!this.drag) this.setHover(null); },
+    };
+  }
+}
+</script>
+</body>
+</html>

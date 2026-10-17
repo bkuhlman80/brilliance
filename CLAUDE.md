@@ -130,27 +130,27 @@ Apply these regardless of N when relevant:
 - Self-report only when claim requires method separation
 - Preprint / not yet peer-reviewed
 
-## Trellis website copy contract (two-tool ownership)
+## Trellis website (its own repo)
 
-The `theory/website/` site is built by two tools with a hard split to prevent copy
-drift. Full contract in [theory/website/README.md](theory/website/README.md). The Code tool's
-obligations:
+The site at trellis-framework.pages.dev lives in a separate private repo,
+**`bkuhlman80/trellis-site`**, checked out beside this one at `../trellis-site`.
+Its README holds the full copy contract and the build and deploy steps. Work on
+the site there, not here.
 
-- **Own the words.** All copy the Code tool edits lives in `theory/website/framework-data.js`
-  (cell/region prose) or `theory/website/ui-copy.js` (chrome microcopy). Never edit
-  `theory/website/Bramble Explorer.dc.html` — that file belongs to the Design tool.
-- **Labels come from the Layer Map.** The schema-v2 data (`framework-data.v2.js`) is
-  generated from `theory/framework/layers/Layer_Map.md` by
-  `python3 theory/website/gen_framework_data.py`. Edit the Layer Map and
-  regenerate; never hand-edit the generated file.
-- **Never take a Design bundle's data file.** When integrating a Design handoff,
-  copy in *only* `Bramble Explorer.dc.html` (+ `runtime/` if changed). Do NOT
-  overwrite `framework-data.js` or `ui-copy.js` from the bundle — doing so is the
-  exact regression that reverted Impetus→Boldness (commit e939769).
-- **Build + deploy belong to the Code tool:** `python3 theory/website/build_site.py`
-  then `wrangler pages deploy theory/website/site --project-name trellis-framework --branch main`.
-- If a design change needs a new label/key, the Code tool adds it to the data
-  file; Design never ships data to supply it.
+What stays in this repo:
+
+- **The theory.** `theory/framework/layers/Layer_Map.md` is the source of truth
+  for every site label. `theory/website/gen_framework_data.py` turns it into the
+  site's `explorer/framework-data.v2.js`. Run `scripts/sync_from_brilliance.sh`
+  in trellis-site, which also refreshes its read-only `canon/` snapshot. Never
+  hand-edit the generated file.
+- **The specimen originals.** Full-size clade art lives in `theory/specimens/`;
+  the site carries only the web JPGs.
+
+The contract in brief: Code owns the words (data files) and the build and
+deploy; Design owns the `.dc.html` files. When a Design handoff arrives, take
+only the `.dc.html`, never its data files (doing so once reverted
+Impetus→Boldness, commit e939769).
 
 ## Conventions
 

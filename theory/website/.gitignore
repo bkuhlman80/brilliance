@@ -1,5 +1,0 @@
-# Build output — regenerate with: python3 theory/website/build_site.py
-site/
-
-# Local preview scratch
-.fc-preview-tmp/

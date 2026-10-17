@@ -16,10 +16,10 @@ deploy transformations, and assembles the upload bundle in `site/`:
 Copy ownership: framework-data.js, ui-copy.js, and bramble-data.js are owned by
 the Code tool (all words). Bramble Explorer.dc.html is owned by the Design tool
 (look & feel; reads every string from the data files, hardcodes none). See
-website/README.md.
+README.md.
 
 Deploy with:
-  wrangler pages deploy website/site --project-name trellis-framework --branch main
+  wrangler pages deploy theory/website/site --project-name trellis-framework --branch main
 """
 
 import shutil

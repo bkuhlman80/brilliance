@@ -132,19 +132,23 @@ Apply these regardless of N when relevant:
 
 ## Trellis website copy contract (two-tool ownership)
 
-The `website/` site is built by two tools with a hard split to prevent copy
-drift. Full contract in [website/README.md](website/README.md). The Code tool's
+The `theory/website/` site is built by two tools with a hard split to prevent copy
+drift. Full contract in [theory/website/README.md](theory/website/README.md). The Code tool's
 obligations:
 
-- **Own the words.** All copy the Code tool edits lives in `website/framework-data.js`
-  (cell/region prose) or `website/ui-copy.js` (chrome microcopy). Never edit
-  `website/Bramble Explorer.dc.html` — that file belongs to the Design tool.
+- **Own the words.** All copy the Code tool edits lives in `theory/website/framework-data.js`
+  (cell/region prose) or `theory/website/ui-copy.js` (chrome microcopy). Never edit
+  `theory/website/Bramble Explorer.dc.html` — that file belongs to the Design tool.
+- **Labels come from the Layer Map.** The schema-v2 data (`framework-data.v2.js`) is
+  generated from `theory/framework/layers/Layer_Map.md` by
+  `python3 theory/website/gen_framework_data.py`. Edit the Layer Map and
+  regenerate; never hand-edit the generated file.
 - **Never take a Design bundle's data file.** When integrating a Design handoff,
   copy in *only* `Bramble Explorer.dc.html` (+ `runtime/` if changed). Do NOT
   overwrite `framework-data.js` or `ui-copy.js` from the bundle — doing so is the
   exact regression that reverted Impetus→Boldness (commit e939769).
-- **Build + deploy belong to the Code tool:** `python3 website/build_site.py`
-  then `wrangler pages deploy website/site --project-name trellis-framework --branch main`.
+- **Build + deploy belong to the Code tool:** `python3 theory/website/build_site.py`
+  then `wrangler pages deploy theory/website/site --project-name trellis-framework --branch main`.
 - If a design change needs a new label/key, the Code tool adds it to the data
   file; Design never ships data to supply it.
 

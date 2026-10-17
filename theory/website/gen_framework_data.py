@@ -9,6 +9,7 @@ label sits at the same clade.
 
     python3 theory/website/gen_framework_data.py          # writes framework-data.v2.js
     python3 theory/website/gen_framework_data.py --check  # parse and validate only
+    python3 theory/website/gen_framework_data.py --out ../trellis-site/explorer/framework-data.v2.js
 
 Schema and renderer rules: DESIGN_BRIEF_growing_venn.md.
 """
@@ -370,8 +371,9 @@ def main():
         "// Owned by the Code tool. Edit the Layer Map and regenerate; do not hand-edit.\n"
         "// Schema and renderer rules: DESIGN_BRIEF_growing_venn.md.\n"
     )
-    OUT.write_text(header + "window.BRAMBLE_FRAMEWORK = " + json.dumps(data, indent=1, ensure_ascii=False) + ";\n")
-    print(f"wrote {OUT.relative_to(HERE)}")
+    out = Path(sys.argv[sys.argv.index("--out") + 1]).resolve() if "--out" in sys.argv else OUT
+    out.write_text(header + "window.BRAMBLE_FRAMEWORK = " + json.dumps(data, indent=1, ensure_ascii=False) + ";\n")
+    print(f"wrote {out}")
 
 
 if __name__ == "__main__":
